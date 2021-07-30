@@ -291,7 +291,7 @@ features:
           Using GroupDocs.Metadata for .NET API, manipulating any sort of metadata for supported file formats is pretty straight forward business. Following piece of code demonstrates how easy it is to remove Photoshop metadata from a JPEG file using C#:
 
           ```cs
-          /using (Metadata metadata = new Metadata("sample.jpeg"))
+          using (Metadata metadata = new Metadata("sample.jpeg"))
           {
               var root = metadata.GetRootPackage();
               root.RemoveImageResourcePackage();
