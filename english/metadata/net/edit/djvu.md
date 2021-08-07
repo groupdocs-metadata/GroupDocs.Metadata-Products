@@ -5,11 +5,11 @@ date: 2021-05-20T16:12:12+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "Edit &amp; Update Metadata of TTF Files in C# .NET Applications"
-head_description: "C# .NET metadata editing API to update metadata information of TTF files.Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Edit &amp; Update Metadata of DjVu Files in C# .NET Applications"
+head_description: "C# .NET metadata editing API to update metadata information of DjVu files.Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
 ############################# Header ############################
-title: "Update Metadata of TTF File in C#"
+title: "Update Metadata of DjVu File in C#"
 description: "Update metadata information from all popular documents, images and multimedia file formats with the support of performing all most-needed metadata processing operations."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -58,19 +58,19 @@ about:
     enable: true
     title: "About GroupDocs.Metadata for .NET API"
     content: |
-        [GroupDocs.Metadata for .NET](https://products.groupdocs.com/metadata/net) offers an advanced set of metadata management features, allowing developers to easily read, dcm, delete, find, compare, replace and export metadata information from images and document formats without using any external software. Use metadata manipulation API to edit metadata details from PDF, Microsoft Office Word, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats along with the support for working with many other metadata processing features.
+        [GroupDocs.Metadata for .NET](https://products.groupdocs.com/metadata/net) offers an advanced set of metadata management features, allowing developers to easily read, bmp, delete, find, compare, replace and export metadata information from images and document formats without using any external software. Use metadata manipulation API to edit metadata details from PDF, Microsoft Office Word, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats along with the support for working with many other metadata processing features.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Updating TTF Metadata in C#"
+    title_left: "Steps for Updating DjVu Metadata in C#"
     content_left: |
-        [GroupDocs.Metadata](https://products.groupdocs.com/metadata/net) makes it easy for .NET developers to edit and edit metadata information from TTF files from within their applications by implementing a few easy steps.
+        [GroupDocs.Metadata](https://products.groupdocs.com/metadata/net) makes it easy for .NET developers to edit and edit metadata information from DjVu files from within their applications by implementing a few easy steps.
 
-        *   Load TTF file via an instance of Metadata class.
+        *   Load DjVu file via an instance of Metadata class.
         *   Specify a predicate that will be used to filter desired metadata properties.
         *   Pass the predicate and the new value to the UpdateProperties method.
-        *   Save the changes to disc in DCM format.
+        *   Save the changes to disc in BMP format.
         
     title_right: "System Requirements"
     content_right: |
@@ -83,7 +83,7 @@ steps:
         
     code: |
         ```cs
-        using (var metadata = new GroupDocs.Metadata.Metadata("input.ttf"))
+        using (var metadata = new GroupDocs.Metadata.Metadata("input.djvu"))
         {
         	// set the value of each property that satisfies the predicate:
         	// property contains the date/time the document was created
@@ -93,7 +93,7 @@ steps:
         		p.Value.Type == GroupDocs.Metadata.Common.MetadataPropertyType.DateTime &&
         		p.Value.ToStruct() < DateTime.Today.AddDays(-3), new GroupDocs.Metadata.Common.PropertyValue(DateTime.Today));
         	Console.WriteLine("Properties set: {0}", affected);
-        	metadata.Save("output.ttf");
+        	metadata.Save("output.djvu");
         }
         ```
         
@@ -102,7 +102,7 @@ demos:
     enable: true
     title: "Live Demos to Update Metadata"
     content: |
-        Update metadata information of TTF file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.  
+        Update metadata information of DjVu file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -110,12 +110,12 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-o"
-          title: "About TTF File Format"
+        - icon: "far fa-file-image-o"
+          title: "About DjVu File Format"
           content: |
-            A file with .ttf extension represents font files based on the TrueType specifications font technology. It was initially designed and launched by Apple Computer, Inc for Mac OS and was later adopted by Microsoft for Windows OS. TrueType fonts provide highest quality display on computer screens and printers without any dependency on resolution. All modern applications using fonts are able to work with TTF files. TTF font files are freely available over the internet and can also be converted to other font file formats such as OTF and WOFF.
+            DjVu, pronounced as “déjà vu”, is a graphics file format intended for scanned documents and books especially those which contain the combination of text, drawings, images and photographs. It was developed by AT&T Labs. It uses multiple techniques like image layer separation of text and background images, progressive loading, arithmetic coding and lossy compression for bitonal images. Since DJVU file can contain compressed yet high-quality colour images, photographs, text, and drawings and can be saved in less space therefore, it’s used on web as eBooks, manuals, newspapers, ancient documents, etc. DjVu can be graded superior alternative to PDF. File extensions associated to DjVu are .DJVU or .DJV. DjVu can achieve compression ratios about 5 – 10 better than existing methods such as JPEG & GIF for colour documents and 3 – 8 times better than TIFF in black and white documents. Scanned documents at 300 DPI with full colour upto 25 MB can be compressed down to 30 to 100 KB. Similarly Black and white documents can be compressed upto 5 to 30 KB. Average HTML page can be up to 50 KB, therefore, these documents can be uploaded on net without any problem.
 
-          link: "https://docs.fileformat.com/font/ttf/"
+          link: "https://docs.fileformat.com/image/djvu/"
 
 ############################# More Formats ############################
 more_formats:

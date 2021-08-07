@@ -5,11 +5,11 @@ date: 2021-05-20T16:11:33+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "Java Metadata Editor - Update Metadata of TTF Files in Java"
-head_description: "Cross platform Java metadata editor API to edit and update metadata fields of TTF files.Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Java Metadata Editor - Update Metadata of OTC Files in Java"
+head_description: "Cross platform Java metadata editor API to edit and update metadata fields of OTC files.Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
 ############################# Header ############################
-title: "Update Metadata from TTF File in Java"
+title: "Update Metadata from OTC File in Java"
 description: "Metadata Editor for Java applications – Change metadata fields from all popular documents, images and multimedia file formats using metadata editor API for Java."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -63,11 +63,11 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for TTF Metadata Extraction in Java"
+    title_left: "Steps for OTC Metadata Extraction in Java"
     content_left: |
-        [GroupDocs.Metadata](https://products.groupdocs.com/metadata/java) makes it easy for Java developers to get metadata information from TTF files from within their applications by implementing a few easy steps.
+        [GroupDocs.Metadata](https://products.groupdocs.com/metadata/java) makes it easy for Java developers to get metadata information from OTC files from within their applications by implementing a few easy steps.
 
-        *   Load the TTF file to be updated.
+        *   Load the OTC file to be updated.
         *   Specify a predicate that will be used to filter desired metadata properties.
         *   Specify a value which you want to be assigned to the selected properties.
         *   Pass the predicate and the new value to the UpdateProperties method.
@@ -88,7 +88,7 @@ steps:
         public class UpdatingMetadata {
             public static void run() {
                 Date threeDaysAgo = new Date(System.currentTimeMillis() - TimeUnit.DAYS.toMillis(3));
-                try (Metadata metadata = new Metadata("input.ttf")) {
+                try (Metadata metadata = new Metadata("input.otc")) {
                         // Update the file creation date/time if the existing value is older than 3 days
                         int affected = metadata.updateProperties(new ContainsTagSpecification(Tags.getTime().getCreated()).and(
                                 new OfTypeSpecification(MetadataPropertyType.DateTime)).and(
@@ -96,7 +96,7 @@ steps:
         
                         System.out.println(String.format("Affected properties: %s", affected));
         
-                        metadata.save("output.ttf");
+                        metadata.save("output.otc");
                 }
             }
         
@@ -132,7 +132,7 @@ demos:
     enable: true
     title: "Live Demos of Editing Metadata"
     content: |
-        Update metadata information of TTF file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.  
+        Update metadata information of OTC file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -140,12 +140,12 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-o"
-          title: "About TTF File Format"
+        - icon: "far fa-file-word-o"
+          title: "About OTC File Format"
           content: |
-            A file with .ttf extension represents font files based on the TrueType specifications font technology. It was initially designed and launched by Apple Computer, Inc for Mac OS and was later adopted by Microsoft for Windows OS. TrueType fonts provide highest quality display on computer screens and printers without any dependency on resolution. All modern applications using fonts are able to work with TTF files. TTF font files are freely available over the internet and can also be converted to other font file formats such as OTF and WOFF.
+            A word processing file contains user information in plain text or rich text format. A plain text file format contains unformatted text and no font or page settings etc. can be applied. In contrast, a rich text file format allows formatting options such as setting fonts type, styles (bold, italic, underline, etc.), page margins, headings, bullets and numbers, and several other formatting features. The use of plain text files have reduced significantly with passage of time as there are more powerful computers and programs available to offer rich text files processing.
 
-          link: "https://docs.fileformat.com/font/ttf/"
+          link: "https://docs.fileformat.com/word-processing/"
 
 ############################# More Formats ############################
 more_formats:

@@ -5,11 +5,11 @@ date: 2021-05-20T16:11:33+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "Java Metadata Editor - Update Metadata of TTF Files in Java"
-head_description: "Cross platform Java metadata editor API to edit and update metadata fields of TTF files.Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Java Metadata Editor - Update Metadata of DjVu Files in Java"
+head_description: "Cross platform Java metadata editor API to edit and update metadata fields of DjVu files.Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
 ############################# Header ############################
-title: "Update Metadata from TTF File in Java"
+title: "Update Metadata from DjVu File in Java"
 description: "Metadata Editor for Java applications – Change metadata fields from all popular documents, images and multimedia file formats using metadata editor API for Java."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -63,11 +63,11 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for TTF Metadata Extraction in Java"
+    title_left: "Steps for DjVu Metadata Extraction in Java"
     content_left: |
-        [GroupDocs.Metadata](https://products.groupdocs.com/metadata/java) makes it easy for Java developers to get metadata information from TTF files from within their applications by implementing a few easy steps.
+        [GroupDocs.Metadata](https://products.groupdocs.com/metadata/java) makes it easy for Java developers to get metadata information from DjVu files from within their applications by implementing a few easy steps.
 
-        *   Load the TTF file to be updated.
+        *   Load the DjVu file to be updated.
         *   Specify a predicate that will be used to filter desired metadata properties.
         *   Specify a value which you want to be assigned to the selected properties.
         *   Pass the predicate and the new value to the UpdateProperties method.
@@ -88,7 +88,7 @@ steps:
         public class UpdatingMetadata {
             public static void run() {
                 Date threeDaysAgo = new Date(System.currentTimeMillis() - TimeUnit.DAYS.toMillis(3));
-                try (Metadata metadata = new Metadata("input.ttf")) {
+                try (Metadata metadata = new Metadata("input.djvu")) {
                         // Update the file creation date/time if the existing value is older than 3 days
                         int affected = metadata.updateProperties(new ContainsTagSpecification(Tags.getTime().getCreated()).and(
                                 new OfTypeSpecification(MetadataPropertyType.DateTime)).and(
@@ -96,7 +96,7 @@ steps:
         
                         System.out.println(String.format("Affected properties: %s", affected));
         
-                        metadata.save("output.ttf");
+                        metadata.save("output.djvu");
                 }
             }
         
@@ -132,7 +132,7 @@ demos:
     enable: true
     title: "Live Demos of Editing Metadata"
     content: |
-        Update metadata information of TTF file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.  
+        Update metadata information of DjVu file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -140,12 +140,12 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-o"
-          title: "About TTF File Format"
+        - icon: "far fa-file-image-o"
+          title: "About DjVu File Format"
           content: |
-            A file with .ttf extension represents font files based on the TrueType specifications font technology. It was initially designed and launched by Apple Computer, Inc for Mac OS and was later adopted by Microsoft for Windows OS. TrueType fonts provide highest quality display on computer screens and printers without any dependency on resolution. All modern applications using fonts are able to work with TTF files. TTF font files are freely available over the internet and can also be converted to other font file formats such as OTF and WOFF.
+            DjVu, pronounced as “déjà vu”, is a graphics file format intended for scanned documents and books especially those which contain the combination of text, drawings, images and photographs. It was developed by AT&T Labs. It uses multiple techniques like image layer separation of text and background images, progressive loading, arithmetic coding and lossy compression for bitonal images. Since DJVU file can contain compressed yet high-quality colour images, photographs, text, and drawings and can be saved in less space therefore, it’s used on web as eBooks, manuals, newspapers, ancient documents, etc. DjVu can be graded superior alternative to PDF. File extensions associated to DjVu are .DJVU or .DJV. DjVu can achieve compression ratios about 5 – 10 better than existing methods such as JPEG & GIF for colour documents and 3 – 8 times better than TIFF in black and white documents. Scanned documents at 300 DPI with full colour upto 25 MB can be compressed down to 30 to 100 KB. Similarly Black and white documents can be compressed upto 5 to 30 KB. Average HTML page can be up to 50 KB, therefore, these documents can be uploaded on net without any problem.
 
-          link: "https://docs.fileformat.com/font/ttf/"
+          link: "https://docs.fileformat.com/image/djvu/"
 
 ############################# More Formats ############################
 more_formats:

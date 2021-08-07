@@ -5,11 +5,11 @@ date: 2021-05-20T16:12:30+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "Remove Metadata of DOCX Files in C# .NET Applications"
-head_description: "C# .NET metadata processing API to remove metadata information of DOCX files.Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Remove Metadata of TTF Files in C# .NET Applications"
+head_description: "C# .NET metadata processing API to remove metadata information of TTF files.Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
 ############################# Header ############################
-title: "Remove Metadata from DOCX File in C#"
+title: "Remove Metadata from TTF File in C#"
 description: "Remove metadata information from a variety of documents, images, audio &amp; video file formats using GroupDocs.Metadata for .NET API."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -63,14 +63,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Removing DOCX Metadata in C#"
+    title_left: "Steps for Removing TTF Metadata in C#"
     content_left: |
-        [GroupDocs.Metadata](https://products.groupdocs.com/metadata/net) makes it easy for .NET developers to remove metadata details from DOCX files from within their applications by implementing a few easy steps.
+        [GroupDocs.Metadata](https://products.groupdocs.com/metadata/net) makes it easy for .NET developers to remove metadata details from TTF files from within their applications by implementing a few easy steps.
 
-        *   Load DOCX with an instance of Metadata class.
+        *   Load TTF with an instance of Metadata class.
         *   Use a predicate to find desired metadata properties.
         *   Use Metadata.RemoveProperties method to remove the properties.
-        *   Save the changes back in DOCX format.
+        *   Save the changes back in TTF format.
         
     title_right: "System Requirements"
     content_right: |
@@ -83,7 +83,7 @@ steps:
         
     code: |
         ```cs
-        using (var metadata = new GroupDocs.Metadata.Metadata("input.docx"))
+        using (var metadata = new GroupDocs.Metadata.Metadata("input.ttf"))
         {
         
         		// Remove all mentions of any people contributed in file creation
@@ -92,7 +92,7 @@ steps:
         
         		Console.WriteLine("Affected properties: {0}", affected);
         
-        		metadata.Save("output.docx");
+        		metadata.Save("output.ttf");
         }
         ```
         
@@ -101,7 +101,7 @@ demos:
     enable: true
     title: "Metadata Removal Live Demos"
     content: |
-        Delete metadata information of DOCX file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.  
+        Delete metadata information of TTF file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -109,12 +109,12 @@ about_formats:
     enable: true
     format:
         # format loop
-        - icon: "far fa-file-word-o"
-          title: "About DOCX File Format"
+        - icon: "far fa-file-o"
+          title: "About TTF File Format"
           content: |
-            DOCX is a well-known format for Microsoft Word documents. Introduced from 2007 with the release of Microsoft Office 2007, the structure of this new Document format was changed from plain binary to a combination of XML and binary files. Docx files can be opened with Word 2007 and lateral versions but not with the earlier versions of MS Word which support DOC file extensions.
+            A file with .ttf extension represents font files based on the TrueType specifications font technology. It was initially designed and launched by Apple Computer, Inc for Mac OS and was later adopted by Microsoft for Windows OS. TrueType fonts provide highest quality display on computer screens and printers without any dependency on resolution. All modern applications using fonts are able to work with TTF files. TTF font files are freely available over the internet and can also be converted to other font file formats such as OTF and WOFF.
 
-          link: "https://docs.fileformat.com/word-processing/docx/"
+          link: "https://docs.fileformat.com/font/ttf/"
 
 ############################# More Formats ############################
 more_formats:

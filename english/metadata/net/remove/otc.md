@@ -5,11 +5,11 @@ date: 2021-05-20T16:12:30+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "Remove Metadata of DOCX Files in C# .NET Applications"
-head_description: "C# .NET metadata processing API to remove metadata information of DOCX files.Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Remove Metadata of OTC Files in C# .NET Applications"
+head_description: "C# .NET metadata processing API to remove metadata information of OTC files.Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
 ############################# Header ############################
-title: "Remove Metadata from DOCX File in C#"
+title: "Remove Metadata from OTC File in C#"
 description: "Remove metadata information from a variety of documents, images, audio &amp; video file formats using GroupDocs.Metadata for .NET API."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -63,14 +63,14 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Removing DOCX Metadata in C#"
+    title_left: "Steps for Removing OTC Metadata in C#"
     content_left: |
-        [GroupDocs.Metadata](https://products.groupdocs.com/metadata/net) makes it easy for .NET developers to remove metadata details from DOCX files from within their applications by implementing a few easy steps.
+        [GroupDocs.Metadata](https://products.groupdocs.com/metadata/net) makes it easy for .NET developers to remove metadata details from OTC files from within their applications by implementing a few easy steps.
 
-        *   Load DOCX with an instance of Metadata class.
+        *   Load OTC with an instance of Metadata class.
         *   Use a predicate to find desired metadata properties.
         *   Use Metadata.RemoveProperties method to remove the properties.
-        *   Save the changes back in DOCX format.
+        *   Save the changes back in OTC format.
         
     title_right: "System Requirements"
     content_right: |
@@ -83,7 +83,7 @@ steps:
         
     code: |
         ```cs
-        using (var metadata = new GroupDocs.Metadata.Metadata("input.docx"))
+        using (var metadata = new GroupDocs.Metadata.Metadata("input.otc"))
         {
         
         		// Remove all mentions of any people contributed in file creation
@@ -92,7 +92,7 @@ steps:
         
         		Console.WriteLine("Affected properties: {0}", affected);
         
-        		metadata.Save("output.docx");
+        		metadata.Save("output.otc");
         }
         ```
         
@@ -101,7 +101,7 @@ demos:
     enable: true
     title: "Metadata Removal Live Demos"
     content: |
-        Delete metadata information of DOCX file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.  
+        Delete metadata information of OTC file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.  
         The live demo has the following benefits
         
 ############################# About Formats ############################
@@ -110,11 +110,11 @@ about_formats:
     format:
         # format loop
         - icon: "far fa-file-word-o"
-          title: "About DOCX File Format"
+          title: "About OTC File Format"
           content: |
-            DOCX is a well-known format for Microsoft Word documents. Introduced from 2007 with the release of Microsoft Office 2007, the structure of this new Document format was changed from plain binary to a combination of XML and binary files. Docx files can be opened with Word 2007 and lateral versions but not with the earlier versions of MS Word which support DOC file extensions.
+            A word processing file contains user information in plain text or rich text format. A plain text file format contains unformatted text and no font or page settings etc. can be applied. In contrast, a rich text file format allows formatting options such as setting fonts type, styles (bold, italic, underline, etc.), page margins, headings, bullets and numbers, and several other formatting features. The use of plain text files have reduced significantly with passage of time as there are more powerful computers and programs available to offer rich text files processing.
 
-          link: "https://docs.fileformat.com/word-processing/docx/"
+          link: "https://docs.fileformat.com/word-processing/"
 
 ############################# More Formats ############################
 more_formats:
