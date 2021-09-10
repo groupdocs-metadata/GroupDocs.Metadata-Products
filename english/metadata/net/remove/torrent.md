@@ -114,7 +114,7 @@ about_formats:
           content: |
             {{torrent}}
 
-          link: "/{{torrent_url}}"
+          link: "/{{torrent_url}}/"
 
 ############################# More Formats ############################
 more_formats:

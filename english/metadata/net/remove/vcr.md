@@ -114,7 +114,7 @@ about_formats:
           content: |
             {{vcr}}
 
-          link: "/{{vcr_url}}"
+          link: "/{{vcr_url}}/"
 
 ############################# More Formats ############################
 more_formats:

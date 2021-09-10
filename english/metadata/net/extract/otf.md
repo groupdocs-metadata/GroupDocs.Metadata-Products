@@ -139,7 +139,7 @@ about_formats:
           content: |
             {{otf}}
 
-          link: "/{{otf_url}}"
+          link: "/{{otf_url}}/"
 
 ############################# More Formats ############################
 more_formats:

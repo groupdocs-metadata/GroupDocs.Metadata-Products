@@ -323,7 +323,7 @@ solutions:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-metadata-java.png"
           product: "GroupDocs.Metadata"
           platform: "Java"
-          link: "/metadata/java"
+          link: "/metadata/java/"
 
 ############################# Back to top ###############################
 back_to_top:

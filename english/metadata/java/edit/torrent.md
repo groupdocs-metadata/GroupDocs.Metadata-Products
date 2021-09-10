@@ -145,7 +145,7 @@ about_formats:
           content: |
             {{torrent}}
 
-          link: "/{{torrent_url}}"
+          link: "/{{torrent_url}}/"
 
 ############################# More Formats ############################
 more_formats:
@@ -156,247 +156,247 @@ more_formats:
     format: 
         # format loop
         - name: "Update PDF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/pdf"
+          link: "https://products.groupdocs.com/metadata/java/edit/pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop
         - name: "Update DOC Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/doc"
+          link: "https://products.groupdocs.com/metadata/java/edit/doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Update DOCM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/docm"
+          link: "https://products.groupdocs.com/metadata/java/edit/docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "Update DOCX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/docx"
+          link: "https://products.groupdocs.com/metadata/java/edit/docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "Update DOT Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/dot"
+          link: "https://products.groupdocs.com/metadata/java/edit/dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "Update DOTX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/dotx"
+          link: "https://products.groupdocs.com/metadata/java/edit/dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "Update XLS Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/xls"
+          link: "https://products.groupdocs.com/metadata/java/edit/xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "Update XLSX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/xlsx"
+          link: "https://products.groupdocs.com/metadata/java/edit/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "Update XLSM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/xlsm"
+          link: "https://products.groupdocs.com/metadata/java/edit/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Update XLTM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/xltx"
+          link: "https://products.groupdocs.com/metadata/java/edit/xltx/"
           description: "OOXML Macro Enabled Workbook Template"
 
         # format loop
         - name: "Update PPT Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/ppt"
+          link: "https://products.groupdocs.com/metadata/java/edit/ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "Update PPS Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/pps"
+          link: "https://products.groupdocs.com/metadata/java/edit/pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "Update PPTX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/pptx"
+          link: "https://products.groupdocs.com/metadata/java/edit/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "Update PPSX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/ppsx"
+          link: "https://products.groupdocs.com/metadata/java/edit/ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "Update POTX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/potx"
+          link: "https://products.groupdocs.com/metadata/java/edit/potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "Update POTM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/potm"
+          link: "https://products.groupdocs.com/metadata/java/edit/potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "Update PPTM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/pptm"
+          link: "https://products.groupdocs.com/metadata/java/edit/pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "Update PPSM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/ppsm"
+          link: "https://products.groupdocs.com/metadata/java/edit/ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "Update ODS Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/ods"
+          link: "https://products.groupdocs.com/metadata/java/edit/ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "Update ODT Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/odt"
+          link: "https://products.groupdocs.com/metadata/java/edit/odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "Update TIFF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/tiff"
+          link: "https://products.groupdocs.com/metadata/java/edit/tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "Update JPEG Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/jpeg"
+          link: "https://products.groupdocs.com/metadata/java/edit/jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "Update PNG Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/png"
+          link: "https://products.groupdocs.com/metadata/java/edit/png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "Update GIF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/gif"
+          link: "https://products.groupdocs.com/metadata/java/edit/gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "Update BMP Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/bmp"
+          link: "https://products.groupdocs.com/metadata/java/edit/bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "Update JP2 Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/jp2"
+          link: "https://products.groupdocs.com/metadata/java/edit/jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "Update WEBP Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/webp"
+          link: "https://products.groupdocs.com/metadata/java/edit/webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "Update PSD Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/psd"
+          link: "https://products.groupdocs.com/metadata/java/edit/psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "Update WMF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/wmf"
+          link: "https://products.groupdocs.com/metadata/java/edit/wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "Update EMF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/emf"
+          link: "https://products.groupdocs.com/metadata/java/edit/emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "Update MPP Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/emz"
+          link: "https://products.groupdocs.com/metadata/java/edit/emz/"
           description: "Microsoft Project Document"
 
         # format loop
         - name: "Update MSG Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/msg"
+          link: "https://products.groupdocs.com/metadata/java/edit/msg/"
           description: "Microsoft Outlook E-mail Message"
 
         # format loop
         - name: "Update EML Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/eml"
+          link: "https://products.groupdocs.com/metadata/java/edit/eml/"
           description: "E-mail Message"
 
         # format loop
         - name: "Update DWG Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/dwg"
+          link: "https://products.groupdocs.com/metadata/java/edit/dwg/"
           description: "Autodesk Design Data Formats"
 
         # format loop
         - name: "Update DXF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/dxf"
+          link: "https://products.groupdocs.com/metadata/java/edit/dxf/"
           description: "AutoCAD Drawing Interchange"
 
         # format loop
         - name: "Update ONE Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/one"
+          link: "https://products.groupdocs.com/metadata/java/edit/one/"
           description: "Microsoft OneNote"
 
         # format loop
         - name: "Update MP3 Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/mp3"
+          link: "https://products.groupdocs.com/metadata/java/edit/mp3/"
           description: "MPEG Audio Layer III"
 
         # format loop
         - name: "Update WAV Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/wav"
+          link: "https://products.groupdocs.com/metadata/java/edit/wav/"
           description: "Waveform Audio File Format"
 
         # format loop
         - name: "Update DICOM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/dicom"
+          link: "https://products.groupdocs.com/metadata/java/edit/dicom/"
           description: "Digital Imaging &amp; Comm in Medicine"
 
         # format loop
         - name: "Update AVI Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/avi"
+          link: "https://products.groupdocs.com/metadata/java/edit/avi/"
           description: "Audio Video Interleave File"
 
         # format loop
         - name: "Update VSD Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/vsd"
+          link: "https://products.groupdocs.com/metadata/java/edit/vsd/"
           description: "Microsoft Visio 2003-2010 Drawing"
 
         # format loop
         - name: "Update VSDX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/vsdx"
+          link: "https://products.groupdocs.com/metadata/java/edit/vsdx/"
           description: "Microsoft Visio Drawing"
 
         # format loop
         - name: "Update VSS Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/vss"
+          link: "https://products.groupdocs.com/metadata/java/edit/vss/"
           description: "Microsoft Visio 2003-2010 Stencil"
 
         # format loop
         - name: "Update VDX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/vdx"
+          link: "https://products.groupdocs.com/metadata/java/edit/vdx/"
           description: "Microsoft Visio 2003-2010 XML Drawing"
 
         # format loop
         - name: "Update VSX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/vsx"
+          link: "https://products.groupdocs.com/metadata/java/edit/vsx/"
           description: "Microsoft Visio 2003-2010 XML Stencil"
 
         # format loop
         - name: "Update ZIP Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/zip"
+          link: "https://products.groupdocs.com/metadata/java/edit/zip/"
           description: "Archive File Format"
 
         # format loop
         - name: "Update EPUB Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/epub"
+          link: "https://products.groupdocs.com/metadata/java/edit/epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "Update VCF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/vcf"
+          link: "https://products.groupdocs.com/metadata/java/edit/vcf/"
           description: "Electronic Business Card"
 
         # format loop
         - name: "Update VCR Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/vcr"
+          link: "https://products.groupdocs.com/metadata/java/edit/vcr/"
           description: "vCard"
 
 

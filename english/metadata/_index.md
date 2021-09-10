@@ -19,11 +19,11 @@ apis:
   api:
     # api loop
     - title: "GroupDocs.Metadata On Premise APIs Include"
-      link: "/metadata"
+      link: "/metadata/"
       label: "View All On Premise APIs"
       api_product:
         # api_product loop
-        - link: "/metadata/net"
+        - link: "/metadata/net/"
           img_alt: "GroupDocs.Metadata for .NET"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-metadata-net.png"
           product: "GroupDocs.Metadata for"
@@ -31,7 +31,7 @@ apis:
           content: "Native .NET API to dynamically read, write, edit and remove meta information from Microsoft Office, PDF, Multimedia, images and various other file formats."
 
         # api_product loop
-        - link: "/metadata/java"
+        - link: "/metadata/java/"
           img_alt: "GroupDocs.Metadata for Java"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-metadata-java.png"
           product: "GroupDocs.Metadata for"

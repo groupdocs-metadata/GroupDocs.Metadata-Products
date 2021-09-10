@@ -139,7 +139,7 @@ about_formats:
           content: |
             {{mkv}}
 
-          link: "/{{mkv_url}}"
+          link: "/{{mkv_url}}/"
 
 ############################# More Formats ############################
 more_formats:

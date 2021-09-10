@@ -113,7 +113,7 @@ about_formats:
           content: |
             {{flv}}
 
-          link: "/{{flv_url}}"
+          link: "/{{flv_url}}/"
 
 ############################# More Formats ############################
 more_formats:

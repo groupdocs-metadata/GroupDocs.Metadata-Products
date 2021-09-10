@@ -330,7 +330,7 @@ solutions:
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-metadata-net.png"
           product: "GroupDocs.Metadata"
           platform: ".NET"
-          link: "/metadata/net"
+          link: "/metadata/net/"
 
 ############################# Back to top ###############################
 back_to_top:

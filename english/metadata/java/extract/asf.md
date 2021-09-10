@@ -114,7 +114,7 @@ about_formats:
           content: |
             {{asf}}
 
-          link: "/{{asf_url}}"
+          link: "/{{asf_url}}/"
 
 ############################# More Formats ############################
 more_formats:

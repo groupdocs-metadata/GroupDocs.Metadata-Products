@@ -114,7 +114,7 @@ about_formats:
           content: |
             {{heic}}
 
-          link: "/{{heic_url}}"
+          link: "/{{heic_url}}/"
 
 ############################# More Formats ############################
 more_formats:

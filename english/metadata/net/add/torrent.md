@@ -113,7 +113,7 @@ about_formats:
           content: |
             {{torrent}}
 
-          link: "/{{torrent_url}}"
+          link: "/{{torrent_url}}/"
 
 ############################# More Formats ############################
 more_formats:
@@ -124,237 +124,237 @@ more_formats:
     format: 
         # format loop
         - name: "Add Metadata to PDF"
-          link: "https://products.groupdocs.com/metadata/net/add/pdf"
+          link: "https://products.groupdocs.com/metadata/net/add/pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop
         - name: "Add Metadata to DOC"
-          link: "https://products.groupdocs.com/metadata/net/add/doc"
+          link: "https://products.groupdocs.com/metadata/net/add/doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Add Metadata to DOCM"
-          link: "https://products.groupdocs.com/metadata/net/add/docm"
+          link: "https://products.groupdocs.com/metadata/net/add/docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "Add Metadata to DOCX"
-          link: "https://products.groupdocs.com/metadata/net/add/docx"
+          link: "https://products.groupdocs.com/metadata/net/add/docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "Add Metadata to DOT"
-          link: "https://products.groupdocs.com/metadata/net/add/dot"
+          link: "https://products.groupdocs.com/metadata/net/add/dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "Add Metadata to DOTX"
-          link: "https://products.groupdocs.com/metadata/net/add/dotx"
+          link: "https://products.groupdocs.com/metadata/net/add/dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "Add Metadata to XLS"
-          link: "https://products.groupdocs.com/metadata/net/add/xls"
+          link: "https://products.groupdocs.com/metadata/net/add/xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "Add Metadata to XLSX"
-          link: "https://products.groupdocs.com/metadata/net/add/xlsx"
+          link: "https://products.groupdocs.com/metadata/net/add/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "Add Metadata to XLSM"
-          link: "https://products.groupdocs.com/metadata/net/add/xlsm"
+          link: "https://products.groupdocs.com/metadata/net/add/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Add Metadata to XLTM"
-          link: "https://products.groupdocs.com/metadata/net/add/xltm"
+          link: "https://products.groupdocs.com/metadata/net/add/xltm/"
           description: "OOXML Macro Enabled Workbook Template"
 
         # format loop
         - name: "Add Metadata to PPT"
-          link: "https://products.groupdocs.com/metadata/net/add/ppt"
+          link: "https://products.groupdocs.com/metadata/net/add/ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "Add Metadata to PPS"
-          link: "https://products.groupdocs.com/metadata/net/add/pps"
+          link: "https://products.groupdocs.com/metadata/net/add/pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "Add Metadata to PPTX"
-          link: "https://products.groupdocs.com/metadata/net/add/pptx"
+          link: "https://products.groupdocs.com/metadata/net/add/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "Add Metadata to PPSX"
-          link: "https://products.groupdocs.com/metadata/net/add/ppsx"
+          link: "https://products.groupdocs.com/metadata/net/add/ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "Add Metadata to POTX"
-          link: "https://products.groupdocs.com/metadata/net/add/potx"
+          link: "https://products.groupdocs.com/metadata/net/add/potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "Add Metadata to POTM"
-          link: "https://products.groupdocs.com/metadata/net/add/potm"
+          link: "https://products.groupdocs.com/metadata/net/add/potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "Add Metadata to PPTM"
-          link: "https://products.groupdocs.com/metadata/net/add/pptm"
+          link: "https://products.groupdocs.com/metadata/net/add/pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "Add Metadata to PPSM"
-          link: "https://products.groupdocs.com/metadata/net/add/ppsm"
+          link: "https://products.groupdocs.com/metadata/net/add/ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "Add Metadata to ODS"
-          link: "https://products.groupdocs.com/metadata/net/add/ods"
+          link: "https://products.groupdocs.com/metadata/net/add/ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "Add Metadata to ODT"
-          link: "https://products.groupdocs.com/metadata/net/add/odt"
+          link: "https://products.groupdocs.com/metadata/net/add/odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "Add Metadata to TIFF"
-          link: "https://products.groupdocs.com/metadata/net/add/tiff"
+          link: "https://products.groupdocs.com/metadata/net/add/tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "Add Metadata to JPEG"
-          link: "https://products.groupdocs.com/metadata/net/add/jpeg"
+          link: "https://products.groupdocs.com/metadata/net/add/jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "Add Metadata to PNG"
-          link: "https://products.groupdocs.com/metadata/net/add/png"
+          link: "https://products.groupdocs.com/metadata/net/add/png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "Add Metadata to GIF"
-          link: "https://products.groupdocs.com/metadata/net/add/gif"
+          link: "https://products.groupdocs.com/metadata/net/add/gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "Add Metadata to BMP"
-          link: "https://products.groupdocs.com/metadata/net/add/bmp"
+          link: "https://products.groupdocs.com/metadata/net/add/bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "Add Metadata to JP2"
-          link: "https://products.groupdocs.com/metadata/net/add/jp2"
+          link: "https://products.groupdocs.com/metadata/net/add/jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "Add Metadata to WEBP"
-          link: "https://products.groupdocs.com/metadata/net/add/webp"
+          link: "https://products.groupdocs.com/metadata/net/add/webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "Add Metadata to PSD"
-          link: "https://products.groupdocs.com/metadata/net/add/psd"
+          link: "https://products.groupdocs.com/metadata/net/add/psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "Add Metadata to WMF"
-          link: "https://products.groupdocs.com/metadata/net/add/wmf"
+          link: "https://products.groupdocs.com/metadata/net/add/wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "Add Metadata to EMF"
-          link: "https://products.groupdocs.com/metadata/net/add/emf"
+          link: "https://products.groupdocs.com/metadata/net/add/emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "Add Metadata to MPP"
-          link: "https://products.groupdocs.com/metadata/net/add/mpp"
+          link: "https://products.groupdocs.com/metadata/net/add/mpp/"
           description: "Microsoft Project Document"
 
         # format loop
         - name: "Add Metadata to MSG"
-          link: "https://products.groupdocs.com/metadata/net/add/msg"
+          link: "https://products.groupdocs.com/metadata/net/add/msg/"
           description: "Microsoft Outlook E-mail Message"
 
         # format loop
         - name: "Add Metadata to EML"
-          link: "https://products.groupdocs.com/metadata/net/add/eml"
+          link: "https://products.groupdocs.com/metadata/net/add/eml/"
           description: "E-mail Message"
 
         # format loop
         - name: "Add Metadata to DWG"
-          link: "https://products.groupdocs.com/metadata/net/add/dwg"
+          link: "https://products.groupdocs.com/metadata/net/add/dwg/"
           description: "Autodesk Design Data Formats"
 
         # format loop
         - name: "Add Metadata to DXF"
-          link: "https://products.groupdocs.com/metadata/net/add/dxf"
+          link: "https://products.groupdocs.com/metadata/net/add/dxf/"
           description: "AutoCAD Drawing Interchange"
 
         # format loop
         - name: "Add Metadata to ONE"
-          link: "https://products.groupdocs.com/metadata/net/add/one"
+          link: "https://products.groupdocs.com/metadata/net/add/one/"
           description: "Microsoft OneNote"
 
         # format loop
         - name: "Add Metadata to MP3"
-          link: "https://products.groupdocs.com/metadata/net/add/mp3"
+          link: "https://products.groupdocs.com/metadata/net/add/mp3/"
           description: "MPEG Audio Layer III"
 
         # format loop
         - name: "Add Metadata to WAV"
-          link: "https://products.groupdocs.com/metadata/net/add/wav"
+          link: "https://products.groupdocs.com/metadata/net/add/wav/"
           description: "Waveform Audio File Format"
 
         # format loop
         - name: "Add Metadata to DICOM"
-          link: "https://products.groupdocs.com/metadata/net/add/dicom"
+          link: "https://products.groupdocs.com/metadata/net/add/dicom/"
           description: "Digital Imaging &amp; Comm in Medicine"
 
         # format loop
         - name: "Add Metadata to AVI"
-          link: "https://products.groupdocs.com/metadata/net/add/avi"
+          link: "https://products.groupdocs.com/metadata/net/add/avi/"
           description: "Audio Video Interleave File"
 
         # format loop
         - name: "Add Metadata to VSD"
-          link: "https://products.groupdocs.com/metadata/net/add/vsd"
+          link: "https://products.groupdocs.com/metadata/net/add/vsd/"
           description: "Microsoft Visio 2003-2010 Drawing"
 
         # format loop
         - name: "Add Metadata to VSDX"
-          link: "https://products.groupdocs.com/metadata/net/add/vsdx"
+          link: "https://products.groupdocs.com/metadata/net/add/vsdx/"
           description: "Microsoft Visio Drawing"
 
         # format loop
         - name: "Add Metadata to VSS"
-          link: "https://products.groupdocs.com/metadata/net/add/vss"
+          link: "https://products.groupdocs.com/metadata/net/add/vss/"
           description: "Microsoft Visio 2003-2010 Stencil"
 
         # format loop
         - name: "Add Metadata to VDX"
-          link: "https://products.groupdocs.com/metadata/net/add/vdx"
+          link: "https://products.groupdocs.com/metadata/net/add/vdx/"
           description: "Microsoft Visio 2003-2010 XML Drawing"
 
         # format loop
         - name: "Add Metadata to VSX"
-          link: "https://products.groupdocs.com/metadata/net/add/vsx"
+          link: "https://products.groupdocs.com/metadata/net/add/vsx/"
           description: "Microsoft Visio 2003-2010 XML Stencil"
 
         # format loop
         - name: "Add Metadata to ZIP"
-          link: "https://products.groupdocs.com/metadata/net/add/zip"
+          link: "https://products.groupdocs.com/metadata/net/add/zip/"
           description: "Archive File Format"
 
         # format loop
         - name: "Add Metadata to EPUB"
-          link: "https://products.groupdocs.com/metadata/net/add/epub"
+          link: "https://products.groupdocs.com/metadata/net/add/epub/"
           description: "Digital E-Book File Format"
 
 

@@ -115,7 +115,7 @@ about_formats:
           content: |
             {{heif}}
 
-          link: "/{{heif_url}}"
+          link: "/{{heif_url}}/"
 
 ############################# More Formats ############################
 more_formats:
