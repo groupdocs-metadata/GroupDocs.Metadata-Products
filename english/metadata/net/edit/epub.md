@@ -126,247 +126,247 @@ more_formats:
     format: 
         # format loop
         - name: "Update PDF Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/pdf"
+          link: "https://products.groupdocs.com/metadata/net/edit/pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop
         - name: "Update DOC Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/doc"
+          link: "https://products.groupdocs.com/metadata/net/edit/doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Update DOCM Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/docm"
+          link: "https://products.groupdocs.com/metadata/net/edit/docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "Update DOCX Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/docx"
+          link: "https://products.groupdocs.com/metadata/net/edit/docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "Update DOT Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/dot"
+          link: "https://products.groupdocs.com/metadata/net/edit/dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "Update DOTX Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/dotx"
+          link: "https://products.groupdocs.com/metadata/net/edit/dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "Update XLS Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/xls"
+          link: "https://products.groupdocs.com/metadata/net/edit/xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "Update XLSX Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/xlsx"
+          link: "https://products.groupdocs.com/metadata/net/edit/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "Update XLSM Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/xlsm"
+          link: "https://products.groupdocs.com/metadata/net/edit/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Update XLTM Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/xltm"
+          link: "https://products.groupdocs.com/metadata/net/edit/xltm/"
           description: "OOXML Macro Enabled Workbook Template"
 
         # format loop
         - name: "Update PPT Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/ppt"
+          link: "https://products.groupdocs.com/metadata/net/edit/ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "Update PPS Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/pps"
+          link: "https://products.groupdocs.com/metadata/net/edit/pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "Update PPTX Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/pptx"
+          link: "https://products.groupdocs.com/metadata/net/edit/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "Update PPSX Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/ppsx"
+          link: "https://products.groupdocs.com/metadata/net/edit/ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "Update POTX Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/potx"
+          link: "https://products.groupdocs.com/metadata/net/edit/potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "Update POTM Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/potm"
+          link: "https://products.groupdocs.com/metadata/net/edit/potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "Update PPTM Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/pptm"
+          link: "https://products.groupdocs.com/metadata/net/edit/pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "Update PPSM Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/ppsm"
+          link: "https://products.groupdocs.com/metadata/net/edit/ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "Update ODS Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/ods"
+          link: "https://products.groupdocs.com/metadata/net/edit/ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "Update ODT Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/odt"
+          link: "https://products.groupdocs.com/metadata/net/edit/odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "Update TIFF Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/tiff"
+          link: "https://products.groupdocs.com/metadata/net/edit/tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "Update JPEG Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/jpeg"
+          link: "https://products.groupdocs.com/metadata/net/edit/jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "Update PNG Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/png"
+          link: "https://products.groupdocs.com/metadata/net/edit/png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "Update GIF Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/gif"
+          link: "https://products.groupdocs.com/metadata/net/edit/gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "Update BMP Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/bmp"
+          link: "https://products.groupdocs.com/metadata/net/edit/bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "Update JP2 Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/jp2"
+          link: "https://products.groupdocs.com/metadata/net/edit/jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "Update WEBP Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/webp"
+          link: "https://products.groupdocs.com/metadata/net/edit/webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "Update PSD Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/psd"
+          link: "https://products.groupdocs.com/metadata/net/edit/psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "Update WMF Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/wmf"
+          link: "https://products.groupdocs.com/metadata/net/edit/wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "Update EMF Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/emf"
+          link: "https://products.groupdocs.com/metadata/net/edit/emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "Update MPP Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/mpp"
+          link: "https://products.groupdocs.com/metadata/net/edit/mpp/"
           description: "Microsoft Project Document"
 
         # format loop
         - name: "Update MSG Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/msg"
+          link: "https://products.groupdocs.com/metadata/net/edit/msg/"
           description: "Microsoft Outlook E-mail Message"
 
         # format loop
         - name: "Update EML Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/eml"
+          link: "https://products.groupdocs.com/metadata/net/edit/eml/"
           description: "E-mail Message"
 
         # format loop
         - name: "Update DWG Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/dwg"
+          link: "https://products.groupdocs.com/metadata/net/edit/dwg/"
           description: "Autodesk Design Data Formats"
 
         # format loop
         - name: "Update DXF Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/dxf"
+          link: "https://products.groupdocs.com/metadata/net/edit/dxf/"
           description: "AutoCAD Drawing Interchange"
 
         # format loop
         - name: "Update ONE Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/one"
+          link: "https://products.groupdocs.com/metadata/net/edit/one/"
           description: "Microsoft OneNote"
 
         # format loop
         - name: "Update MP3 Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/mp3"
+          link: "https://products.groupdocs.com/metadata/net/edit/mp3/"
           description: "MPEG Audio Layer III"
 
         # format loop
         - name: "Update WAV Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/wav"
+          link: "https://products.groupdocs.com/metadata/net/edit/wav/"
           description: "Waveform Audio File Format"
 
         # format loop
         - name: "Update DICOM Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/dicom"
+          link: "https://products.groupdocs.com/metadata/net/edit/dicom/"
           description: "Digital Imaging &amp; Comm in Medicine"
 
         # format loop
         - name: "Update AVI Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/avi"
+          link: "https://products.groupdocs.com/metadata/net/edit/avi/"
           description: "Audio Video Interleave File"
 
         # format loop
         - name: "Update VSD Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/vsd"
+          link: "https://products.groupdocs.com/metadata/net/edit/vsd/"
           description: "Microsoft Visio 2003-2010 Drawing"
 
         # format loop
         - name: "Update VSDX Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/vsdx"
+          link: "https://products.groupdocs.com/metadata/net/edit/vsdx/"
           description: "Microsoft Visio Drawing"
 
         # format loop
         - name: "Update VSS Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/vss"
+          link: "https://products.groupdocs.com/metadata/net/edit/vss/"
           description: "Microsoft Visio 2003-2010 Stencil"
 
         # format loop
         - name: "Update VDX Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/vdx"
+          link: "https://products.groupdocs.com/metadata/net/edit/vdx/"
           description: "Microsoft Visio 2003-2010 XML Drawing"
 
         # format loop
         - name: "Update VSX Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/vsx"
+          link: "https://products.groupdocs.com/metadata/net/edit/vsx/"
           description: "Microsoft Visio 2003-2010 XML Stencil"
 
         # format loop
         - name: "Update ZIP Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/zip"
+          link: "https://products.groupdocs.com/metadata/net/edit/zip/"
           description: "Archive File Format"
 
         # format loop
         - name: "Update EPUB Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/epub"
+          link: "https://products.groupdocs.com/metadata/net/edit/epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "Update VCF Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/vcf"
+          link: "https://products.groupdocs.com/metadata/net/edit/vcf/"
           description: "Electronic Business Card"
 
         # format loop
         - name: "Update VCR Metadata"
-          link: "https://products.groupdocs.com/metadata/net/edit/vcr"
+          link: "https://products.groupdocs.com/metadata/net/edit/vcr/"
           description: "vCard"
 
 

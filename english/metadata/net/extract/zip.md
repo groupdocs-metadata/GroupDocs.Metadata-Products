@@ -150,247 +150,247 @@ more_formats:
     format: 
         # format loop
         - name: "Extract PDF Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/pdf"
+          link: "https://products.groupdocs.com/metadata/net/extract/pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop
         - name: "Extract DOC Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/doc"
+          link: "https://products.groupdocs.com/metadata/net/extract/doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Extract DOCM Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/docm"
+          link: "https://products.groupdocs.com/metadata/net/extract/docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "Extract DOCX Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/docx"
+          link: "https://products.groupdocs.com/metadata/net/extract/docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "Extract DOT Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/dot"
+          link: "https://products.groupdocs.com/metadata/net/extract/dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "Extract DOTX Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/dotx"
+          link: "https://products.groupdocs.com/metadata/net/extract/dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "Extract XLS Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/xls"
+          link: "https://products.groupdocs.com/metadata/net/extract/xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "Extract XLSX Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/xlsx"
+          link: "https://products.groupdocs.com/metadata/net/extract/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "Extract XLSM Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/xlsm"
+          link: "https://products.groupdocs.com/metadata/net/extract/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Extract XLTM Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/xltx"
+          link: "https://products.groupdocs.com/metadata/net/extract/xltx/"
           description: "OOXML Macro Enabled Workbook Template"
 
         # format loop
         - name: "Extract PPT Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/ppt"
+          link: "https://products.groupdocs.com/metadata/net/extract/ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "Extract PPS Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/pps"
+          link: "https://products.groupdocs.com/metadata/net/extract/pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "Extract PPTX Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/pptx"
+          link: "https://products.groupdocs.com/metadata/net/extract/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "Extract PPSX Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/ppsx"
+          link: "https://products.groupdocs.com/metadata/net/extract/ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "Extract POTX Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/potx"
+          link: "https://products.groupdocs.com/metadata/net/extract/potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "Extract POTM Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/potm"
+          link: "https://products.groupdocs.com/metadata/net/extract/potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "Extract PPTM Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/pptm"
+          link: "https://products.groupdocs.com/metadata/net/extract/pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "Extract PPSM Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/ppsm"
+          link: "https://products.groupdocs.com/metadata/net/extract/ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "Extract ODS Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/ods"
+          link: "https://products.groupdocs.com/metadata/net/extract/ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "Extract ODT Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/odt"
+          link: "https://products.groupdocs.com/metadata/net/extract/odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "Extract TIFF Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/tiff"
+          link: "https://products.groupdocs.com/metadata/net/extract/tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "Extract JPEG Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/jpeg"
+          link: "https://products.groupdocs.com/metadata/net/extract/jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "Extract PNG Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/png"
+          link: "https://products.groupdocs.com/metadata/net/extract/png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "Extract GIF Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/gif"
+          link: "https://products.groupdocs.com/metadata/net/extract/gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "Extract BMP Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/bmp"
+          link: "https://products.groupdocs.com/metadata/net/extract/bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "Extract JP2 Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/jp2"
+          link: "https://products.groupdocs.com/metadata/net/extract/jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "Extract WEBP Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/webp"
+          link: "https://products.groupdocs.com/metadata/net/extract/webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "Extract PSD Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/psd"
+          link: "https://products.groupdocs.com/metadata/net/extract/psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "Extract WMF Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/wmf"
+          link: "https://products.groupdocs.com/metadata/net/extract/wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "Extract EMF Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/emf"
+          link: "https://products.groupdocs.com/metadata/net/extract/emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "Extract MPP Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/emz"
+          link: "https://products.groupdocs.com/metadata/net/extract/emz/"
           description: "Microsoft Project Document"
 
         # format loop
         - name: "Extract MSG Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/msg"
+          link: "https://products.groupdocs.com/metadata/net/extract/msg/"
           description: "Microsoft Outlook E-mail Message"
 
         # format loop
         - name: "Extract EML Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/eml"
+          link: "https://products.groupdocs.com/metadata/net/extract/eml/"
           description: "E-mail Message"
 
         # format loop
         - name: "Extract DWG Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/dwg"
+          link: "https://products.groupdocs.com/metadata/net/extract/dwg/"
           description: "Autodesk Design Data Formats"
 
         # format loop
         - name: "Extract DXF Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/dxf"
+          link: "https://products.groupdocs.com/metadata/net/extract/dxf/"
           description: "AutoCAD Drawing Interchange"
 
         # format loop
         - name: "Extract ONE Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/one"
+          link: "https://products.groupdocs.com/metadata/net/extract/one/"
           description: "Microsoft OneNote"
 
         # format loop
         - name: "Extract MP3 Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/mp3"
+          link: "https://products.groupdocs.com/metadata/net/extract/mp3/"
           description: "MPEG Audio Layer III"
 
         # format loop
         - name: "Extract WAV Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/wav"
+          link: "https://products.groupdocs.com/metadata/net/extract/wav/"
           description: "Waveform Audio File Format"
 
         # format loop
         - name: "Extract DICOM Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/dicom"
+          link: "https://products.groupdocs.com/metadata/net/extract/dicom/"
           description: "Digital Imaging &amp; Comm in Medicine"
 
         # format loop
         - name: "Extract AVI Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/avi"
+          link: "https://products.groupdocs.com/metadata/net/extract/avi/"
           description: "Audio Video Interleave File"
 
         # format loop
         - name: "Extract VSD Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/vsd"
+          link: "https://products.groupdocs.com/metadata/net/extract/vsd/"
           description: "Microsoft Visio 2003-2010 Drawing"
 
         # format loop
         - name: "Extract VSDX Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/vsdx"
+          link: "https://products.groupdocs.com/metadata/net/extract/vsdx/"
           description: "Microsoft Visio Drawing"
 
         # format loop
         - name: "Extract VSS Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/vss"
+          link: "https://products.groupdocs.com/metadata/net/extract/vss/"
           description: "Microsoft Visio 2003-2010 Stencil"
 
         # format loop
         - name: "Extract VDX Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/vdx"
+          link: "https://products.groupdocs.com/metadata/net/extract/vdx/"
           description: "Microsoft Visio 2003-2010 XML Drawing"
 
         # format loop
         - name: "Extract VSX Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/vsx"
+          link: "https://products.groupdocs.com/metadata/net/extract/vsx/"
           description: "Microsoft Visio 2003-2010 XML Stencil"
 
         # format loop
         - name: "Extract ZIP Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/zip"
+          link: "https://products.groupdocs.com/metadata/net/extract/zip/"
           description: "Archive File Format"
 
         # format loop
         - name: "Extract EPUB Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/epub"
+          link: "https://products.groupdocs.com/metadata/net/extract/epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "Extract VCF Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/vcf"
+          link: "https://products.groupdocs.com/metadata/net/extract/vcf/"
           description: "Electronic Business Card"
 
         # format loop
         - name: "Extract VCR Metadata"
-          link: "https://products.groupdocs.com/metadata/net/extract/vcr"
+          link: "https://products.groupdocs.com/metadata/net/extract/vcr/"
           description: "vCard"
 
 
