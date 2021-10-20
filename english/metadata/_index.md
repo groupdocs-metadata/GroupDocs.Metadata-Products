@@ -10,7 +10,7 @@ head_description: "Document Metadata APIs native to C# .NET & Java. Read, write,
 
 ############################# Header ############################
 title: "Document Metadata Management Solution"
-description: "‎APIs and apps to read, edit, replace and remove metadata of documents, images and other file formats on popular platforms."
+description: "APIs and apps to read, edit, replace and remove metadata of documents, images and other file formats on popular platforms."
 
 ############################# APIs ###############################
 apis:
