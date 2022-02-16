@@ -107,7 +107,7 @@ demos:
         
 ############################# About Formats ############################
 about_formats:
-    enable: true
+    enable: false
     format:
         # format loop
         - icon: "far fa-file-asf"
