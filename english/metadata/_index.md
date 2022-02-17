@@ -18,9 +18,9 @@ apis:
 
   api:
     # api loop
-    - title: "GroupDocs.Metadata On Premise APIs Include"
+    - title: "GroupDocs.Metadata High Code APIs Include"
       link: "/metadata/"
-      label: "View All On Premise APIs"
+      label: "View All High Code APIs"
       api_product:
         # api_product loop
         - link: "/metadata/net/"
@@ -39,9 +39,9 @@ apis:
           content: "Native .NET API to dynamically read, write, edit and remove meta information from Microsoft Office, PDF, Multimedia, images and various other file formats."
 
     # api loop
-    - title: "GroupDocs.Metadata Cloud APIs Include"
+    - title: "GroupDocs.Metadata Low Code APIs Include"
       link: "https://products.groupdocs.cloud/metadata"
-      label: "View All Cloud APIs"
+      label: "View All Low Code APIs"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.cloud/metadata/curl"
@@ -68,9 +68,9 @@ apis:
           content: "Enhance your Java applications with powerful metadata management features using Metadata SDK for Java."
 
     # api loop
-    - title: "GroupDocs.Metadata Cross Platform Apps Include"
+    - title: "GroupDocs.Metadata No Code Apps Include"
       link: "https://products.groupdocs.app/metadata"
-      label: "View All Cross Platform Apps"
+      label: "View All No Code Apps"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.app/metadata/total"
