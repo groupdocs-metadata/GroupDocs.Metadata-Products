@@ -109,12 +109,12 @@ overview:
             # table loop
             - title: "Microsoft Office"
               content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT‎
+                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
                 * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
                 * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
                 * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
                 * **Project:** MPP
-                * **Outlook:** MSG, EML, EMLX, PST, OST‎
+                * **Outlook:** MSG, EML, EMLX, PST, OST
                 * **OneNote:** ONE
 
         right:
@@ -130,16 +130,16 @@ overview:
                 * **Audio**: MP3, WAV
                 * **Video**: AVI, MOV, QT, FLV
                 * **Metafiles**: EMF, WMF
-                * **vCard**: VCF‎, VCR
-                * **Image**: JPG, JPEG, JPE, JP2, PNG, GIF, TIFF, WebP, BMP, DJVU, DJV, DICOM‎
-                * **Matroska Media Container**: MKV, MKA, MK3D, WEBM‎
-                * **OpenType Fonts**: OTF, OTC, TTF, TTC‎
+                * **vCard**: VCF, VCR
+                * **Image**: JPG, JPEG, JPE, JP2, PNG, GIF, TIFF, WebP, BMP, DJVU, DJV, DICOM
+                * **Matroska Media Container**: MKV, MKA, MK3D, WEBM
+                * **OpenType Fonts**: OTF, OTC, TTF, TTC
                 * **Others**: EPUB, ZIP, TORRENT, ASF
 
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Metadata for .NET supports following Operating Systems, Frameworks & Package Managers:‎
+          GroupDocs.Metadata for .NET supports following Operating Systems, Frameworks & Package Managers:
         
         left:
           enable: true
@@ -218,7 +218,7 @@ features:
 
       # feature loop
       - icon: "fas fa-comment-slash"
-        content: "Generate Image Previews for EPUB, CAD, EML & MSG Files‎"
+        content: "Generate Image Previews for EPUB, CAD, EML & MSG Files"
 
       # feature loop
       - icon: "fas fa-location-arrow"
