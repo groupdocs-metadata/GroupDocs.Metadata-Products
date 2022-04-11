@@ -58,14 +58,14 @@ about:
     enable: true
     title: "About GroupDocs.Metadata for Java API"
     content: |
-        [GroupDocs.Metadata for Java](https://products.groupdocs.com/metadata/java) is an advanced metadata fields management and manipulation solution to easily view, update, remove, find, compare, exchange and export metadata information from images and document formats without using any external software. Add metadata details to Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
+        [GroupDocs.Metadata for Java](/metadata/java/) is an advanced metadata fields management and manipulation solution to easily view, update, remove, find, compare, exchange and export metadata information from images and document formats without using any external software. Add metadata details to Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Steps for adding Metadata to WMF in Java"
     content_left: |
-        [GroupDocs.Metadata](https://products.groupdocs.com/metadata/java) makes it easy for Java developers to add metadata fields to WMF files from within their applications by implementing a few easy steps.
+        [GroupDocs.Metadata](/metadata/java/) makes it easy for Java developers to add metadata fields to WMF files from within their applications by implementing a few easy steps.
 
         *   Load the WMF file to be updated.
         *   Specify a predicate that will be used to add metadata properties.
@@ -76,7 +76,7 @@ steps:
         
     title_right: "System Requirements"
     content_right: |
-        GroupDocs.Metadata for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installled on your system.
+        GroupDocs.Metadata for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environment: NetBeans, Intellij IDEA, Eclipse etc

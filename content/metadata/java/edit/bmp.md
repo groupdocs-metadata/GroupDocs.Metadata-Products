@@ -58,14 +58,14 @@ about:
     enable: true
     title: "About GroupDocs.Metadata for Java API"
     content: |
-        [GroupDocs.Metadata for Java](https://products.groupdocs.com/metadata/java) is an advanced metadata fields manipulation solution to easily read, add, modify, delete, search, compare, replace and export metadata information from images and document formats without using any external software. Edit metadata details from Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
+        [GroupDocs.Metadata for Java](/metadata/java/) is an advanced metadata fields manipulation solution to easily read, add, modify, delete, search, compare, replace and export metadata information from images and document formats without using any external software. Edit metadata details from Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Steps for BMP Metadata Extraction in Java"
     content_left: |
-        [GroupDocs.Metadata](https://products.groupdocs.com/metadata/java) makes it easy for Java developers to get metadata information from BMP files from within their applications by implementing a few easy steps.
+        [GroupDocs.Metadata](/metadata/java/) makes it easy for Java developers to get metadata information from BMP files from within their applications by implementing a few easy steps.
 
         *   Load the BMP file to be updated.
         *   Specify a predicate that will be used to filter desired metadata properties.
@@ -76,7 +76,7 @@ steps:
         
     title_right: "System Requirements"
     content_right: |
-        GroupDocs.Metadata for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installled on your system.
+        GroupDocs.Metadata for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environment: NetBeans, Intellij IDEA, Eclipse etc
@@ -143,7 +143,7 @@ about_formats:
         - icon: "far fa-file-bmp"
           title: "About BMP File Format"
           content: |
-            Files having extension .BMP represent Bitmap Image files that are used to store bitmap digital images. These images are independent of graphics adapter and are also called device independent bitmap (DIB) file format. This independency serves the purpose of opening the file on multiple platforms such as Microsoft Windows and Mac. The BMP file format can store data as two-dimensional digital images in both monochrome as well as color format with various colour depths.
+            Files having extension .BMP represent Bitmap Image files that are used to store bitmap digital images. These images are independent of graphics adapter and are also called device independent bitmap (DIB) file format. This independence serves the purpose of opening the file on multiple platforms such as Microsoft Windows and Mac. The BMP file format can store data as two-dimensional digital images in both monochrome as well as color format with various colour depths.
 
           link: "https://docs.fileformat.com/image/bmp/"
 

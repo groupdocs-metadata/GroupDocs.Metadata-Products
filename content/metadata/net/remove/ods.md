@@ -58,14 +58,14 @@ about:
     enable: true
     title: "About GroupDocs.Metadata for .NET API"
     content: |
-        [GroupDocs.Metadata for .NET](https://products.groupdocs.com/metadata/net) offers an advanced set of metadata manipulation features, allowing developers to easily read, edit, remove, search, compare, replace and export metadata information from images and document formats without using any external software. Use metadata management API to delete metadata details from PDF, Microsoft Office Word, Excel spreadsheets, PowerPoint presentations, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats along with many other metadata processing features.
+        [GroupDocs.Metadata for .NET](/metadata/net/) offers an advanced set of metadata manipulation features, allowing developers to easily read, edit, remove, search, compare, replace and export metadata information from images and document formats without using any external software. Use metadata management API to delete metadata details from PDF, Microsoft Office Word, Excel spreadsheets, PowerPoint presentations, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats along with many other metadata processing features.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Steps for Removing ODS Metadata in C#"
     content_left: |
-        [GroupDocs.Metadata](https://products.groupdocs.com/metadata/net) makes it easy for .NET developers to remove metadata details from ODS files from within their applications by implementing a few easy steps.
+        [GroupDocs.Metadata](/metadata/net/) makes it easy for .NET developers to remove metadata details from ODS files from within their applications by implementing a few easy steps.
 
         *   Load ODS with an instance of Metadata class.
         *   Use a predicate to find desired metadata properties.
@@ -74,12 +74,12 @@ steps:
         
     title_right: "System Requirements"
     content_right: |
-        GroupDocs.Metadata for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installled on your system.
+        GroupDocs.Metadata for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environments: Visual Studio, Xamarin, MonoDevelop
         *   Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        *   Download the latest version of GroupDocs.Metadata for .NET from [Nuget](https://www.nuget.org/packages/groupdocs.metadata)
+        *   Download the latest version of GroupDocs.Metadata for .NET from [NuGet](https://www.nuget.org/packages/groupdocs.metadata)
         
     code: |
         ```cs
@@ -125,237 +125,237 @@ more_formats:
     format: 
         # format loop
         - name: "Remove PDF Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/pdf/"
+          link: "/metadata/net/remove/pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop
         - name: "Remove DOC Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/doc/"
+          link: "/metadata/net/remove/doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Remove DOCM Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/docm/"
+          link: "/metadata/net/remove/docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "Remove DOCX Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/docx/"
+          link: "/metadata/net/remove/docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "Remove DOT Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/dot/"
+          link: "/metadata/net/remove/dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "Remove DOTX Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/dotx/"
+          link: "/metadata/net/remove/dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "Remove XLS Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/xls/"
+          link: "/metadata/net/remove/xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "Remove XLSX Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/xlsx/"
+          link: "/metadata/net/remove/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "Remove XLSM Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/xlsm/"
+          link: "/metadata/net/remove/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Remove XLTM Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/xltm/"
+          link: "/metadata/net/remove/xltm/"
           description: "OOXML Macro Enabled Workbook Template"
 
         # format loop
         - name: "Remove PPT Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/ppt/"
+          link: "/metadata/net/remove/ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "Remove PPS Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/pps/"
+          link: "/metadata/net/remove/pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "Remove PPTX Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/pptx/"
+          link: "/metadata/net/remove/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "Remove PPSX Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/ppsx/"
+          link: "/metadata/net/remove/ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "Remove POTX Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/potx/"
+          link: "/metadata/net/remove/potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "Remove POTM Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/potm/"
+          link: "/metadata/net/remove/potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "Remove PPTM Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/pptm/"
+          link: "/metadata/net/remove/pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "Remove PPSM Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/ppsm/"
+          link: "/metadata/net/remove/ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "Remove ODS Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/ods/"
+          link: "/metadata/net/remove/ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "Remove ODT Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/odt/"
+          link: "/metadata/net/remove/odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "Remove TIFF Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/tiff/"
+          link: "/metadata/net/remove/tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "Remove JPEG Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/jpeg/"
+          link: "/metadata/net/remove/jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "Remove PNG Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/png/"
+          link: "/metadata/net/remove/png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "Remove GIF Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/gif/"
+          link: "/metadata/net/remove/gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "Remove BMP Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/bmp/"
+          link: "/metadata/net/remove/bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "Remove JP2 Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/jp2/"
+          link: "/metadata/net/remove/jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "Remove WEBP Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/webp/"
+          link: "/metadata/net/remove/webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "Remove PSD Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/psd/"
+          link: "/metadata/net/remove/psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "Remove WMF Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/wmf/"
+          link: "/metadata/net/remove/wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "Remove EMF Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/emf/"
+          link: "/metadata/net/remove/emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "Remove MPP Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/mpp/"
+          link: "/metadata/net/remove/mpp/"
           description: "Microsoft Project Document"
 
         # format loop
         - name: "Remove MSG Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/msg/"
+          link: "/metadata/net/remove/msg/"
           description: "Microsoft Outlook E-mail Message"
 
         # format loop
         - name: "Remove EML Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/eml/"
+          link: "/metadata/net/remove/eml/"
           description: "E-mail Message"
 
         # format loop
         - name: "Remove DWG Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/dwg/"
+          link: "/metadata/net/remove/dwg/"
           description: "Autodesk Design Data Formats"
 
         # format loop
         - name: "Remove DXF Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/dxf/"
+          link: "/metadata/net/remove/dxf/"
           description: "AutoCAD Drawing Interchange"
 
         # format loop
         - name: "Remove ONE Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/one/"
+          link: "/metadata/net/remove/one/"
           description: "Microsoft OneNote"
 
         # format loop
         - name: "Remove MP3 Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/mp3/"
+          link: "/metadata/net/remove/mp3/"
           description: "MPEG Audio Layer III"
 
         # format loop
         - name: "Remove WAV Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/wav/"
+          link: "/metadata/net/remove/wav/"
           description: "Waveform Audio File Format"
 
         # format loop
         - name: "Remove DICOM Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/dicom/"
+          link: "/metadata/net/remove/dicom/"
           description: "Digital Imaging &amp; Comm in Medicine"
 
         # format loop
         - name: "Remove AVI Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/avi/"
+          link: "/metadata/net/remove/avi/"
           description: "Audio Video Interleave File"
 
         # format loop
         - name: "Remove VSD Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/vsd/"
+          link: "/metadata/net/remove/vsd/"
           description: "Microsoft Visio 2003-2010 Drawing"
 
         # format loop
         - name: "Remove VSDX Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/vsdx/"
+          link: "/metadata/net/remove/vsdx/"
           description: "Microsoft Visio Drawing"
 
         # format loop
         - name: "Remove VSS Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/vss/"
+          link: "/metadata/net/remove/vss/"
           description: "Microsoft Visio 2003-2010 Stencil"
 
         # format loop
         - name: "Remove VDX Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/vdx/"
+          link: "/metadata/net/remove/vdx/"
           description: "Microsoft Visio 2003-2010 XML Drawing"
 
         # format loop
         - name: "Remove VSX Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/vsx/"
+          link: "/metadata/net/remove/vsx/"
           description: "Microsoft Visio 2003-2010 XML Stencil"
 
         # format loop
         - name: "Remove ZIP Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/zip/"
+          link: "/metadata/net/remove/zip/"
           description: "Archive File Format"
 
         # format loop
         - name: "Remove EPUB Metadata"
-          link: "https://products.groupdocs.com/metadata/net/remove/epub/"
+          link: "/metadata/net/remove/epub/"
           description: "Digital E-Book File Format"
 
 

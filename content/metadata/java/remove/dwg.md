@@ -58,14 +58,14 @@ about:
     enable: true
     title: "About GroupDocs.Metadata for Java API"
     content: |
-        [GroupDocs.Metadata for Java](https://products.groupdocs.com/metadata/java) is an advanced metadata fields manipulation solution to easily read, add, update, delete, find, compare, exchange and export metadata information from images and document formats without using any external software. Remove metadata details from Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
+        [GroupDocs.Metadata for Java](/metadata/java/) is an advanced metadata fields manipulation solution to easily read, add, update, delete, find, compare, exchange and export metadata information from images and document formats without using any external software. Remove metadata details from Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Steps for Removing DWG Metadata in Java"
     content_left: |
-        [GroupDocs.Metadata](https://products.groupdocs.com/metadata/java) makes it easy for Java developers to delete metadata information from DWG files from within their applications by implementing a few easy steps.
+        [GroupDocs.Metadata](/metadata/java/) makes it easy for Java developers to delete metadata information from DWG files from within their applications by implementing a few easy steps.
 
         *   Load the DWG file to be updated.
         *   Pass a search predicate to the RemoveProperties method.
@@ -74,7 +74,7 @@ steps:
         
     title_right: "System Requirements"
     content_right: |
-        GroupDocs.Metadata for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installled on your system.
+        GroupDocs.Metadata for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environment: NetBeans, Intellij IDEA, Eclipse etc
@@ -124,247 +124,247 @@ more_formats:
     format: 
         # format loop
         - name: "Remove PDF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/pdf/"
+          link: "/metadata/java/remove/pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop
         - name: "Remove DOC Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/doc/"
+          link: "/metadata/java/remove/doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Remove DOCM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/docm/"
+          link: "/metadata/java/remove/docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "Remove DOCX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/docx/"
+          link: "/metadata/java/remove/docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "Remove DOT Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/dot/"
+          link: "/metadata/java/remove/dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "Remove DOTX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/dotx/"
+          link: "/metadata/java/remove/dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "Remove XLS Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/xls/"
+          link: "/metadata/java/remove/xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "Remove XLSX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/xlsx/"
+          link: "/metadata/java/remove/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "Remove XLSM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/xlsm/"
+          link: "/metadata/java/remove/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Remove XLTM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/xltx/"
+          link: "/metadata/java/remove/xltx/"
           description: "OOXML Macro Enabled Workbook Template"
 
         # format loop
         - name: "Remove PPT Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/ppt/"
+          link: "/metadata/java/remove/ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "Remove PPS Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/pps/"
+          link: "/metadata/java/remove/pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "Remove PPTX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/pptx/"
+          link: "/metadata/java/remove/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "Remove PPSX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/ppsx/"
+          link: "/metadata/java/remove/ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "Remove POTX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/potx/"
+          link: "/metadata/java/remove/potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "Remove POTM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/potm/"
+          link: "/metadata/java/remove/potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "Remove PPTM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/pptm/"
+          link: "/metadata/java/remove/pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "Remove PPSM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/ppsm/"
+          link: "/metadata/java/remove/ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "Remove ODS Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/ods/"
+          link: "/metadata/java/remove/ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "Remove ODT Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/odt/"
+          link: "/metadata/java/remove/odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "Remove TIFF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/tiff/"
+          link: "/metadata/java/remove/tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "Remove JPEG Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/jpeg/"
+          link: "/metadata/java/remove/jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "Remove PNG Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/png/"
+          link: "/metadata/java/remove/png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "Remove GIF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/gif/"
+          link: "/metadata/java/remove/gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "Remove BMP Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/bmp/"
+          link: "/metadata/java/remove/bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "Remove JP2 Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/jp2/"
+          link: "/metadata/java/remove/jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "Remove WEBP Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/webp/"
+          link: "/metadata/java/remove/webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "Remove PSD Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/psd/"
+          link: "/metadata/java/remove/psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "Remove WMF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/wmf/"
+          link: "/metadata/java/remove/wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "Remove EMF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/emf/"
+          link: "/metadata/java/remove/emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "Remove MPP Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/emz/"
+          link: "/metadata/java/remove/emz/"
           description: "Microsoft Project Document"
 
         # format loop
         - name: "Remove MSG Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/msg/"
+          link: "/metadata/java/remove/msg/"
           description: "Microsoft Outlook E-mail Message"
 
         # format loop
         - name: "Remove EML Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/eml/"
+          link: "/metadata/java/remove/eml/"
           description: "E-mail Message"
 
         # format loop
         - name: "Remove DWG Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/dwg/"
+          link: "/metadata/java/remove/dwg/"
           description: "Autodesk Design Data Formats"
 
         # format loop
         - name: "Remove DXF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/dxf/"
+          link: "/metadata/java/remove/dxf/"
           description: "AutoCAD Drawing Interchange"
 
         # format loop
         - name: "Remove ONE Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/one/"
+          link: "/metadata/java/remove/one/"
           description: "Microsoft OneNote"
 
         # format loop
         - name: "Remove MP3 Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/mp3/"
+          link: "/metadata/java/remove/mp3/"
           description: "MPEG Audio Layer III"
 
         # format loop
         - name: "Remove WAV Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/wav/"
+          link: "/metadata/java/remove/wav/"
           description: "Waveform Audio File Format"
 
         # format loop
         - name: "Remove DICOM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/dicom/"
+          link: "/metadata/java/remove/dicom/"
           description: "Digital Imaging &amp; Comm in Medicine"
 
         # format loop
         - name: "Remove AVI Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/avi/"
+          link: "/metadata/java/remove/avi/"
           description: "Audio Video Interleave File"
 
         # format loop
         - name: "Remove VSD Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/vsd/"
+          link: "/metadata/java/remove/vsd/"
           description: "Microsoft Visio 2003-2010 Drawing"
 
         # format loop
         - name: "Remove VSDX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/vsdx/"
+          link: "/metadata/java/remove/vsdx/"
           description: "Microsoft Visio Drawing"
 
         # format loop
         - name: "Remove VSS Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/vss/"
+          link: "/metadata/java/remove/vss/"
           description: "Microsoft Visio 2003-2010 Stencil"
 
         # format loop
         - name: "Remove VDX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/vdx/"
+          link: "/metadata/java/remove/vdx/"
           description: "Microsoft Visio 2003-2010 XML Drawing"
 
         # format loop
         - name: "Remove VSX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/vsx/"
+          link: "/metadata/java/remove/vsx/"
           description: "Microsoft Visio 2003-2010 XML Stencil"
 
         # format loop
         - name: "Remove ZIP Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/zip/"
+          link: "/metadata/java/remove/zip/"
           description: "Archive File Format"
 
         # format loop
         - name: "Remove EPUB Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/epub/"
+          link: "/metadata/java/remove/epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "Remove VCF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/vcf/"
+          link: "/metadata/java/remove/vcf/"
           description: "Electronic Business Card"
 
         # format loop
         - name: "Remove VCR Metadata"
-          link: "https://products.groupdocs.com/metadata/java/remove/vcr/"
+          link: "/metadata/java/remove/vcr/"
           description: "vCard"
 
 

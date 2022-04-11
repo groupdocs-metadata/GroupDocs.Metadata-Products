@@ -58,14 +58,14 @@ about:
     enable: true
     title: "About GroupDocs.Metadata for Java API"
     content: |
-        [GroupDocs.Metadata for Java](https://products.groupdocs.com/metadata/java) is an advanced metadata management solution, allowing developers to easily view, add, edit, delete, search, compare, replace and export metadata information from images and document formats without using any external software. Extract metadata details from Microsoft Office Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, PDF, AutoCAD, Archive, Audio and Video file formats.
+        [GroupDocs.Metadata for Java](/metadata/java/) is an advanced metadata management solution, allowing developers to easily view, add, edit, delete, search, compare, replace and export metadata information from images and document formats without using any external software. Extract metadata details from Microsoft Office Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, PDF, AutoCAD, Archive, Audio and Video file formats.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Steps for ASF Metadata Extraction in Java"
     content_left: |
-        [GroupDocs.Metadata](https://products.groupdocs.com/metadata/java) makes it easy for Java developers to get metadata information from ASF files from within their applications by implementing a few easy steps.
+        [GroupDocs.Metadata](/metadata/java/) makes it easy for Java developers to get metadata information from ASF files from within their applications by implementing a few easy steps.
 
         *   Load the ASF file to be searched for metadata properties.
         *   Make up a predicate to examine all extracted metadata properties.
@@ -74,7 +74,7 @@ steps:
         
     title_right: "System Requirements"
     content_right: |
-        GroupDocs.Metadata for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installled on your system.
+        GroupDocs.Metadata for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environment: NetBeans, Intellij IDEA, Eclipse etc

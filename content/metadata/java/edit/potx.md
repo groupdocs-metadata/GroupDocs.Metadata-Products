@@ -58,14 +58,14 @@ about:
     enable: true
     title: "About GroupDocs.Metadata for Java API"
     content: |
-        [GroupDocs.Metadata for Java](https://products.groupdocs.com/metadata/java) is an advanced metadata fields manipulation solution to easily read, add, modify, delete, search, compare, replace and export metadata information from images and document formats without using any external software. Edit metadata details from Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
+        [GroupDocs.Metadata for Java](/metadata/java/) is an advanced metadata fields manipulation solution to easily read, add, modify, delete, search, compare, replace and export metadata information from images and document formats without using any external software. Edit metadata details from Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
 
 ############################# Steps ############################
 steps:
     enable: true
     title_left: "Steps for POTX Metadata Extraction in Java"
     content_left: |
-        [GroupDocs.Metadata](https://products.groupdocs.com/metadata/java) makes it easy for Java developers to get metadata information from POTX files from within their applications by implementing a few easy steps.
+        [GroupDocs.Metadata](/metadata/java/) makes it easy for Java developers to get metadata information from POTX files from within their applications by implementing a few easy steps.
 
         *   Load the POTX file to be updated.
         *   Specify a predicate that will be used to filter desired metadata properties.
@@ -76,7 +76,7 @@ steps:
         
     title_right: "System Requirements"
     content_right: |
-        GroupDocs.Metadata for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installled on your system.
+        GroupDocs.Metadata for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
         *   Operating Systems: Microsoft Windows, Linux, MacOS
         *   Development Environment: NetBeans, Intellij IDEA, Eclipse etc
@@ -156,247 +156,247 @@ more_formats:
     format: 
         # format loop
         - name: "Update PDF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/pdf/"
+          link: "/metadata/java/edit/pdf/"
           description: "Adobe Portable Document Format"
 
         # format loop
         - name: "Update DOC Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/doc/"
+          link: "/metadata/java/edit/doc/"
           description: "Microsoft Word Document"
 
         # format loop
         - name: "Update DOCM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/docm/"
+          link: "/metadata/java/edit/docm/"
           description: "Microsoft Word Macro-Enabled Document"
 
         # format loop
         - name: "Update DOCX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/docx/"
+          link: "/metadata/java/edit/docx/"
           description: "Microsoft Word Open XML Document"
 
         # format loop
         - name: "Update DOT Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/dot/"
+          link: "/metadata/java/edit/dot/"
           description: "Microsoft Word Document Template"
 
         # format loop
         - name: "Update DOTX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/dotx/"
+          link: "/metadata/java/edit/dotx/"
           description: "Word Open XML Document Template"
 
         # format loop
         - name: "Update XLS Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/xls/"
+          link: "/metadata/java/edit/xls/"
           description: "Microsoft Excel Binary File Format"
 
         # format loop
         - name: "Update XLSX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/xlsx/"
+          link: "/metadata/java/edit/xlsx/"
           description: "Microsoft Excel Open XML Spreadsheet"
 
         # format loop
         - name: "Update XLSM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/xlsm/"
+          link: "/metadata/java/edit/xlsm/"
           description: "Microsoft Excel Macro-Enabled Spreadsheet"
 
         # format loop
         - name: "Update XLTM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/xltx/"
+          link: "/metadata/java/edit/xltx/"
           description: "OOXML Macro Enabled Workbook Template"
 
         # format loop
         - name: "Update PPT Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/ppt/"
+          link: "/metadata/java/edit/ppt/"
           description: "PowerPoint Presentation"
 
         # format loop
         - name: "Update PPS Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/pps/"
+          link: "/metadata/java/edit/pps/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "Update PPTX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/pptx/"
+          link: "/metadata/java/edit/pptx/"
           description: "PowerPoint Open XML Presentation"
 
         # format loop
         - name: "Update PPSX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/ppsx/"
+          link: "/metadata/java/edit/ppsx/"
           description: "PowerPoint Open XML Slide Show"
 
         # format loop
         - name: "Update POTX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/potx/"
+          link: "/metadata/java/edit/potx/"
           description: "Microsoft PowerPoint Open XML Template"
 
         # format loop
         - name: "Update POTM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/potm/"
+          link: "/metadata/java/edit/potm/"
           description: "Microsoft PowerPoint Template"
 
         # format loop
         - name: "Update PPTM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/pptm/"
+          link: "/metadata/java/edit/pptm/"
           description: "Microsoft PowerPoint Presentation"
 
         # format loop
         - name: "Update PPSM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/ppsm/"
+          link: "/metadata/java/edit/ppsm/"
           description: "Microsoft PowerPoint Slide Show"
 
         # format loop
         - name: "Update ODS Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/ods/"
+          link: "/metadata/java/edit/ods/"
           description: "Open Document Spreadsheet"
 
         # format loop
         - name: "Update ODT Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/odt/"
+          link: "/metadata/java/edit/odt/"
           description: "Open Document Text"
 
         # format loop
         - name: "Update TIFF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/tiff/"
+          link: "/metadata/java/edit/tiff/"
           description: "Tagged Image File Format"
 
         # format loop
         - name: "Update JPEG Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/jpeg/"
+          link: "/metadata/java/edit/jpeg/"
           description: "JPEG Image"
 
         # format loop
         - name: "Update PNG Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/png/"
+          link: "/metadata/java/edit/png/"
           description: "Portable Network Graphic"
 
         # format loop
         - name: "Update GIF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/gif/"
+          link: "/metadata/java/edit/gif/"
           description: "Graphical Interchange Format File"
 
         # format loop
         - name: "Update BMP Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/bmp/"
+          link: "/metadata/java/edit/bmp/"
           description: "Bitmap File Format"
 
         # format loop
         - name: "Update JP2 Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/jp2/"
+          link: "/metadata/java/edit/jp2/"
           description: "JPEG 2000 Core Image File"
 
         # format loop
         - name: "Update WEBP Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/webp/"
+          link: "/metadata/java/edit/webp/"
           description: "Raster Web Image File Format"
 
         # format loop
         - name: "Update PSD Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/psd/"
+          link: "/metadata/java/edit/psd/"
           description: "Adobe Photoshop Document"
 
         # format loop
         - name: "Update WMF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/wmf/"
+          link: "/metadata/java/edit/wmf/"
           description: "Windows Metafile"
 
         # format loop
         - name: "Update EMF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/emf/"
+          link: "/metadata/java/edit/emf/"
           description: "Enhanced Metafile Format"
 
         # format loop
         - name: "Update MPP Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/emz/"
+          link: "/metadata/java/edit/emz/"
           description: "Microsoft Project Document"
 
         # format loop
         - name: "Update MSG Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/msg/"
+          link: "/metadata/java/edit/msg/"
           description: "Microsoft Outlook E-mail Message"
 
         # format loop
         - name: "Update EML Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/eml/"
+          link: "/metadata/java/edit/eml/"
           description: "E-mail Message"
 
         # format loop
         - name: "Update DWG Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/dwg/"
+          link: "/metadata/java/edit/dwg/"
           description: "Autodesk Design Data Formats"
 
         # format loop
         - name: "Update DXF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/dxf/"
+          link: "/metadata/java/edit/dxf/"
           description: "AutoCAD Drawing Interchange"
 
         # format loop
         - name: "Update ONE Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/one/"
+          link: "/metadata/java/edit/one/"
           description: "Microsoft OneNote"
 
         # format loop
         - name: "Update MP3 Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/mp3/"
+          link: "/metadata/java/edit/mp3/"
           description: "MPEG Audio Layer III"
 
         # format loop
         - name: "Update WAV Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/wav/"
+          link: "/metadata/java/edit/wav/"
           description: "Waveform Audio File Format"
 
         # format loop
         - name: "Update DICOM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/dicom/"
+          link: "/metadata/java/edit/dicom/"
           description: "Digital Imaging &amp; Comm in Medicine"
 
         # format loop
         - name: "Update AVI Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/avi/"
+          link: "/metadata/java/edit/avi/"
           description: "Audio Video Interleave File"
 
         # format loop
         - name: "Update VSD Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/vsd/"
+          link: "/metadata/java/edit/vsd/"
           description: "Microsoft Visio 2003-2010 Drawing"
 
         # format loop
         - name: "Update VSDX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/vsdx/"
+          link: "/metadata/java/edit/vsdx/"
           description: "Microsoft Visio Drawing"
 
         # format loop
         - name: "Update VSS Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/vss/"
+          link: "/metadata/java/edit/vss/"
           description: "Microsoft Visio 2003-2010 Stencil"
 
         # format loop
         - name: "Update VDX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/vdx/"
+          link: "/metadata/java/edit/vdx/"
           description: "Microsoft Visio 2003-2010 XML Drawing"
 
         # format loop
         - name: "Update VSX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/vsx/"
+          link: "/metadata/java/edit/vsx/"
           description: "Microsoft Visio 2003-2010 XML Stencil"
 
         # format loop
         - name: "Update ZIP Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/zip/"
+          link: "/metadata/java/edit/zip/"
           description: "Archive File Format"
 
         # format loop
         - name: "Update EPUB Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/epub/"
+          link: "/metadata/java/edit/epub/"
           description: "Digital E-Book File Format"
 
         # format loop
         - name: "Update VCF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/vcf/"
+          link: "/metadata/java/edit/vcf/"
           description: "Electronic Business Card"
 
         # format loop
         - name: "Update VCR Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/vcr/"
+          link: "/metadata/java/edit/vcr/"
           description: "vCard"
 
 
