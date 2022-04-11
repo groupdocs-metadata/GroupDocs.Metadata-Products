@@ -1,0 +1,302 @@
+---
+############################# Static ############################
+layout: "auto-gen"
+date: 2021-05-20T16:11:30+03:00
+draft: false
+############################# Head ############################
+head_title: "Добавить свойства метаданных в файлы WMF в Java"
+head_description: "Межплатформенный API метаданных Java для просмотра и добавления полей метаданных в файлы WMF. Работа со стандартами метаданных XMP, EXIF, IPTC, ID3 и т. д."
+############################# Header ############################
+title: "Добавить метаданные в WMF на Java"
+description: "Добавляйте свойства метаданных в WMF и многие другие популярные форматы документов, изображений и мультимедийных файлов, используя GroupDocs.Metadata for Java API."
+bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
+bg_overlay: false
+button:
+    enable: true
+    icon: "fas fa-arrow-down"
+    label: "Скачать бесплатную пробную версию"
+    link: "https://downloads.groupdocs.com/metadata/java"
+############################# SubMenu ############################
+submenu:
+    enable: true
+    left:
+        img_alt: "GroupDocs.Metadata for Java"
+        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-metadata-java.png"
+        product: "GroupDocs.Metadata"
+        platform: "Java"
+    middle:
+        button:
+            # button loop
+            - link: "https://apireference.groupdocs.com/metadata/java"
+              text: "Справочник по API"
+            # button loop
+            - link: "https://github.com/groupdocs-metadata"
+              text: "Примеры кода"
+            # button loop
+            - link: "https://products.groupdocs.app/metadata/family"
+              text: "Живые демонстрации"
+            # button loop
+            - link: "https://purchase.groupdocs.com/pricing/metadata/java"
+              text: "Цены"
+    right:
+        link_download: "https://downloads.groupdocs.com/metadata"
+        link_learn: "https://docs.groupdocs.com/metadata/java"
+        link_buy: "https://purchase.groupdocs.com"
+############################# About ############################
+about:
+    enable: true
+    title: "О GroupDocs.Metadata для Java API"
+    content: |
+        [GroupDocs.Metadata for Java](/ru/metadata/java/) — это расширенное решение для управления и обработки полей метаданных, позволяющее легко просматривать, обновлять, удалять, находить, сравнивать, обмениваться и экспортировать метаданные из изображений и форматов документов без использования какого-либо внешнего программного обеспечения. . Добавляйте сведения о метаданных в документы Word, электронные таблицы Excel, презентации PowerPoint, электронные письма Outlook, форматы файлов OneNote, Visio, Project, PDF, AutoCAD, ZIP, аудио и видео, а также поддержку работы со многими другими функциями обработки метаданных.
+############################# Steps ############################
+steps:
+    enable: true
+    title_left: "Шаги по добавлению метаданных в WMF на Java"
+    content_left: |
+        [GroupDocs.Metadata](/ru/metadata/java/) позволяет разработчикам Java легко добавлять поля метаданных в файлы WMF из своих приложений, выполняя несколько простых шагов.
+        * Загрузите файл WMF для обновления.
+        * Укажите предикат, который будет использоваться для добавления свойств метаданных.
+        * Укажите значение, которое вы хотите присвоить выбранным свойствам.
+        * Передайте предикат методу AddProperties.
+        * Проверьте фактическое количество добавленных свойств.
+        * Сохраните изменения.
+    title_right: "Системные Требования"
+    content_right: |
+        API GroupDocs.Metadata для Java поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
+        * Операционные системы: Microsoft Windows, Linux, MacOS
+        * Среда разработки: NetBeans, Intellij IDEA, Eclipse и т. д.
+        * Среда выполнения Java: J2SE 6.0 и выше
+        * Получите последнюю версию GroupDocs.Metadata для Java от [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
+    code: |
+        ```java
+         // загружаем файл в экземпляр класса метаданных
+        try (Metadata metadata = new Metadata("input.wmf")) {
+        	// добавить свойство, содержащее автора контента
+        	int affected = metadata.addProperties(new ContainsTagSpecification(Tags.getTime().getPrinted()), new PropertyValue(new Date()));
+        	System.out.println(String.format("Affected properties: %s", affected));
+        	metadata.save("output.wmf");
+        }
+        ```
+############################# Demos ############################
+demos:
+    enable: true
+    title: "Живые демонстрации для добавления метаданных"
+    content: |
+        Добавьте метаданные в файл ASF прямо сейчас, посетив веб-сайт [GroupDocs.Metadata Живые события](https://products.groupdocs.app/metadata/family).
+############################# About Formats ############################
+about_formats:
+    enable: true
+    format:
+        # format loop
+        - icon: "far fa-file-wmf"
+          title: "О формате файла WMF"
+          content: |
+            Файлы с расширением WMF представляют собой метафайл Microsoft Windows (WMF) для хранения данных векторных и растровых изображений. Чтобы быть более точным, WMF принадлежит к категории форматов векторных файлов форматов графических файлов, которые не зависят от устройства. Интерфейс графических устройств Windows (GDI) использует функции, хранящиеся в файле WMF, для отображения изображения на экране. Более расширенная версия WMF, известная как Enhanced Meta Files (EMF), была опубликована позже, что делает формат более многофункциональным. Практически WMF похож на SVG.
+          link: "https://docs.fileformat.com/image/wmf/"
+############################# More Formats ############################
+more_formats:
+    enable: true
+    title: "Добавление свойств метаданных в файлы других форматов"
+    content: |
+        Java API для добавления метаданных в многоформатные документы и изображения. Установите сведения о метаданных некоторых популярных форматов файлов, как указано ниже.
+    format: 
+        # format loop
+        - name: "Добавить метаданные PDF"
+          link: "https://products.groupdocs.com/metadata/java/add/pdf"
+          description: "Adobe Portable Document Format"
+        # format loop
+        - name: "Добавить метаданные DOC"
+          link: "https://products.groupdocs.com/metadata/java/add/doc"
+          description: "Документ Microsoft Word"
+        # format loop
+        - name: "Добавить метаданные DOCM"
+          link: "https://products.groupdocs.com/metadata/java/add/docm"
+          description: "Документ Microsoft Word с поддержкой макросов"
+        # format loop
+        - name: "Добавить метаданные DOCX"
+          link: "https://products.groupdocs.com/metadata/java/add/docx"
+          description: "Документ Microsoft Word с открытым XML"
+        # format loop
+        - name: "Добавить метаданные DOT"
+          link: "https://products.groupdocs.com/metadata/java/add/dot"
+          description: "Шаблон документа Microsoft Word"
+        # format loop
+        - name: "Добавить метаданные DOTX"
+          link: "https://products.groupdocs.com/metadata/java/add/dotx"
+          description: "Шаблон документа Word Open XML"
+        # format loop
+        - name: "Добавить метаданные XLS"
+          link: "https://products.groupdocs.com/metadata/java/add/xls"
+          description: "Формат двоичного файла Microsoft Excel"
+        # format loop
+        - name: "Добавить метаданные XLSX"
+          link: "https://products.groupdocs.com/metadata/java/add/xlsx"
+          description: "Электронная таблица Microsoft Excel Open XML"
+        # format loop
+        - name: "Добавить метаданные XLSM"
+          link: "https://products.groupdocs.com/metadata/java/add/xlsm"
+          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
+        # format loop
+        - name: "Добавить метаданные XLTM"
+          link: "https://products.groupdocs.com/metadata/java/add/xltx"
+          description: "Шаблон рабочей книги с поддержкой макросов OOXML"
+        # format loop
+        - name: "Добавить метаданные PPT"
+          link: "https://products.groupdocs.com/metadata/java/add/ppt"
+          description: "Презентация PowerPoint"
+        # format loop
+        - name: "Добавить метаданные PPS"
+          link: "https://products.groupdocs.com/metadata/java/add/pps"
+          description: "Слайд-шоу Microsoft PowerPoint"
+        # format loop
+        - name: "Добавить метаданные PPTX"
+          link: "https://products.groupdocs.com/metadata/java/add/pptx"
+          description: "Презентация PowerPoint Open XML"
+        # format loop
+        - name: "Добавить метаданные PPSX"
+          link: "https://products.groupdocs.com/metadata/java/add/ppsx"
+          description: "Слайд-шоу PowerPoint Open XML"
+        # format loop
+        - name: "Добавить метаданные POTX"
+          link: "https://products.groupdocs.com/metadata/java/add/potx"
+          description: "Открытый XML-шаблон Microsoft PowerPoint"
+        # format loop
+        - name: "Добавить метаданные POTM"
+          link: "https://products.groupdocs.com/metadata/java/add/potm"
+          description: "Шаблон Microsoft PowerPoint"
+        # format loop
+        - name: "Добавить метаданные PPTM"
+          link: "https://products.groupdocs.com/metadata/java/add/pptm"
+          description: "Презентация Microsoft PowerPoint"
+        # format loop
+        - name: "Добавить метаданные PPSM"
+          link: "https://products.groupdocs.com/metadata/java/add/ppsm"
+          description: "Слайд-шоу Microsoft PowerPoint"
+        # format loop
+        - name: "Добавить метаданные ODS"
+          link: "https://products.groupdocs.com/metadata/java/add/ods"
+          description: "Открыть электронную таблицу документов"
+        # format loop
+        - name: "Добавить метаданные ODT"
+          link: "https://products.groupdocs.com/metadata/java/add/odt"
+          description: "Открыть текст документа"
+        # format loop
+        - name: "Добавить метаданные TIFF"
+          link: "https://products.groupdocs.com/metadata/java/add/tiff"
+          description: "Формат файла изображения с тегами"
+        # format loop
+        - name: "Добавить метаданные JPEG"
+          link: "https://products.groupdocs.com/metadata/java/add/jpeg"
+          description: "Изображение в формате JPEG"
+        # format loop
+        - name: "Добавить метаданные PNG"
+          link: "https://products.groupdocs.com/metadata/java/add/png"
+          description: "Портативная сетевая графика"
+        # format loop
+        - name: "Добавить метаданные GIF"
+          link: "https://products.groupdocs.com/metadata/java/add/gif"
+          description: "Графический файл формата обмена"
+        # format loop
+        - name: "Добавить метаданные BMP"
+          link: "https://products.groupdocs.com/metadata/java/add/bmp"
+          description: "Формат растрового файла"
+        # format loop
+        - name: "Добавить метаданные JP2"
+          link: "https://products.groupdocs.com/metadata/java/add/jp2"
+          description: "Основной файл изображения JPEG 2000"
+        # format loop
+        - name: "Добавить метаданные WEBP"
+          link: "https://products.groupdocs.com/metadata/java/add/webp"
+          description: "Формат файла растрового веб-изображения"
+        # format loop
+        - name: "Добавить метаданные PSD"
+          link: "https://products.groupdocs.com/metadata/java/add/psd"
+          description: "Документ Adobe Photoshop"
+        # format loop
+        - name: "Добавить метаданные WMF"
+          link: "https://products.groupdocs.com/metadata/java/add/wmf"
+          description: "Метафайл Windows"
+        # format loop
+        - name: "Добавить метаданные EMF"
+          link: "https://products.groupdocs.com/metadata/java/add/emf"
+          description: "Расширенный формат метафайла"
+        # format loop
+        - name: "Добавить метаданные MPP"
+          link: "https://products.groupdocs.com/metadata/java/add/emz"
+          description: "Документ Microsoft Project"
+        # format loop
+        - name: "Добавить метаданные MSG"
+          link: "https://products.groupdocs.com/metadata/java/add/msg"
+          description: "Сообщение электронной почты Microsoft Outlook"
+        # format loop
+        - name: "Добавить метаданные EML"
+          link: "https://products.groupdocs.com/metadata/java/add/eml"
+          description: "Сообщение электронной почты"
+        # format loop
+        - name: "Добавить метаданные DWG"
+          link: "https://products.groupdocs.com/metadata/java/add/dwg"
+          description: "Форматы проектных данных Autodesk"
+        # format loop
+        - name: "Добавить метаданные DXF"
+          link: "https://products.groupdocs.com/metadata/java/add/dxf"
+          description: "Обмен чертежами AutoCAD"
+        # format loop
+        - name: "Добавить метаданные ONE"
+          link: "https://products.groupdocs.com/metadata/java/add/one"
+          description: "Майкрософт OneNote"
+        # format loop
+        - name: "Добавить метаданные MP3"
+          link: "https://products.groupdocs.com/metadata/java/add/mp3"
+          description: "Аудиоуровень MPEG III"
+        # format loop
+        - name: "Добавить метаданные WAV"
+          link: "https://products.groupdocs.com/metadata/java/add/wav"
+          description: "Формат звукового файла формы волны"
+        # format loop
+        - name: "Добавить метаданные DICOM"
+          link: "https://products.groupdocs.com/metadata/java/add/dicom"
+          description: "Цифровая визуализацияКомм в медицине"
+        # format loop
+        - name: "Добавить метаданные AVI"
+          link: "https://products.groupdocs.com/metadata/java/add/avi"
+          description: "Файл чередования аудио-видео"
+        # format loop
+        - name: "Добавить метаданные VSD"
+          link: "https://products.groupdocs.com/metadata/java/add/vsd"
+          description: "Чертеж Microsoft Visio 2003-2010"
+        # format loop
+        - name: "Добавить метаданные VSDX"
+          link: "https://products.groupdocs.com/metadata/java/add/vsdx"
+          description: "Рисование Microsoft Visio"
+        # format loop
+        - name: "Добавить метаданные VSS"
+          link: "https://products.groupdocs.com/metadata/java/add/vss"
+          description: "Трафарет Microsoft Visio 2003-2010"
+        # format loop
+        - name: "Добавить метаданные VDX"
+          link: "https://products.groupdocs.com/metadata/java/add/vdx"
+          description: "Microsoft Visio 2003-2010 XML-чертеж"
+        # format loop
+        - name: "Добавить метаданные VSX"
+          link: "https://products.groupdocs.com/metadata/java/add/vsx"
+          description: "Microsoft Visio 2003-2010 XML-трафарет"
+        # format loop
+        - name: "Добавить метаданные ZIP"
+          link: "https://products.groupdocs.com/metadata/java/add/zip"
+          description: "Формат файла архива"
+        # format loop
+        - name: "Добавить метаданные EPUB"
+          link: "https://products.groupdocs.com/metadata/java/add/epub"
+          description: "Формат файла цифровой электронной книги"
+        # format loop
+        - name: "Добавить метаданные VCF"
+          link: "https://products.groupdocs.com/metadata/java/add/vcf"
+          description: "Электронная визитная карточка"
+        # format loop
+        - name: "Добавить метаданные VCR"
+          link: "https://products.groupdocs.com/metadata/java/add/vcr"
+          description: "визитная карточка"
+############################# Back to top ###############################
+back_to_top:
+    enable: true
+---
