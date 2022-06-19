@@ -57,18 +57,18 @@ steps:
     content_left: |
         [GroupDocs.Metadata](/metadata/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実装することで、アプリケーション内からGIFファイルからメタデータの詳細を簡単に削除できます。
 
-        *メタデータクラスのインスタンスを使用してGIFをロードします。
-        *述語を使用して、目的のメタデータプロパティを検索します。
+        * メタデータクラスのインスタンスを使用してGIFをロードします。
+        * 述語を使用して、目的のメタデータプロパティを検索します。
         *プロパティを削除するには、Metadata.RemovePropertiesメソッドを使用します。
-        *変更をGIF形式で保存し直します。
+        * 変更をGIF形式で保存し直します。
         
     title_right: "システム要求"
     content_right: |
         GroupDocs.Metadata for .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        *オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        *開発環境：Visual Studio、Xamarin、MonoDevelop
-        *フレームワーク：.NET Framework、.NET Standard、.NET Core、Mono
+        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
+        * 開発環境：Visual Studio、Xamarin、MonoDevelop
+        * フレームワーク：.NET Framework、.NET Standard、.NET Core、Mono
         * [NuGet](https://www.nuget.org/packages/groupdocs.metadata)から最新バージョンのGroupDocs.Metadatafor.NETをダウンロードします。
         
     code: |
@@ -90,7 +90,7 @@ demos:
     enable: true
     title: "メタデータ削除ライブデモ"
     content: |
-        [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family)Webサイトにアクセスして、GIFファイルのメタデータ情報を今すぐ削除してください。  
+        [GroupDocs.Metadataライブデモ](https://products.groupdocs.app/metadata/family)サイトにアクセスして、GIFファイルのメタデータ情報を今すぐ削除してください。  
         ライブデモには次の利点があります
         
 about_formats:

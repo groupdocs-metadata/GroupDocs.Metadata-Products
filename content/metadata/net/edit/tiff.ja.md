@@ -57,18 +57,18 @@ steps:
     content_left: |
         [GroupDocs.Metadata](/metadata/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実装することで、アプリケーション内からTIFFファイルのメタデータ情報を簡単に編集および編集できます。
 
-        *メタデータクラスのインスタンスを介してTIFFファイルをロードします。
+        * メタデータクラスのインスタンスを介してTIFFファイルをロードします。
         *目的のメタデータプロパティをフィルタリングするために使用される述語を指定します。
-        *述語と新しい値をUpdatePropertiesメソッドに渡します。
-        *変更をTIFF形式でディスクに保存します。
+        * 述語と新しい値をUpdatePropertiesメソッドに渡します。
+        * 変更をTIFF形式でディスクに保存します。
         
     title_right: "システム要求"
     content_right: |
         GroupDocs.Metadata for .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        *オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        *開発環境：Visual Studio、Xamarin、MonoDevelop
-        *フレームワーク：.NET Framework、.NET Standard、.NET Core、Mono
+        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
+        * 開発環境：Visual Studio、Xamarin、MonoDevelop
+        * フレームワーク：.NET Framework、.NET Standard、.NET Core、Mono
         * [NuGet](https://www.nuget.org/packages/groupdocs.metadata)から最新バージョンのGroupDocs.Metadatafor.NETをダウンロードします。
         
     code: |
@@ -91,7 +91,7 @@ demos:
     enable: true
     title: "メタデータを更新するライブデモ"
     content: |
-        [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family)Webサイトにアクセスして、TIFFファイルのメタデータ情報を今すぐ更新してください。  
+        [GroupDocs.Metadataライブデモ](https://products.groupdocs.app/metadata/family)サイトにアクセスして、TIFFファイルのメタデータ情報を今すぐ更新してください。  
         ライブデモには次の利点があります
         
 about_formats:

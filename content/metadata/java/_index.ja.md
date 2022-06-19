@@ -72,7 +72,7 @@ overview:
             *IPTC-IIMメタデータ
             *PSDメタデータ
             *CADメタデータ
-            *追加のIFDタグを解析します
+            * 追加のIFDタグを解析します
             *SRationalTIFFタグを読む
       
         right:
@@ -113,9 +113,9 @@ overview:
                 * **ポータブル**：PDF
                 * ** Photoshop **：PSD
                 * ** AutoCAD **：DWG、DXF
-                * **オーディオ**：MP3、WAV
+                * ** オーディオ**：MP3、WAV
                 * **ビデオ**：AVI、MOV、QT、FLV
-                * **メタファイル**：EMF、WMF
+                * ** メタファイル**：EMF、WMF
                 * ** vCard **：VCF、VCR
                 * **画像**：JPG、JPEG、JPE、JP2、PNG、GIF、TIFF、WebP、BMP、DJVU、DJV、DICOM
                 * ** Matroska Media Container **：MKV、MKA、MK3D、WEBM

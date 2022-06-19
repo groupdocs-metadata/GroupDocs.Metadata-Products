@@ -57,19 +57,19 @@ steps:
     content_left: |
         [GroupDocs.Metadata](/metadata/java/)を使用すると、Java開発者は、いくつかの簡単な手順を実装することで、アプリケーション内からDWGファイルにメタデータフィールドを簡単に追加できます。
 
-        *更新するDWGファイルをロードします。
-        *メタデータプロパティの追加に使用される述語を指定します。
-        *選択したプロパティに割り当てる値を指定します。
-        *述語をAddPropertiesメソッドに渡します。
-        *追加されたプロパティの実際の数を確認してください。
-        *変更を保存します。
+        * 更新するDWGファイルをロードします。
+        * メタデータプロパティの追加に使用される述語を指定します。
+        * 選択したプロパティに割り当てる値を指定します。
+        * 述語をAddPropertiesメソッドに渡します。
+        * 追加されたプロパティの実際の数を確認してください。
+        * 変更を保存します。
         
     title_right: "システム要求"
     content_right: |
         GroupDocs.Metadata for Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        *オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        *開発環境：NetBeans、Intellij IDEA、Eclipseなど
+        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
+        * 開発環境：NetBeans、Intellij IDEA、Eclipseなど
         * Javaランタイム環境：J2SE6.0以降
         * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)からJava用のGroupDocs.Metadataの最新バージョンを入手します。
         
@@ -91,7 +91,7 @@ demos:
     enable: true
     title: "メタデータを追加するためのライブデモ"
     content: |
-        [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family)Webサイトにアクセスして、メタデータ情報をDWGファイルに今すぐ追加してください。  
+        [GroupDocs.Metadataライブデモ](https://products.groupdocs.app/metadata/family)サイトにアクセスして、メタデータ情報をDWGファイルに今すぐ追加してください。  
         ライブデモには次の利点があります
         
 about_formats:

@@ -57,18 +57,18 @@ steps:
     content_left: |
         [GroupDocs.Metadata](/metadata/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実行することで、アプリケーション内からAVIファイルからメタデータ情報を簡単に読み取って抽出できます。
 
-        *メタデータクラスのインスタンスを使用してAVIをロードします。
-        *すべてのメタデータプロパティを調べるための述語を作成します。
-        *述語をFindPropertiesメソッドに渡します。
-        *見つかったプロパティを繰り返し処理します。
+        * メタデータクラスのインスタンスを使用してAVIをロードします。
+        * すべてのメタデータプロパティを調べるための述語を作成します。
+        * 述語をFindPropertiesメソッドに渡します。
+        * 見つかったプロパティを繰り返し処理します。
         
     title_right: "システム要求"
     content_right: |
         GroupDocs.Metadata for .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        *オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        *開発環境：Visual Studio、Xamarin、MonoDevelop
-        *フレームワーク：.NET Framework、.NET Standard、.NET Core、Mono
+        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
+        * 開発環境：Visual Studio、Xamarin、MonoDevelop
+        * フレームワーク：.NET Framework、.NET Standard、.NET Core、Mono
         * [NuGet](https://www.nuget.org/packages/groupdocs.metadata)から最新バージョンのGroupDocs.Metadatafor.NETをダウンロードします。
         
     code: |
@@ -115,7 +115,7 @@ demos:
     enable: true
     title: "メタデータ抽出ライブデモ"
     content: |
-        [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family)Webサイトにアクセスして、AVIファイルのメタデータ情報を今すぐ取得してください。  
+        [GroupDocs.Metadataライブデモ](https://products.groupdocs.app/metadata/family)サイトにアクセスして、AVIファイルのメタデータ情報を今すぐ取得してください。  
         ライブデモには次の利点があります
         
 about_formats:
