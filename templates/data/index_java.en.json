@@ -1,0 +1,201 @@
+{
+  "head": {
+    "title": "Java Metadata API – View, Read, Export, Edit, Remove Document Metadata",
+    "description": "Java metadata API to view, read, edit, analyze, find, delete, compare & export metadata of PDF Word Excel PPTX Outlook Visio Audio Video & Image documents."
+  },
+  "header": {
+    "title": "Metadata Manipulation API for Java",
+    "description": "Develop Java Applications to Create, View, Access, Update, Delete, Search, Compare, Replace & Export Metadata of Popular Documents & Image Formats."
+  },
+  "submenu":{
+    "middle": {
+      "overview": "Overview",           
+      "features": "Features",
+      "support": "Support",
+      "livedemo": "Live Demo",
+      "pricing": "Pricing"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Metadata for Java is an advanced metadata management API to manipulate metadata information of documents, images, archives, torrents and various other file formats. Developers can now enhance the functionality of their Java applications by easily incorporating metadata viewing, modifying, deleting, extracting, searching, comparing, replacing and exporting features within all popular business document formats such as PDF, Microsoft Office Word, Excel spreadsheets, PowerPoint presentations & slides, Outlook emails, Project, Visio diagrams, OneNote, images, AutoCAD, Photoshop, audio, video, OpenType fonts and metafiles.",
+      "paragraph_2": "The Java metadata library offers you features such as metadata search, replace metadata properties, compare metadata of supported file formats to identify similarities as well as differences. You can also edit or modify metadata for better information management and export retrieved metadata information to Excel file, CSV file and DataSet. The API offers comprehensive support to work with all commonly used metadata standards like built-in, XMP, EXIF and custom metadata properties within supported document formats.",
+      "paragraph_3": "GroupDocs.Metadata for Java is compatible with all Java versions and supports popular operating systems (Windows, Linux, MacOS) that are capable to run Java runtime."
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Following is an overview of GroupDocs.Metadata for Java:",
+      "left": {
+        "title": "Working with Images",
+        "content": {
+          "line_1": "XMP Metadata",
+          "line_2": "EXIF Metadata",
+          "line_3": "IPTC-IIM Metadata",
+          "line_4": "PSD Metadata",
+          "line_5": "CAD Metadata",
+          "line_6": "Parse Additional IFD Tags"
+        }
+      },
+      "right": {
+        "title": "Working with Audio & Video",
+        "content": {
+          "line_1": "Runtime MP3 Format Detection",
+          "line_2": "Read Lyrics3 Tag",
+          "line_3": "Read MPEG Audio Info",
+          "line_4": "Read AVI Header Info",
+          "line_5": "Read Matroska subtitles",
+          "line_6": "Export Data to Excel or CSV",
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Metadata for Java supports following",
+      "formats_url_title": "document file formats",
+      "left": {
+        "title": "Microsoft Office"
+      },
+      "right": {
+        "title": "Other Formats",
+        "content": {
+          "line_5": "Audio",
+          "line_6": "Video",
+          "line_9": "Images",
+          "line_11": "OpenType Fonts",
+          "line_12": "Others"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Metadata for .NET supports following Operating Systems, Frameworks & Package Managers:",
+      "left": {
+        "title": "Operating Systems",
+        "content": {
+          "line_1": "Windows Desktop",
+          "line_2": "Windows Server",
+          "line_3": "Windows Azure",
+          "line_4": "Linux"
+        },
+        "title_2": "Supported Frameworks",
+        "content_2": {
+          "line_1": ".NET Framework 2.0 or higher",
+          "line_2": "Mono Framework 1.2 or higher",
+          "line_3": ".NET Standard 2.0",
+          "line_4": ".NET Core 2.0",
+          "line_5": ".NET Core 2.1"
+        }
+      },
+      "right": {
+        "title": "Package Managers",
+        "content": {
+          "line_1": "* NuGet"
+        },
+        "title_2": "Development Environments",
+        "content_2": {
+          "line_1": "* Microsoft Visual Studio",
+          "line_2": "* Xamarin.Android",
+          "line_3": "* Xamarin.IOS",
+          "line_4": "* Xamarin.Mac",
+          "line_5": "* MonoDevelop"
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Metadata for Java Features",
+    "feature_1": {
+        "content": "Manipulate Built-in & Custom Metadata and Fetch Metadata of Torrents & Archive Formats"
+    },
+    "feature_2": {        
+        "content": "Access & Delete Hidden Data in Microsoft Word, Excel, PowerPoint & PDF"
+    },
+    "feature_3": {
+      "content": "Detect Document File Type at Run-time"
+    },
+    "feature_4": {
+      "content": "Identify/Delete Digital Signatures in Word, Excel, PDF"
+    },
+    "feature_5": {
+      "content": "Detect Document Password Protection in Word, Excel, PowerPoint and PDF"
+    },
+    "feature_6": {
+      "content": "Fetch Thumbnails and Image Previews of Supported Formats & Matroska Multimedia Container Support"
+    },
+    "feature_7": {
+      "content": "Extract Text Metadata from PNG Image files"
+    },
+    "feature_8": {
+      "content": "Supports Enumeration of any Metadata Type & Read Metadata of OpenType Font Files"
+    },
+    "feature_9": {
+      "content": "Read Metadata Property using Defined Key for any Supported Format"
+    },
+    "feature_10": {
+      "content": "Get/Delete Metadata of Email Messages & Remove Attachments"
+    },
+    "feature_11": {
+      "content": "Read Matroska subtitles and retrieve Metadata of Audio & Video Files"
+    },
+    "feature_12": {
+      "content": "Generate Image Previews for EPUB, CAD, EML & MSG Files"
+    },
+    "feature_13": {
+      "content": "Identify Difference or Similarities in Metadata of Supported Formats by Comparison"
+    },
+    "feature_14": {
+      "content": "Search Properties of Document, EXIF, & XMP Metadata"
+    },
+    "feature_15": {
+      "content": "Replace Metadata Properties of Word, Excel, PowerPoint and PDF"
+    },
+    "feature_16": {
+      "content": "Export Metadata of Supported File Formats to Excel, CSV or DataSet"
+    },
+    "feature_17": {
+      "content": "Add or Update XMP and EXIF Metadata Properties of Arbitrary Types using the Search API"
+    },
+    "feature_18": {
+      "content": "Manipulate Image Metadata Properties & Delete Photo Location Information"
+    },
+    "feature_19": {
+      "content": "Delete Metadata & Comments from Reports and Documents"
+    },
+    "feature_20": {
+      "content": "Metadata Extraction from Microsoft Excel Files Starting from Excel 95"
+    },
+    "feature_21": {
+      "content": "Reducing Memory Consumption of PDF, Excel & Image Formats"
+    },
+    "feature_22": {
+      "content": "Update EXIF Metadata Properties in WEBP, PNG & PSD Files"
+    },
+    "feature_23": {
+      "content": "Extract XMP Metadata Properties in MOV, MP3 & WEBP Files"
+    },
+    "feature_24": {
+      "content": "Add, Update and Delete IPTC Metadata Packages in TIFF Images"
+    },
+    "feature_25": {
+      "content": "Add, Update & Remove EXIF Metadata Packages in JPEG2000 Images"
+    },
+    "feature_26": {
+      "content": "Read EXIF Tags & XMP Metadata Properties from HEIC/HEIF Image Formats"
+    },
+    "feature_27": {
+      "content": "Read Metadata from Encrypted Microsoft Project Files"
+    }
+  },
+  "more_feature":{
+    "feature_1":{
+      "title": "Efficiently Fetch Metadata Properties",
+      "content": "With GroupDocs.Metadata for Java API, Metadata Properties of supported file formats can be fetched pretty efficiently. The code to do so is quite simple and straight forward. Following is an example that shows how easy it is to fetch metadata properties of an MP3 file using Java:"
+    },
+    "feature_2":{
+      "title": "Retrieve Hidden Data for Manipulation",
+      "content": "GroupDocs.Metadata for Java provides you a comprehensive way to get and delete hidden data from Microsoft Word, Excel and PowerPoint files. You can also do the same for PDF documents. You can manipulate comments, merge fields, hidden pages, form fields, annotations and more."
+    }
+  },
+  "solutions":  { 
+    "title": "GroupDocs.Metadata offers document viewing APIs for other popular development environments"
+  }
+}

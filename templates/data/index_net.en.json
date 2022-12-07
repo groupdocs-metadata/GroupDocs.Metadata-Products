@@ -1,0 +1,192 @@
+{
+  "head": {
+    "title": ".NET Metadata Reader, Viewer, Extractor, Remover & Exporter API",
+    "description": "C# .NET metadata API to read, write, edit, analyze, search, extract, remove, compare & export metadata of PDF Word Excel PPTX Outlook Audio Video & Images."
+  },
+  "header": {
+    "title": ".NET API to Manage & Manipulate Metadata",
+    "description": "Build .NET Applications to Read, Edit, Remove, Retrieve, Search, Compare, Replace and Export Metadata Information of all Popular Documents & Image File Formats."
+  },
+  "submenu":{
+    "middle": {
+      "overview": "Overview",           
+      "features": "Features",
+      "support": "Support",
+      "livedemo": "Live Demo",
+      "pricing": "Pricing"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Metadata for .NET API is easy to integrate with C#, ASP.NET and other .NET based applications to help your end-users manipulate metadata from a range of images, documents and other media file formats without installing any external software. The .NET metadata library supports building tools to quickly add metadata viewer, editor, remover, extractor, comparison and exporter functionalities within a number of industry standard document formats such as PDF, Microsoft Office Word, Excel spreadsheets, PowerPoint presentations, Outlook emails, Project, Visio diagrams, OneNote, images, AutoCAD, Photoshop, audio, video and metafiles.",
+      "paragraph_2": "The Metadata API is very flexible and easy to operate with. It gets the document file as input, analyses the metadata information, allows to perform supported meta data operations and save the modified file to access quickly in future use. It works with most notable metadata standards such as built-in, XMP, EXIF, IPTC, Image Resource Blocks, ID3 and custom metadata properties. Through GroupDocs.Metadata for .NET API, you can also compare two documents to identify differences and similarities present in their metadata properties. You can also export metadata of required documents to Excel, CSV or DataSet.",
+      "paragraph_3": "GroupDocs.Metadata for .NET can be used to develop applications in any development environment that targets .NET platform. It is compatible with all .NET based languages and supports popular operating systems (Windows, Linux, MacOS) where Mono or .NET frameworks (including .NET Core) can be installed."
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Following is an overview of GroupDocs.Metadata for .NET:",
+      "left": {
+        "title": "Working with Images",
+        "content": {
+          "line_1": "XMP Metadata",
+          "line_2": "EXIF Metadata",
+          "line_3": "IPTC-IIM Metadata",
+          "line_4": "PSD Metadata",
+          "line_5": "CAD Metadata",
+          "line_6": "Parse Additional IFD Tags"
+        }
+      },
+      "right": {
+        "title": "Working with Audio & Video",
+        "content": {
+          "line_1": "Runtime MP3 Format Detection",
+          "line_2": "Read Lyrics3 Tag",
+          "line_3": "Read MPEG Audio Info",
+          "line_4": "Read AVI Header Info",
+          "line_5": "Read Matroska subtitles",
+          "line_6": "Export Data to Excel or CSV",
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Metadata for .NET supports following",
+      "formats_url_title": "document file formats",
+      "left": {
+        "title": "Microsoft Office"
+      },
+      "right": {
+        "title": "Other Formats",
+        "content": {
+          "line_5": "Audio",
+          "line_6": "Video",
+          "line_9": "Images",
+          "line_11": "OpenType Fonts",
+          "line_12": "Others"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Metadata for .NET supports following Operating Systems, Frameworks & Package Managers:",
+      "left": {
+        "title": "Operating Systems",
+        "content": {
+          "line_1": "Windows Desktop",
+          "line_2": "Windows Server",
+          "line_3": "Windows Azure",
+          "line_4": "Linux"
+        },
+        "title_2": "Supported Frameworks",
+        "content_2": {
+          "line_1": ".NET Framework 2.0 or higher",
+          "line_2": "Mono Framework 1.2 or higher",
+          "line_3": ".NET Standard 2.0",
+          "line_4": ".NET Core 2.0",
+          "line_5": ".NET Core 2.1"
+        }
+      },
+      "right": {
+        "title": "Package Managers",
+        "content": {
+          "line_1": "* NuGet"
+        },
+        "title_2": "Development Environments",
+        "content_2": {
+          "line_1": "* Microsoft Visual Studio",
+          "line_2": "* Xamarin.Android",
+          "line_3": "* Xamarin.IOS",
+          "line_4": "* Xamarin.Mac",
+          "line_5": "* MonoDevelop"
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Metadata for .NET Features",
+    "feature_1": {
+        "content": "Identify Built-in & Custom Metadata"
+    },
+    "feature_2": {        
+        "content": "Retrieve & Remove Hidden Data in Microsoft Word, Excel, PowerPoint & PDF"
+    },
+    "feature_3": {
+      "content": "Run-time Recognition of Document File Type"
+    },
+    "feature_4": {
+      "content": "Ability to Detect/Remove Digital Signatures"
+    },
+    "feature_5": {
+      "content": "Identify Password Protection & Support for the Matroska Multimedia Container"
+    },
+    "feature_6": {
+      "content": "Retrieve Thumbnails & Render Image Previews for Supported Formats"
+    },
+    "feature_7": {
+      "content": "Detect MIME Type of a Specific File or File Stream"
+    },
+    "feature_8": {
+      "content": "Generate Image Previews for EPUB, CAD, EML & MSG Files"
+    },
+    "feature_9": {
+      "content": "Use Defined Key to Read Metadata Property of Supported Formats"
+    },
+    "feature_10": {
+      "content": "Read Metadata of Email Messages & Parse OpenType Font Files"
+    },
+    "feature_11": {
+      "content": "Read Matroska subtitles and retrieve Metadata of Audio & Video Files"
+    },
+    "feature_12": {
+      "content": "Get Metadata of Archive formats & Torrents"
+    },
+    "feature_13": {
+      "content": "Compare Metadata Properties of Supported Formats & Identity Differences or Similarities"
+    },
+    "feature_14": {
+      "content": "Search Metadata Properties of Files and Enumerate any Type of Metadata"
+    },
+    "feature_15": {
+      "content": "Replace Metadata Properties of Supported File Formats"
+    },
+    "feature_16": {
+      "content": "Extract Metadata from Microsoft Excel Files Starting from Excel 95"
+    },
+    "feature_17": {
+      "content": "Find Photos Made on Specific Camera"
+    },
+    "feature_18": {
+      "content": "Import Images Metadata Properties & Remove Location Info from Photos"
+    },
+    "feature_19": {
+      "content": "Remove Metadata & Comments From Reports and Documents"
+    },
+    "feature_20": {
+      "content": "Extract Text Metadata from PNG Image files"
+    },
+    "feature_21": {
+      "content": "Reducing Memory Consumption of Documents & Images"
+    },
+    "feature_22": {
+      "content": "Update EXIF Metadata Properties in WEBP, PNG & PSD Files"
+    },
+    "feature_23": {
+      "content": "Extract XMP Metadata Properties in MOV, MP3 & WEBP Files"
+    },
+    "feature_24": {
+      "content": "Add, Update and Delete IPTC Metadata Packages in TIFF Images"
+    }
+  },
+  "more_feature":{
+    "feature_1":{
+      "title": "Quickly Fetching Metadata Properties",
+      "content": "Using GroupDocs.Metadata for .NET API, manipulating any sort of metadata for supported file formats is pretty straight forward business. Following piece of code demonstrates how easy it is to remove Photoshop metadata from a JPEG file using C#:"
+    },
+    "feature_2":{
+      "title": "Retrieval and Manipulation of Hidden Data",
+      "content": "GroupDocs.Metadata for .NET provides a handy mechanism to fetch and remove hidden data in PDF as well as Microsoft Word, Excel, and PowerPoint documents. You can manipulate comments, merge fields, hidden pages, form fields, annotations and more."
+    }
+  },
+  "solutions":  { 
+    "title": "GroupDocs.Metadata offers document viewing APIs for other popular development environments"
+  }
+}
