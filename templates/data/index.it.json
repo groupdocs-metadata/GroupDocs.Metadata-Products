@@ -1,0 +1,48 @@
+{
+  "head": {
+    "title": ".NET, API Java e app di manipolazione dei metadati online di GroupDocs",
+    "description": "API per i metadati dei documenti native in C# .NET e Java. Leggi, scrivi, modifica e confronta le meta-informazioni di tutti i formati più diffusi. Analizza ed esporta metadati."
+  },
+  "header": {
+    "title": "Soluzione per la gestione dei metadati dei documenti",
+    "description": "API e app per leggere, modificare, sostituire e rimuovere metadati di documenti, immagini e altri formati di file sulle piattaforme più diffuse."
+  },
+  "apis": {
+    "highcode": {
+      "title": "Le API GroupDocs.Metadata High Code includono",
+      "label": "Visualizza tutte le API High Code",
+      "net": {
+        "content": "API .NET nativa per leggere, scrivere, modificare e rimuovere dinamicamente le meta-informazioni da Microsoft Office, PDF, Multimedia, immagini e vari altri formati di file."
+      },
+      "java": {
+        "content": "Java API per modificare e manipolare i metadati di documenti, immagini, file video e vari altri formati di file."
+      }
+    },
+    "lowcode": {
+      "title": "Le API GroupDocs.Metadata Low Code includono",
+      "label": "Visualizza tutte le API Low Code",
+      "curl": {
+        "content": "Lavora con le API di manipolazione dei metadati complete di cURL REST per gestire le informazioni sui metadati di PDF, Word, Excel, presentazioni, immagini e file multimediali nelle tue applicazioni."
+      },
+      "net": {
+        "content": "Usa l'API metadata REST con .NET SDK per aggiungere, modificare, estrarre, cercare ed eliminare i metadati dai formati dei documenti all'interno delle applicazioni .NET."
+      },
+      "java": {
+        "content": "Migliora le tue applicazioni Java con potenti funzionalità di gestione dei metadati utilizzando Metadata SDK for Java."
+      }
+    },
+    "nocode": {
+      "title": "Le app GroupDocs.Metadata No Code includono",
+      "label": "Visualizza tutte le app No Code",
+      "total": {
+        "content": "App gratuita per visualizzare e modificare i metadati di Word, Excel, PDF, PowerPoint e più di 50 tipi di documenti."
+      },
+      "docx": {
+        "content": "Visualizzatore ed editor di metadati online gratuito per documenti MS Word."
+      },
+      "pdf": {
+        "content": "Visualizza o modifica le informazioni sui metadati dei documenti PDF online."
+      }
+    }
+  }
+}

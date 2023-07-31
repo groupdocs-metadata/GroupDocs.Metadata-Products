@@ -1,0 +1,5 @@
+inherits: languages.yml
+
+dictionaries: [ "..\\data\\index_java.{lang}.json" ]
+
+outputPath: "java\\_index.{lang}.md"

@@ -1,0 +1,48 @@
+{
+  "head": {
+    "title": ".NET, Java API'ler ve Çevrimiçi Meta Veri İşleme Uygulamaları GroupDocs",
+    "description": "C # .NET ve Java öğesine özgü Belge Meta Veri API'leri. Tüm popüler formatların meta bilgilerini okuyun, yazın, düzenleyin ve karşılaştırın. Meta verileri analiz edin ve dışa aktarın."
+  },
+  "header": {
+    "title": "Belge Meta Veri Yönetimi Çözümü",
+    "description": "Popüler platformlardaki belgelerin, resimlerin ve diğer dosya formatlarının meta verilerini okumak, düzenlemek, değiştirmek ve kaldırmak için API'ler ve uygulamalar."
+  },
+  "apis": {
+    "highcode": {
+      "title": "GroupDocs.Metadata High Code API'ler Dahil",
+      "label": "Tümünü Görüntüle High Code API'leri",
+      "net": {
+        "content": "Microsoft Office, PDF, Multimedya, görüntüler ve diğer çeşitli dosya formatlarından meta bilgileri dinamik olarak okumak, yazmak, düzenlemek ve kaldırmak için yerel .NET API."
+      },
+      "java": {
+        "content": "Java Belgelerin, görüntülerin, video dosyalarının ve diğer çeşitli dosya formatlarının meta verilerini düzenlemek ve işlemek için API."
+      }
+    },
+    "lowcode": {
+      "title": "GroupDocs.Metadata Low Code API'ler Dahil",
+      "label": "Tümünü Görüntüle Low Code API'leri",
+      "curl": {
+        "content": "Uygulamalarınızdaki PDF, Word, Excel, Sunumlar, görüntüler ve multimedya dosyalarının meta veri bilgilerini yönetmek için cURL REST ful meta veri işleme API'leriyle çalışın."
+      },
+      "net": {
+        "content": ".NET uygulamaları içindeki belge biçimlerinden meta veri eklemek, düzenlemek, ayıklamak, aramak ve silmek için .NET SDK ile meta veri REST API'sini kullanın."
+      },
+      "java": {
+        "content": "Metadata SDK for Java kullanarak güçlü meta veri yönetimi özellikleriyle Java uygulamalarınızı geliştirin."
+      }
+    },
+    "nocode": {
+      "title": "GroupDocs.Metadata No Code Uygulamalar Dahil",
+      "label": "Tümünü Görüntüle No Code Uygulamalar",
+      "total": {
+        "content": "Word, Excel, PDF, PowerPoint ve 50'den fazla belge türünün meta verilerini görüntülemek ve düzenlemek için ücretsiz uygulama."
+      },
+      "docx": {
+        "content": "MS Word belgeleri için ücretsiz çevrimiçi meta veri görüntüleyici ve düzenleyici."
+      },
+      "pdf": {
+        "content": "PDF belgelerinin meta veri bilgilerini çevrimiçi olarak görüntüleyin veya düzenleyin."
+      }
+    }
+  }
+}

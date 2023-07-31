@@ -1,334 +1,159 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2021-05-20T16:11:42+03:00
+layout: "auto-gen-metadata"
+date: 2023-06-14T09:37:26
 draft: false
+otherformats: zip xltx xltm xlt xlsx xlsm xlsb wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
+
 ############################# Head ############################
-head_title: "Редактор метаданных Java — обновление метаданных файлов XLS в Java"
-head_description: "Кроссплатформенный API редактора метаданных Java для редактирования и обновления полей метаданных файлов XLS. Работа со стандартами метаданных XMP, EXIF, IPTC, ID3 и т. д."
+head_title: "Edit Metadata to XLS Files in Java Java Applications"
+head_description: "Java Java metadata processing API to edit metadata information to XLS files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+
 ############################# Header ############################
-title: "Обновить метаданные из файла XLS в Java"
-description: "Редактор метаданных для приложений Java. Изменяйте поля метаданных из всех популярных форматов документов, изображений и мультимедийных файлов с помощью API редактора метаданных для Java."
+title: "Update Metadata From XLS File In Java"
+description: "Metadata Editor for Java applications – Change metadata fields from all popular documents, images and multimedia file formats using metadata editor API for Java."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
+    label: "Download Free Trial"
     link: "https://downloads.groupdocs.com/metadata/java"
+
 ############################# SubMenu ############################
 submenu:
     enable: true
+
     left:
         img_alt: "GroupDocs.Metadata for Java"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-metadata-java.png"
         product: "GroupDocs.Metadata"
         platform: "Java"
+
     middle:
         button:
+
             # button loop
             - link: "https://apireference.groupdocs.com/metadata/java"
-              text: "Справочник по API"
+              text: "{submenu.content_middle.button_text_1}"
+
             # button loop
             - link: "https://github.com/groupdocs-metadata"
-              text: "Примеры кода"
+              text: "{submenu.content_middle.button_text_2}"
+
             # button loop
             - link: "https://products.groupdocs.app/metadata/family"
-              text: "Живые демонстрации"
+              text: "{submenu.content_middle.button_text_3}"
+
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/java"
-              text: "Цены"
+              text: "{submenu.content_middle.button_text_4}"
+
     right:
         link_download: "https://downloads.groupdocs.com/metadata"
         link_learn: "https://docs.groupdocs.com/metadata/java"
         link_buy: "https://purchase.groupdocs.com"
+
 ############################# About ############################
 about:
     enable: true
-    title: "О GroupDocs.Metadata для Java API"
+    title: "About GroupDocs.Metadata for Java API"
     content: |
-        [GroupDocs.Metadata for Java](/ru/metadata/java/) — это расширенное решение для управления полями метаданных, позволяющее легко читать, добавлять, изменять, удалять, искать, сравнивать, заменять и экспортировать информацию метаданных из изображений и форматов документов без использования какого-либо внешнего программного обеспечения. . Редактируйте детали метаданных из документов Word, электронных таблиц Excel, презентаций PowerPoint, электронных писем Outlook, форматов файлов OneNote, Visio, Project, PDF, AutoCAD, ZIP, аудио и видео, а также поддержку работы со многими другими функциями обработки метаданных.
+        [GroupDocs.Metadata for Java](/ru/metadata/java/) is an advanced metadata fields manipulation solution to easily read, add, modify, delete, search, compare, replace and export metadata information from images and document formats without using any external software. Edit metadata details from Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
+
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги для извлечения метаданных XLS в Java"
+    title_left: "Steps for Updating Metadata to XLS in Java"
     content_left: |
-        [GroupDocs.Metadata](/ru/metadata/java/) позволяет разработчикам Java легко получать метаданные из файлов XLS из своих приложений, выполняя несколько простых шагов.
-        * Загрузите файл XLS для обновления.
-        * Укажите предикат, который будет использоваться для фильтрации желаемых свойств метаданных.
-        * Укажите значение, которое вы хотите присвоить выбранным свойствам.
-        * Передайте предикат и новое значение методу UpdateProperties.
-        * Проверьте фактическое количество обновленных свойств.
-        * Сохраните изменения.
-    title_right: "Системные Требования"
+        [GroupDocs.Metadata for Java](/ru/metadata/java/) makes it easy for Java developers to edit metadata details to XLS files from within their applications by implementing a few easy steps.
+        
+        * Load the XLS file to be updated
+        * Specify a predicate that will be used to filter desired metadata properties.
+        * Pass the predicate and the new value to the UpdateProperties method.
+        * Save the changes.
+
+    title_right: "System Requirements"
     content_right: |
-        API GroupDocs.Metadata для Java поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
-        * Операционные системы: Microsoft Windows, Linux, MacOS
-        * Среда разработки: NetBeans, Intellij IDEA, Eclipse и т. д.
-        * Среда выполнения Java: J2SE 6.0 и выше
-        * Получите последнюю версию GroupDocs.Metadata для Java от [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
+        GroupDocs.Metadata for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
+
+        * Operating Systems: Microsoft Windows, Linux, MacOS
+        * Development Environments: NetBeans, IntelliJ IDEA, Eclipse
+        * Java Runtime Environments: J2SE 6.0 and above
+        * Get the latest version of  GroupDocs.Metadata for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
+         
     code: |
-        ```java
-        public class UpdatingMetadata {
-            public static void run() {
-                Date threeDaysAgo = new Date(System.currentTimeMillis() - TimeUnit.DAYS.toMillis(3));
-                try (Metadata metadata = new Metadata("input.xls")) {
-                        // Обновите дату/время создания файла, если существующее значение старше 3 дней.
-                        int affected = metadata.updateProperties(new ContainsTagSpecification(Tags.getTime().getCreated()).and(
-                                new OfTypeSpecification(MetadataPropertyType.DateTime)).and(
-                                new UpdatingMetadata().new DateBeforeSpecification(threeDaysAgo)), new PropertyValue(new Date()));
-        
-                        System.out.println(String.format("Затронутые свойства: %s", affected));
-        
-                        metadata.save("output.xls");
-                }
+        ```java    
+        public class UpdatingMetadata
+        {
+          public static void run() 
+          {
+            Date threeDaysAgo = new Date(System.currentTimeMillis() - TimeUnit.DAYS.toMillis(3));
+            try (Metadata metadata = new Metadata("input.xls"))
+            {
+                // Update the file creation date/time if the existing value is older than 3 days
+                int affected = metadata.updateProperties(new ContainsTagSpecification(Tags.getTime().getCreated()).and(
+                        new OfTypeSpecification(MetadataPropertyType.DateTime)).and(
+                        new UpdatingMetadata().new DateBeforeSpecification(threeDaysAgo)), new PropertyValue(new Date()));
+
+                System.out.println(String.format("Affected properties: %s", affected));
+
+                metadata.save("output.xls");
             }
-        
-            // Определите свои собственные спецификации для фильтрации свойств метаданных
-            public class DateBeforeSpecification extends Specification {
-                public DateBeforeSpecification(Date date) {
-                    setValue(date);
-                }
-        
-                public final Date getValue() {
-                    return auto_Value;
-                }
-        
-                private void setValue(Date value) {
-                    auto_Value = value;
-                }
-        
-                private Date auto_Value;
-        
-                public boolean isSatisfiedBy(MetadataProperty candidate) {
-                    Date date = candidate.getValue().toClass(Date.class);
-                    if (date != null) {
-                        return date.before(getValue());
-                    }
-                    return false;
-                }
+          }
+
+          // Define your own specifications to filter metadata properties
+          public class DateBeforeSpecification extends Specification
+          {
+            public DateBeforeSpecification(Date date)
+            {
+              setValue(date);
             }
+
+            public final Date getValue()
+            {
+              return auto_Value;
+            }
+
+            private void setValue(Date value)
+            {
+              auto_Value = value;
+            }
+
+            private Date auto_Value;
+
+            public boolean isSatisfiedBy(MetadataProperty candidate)
+            {
+              Date date = candidate.getValue().toClass(Date.class);
+              if (date != null)
+              {
+                return date.before(getValue());
+              }
+              return false;
+            }
+          }
         }
         ```
+
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Живые демонстрации редактирования метаданных"
+    title: "Live Demos of Editing Metadata"
     content: |
-        Обновите метаданные файла XLS прямо сейчас, посетив веб-сайт [GroupDocs.Metadata Живые события](https://products.groupdocs.app/metadata/family).
+       Update metadata information to XLS file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.
+       The live demo has the following benefits.
+        
 ############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-xls"
-          title: "О формате файла XLS"
-          content: |
-            Файлы с расширением XLS представляют собой формат двоичных файлов Excel. Такие файлы могут быть созданы Microsoft Excel, а также другими подобными программами для работы с электронными таблицами, такими как OpenOffice Calc или Apple Numbers. Файл, сохраненный Excel, известен как рабочая книга, где каждая рабочая книга может иметь один или несколько рабочих листов. Данные хранятся и отображаются для пользователей в формате таблицы на листе и могут охватывать числовые значения, текстовые данные, формулы, подключения к внешним данным, изображения и диаграммы. Такие приложения, как Microsoft Excel, позволяют экспортировать данные рабочей книги в несколько различных форматов, включая PDF, CSV, XLSX, TXT, HTML, XPS и некоторые другие. Формат файла XLS был заменен более открытым и структурированным форматом XLSX с выпуском Microsoft Excel 2007. В последних версиях по-прежнему поддерживается создание и чтение файлов XLS, хотя XLSX сейчас используется в первую очередь.
-          link: "https://docs.fileformat.com/spreadsheet/xls/"
+
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Изменение метаданных других форматов файлов"
+    title: "Changing Metadata Of Other File Formats"
     content: |
-        API для редактирования метаданных мультиформатных документов и изображений для Java. Получите сведения о метаданных некоторых популярных форматов файлов, как указано ниже.
-    format: 
-        # format loop
-        - name: "Обновить метаданные PDF"
-          link: "/metadata/java/edit/pdf/"
-          description: "Adobe Portable Document Format"
-        # format loop
-        - name: "Обновить метаданные DOC"
-          link: "/metadata/java/edit/doc/"
-          description: "Документ Microsoft Word"
-        # format loop
-        - name: "Обновить метаданные DOCM"
-          link: "/metadata/java/edit/docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-        # format loop
-        - name: "Обновить метаданные DOCX"
-          link: "/metadata/java/edit/docx/"
-          description: "Документ Microsoft Word с открытым XML"
-        # format loop
-        - name: "Обновить метаданные DOT"
-          link: "/metadata/java/edit/dot/"
-          description: "Шаблон документа Microsoft Word"
-        # format loop
-        - name: "Обновить метаданные DOTX"
-          link: "/metadata/java/edit/dotx/"
-          description: "Шаблон документа Word Open XML"
-        # format loop
-        - name: "Обновить метаданные XLS"
-          link: "/metadata/java/edit/xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-        # format loop
-        - name: "Обновить метаданные XLSX"
-          link: "/metadata/java/edit/xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-        # format loop
-        - name: "Обновить метаданные XLSM"
-          link: "/metadata/java/edit/xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-        # format loop
-        - name: "Обновить метаданные XLTM"
-          link: "/metadata/java/edit/xltx/"
-          description: "Шаблон рабочей книги с поддержкой макросов OOXML"
-        # format loop
-        - name: "Обновить метаданные PPT"
-          link: "/metadata/java/edit/ppt/"
-          description: "Презентация PowerPoint"
-        # format loop
-        - name: "Обновить метаданные PPS"
-          link: "/metadata/java/edit/pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-        # format loop
-        - name: "Обновить метаданные PPTX"
-          link: "/metadata/java/edit/pptx/"
-          description: "Презентация PowerPoint Open XML"
-        # format loop
-        - name: "Обновить метаданные PPSX"
-          link: "/metadata/java/edit/ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-        # format loop
-        - name: "Обновить метаданные POTX"
-          link: "/metadata/java/edit/potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-        # format loop
-        - name: "Обновить метаданные POTM"
-          link: "/metadata/java/edit/potm/"
-          description: "Шаблон Microsoft PowerPoint"
-        # format loop
-        - name: "Обновить метаданные PPTM"
-          link: "/metadata/java/edit/pptm/"
-          description: "Презентация Microsoft PowerPoint"
-        # format loop
-        - name: "Обновить метаданные PPSM"
-          link: "/metadata/java/edit/ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-        # format loop
-        - name: "Обновить метаданные ODS"
-          link: "/metadata/java/edit/ods/"
-          description: "Открыть электронную таблицу документов"
-        # format loop
-        - name: "Обновить метаданные ODT"
-          link: "/metadata/java/edit/odt/"
-          description: "Открыть текст документа"
-        # format loop
-        - name: "Обновить метаданные TIFF"
-          link: "/metadata/java/edit/tiff/"
-          description: "Формат файла изображения с тегами"
-        # format loop
-        - name: "Обновить метаданные JPEG"
-          link: "/metadata/java/edit/jpeg/"
-          description: "Изображение в формате JPEG"
-        # format loop
-        - name: "Обновить метаданные PNG"
-          link: "/metadata/java/edit/png/"
-          description: "Портативная сетевая графика"
-        # format loop
-        - name: "Обновить метаданные GIF"
-          link: "/metadata/java/edit/gif/"
-          description: "Графический файл формата обмена"
-        # format loop
-        - name: "Обновить метаданные BMP"
-          link: "/metadata/java/edit/bmp/"
-          description: "Формат растрового файла"
-        # format loop
-        - name: "Обновить метаданные JP2"
-          link: "/metadata/java/edit/jp2/"
-          description: "Основной файл изображения JPEG 2000"
-        # format loop
-        - name: "Обновить метаданные WEBP"
-          link: "/metadata/java/edit/webp/"
-          description: "Формат файла растрового веб-изображения"
-        # format loop
-        - name: "Обновить метаданные PSD"
-          link: "/metadata/java/edit/psd/"
-          description: "Документ Adobe Photoshop"
-        # format loop
-        - name: "Обновить метаданные WMF"
-          link: "/metadata/java/edit/wmf/"
-          description: "Метафайл Windows"
-        # format loop
-        - name: "Обновить метаданные EMF"
-          link: "/metadata/java/edit/emf/"
-          description: "Расширенный формат метафайла"
-        # format loop
-        - name: "Обновить метаданные MPP"
-          link: "/metadata/java/edit/emz/"
-          description: "Документ Microsoft Project"
-        # format loop
-        - name: "Обновить метаданные MSG"
-          link: "/metadata/java/edit/msg/"
-          description: "Сообщение электронной почты Microsoft Outlook"
-        # format loop
-        - name: "Обновить метаданные EML"
-          link: "/metadata/java/edit/eml/"
-          description: "Сообщение электронной почты"
-        # format loop
-        - name: "Обновить метаданные DWG"
-          link: "/metadata/java/edit/dwg/"
-          description: "Форматы проектных данных Autodesk"
-        # format loop
-        - name: "Обновить метаданные DXF"
-          link: "/metadata/java/edit/dxf/"
-          description: "Обмен чертежами AutoCAD"
-        # format loop
-        - name: "Обновить метаданные ONE"
-          link: "/metadata/java/edit/one/"
-          description: "Майкрософт OneNote"
-        # format loop
-        - name: "Обновить метаданные MP3"
-          link: "/metadata/java/edit/mp3/"
-          description: "Аудиоуровень MPEG III"
-        # format loop
-        - name: "Обновить метаданные WAV"
-          link: "/metadata/java/edit/wav/"
-          description: "Формат звукового файла формы волны"
-        # format loop
-        - name: "Обновить метаданные DICOM"
-          link: "/metadata/java/edit/dicom/"
-          description: "Цифровая визуализацияКомм в медицине"
-        # format loop
-        - name: "Обновить метаданные AVI"
-          link: "/metadata/java/edit/avi/"
-          description: "Файл чередования аудио-видео"
-        # format loop
-        - name: "Обновить метаданные VSD"
-          link: "/metadata/java/edit/vsd/"
-          description: "Чертеж Microsoft Visio 2003-2010"
-        # format loop
-        - name: "Обновить метаданные VSDX"
-          link: "/metadata/java/edit/vsdx/"
-          description: "Рисование Microsoft Visio"
-        # format loop
-        - name: "Обновить метаданные VSS"
-          link: "/metadata/java/edit/vss/"
-          description: "Трафарет Microsoft Visio 2003-2010"
-        # format loop
-        - name: "Обновить метаданные VDX"
-          link: "/metadata/java/edit/vdx/"
-          description: "Microsoft Visio 2003-2010 XML-чертеж"
-        # format loop
-        - name: "Обновить метаданные VSX"
-          link: "/metadata/java/edit/vsx/"
-          description: "Microsoft Visio 2003-2010 XML-трафарет"
-        # format loop
-        - name: "Обновить метаданные ZIP"
-          link: "/metadata/java/edit/zip/"
-          description: "Формат файла архива"
-        # format loop
-        - name: "Обновить метаданные EPUB"
-          link: "/metadata/java/edit/epub/"
-          description: "Формат файла цифровой электронной книги"
-        # format loop
-        - name: "Обновить метаданные VCF"
-          link: "/metadata/java/edit/vcf/"
-          description: "Электронная визитная карточка"
-        # format loop
-        - name: "Обновить метаданные VCR"
-          link: "/metadata/java/edit/vcr/"
-          description: "визитная карточка"
+        Multi format documents and images metadata editing API for Java. Retrieve metadata of some of the popular file formats as stated below.
+
 ############################# Back to top ###############################
 back_to_top:
     enable: true

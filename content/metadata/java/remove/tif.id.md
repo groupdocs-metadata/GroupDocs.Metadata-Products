@@ -1,21 +1,26 @@
 ---
-layout: "auto-gen"
-date: 2022-07-07T12:44:18+03:00
+############################# Static ############################
+layout: "auto-gen-metadata"
+date: 2023-06-14T09:37:50
 draft: false
+otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
-head_title: "Hapus Properti Metadata dari TIF File di Java"
-head_description: "Lintas platform Java metadata API untuk menyembunyikan dan menghapus bidang metadata dari file TIF. Bekerja dengan standar metadata XMP, EXIF, IPTC, ID3 dll."
+############################# Head ############################
+head_title: "Remove Metadata Properties of TIF Files in Java"
+head_description: "Cross platform Java metadata API to hide and remove metadata fields of TIF files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc. "
 
-title: "Hapus TIF Metadata di Java"
-description: "Hapus properti metadata dari TIF dan banyak dokumen, gambar, dan format file multimedia populer lainnya menggunakan GroupDocs.Metadata for Java API."
+############################# Header ############################
+title: "Remove TIF Metadata In Java"
+description: "Remove metadata properties from TIF and many other popular documents, images and multimedia file formats using GroupDocs.Metadata for Java API."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Unduh Uji Coba Gratis"
+    label: "Download Free Trial"
     link: "https://downloads.groupdocs.com/metadata/java"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,283 +33,87 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/metadata/java"
-              text: "Referensi API"
+              text: "{submenu.content_middle.button_text_1}"
 
+            # button loop
             - link: "https://github.com/groupdocs-metadata"
-              text: "Contoh Kode"
+              text: "{submenu.content_middle.button_text_2}"
 
+            # button loop
             - link: "https://products.groupdocs.app/metadata/family"
-              text: "Demo Langsung"
+              text: "{submenu.content_middle.button_text_3}"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/java"
-              text: "Harga"
+              text: "{submenu.content_middle.button_text_4}"
 
     right:
         link_download: "https://downloads.groupdocs.com/metadata"
         link_learn: "https://docs.groupdocs.com/metadata/java"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "Tentang GroupDocs.Metadata untuk Java API"
+    title: "About GroupDocs.Metadata for Java API"
     content: |
-        [GroupDocs.Metadata for Java](/id/metadata/java/) adalah solusi manipulasi bidang metadata tingkat lanjut untuk dengan mudah membaca, menambah, memperbarui, menghapus, menemukan, membandingkan, menukar, dan mengekspor informasi metadata dari gambar dan format dokumen tanpa menggunakan perangkat lunak eksternal apa pun . Hapus detail metadata dari dokumen Word, spreadsheet Excel, presentasi PowerPoint, email Outlook, OneNote, Visio, Project, PDF, AutoCAD, ZIp, format file Audio dan Video bersama dengan dukungan untuk bekerja dengan banyak fitur pemrosesan metadata lainnya.
+        [GroupDocs.Metadata for Java](/id/metadata/java/) is an advanced metadata fields manipulation solution to easily read, add, update, delete, find, compare, exchange and export metadata information from images and document formats without using any external software. Remove metadata details from Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "Langkah-langkah untuk Menghapus TIF Metadata di Java"
+    title_left: "Steps for Removing  Metadata to TIF in Java"
     content_left: |
-        [GroupDocs.Metadata](/id/metadata/java/) memudahkan pengembang Java untuk menghapus informasi metadata dari file TIF dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
-
-        * Muat file TIF yang akan diperbarui.
-        * Berikan predikat pencarian ke metode RemoveProperties.
-        * Periksa jumlah properti yang benar-benar dihapus
-        * Simpan perubahan.
+        [GroupDocs.Metadata for Java](/id/metadata/java/) makes it easy for Java developers to delete metadata information from TIF files from within their applications by implementing a few easy steps.
         
-    title_right: "Persyaratan sistem"
+        * Load the TIF file to be updated.
+        * Pass a search predicate to the RemoveProperties method.
+        * Check the number of properties that were actually removed.
+        * Save the changes.
+
+    title_right: "System Requirements"
     content_right: |
-        GroupDocs.Metadata untuk Java API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
+        GroupDocs.Metadata for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
-        * Sistem Operasi: Microsoft Windows, Linux, MacOS
-        * Lingkungan Pengembangan: NetBeans, Intellij IDEA, Eclipse dll
-        * Lingkungan Runtime Java: J2SE 6.0 dan yang lebih baru
-        * Dapatkan versi terbaru GroupDocs.Metadata untuk Java dari [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
-        
+        * Operating Systems: Microsoft Windows, Linux, MacOS
+        * Development Environments: NetBeans, IntelliJ IDEA, Eclipse
+        * Java Runtime Environments: J2SE 6.0 and above
+        * Get the latest version of  GroupDocs.Metadata for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
+         
     code: |
-        ```java
-        try (Metadata metadata = new Metadata("input.tif")) {
-        	
-        	// Hapus semua penyebutan orang yang berkontribusi dalam pembuatan file
-        	// Hapus properti khusus dengan nama yang ditentukan         
-        	int affected = metadata.removeProperties(new FallsIntoCategorySpecification(Tags.getPerson()).or(new WithNameSpecification("CustomProperty")));
-        
-        	System.out.println(String.format("Affected properties: %s", affected));
-        
-        	metadata.save("output.tif");
+        ```java    
+        try (Metadata metadata = new Metadata("input.doc"))
+        {
+            // Remove all mentions of any people contributed in file creation
+            // Remove a custom property with the specified name 
+            int affected = metadata.removeProperties(new FallsIntoCategorySpecification(Tags.getPerson()).or(new WithNameSpecification("CustomProperty")));
+            System.out.println(String.format("Affected properties: %s", affected));
+            metadata.save("output.tif");
         }
         ```
-        
+
+############################# Demos ############################
 demos:
     enable: true
-    title: "Demo Langsung untuk Menghapus Metadata"
+    title: "Live Demos to Remove Metadata"
     content: |
-        Hapus informasi metadata file TIF sekarang juga dengan mengunjungi situs web [GroupDocs.Metadata](https://products.groupdocs.app/metadata/family).  
-        Demo langsung memiliki manfaat sebagai berikut
+       Remove metadata information of TIF file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.
+       The live demo has the following benefits.
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-file-tif"
-          title: "Tentang Format Berkas TIF"
-          content: |
-            TIFF atau TIF, Tagged Image File Format, mewakili gambar raster yang dimaksudkan untuk digunakan pada berbagai perangkat yang memenuhi standar format file ini. Ia mampu menggambarkan data gambar bilevel, grayscale, palette-color dan full-color dalam beberapa ruang warna. Ini mendukung skema kompresi lossy serta lossless untuk memilih antara ruang dan waktu untuk aplikasi yang menggunakan format. Formatnya tidak bergantung pada mesin dan bebas dari batasan seperti prosesor, sistem operasi, atau sistem file.
 
-          link: "https://docs.fileformat.com/image/tiff/"
-
+############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Menghapus Metadata Dari Format File Lain"
+    title: "Removing Metadata Of Other File Formats"
     content: |
-        Dokumen multi format dan metadata gambar menghapus API untuk Java. Hapus detail metadata dari beberapa format file populer seperti yang dinyatakan di bawah ini.
-    format: 
-        - name: "Hapus Metadata PDF"
-          link: "/metadata/java/remove/pdf/"
-          description: "Format Dokumen Portabel Adobe"
+        Multi format documents and images metadata removing API for Java. Retrieve metadata of some of the popular file formats as stated below.
 
-        - name: "Hapus Metadata DOC"
-          link: "/metadata/java/remove/doc/"
-          description: "Dokumen Microsoft Word"
-
-        - name: "Hapus Metadata DOCM"
-          link: "/metadata/java/remove/docm/"
-          description: "Dokumen Berkemampuan Makro Microsoft Word"
-
-        - name: "Hapus Metadata DOCX"
-          link: "/metadata/java/remove/docx/"
-          description: "Microsoft Word Buka Dokumen XML"
-
-        - name: "Hapus Metadata DOT"
-          link: "/metadata/java/remove/dot/"
-          description: "Templat Dokumen Microsoft Word"
-
-        - name: "Hapus Metadata DOTX"
-          link: "/metadata/java/remove/dotx/"
-          description: "Templat Dokumen XML Word Terbuka"
-
-        - name: "Hapus Metadata XLS"
-          link: "/metadata/java/remove/xls/"
-          description: "Format File Biner Microsoft Excel"
-
-        - name: "Hapus Metadata XLSX"
-          link: "/metadata/java/remove/xlsx/"
-          description: "Microsoft Excel Buka XML Spreadsheet"
-
-        - name: "Hapus Metadata XLSM"
-          link: "/metadata/java/remove/xlsm/"
-          description: "Spreadsheet Berkemampuan Makro Microsoft Excel"
-
-        - name: "Hapus Metadata XLTM"
-          link: "/metadata/java/remove/xltx/"
-          description: "Templat Buku Kerja yang Diaktifkan Makro OOXML"
-
-        - name: "Hapus Metadata PPT"
-          link: "/metadata/java/remove/ppt/"
-          description: "Presentasi powerpoint"
-
-        - name: "Hapus Metadata PPS"
-          link: "/metadata/java/remove/pps/"
-          description: "Pertunjukan Slide Microsoft PowerPoint"
-
-        - name: "Hapus Metadata PPTX"
-          link: "/metadata/java/remove/pptx/"
-          description: "Presentasi PowerPoint Terbuka XML"
-
-        - name: "Hapus Metadata PPSX"
-          link: "/metadata/java/remove/ppsx/"
-          description: "PowerPoint Terbuka XML Slide Show"
-
-        - name: "Hapus Metadata POTX"
-          link: "/metadata/java/remove/potx/"
-          description: "Templat XML Terbuka Microsoft PowerPoint"
-
-        - name: "Hapus Metadata POTM"
-          link: "/metadata/java/remove/potm/"
-          description: "Templat Microsoft PowerPoint"
-
-        - name: "Hapus Metadata PPTM"
-          link: "/metadata/java/remove/pptm/"
-          description: "Presentasi Microsoft PowerPoint"
-
-        - name: "Hapus Metadata PPSM"
-          link: "/metadata/java/remove/ppsm/"
-          description: "Pertunjukan Slide Microsoft PowerPoint"
-
-        - name: "Hapus Metadata ODS"
-          link: "/metadata/java/remove/ods/"
-          description: "Buka Spreadsheet Dokumen"
-
-        - name: "Hapus Metadata ODT"
-          link: "/metadata/java/remove/odt/"
-          description: "Buka Teks Dokumen"
-
-        - name: "Hapus Metadata TIFF"
-          link: "/metadata/java/remove/tiff/"
-          description: "Format File Gambar yang Ditandai"
-
-        - name: "Hapus Metadata JPEG"
-          link: "/metadata/java/remove/jpeg/"
-          description: "Gambar JPEG"
-
-        - name: "Hapus Metadata PNG"
-          link: "/metadata/java/remove/png/"
-          description: "Grafik Jaringan Portabel"
-
-        - name: "Hapus Metadata GIF"
-          link: "/metadata/java/remove/gif/"
-          description: "File Format Pertukaran Grafis"
-
-        - name: "Hapus Metadata BMP"
-          link: "/metadata/java/remove/bmp/"
-          description: "Format File Bitmap"
-
-        - name: "Hapus Metadata JP2"
-          link: "/metadata/java/remove/jp2/"
-          description: "File Gambar Inti JPEG 2000"
-
-        - name: "Hapus Metadata WEBP"
-          link: "/metadata/java/remove/webp/"
-          description: "Format File Gambar Web Raster"
-
-        - name: "Hapus Metadata PSD"
-          link: "/metadata/java/remove/psd/"
-          description: "Dokumen Adobe Photoshop"
-
-        - name: "Hapus Metadata WMF"
-          link: "/metadata/java/remove/wmf/"
-          description: "Metafile Windows"
-
-        - name: "Hapus Metadata EMF"
-          link: "/metadata/java/remove/emf/"
-          description: "Format Metafile yang Ditingkatkan"
-
-        - name: "Hapus Metadata MPP"
-          link: "/metadata/java/remove/emz/"
-          description: "Dokumen Proyek Microsoft"
-
-        - name: "Hapus Metadata MSG"
-          link: "/metadata/java/remove/msg/"
-          description: "Pesan Email Microsoft Outlook"
-
-        - name: "Hapus Metadata EML"
-          link: "/metadata/java/remove/eml/"
-          description: "Pesan email"
-
-        - name: "Hapus Metadata DWG"
-          link: "/metadata/java/remove/dwg/"
-          description: "Format Data Desain Autodesk"
-
-        - name: "Hapus Metadata DXF"
-          link: "/metadata/java/remove/dxf/"
-          description: "Pertukaran Gambar AutoCAD"
-
-        - name: "Hapus SATU Metadata"
-          link: "/metadata/java/remove/one/"
-          description: "Microsoft OneNote"
-
-        - name: "Hapus Metadata MP3"
-          link: "/metadata/java/remove/mp3/"
-          description: "Lapisan Audio MPEG III"
-
-        - name: "Hapus Metadata WAV"
-          link: "/metadata/java/remove/wav/"
-          description: "Format File Audio Bentuk Gelombang"
-
-        - name: "Hapus Metadata DICOM"
-          link: "/metadata/java/remove/dicom/"
-          description: "Pencitraan Digital &amp; Kom dalam Kedokteran"
-
-        - name: "Hapus Metadata AVI"
-          link: "/metadata/java/remove/avi/"
-          description: "File Interleave Audio Video"
-
-        - name: "Hapus Metadata VSD"
-          link: "/metadata/java/remove/vsd/"
-          description: "Gambar Microsoft Visio 2003-2010"
-
-        - name: "Hapus Metadata VSDX"
-          link: "/metadata/java/remove/vsdx/"
-          description: "Gambar Microsoft Visio"
-
-        - name: "Hapus Metadata VSS"
-          link: "/metadata/java/remove/vss/"
-          description: "Microsoft Visio 2003-2010 Stensil"
-
-        - name: "Hapus Metadata VDX"
-          link: "/metadata/java/remove/vdx/"
-          description: "Gambar XML Microsoft Visio 2003-2010"
-
-        - name: "Hapus Metadata VSX"
-          link: "/metadata/java/remove/vsx/"
-          description: "Stensil XML Microsoft Visio 2003-2010"
-
-        - name: "Hapus Metadata ZIP"
-          link: "/metadata/java/remove/zip/"
-          description: "Format File Arsip"
-
-        - name: "Hapus Metadata EPUB"
-          link: "/metadata/java/remove/epub/"
-          description: "Format File E-Book Digital"
-
-        - name: "Hapus Metadata VCF"
-          link: "/metadata/java/remove/vcf/"
-          description: "Kartu Nama Elektronik"
-
-        - name: "Hapus Metadata VCR"
-          link: "/metadata/java/remove/vcr/"
-          description: "kartu v"
-
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

@@ -1,21 +1,26 @@
 ---
-layout: "auto-gen"
-date: 2022-07-07T12:44:18+03:00
+############################# Static ############################
+layout: "auto-gen-metadata"
+date: 2023-06-14T09:37:50
 draft: false
+otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm djvu dicom dcm bmp avi asf mkv one otc djvu
 
-head_title: "Hapus Metadata dari DOC File di C# .NET Applications"
-head_description: "C# .NET metadata processing API untuk menghapus informasi metadata dari file DOC. Bekerja dengan standar metadata XMP, EXIF, IPTC, ID3 dll."
+############################# Head ############################
+head_title: "Remove Metadata to DOC Files in C# .NET Applications"
+head_description: "C# .NET metadata processing API to remove metadata information to DOC files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
-title: "Hapus Metadata dari File DOC di C#"
-description: "Hapus informasi metadata dari berbagai dokumen, gambar, audio &amp; format file video menggunakan GroupDocs.Metadata untuk .NET API."
+############################# Header ############################
+title: "Remove Metadata From DOC File In C#"
+description: "Remove metadata information from a variety of documents, images, audio & video file formats using GroupDocs.Metadata for .NET API."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Unduh Uji Coba Gratis"
+    label: "Download Free Trial"
     link: "https://downloads.groupdocs.com/metadata/net"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,276 +33,87 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/metadata/net"
-              text: "Referensi API"
+              text: "{submenu.content_middle.button_text_1}"
 
+            # button loop
             - link: "https://github.com/groupdocs-metadata"
-              text: "Contoh Kode"
+              text: "{submenu.content_middle.button_text_2}"
 
+            # button loop
             - link: "https://products.groupdocs.app/metadata/family"
-              text: "Demo Langsung"
+              text: "{submenu.content_middle.button_text_3}"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/net"
-              text: "Harga"
+              text: "{submenu.content_middle.button_text_4}"
 
     right:
         link_download: "https://downloads.groupdocs.com/metadata"
         link_learn: "https://docs.groupdocs.com/metadata/net"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "Tentang GroupDocs.Metadata untuk .NET API"
+    title: "About GroupDocs.Metadata for .NET API"
     content: |
-        [GroupDocs.Metadata for .NET](/id/metadata/net/) menawarkan serangkaian fitur manipulasi metadata yang canggih, memungkinkan pengembang untuk dengan mudah membaca, mengedit, menghapus, mencari, membandingkan, mengganti, dan mengekspor informasi metadata dari gambar dan format dokumen tanpa menggunakan perangkat lunak eksternal apa pun. Gunakan API manajemen metadata untuk menghapus detail metadata dari PDF, Microsoft Office Word, spreadsheet Excel, presentasi PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Arsip dan format file Multimedia bersama dengan banyak fitur pemrosesan metadata lainnya.
+        [GroupDocs.Metadata for .NET](/id/metadata/net/) offers an advanced set of metadata manipulation features, allowing developers to easily read, edit, remove, search, compare, replace and export metadata information from images and document formats without using any external software. Use metadata management API to delete metadata details from PDF, Microsoft Office Word, Excel spreadsheets, PowerPoint presentations, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats along with many other metadata processing features.
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "Langkah-langkah untuk Menghapus DOC Metadata di C#"
+    title_left: "Steps for Removing DOC Metadata in C#"
     content_left: |
-        [GroupDocs.Metadata](/id/metadata/net/) memudahkan pengembang .NET untuk menghapus detail metadata dari file DOC dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
-
-        * Muat DOC dengan instance kelas Metadata.
-        * Gunakan predikat untuk menemukan properti metadata yang diinginkan.
-        * Gunakan metode Metadata.RemoveProperties untuk menghapus properti.
-        * Simpan kembali perubahan dalam format DOC.
+        [GroupDocs.Metadata for .NET](/id/metadata/net/) makes it easy for .NET developers to remove  metadata details to DOC files from within their applications by implementing a few easy steps.
         
-    title_right: "Persyaratan sistem"
+        * Load DOC with an instance of Metadata class.
+        * Use a predicate to find desired metadata properties.
+        * Use Metadata.RemoveProperties method to remove the properties.
+        * Save the changes back in DOC format.
+
+    title_right: "System Requirements"
     content_right: |
-        GroupDocs.Metadata untuk .NET API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
+        GroupDocs.Metadata for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
-        * Sistem Operasi: Microsoft Windows, Linux, MacOS
-        * Lingkungan Pengembangan: Visual Studio, Xamarin, MonoDevelop
-        * Kerangka: .NET Framework, .NET Standard, .NET Core, Mono
-        * Unduh versi terbaru GroupDocs.Metadata untuk .NET dari [NuGet](https://www.nuget.org/packages/groupdocs.metadata)
-        
+        * Operating Systems: Microsoft Windows, Linux, MacOS
+        * Development Environments: Visual Studio, Xamarin, MonoDevelop
+        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        * Download the latest version of GroupDocs.Metadata for .NET from [NuGet](https://www.nuget.org/packages/groupdocs.metadata)
+         
     code: |
-        ```cs
+        ```csharp    
         using (var metadata = new GroupDocs.Metadata.Metadata("input.doc"))
         {
-        
-        		// Hapus semua penyebutan orang yang berkontribusi dalam pembuatan file
-        		// Hapus semua properti dengan nama yang ditentukan
-        		var affected = metadata.RemoveProperties(p => p.Tags.Any(t => t.Category == Tags.Person) || p.Name == "CustomProperty");
-        
-        		Console.WriteLine("Affected properties: {0}", affected);
-        
-        		metadata.Save("output.doc");
+            // Remove all mentions of any people contributed in file creation
+            // Remove all properties with the specified name
+            var affected = metadata.RemoveProperties(p => p.Tags.Any(t => t.Category == Tags.Person) || p.Name == "CustomProperty");
+            Console.WriteLine("Affected properties: {0}", affected);
+            metadata.Save("output.doc");
         }
         ```
-        
+
+############################# Demos ############################
 demos:
     enable: true
-    title: "Demo Langsung Penghapusan Metadata"
+    title: "Metadata Removal Live Demos"
     content: |
-        Hapus informasi metadata file DOC sekarang juga dengan mengunjungi situs web [GroupDocs.Metadata](https://products.groupdocs.app/metadata/family).  
-        Demo langsung memiliki manfaat sebagai berikut
+       Delete metadata information of DOC file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.
+       The live demo has the following benefits.
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-file-doc"
-          title: "Tentang Format Berkas DOC"
-          content: |
-            File dengan ekstensi .DOC mewakili dokumen yang dihasilkan oleh Microsoft Word atau dokumen pengolah kata lainnya dalam format file biner. Ekstensi awalnya digunakan untuk dokumentasi teks biasa pada beberapa sistem operasi yang berbeda. Ini dapat berisi beberapa jenis data yang berbeda seperti gambar, diformat serta teks biasa, grafik, bagan, objek yang disematkan, tautan, halaman, pemformatan halaman, pengaturan cetak, dan banyak lainnya. Format ini populer untuk semua jenis dokumentasi karena berbagai opsi yang ditawarkannya kepada pengguna untuk menulis manual, proposal, spesifikasi, resume, artikel, atau dokumen serupa lainnya. Versi terbaru dari DOC adalah DOCX yang didasarkan pada Office OpenXML yang spesifikasinya tersedia secara terbuka.
 
-          link: "https://docs.fileformat.com/word-processing/doc/"
-
+############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Menghapus Properti Metadata Dari Format File Lain"
+    title: "Deleting Metadata Properties From Other File Formats"
     content: |
-        Dokumen multi format dan API penghapusan metadata gambar untuk .NET. Hapus metadata dari beberapa format file populer seperti yang dinyatakan di bawah ini.
-    format: 
-        - name: "Hapus Metadata PDF"
-          link: "/metadata/net/remove/pdf/"
-          description: "Format Dokumen Portabel Adobe"
+        Multi format documents and images metadata deletion API for .NET. Retrieve metadata of some of the popular file formats as stated below.
 
-        - name: "Hapus DOC Metadata"
-          link: "/metadata/net/remove/doc/"
-          description: "Dokumen Microsoft Word"
-
-        - name: "Hapus Metadata DOCM"
-          link: "/metadata/net/remove/docm/"
-          description: "Dokumen Berkemampuan Makro Microsoft Word"
-
-        - name: "Hapus Metadata DOCX"
-          link: "/metadata/net/remove/docx/"
-          description: "Microsoft Word Buka Dokumen XML"
-
-        - name: "Hapus Metadata DOT"
-          link: "/metadata/net/remove/dot/"
-          description: "Templat Dokumen Microsoft Word"
-
-        - name: "Hapus Metadata DOTX"
-          link: "/metadata/net/remove/dotx/"
-          description: "Templat Dokumen XML Word Terbuka"
-
-        - name: "Hapus Metadata XLS"
-          link: "/metadata/net/remove/xls/"
-          description: "Format File Biner Microsoft Excel"
-
-        - name: "Hapus Metadata XLSX"
-          link: "/metadata/net/remove/xlsx/"
-          description: "Microsoft Excel Buka XML Spreadsheet"
-
-        - name: "Hapus Metadata XLSM"
-          link: "/metadata/net/remove/xlsm/"
-          description: "Spreadsheet Berkemampuan Makro Microsoft Excel"
-
-        - name: "Hapus Metadata XLTM"
-          link: "/metadata/net/remove/xltm/"
-          description: "Templat Buku Kerja yang Diaktifkan Makro OOXML"
-
-        - name: "Hapus Metadata PPT"
-          link: "/metadata/net/remove/ppt/"
-          description: "Presentasi powerpoint"
-
-        - name: "Hapus Metadata PPS"
-          link: "/metadata/net/remove/pps/"
-          description: "Pertunjukan Slide Microsoft PowerPoint"
-
-        - name: "Hapus Metadata PPTX"
-          link: "/metadata/net/remove/pptx/"
-          description: "Presentasi PowerPoint Terbuka XML"
-
-        - name: "Hapus Metadata PPSX"
-          link: "/metadata/net/remove/ppsx/"
-          description: "PowerPoint Terbuka XML Slide Show"
-
-        - name: "Hapus Metadata POTX"
-          link: "/metadata/net/remove/potx/"
-          description: "Templat XML Terbuka Microsoft PowerPoint"
-
-        - name: "Hapus Metadata POTM"
-          link: "/metadata/net/remove/potm/"
-          description: "Templat Microsoft PowerPoint"
-
-        - name: "Hapus Metadata PPTM"
-          link: "/metadata/net/remove/pptm/"
-          description: "Presentasi Microsoft PowerPoint"
-
-        - name: "Hapus Metadata PPSM"
-          link: "/metadata/net/remove/ppsm/"
-          description: "Pertunjukan Slide Microsoft PowerPoint"
-
-        - name: "Hapus Metadata ODS"
-          link: "/metadata/net/remove/ods/"
-          description: "Buka Spreadsheet Dokumen"
-
-        - name: "Hapus Metadata ODT"
-          link: "/metadata/net/remove/odt/"
-          description: "Buka Teks Dokumen"
-
-        - name: "Hapus Metadata TIFF"
-          link: "/metadata/net/remove/tiff/"
-          description: "Format File Gambar yang Ditandai"
-
-        - name: "Hapus Metadata JPEG"
-          link: "/metadata/net/remove/jpeg/"
-          description: "Gambar JPEG"
-
-        - name: "Hapus Metadata PNG"
-          link: "/metadata/net/remove/png/"
-          description: "Grafik Jaringan Portabel"
-
-        - name: "Hapus Metadata GIF"
-          link: "/metadata/net/remove/gif/"
-          description: "File Format Pertukaran Grafis"
-
-        - name: "Hapus Metadata BMP"
-          link: "/metadata/net/remove/bmp/"
-          description: "Format File Bitmap"
-
-        - name: "Hapus Metadata JP2"
-          link: "/metadata/net/remove/jp2/"
-          description: "File Gambar Inti JPEG 2000"
-
-        - name: "Hapus Metadata WEBP"
-          link: "/metadata/net/remove/webp/"
-          description: "Format File Gambar Web Raster"
-
-        - name: "Hapus Metadata PSD"
-          link: "/metadata/net/remove/psd/"
-          description: "Dokumen Adobe Photoshop"
-
-        - name: "Hapus Metadata WMF"
-          link: "/metadata/net/remove/wmf/"
-          description: "Metafile Windows"
-
-        - name: "Hapus Metadata EMF"
-          link: "/metadata/net/remove/emf/"
-          description: "Format Metafile yang Ditingkatkan"
-
-        - name: "Hapus Metadata MPP"
-          link: "/metadata/net/remove/mpp/"
-          description: "Dokumen Proyek Microsoft"
-
-        - name: "Hapus Metadata MSG"
-          link: "/metadata/net/remove/msg/"
-          description: "Pesan Email Microsoft Outlook"
-
-        - name: "Hapus Metadata EML"
-          link: "/metadata/net/remove/eml/"
-          description: "Pesan email"
-
-        - name: "Hapus Metadata DWG"
-          link: "/metadata/net/remove/dwg/"
-          description: "Format Data Desain Autodesk"
-
-        - name: "Hapus Metadata DXF"
-          link: "/metadata/net/remove/dxf/"
-          description: "Pertukaran Gambar AutoCAD"
-
-        - name: "Hapus SATU Metadata"
-          link: "/metadata/net/remove/one/"
-          description: "Microsoft OneNote"
-
-        - name: "Hapus Metadata MP3"
-          link: "/metadata/net/remove/mp3/"
-          description: "Lapisan Audio MPEG III"
-
-        - name: "Hapus Metadata WAV"
-          link: "/metadata/net/remove/wav/"
-          description: "Format File Audio Bentuk Gelombang"
-
-        - name: "Hapus Metadata DICOM"
-          link: "/metadata/net/remove/dicom/"
-          description: "Pencitraan Digital &amp; Kom dalam Kedokteran"
-
-        - name: "Hapus Metadata AVI"
-          link: "/metadata/net/remove/avi/"
-          description: "File Interleave Audio Video"
-
-        - name: "Hapus Metadata VSD"
-          link: "/metadata/net/remove/vsd/"
-          description: "Gambar Microsoft Visio 2003-2010"
-
-        - name: "Hapus Metadata VSDX"
-          link: "/metadata/net/remove/vsdx/"
-          description: "Gambar Microsoft Visio"
-
-        - name: "Hapus Metadata VSS"
-          link: "/metadata/net/remove/vss/"
-          description: "Microsoft Visio 2003-2010 Stensil"
-
-        - name: "Hapus Metadata VDX"
-          link: "/metadata/net/remove/vdx/"
-          description: "Gambar XML Microsoft Visio 2003-2010"
-
-        - name: "Hapus Metadata VSX"
-          link: "/metadata/net/remove/vsx/"
-          description: "Stensil XML Microsoft Visio 2003-2010"
-
-        - name: "Hapus Metadata ZIP"
-          link: "/metadata/net/remove/zip/"
-          description: "Format File Arsip"
-
-        - name: "Hapus Metadata EPUB"
-          link: "/metadata/net/remove/epub/"
-          description: "Format File E-Book Digital"
-
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

@@ -1,0 +1,48 @@
+{
+  "head": {
+    "title": "Edit Metadata to {{EXT}} Files in {{ProgLang}} {{ProductName}} Applications",
+    "description": "{{ProgLang}} {{ProductName}} metadata processing API to edit metadata information to {{EXT}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+  },
+  "header": {
+    "title": "Update Metadata Of {{EXT}} File  In {{ProgLang}}",
+    "description": "Update metadata information from all popular documents, images and multimedia file formats with the support of performing all most-needed metadata processing operations.",
+    "button_label": "Download Free Trial"
+  },
+  "about": {
+    "title": "About {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/metadata/{{ProductCode}}/) offers an advanced set of metadata management features, allowing developers to easily read, doc, delete, find, compare, replace and export metadata information from images and document formats without using any external software. Use metadata manipulation API to edit metadata details from PDF, Microsoft Office Word, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats along with the support for working with many other metadata processing features.",
+  },
+  "steps": {
+    "title_left": "Steps for Updating Metadata to {{EXT}} in {{ProgLang}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/metadata/{{ProductCode}}/) makes it easy for {{ProductName}} developers to edit metadata information to {{EXT}} files from within their applications by implementing a few easy steps.",
+      "step_1": "Load {{EXT}} filevia an instance of Metadata class.",
+      "step_2": "Specify a predicate that will be used to filter desired metadata properties.",
+      "step_3": "Pass the predicate and the new value to the UpdateProperties method.",
+      "step_4": "Save the changes to disc in {{EXT}} format.",
+    },
+    "title_right": "System Requirements",
+    "content_right": {
+      "description": "{{ProductFullName}} APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.",
+      "step_1": "Operating Systems: Microsoft Windows, Linux, MacOS",
+      "step_2": "Development Environments: {{DevEnv}}",
+      "step_3": "Frameworks",
+      "step_4": "Download the latest version of {{ProductFullName}} from [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "How to adding Metaddata {{EXT}} file using {{ProgLang}} example code",
+    "code": {
+     "set_comment": "set the value of each property that satisfies the predicate:",
+     "prop_comment": "property contains the date/time the document was created",
+     "update_comment": "update the file creation date/time if the existing value is older than 3 days"
+    }
+  },
+  "demos": {
+    "title": "Live Demos to Update Metadata",
+    "h1": "Update metadata information to {{EXT}} file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.",
+    "h2": "The live demo has the following benefits."
+  },
+  "more_formats": {
+    "title": "Updating Metadata Properties From Other File Formats",
+    "content": "Multi format documents and images metadata editing API for {{ProductName}}. Retrieve metadata of some of the popular file formats as stated below."
+  }
+}

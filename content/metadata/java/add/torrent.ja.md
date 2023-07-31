@@ -1,21 +1,26 @@
 ---
-layout: "auto-gen"
-date: 2021-05-20T16:11:27+03:00
+############################# Static ############################
+layout: "auto-gen-metadata"
+date: 2023-06-14T09:36:32
 draft: false
+otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
-head_title: "JavaのTORRENTファイルにメタデータプロパティを追加する"
-head_description: "クロスプラットフォームのJavaメタデータAPIを使用して、メタデータフィールドを表示し、TORRENTファイルに追加します。メタデータ標準XMP、EXIF、IPTC、ID3などを操作します。"
+############################# Head ############################
+head_title: "Add Metadata to TORRENT Files in Java Java Applications"
+head_description: "Java Java metadata processing API to add metadata information to TORRENT files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
-title: "JavaのTORRENTにメタデータを追加する"
-description: "GroupDocs.Metadata for Java APIを使用して、メタデータプロパティをTORRENTやその他の多くの一般的なドキュメント、画像、マルチメディアファイル形式に追加します。"
+############################# Header ############################
+title: "Adding Metadata To TORRENT In Java"
+description: "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using GroupDocs.Metadata for Java."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "無料トライアルをダウンロード"
+    label: "Download Free Trial"
     link: "https://downloads.groupdocs.com/metadata/java"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,236 +33,87 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/metadata/java"
-              text: "APIリファレンス"
+              text: "{submenu.content_middle.button_text_1}"
 
+            # button loop
             - link: "https://github.com/groupdocs-metadata"
-              text: "コード例"
+              text: "{submenu.content_middle.button_text_2}"
 
+            # button loop
             - link: "https://products.groupdocs.app/metadata/family"
-              text: "ライブデモ"
+              text: "{submenu.content_middle.button_text_3}"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/java"
-              text: "価格設定"
+              text: "{submenu.content_middle.button_text_4}"
 
     right:
         link_download: "https://downloads.groupdocs.com/metadata"
         link_learn: "https://docs.groupdocs.com/metadata/java"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Metadata for Java APIについて"
+    title: "About GroupDocs.Metadata for Java API"
     content: |
-        [GroupDocs.Metadata for Java](/metadata/java/)は、外部ソフトウェアを使用せずに、画像やドキュメント形式からメタデータ情報を簡単に表示、更新、削除、検索、比較、交換、エクスポートできる高度なメタデータフィールド管理および操作ソリューションです。 。メタデータの詳細をWord文書、Excelスプレッドシート、PowerPointプレゼンテーション、Outlook電子メール、OneNote、Visio、Project、PDF、AutoCAD、ZIp、オーディオおよびビデオファイル形式に追加し、他の多くのメタデータ処理機能の操作をサポートします。
+        [GroupDocs.Metadata for Java](/ja/metadata/java/) is an advanced metadata fields management and manipulation solution to easily view, update, remove, find, compare, exchange and export metadata information from images and document formats without using any external software. Add metadata details to Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "JavaでTORRENTにメタデータを追加する手順"
+    title_left: "Steps for adding Metadata to TORRENT in Java"
     content_left: |
-        [GroupDocs.Metadata](/metadata/java/)を使用すると、Java開発者は、いくつかの簡単な手順を実装することで、アプリケーション内からTORRENTファイルにメタデータフィールドを簡単に追加できます。
-
-        * 更新するTORRENTファイルをロードします。
-        * メタデータプロパティの追加に使用される述語を指定します。
-        * 選択したプロパティに割り当てる値を指定します。
-        * 述語をAddPropertiesメソッドに渡します。
-        * 追加されたプロパティの実際の数を確認してください。
-        * 変更を保存します。
+        [GroupDocs.Metadata for Java](/ja/metadata/java/) makes it easy for Java developers to add metadata details to TORRENT files from within their applications by implementing a few easy steps.
         
-    title_right: "システム要求"
+        * Load TORRENT with an instance of Metadata class.
+        * Use Metadata.AddProperties method to add the properties.
+        * Use a predicate to find desired metadata properties.
+        * Save the changes back in TORRENT format.
+
+    title_right: "System Requirements"
     content_right: |
-        GroupDocs.Metadata for Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        GroupDocs.Metadata for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
-        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        * 開発環境：NetBeans、Intellij IDEA、Eclipseなど
-        * Javaランタイム環境：J2SE6.0以降
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)からJava用のGroupDocs.Metadataの最新バージョンを入手します。
-        
+        * Operating Systems: Microsoft Windows, Linux, MacOS
+        * Development Environments: NetBeans, IntelliJ IDEA, Eclipse
+        * Java Runtime Environments: J2SE 6.0 and above
+        * Get the latest version of  GroupDocs.Metadata for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
+         
     code: |
-        ```java
-        //メタデータクラスのインスタンスにファイルをロードします
-        try (Metadata metadata = new Metadata("input.torrent")) {
-        
-        	//コンテンツ作成者を含むプロパティを追加します
-        	int affected = metadata.addProperties(new ContainsTagSpecification(Tags.getTime().getPrinted()), new PropertyValue(new Date()));
-        
-        	System.out.println(String.format("Affected properties: %s", affected));
-        
-        	metadata.save("output.torrent");
+        ```java    
+        // {steps.code.load_comment}
+        try (Metadata metadata = new Metadata("input.torrent"))
+        {
+            // add a property containing the content author
+            int affected = metadata.addProperties(new ContainsTagSpecification(Tags.getTime().getPrinted()), new PropertyValue(new Date()));
+            System.out.println(String.format("Affected properties: %s", affected));
+            metadata.save("output.torrent");
         }
         ```
-        
+
+############################# Demos ############################
 demos:
     enable: true
-    title: "メタデータを追加するためのライブデモ"
+    title: "Live Demos to Add Metadata"
     content: |
-        [GroupDocs.Metadataライブデモ](https://products.groupdocs.app/metadata/family)サイトにアクセスして、今すぐTORRENTファイルにメタデータ情報を追加してください。  
-        ライブデモには次の利点があります
+       Add metadata information to TORRENT file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.
+       The live demo has the following benefits.
         
+############################# About Formats ############################
 about_formats:
-    enable: false
-    format:
-        - icon: "far fa-file-torrent"
-          title: "トレントファイル形式について"
-          content: |
-            {{トレント}}
+    enable: true
 
-          link: "/{{torrent_url}}/"
-
+############################# More Formats ############################
 more_formats:
-    enable: false
-    title: "他のファイル形式へのメタデータプロパティの追加"
+    enable: true
+    title: "Adding Metadata Properties To Other File Formats"
     content: |
-        マルチフォーマットのドキュメントや画像にメタデータを追加するためのJavaAPI。以下に示すように、いくつかの一般的なファイル形式のメタデータの詳細を設定します。
-    format: 
-          link: "/metadata/java/add/pdf/"
-          description: "AdobePortableドキュメント形式"
+        Multi format documents and images metadata addition API for Java. Retrieve metadata of some of the popular file formats as stated below.
 
-          link: "/metadata/java/add/doc/"
-          description: "MicrosoftWordドキュメント"
-
-          link: "/metadata/java/add/docm/"
-          description: "MicrosoftWordマクロ対応ドキュメント"
-
-          link: "/metadata/java/add/docx/"
-          description: "Microsoft WordOpenXMLドキュメント"
-
-          link: "/metadata/java/add/dot/"
-          description: "MicrosoftWord文書テンプレート"
-
-          link: "/metadata/java/add/dotx/"
-          description: "WordOpenXMLドキュメントテンプレート"
-
-          link: "/metadata/java/add/xls/"
-          description: "MicrosoftExcelバイナリファイル形式"
-
-          link: "/metadata/java/add/xlsx/"
-          description: "Microsoft ExcelOpenXMLスプレッドシート"
-
-          link: "/metadata/java/add/xlsm/"
-          description: "MicrosoftExcelマクロ対応スプレッドシート"
-
-          link: "/metadata/java/add/xltx/"
-          description: "OOXMLマクロ対応ワークブックテンプレート"
-
-          link: "/metadata/java/add/ppt/"
-          description: "PowerPointプレゼンテーション"
-
-          link: "/metadata/java/add/pps/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "/metadata/java/add/pptx/"
-          description: "PowerPointOpenXMLプレゼンテーション"
-
-          link: "/metadata/java/add/ppsx/"
-          description: "PowerPointOpenXMLスライドショー"
-
-          link: "/metadata/java/add/potx/"
-          description: "Microsoft PowerPointOpenXMLテンプレート"
-
-          link: "/metadata/java/add/potm/"
-          description: "MicrosoftPowerPointテンプレート"
-
-          link: "/metadata/java/add/pptm/"
-          description: "MicrosoftPowerPointプレゼンテーション"
-
-          link: "/metadata/java/add/ppsm/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "/metadata/java/add/ods/"
-          description: "ドキュメントスプレッドシートを開く"
-
-          link: "/metadata/java/add/odt/"
-          description: "ドキュメントテキストを開く"
-
-          link: "/metadata/java/add/tiff/"
-          description: "タグ付き画像ファイル形式"
-
-          link: "/metadata/java/add/jpeg/"
-          description: "JPEG画像"
-
-          link: "/metadata/java/add/png/"
-          description: "ポータブルネットワークグラフィック"
-
-          link: "/metadata/java/add/gif/"
-          description: "グラフィカルな交換フォーマットファイル"
-
-          link: "/metadata/java/add/bmp/"
-          description: "ビットマップファイル形式"
-
-          link: "/metadata/java/add/jp2/"
-          description: "JPEG2000コア画像ファイル"
-
-          link: "/metadata/java/add/webp/"
-          description: "ラスターWeb画像ファイル形式"
-
-          link: "/metadata/java/add/psd/"
-          description: "AdobePhotoshopドキュメント"
-
-          link: "/metadata/java/add/wmf/"
-          description: "Windowsメタファイル"
-
-          link: "/metadata/java/add/emf/"
-          description: "強化されたメタファイル形式"
-
-          link: "/metadata/java/add/emz/"
-          description: "MicrosoftProjectドキュメント"
-
-          link: "/metadata/java/add/msg/"
-          description: "MicrosoftOutlookの電子メールメッセージ"
-
-          link: "/metadata/java/add/eml/"
-          description: "電子メールメッセージ"
-
-          link: "/metadata/java/add/dwg/"
-          description: "Autodesk Design Data Formats"
-
-          link: "/metadata/java/add/dxf/"
-          description: "AutoCAD Drawing Interchange"
-
-          link: "/metadata/java/add/one/"
-          description: "Microsoft OneNote"
-
-          link: "/metadata/java/add/mp3/"
-          description: "MPEGオーディオレイヤーIII"
-
-          link: "/metadata/java/add/wav/"
-          description: "波形オーディオファイル形式"
-
-          link: "/metadata/java/add/dicom/"
-          description: "デジタルイメージング＆amp;医学のコミュニケーション"
-
-          link: "/metadata/java/add/avi/"
-          description: "オーディオビデオインターリーブファイル"
-
-          link: "/metadata/java/add/vsd/"
-          description: "MicrosoftVisio2003-2010図面"
-
-          link: "/metadata/java/add/vsdx/"
-          description: "MicrosoftVisio図面"
-
-          link: "/metadata/java/add/vss/"
-          description: "MicrosoftVisio2003-2010ステンシル"
-
-          link: "/metadata/java/add/vdx/"
-          description: "Microsoft Visio2003-2010XML図面"
-
-          link: "/metadata/java/add/vsx/"
-          description: "Microsoft Visio2003-2010XMLステンシル"
-
-          link: "/metadata/java/add/zip/"
-          description: "アーカイブファイル形式"
-
-          link: "/metadata/java/add/epub/"
-          description: "デジタル電子書籍ファイル形式"
-
-          link: "/metadata/java/add/vcf/"
-          description: "電子名刺"
-
-          link: "/metadata/java/add/vcr/"
-          description: "vCard"
-
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

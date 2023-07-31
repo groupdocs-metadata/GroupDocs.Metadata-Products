@@ -1,4 +1,4 @@
-        {
+{
   "head": {
     "title": ".NET, Java APIs & Online Metadata Manipulation Apps by GroupDocs",
     "description": "Document Metadata APIs native to C# .NET & Java. Read, write, edit & compare meta information of all popular formats. Analyze & export metadata."
@@ -44,5 +44,5 @@
         "content": "View or edit Metadata information of PDF documents online."
       }
     }
-  } 
+  }
 }

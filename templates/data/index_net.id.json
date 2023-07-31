@@ -1,0 +1,192 @@
+{
+  "head": {
+    "title": ".NET Metadata Reader, Viewer, Extractor, Remover & Exporter API",
+    "description": "C# .NET metadata API untuk membaca, menulis, mengedit, menganalisis, mencari, mengekstrak, menghapus, membandingkan & mengekspor metadata dari PDF Word Excel PPTX Outlook Audio Video & Gambar."
+  },
+  "header": {
+    "title": ".NET API untuk Mengelola & Memanipulasi Metadata",
+    "description": "Bangun Aplikasi .NET untuk Membaca, Mengedit, Menghapus, Mengambil, Mencari, Membandingkan, Mengganti, dan Mengekspor Informasi Metadata dari semua Format File Dokumen & Gambar Populer."
+  },
+  "submenu": {
+    "middle": {
+      "overview": "Ringkasan",
+      "features": "Fitur",
+      "support": "Mendukung",
+      "livedemo": "Demo Langsung",
+      "pricing": "Harga"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Metadata untuk .NET API mudah diintegrasikan dengan C#, ASP.NET, dan aplikasi berbasis .NET lainnya untuk membantu pengguna akhir Anda memanipulasi metadata dari berbagai gambar, dokumen, dan format file media lainnya tanpa menginstal perangkat lunak eksternal apa pun. Pustaka metadata .NET mendukung alat pembuatan untuk menambahkan fungsionalitas penampil, editor, penghapus, ekstraktor, pembanding, dan pengekspor metadata dengan cepat dalam sejumlah format dokumen standar industri seperti PDF, Microsoft Office Word, spreadsheet Excel, presentasi PowerPoint, email Outlook, Proyek , diagram Visio, OneNote, gambar, AutoCAD, Photoshop, audio, video, dan metafile.",
+      "paragraph_2": "Metadata API sangat fleksibel dan mudah dioperasikan. Itu mendapatkan file dokumen sebagai input, menganalisis informasi metadata, memungkinkan untuk melakukan operasi data meta yang didukung dan menyimpan file yang dimodifikasi untuk diakses dengan cepat untuk digunakan di masa mendatang. Ini bekerja dengan sebagian besar standar metadata terkenal seperti bawaan, XMP, EXIF, IPTC, Blok Sumber Daya Gambar, ID3, dan properti metadata khusus. Melalui GroupDocs.Metadata untuk .NET API, Anda juga dapat membandingkan dua dokumen untuk mengidentifikasi perbedaan dan persamaan yang ada dalam properti metadatanya. Anda juga dapat mengekspor metadata dari dokumen yang diperlukan ke Excel, CSV, atau Kumpulan Data.",
+      "paragraph_3": "GroupDocs.Metadata untuk .NET dapat digunakan untuk mengembangkan aplikasi di lingkungan pengembangan apa pun yang menargetkan platform .NET. Ini kompatibel dengan semua bahasa berbasis .NET dan mendukung sistem operasi populer (Windows, Linux, MacOS) di mana kerangka Mono atau .NET (termasuk .NET Core) dapat diinstal."
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Berikut adalah ikhtisar GroupDocs.Metadata untuk .NET:",
+      "left": {
+        "title": "Bekerja dengan Gambar",
+        "content": {
+          "line_1": "Metadata XMP",
+          "line_2": "Metadata EXIF",
+          "line_3": "Metadata IPTC-IIM",
+          "line_4": "Metadata PSD",
+          "line_5": "Metadata CAD",
+          "line_6": "Parsing Tag IFD Tambahan"
+        }
+      },
+      "right": {
+        "title": "Bekerja dengan Audio & Video",
+        "content": {
+          "line_1": "Deteksi Format MP3 Runtime",
+          "line_2": "Baca Lyrics3 Tag",
+          "line_3": "Baca Info Audio MPEG",
+          "line_4": "Baca Info Header AVI",
+          "line_5": "Baca subtitle Matroska",
+          "line_6": "Ekspor Data ke Excel atau CSV"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Metadata untuk .NET mendukung hal berikut",
+      "formats_url_title": "format file dokumen",
+      "left": {
+        "title": "Microsoft Office"
+      },
+      "right": {
+        "title": "Format Lainnya",
+        "content": {
+          "line_5": "Audio",
+          "line_6": "Video",
+          "line_9": "Gambar-gambar",
+          "line_11": "Font Tipe Terbuka",
+          "line_12": "Yang lain"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Metadata untuk .NET mendukung Sistem Operasi, Kerangka Kerja & Manajer Paket berikut:",
+      "left": {
+        "title": "Sistem operasi",
+        "content": {
+          "line_1": "Dekstop Windows",
+          "line_2": "Server Windows",
+          "line_3": "Windows Azure",
+          "line_4": "Linux"
+        },
+        "title_2": "Framework yang Didukung",
+        "content_2": {
+          "line_1": ".NET Framework 2.0 atau lebih tinggi",
+          "line_2": "Mono Framework 1.2 atau lebih tinggi",
+          "line_3": ".NET Standar 2.0",
+          "line_4": ".NET Inti 2.0",
+          "line_5": ".NET Inti 2.1"
+        }
+      },
+      "right": {
+        "title": "Manajer Paket",
+        "content": {
+          "line_1": "* NuGet"
+        },
+        "title_2": "Lingkungan Pengembangan",
+        "content_2": {
+          "line_1": "*Microsoft Visual Studio",
+          "line_2": "* Xamarin.Android",
+          "line_3": "* Xamarin.IOS",
+          "line_4": "* Xamarin.Mac",
+          "line_5": "* MonoDevelop"
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Metadata untuk Fitur .NET",
+    "feature_1": {
+      "content": "Identifikasi Metadata Bawaan & Khusus"
+    },
+    "feature_2": {
+      "content": "Ambil & Hapus Data Tersembunyi di Microsoft Word, Excel, PowerPoint & PDF"
+    },
+    "feature_3": {
+      "content": "Pengenalan Jenis File Dokumen Run-time"
+    },
+    "feature_4": {
+      "content": "Kemampuan untuk Mendeteksi/Menghapus Tanda Tangan Digital"
+    },
+    "feature_5": {
+      "content": "Identifikasi Perlindungan & Dukungan Kata Sandi untuk Matroska Multimedia Container"
+    },
+    "feature_6": {
+      "content": "Ambil Thumbnail & Render Pratinjau Gambar untuk Format yang Didukung"
+    },
+    "feature_7": {
+      "content": "Deteksi Jenis MIME dari File atau Aliran File Tertentu"
+    },
+    "feature_8": {
+      "content": "Hasilkan Pratinjau Gambar untuk File EPUB, CAD, EML & MSG"
+    },
+    "feature_9": {
+      "content": "Gunakan Kunci Ditetapkan untuk Membaca Properti Metadata dari Format yang Didukung"
+    },
+    "feature_10": {
+      "content": "Baca Metadata Pesan Email & Parsing File Font OpenType"
+    },
+    "feature_11": {
+      "content": "Baca subtitle Matroska dan ambil Metadata File Audio & Video"
+    },
+    "feature_12": {
+      "content": "Dapatkan Metadata format Arsip & Torrent"
+    },
+    "feature_13": {
+      "content": "Bandingkan Properti Metadata dari Format yang Didukung & Perbedaan atau Kemiripan Identitas"
+    },
+    "feature_14": {
+      "content": "Cari Properti Metadata dari File dan Hitung semua Jenis Metadata"
+    },
+    "feature_15": {
+      "content": "Ganti Properti Metadata dari Format File yang Didukung"
+    },
+    "feature_16": {
+      "content": "Ekstrak Metadata dari File Microsoft Excel Mulai dari Excel 95"
+    },
+    "feature_17": {
+      "content": "Temukan Foto yang Dibuat di Kamera Tertentu"
+    },
+    "feature_18": {
+      "content": "Impor Properti Metadata Gambar & Hapus Info Lokasi dari Foto"
+    },
+    "feature_19": {
+      "content": "Hapus Metadata & Komentar Dari Laporan dan Dokumen"
+    },
+    "feature_20": {
+      "content": "Ekstrak Metadata Teks dari file Gambar PNG"
+    },
+    "feature_21": {
+      "content": "Mengurangi Konsumsi Memori Dokumen & Gambar"
+    },
+    "feature_22": {
+      "content": "Perbarui Properti Metadata EXIF ​​di File WEBP, PNG & PSD"
+    },
+    "feature_23": {
+      "content": "Ekstrak Properti Metadata XMP dalam File MOV, MP3 & WEBP"
+    },
+    "feature_24": {
+      "content": "Tambah, Perbarui, dan Hapus Paket Metadata IPTC di Gambar TIFF"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "Mengambil Properti Metadata dengan Cepat",
+      "content": "Menggunakan GroupDocs.Metadata untuk .NET API, memanipulasi segala jenis metadata untuk format file yang didukung adalah bisnis yang sangat mudah. Sepotong kode berikut menunjukkan betapa mudahnya menghapus metadata Photoshop dari file JPEG menggunakan C#:"
+    },
+    "feature_2": {
+      "title": "Pengambilan dan Manipulasi Data Tersembunyi",
+      "content": "GroupDocs.Metadata untuk .NET menyediakan mekanisme praktis untuk mengambil dan menghapus data tersembunyi di PDF serta dokumen Microsoft Word, Excel, dan PowerPoint. Anda dapat memanipulasi komentar, menggabungkan bidang, halaman tersembunyi, bidang formulir, anotasi, dan lainnya."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Metadata menawarkan API tampilan dokumen untuk lingkungan pengembangan populer lainnya"
+  }
+}

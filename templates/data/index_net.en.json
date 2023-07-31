@@ -7,9 +7,9 @@
     "title": ".NET API to Manage & Manipulate Metadata",
     "description": "Build .NET Applications to Read, Edit, Remove, Retrieve, Search, Compare, Replace and Export Metadata Information of all Popular Documents & Image File Formats."
   },
-  "submenu":{
+  "submenu": {
     "middle": {
-      "overview": "Overview",           
+      "overview": "Overview",
       "features": "Features",
       "support": "Support",
       "livedemo": "Live Demo",
@@ -45,7 +45,7 @@
           "line_3": "Read MPEG Audio Info",
           "line_4": "Read AVI Header Info",
           "line_5": "Read Matroska subtitles",
-          "line_6": "Export Data to Excel or CSV",
+          "line_6": "Export Data to Excel or CSV"
         }
       }
     },
@@ -61,7 +61,7 @@
           "line_5": "Audio",
           "line_6": "Video",
           "line_9": "Images",
-          "line_11": "OpenType Fonts",
+          "line_11": "OpenType",
           "line_12": "Others"
         }
       }
@@ -104,10 +104,10 @@
   "features": {
     "title": "GroupDocs.Metadata for .NET Features",
     "feature_1": {
-        "content": "Identify Built-in & Custom Metadata"
+      "content": "Identify Built-in & Custom Metadata"
     },
-    "feature_2": {        
-        "content": "Retrieve & Remove Hidden Data in Microsoft Word, Excel, PowerPoint & PDF"
+    "feature_2": {
+      "content": "Retrieve & Remove Hidden Data in Microsoft Word, Excel, PowerPoint & PDF"
     },
     "feature_3": {
       "content": "Run-time Recognition of Document File Type"
@@ -176,17 +176,17 @@
       "content": "Add, Update and Delete IPTC Metadata Packages in TIFF Images"
     }
   },
-  "more_feature":{
-    "feature_1":{
+  "more_feature": {
+    "feature_1": {
       "title": "Quickly Fetching Metadata Properties",
       "content": "Using GroupDocs.Metadata for .NET API, manipulating any sort of metadata for supported file formats is pretty straight forward business. Following piece of code demonstrates how easy it is to remove Photoshop metadata from a JPEG file using C#:"
     },
-    "feature_2":{
+    "feature_2": {
       "title": "Retrieval and Manipulation of Hidden Data",
       "content": "GroupDocs.Metadata for .NET provides a handy mechanism to fetch and remove hidden data in PDF as well as Microsoft Word, Excel, and PowerPoint documents. You can manipulate comments, merge fields, hidden pages, form fields, annotations and more."
     }
   },
-  "solutions":  { 
+  "solutions": {
     "title": "GroupDocs.Metadata offers document viewing APIs for other popular development environments"
   }
 }

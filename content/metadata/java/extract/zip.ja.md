@@ -1,21 +1,26 @@
 ---
-layout: "auto-gen"
-date: 2021-05-20T16:11:53+03:00
+############################# Static ############################
+layout: "auto-gen-metadata"
+date: 2023-06-14T09:37:39
 draft: false
+otherformats: xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
-head_title: "表示＆amp; JavaアプリケーションでZIPファイルのメタデータを抽出する"
-head_description: "クロスプラットフォームのJavaメタデータ抽出APIを使用して、ZIPファイルのメタデータ情報を読み取って抽出します。メタデータ標準XMP、EXIF、IPTC、ID3などを操作します。"
+############################# Head ############################
+head_title: "Read & Extract Metadata of ZIP Files in Java Java Applications"
+head_description: "Cross platform Java Java metadata menagement API to read and extract metadata information of ZIP files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
-title: "JavaでZIPメタデータを抽出する"
-description: "GroupDocs.Metadata for Java APIと連携して、ドキュメント、画像、およびさまざまなマルチメディアファイル形式からメタデータ情報を抽出します."
+############################# Header ############################
+title: "Extract Metadata From ZIP File In Java"
+description: "Read & Extract metadata information from a wide range of documents, images, audio & video formats using GroupDocs.Metadata for Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "無料トライアルをダウンロード"
+    label: "Download Free Trial"
     link: "https://downloads.groupdocs.com/metadata/java"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,235 +33,92 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/metadata/java"
-              text: "APIリファレンス"
+              text: "{submenu.content_middle.button_text_1}"
 
+            # button loop
             - link: "https://github.com/groupdocs-metadata"
-              text: "コード例"
+              text: "{submenu.content_middle.button_text_2}"
 
+            # button loop
             - link: "https://products.groupdocs.app/metadata/family"
-              text: "ライブデモ"
+              text: "{submenu.content_middle.button_text_3}"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/java"
-              text: "価格設定"
+              text: "{submenu.content_middle.button_text_4}"
 
     right:
         link_download: "https://downloads.groupdocs.com/metadata"
         link_learn: "https://docs.groupdocs.com/metadata/java"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Metadata for Java APIについて"
+    title: "About GroupDocs.Metadata for Java API"
     content: |
-        [GroupDocs.Metadata for Java](/metadata/java/)は高度なメタデータ管理ソリューションであり、開発者は画像やドキュメント形式のメタデータ情報を使用せずに簡単に表示、追加、編集、削除、検索、比較、置換、エクスポートできます。外部ソフトウェア。 Microsoft Office Word、Excel、PowerPoint、Outlook、OneNote、Visio、Project、PDF、AutoCAD、アーカイブ、オーディオ、ビデオのファイル形式からメタデータの詳細を抽出します。
+        [GroupDocs.Metadata for Java](/ja/metadata/java/) offers an advanced set of metadata management and manipulation features, allowing developers to easily read, edit, remove, search, compare, replace and export metadata information from images and document formats without using any external software. Extract metadata details from PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats, and perform supported metadata operations with true flexibility.
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "JavaでのZIPメタデータ抽出の手順"
+    title_left: "Steps for ZIP Metadata Extraction in Java"
     content_left: |
-        [GroupDocs.Metadata](/metadata/java/)を使用すると、Java開発者は、いくつかの簡単な手順を実装することで、アプリケーション内からZIPファイルからメタデータ情報を簡単に取得できます。
-
-        * メタデータプロパティを検索するZIPファイルをロードします。
-        *抽出されたすべてのメタデータプロパティを調べるための述語を作成します。
-        * 述語をFindPropertiesメソッドに渡します。
-        * 見つかったプロパティを繰り返し処理します。
+        [GroupDocs.Metadata for Java](/ja/metadata/java/) makes it easy for Java developers to extract to read and extract metadata information from ZIP files from within their applications by implementing a few easy steps.
         
-    title_right: "システム要求"
+        * Load the ZIP with an instance of Metadata class.
+        * Make up a predicate to examine all metadata properties.
+        * Pass the predicate to the FindProperties method.
+        * Iterate through the found properties.
+
+    title_right: "System Requirements"
     content_right: |
-        GroupDocs.Metadata for Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        GroupDocs.Metadata for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
-        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        * 開発環境：NetBeans、Intellij IDEA、Eclipseなど
-        * Javaランタイム環境：J2SE6.0以降
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)からJava用のGroupDocs.Metadataの最新バージョンを入手します。
-        
+        * Operating Systems: Microsoft Windows, Linux, MacOS
+        * Development Environments: NetBeans, IntelliJ IDEA, Eclipse
+        * Java Runtime Environment: J2SE 6.0 and above
+        * Download the latest version of GroupDocs.Metadata for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
+         
     code: |
-        ```java
-        try (Metadata metadata = new Metadata("input.zip")) {
-        	if (metadata.getFileFormat() != FileFormat.Unknown && !metadata.getDocumentInfo().isEncrypted()) {
-        
-        		//特定のカテゴリに分類されるすべてのメタデータプロパティを取得します
-        		IReadOnlyList properties = metadata.findProperties(new FallsIntoCategorySpecification(Tags.getContent()));
-        		System.out.println("The metadata properties describing some characteristics of the file content: title, keywords, language, etc.");
-        		for (MetadataProperty property : properties) {
-        			System.out.println(String.format("Property name: %s, Property value: %s", property.getName(), property.getValue()));
-        		}
-        	}
+        ```java    
+        try (Metadata metadata = new Metadata("input.asf"))
+        {
+            if (metadata.getFileFormat() != FileFormat.Unknown && !metadata.getDocumentInfo().isEncrypted())
+            {
+                // Fetch all metadata properties that fall into a particular category
+                IReadOnlyList properties = metadata.findProperties(new FallsIntoCategorySpecification(Tags.getContent()));
+                System.out.println("The metadata properties describing some characteristics of the file content: title, keywords, language, etc.");
+                for (MetadataProperty property : properties) 
+                {
+                    System.out.println(String.format("Property name: %s, Property value: %s", property.getName(), property.getValue()));
+                }
+            }
         }
         ```
-        
+
+############################# Demos ############################
 demos:
     enable: true
-    title: "メタデータ抽出のライブデモ"
+    title: "Metadata Extraction Live Demos"
     content: |
-        [GroupDocs.Metadataライブデモ](https://products.groupdocs.app/metadata/family)サイトにアクセスして、ZIPファイルのメタデータ情報を今すぐ取得してください。  
-        ライブデモには次の利点があります
+       Retrieve metadata information of ZIP file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.
+       The live demo has the following benefits.
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-file-zip"
-          title: "ZIPファイル形式について"
-          content: |
-            ZIPファイル拡張子は、1つ以上のファイルまたはディレクトリを保持できるアーカイブを表します。アーカイブでは、ZIPファイルのサイズを小さくするために、含まれているファイルに圧縮を適用できます。 ZIPファイル形式は、ファイルとフォルダのアーカイブを実現するために、1989年2月にPhilKatzによって公開されました。このフォーマットは、PKWARE、Incによって作成されたPKZIPユーティリティの一部になりました。利用可能な仕様が利用可能になった直後、Microsoft（Windows 7以降）、Apple（Mac OS X）など、多くの企業がソフトウェアユーティリティの一部にZIPファイルフォーマットを作成しました。その他。
 
-          link: "https://docs.fileformat.com/compression/zip/"
-
+############################# More Formats ############################
 more_formats:
-    enable: false
-    title: "他のファイル形式のメタデータの表示と抽出"
+    enable: true
+    title: "Reading & Extracting Other File Formats"
     content: |
-        Java用のマルチフォーマットドキュメントおよび画像メタデータ抽出API。以下に示すように、いくつかの一般的なファイル形式のメタデータの詳細を取得します。
-    format: 
-          link: "/metadata/java/extract/pdf/"
-          description: "AdobePortableドキュメント形式"
+        Multi format documents and images metadata extraction API for Java. Retrieve metadata of some of the popular file formats as stated below.
 
-          link: "/metadata/java/extract/doc/"
-          description: "MicrosoftWordドキュメント"
-
-          link: "/metadata/java/extract/docm/"
-          description: "MicrosoftWordマクロ対応ドキュメント"
-
-          link: "/metadata/java/extract/docx/"
-          description: "Microsoft WordOpenXMLドキュメント"
-
-          link: "/metadata/java/extract/dot/"
-          description: "MicrosoftWord文書テンプレート"
-
-          link: "/metadata/java/extract/dotx/"
-          description: "WordOpenXMLドキュメントテンプレート"
-
-          link: "/metadata/java/extract/xls/"
-          description: "MicrosoftExcelバイナリファイル形式"
-
-          link: "/metadata/java/extract/xlsx/"
-          description: "Microsoft ExcelOpenXMLスプレッドシート"
-
-          link: "/metadata/java/extract/xlsm/"
-          description: "MicrosoftExcelマクロ対応スプレッドシート"
-
-          link: "/metadata/java/extract/xltx/"
-          description: "OOXMLマクロ対応ワークブックテンプレート"
-
-          link: "/metadata/java/extract/ppt/"
-          description: "PowerPointプレゼンテーション"
-
-          link: "/metadata/java/extract/pps/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "/metadata/java/extract/pptx/"
-          description: "PowerPointOpenXMLプレゼンテーション"
-
-          link: "/metadata/java/extract/ppsx/"
-          description: "PowerPointOpenXMLスライドショー"
-
-          link: "/metadata/java/extract/potx/"
-          description: "Microsoft PowerPointOpenXMLテンプレート"
-
-          link: "/metadata/java/extract/potm/"
-          description: "MicrosoftPowerPointテンプレート"
-
-          link: "/metadata/java/extract/pptm/"
-          description: "MicrosoftPowerPointプレゼンテーション"
-
-          link: "/metadata/java/extract/ppsm/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "/metadata/java/extract/ods/"
-          description: "ドキュメントスプレッドシートを開く"
-
-          link: "/metadata/java/extract/odt/"
-          description: "ドキュメントテキストを開く"
-
-          link: "/metadata/java/extract/tiff/"
-          description: "タグ付き画像ファイル形式"
-
-          link: "/metadata/java/extract/jpeg/"
-          description: "JPEG画像"
-
-          link: "/metadata/java/extract/png/"
-          description: "ポータブルネットワークグラフィック"
-
-          link: "/metadata/java/extract/gif/"
-          description: "グラフィカルな交換フォーマットファイル"
-
-          link: "/metadata/java/extract/bmp/"
-          description: "ビットマップファイル形式"
-
-          link: "/metadata/java/extract/jp2/"
-          description: "JPEG2000コア画像ファイル"
-
-          link: "/metadata/java/extract/webp/"
-          description: "ラスターWeb画像ファイル形式"
-
-          link: "/metadata/java/extract/psd/"
-          description: "AdobePhotoshopドキュメント"
-
-          link: "/metadata/java/extract/wmf/"
-          description: "Windowsメタファイル"
-
-          link: "/metadata/java/extract/emf/"
-          description: "強化されたメタファイル形式"
-
-          link: "/metadata/java/extract/emz/"
-          description: "MicrosoftProjectドキュメント"
-
-          link: "/metadata/java/extract/msg/"
-          description: "MicrosoftOutlookの電子メールメッセージ"
-
-          link: "/metadata/java/extract/eml/"
-          description: "電子メールメッセージ"
-
-          link: "/metadata/java/extract/dwg/"
-          description: "Autodesk Design Data Formats"
-
-          link: "/metadata/java/extract/dxf/"
-          description: "AutoCAD Drawing Interchange"
-
-          link: "/metadata/java/extract/one/"
-          description: "Microsoft OneNote"
-
-          link: "/metadata/java/extract/mp3/"
-          description: "MPEGオーディオレイヤーIII"
-
-          link: "/metadata/java/extract/wav/"
-          description: "波形オーディオファイル形式"
-
-          link: "/metadata/java/extract/dicom/"
-          description: "デジタルイメージング＆amp;医学のコミュニケーション"
-
-          link: "/metadata/java/extract/avi/"
-          description: "オーディオビデオインターリーブファイル"
-
-          link: "/metadata/java/extract/vsd/"
-          description: "MicrosoftVisio2003-2010図面"
-
-          link: "/metadata/java/extract/vsdx/"
-          description: "MicrosoftVisio図面"
-
-          link: "/metadata/java/extract/vss/"
-          description: "MicrosoftVisio2003-2010ステンシル"
-
-          link: "/metadata/java/extract/vdx/"
-          description: "Microsoft Visio2003-2010XML図面"
-
-          link: "/metadata/java/extract/vsx/"
-          description: "Microsoft Visio2003-2010XMLステンシル"
-
-          link: "/metadata/java/extract/zip/"
-          description: "アーカイブファイル形式"
-
-          link: "/metadata/java/extract/epub/"
-          description: "デジタル電子書籍ファイル形式"
-
-          link: "/metadata/java/extract/vcf/"
-          description: "電子名刺"
-
-          link: "/metadata/java/extract/vcr/"
-          description: "vCard"
-
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

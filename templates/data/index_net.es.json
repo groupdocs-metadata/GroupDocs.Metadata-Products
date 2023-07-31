@@ -1,0 +1,192 @@
+{
+  "head": {
+    "title": "Lector, visor, extractor, eliminador y exportador de metadatos .NET API",
+    "description": "API de metadatos C# .NET para leer, escribir, editar, analizar, buscar, extraer, eliminar, comparar y exportar metadatos de PDF Word Excel PPTX Outlook Audio Video & Images."
+  },
+  "header": {
+    "title": "API .NET para administrar y manipular metadatos",
+    "description": "Cree aplicaciones .NET para leer, editar, eliminar, recuperar, buscar, comparar, reemplazar y exportar información de metadatos de todos los documentos populares y formatos de archivo de imagen."
+  },
+  "submenu": {
+    "middle": {
+      "overview": "Visión general",
+      "features": "Características",
+      "support": "Apoyo",
+      "livedemo": "Demo en vivo",
+      "pricing": "Precios"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Metadata para .NET API es fácil de integrar con C#, ASP.NET y otras aplicaciones basadas en .NET para ayudar a sus usuarios finales a manipular metadatos de una variedad de imágenes, documentos y otros formatos de archivos multimedia sin instalar ningún software externo. La biblioteca de metadatos .NET admite herramientas de creación para agregar rápidamente funcionalidades de visor, editor, eliminador, extractor, comparación y exportación de metadatos dentro de una serie de formatos de documentos estándar de la industria, como PDF, Microsoft Office Word, hojas de cálculo de Excel, presentaciones de PowerPoint, correos electrónicos de Outlook, Project , diagramas de Visio, OneNote, imágenes, AutoCAD, Photoshop, audio, video y metarchivos.",
+      "paragraph_2": "La API de metadatos es muy flexible y fácil de usar. Obtiene el archivo del documento como entrada, analiza la información de los metadatos, permite realizar operaciones de metadatos compatibles y guardar el archivo modificado para acceder rápidamente en el futuro. Funciona con los estándares de metadatos más notables, como integrado, XMP, EXIF, IPTC, bloques de recursos de imágenes, ID3 y propiedades de metadatos personalizados. A través de GroupDocs.Metadata para la API de .NET, también puede comparar dos documentos para identificar las diferencias y similitudes presentes en sus propiedades de metadatos. También puede exportar metadatos de los documentos requeridos a Excel, CSV o DataSet.",
+      "paragraph_3": "GroupDocs.Metadata para .NET se puede utilizar para desarrollar aplicaciones en cualquier entorno de desarrollo que se dirija a la plataforma .NET. Es compatible con todos los lenguajes basados ​​en .NET y es compatible con los sistemas operativos más populares (Windows, Linux, MacOS) donde se pueden instalar marcos Mono o .NET (incluido .NET Core)."
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "A continuación se muestra una descripción general de GroupDocs.Metadata para .NET:",
+      "left": {
+        "title": "Trabajar con imágenes",
+        "content": {
+          "line_1": "Metadatos XMP",
+          "line_2": "Metadatos EXIF",
+          "line_3": "Metadatos IPTC-IIM",
+          "line_4": "Metadatos PSD",
+          "line_5": "Metadatos CAD",
+          "line_6": "Analizar etiquetas IFD adicionales"
+        }
+      },
+      "right": {
+        "title": "Trabajar con audio y video",
+        "content": {
+          "line_1": "Detección de formato MP3 en tiempo de ejecución",
+          "line_2": "Leer Letras3 Etiqueta",
+          "line_3": "Leer información de audio MPEG",
+          "line_4": "Leer información de encabezado AVI",
+          "line_5": "Leer subtítulos de Matroska",
+          "line_6": "Exportar datos a Excel o CSV"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Metadata para .NET admite lo siguiente",
+      "formats_url_title": "formatos de archivos de documentos",
+      "left": {
+        "title": "oficina de microsoft"
+      },
+      "right": {
+        "title": "Otros formatos",
+        "content": {
+          "line_5": "Audio",
+          "line_6": "Video",
+          "line_9": "Imágenes",
+          "line_11": "Fuentes OpenType",
+          "line_12": "Otros"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Metadata para .NET es compatible con los siguientes sistemas operativos, marcos y administradores de paquetes:",
+      "left": {
+        "title": "Sistemas operativos",
+        "content": {
+          "line_1": "Escritorio de Windows",
+          "line_2": "Servidor de windows",
+          "line_3": "Windows Azure",
+          "line_4": "linux"
+        },
+        "title_2": "Marcos compatibles",
+        "content_2": {
+          "line_1": ".NET Framework 2.0 o superior",
+          "line_2": "Mono Framework 1.2 o superior",
+          "line_3": ".NET estándar 2.0",
+          "line_4": ".NET Núcleo 2.0",
+          "line_5": ".NET Núcleo 2.1"
+        }
+      },
+      "right": {
+        "title": "Administradores de paquetes",
+        "content": {
+          "line_1": "* NuGet"
+        },
+        "title_2": "Entornos de desarrollo",
+        "content_2": {
+          "line_1": "*Microsoft Visual Studio",
+          "line_2": "* Xamarin.Android",
+          "line_3": "* Xamarin.IOS",
+          "line_4": "* Xamarin.Mac",
+          "line_5": "* MonoDesarrollo"
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "Funciones de GroupDocs.Metadata para .NET",
+    "feature_1": {
+      "content": "Identifique metadatos integrados y personalizados"
+    },
+    "feature_2": {
+      "content": "Recupere y elimine datos ocultos en Microsoft Word, Excel, PowerPoint y PDF"
+    },
+    "feature_3": {
+      "content": "Reconocimiento en tiempo de ejecución del tipo de archivo de documento"
+    },
+    "feature_4": {
+      "content": "Capacidad para detectar/eliminar firmas digitales"
+    },
+    "feature_5": {
+      "content": "Identifique Protección con contraseña y soporte para el contenedor multimedia Matroska"
+    },
+    "feature_6": {
+      "content": "Recuperar miniaturas y renderizar vistas previas de imágenes para formatos admitidos"
+    },
+    "feature_7": {
+      "content": "Detectar el tipo MIME de un archivo o flujo de archivos específico"
+    },
+    "feature_8": {
+      "content": "Genere vistas previas de imágenes para archivos EPUB, CAD, EML y MSG"
+    },
+    "feature_9": {
+      "content": "Utilice la clave definida para leer la propiedad de metadatos de los formatos admitidos"
+    },
+    "feature_10": {
+      "content": "Leer metadatos de mensajes de correo electrónico y analizar archivos de fuentes OpenType"
+    },
+    "feature_11": {
+      "content": "Lea subtítulos de Matroska y recupere metadatos de archivos de audio y video"
+    },
+    "feature_12": {
+      "content": "Obtenga metadatos de formatos de archivo y torrents"
+    },
+    "feature_13": {
+      "content": "Compare las propiedades de los metadatos de los formatos admitidos y las diferencias o similitudes de identidad"
+    },
+    "feature_14": {
+      "content": "Buscar propiedades de metadatos de archivos y enumerar cualquier tipo de metadatos"
+    },
+    "feature_15": {
+      "content": "Reemplazar propiedades de metadatos de formatos de archivo admitidos"
+    },
+    "feature_16": {
+      "content": "Extraiga metadatos de archivos de Microsoft Excel a partir de Excel 95"
+    },
+    "feature_17": {
+      "content": "Encuentra fotos hechas en una cámara específica"
+    },
+    "feature_18": {
+      "content": "Importar propiedades de metadatos de imágenes y eliminar información de ubicación de las fotos"
+    },
+    "feature_19": {
+      "content": "Eliminar metadatos y comentarios de informes y documentos"
+    },
+    "feature_20": {
+      "content": "Extraer metadatos de texto de archivos de imagen PNG"
+    },
+    "feature_21": {
+      "content": "Reducción del consumo de memoria de documentos e imágenes"
+    },
+    "feature_22": {
+      "content": "Actualizar propiedades de metadatos EXIF ​​en archivos WEBP, PNG y PSD"
+    },
+    "feature_23": {
+      "content": "Extraiga propiedades de metadatos XMP en archivos MOV, MP3 y WEBP"
+    },
+    "feature_24": {
+      "content": "Agregar, actualizar y eliminar paquetes de metadatos IPTC en imágenes TIFF"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "Obtención rápida de propiedades de metadatos",
+      "content": "El uso de GroupDocs.Metadata para la API de .NET, la manipulación de cualquier tipo de metadatos para formatos de archivo admitidos es un negocio bastante sencillo. El siguiente fragmento de código demuestra lo fácil que es eliminar los metadatos de Photoshop de un archivo JPEG usando C#:"
+    },
+    "feature_2": {
+      "title": "Recuperación y manipulación de datos ocultos",
+      "content": "GroupDocs.Metadata para .NET proporciona un mecanismo útil para obtener y eliminar datos ocultos en documentos PDF, así como en documentos de Microsoft Word, Excel y PowerPoint. Puede manipular comentarios, fusionar campos, páginas ocultas, campos de formulario, anotaciones y más."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Metadata ofrece API de visualización de documentos para otros entornos de desarrollo populares"
+  }
+}

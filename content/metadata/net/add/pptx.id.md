@@ -1,21 +1,26 @@
 ---
-layout: "auto-gen"
-date: 2022-07-07T12:44:18+03:00
+############################# Static ############################
+layout: "auto-gen-metadata"
+date: 2023-06-14T09:36:31
 draft: false
+otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
-head_title: "Tambahkan Metadata ke PPTX File di C# .NET Applications"
-head_description: "C# .NET metadata processing API untuk menambahkan informasi metadata ke file PPTX. Bekerja dengan standar metadata XMP, EXIF, IPTC, ID3 dll."
+############################# Head ############################
+head_title: "Add Metadata to PPTX Files in C# .NET Applications"
+head_description: "C# .NET metadata processing API to add metadata information to PPTX files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
-title: "Menambahkan Metadata ke PPTX di C#"
-description: "Tambahkan properti metadata khusus ke berbagai dokumen bisnis, gambar, audio &amp; format file video menggunakan GroupDocs.Metadata untuk .NET API."
+############################# Header ############################
+title: "Adding Metadata To PPTX In C#"
+description: "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using GroupDocs.Metadata for .NET API."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Unduh Uji Coba Gratis"
+    label: "Download Free Trial"
     link: "https://downloads.groupdocs.com/metadata/net"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,275 +33,88 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/metadata/net"
-              text: "Referensi API"
+              text: "{submenu.content_middle.button_text_1}"
 
+            # button loop
             - link: "https://github.com/groupdocs-metadata"
-              text: "Contoh Kode"
+              text: "{submenu.content_middle.button_text_2}"
 
+            # button loop
             - link: "https://products.groupdocs.app/metadata/family"
-              text: "Demo Langsung"
+              text: "{submenu.content_middle.button_text_3}"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/net"
-              text: "Harga"
+              text: "{submenu.content_middle.button_text_4}"
 
     right:
         link_download: "https://downloads.groupdocs.com/metadata"
         link_learn: "https://docs.groupdocs.com/metadata/net"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "Tentang GroupDocs.Metadata untuk .NET API"
+    title: "About GroupDocs.Metadata for .NET API"
     content: |
-        [GroupDocs.Metadata for .NET](/id/metadata/net/) menawarkan serangkaian fitur manajemen dan manipulasi metadata yang canggih, memungkinkan pemrogram .NET untuk dengan mudah melihat, mengedit, menghapus, menemukan, membandingkan, menukar, dan mengekspor informasi metadata dari gambar dan format dokumen tanpa menggunakan perangkat lunak eksternal apa pun. Tambahkan detail metadata ke format file PDF, Microsoft Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Arsip, dan Multimedia dengan dukungan tambahan untuk melakukan operasi metadata pada aplikasi berbasis .NET dengan fleksibilitas sejati.
+        [GroupDocs.Metadata for .NET](/id/metadata/net/) offers an advanced set of metadata management and manipulation features, allowing .NET programmers to easily view, edit, delete, find, compare, swap and export metadata information from images and document formats without using any external software. Add metadata details to PDF, Microsoft Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats with additional support to perform metadata operations on any .NET-based applications with true flexibility.
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "Langkah-langkah untuk Menambahkan PPTX Metadata di C#"
+    title_left: "Steps for adding Metadata to PPTX in C#"
     content_left: |
-        [GroupDocs.Metadata](/id/metadata/net/) memudahkan pengembang .NET untuk menambahkan detail metadata ke file PPTX dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
-
-        * Muat PPTX dengan instance kelas Metadata.
-        * Gunakan metode Metadata.AddProperties untuk menambahkan properti.
-        * Gunakan predikat untuk menemukan properti metadata yang diinginkan.
-        * Simpan kembali perubahan dalam format PPTX.
+        [GroupDocs.Metadata for .NET](/id/metadata/net/) makes it easy for .NET developers to add metadata details to PPTX files from within their applications by implementing a few easy steps.
         
-    title_right: "Persyaratan sistem"
+        * Load the PPTX file to be updated.
+        * Specify a predicate that will be used to add metadata properties.
+        * Pass the predicate to the AddProperties method.
+        * Save the changes.
+
+    title_right: "System Requirements"
     content_right: |
-        GroupDocs.Metadata untuk .NET API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
+        GroupDocs.Metadata for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
-        * Sistem Operasi: Microsoft Windows, Linux, MacOS
-        * Lingkungan Pengembangan: Visual Studio, Xamarin, MonoDevelop
-        * Kerangka: .NET Framework, .NET Standard, .NET Core, Mono
-        * Unduh versi terbaru GroupDocs.Metadata untuk .NET dari [NuGet](https://www.nuget.org/packages/groupdocs.metadata)
-        
+        * Operating Systems: Microsoft Windows, Linux, MacOS
+        * Development Environments: Visual Studio, Xamarin, MonoDevelop
+        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        * Download the latest version of GroupDocs.Metadata for .NET from [NuGet](https://www.nuget.org/packages/groupdocs.metadata)
+         
     code: |
-        ```cs
-        // memuat file dalam instance kelas Metadata
+        ```csharp    
+        // load the file in an instance of Metadata class
         using (var metadata = new GroupDocs.Metadata.Metadata("input.pptx"))
         {
-        	// tambahkan properti yang berisi pembuat konten
-        	var affected = metadata.AddProperties(p => p.Tags.Contains(
-        		GroupDocs.Metadata.Tagging.Tags.Person.Creator), new GroupDocs.Metadata.Common.PropertyValue("test content author")
-        		);
-        	Console.WriteLine("Affected properties: {0}", affected);
-        	metadata.Save("output.pptx");
+            // add a property containing the content author
+            var affected = metadata.AddProperties(p => p.Tags.Contains(
+              GroupDocs.Metadata.Tagging.Tags.Person.Creator), new GroupDocs.Metadata.Common.PropertyValue("test content author"));
+            Console.WriteLine("Affected properties: {0}", affected);
+            metadata.Save("output.pptx");
         }
         ```
-        
+
+############################# Demos ############################
 demos:
     enable: true
-    title: "Demo Langsung untuk Menambahkan Metadata"
+    title: "Live Demos to Add Metadata"
     content: |
-        Tambahkan informasi metadata ke file PPTX sekarang juga dengan mengunjungi situs web [GroupDocs.Metadata](https://products.groupdocs.app/metadata/family).  
-        Demo langsung memiliki manfaat sebagai berikut
+       Add metadata information to PPTX file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.
+       The live demo has the following benefits.
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-file-pptx"
-          title: "Tentang Format Berkas PPTX"
-          content: |
-            File dengan ekstensi PPTX adalah file presentasi yang dibuat dengan aplikasi Microsoft PowerPoint yang populer. Berbeda dengan versi sebelumnya dari format file presentasi PPT yang biner, format PPTX didasarkan pada format file presentasi Microsoft PowerPoint open XML. File presentasi adalah kumpulan slide di mana setiap slide dapat terdiri dari teks, gambar, pemformatan, animasi, dan media lainnya. Slide ini disajikan kepada audiens dalam bentuk slideshow dengan pengaturan presentasi khusus.
 
-          link: "https://docs.fileformat.com/presentation/pptx/"
-
+############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Menambahkan Properti Metadata Ke Format File Lain"
+    title: "Adding Metadata Properties To Other File Formats"
     content: |
-        Dokumen multi format dan metadata gambar tambahan API untuk .NET. Tambahkan metadata ke beberapa format file populer seperti yang dinyatakan di bawah ini.
-    format: 
-        - name: "Tambahkan Metadata ke PDF"
-          link: "/metadata/net/add/pdf/"
-          description: "Format Dokumen Portabel Adobe"
+        Multi format documents and images metadata addition API for .NET. Retrieve metadata of some of the popular file formats as stated below.
 
-        - name: "Tambahkan Metadata ke DOC"
-          link: "/metadata/net/add/doc/"
-          description: "Dokumen Microsoft Word"
-
-        - name: "Tambahkan Metadata ke DOCM"
-          link: "/metadata/net/add/docm/"
-          description: "Dokumen Berkemampuan Makro Microsoft Word"
-
-        - name: "Tambahkan Metadata ke DOCX"
-          link: "/metadata/net/add/docx/"
-          description: "Microsoft Word Buka Dokumen XML"
-
-        - name: "Tambahkan Metadata ke DOT"
-          link: "/metadata/net/add/dot/"
-          description: "Templat Dokumen Microsoft Word"
-
-        - name: "Tambahkan Metadata ke DOTX"
-          link: "/metadata/net/add/dotx/"
-          description: "Templat Dokumen XML Word Terbuka"
-
-        - name: "Tambahkan Metadata ke XLS"
-          link: "/metadata/net/add/xls/"
-          description: "Format File Biner Microsoft Excel"
-
-        - name: "Tambahkan Metadata ke XLSX"
-          link: "/metadata/net/add/xlsx/"
-          description: "Microsoft Excel Buka XML Spreadsheet"
-
-        - name: "Tambahkan Metadata ke XLSM"
-          link: "/metadata/net/add/xlsm/"
-          description: "Spreadsheet Berkemampuan Makro Microsoft Excel"
-
-        - name: "Tambahkan Metadata ke XLTM"
-          link: "/metadata/net/add/xltm/"
-          description: "Templat Buku Kerja yang Diaktifkan Makro OOXML"
-
-        - name: "Tambahkan Metadata ke PPT"
-          link: "/metadata/net/add/ppt/"
-          description: "Presentasi powerpoint"
-
-        - name: "Tambahkan Metadata ke PPS"
-          link: "/metadata/net/add/pps/"
-          description: "Pertunjukan Slide Microsoft PowerPoint"
-
-        - name: "Tambahkan Metadata ke PPTX"
-          link: "/metadata/net/add/pptx/"
-          description: "Presentasi PowerPoint Terbuka XML"
-
-        - name: "Tambahkan Metadata ke PPSX"
-          link: "/metadata/net/add/ppsx/"
-          description: "PowerPoint Terbuka XML Slide Show"
-
-        - name: "Tambahkan Metadata ke POTX"
-          link: "/metadata/net/add/potx/"
-          description: "Templat XML Terbuka Microsoft PowerPoint"
-
-        - name: "Tambahkan Metadata ke POTM"
-          link: "/metadata/net/add/potm/"
-          description: "Templat Microsoft PowerPoint"
-
-        - name: "Tambahkan Metadata ke PPTM"
-          link: "/metadata/net/add/pptm/"
-          description: "Presentasi Microsoft PowerPoint"
-
-        - name: "Tambahkan Metadata ke PPSM"
-          link: "/metadata/net/add/ppsm/"
-          description: "Pertunjukan Slide Microsoft PowerPoint"
-
-        - name: "Tambahkan Metadata ke ODS"
-          link: "/metadata/net/add/ods/"
-          description: "Buka Spreadsheet Dokumen"
-
-        - name: "Tambahkan Metadata ke ODT"
-          link: "/metadata/net/add/odt/"
-          description: "Buka Teks Dokumen"
-
-        - name: "Tambahkan Metadata ke TIFF"
-          link: "/metadata/net/add/tiff/"
-          description: "Format File Gambar yang Ditandai"
-
-        - name: "Tambahkan Metadata ke JPEG"
-          link: "/metadata/net/add/jpeg/"
-          description: "Gambar JPEG"
-
-        - name: "Tambahkan Metadata ke PNG"
-          link: "/metadata/net/add/png/"
-          description: "Grafik Jaringan Portabel"
-
-        - name: "Tambahkan Metadata ke GIF"
-          link: "/metadata/net/add/gif/"
-          description: "File Format Pertukaran Grafis"
-
-        - name: "Tambahkan Metadata ke BMP"
-          link: "/metadata/net/add/bmp/"
-          description: "Format File Bitmap"
-
-        - name: "Tambahkan Metadata ke JP2"
-          link: "/metadata/net/add/jp2/"
-          description: "File Gambar Inti JPEG 2000"
-
-        - name: "Tambahkan Metadata ke WEBP"
-          link: "/metadata/net/add/webp/"
-          description: "Format File Gambar Web Raster"
-
-        - name: "Tambahkan Metadata ke PSD"
-          link: "/metadata/net/add/psd/"
-          description: "Dokumen Adobe Photoshop"
-
-        - name: "Tambahkan Metadata ke WMF"
-          link: "/metadata/net/add/wmf/"
-          description: "Metafile Windows"
-
-        - name: "Tambahkan Metadata ke EMF"
-          link: "/metadata/net/add/emf/"
-          description: "Format Metafile yang Ditingkatkan"
-
-        - name: "Tambahkan Metadata ke MPP"
-          link: "/metadata/net/add/mpp/"
-          description: "Dokumen Proyek Microsoft"
-
-        - name: "Tambahkan Metadata ke MSG"
-          link: "/metadata/net/add/msg/"
-          description: "Pesan Email Microsoft Outlook"
-
-        - name: "Tambahkan Metadata ke EML"
-          link: "/metadata/net/add/eml/"
-          description: "Pesan email"
-
-        - name: "Tambahkan Metadata ke DWG"
-          link: "/metadata/net/add/dwg/"
-          description: "Format Data Desain Autodesk"
-
-        - name: "Tambahkan Metadata ke DXF"
-          link: "/metadata/net/add/dxf/"
-          description: "Pertukaran Gambar AutoCAD"
-
-        - name: "Tambahkan Metadata ke SATU"
-          link: "/metadata/net/add/one/"
-          description: "Microsoft OneNote"
-
-        - name: "Tambahkan Metadata ke MP3"
-          link: "/metadata/net/add/mp3/"
-          description: "Lapisan Audio MPEG III"
-
-        - name: "Tambahkan Metadata ke WAV"
-          link: "/metadata/net/add/wav/"
-          description: "Format File Audio Bentuk Gelombang"
-
-        - name: "Tambahkan Metadata ke DICOM"
-          link: "/metadata/net/add/dicom/"
-          description: "Pencitraan Digital &amp; Kom dalam Kedokteran"
-
-        - name: "Tambahkan Metadata ke AVI"
-          link: "/metadata/net/add/avi/"
-          description: "File Interleave Audio Video"
-
-        - name: "Tambahkan Metadata ke VSD"
-          link: "/metadata/net/add/vsd/"
-          description: "Gambar Microsoft Visio 2003-2010"
-
-        - name: "Tambahkan Metadata ke VSDX"
-          link: "/metadata/net/add/vsdx/"
-          description: "Gambar Microsoft Visio"
-
-        - name: "Tambahkan Metadata ke VSS"
-          link: "/metadata/net/add/vss/"
-          description: "Microsoft Visio 2003-2010 Stensil"
-
-        - name: "Tambahkan Metadata ke VDX"
-          link: "/metadata/net/add/vdx/"
-          description: "Gambar XML Microsoft Visio 2003-2010"
-
-        - name: "Tambahkan Metadata ke VSX"
-          link: "/metadata/net/add/vsx/"
-          description: "Stensil XML Microsoft Visio 2003-2010"
-
-        - name: "Tambahkan Metadata ke ZIP"
-          link: "/metadata/net/add/zip/"
-          description: "Format File Arsip"
-
-        - name: "Tambahkan Metadata ke EPUB"
-          link: "/metadata/net/add/epub/"
-          description: "Format File E-Book Digital"
-
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

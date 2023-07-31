@@ -1,21 +1,26 @@
 ---
-layout: "auto-gen"
-date: 2022-07-07T12:44:18+03:00
+############################# Static ############################
+layout: "auto-gen-metadata"
+date: 2023-06-14T09:36:31
 draft: false
+otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
-head_title: "Tambahkan Properti Metadata ke ODT File di Java"
-head_description: "Lintas platform Java metadata API untuk melihat dan menambahkan bidang metadata ke file ODT. Bekerja dengan standar metadata XMP, EXIF, IPTC, ID3 dll."
+############################# Head ############################
+head_title: "Add Metadata to ODT Files in Java Java Applications"
+head_description: "Java Java metadata processing API to add metadata information to ODT files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
-title: "Tambahkan Metadata ke ODT di Java"
-description: "Tambahkan properti metadata ke ODT dan banyak dokumen, gambar, dan format file multimedia populer lainnya menggunakan GroupDocs.Metadata for Java API."
+############################# Header ############################
+title: "Adding Metadata To ODT In Java"
+description: "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using GroupDocs.Metadata for Java."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Unduh Uji Coba Gratis"
+    label: "Download Free Trial"
     link: "https://downloads.groupdocs.com/metadata/java"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,285 +33,87 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/metadata/java"
-              text: "Referensi API"
+              text: "{submenu.content_middle.button_text_1}"
 
+            # button loop
             - link: "https://github.com/groupdocs-metadata"
-              text: "Contoh Kode"
+              text: "{submenu.content_middle.button_text_2}"
 
+            # button loop
             - link: "https://products.groupdocs.app/metadata/family"
-              text: "Demo Langsung"
+              text: "{submenu.content_middle.button_text_3}"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/java"
-              text: "Harga"
+              text: "{submenu.content_middle.button_text_4}"
 
     right:
         link_download: "https://downloads.groupdocs.com/metadata"
         link_learn: "https://docs.groupdocs.com/metadata/java"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "Tentang GroupDocs.Metadata untuk Java API"
+    title: "About GroupDocs.Metadata for Java API"
     content: |
-        [GroupDocs.Metadata for Java](/id/metadata/java/) adalah solusi manajemen dan manipulasi bidang metadata tingkat lanjut untuk dengan mudah melihat, memperbarui, menghapus, menemukan, membandingkan, menukar, dan mengekspor informasi metadata dari gambar dan format dokumen tanpa menggunakan perangkat lunak eksternal apa pun . Tambahkan detail metadata ke dokumen Word, spreadsheet Excel, presentasi PowerPoint, email Outlook, OneNote, Visio, Project, PDF, AutoCAD, ZIp, format file Audio dan Video bersama dengan dukungan untuk bekerja dengan banyak fitur pemrosesan metadata lainnya.
+        [GroupDocs.Metadata for Java](/id/metadata/java/) is an advanced metadata fields management and manipulation solution to easily view, update, remove, find, compare, exchange and export metadata information from images and document formats without using any external software. Add metadata details to Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "Langkah-langkah untuk menambahkan Metadata ke ODT di Java"
+    title_left: "Steps for adding Metadata to ODT in Java"
     content_left: |
-        [GroupDocs.Metadata](/id/metadata/java/) memudahkan pengembang Java untuk menambahkan bidang metadata ke file ODT dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
-
-        * Muat file ODT yang akan diperbarui.
-        * Tentukan predikat yang akan digunakan untuk menambahkan properti metadata.
-        * Tentukan nilai yang ingin Anda berikan ke properti yang dipilih.
-        * Berikan predikat ke metode AddProperties.
-        * Periksa jumlah sebenarnya dari properti yang ditambahkan.
-        * Simpan perubahan.
+        [GroupDocs.Metadata for Java](/id/metadata/java/) makes it easy for Java developers to add metadata details to ODT files from within their applications by implementing a few easy steps.
         
-    title_right: "Persyaratan sistem"
+        * Load ODT with an instance of Metadata class.
+        * Use Metadata.AddProperties method to add the properties.
+        * Use a predicate to find desired metadata properties.
+        * Save the changes back in ODT format.
+
+    title_right: "System Requirements"
     content_right: |
-        GroupDocs.Metadata untuk Java API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
+        GroupDocs.Metadata for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
-        * Sistem Operasi: Microsoft Windows, Linux, MacOS
-        * Lingkungan Pengembangan: NetBeans, Intellij IDEA, Eclipse dll
-        * Lingkungan Runtime Java: J2SE 6.0 dan yang lebih baru
-        * Dapatkan versi terbaru GroupDocs.Metadata untuk Java dari [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
-        
+        * Operating Systems: Microsoft Windows, Linux, MacOS
+        * Development Environments: NetBeans, IntelliJ IDEA, Eclipse
+        * Java Runtime Environments: J2SE 6.0 and above
+        * Get the latest version of  GroupDocs.Metadata for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
+         
     code: |
-        ```java
-        // memuat file dalam instance kelas Metadata
-        try (Metadata metadata = new Metadata("input.odt")) {
-        
-        	// tambahkan properti yang berisi pembuat konten
-        	int affected = metadata.addProperties(new ContainsTagSpecification(Tags.getTime().getPrinted()), new PropertyValue(new Date()));
-        
-        	System.out.println(String.format("Affected properties: %s", affected));
-        
-        	metadata.save("output.odt");
+        ```java    
+        // {steps.code.load_comment}
+        try (Metadata metadata = new Metadata("input.odt"))
+        {
+            // add a property containing the content author
+            int affected = metadata.addProperties(new ContainsTagSpecification(Tags.getTime().getPrinted()), new PropertyValue(new Date()));
+            System.out.println(String.format("Affected properties: %s", affected));
+            metadata.save("output.odt");
         }
         ```
-        
+
+############################# Demos ############################
 demos:
     enable: true
-    title: "Demo Langsung untuk Menambahkan Metadata"
+    title: "Live Demos to Add Metadata"
     content: |
-        Tambahkan informasi metadata ke file ODT sekarang juga dengan mengunjungi situs web [GroupDocs.Metadata](https://products.groupdocs.app/metadata/family).  
-        Demo langsung memiliki manfaat sebagai berikut
+       Add metadata information to ODT file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.
+       The live demo has the following benefits.
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-file-odt"
-          title: "Tentang Format Berkas ODT"
-          content: |
-            File ODT adalah jenis dokumen yang dibuat dengan aplikasi pengolah kata yang berbasis format File Teks OpenDocument. Ini dibuat dengan aplikasi pengolah kata seperti OpenOffice Writer gratis dan dapat menampung konten seperti teks, gambar, objek, dan gaya. File ODT adalah untuk pengolah kata Writer seperti halnya DOCX untuk Microsoft Word. Beberapa aplikasi termasuk Google Documents dan pengolah kata berbasis web Google yang disertakan dengan Google Drive dapat membuka file ODT untuk diedit. Microsoft Word juga dapat membuka file ODT dan menyimpannya dalam format lain seperti DOC dan DOCX.
 
-          link: "https://docs.fileformat.com/word-processing/odt/"
-
+############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Menambahkan Properti Metadata Ke Format File Lain"
+    title: "Adding Metadata Properties To Other File Formats"
     content: |
-        Java API untuk menambahkan metadata ke dokumen dan gambar multi format. Tetapkan detail metadata dari beberapa format file populer seperti yang dinyatakan di bawah ini.
-    format: 
-        - name: "Tambahkan Metadata PDF"
-          link: "/metadata/java/add/pdf/"
-          description: "Format Dokumen Portabel Adobe"
+        Multi format documents and images metadata addition API for Java. Retrieve metadata of some of the popular file formats as stated below.
 
-        - name: "Tambahkan Metadata DOC"
-          link: "/metadata/java/add/doc/"
-          description: "Dokumen Microsoft Word"
-
-        - name: "Tambahkan Metadata DOCM"
-          link: "/metadata/java/add/docm/"
-          description: "Dokumen Berkemampuan Makro Microsoft Word"
-
-        - name: "Tambahkan Metadata DOCX"
-          link: "/metadata/java/add/docx/"
-          description: "Microsoft Word Buka Dokumen XML"
-
-        - name: "Tambahkan Metadata DOT"
-          link: "/metadata/java/add/dot/"
-          description: "Templat Dokumen Microsoft Word"
-
-        - name: "Tambahkan Metadata DOTX"
-          link: "/metadata/java/add/dotx/"
-          description: "Templat Dokumen XML Word Terbuka"
-
-        - name: "Tambahkan Metadata XLS"
-          link: "/metadata/java/add/xls/"
-          description: "Format File Biner Microsoft Excel"
-
-        - name: "Tambahkan Metadata XLSX"
-          link: "/metadata/java/add/xlsx/"
-          description: "Microsoft Excel Buka XML Spreadsheet"
-
-        - name: "Tambahkan Metadata XLSM"
-          link: "/metadata/java/add/xlsm/"
-          description: "Spreadsheet Berkemampuan Makro Microsoft Excel"
-
-        - name: "Tambahkan Metadata XLTM"
-          link: "/metadata/java/add/xltx/"
-          description: "Templat Buku Kerja yang Diaktifkan Makro OOXML"
-
-        - name: "Tambahkan Metadata PPT"
-          link: "/metadata/java/add/ppt/"
-          description: "Presentasi powerpoint"
-
-        - name: "Tambahkan Metadata PPS"
-          link: "/metadata/java/add/pps/"
-          description: "Pertunjukan Slide Microsoft PowerPoint"
-
-        - name: "Tambahkan Metadata PPTX"
-          link: "/metadata/java/add/pptx/"
-          description: "Presentasi PowerPoint Terbuka XML"
-
-        - name: "Tambahkan Metadata PPSX"
-          link: "/metadata/java/add/ppsx/"
-          description: "PowerPoint Terbuka XML Slide Show"
-
-        - name: "Tambahkan Metadata POTX"
-          link: "/metadata/java/add/potx/"
-          description: "Templat XML Terbuka Microsoft PowerPoint"
-
-        - name: "Tambahkan Metadata POTM"
-          link: "/metadata/java/add/potm/"
-          description: "Templat Microsoft PowerPoint"
-
-        - name: "Tambahkan Metadata PPTM"
-          link: "/metadata/java/add/pptm/"
-          description: "Presentasi Microsoft PowerPoint"
-
-        - name: "Tambahkan Metadata PPSM"
-          link: "/metadata/java/add/ppsm/"
-          description: "Pertunjukan Slide Microsoft PowerPoint"
-
-        - name: "Tambahkan Metadata ODS"
-          link: "/metadata/java/add/ods/"
-          description: "Buka Spreadsheet Dokumen"
-
-        - name: "Tambahkan ODT Metadata"
-          link: "/metadata/java/add/odt/"
-          description: "Buka Teks Dokumen"
-
-        - name: "Tambahkan Metadata TIFF"
-          link: "/metadata/java/add/tiff/"
-          description: "Format File Gambar yang Ditandai"
-
-        - name: "Tambahkan Metadata JPEG"
-          link: "/metadata/java/add/jpeg/"
-          description: "Gambar JPEG"
-
-        - name: "Tambahkan Metadata PNG"
-          link: "/metadata/java/add/png/"
-          description: "Grafik Jaringan Portabel"
-
-        - name: "Tambahkan Metadata GIF"
-          link: "/metadata/java/add/gif/"
-          description: "File Format Pertukaran Grafis"
-
-        - name: "Tambahkan Metadata BMP"
-          link: "/metadata/java/add/bmp/"
-          description: "Format File Bitmap"
-
-        - name: "Tambahkan Metadata JP2"
-          link: "/metadata/java/add/jp2/"
-          description: "File Gambar Inti JPEG 2000"
-
-        - name: "Tambahkan Metadata WEBP"
-          link: "/metadata/java/add/webp/"
-          description: "Format File Gambar Web Raster"
-
-        - name: "Tambahkan Metadata PSD"
-          link: "/metadata/java/add/psd/"
-          description: "Dokumen Adobe Photoshop"
-
-        - name: "Tambahkan Metadata WMF"
-          link: "/metadata/java/add/wmf/"
-          description: "Metafile Windows"
-
-        - name: "Tambahkan Metadata EMF"
-          link: "/metadata/java/add/emf/"
-          description: "Format Metafile yang Ditingkatkan"
-
-        - name: "Tambahkan Metadata MPP"
-          link: "/metadata/java/add/emz/"
-          description: "Dokumen Proyek Microsoft"
-
-        - name: "Tambahkan Metadata MSG"
-          link: "/metadata/java/add/msg/"
-          description: "Pesan Email Microsoft Outlook"
-
-        - name: "Tambahkan Metadata EML"
-          link: "/metadata/java/add/eml/"
-          description: "Pesan email"
-
-        - name: "Tambahkan Metadata DWG"
-          link: "/metadata/java/add/dwg/"
-          description: "Format Data Desain Autodesk"
-
-        - name: "Tambahkan Metadata DXF"
-          link: "/metadata/java/add/dxf/"
-          description: "Pertukaran Gambar AutoCAD"
-
-        - name: "Tambahkan SATU Metadata"
-          link: "/metadata/java/add/one/"
-          description: "Microsoft OneNote"
-
-        - name: "Tambahkan Metadata MP3"
-          link: "/metadata/java/add/mp3/"
-          description: "Lapisan Audio MPEG III"
-
-        - name: "Tambahkan Metadata WAV"
-          link: "/metadata/java/add/wav/"
-          description: "Format File Audio Bentuk Gelombang"
-
-        - name: "Tambahkan Metadata DICOM"
-          link: "/metadata/java/add/dicom/"
-          description: "Pencitraan Digital &amp; Kom dalam Kedokteran"
-
-        - name: "Tambahkan Metadata AVI"
-          link: "/metadata/java/add/avi/"
-          description: "File Interleave Audio Video"
-
-        - name: "Tambahkan Metadata VSD"
-          link: "/metadata/java/add/vsd/"
-          description: "Gambar Microsoft Visio 2003-2010"
-
-        - name: "Tambahkan Metadata VSDX"
-          link: "/metadata/java/add/vsdx/"
-          description: "Gambar Microsoft Visio"
-
-        - name: "Tambahkan Metadata VSS"
-          link: "/metadata/java/add/vss/"
-          description: "Microsoft Visio 2003-2010 Stensil"
-
-        - name: "Tambahkan Metadata VDX"
-          link: "/metadata/java/add/vdx/"
-          description: "Gambar XML Microsoft Visio 2003-2010"
-
-        - name: "Tambahkan Metadata VSX"
-          link: "/metadata/java/add/vsx/"
-          description: "Stensil XML Microsoft Visio 2003-2010"
-
-        - name: "Tambahkan Metadata ZIP"
-          link: "/metadata/java/add/zip/"
-          description: "Format File Arsip"
-
-        - name: "Tambahkan Metadata EPUB"
-          link: "/metadata/java/add/epub/"
-          description: "Format File E-Book Digital"
-
-        - name: "Tambahkan Metadata VCF"
-          link: "/metadata/java/add/vcf/"
-          description: "Kartu Nama Elektronik"
-
-        - name: "Tambahkan Metadata VCR"
-          link: "/metadata/java/add/vcr/"
-          description: "kartu v"
-
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

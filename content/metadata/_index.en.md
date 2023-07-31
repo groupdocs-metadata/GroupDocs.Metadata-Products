@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2023-07-31T12:04:41
 draft: false
 
 ############################# Head ############################
@@ -25,7 +25,7 @@ apis:
         # api_product loop
         - link: "/metadata/net/"
           img_alt: "GroupDocs.Metadata for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-metadata-net.png"
+          image: "/border/groupdocs-metadata-net.svg"
           product: "GroupDocs.Metadata for"
           platform: ".NET"
           content: "Native .NET API to dynamically read, write, edit and remove meta information from Microsoft Office, PDF, Multimedia, images and various other file formats."
@@ -33,10 +33,10 @@ apis:
         # api_product loop
         - link: "/metadata/java/"
           img_alt: "GroupDocs.Metadata for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-metadata-java.png"
+          image: "/border/groupdocs-metadata-java.svg"
           product: "GroupDocs.Metadata for"
           platform: "Java"
-          content: "Native .NET API to dynamically read, write, edit and remove meta information from Microsoft Office, PDF, Multimedia, images and various other file formats."
+          content: "Java API to edit and manipulate metadata of documents, images, video files and various other file formats."
 
     # api loop
     - title: "GroupDocs.Metadata Low Code APIs Include"
@@ -46,7 +46,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.cloud/metadata/curl"
           img_alt: "GroupDocs.Metadata Cloud for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_metadata-for-curl.png"
+          image: "/sdk/groupdocs_metadata-for-curl.svg"
           product: "GroupDocs.Metadata"
           platform: "Cloud for cURL"
           content: "Work with cURL RESTful metadata manipulation APIs to manage metadata information of PDF, Word, Excel, Presentations, images and multimedia file in your applications."
@@ -54,7 +54,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.cloud/metadata/net"
           img_alt: "GroupDocs.Metadata Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_metadata-for-net.png"
+          image: "/sdk/groupdocs_metadata-for-net.svg"
           product: "GroupDocs.Metadata"
           platform: "Cloud SDK for .NET"
           content: "Use metadata REST API with .NET SDK to add, edit, extract, search and delete metadata from document formats within .NET applications."
@@ -62,7 +62,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.cloud/metadata/java"
           img_alt: "GroupDocs.Metadata Cloud SDK for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_metadata-for-java.png"
+          image: "/sdk/groupdocs_metadata-for-java.svg"
           product: "GroupDocs.Metadata"
           platform: "Cloud SDK for Java"
           content: "Enhance your Java applications with powerful metadata management features using Metadata SDK for Java."
@@ -75,7 +75,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/metadata/total"
           img_alt: "GroupDocs.Metadata Total"
-          image: "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png"
+          image: "/app/groupdocs_metadata-app.svg"
           product: "GroupDocs.Metadata"
           platform: "Total"
           content: "Free app to view & edit metadata of Word, Excel, PDF, PowerPoint and more than 50 document types."
@@ -83,7 +83,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/metadata/docx"
           img_alt: "GroupDocs.Metadata DOCX"
-          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_words-app.png"
+          image: "/app/groupdocs_words-app.svg"
           product: "GroupDocs.Metadata"
           platform: "DOCX"
           content: "Free online metadata viewer & editor for MS Word documents."
@@ -91,7 +91,7 @@ apis:
         # api_product loop
         - link: "https://products.groupdocs.app/metadata/pdf"
           img_alt: "GroupDocs.Metadata PDF"
-          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_pdf-app.png"
+          image: "/app/groupdocs_pdf-app.svg"
           product: "GroupDocs.Metadata"
           platform: "PDF"
           content: "View or edit Metadata information of PDF documents online."

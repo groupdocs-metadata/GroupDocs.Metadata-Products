@@ -1,21 +1,26 @@
 ---
-layout: "auto-gen"
-date: 2021-05-20T16:12:16+03:00
+############################# Static ############################
+layout: "auto-gen-metadata"
+date: 2023-06-14T09:37:28
 draft: false
+otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
-head_title: "編集＆amp; C＃.NETアプリケーションでPDFファイルのメタデータを更新する"
-head_description: "PDFファイルのメタデータ情報を更新するためのC＃.NETメタデータ編集API。メタデータ標準XMP、EXIF、IPTC、ID3などと連携します。"
+############################# Head ############################
+head_title: "Edit Metadata to PDF Files in C# .NET Applications"
+head_description: "C# .NET metadata processing API to edit metadata information to PDF files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
-title: "C＃でPDFファイルのメタデータを更新する"
-description: "最も必要なすべてのメタデータ処理操作の実行をサポートして、すべての一般的なドキュメント、画像、およびマルチメディアファイル形式からメタデータ情報を更新します."
+############################# Header ############################
+title: "Update Metadata Of PDF File  In C#"
+description: "Update metadata information from all popular documents, images and multimedia file formats with the support of performing all most-needed metadata processing operations."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "無料トライアルをダウンロード"
+    label: "Download Free Trial"
     link: "https://downloads.groupdocs.com/metadata/net"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,236 +33,91 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/metadata/net"
-              text: "APIリファレンス"
+              text: "{submenu.content_middle.button_text_1}"
 
+            # button loop
             - link: "https://github.com/groupdocs-metadata"
-              text: "コード例"
+              text: "{submenu.content_middle.button_text_2}"
 
+            # button loop
             - link: "https://products.groupdocs.app/metadata/family"
-              text: "ライブデモ"
+              text: "{submenu.content_middle.button_text_3}"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/net"
-              text: "価格設定"
+              text: "{submenu.content_middle.button_text_4}"
 
     right:
         link_download: "https://downloads.groupdocs.com/metadata"
         link_learn: "https://docs.groupdocs.com/metadata/net"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Metadata for .NET APIについて"
+    title: "About GroupDocs.Metadata for .NET API"
     content: |
-        [GroupDocs.Metadata for .NET](/metadata/net/)は、メタデータ管理機能の高度なセットを提供し、開発者が使用せずに画像やドキュメント形式からメタデータ情報を簡単に読み取り、PDF、削除、検索、比較、置換、およびエクスポートできるようにします外部ソフトウェア。メタデータ操作APIを使用して、PDF、Microsoft Office Word、Excelスプレッドシート、PowerPointプレゼンテーション、Outlook電子メール、OneNote、Visio、Project、AutoCAD、アーカイブ、マルチメディアファイル形式のメタデータの詳細を編集し、他の多くのメタデータ処理機能をサポートします。
+        [GroupDocs.Metadata for .NET](/ja/metadata/net/) offers an advanced set of metadata management features, allowing developers to easily read, doc, delete, find, compare, replace and export metadata information from images and document formats without using any external software. Use metadata manipulation API to edit metadata details from PDF, Microsoft Office Word, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats along with the support for working with many other metadata processing features.
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "C＃でPDFメタデータを更新する手順"
+    title_left: "Steps for Updating Metadata to PDF in C#"
     content_left: |
-        [GroupDocs.Metadata](/metadata/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実行することで、アプリケーション内からPDFファイルのメタデータ情報を簡単に編集および編集できます。
-
-        * メタデータクラスのインスタンスを介してPDFファイルをロードします。
-        *目的のメタデータプロパティをフィルタリングするために使用される述語を指定します。
-        * 述語と新しい値をUpdatePropertiesメソッドに渡します。
-        * 変更をPDF形式でディスクに保存します。
+        [GroupDocs.Metadata for .NET](/ja/metadata/net/) makes it easy for .NET developers to edit metadata information to PDF files from within their applications by implementing a few easy steps.
         
-    title_right: "システム要求"
+        * Load PDF filevia an instance of Metadata class.
+        * Specify a predicate that will be used to filter desired metadata properties.
+        * Pass the predicate and the new value to the UpdateProperties method.
+        * Save the changes to disc in PDF format.
+
+    title_right: "System Requirements"
     content_right: |
-        GroupDocs.Metadata for .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        GroupDocs.Metadata for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
-        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        * 開発環境：Visual Studio、Xamarin、MonoDevelop
-        * フレームワーク：.NET Framework、.NET Standard、.NET Core、Mono
-        * [NuGet](https://www.nuget.org/packages/groupdocs.metadata)から最新バージョンのGroupDocs.Metadatafor.NETをダウンロードします。
-        
+        * Operating Systems: Microsoft Windows, Linux, MacOS
+        * Development Environments: Visual Studio, Xamarin, MonoDevelop
+        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        * Download the latest version of GroupDocs.Metadata for .NET from [NuGet](https://www.nuget.org/packages/groupdocs.metadata)
+         
     code: |
-        ```cs
+        ```csharp    
         using (var metadata = new GroupDocs.Metadata.Metadata("input.pdf"))
         {
-        	//述語を満たす各プロパティの値を設定します：
-        	//プロパティには、ドキュメントが作成された日付/時刻が含まれます
-        	//既存の値が3日より古い場合は、ファイルの作成日時を更新します
-        	var affected = metadata.UpdateProperties(
-        		p => p.Tags.Contains(GroupDocs.Metadata.Tagging.Tags.Time.Created) &&
-        		p.Value.Type == GroupDocs.Metadata.Common.MetadataPropertyType.DateTime &&
-        		p.Value.ToStruct() < DateTime.Today.AddDays(-3), new GroupDocs.Metadata.Common.PropertyValue(DateTime.Today));
-        	Console.WriteLine("Properties set: {0}", affected);
-        	metadata.Save("output.pdf");
+            // set the value of each property that satisfies the predicate:
+            // property contains the date/time the document was created
+            // update the file creation date/time if the existing value is older than 3 days
+            var affected = metadata.UpdateProperties(
+              p => p.Tags.Contains(GroupDocs.Metadata.Tagging.Tags.Time.Created) &&
+              p.Value.Type == GroupDocs.Metadata.Common.MetadataPropertyType.DateTime &&
+              p.Value.ToStruct() < DateTime.Today.AddDays(-3), new GroupDocs.Metadata.Common.PropertyValue(DateTime.Today));
+            Console.WriteLine("Properties set: {0}", affected);
+            metadata.Save("output.pdf");
         }
         ```
-        
+
+############################# Demos ############################
 demos:
     enable: true
-    title: "メタデータを更新するライブデモ"
+    title: "Live Demos to Update Metadata"
     content: |
-        [GroupDocs.Metadataライブデモ](https://products.groupdocs.app/metadata/family)サイトにアクセスして、PDFファイルのメタデータ情報を今すぐ更新してください。  
-        ライブデモには次の利点があります
+       Update metadata information to PDF file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.
+       The live demo has the following benefits.
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-file-pdf"
-          title: "PDFファイル形式について"
-          content: |
-            Portable Document Format（PDF）は、1990年代にAdobeによって作成されたドキュメントの一種です。このファイル形式の目的は、アプリケーションソフトウェア、ハードウェア、およびオペレーティングシステムに依存しない形式で、ドキュメントやその他の参照資料を表現するための標準を導入することでした。 PDFファイルは、拡張機能/プラグインを介して、Adobe Acrobat Reader / Writerでも、Chrome、Safari、Firefoxなどの最新のブラウザーでも開くことができます。市販のソフトウェアスイートのほとんどは、追加のソフトウェアコンポーネントを必要とせずに、ドキュメントをPDFファイル形式に変換することもできます。したがって、PDFファイル形式には、テキスト、画像、ハイパーリンク、フォームフィールド、リッチメディア、デジタル署名、添付ファイル、メタデータ、地理空間機能、ソースドキュメントの一部として使用できる3Dオブジェクトなどの情報を含めることができます。
 
-          link: "https://docs.fileformat.com/view/pdf/"
-
+############################# More Formats ############################
 more_formats:
-    enable: false
-    title: "他のファイル形式からのメタデータプロパティの更新"
+    enable: true
+    title: "Updating Metadata Properties From Other File Formats"
     content: |
-        .NET用のマルチフォーマットドキュメントおよび画像メタデータ編集API。以下に示すように、いくつかの一般的なファイル形式のメタデータを変更します。
-    format: 
-          link: "/metadata/net/edit/pdf/"
-          description: "AdobePortableドキュメント形式"
+        Multi format documents and images metadata editing API for .NET. Retrieve metadata of some of the popular file formats as stated below.
 
-          link: "/metadata/net/edit/doc/"
-          description: "MicrosoftWordドキュメント"
-
-          link: "/metadata/net/edit/docm/"
-          description: "MicrosoftWordマクロ対応ドキュメント"
-
-          link: "/metadata/net/edit/docx/"
-          description: "Microsoft WordOpenXMLドキュメント"
-
-          link: "/metadata/net/edit/dot/"
-          description: "MicrosoftWord文書テンプレート"
-
-          link: "/metadata/net/edit/dotx/"
-          description: "WordOpenXMLドキュメントテンプレート"
-
-          link: "/metadata/net/edit/xls/"
-          description: "MicrosoftExcelバイナリファイル形式"
-
-          link: "/metadata/net/edit/xlsx/"
-          description: "Microsoft ExcelOpenXMLスプレッドシート"
-
-          link: "/metadata/net/edit/xlsm/"
-          description: "MicrosoftExcelマクロ対応スプレッドシート"
-
-          link: "/metadata/net/edit/xltm/"
-          description: "OOXMLマクロ対応ワークブックテンプレート"
-
-          link: "/metadata/net/edit/ppt/"
-          description: "PowerPointプレゼンテーション"
-
-          link: "/metadata/net/edit/pps/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "/metadata/net/edit/pptx/"
-          description: "PowerPointOpenXMLプレゼンテーション"
-
-          link: "/metadata/net/edit/ppsx/"
-          description: "PowerPointOpenXMLスライドショー"
-
-          link: "/metadata/net/edit/potx/"
-          description: "Microsoft PowerPointOpenXMLテンプレート"
-
-          link: "/metadata/net/edit/potm/"
-          description: "MicrosoftPowerPointテンプレート"
-
-          link: "/metadata/net/edit/pptm/"
-          description: "MicrosoftPowerPointプレゼンテーション"
-
-          link: "/metadata/net/edit/ppsm/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "/metadata/net/edit/ods/"
-          description: "ドキュメントスプレッドシートを開く"
-
-          link: "/metadata/net/edit/odt/"
-          description: "ドキュメントテキストを開く"
-
-          link: "/metadata/net/edit/tiff/"
-          description: "タグ付き画像ファイル形式"
-
-          link: "/metadata/net/edit/jpeg/"
-          description: "JPEG画像"
-
-          link: "/metadata/net/edit/png/"
-          description: "ポータブルネットワークグラフィック"
-
-          link: "/metadata/net/edit/gif/"
-          description: "グラフィカルな交換フォーマットファイル"
-
-          link: "/metadata/net/edit/bmp/"
-          description: "ビットマップファイル形式"
-
-          link: "/metadata/net/edit/jp2/"
-          description: "JPEG2000コア画像ファイル"
-
-          link: "/metadata/net/edit/webp/"
-          description: "ラスターWeb画像ファイル形式"
-
-          link: "/metadata/net/edit/psd/"
-          description: "AdobePhotoshopドキュメント"
-
-          link: "/metadata/net/edit/wmf/"
-          description: "Windowsメタファイル"
-
-          link: "/metadata/net/edit/emf/"
-          description: "強化されたメタファイル形式"
-
-          link: "/metadata/net/edit/mpp/"
-          description: "MicrosoftProjectドキュメント"
-
-          link: "/metadata/net/edit/msg/"
-          description: "MicrosoftOutlookの電子メールメッセージ"
-
-          link: "/metadata/net/edit/eml/"
-          description: "電子メールメッセージ"
-
-          link: "/metadata/net/edit/dwg/"
-          description: "Autodesk Design Data Formats"
-
-          link: "/metadata/net/edit/dxf/"
-          description: "AutoCAD Drawing Interchange"
-
-          link: "/metadata/net/edit/one/"
-          description: "Microsoft OneNote"
-
-          link: "/metadata/net/edit/mp3/"
-          description: "MPEGオーディオレイヤーIII"
-
-          link: "/metadata/net/edit/wav/"
-          description: "波形オーディオファイル形式"
-
-          link: "/metadata/net/edit/dicom/"
-          description: "デジタルイメージング＆amp;医学のコミュニケーション"
-
-          link: "/metadata/net/edit/avi/"
-          description: "オーディオビデオインターリーブファイル"
-
-          link: "/metadata/net/edit/vsd/"
-          description: "MicrosoftVisio2003-2010図面"
-
-          link: "/metadata/net/edit/vsdx/"
-          description: "MicrosoftVisio図面"
-
-          link: "/metadata/net/edit/vss/"
-          description: "MicrosoftVisio2003-2010ステンシル"
-
-          link: "/metadata/net/edit/vdx/"
-          description: "Microsoft Visio2003-2010XML図面"
-
-          link: "/metadata/net/edit/vsx/"
-          description: "Microsoft Visio2003-2010XMLステンシル"
-
-          link: "/metadata/net/edit/zip/"
-          description: "アーカイブファイル形式"
-
-          link: "/metadata/net/edit/epub/"
-          description: "デジタル電子書籍ファイル形式"
-
-          link: "/metadata/net/edit/vcf/"
-          description: "電子名刺"
-
-          link: "/metadata/net/edit/vcr/"
-          description: "vCard"
-
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

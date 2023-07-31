@@ -1,21 +1,26 @@
 ---
-layout: "auto-gen"
-date: 2021-05-20T16:12:07+03:00
+############################# Static ############################
+layout: "auto-gen-metadata"
+date: 2023-06-14T09:36:31
 draft: false
+otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
-head_title: "C＃.NETアプリケーションのMSGファイルにメタデータを追加する"
-head_description: "メタデータ情報をMSGファイルに追加するためのC＃.NETメタデータ処理API。メタデータ標準XMP、EXIF、IPTC、ID3などを操作します。"
+############################# Head ############################
+head_title: "Add Metadata to MSG Files in C# .NET Applications"
+head_description: "C# .NET metadata processing API to add metadata information to MSG files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
-title: "C＃でMSGにメタデータを追加する"
-description: "さまざまなビジネスドキュメント、画像、音声、音声にカスタムメタデータプロパティを追加します。 GroupDocs.Metadata for .NET APIを使用したビデオファイル形式."
+############################# Header ############################
+title: "Adding Metadata To MSG In C#"
+description: "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using GroupDocs.Metadata for .NET API."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "無料トライアルをダウンロード"
+    label: "Download Free Trial"
     link: "https://downloads.groupdocs.com/metadata/net"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,228 +33,88 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/metadata/net"
-              text: "APIリファレンス"
+              text: "{submenu.content_middle.button_text_1}"
 
+            # button loop
             - link: "https://github.com/groupdocs-metadata"
-              text: "コード例"
+              text: "{submenu.content_middle.button_text_2}"
 
+            # button loop
             - link: "https://products.groupdocs.app/metadata/family"
-              text: "ライブデモ"
+              text: "{submenu.content_middle.button_text_3}"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/net"
-              text: "価格設定"
+              text: "{submenu.content_middle.button_text_4}"
 
     right:
         link_download: "https://downloads.groupdocs.com/metadata"
         link_learn: "https://docs.groupdocs.com/metadata/net"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Metadata for .NET APIについて"
+    title: "About GroupDocs.Metadata for .NET API"
     content: |
-        [GroupDocs.Metadata for .NET](/metadata/net/)は、メタデータ管理および操作機能の高度なセットを提供し、.NETプログラマーが画像からメタデータ情報を簡単に表示、編集、削除、検索、比較、交換、およびエクスポートできるようにします。外部ソフトウェアを使用せずにドキュメント形式。メタデータの詳細をPDF、Microsoft Word、Excel、PowerPoint、Outlook、OneNote、Visio、Project、AutoCAD、Archive、Multimediaのファイル形式に追加し、.NETベースのアプリケーションで真の柔軟性を備えたメタデータ操作を実行するための追加サポートを提供します。
+        [GroupDocs.Metadata for .NET](/ja/metadata/net/) offers an advanced set of metadata management and manipulation features, allowing .NET programmers to easily view, edit, delete, find, compare, swap and export metadata information from images and document formats without using any external software. Add metadata details to PDF, Microsoft Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats with additional support to perform metadata operations on any .NET-based applications with true flexibility.
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "C＃でMSGメタデータを追加する手順"
+    title_left: "Steps for adding Metadata to MSG in C#"
     content_left: |
-        [GroupDocs.Metadata](/metadata/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実装することで、アプリケーション内からMSGファイルにメタデータの詳細を簡単に追加できます。
-
-        * メタデータクラスのインスタンスをMSGにロードします。
-        *プロパティを追加するには、Metadata.AddPropertiesメソッドを使用します。
-        * 述語を使用して、目的のメタデータプロパティを検索します。
-        * 変更をMSG形式で保存し直します。
+        [GroupDocs.Metadata for .NET](/ja/metadata/net/) makes it easy for .NET developers to add metadata details to MSG files from within their applications by implementing a few easy steps.
         
-    title_right: "システム要求"
+        * Load the MSG file to be updated.
+        * Specify a predicate that will be used to add metadata properties.
+        * Pass the predicate to the AddProperties method.
+        * Save the changes.
+
+    title_right: "System Requirements"
     content_right: |
-        GroupDocs.Metadata for .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        GroupDocs.Metadata for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
-        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        * 開発環境：Visual Studio、Xamarin、MonoDevelop
-        * フレームワーク：.NET Framework、.NET Standard、.NET Core、Mono
-        * [NuGet](https://www.nuget.org/packages/groupdocs.metadata)から最新バージョンのGroupDocs.Metadatafor.NETをダウンロードします。
-        
+        * Operating Systems: Microsoft Windows, Linux, MacOS
+        * Development Environments: Visual Studio, Xamarin, MonoDevelop
+        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        * Download the latest version of GroupDocs.Metadata for .NET from [NuGet](https://www.nuget.org/packages/groupdocs.metadata)
+         
     code: |
-        ```cs
-        //メタデータクラスのインスタンスにファイルをロードします
+        ```csharp    
+        // load the file in an instance of Metadata class
         using (var metadata = new GroupDocs.Metadata.Metadata("input.msg"))
         {
-        	//コンテンツ作成者を含むプロパティを追加します
-        	var affected = metadata.AddProperties(p => p.Tags.Contains(
-        		GroupDocs.Metadata.Tagging.Tags.Person.Creator), new GroupDocs.Metadata.Common.PropertyValue("test content author")
-        		);
-        	Console.WriteLine("Affected properties: {0}", affected);
-        	metadata.Save("output.msg");
+            // add a property containing the content author
+            var affected = metadata.AddProperties(p => p.Tags.Contains(
+              GroupDocs.Metadata.Tagging.Tags.Person.Creator), new GroupDocs.Metadata.Common.PropertyValue("test content author"));
+            Console.WriteLine("Affected properties: {0}", affected);
+            metadata.Save("output.msg");
         }
         ```
-        
+
+############################# Demos ############################
 demos:
     enable: true
-    title: "メタデータを追加するためのライブデモ"
+    title: "Live Demos to Add Metadata"
     content: |
-        [GroupDocs.Metadataライブデモ](https://products.groupdocs.app/metadata/family)サイトにアクセスして、今すぐMSGファイルにメタデータ情報を追加してください。  
-        ライブデモには次の利点があります
+       Add metadata information to MSG file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.
+       The live demo has the following benefits.
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-file-msg"
-          title: "MSGファイル形式について"
-          content: |
-            MSGは、Microsoft OutlookおよびExchangeが電子メールメッセージ、連絡先、予定、またはその他のタスクを保存するために使用するファイル形式です。このようなメッセージには、送信者、受信者、件名、日付、メッセージ本文、または連絡先情報、予定の詳細、および1つ以上のタスク仕様を含む1つ以上の電子メールフィールドが含まれる場合があります。を含むメッセージオブジェクトを構成するプロパティもMSGファイルの一部です。 MSGファイルには、ヘッダー、メインメッセージ本文、およびプレーンASCIIテキストとしてのハイパーリンクがあります。 MSGファイルは、Microsoftのメッセージングアプリケーションプログラミングインターフェイス（MAPI）を必要とするプログラムにも適しています。
 
-          link: "https://docs.fileformat.com/email/msg/"
-
+############################# More Formats ############################
 more_formats:
-    enable: false
-    title: "他のファイル形式へのメタデータプロパティの追加"
+    enable: true
+    title: "Adding Metadata Properties To Other File Formats"
     content: |
-        .NET用のマルチフォーマットドキュメントおよび画像メタデータ追加API。以下に説明するように、一般的なファイル形式のいくつかにメタデータを追加します。
-    format: 
-          link: "/metadata/net/add/pdf/"
-          description: "AdobePortableドキュメント形式"
+        Multi format documents and images metadata addition API for .NET. Retrieve metadata of some of the popular file formats as stated below.
 
-          link: "/metadata/net/add/doc/"
-          description: "MicrosoftWordドキュメント"
-
-          link: "/metadata/net/add/docm/"
-          description: "MicrosoftWordマクロ対応ドキュメント"
-
-          link: "/metadata/net/add/docx/"
-          description: "Microsoft WordOpenXMLドキュメント"
-
-          link: "/metadata/net/add/dot/"
-          description: "MicrosoftWord文書テンプレート"
-
-          link: "/metadata/net/add/dotx/"
-          description: "WordOpenXMLドキュメントテンプレート"
-
-          link: "/metadata/net/add/xls/"
-          description: "MicrosoftExcelバイナリファイル形式"
-
-          link: "/metadata/net/add/xlsx/"
-          description: "Microsoft ExcelOpenXMLスプレッドシート"
-
-          link: "/metadata/net/add/xlsm/"
-          description: "MicrosoftExcelマクロ対応スプレッドシート"
-
-          link: "/metadata/net/add/xltm/"
-          description: "OOXMLマクロ対応ワークブックテンプレート"
-
-          link: "/metadata/net/add/ppt/"
-          description: "PowerPointプレゼンテーション"
-
-          link: "/metadata/net/add/pps/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "/metadata/net/add/pptx/"
-          description: "PowerPointOpenXMLプレゼンテーション"
-
-          link: "/metadata/net/add/ppsx/"
-          description: "PowerPointOpenXMLスライドショー"
-
-          link: "/metadata/net/add/potx/"
-          description: "Microsoft PowerPointOpenXMLテンプレート"
-
-          link: "/metadata/net/add/potm/"
-          description: "MicrosoftPowerPointテンプレート"
-
-          link: "/metadata/net/add/pptm/"
-          description: "MicrosoftPowerPointプレゼンテーション"
-
-          link: "/metadata/net/add/ppsm/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "/metadata/net/add/ods/"
-          description: "ドキュメントスプレッドシートを開く"
-
-          link: "/metadata/net/add/odt/"
-          description: "ドキュメントテキストを開く"
-
-          link: "/metadata/net/add/tiff/"
-          description: "タグ付き画像ファイル形式"
-
-          link: "/metadata/net/add/jpeg/"
-          description: "JPEG画像"
-
-          link: "/metadata/net/add/png/"
-          description: "ポータブルネットワークグラフィック"
-
-          link: "/metadata/net/add/gif/"
-          description: "グラフィカルな交換フォーマットファイル"
-
-          link: "/metadata/net/add/bmp/"
-          description: "ビットマップファイル形式"
-
-          link: "/metadata/net/add/jp2/"
-          description: "JPEG2000コア画像ファイル"
-
-          link: "/metadata/net/add/webp/"
-          description: "ラスターWeb画像ファイル形式"
-
-          link: "/metadata/net/add/psd/"
-          description: "AdobePhotoshopドキュメント"
-
-          link: "/metadata/net/add/wmf/"
-          description: "Windowsメタファイル"
-
-          link: "/metadata/net/add/emf/"
-          description: "強化されたメタファイル形式"
-
-          link: "/metadata/net/add/mpp/"
-          description: "MicrosoftProjectドキュメント"
-
-          link: "/metadata/net/add/msg/"
-          description: "MicrosoftOutlookの電子メールメッセージ"
-
-          link: "/metadata/net/add/eml/"
-          description: "電子メールメッセージ"
-
-          link: "/metadata/net/add/dwg/"
-          description: "Autodesk Design Data Formats"
-
-          link: "/metadata/net/add/dxf/"
-          description: "AutoCAD Drawing Interchange"
-
-          link: "/metadata/net/add/one/"
-          description: "Microsoft OneNote"
-
-          link: "/metadata/net/add/mp3/"
-          description: "MPEGオーディオレイヤーIII"
-
-          link: "/metadata/net/add/wav/"
-          description: "波形オーディオファイル形式"
-
-          link: "/metadata/net/add/dicom/"
-          description: "デジタルイメージング＆amp;医学のコミュニケーション"
-
-          link: "/metadata/net/add/avi/"
-          description: "オーディオビデオインターリーブファイル"
-
-          link: "/metadata/net/add/vsd/"
-          description: "MicrosoftVisio2003-2010図面"
-
-          link: "/metadata/net/add/vsdx/"
-          description: "MicrosoftVisio図面"
-
-          link: "/metadata/net/add/vss/"
-          description: "MicrosoftVisio2003-2010ステンシル"
-
-          link: "/metadata/net/add/vdx/"
-          description: "Microsoft Visio2003-2010XML図面"
-
-          link: "/metadata/net/add/vsx/"
-          description: "Microsoft Visio2003-2010XMLステンシル"
-
-          link: "/metadata/net/add/zip/"
-          description: "アーカイブファイル形式"
-
-          link: "/metadata/net/add/epub/"
-          description: "デジタル電子書籍ファイル形式"
-
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

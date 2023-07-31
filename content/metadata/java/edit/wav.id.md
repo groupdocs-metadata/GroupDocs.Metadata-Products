@@ -1,21 +1,26 @@
 ---
-layout: "auto-gen"
-date: 2022-07-07T12:44:18+03:00
+############################# Static ############################
+layout: "auto-gen-metadata"
+date: 2023-06-14T09:37:27
 draft: false
+otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
-head_title: "Editor Metadata Java - Perbarui Metadata dari WAV File di Java"
-head_description: "API editor metadata Java lintas platform untuk mengedit dan memperbarui bidang metadata file WAV. Bekerja dengan standar metadata XMP, EXIF, IPTC, ID3 dll."
+############################# Head ############################
+head_title: "Edit Metadata to WAV Files in Java Java Applications"
+head_description: "Java Java metadata processing API to edit metadata information to WAV files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
-title: "Perbarui Metadata dari WAV File di Java"
-description: "Editor Metadata untuk aplikasi Java – Ubah bidang metadata dari semua dokumen populer, gambar, dan format file multimedia menggunakan API editor metadata untuk Java."
+############################# Header ############################
+title: "Update Metadata From WAV File In Java"
+description: "Metadata Editor for Java applications – Change metadata fields from all popular documents, images and multimedia file formats using metadata editor API for Java."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Unduh Uji Coba Gratis"
+    label: "Download Free Trial"
     link: "https://downloads.groupdocs.com/metadata/java"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,315 +33,128 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/metadata/java"
-              text: "Referensi API"
+              text: "{submenu.content_middle.button_text_1}"
 
+            # button loop
             - link: "https://github.com/groupdocs-metadata"
-              text: "Contoh Kode"
+              text: "{submenu.content_middle.button_text_2}"
 
+            # button loop
             - link: "https://products.groupdocs.app/metadata/family"
-              text: "Demo Langsung"
+              text: "{submenu.content_middle.button_text_3}"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/java"
-              text: "Harga"
+              text: "{submenu.content_middle.button_text_4}"
 
     right:
         link_download: "https://downloads.groupdocs.com/metadata"
         link_learn: "https://docs.groupdocs.com/metadata/java"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "Tentang GroupDocs.Metadata untuk Java API"
+    title: "About GroupDocs.Metadata for Java API"
     content: |
-        [GroupDocs.Metadata for Java](/id/metadata/java/) adalah solusi manipulasi bidang metadata tingkat lanjut untuk dengan mudah membaca, menambah, memodifikasi, menghapus, mencari, membandingkan, mengganti, dan mengekspor informasi metadata dari gambar dan format dokumen tanpa menggunakan perangkat lunak eksternal apa pun . Edit detail metadata dari dokumen Word, spreadsheet Excel, presentasi PowerPoint, email Outlook, OneNote, Visio, Project, PDF, AutoCAD, ZIp, format file Audio dan Video bersama dengan dukungan untuk bekerja dengan banyak fitur pemrosesan metadata lainnya.
+        [GroupDocs.Metadata for Java](/id/metadata/java/) is an advanced metadata fields manipulation solution to easily read, add, modify, delete, search, compare, replace and export metadata information from images and document formats without using any external software. Edit metadata details from Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "Langkah-langkah untuk Ekstraksi Metadata WAV di Java"
+    title_left: "Steps for Updating Metadata to WAV in Java"
     content_left: |
-        [GroupDocs.Metadata](/id/metadata/java/) memudahkan pengembang Java untuk mendapatkan informasi metadata dari file WAV dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
-
-        * Muat file WAV yang akan diperbarui.
-        * Tentukan predikat yang akan digunakan untuk menyaring properti metadata yang diinginkan.
-        * Tentukan nilai yang ingin Anda berikan ke properti yang dipilih.
-        * Berikan predikat dan nilai baru ke metode UpdateProperties.
-        * Periksa jumlah aktual properti yang diperbarui.
-        * Simpan perubahan.
+        [GroupDocs.Metadata for Java](/id/metadata/java/) makes it easy for Java developers to edit metadata details to WAV files from within their applications by implementing a few easy steps.
         
-    title_right: "Persyaratan sistem"
+        * Load the WAV file to be updated
+        * Specify a predicate that will be used to filter desired metadata properties.
+        * Pass the predicate and the new value to the UpdateProperties method.
+        * Save the changes.
+
+    title_right: "System Requirements"
     content_right: |
-        GroupDocs.Metadata untuk Java API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
+        GroupDocs.Metadata for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
-        * Sistem Operasi: Microsoft Windows, Linux, MacOS
-        * Lingkungan Pengembangan: NetBeans, Intellij IDEA, Eclipse dll
-        * Lingkungan Runtime Java: J2SE 6.0 dan yang lebih baru
-        * Dapatkan versi terbaru GroupDocs.Metadata untuk Java dari [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
-        
+        * Operating Systems: Microsoft Windows, Linux, MacOS
+        * Development Environments: NetBeans, IntelliJ IDEA, Eclipse
+        * Java Runtime Environments: J2SE 6.0 and above
+        * Get the latest version of  GroupDocs.Metadata for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
+         
     code: |
-        ```java
-        public class UpdatingMetadata {
-            public static void run() {
-                Date threeDaysAgo = new Date(System.currentTimeMillis() - TimeUnit.DAYS.toMillis(3));
-                try (Metadata metadata = new Metadata("input.wav")) {
-                        // Perbarui tanggal/waktu pembuatan file jika nilai yang ada lebih lama dari 3 hari
-                        int affected = metadata.updateProperties(new ContainsTagSpecification(Tags.getTime().getCreated()).and(
-                                new OfTypeSpecification(MetadataPropertyType.DateTime)).and(
-                                new UpdatingMetadata().new DateBeforeSpecification(threeDaysAgo)), new PropertyValue(new Date()));
-        
-                        System.out.println(String.format("Affected properties: %s", affected));
-        
-                        metadata.save("output.wav");
-                }
+        ```java    
+        public class UpdatingMetadata
+        {
+          public static void run() 
+          {
+            Date threeDaysAgo = new Date(System.currentTimeMillis() - TimeUnit.DAYS.toMillis(3));
+            try (Metadata metadata = new Metadata("input.wav"))
+            {
+                // Update the file creation date/time if the existing value is older than 3 days
+                int affected = metadata.updateProperties(new ContainsTagSpecification(Tags.getTime().getCreated()).and(
+                        new OfTypeSpecification(MetadataPropertyType.DateTime)).and(
+                        new UpdatingMetadata().new DateBeforeSpecification(threeDaysAgo)), new PropertyValue(new Date()));
+
+                System.out.println(String.format("Affected properties: %s", affected));
+
+                metadata.save("output.wav");
             }
-        
-            // Tentukan spesifikasi Anda sendiri untuk memfilter properti metadata
-            public class DateBeforeSpecification extends Specification {
-                public DateBeforeSpecification(Date date) {
-                    setValue(date);
-                }
-        
-                public final Date getValue() {
-                    return auto_Value;
-                }
-        
-                private void setValue(Date value) {
-                    auto_Value = value;
-                }
-        
-                private Date auto_Value;
-        
-                public boolean isSatisfiedBy(MetadataProperty candidate) {
-                    Date date = candidate.getValue().toClass(Date.class);
-                    if (date != null) {
-                        return date.before(getValue());
-                    }
-                    return false;
-                }
+          }
+
+          // Define your own specifications to filter metadata properties
+          public class DateBeforeSpecification extends Specification
+          {
+            public DateBeforeSpecification(Date date)
+            {
+              setValue(date);
             }
+
+            public final Date getValue()
+            {
+              return auto_Value;
+            }
+
+            private void setValue(Date value)
+            {
+              auto_Value = value;
+            }
+
+            private Date auto_Value;
+
+            public boolean isSatisfiedBy(MetadataProperty candidate)
+            {
+              Date date = candidate.getValue().toClass(Date.class);
+              if (date != null)
+              {
+                return date.before(getValue());
+              }
+              return false;
+            }
+          }
         }
         ```
-        
+
+############################# Demos ############################
 demos:
     enable: true
-    title: "Demo Langsung Pengeditan Metadata"
+    title: "Live Demos of Editing Metadata"
     content: |
-        Perbarui informasi metadata file WAV sekarang juga dengan mengunjungi situs web [GroupDocs.Metadata](https://products.groupdocs.app/metadata/family).  
-        Demo langsung memiliki manfaat sebagai berikut
+       Update metadata information to WAV file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.
+       The live demo has the following benefits.
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-file-wav"
-          title: "Tentang Format Berkas WAV"
-          content: |
-            WAV, dikenal dengan WAVE (Waveform Audio File Format), adalah subset dari spesifikasi Resource Interchange File Format (RIFF) Microsoft untuk menyimpan file audio digital. Format tidak menerapkan kompresi apa pun ke aliran bit dan menyimpan rekaman audio dengan laju pengambilan sampel dan laju bit yang berbeda. Ini telah dan merupakan salah satu format standar untuk CD audio. File gelombang berukuran lebih besar dibandingkan dengan format file audio baru seperti MP3 yang menggunakan kompresi lossy untuk mengurangi ukuran file sambil mempertahankan kualitas audio yang sama. Namun, file WAV dapat dikompresi menggunakan codec Audio Compression Manager (ACM). Ada beberapa API dan aplikasi yang tersedia yang dapat mengonversi file WAV ke format file audio populer lainnya.
 
-          link: "https://docs.fileformat.com/audio/wav/"
-
+############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Mengubah Metadata Dari Format File Lain"
+    title: "Changing Metadata Of Other File Formats"
     content: |
-        Dokumen multi format dan API pengeditan metadata gambar untuk Java. Dapatkan detail metadata dari beberapa format file populer seperti yang dinyatakan di bawah ini.
-    format: 
-        - name: "Perbarui Metadata PDF"
-          link: "/metadata/java/edit/pdf/"
-          description: "Format Dokumen Portabel Adobe"
+        Multi format documents and images metadata editing API for Java. Retrieve metadata of some of the popular file formats as stated below.
 
-        - name: "Perbarui Metadata DOC"
-          link: "/metadata/java/edit/doc/"
-          description: "Dokumen Microsoft Word"
-
-        - name: "Perbarui Metadata DOCM"
-          link: "/metadata/java/edit/docm/"
-          description: "Dokumen Berkemampuan Makro Microsoft Word"
-
-        - name: "Perbarui Metadata DOCX"
-          link: "/metadata/java/edit/docx/"
-          description: "Microsoft Word Buka Dokumen XML"
-
-        - name: "Perbarui Metadata DOT"
-          link: "/metadata/java/edit/dot/"
-          description: "Templat Dokumen Microsoft Word"
-
-        - name: "Perbarui Metadata DOTX"
-          link: "/metadata/java/edit/dotx/"
-          description: "Templat Dokumen XML Word Terbuka"
-
-        - name: "Perbarui Metadata XLS"
-          link: "/metadata/java/edit/xls/"
-          description: "Format File Biner Microsoft Excel"
-
-        - name: "Perbarui Metadata XLSX"
-          link: "/metadata/java/edit/xlsx/"
-          description: "Microsoft Excel Buka XML Spreadsheet"
-
-        - name: "Perbarui Metadata XLSM"
-          link: "/metadata/java/edit/xlsm/"
-          description: "Spreadsheet Berkemampuan Makro Microsoft Excel"
-
-        - name: "Perbarui Metadata XLTM"
-          link: "/metadata/java/edit/xltx/"
-          description: "Templat Buku Kerja yang Diaktifkan Makro OOXML"
-
-        - name: "Perbarui Metadata PPT"
-          link: "/metadata/java/edit/ppt/"
-          description: "Presentasi powerpoint"
-
-        - name: "Perbarui Metadata PPS"
-          link: "/metadata/java/edit/pps/"
-          description: "Pertunjukan Slide Microsoft PowerPoint"
-
-        - name: "Perbarui Metadata PPTX"
-          link: "/metadata/java/edit/pptx/"
-          description: "Presentasi PowerPoint Terbuka XML"
-
-        - name: "Perbarui Metadata PPSX"
-          link: "/metadata/java/edit/ppsx/"
-          description: "PowerPoint Terbuka XML Slide Show"
-
-        - name: "Perbarui Metadata POTX"
-          link: "/metadata/java/edit/potx/"
-          description: "Templat XML Terbuka Microsoft PowerPoint"
-
-        - name: "Perbarui Metadata POTM"
-          link: "/metadata/java/edit/potm/"
-          description: "Templat Microsoft PowerPoint"
-
-        - name: "Perbarui Metadata PPTM"
-          link: "/metadata/java/edit/pptm/"
-          description: "Presentasi Microsoft PowerPoint"
-
-        - name: "Perbarui Metadata PPSM"
-          link: "/metadata/java/edit/ppsm/"
-          description: "Pertunjukan Slide Microsoft PowerPoint"
-
-        - name: "Perbarui Metadata ODS"
-          link: "/metadata/java/edit/ods/"
-          description: "Buka Spreadsheet Dokumen"
-
-        - name: "Perbarui Metadata ODT"
-          link: "/metadata/java/edit/odt/"
-          description: "Buka Teks Dokumen"
-
-        - name: "Perbarui Metadata TIFF"
-          link: "/metadata/java/edit/tiff/"
-          description: "Format File Gambar yang Ditandai"
-
-        - name: "Perbarui Metadata JPEG"
-          link: "/metadata/java/edit/jpeg/"
-          description: "Gambar JPEG"
-
-        - name: "Perbarui Metadata PNG"
-          link: "/metadata/java/edit/png/"
-          description: "Grafik Jaringan Portabel"
-
-        - name: "Perbarui Metadata GIF"
-          link: "/metadata/java/edit/gif/"
-          description: "File Format Pertukaran Grafis"
-
-        - name: "Perbarui Metadata BMP"
-          link: "/metadata/java/edit/bmp/"
-          description: "Format File Bitmap"
-
-        - name: "Perbarui Metadata JP2"
-          link: "/metadata/java/edit/jp2/"
-          description: "File Gambar Inti JPEG 2000"
-
-        - name: "Perbarui Metadata WEBP"
-          link: "/metadata/java/edit/webp/"
-          description: "Format File Gambar Web Raster"
-
-        - name: "Perbarui Metadata PSD"
-          link: "/metadata/java/edit/psd/"
-          description: "Dokumen Adobe Photoshop"
-
-        - name: "Perbarui Metadata WMF"
-          link: "/metadata/java/edit/wmf/"
-          description: "Metafile Windows"
-
-        - name: "Perbarui Metadata EMF"
-          link: "/metadata/java/edit/emf/"
-          description: "Format Metafile yang Ditingkatkan"
-
-        - name: "Perbarui Metadata MPP"
-          link: "/metadata/java/edit/emz/"
-          description: "Dokumen Proyek Microsoft"
-
-        - name: "Perbarui Metadata MSG"
-          link: "/metadata/java/edit/msg/"
-          description: "Pesan Email Microsoft Outlook"
-
-        - name: "Perbarui Metadata EML"
-          link: "/metadata/java/edit/eml/"
-          description: "Pesan email"
-
-        - name: "Perbarui Metadata DWG"
-          link: "/metadata/java/edit/dwg/"
-          description: "Format Data Desain Autodesk"
-
-        - name: "Perbarui Metadata DXF"
-          link: "/metadata/java/edit/dxf/"
-          description: "Pertukaran Gambar AutoCAD"
-
-        - name: "Perbarui SATU Metadata"
-          link: "/metadata/java/edit/one/"
-          description: "Microsoft OneNote"
-
-        - name: "Perbarui Metadata MP3"
-          link: "/metadata/java/edit/mp3/"
-          description: "Lapisan Audio MPEG III"
-
-        - name: "Perbarui WAV Metadata"
-          link: "/metadata/java/edit/wav/"
-          description: "Format File Audio Bentuk Gelombang"
-
-        - name: "Perbarui Metadata DICOM"
-          link: "/metadata/java/edit/dicom/"
-          description: "Pencitraan Digital &amp; Kom dalam Kedokteran"
-
-        - name: "Perbarui Metadata AVI"
-          link: "/metadata/java/edit/avi/"
-          description: "File Interleave Audio Video"
-
-        - name: "Perbarui Metadata VSD"
-          link: "/metadata/java/edit/vsd/"
-          description: "Gambar Microsoft Visio 2003-2010"
-
-        - name: "Perbarui Metadata VSDX"
-          link: "/metadata/java/edit/vsdx/"
-          description: "Gambar Microsoft Visio"
-
-        - name: "Perbarui Metadata VSS"
-          link: "/metadata/java/edit/vss/"
-          description: "Microsoft Visio 2003-2010 Stensil"
-
-        - name: "Perbarui Metadata VDX"
-          link: "/metadata/java/edit/vdx/"
-          description: "Gambar XML Microsoft Visio 2003-2010"
-
-        - name: "Perbarui Metadata VSX"
-          link: "/metadata/java/edit/vsx/"
-          description: "Stensil XML Microsoft Visio 2003-2010"
-
-        - name: "Perbarui Metadata ZIP"
-          link: "/metadata/java/edit/zip/"
-          description: "Format File Arsip"
-
-        - name: "Perbarui Metadata EPUB"
-          link: "/metadata/java/edit/epub/"
-          description: "Format File E-Book Digital"
-
-        - name: "Perbarui Metadata VCF"
-          link: "/metadata/java/edit/vcf/"
-          description: "Kartu Nama Elektronik"
-
-        - name: "Perbarui Metadata VCR"
-          link: "/metadata/java/edit/vcr/"
-          description: "kartu v"
-
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

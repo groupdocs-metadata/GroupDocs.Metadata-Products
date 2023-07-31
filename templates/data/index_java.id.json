@@ -1,0 +1,201 @@
+{
+  "head": {
+    "title": "Java Metadata API – Lihat, Baca, Ekspor, Edit, Hapus Metadata Dokumen",
+    "description": "Java metadata API untuk melihat, membaca, mengedit, menganalisis, menemukan, menghapus, membandingkan & mengekspor metadata dokumen PDF Word Excel PPTX Outlook Audio Video & Gambar."
+  },
+  "header": {
+    "title": "API Manipulasi Metadata untuk Java",
+    "description": "Kembangkan Aplikasi Java untuk Membuat, Melihat, Mengakses, Memperbarui, Menghapus, Mencari, Membandingkan, Mengganti & Mengekspor Metadata Dokumen Populer & Format Gambar."
+  },
+  "submenu": {
+    "middle": {
+      "overview": "Ringkasan",
+      "features": "Fitur",
+      "support": "Mendukung",
+      "livedemo": "Demo Langsung",
+      "pricing": "Harga"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Metadata untuk Java adalah API manajemen metadata tingkat lanjut untuk memanipulasi informasi metadata dari dokumen, gambar, arsip, torrent, dan berbagai format file lainnya. Pengembang sekarang dapat meningkatkan fungsionalitas aplikasi Java mereka dengan dengan mudah menggabungkan tampilan metadata, memodifikasi, menghapus, mengekstraksi, mencari, membandingkan, mengganti, dan mengekspor fitur dalam semua format dokumen bisnis populer seperti PDF, Microsoft Office Word, spreadsheet Excel, presentasi PowerPoint & slide, email Outlook, Proyek, diagram Visio, OneNote, gambar, AutoCAD, Photoshop, audio, video, font dan metafile OpenType.",
+      "paragraph_2": "Pustaka metadata Java menawarkan fitur-fitur seperti pencarian metadata, mengganti properti metadata, membandingkan metadata dari format file yang didukung untuk mengidentifikasi kesamaan serta perbedaan. Anda juga dapat mengedit atau memodifikasi metadata untuk manajemen informasi yang lebih baik dan mengekspor informasi metadata yang diambil ke file Excel, file CSV, dan Kumpulan Data. API menawarkan dukungan komprehensif untuk bekerja dengan semua standar metadata yang umum digunakan seperti properti metadata bawaan, XMP, EXIF, dan kustom dalam format dokumen yang didukung.",
+      "paragraph_3": "GroupDocs.Metadata untuk Java kompatibel dengan semua versi Java dan mendukung sistem operasi populer (Windows, Linux, MacOS) yang mampu menjalankan runtime Java."
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Berikut adalah ikhtisar GroupDocs.Metadata untuk Java:",
+      "left": {
+        "title": "Bekerja dengan Gambar",
+        "content": {
+          "line_1": "Metadata XMP",
+          "line_2": "Metadata EXIF",
+          "line_3": "Metadata IPTC-IIM",
+          "line_4": "Metadata PSD",
+          "line_5": "Metadata CAD",
+          "line_6": "Parsing Tag IFD Tambahan"
+        }
+      },
+      "right": {
+        "title": "Bekerja dengan Audio & Video",
+        "content": {
+          "line_1": "Deteksi Format MP3 Runtime",
+          "line_2": "Baca Lyrics3 Tag",
+          "line_3": "Baca Info Audio MPEG",
+          "line_4": "Baca Info Header AVI",
+          "line_5": "Baca subtitle Matroska",
+          "line_6": "Ekspor Data ke Excel atau CSV"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Metadata untuk Java mendukung hal berikut",
+      "formats_url_title": "format file dokumen",
+      "left": {
+        "title": "Microsoft Office"
+      },
+      "right": {
+        "title": "Format Lainnya",
+        "content": {
+          "line_5": "Audio",
+          "line_6": "Video",
+          "line_9": "Gambar-gambar",
+          "line_11": "Font Tipe Terbuka",
+          "line_12": "Yang lain"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Metadata untuk .NET mendukung Sistem Operasi, Kerangka Kerja & Manajer Paket berikut:",
+      "left": {
+        "title": "Sistem operasi",
+        "content": {
+          "line_1": "Dekstop Windows",
+          "line_2": "Server Windows",
+          "line_3": "Windows Azure",
+          "line_4": "Linux"
+        },
+        "title_2": "Framework yang Didukung",
+        "content_2": {
+          "line_1": ".NET Framework 2.0 atau lebih tinggi",
+          "line_2": "Mono Framework 1.2 atau lebih tinggi",
+          "line_3": ".NET Standar 2.0",
+          "line_4": ".NET Inti 2.0",
+          "line_5": ".NET Inti 2.1"
+        }
+      },
+      "right": {
+        "title": "Manajer Paket",
+        "content": {
+          "line_1": "* NuGet"
+        },
+        "title_2": "Lingkungan Pengembangan",
+        "content_2": {
+          "line_1": "*Microsoft Visual Studio",
+          "line_2": "* Xamarin.Android",
+          "line_3": "* Xamarin.IOS",
+          "line_4": "* Xamarin.Mac",
+          "line_5": "* MonoDevelop"
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Metadata untuk Fitur Java",
+    "feature_1": {
+      "content": "Manipulasi Metadata Bawaan & Kustom dan Ambil Metadata Torrent & Format Arsip"
+    },
+    "feature_2": {
+      "content": "Akses & Hapus Data Tersembunyi di Microsoft Word, Excel, PowerPoint & PDF"
+    },
+    "feature_3": {
+      "content": "Deteksi Jenis File Dokumen saat Run-time"
+    },
+    "feature_4": {
+      "content": "Identifikasi / Hapus Tanda Tangan Digital di Word, Excel, PDF"
+    },
+    "feature_5": {
+      "content": "Deteksi Perlindungan Kata Sandi Dokumen di Word, Excel, PowerPoint, dan PDF"
+    },
+    "feature_6": {
+      "content": "Ambil Gambar Kecil dan Pratinjau Gambar dari Format yang Didukung & Dukungan Wadah Multimedia Matroska"
+    },
+    "feature_7": {
+      "content": "Ekstrak Metadata Teks dari file Gambar PNG"
+    },
+    "feature_8": {
+      "content": "Mendukung Pencacahan dari semua Jenis Metadata & Baca Metadata dari File Font OpenType"
+    },
+    "feature_9": {
+      "content": "Baca Properti Metadata menggunakan Kunci yang Ditetapkan untuk Format yang Didukung apa pun"
+    },
+    "feature_10": {
+      "content": "Dapatkan/Hapus Metadata Pesan Email & Hapus Lampiran"
+    },
+    "feature_11": {
+      "content": "Baca subtitle Matroska dan ambil Metadata File Audio & Video"
+    },
+    "feature_12": {
+      "content": "Hasilkan Pratinjau Gambar untuk File EPUB, CAD, EML & MSG"
+    },
+    "feature_13": {
+      "content": "Identifikasi Perbedaan atau Kesamaan dalam Metadata Format yang Didukung dengan Perbandingan"
+    },
+    "feature_14": {
+      "content": "Cari Properti Metadata Dokumen, EXIF, & XMP"
+    },
+    "feature_15": {
+      "content": "Ganti Properti Metadata Word, Excel, PowerPoint, dan PDF"
+    },
+    "feature_16": {
+      "content": "Ekspor Metadata dari Format File yang Didukung ke Excel, CSV atau DataSet"
+    },
+    "feature_17": {
+      "content": "Tambahkan atau Perbarui Properti Metadata XMP dan EXIF ​​​​dari Jenis Arbitrer menggunakan Search API"
+    },
+    "feature_18": {
+      "content": "Manipulasi Properti Metadata Gambar & Hapus Informasi Lokasi Foto"
+    },
+    "feature_19": {
+      "content": "Hapus Metadata & Komentar dari Laporan dan Dokumen"
+    },
+    "feature_20": {
+      "content": "Ekstraksi Metadata dari File Microsoft Excel Mulai dari Excel 95"
+    },
+    "feature_21": {
+      "content": "Mengurangi Konsumsi Memori Format PDF, Excel & Gambar"
+    },
+    "feature_22": {
+      "content": "Perbarui Properti Metadata EXIF ​​di File WEBP, PNG & PSD"
+    },
+    "feature_23": {
+      "content": "Ekstrak Properti Metadata XMP dalam File MOV, MP3 & WEBP"
+    },
+    "feature_24": {
+      "content": "Tambah, Perbarui, dan Hapus Paket Metadata IPTC di Gambar TIFF"
+    },
+    "feature_25": {
+      "content": "Tambah, Perbarui & Hapus Paket Metadata EXIF ​​di Gambar JPEG2000"
+    },
+    "feature_26": {
+      "content": "Baca Tag EXIF ​​& Properti Metadata XMP dari Format Gambar HEIC/HEIF"
+    },
+    "feature_27": {
+      "content": "Baca Metadata dari File Proyek Microsoft Terenkripsi"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "Mengambil Properti Metadata secara Efisien",
+      "content": "Dengan GroupDocs.Metadata untuk Java API, Properti Metadata dari format file yang didukung dapat diambil dengan cukup efisien. Kode untuk melakukannya cukup sederhana dan lurus ke depan. Berikut adalah contoh yang menunjukkan betapa mudahnya mengambil properti metadata dari file MP3 menggunakan Java:"
+    },
+    "feature_2": {
+      "title": "Ambil Data Tersembunyi untuk Manipulasi",
+      "content": "GroupDocs.Metadata untuk Java memberi Anda cara komprehensif untuk mendapatkan dan menghapus data tersembunyi dari file Microsoft Word, Excel, dan PowerPoint. Anda juga dapat melakukan hal yang sama untuk dokumen PDF. Anda dapat memanipulasi komentar, menggabungkan bidang, halaman tersembunyi, bidang formulir, anotasi, dan lainnya."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Metadata menawarkan API tampilan dokumen untuk lingkungan pengembangan populer lainnya"
+  }
+}

@@ -67,36 +67,30 @@
       }
     },
     "tab_three": {
-      "description": "GroupDocs.Metadata for .NET supports following Operating Systems, Frameworks & Package Managers:",
+      "description": "GroupDocs.Metadata for Java supports following Operating Systems, Frameworks & Package Managers:",
       "left": {
         "title": "Operating Systems",
         "content": {
-          "line_1": "Windows Desktop",
-          "line_2": "Windows Server",
-          "line_3": "Windows Azure",
-          "line_4": "Linux"
+          "line_1": "Microsoft Windows Desktop",
+          "line_2": "Microsoft Windows Server",
+          "line_3": "Linux",
+          "line_4": "MacOS"
         },
         "title_2": "Supported Frameworks",
         "content_2": {
-          "line_1": ".NET Framework 2.0 or higher",
-          "line_2": "Mono Framework 1.2 or higher",
-          "line_3": ".NET Standard 2.0",
-          "line_4": ".NET Core 2.0",
-          "line_5": ".NET Core 2.1"
+          "line_1": "Java 7 (1.7) and above"
         }
       },
       "right": {
-        "title": "Package Managers",
+        "title": "Development Environments",
         "content": {
-          "line_1": "* NuGet"
+          "line_1": "* NetBeans",
+          "line_2": "* IntelliJ IDEA",
+          "line_3": "* Eclipse"
         },
-        "title_2": "Development Environments",
+        "title_2": "Build Automation Tool",
         "content_2": {
-          "line_1": "* Microsoft Visual Studio",
-          "line_2": "* Xamarin.Android",
-          "line_3": "* Xamarin.IOS",
-          "line_4": "* Xamarin.Mac",
-          "line_5": "* MonoDevelop"
+          "line_1": "* Maven"
         }
       }
     }

@@ -1,21 +1,26 @@
 ---
-layout: "auto-gen"
-date: 2021-05-20T16:11:30+03:00
+############################# Static ############################
+layout: "auto-gen-metadata"
+date: 2023-06-14T09:36:32
 draft: false
+otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
-head_title: "JavaのWMFファイルにメタデータプロパティを追加する"
-head_description: "クロスプラットフォームのJavaメタデータAPIを使用して、メタデータフィールドを表示し、WMFファイルに追加します。メタデータ標準XMP、EXIF、IPTC、ID3などを操作します。"
+############################# Head ############################
+head_title: "Add Metadata to WMF Files in Java Java Applications"
+head_description: "Java Java metadata processing API to add metadata information to WMF files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
-title: "JavaでWMFにメタデータを追加する"
-description: "GroupDocs.Metadata for Java APIを使用して、メタデータプロパティをWMFおよびその他の多くの一般的なドキュメント、画像、マルチメディアファイル形式に追加します。"
+############################# Header ############################
+title: "Adding Metadata To WMF In Java"
+description: "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using GroupDocs.Metadata for Java."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "無料トライアルをダウンロード"
+    label: "Download Free Trial"
     link: "https://downloads.groupdocs.com/metadata/java"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,236 +33,87 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/metadata/java"
-              text: "APIリファレンス"
+              text: "{submenu.content_middle.button_text_1}"
 
+            # button loop
             - link: "https://github.com/groupdocs-metadata"
-              text: "コード例"
+              text: "{submenu.content_middle.button_text_2}"
 
+            # button loop
             - link: "https://products.groupdocs.app/metadata/family"
-              text: "ライブデモ"
+              text: "{submenu.content_middle.button_text_3}"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/java"
-              text: "価格設定"
+              text: "{submenu.content_middle.button_text_4}"
 
     right:
         link_download: "https://downloads.groupdocs.com/metadata"
         link_learn: "https://docs.groupdocs.com/metadata/java"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Metadata for Java APIについて"
+    title: "About GroupDocs.Metadata for Java API"
     content: |
-        [GroupDocs.Metadata for Java](/metadata/java/)は、外部ソフトウェアを使用せずに、画像やドキュメント形式からメタデータ情報を簡単に表示、更新、削除、検索、比較、交換、エクスポートできる高度なメタデータフィールド管理および操作ソリューションです。 。メタデータの詳細をWord文書、Excelスプレッドシート、PowerPointプレゼンテーション、Outlook電子メール、OneNote、Visio、Project、PDF、AutoCAD、ZIp、オーディオおよびビデオファイル形式に追加し、他の多くのメタデータ処理機能の操作をサポートします。
+        [GroupDocs.Metadata for Java](/ja/metadata/java/) is an advanced metadata fields management and manipulation solution to easily view, update, remove, find, compare, exchange and export metadata information from images and document formats without using any external software. Add metadata details to Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "JavaでWMFにメタデータを追加する手順"
+    title_left: "Steps for adding Metadata to WMF in Java"
     content_left: |
-        [GroupDocs.Metadata](/metadata/java/)を使用すると、Java開発者は、いくつかの簡単な手順を実装することで、アプリケーション内からWMFファイルにメタデータフィールドを簡単に追加できます。
-
-        * 更新するWMFファイルをロードします。
-        * メタデータプロパティの追加に使用される述語を指定します。
-        * 選択したプロパティに割り当てる値を指定します。
-        * 述語をAddPropertiesメソッドに渡します。
-        * 追加されたプロパティの実際の数を確認してください。
-        * 変更を保存します。
+        [GroupDocs.Metadata for Java](/ja/metadata/java/) makes it easy for Java developers to add metadata details to WMF files from within their applications by implementing a few easy steps.
         
-    title_right: "システム要求"
+        * Load WMF with an instance of Metadata class.
+        * Use Metadata.AddProperties method to add the properties.
+        * Use a predicate to find desired metadata properties.
+        * Save the changes back in WMF format.
+
+    title_right: "System Requirements"
     content_right: |
-        GroupDocs.Metadata for Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        GroupDocs.Metadata for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
-        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        * 開発環境：NetBeans、Intellij IDEA、Eclipseなど
-        * Javaランタイム環境：J2SE6.0以降
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)からJava用のGroupDocs.Metadataの最新バージョンを入手します。
-        
+        * Operating Systems: Microsoft Windows, Linux, MacOS
+        * Development Environments: NetBeans, IntelliJ IDEA, Eclipse
+        * Java Runtime Environments: J2SE 6.0 and above
+        * Get the latest version of  GroupDocs.Metadata for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
+         
     code: |
-        ```java
-        //メタデータクラスのインスタンスにファイルをロードします
-        try (Metadata metadata = new Metadata("input.wmf")) {
-        
-        	//コンテンツ作成者を含むプロパティを追加します
-        	int affected = metadata.addProperties(new ContainsTagSpecification(Tags.getTime().getPrinted()), new PropertyValue(new Date()));
-        
-        	System.out.println(String.format("Affected properties: %s", affected));
-        
-        	metadata.save("output.wmf");
+        ```java    
+        // {steps.code.load_comment}
+        try (Metadata metadata = new Metadata("input.wmf"))
+        {
+            // add a property containing the content author
+            int affected = metadata.addProperties(new ContainsTagSpecification(Tags.getTime().getPrinted()), new PropertyValue(new Date()));
+            System.out.println(String.format("Affected properties: %s", affected));
+            metadata.save("output.wmf");
         }
         ```
-        
+
+############################# Demos ############################
 demos:
     enable: true
-    title: "メタデータを追加するためのライブデモ"
+    title: "Live Demos to Add Metadata"
     content: |
-        [GroupDocs.Metadataライブデモ](https://products.groupdocs.app/metadata/family)サイトにアクセスして、メタデータ情報をWMFファイルに今すぐ追加してください。  
-        ライブデモには次の利点があります
+       Add metadata information to WMF file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.
+       The live demo has the following benefits.
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-file-wmf"
-          title: "WMFファイル形式について"
-          content: |
-            WMF拡張子の付いたファイルは、ベクターおよびビットマップ形式の画像データを格納するためのMicrosoft Windowsメタファイル（WMF）を表します。より正確に言うと、WMFは、デバイスに依存しないグラフィックスファイル形式のベクターファイル形式カテゴリに属しています。 Windowsグラフィックデバイスインターフェイス（GDI）は、WMFファイルに格納されている関数を使用して、画面に画像を表示します。拡張メタファイル（EMF）として知られるWMFのより拡張されたバージョンは、フォーマットをより豊富な機能にするために後で公開されました。実際には、WMFはSVGに似ています。
 
-          link: "https://docs.fileformat.com/image/wmf/"
-
+############################# More Formats ############################
 more_formats:
-    enable: false
-    title: "他のファイル形式へのメタデータプロパティの追加"
+    enable: true
+    title: "Adding Metadata Properties To Other File Formats"
     content: |
-        マルチフォーマットのドキュメントや画像にメタデータを追加するためのJavaAPI。以下に示すように、いくつかの一般的なファイル形式のメタデータの詳細を設定します。
-    format: 
-          link: "https://products.groupdocs.com/metadata/java/add/pdf"
-          description: "AdobePortableドキュメント形式"
+        Multi format documents and images metadata addition API for Java. Retrieve metadata of some of the popular file formats as stated below.
 
-          link: "https://products.groupdocs.com/metadata/java/add/doc"
-          description: "MicrosoftWordドキュメント"
-
-          link: "https://products.groupdocs.com/metadata/java/add/docm"
-          description: "MicrosoftWordマクロ対応ドキュメント"
-
-          link: "https://products.groupdocs.com/metadata/java/add/docx"
-          description: "Microsoft WordOpenXMLドキュメント"
-
-          link: "https://products.groupdocs.com/metadata/java/add/dot"
-          description: "MicrosoftWord文書テンプレート"
-
-          link: "https://products.groupdocs.com/metadata/java/add/dotx"
-          description: "WordOpenXMLドキュメントテンプレート"
-
-          link: "https://products.groupdocs.com/metadata/java/add/xls"
-          description: "MicrosoftExcelバイナリファイル形式"
-
-          link: "https://products.groupdocs.com/metadata/java/add/xlsx"
-          description: "Microsoft ExcelOpenXMLスプレッドシート"
-
-          link: "https://products.groupdocs.com/metadata/java/add/xlsm"
-          description: "MicrosoftExcelマクロ対応スプレッドシート"
-
-          link: "https://products.groupdocs.com/metadata/java/add/xltx"
-          description: "OOXMLマクロ対応ワークブックテンプレート"
-
-          link: "https://products.groupdocs.com/metadata/java/add/ppt"
-          description: "PowerPointプレゼンテーション"
-
-          link: "https://products.groupdocs.com/metadata/java/add/pps"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "https://products.groupdocs.com/metadata/java/add/pptx"
-          description: "PowerPointOpenXMLプレゼンテーション"
-
-          link: "https://products.groupdocs.com/metadata/java/add/ppsx"
-          description: "PowerPointOpenXMLスライドショー"
-
-          link: "https://products.groupdocs.com/metadata/java/add/potx"
-          description: "Microsoft PowerPointOpenXMLテンプレート"
-
-          link: "https://products.groupdocs.com/metadata/java/add/potm"
-          description: "MicrosoftPowerPointテンプレート"
-
-          link: "https://products.groupdocs.com/metadata/java/add/pptm"
-          description: "MicrosoftPowerPointプレゼンテーション"
-
-          link: "https://products.groupdocs.com/metadata/java/add/ppsm"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "https://products.groupdocs.com/metadata/java/add/ods"
-          description: "ドキュメントスプレッドシートを開く"
-
-          link: "https://products.groupdocs.com/metadata/java/add/odt"
-          description: "ドキュメントテキストを開く"
-
-          link: "https://products.groupdocs.com/metadata/java/add/tiff"
-          description: "タグ付き画像ファイル形式"
-
-          link: "https://products.groupdocs.com/metadata/java/add/jpeg"
-          description: "JPEG画像"
-
-          link: "https://products.groupdocs.com/metadata/java/add/png"
-          description: "ポータブルネットワークグラフィック"
-
-          link: "https://products.groupdocs.com/metadata/java/add/gif"
-          description: "グラフィカルな交換フォーマットファイル"
-
-          link: "https://products.groupdocs.com/metadata/java/add/bmp"
-          description: "ビットマップファイル形式"
-
-          link: "https://products.groupdocs.com/metadata/java/add/jp2"
-          description: "JPEG2000コア画像ファイル"
-
-          link: "https://products.groupdocs.com/metadata/java/add/webp"
-          description: "ラスターWeb画像ファイル形式"
-
-          link: "https://products.groupdocs.com/metadata/java/add/psd"
-          description: "AdobePhotoshopドキュメント"
-
-          link: "https://products.groupdocs.com/metadata/java/add/wmf"
-          description: "Windowsメタファイル"
-
-          link: "https://products.groupdocs.com/metadata/java/add/emf"
-          description: "強化されたメタファイル形式"
-
-          link: "https://products.groupdocs.com/metadata/java/add/emz"
-          description: "MicrosoftProjectドキュメント"
-
-          link: "https://products.groupdocs.com/metadata/java/add/msg"
-          description: "MicrosoftOutlookの電子メールメッセージ"
-
-          link: "https://products.groupdocs.com/metadata/java/add/eml"
-          description: "電子メールメッセージ"
-
-          link: "https://products.groupdocs.com/metadata/java/add/dwg"
-          description: "Autodesk Design Data Formats"
-
-          link: "https://products.groupdocs.com/metadata/java/add/dxf"
-          description: "AutoCAD Drawing Interchange"
-
-          link: "https://products.groupdocs.com/metadata/java/add/one"
-          description: "Microsoft OneNote"
-
-          link: "https://products.groupdocs.com/metadata/java/add/mp3"
-          description: "MPEGオーディオレイヤーIII"
-
-          link: "https://products.groupdocs.com/metadata/java/add/wav"
-          description: "波形オーディオファイル形式"
-
-          link: "https://products.groupdocs.com/metadata/java/add/dicom"
-          description: "デジタルイメージング＆amp;医学のコミュニケーション"
-
-          link: "https://products.groupdocs.com/metadata/java/add/avi"
-          description: "オーディオビデオインターリーブファイル"
-
-          link: "https://products.groupdocs.com/metadata/java/add/vsd"
-          description: "MicrosoftVisio2003-2010図面"
-
-          link: "https://products.groupdocs.com/metadata/java/add/vsdx"
-          description: "MicrosoftVisio図面"
-
-          link: "https://products.groupdocs.com/metadata/java/add/vss"
-          description: "MicrosoftVisio2003-2010ステンシル"
-
-          link: "https://products.groupdocs.com/metadata/java/add/vdx"
-          description: "Microsoft Visio2003-2010XML図面"
-
-          link: "https://products.groupdocs.com/metadata/java/add/vsx"
-          description: "Microsoft Visio2003-2010XMLステンシル"
-
-          link: "https://products.groupdocs.com/metadata/java/add/zip"
-          description: "アーカイブファイル形式"
-
-          link: "https://products.groupdocs.com/metadata/java/add/epub"
-          description: "デジタル電子書籍ファイル形式"
-
-          link: "https://products.groupdocs.com/metadata/java/add/vcf"
-          description: "電子名刺"
-
-          link: "https://products.groupdocs.com/metadata/java/add/vcr"
-          description: "vCard"
-
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

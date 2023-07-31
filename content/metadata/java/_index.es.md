@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2023-05-10T07:28:04
 draft: false
 
 product: "Metadata"
@@ -25,15 +25,15 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Metadata for Java"
-        image: "/border/groupdocs-metadata-java.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-metadata-java.png"
         product: "GroupDocs.Metadata"
         platform: "Java"
-
+        
     middle:
         button:
             # button loop
             - link: "#overview"
-              text: "Visión de conjunto"
+              text: "Visión general"
 
             # button loop
             - link: "#features"
@@ -41,11 +41,11 @@ submenu:
 
             # button loop
             - link: "#support"
-              text: "Support"
+              text: "Apoyo"
 
             # button loop
             - link: "https://products.groupdocs.app/metadata"
-              text: "Live Demo"
+              text: "Demo en vivo"
 
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/java"
@@ -56,23 +56,23 @@ submenu:
         link_learn: "https://docs.groupdocs.com/metadata/java/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# Visión de conjunto ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
-      GroupDocs.Metadata para Java es una API avanzada de administración de metadatos para manipular información de metadatos de documentos, imágenes, archivos, torrents y otros formatos de archivo. Los desarrolladores ahora pueden mejorar la funcionalidad de sus aplicaciones Java mediante la incorporación sencilla de funciones de visualización, modificación, eliminación, extracción, búsqueda, comparación, reemplazo y exportación de metadatos dentro de todos los formatos de documentos comerciales populares, como PDF, Office de Microsoft Word, hojas de cálculo de Excel, presentaciones de PowerPoint. y diapositivas, correos electrónicos de Outlook, proyectos, diagramas de Visio, OneNote, imágenes, AutoCAD, Photoshop, audio, video, fuentes OpenType y metarchivos.
+      GroupDocs.Metadata para Java es una API avanzada de administración de metadatos para manipular información de metadatos de documentos, imágenes, archivos, torrents y otros formatos de archivo. Los desarrolladores ahora pueden mejorar la funcionalidad de sus aplicaciones Java al incorporar fácilmente funciones de visualización, modificación, eliminación, extracción, búsqueda, comparación, reemplazo y exportación de metadatos dentro de todos los formatos de documentos comerciales populares, como PDF, Microsoft Office Word, hojas de cálculo de Excel, presentaciones de PowerPoint y diapositivas, correos electrónicos de Outlook, proyectos, diagramas de Visio, OneNote, imágenes, AutoCAD, Photoshop, audio, video, fuentes OpenType y metarchivos.  
 
-      La biblioteca de metadatos de Java le ofrece funciones como búsqueda de metadatos, reemplazo de propiedades de metadatos, comparación de metadatos de formatos de archivo admitidos para identificar similitudes y diferencias. También puede editar o modificar los metadatos para una mejor gestión de la información y exportar la información de los metadatos recuperados a un archivo de Excel, un archivo CSV y un conjunto de datos. La API ofrece soporte completo para trabajar con todos los estándares de metadatos de uso común, como propiedades de metadatos integradas, XMP, EXIF y personalizadas dentro de los formatos de documentos compatibles.
+      La biblioteca de metadatos de Java le ofrece funciones como búsqueda de metadatos, reemplazo de propiedades de metadatos, comparación de metadatos de formatos de archivo admitidos para identificar similitudes y diferencias. También puede editar o modificar los metadatos para una mejor gestión de la información y exportar la información de los metadatos recuperados a un archivo de Excel, un archivo CSV y un conjunto de datos. La API ofrece soporte integral para trabajar con todos los estándares de metadatos comúnmente utilizados, como propiedades de metadatos integradas, XMP, EXIF ​​y personalizadas dentro de los formatos de documentos admitidos.
 
       GroupDocs.Metadata para Java es compatible con todas las versiones de Java y es compatible con los sistemas operativos populares (Windows, Linux, MacOS) que pueden ejecutar el tiempo de ejecución de Java.
     tabs:
-      enable: true     
+      enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
           A continuación se muestra una descripción general de GroupDocs.Metadata para Java:
-
+      
         left:
           enable: true
           icon: "fas fa-file-image"
@@ -84,8 +84,7 @@ overview:
             * Metadatos PSD
             * Metadatos CAD
             * Analizar etiquetas IFD adicionales
-            * Leer etiqueta TIFF de SRational
-      
+        
         right:
           enable: true
           icon: "fab fa-html5"
@@ -101,13 +100,13 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Metadata para Java admite los siguientes [formatos de archivo de documentos](https://docs.groupdocs.com/metadata/java/supported-document-formats/):
+          GroupDocs.Metadata para Java admite lo siguiente [formatos de archivos de documentos](https://docs.groupdocs.com/metadata/java/supported-document-formats/):
 
         left:
           enable: true
           table:
             # table loop
-            - title: "oficina de Microsoft"
+            - title: "oficina de microsoft"
               content: |
                 * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
                 * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
@@ -123,23 +122,23 @@ overview:
             # table loop
             - title: "Otros formatos"
               content: |
-                * **Documento abierto**: ODT, ODS
-                * **Portátil**: PDF
+                * **OpenDocument**: ODT, ODS
+                * **Portable**: PDF
                 * **Photoshop**: PSD
                 * **AutoCAD**: DWG, DXF
-                * **Audio**: MP3, WAV
-                * **Vídeo**: AVI, MOV, QT, FLV
-                * **Metarchivos**: EMF, WMF
+                * **Audio**:  MP3, WAV
+                * **Video**: AVI, MOV, QT, FLV
+                * **Metafiles**: EMF, WMF
                 * **vCard**: VCF, VCR
-                * **Imagen**: JPG, JPEG, JPE, JP2, PNG, GIF, TIFF, WebP, BMP, DJVU, DJV, DICOM
-                * **Contenedor multimedia Matroska**: MKV, MKA, MK3D, WEBM
+                * **Imágenes**: JPG, JPEG, JPE, JP2, PNG, GIF, TIFF, WebP, BMP, DJVU, DJV, DICOM
+                * **Matroska Media Container**: MKV, MKA, MK3D, WEBM
                 * **Fuentes OpenType**: OTF, OTC, TTF, TTC
                 * **Otros**: EPUB, ZIP, TORRENT, ASF
 
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Metadata for Java apoya siguiendo Sistemas operativos, Frameworks & Gerente de empaquetacións:
+          GroupDocs.Metadata para .NET es compatible con los siguientes sistemas operativos, marcos y administradores de paquetes:
         
         left:
           enable: true
@@ -148,34 +147,34 @@ overview:
             - icon: "fab fa-windows"
               title: "Sistemas operativos"
               content: |
-                * Microsoft Windows Desktop
-                * Microsoft Windows Server
-                * Linux
-                * MacOS
+                * Escritorio de Windows
+                * Servidor de windows
+                * Windows Azure
+                * linux
 
             # table loop
             - icon: "fas fa-code"
               title: "Marcos compatibles"
               content: |
-                * Java 7 (1.7) y superior
+                * .NET Framework 2.0 o superior
 
         right:
           enable: true
           table:
             # table loop
             - icon: "fas fa-cogs"
-              title: "Entornos de desarrollo"
+              title: "Administradores de paquetes"
               content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * Eclipse
+                * NuGet
+                {tabs.tab_three.right.content.line_2}
+                {tabs.tab_three.right.content.line_3}
             # table loop
             - icon: "fas fa-tools"
-              title: "Herramienta de automatización de compilación"
+              title: "Entornos de desarrollo"
               content: |
-                * Maven
+                *Microsoft Visual Studio
 
-############################# Características ############################
+############################# Features ############################
 features:
     enable: true
     title: "Funciones de GroupDocs.Metadata para Java"
@@ -183,8 +182,8 @@ features:
     feature:
       # feature loop
       - icon: "fas fa-copy"
-        content: "Manipule metadatos incorporados y personalizados y obtenga metadatos de formatos de archivo y torrents"
-
+        content: "Manipule metadatos integrados y personalizados y obtenga metadatos de formatos de archivo y torrents"
+       
       # feature loop
       - icon: "fas fa-eye"
         content: "Acceda y elimine datos ocultos en Microsoft Word, Excel, PowerPoint y PDF"
@@ -223,7 +222,7 @@ features:
 
       # feature loop
       - icon: "fas fa-wrench"
-        content: "Leer subtítulos de Matroska and retrieve Metadata of Audio & Video Files"
+        content: "Lea subtítulos de Matroska y recupere metadatos de archivos de audio y video"
 
       # feature loop
       - icon: "fas fa-columns"
@@ -235,7 +234,7 @@ features:
 
       # feature loop
       - icon: "fas fa-envelope"
-        content: "Propiedades de búsqueda de documentos, EXIF ​​y metadatos XMP"
+        content: "Propiedades de búsqueda de metadatos de documentos, EXIF ​​y XMP"
 
       # feature loop
       - icon: "fas fa-print"
@@ -247,16 +246,16 @@ features:
 
       # feature loop
       - icon: "fas fa-lock"
-        content: "Agregue o actualice las propiedades EXIF ​​de metadatos y XMP de tipos arbitrarios mediante la API de búsqueda"
+        content: "Agregue o actualice las propiedades de metadatos XMP y EXIF ​​de tipos arbitrarios mediante la API de búsqueda"
 
       # feature loop
       - icon: "fas fa-file-code"
         content: "Manipule las propiedades de los metadatos de la imagen y elimine la información de ubicación de la foto"
-      
+
       # feature loop
       - icon: "fas fa-fill-drip"
         content: "Eliminar metadatos y comentarios de informes y documentos"
-
+        
       # feature loop
       - icon: "fas fa-file-excel"
         content: "Extracción de metadatos de archivos de Microsoft Excel a partir de Excel 95"
@@ -267,53 +266,43 @@ features:
 
       # feature loop
       - icon: "fas fa-project-diagram"
-        content: "Actualizar Metadatos Propiedades EXIF ​​en archivos WEBP, PNG y PSD"
+        content: "Actualizar propiedades de metadatos EXIF ​​en archivos WEBP, PNG y PSD"
 
       # feature loop
       - icon: "fas fa-cube"
-        content: "Extraiga propiedades XMP de metadatos en archivos MOV, MP3 y WEBP"
+        content: "Extraiga propiedades de metadatos XMP en archivos MOV, MP3 y WEBP"
 
       # feature loop
-      - icon: "fab fa-uncharted"
+      - icon: "fas fa-envelope"
         content: "Agregar, actualizar y eliminar paquetes de metadatos IPTC en imágenes TIFF"
-      
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Agregue, actualice y elimine paquetes EXIF ​​de metadatos en imágenes JPEG2000"
 
       # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Leer etiquetas EXIF ​​y propiedades XMP de metadatos de formatos de imagen HEIC/HEIF"
+      - icon: "fas fa-project-diagram"
+        content: "Agregue, actualice y elimine paquetes de metadatos EXIF ​​en imágenes JPEG2000"
 
       # feature loop
-      - icon: "fab fa-uncharted"
+      - icon: "fas fa-cube"
+        content: "Leer etiquetas EXIF ​​y propiedades de metadatos XMP de formatos de imagen HEIC/HEIF"
+
+      # feature loop
+      - icon: "fas fa-lock"
         content: "Leer metadatos de archivos cifrados de Microsoft Project"
-
+        
     more_feature:
       # more_feature_loop
       - title: "Obtener propiedades de metadatos de manera eficiente"
         content: |
           Con GroupDocs.Metadata para la API de Java, las propiedades de metadatos de los formatos de archivo admitidos se pueden obtener de manera bastante eficiente. El código para hacerlo es bastante simple y directo. El siguiente es un ejemplo que muestra lo fácil que es obtener las propiedades de los metadatos de un archivo MP3 usando Java:
-          
           ```java
-          try (Mp3Format mp3Format = new Mp3Format("D:\\sample.mp3")) 
+           try (Mp3Format mp3Format = new Mp3Format("D:\\sample.mp3")) 
           {
-            // leer álbum en ID3 v1
             System.out.printf("Album: %", mp3Format.getId3v1Properties().getAlbum());
-
-            // leer título en ID3 v2s
             System.out.printf("Title: %", mp3Format.getId3v2Properties().getTitle());
           }
-          ```
+          ```      
       # more_feature_loop
       - title: "Recuperar datos ocultos para manipulación"
-        content: |
-          GroupDocs.Metadata para Java le brinda una forma integral de obtener y eliminar datos ocultos de archivos de Microsoft Word, Excel y PowerPoint. También puede hacer lo mismo con los documentos PDF. La siguiente lista elabora el tipo de metadatos a los que puede acceder y manipular a través de GroupDocs.Metadata para Java:
-
-          * Microsoft Word (comentarios, texto oculto, campos de combinación)
-          * Microsoft Excel (Comentarios, Hojas ocultas)
-          * Microsoft PowerPoint (Comentarios, Diapositivas ocultas)
-          * Documentos PDF (archivos adjuntos, anotaciones, marcadores, campos de formulario)
+        content: "GroupDocs.Metadata para Java le brinda una forma integral de obtener y eliminar datos ocultos de archivos de Microsoft Word, Excel y PowerPoint. También puede hacer lo mismo con los documentos PDF. Puede manipular comentarios, fusionar campos, páginas ocultas, campos de formulario, anotaciones y más."
 
 ############################# Support ############################
 support:
@@ -327,7 +316,7 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Metadata for .NET"
-          image: "/border/groupdocs-metadata-net.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-metadata-net.png"
           product: "GroupDocs.Metadata"
           platform: ".NET"
           link: "/metadata/net/"

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2023-05-12T14:00:33
 draft: false
 
 product: "Metadata"
@@ -28,7 +28,7 @@ submenu:
         image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-metadata-net.png"
         product: "GroupDocs.Metadata"
         platform: ".NET"
-
+        
     middle:
         button:
             # button loop
@@ -62,7 +62,7 @@ overview:
     content: |
       GroupDocs.Metadata for .NET API is easy to integrate with C#, ASP.NET and other .NET based applications to help your end-users manipulate metadata from a range of images, documents and other media file formats without installing any external software. The .NET metadata library supports building tools to quickly add metadata viewer, editor, remover, extractor, comparison and exporter functionalities within a number of industry standard document formats such as PDF, Microsoft Office Word, Excel spreadsheets, PowerPoint presentations, Outlook emails, Project, Visio diagrams, OneNote, images, AutoCAD, Photoshop, audio, video and metafiles.  
 
-      The Metadata API is very flexible and easy to operate with. It gets the document file as input, analyses the metadata information, allows to perform supported meta data operations and save the modified file to access quickly in future use. It works with most notable metadata standards such as built-in, XMP, EXIF, IPTC, Image Resource Blocks, ID3 and custom metadata properties. Through GroupDocs.Metadata for .NET API, you can also compare two documents to identify differences and similarities present in their metadata properties. You can also export metadata of required documents to Excel, CSV or DataSet.  
+      The Metadata API is very flexible and easy to operate with. It gets the document file as input, analyses the metadata information, allows to perform supported meta data operations and save the modified file to access quickly in future use. It works with most notable metadata standards such as built-in, XMP, EXIF, IPTC, Image Resource Blocks, ID3 and custom metadata properties. Through GroupDocs.Metadata for .NET API, you can also compare two documents to identify differences and similarities present in their metadata properties. You can also export metadata of required documents to Excel, CSV or DataSet.
 
       GroupDocs.Metadata for .NET can be used to develop applications in any development environment that targets .NET platform. It is compatible with all .NET based languages and supports popular operating systems (Windows, Linux, MacOS) where Mono or .NET frameworks (including .NET Core) can be installed.
     tabs:
@@ -72,7 +72,7 @@ overview:
       tab_one:
         description: |
           Following is an overview of GroupDocs.Metadata for .NET:
-
+      
         left:
           enable: true
           icon: "fas fa-file-image"
@@ -84,8 +84,7 @@ overview:
             * PSD Metadata
             * CAD Metadata
             * Parse Additional IFD Tags
-            * Read SRational TIFF Tag
-      
+        
         right:
           enable: true
           icon: "fab fa-html5"
@@ -127,13 +126,13 @@ overview:
                 * **Portable**: PDF
                 * **Photoshop**: PSD
                 * **AutoCAD**: DWG, DXF
-                * **Audio**: MP3, WAV
+                * **Audio**:  MP3, WAV
                 * **Video**: AVI, MOV, QT, FLV
                 * **Metafiles**: EMF, WMF
                 * **vCard**: VCF, VCR
-                * **Image**: JPG, JPEG, JPE, JP2, PNG, GIF, TIFF, WebP, BMP, DJVU, DJV, DICOM
+                * **Images**: JPG, JPEG, JPE, JP2, PNG, GIF, TIFF, WebP, BMP, DJVU, DJV, DICOM
                 * **Matroska Media Container**: MKV, MKA, MK3D, WEBM
-                * **OpenType Fonts**: OTF, OTC, TTF, TTC
+                * **OpenType**: OTF, OTC, TTF, TTC
                 * **Others**: EPUB, ZIP, TORRENT, ASF
 
       ## TAB THREE ##
@@ -162,13 +161,12 @@ overview:
                 * .NET Standard 2.0
                 * .NET Core 2.0
                 * .NET Core 2.1
-
         right:
           enable: true
           table:
             # table loop
             - icon: "fas fa-box"
-              title: "Package Manager"
+              title: "Package Managers"
               content: |
                 * NuGet
 
@@ -191,7 +189,7 @@ features:
       # feature loop
       - icon: "fas fa-copy"
         content: "Identify Built-in & Custom Metadata"
-
+       
       # feature loop
       - icon: "fas fa-eye"
         content: "Retrieve & Remove Hidden Data in Microsoft Word, Excel, PowerPoint & PDF"
@@ -259,11 +257,11 @@ features:
       # feature loop
       - icon: "fas fa-file-code"
         content: "Import Images Metadata Properties & Remove Location Info from Photos"
-      
+
       # feature loop
       - icon: "fas fa-fill-drip"
         content: "Remove Metadata & Comments From Reports and Documents"
-
+        
       # feature loop
       - icon: "fas fa-file-excel"
         content: "Extract Text Metadata from PNG Image files"
@@ -284,29 +282,23 @@ features:
       - icon: "fab fa-uncharted"
         content: "Add, Update and Delete IPTC Metadata Packages in TIFF Images"
 
+        
     more_feature:
       # more_feature_loop
       - title: "Quickly Fetching Metadata Properties"
         content: |
           Using GroupDocs.Metadata for .NET API, manipulating any sort of metadata for supported file formats is pretty straight forward business. Following piece of code demonstrates how easy it is to remove Photoshop metadata from a JPEG file using C#:
-
           ```cs
-          using (Metadata metadata = new Metadata("sample.jpeg"))
+          using (var metadata = new GroupDocs.Metadata.Metadata("sample.jpeg"))
           {
-              var root = metadata.GetRootPackage();
-              root.RemoveImageResourcePackage();
-              metadata.Save("output.jpeg");
+            var root = metadata.GetRootPackage();
+            root.RemoveImageResourcePackage();
+            metadata.Save("output.jpeg");
           }
-          ```
+          ```      
       # more_feature_loop
       - title: "Retrieval and Manipulation of Hidden Data"
-        content: |
-          GroupDocs.Metadata for .NET provides a handy mechanism to fetch and remove hidden data in PDF as well as Microsoft Word, Excel, and PowerPoint documents. Following is a list of metadata information that you can manipulate using GroupDocs.Metadata for .NET:  
-
-          * Microsoft Word (Comments, Hidden Text, Merge Fields)
-          * Microsoft Excel (Comments, Hidden Sheets)
-          * Microsoft PowerPoint (Comments, Hidden Slides)
-          * PDF Documents (Attachments, Annotations, Bookmarks, Form Fields)
+        content: "GroupDocs.Metadata for .NET provides a handy mechanism to fetch and remove hidden data in PDF as well as Microsoft Word, Excel, and PowerPoint documents. You can manipulate comments, merge fields, hidden pages, form fields, annotations and more."
 
 ############################# Support ############################
 support:

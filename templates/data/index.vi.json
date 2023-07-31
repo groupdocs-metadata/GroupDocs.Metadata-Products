@@ -1,0 +1,48 @@
+{
+  "head": {
+    "title": ".NET, Java API & Ứng dụng thao tác siêu dữ liệu trực tuyến bởi GroupDocs",
+    "description": "Các API siêu dữ liệu tài liệu có nguồn gốc từ C# .NET & Java. Đọc, viết, chỉnh sửa & so sánh thông tin meta của tất cả các định dạng phổ biến. Phân tích & xuất siêu dữ liệu."
+  },
+  "header": {
+    "title": "Giải pháp quản lý siêu dữ liệu tài liệu",
+    "description": "API và ứng dụng để đọc, chỉnh sửa, thay thế và loại bỏ siêu dữ liệu của tài liệu, hình ảnh và các định dạng tệp khác trên nền tảng phổ biến."
+  },
+  "apis": {
+    "highcode": {
+      "title": "GroupDocs.Metadata High Code API bao gồm",
+      "label": "Xem tất cả High Code API",
+      "net": {
+        "content": "API gốc .NET để tự động đọc, viết, chỉnh sửa và loại bỏ thông tin meta từ Microsoft Office, PDF, Đa phương tiện, hình ảnh và các định dạng tệp khác nhau."
+      },
+      "java": {
+        "content": "Java API để chỉnh sửa và thao tác siêu dữ liệu của tài liệu, hình ảnh, tệp video và các định dạng tệp khác nhau."
+      }
+    },
+    "lowcode": {
+      "title": "GroupDocs.Metadata Low Code API bao gồm",
+      "label": "Xem tất cả Low Code API",
+      "curl": {
+        "content": "Làm việc với các API thao tác siêu dữ liệu đầy đủ cURL REST để quản lý thông tin siêu dữ liệu của PDF, Word, Excel, thuyết trình, hình ảnh và tệp đa phương tiện trong các ứng dụng của bạn."
+      },
+      "net": {
+        "content": "Sử dụng siêu dữ liệu REST API với .NET SDK để thêm, chỉnh sửa, trích xuất, tìm kiếm và xóa siêu dữ liệu từ các định dạng tài liệu trong các ứng dụng .NET."
+      },
+      "java": {
+        "content": "Nâng cao các ứng dụng Java của bạn với các tính năng quản lý siêu dữ liệu mạnh mẽ bằng cách sử dụng Metadata SDK for Java."
+      }
+    },
+    "nocode": {
+      "title": "GroupDocs.Metadata No Code Các ứng dụng bao gồm",
+      "label": "Xem tất cả No Code Ứng dụng",
+      "total": {
+        "content": "Ứng dụng miễn phí để xem và chỉnh sửa siêu dữ liệu của Word, Excel, PDF, PowerPoint và hơn 50 loại tài liệu."
+      },
+      "docx": {
+        "content": "Trình chỉnh sửa siêu dữ liệu trực tuyến miễn phí cho tài liệu MS Word."
+      },
+      "pdf": {
+        "content": "Xem hoặc chỉnh sửa thông tin siêu dữ liệu của tài liệu PDF trực tuyến."
+      }
+    }
+  }
+}

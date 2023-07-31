@@ -1,21 +1,26 @@
 ---
-layout: "auto-gen"
-date: 2021-05-20T16:11:57+03:00
+############################# Static ############################
+layout: "auto-gen-metadata"
+date: 2023-06-14T09:37:51
 draft: false
+otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
-head_title: "JavaでPOTXファイルのメタデータプロパティを削除する"
-head_description: "クロスプラットフォームのJavaメタデータAPIを使用して、POTXファイルのメタデータフィールドを非表示にしたり削除したりします。メタデータ標準XMP、EXIF、IPTC、ID3などを操作します。"
+############################# Head ############################
+head_title: "Remove Metadata Properties of POTX Files in Java"
+head_description: "Cross platform Java metadata API to hide and remove metadata fields of POTX files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc. "
 
-title: "JavaでPOTXメタデータを削除する"
-description: "GroupDocs.Metadata for Java APIを使用して、POTXおよびその他の多くの一般的なドキュメント、画像、マルチメディアファイル形式からメタデータプロパティを削除します."
+############################# Header ############################
+title: "Remove POTX Metadata In Java"
+description: "Remove metadata properties from POTX and many other popular documents, images and multimedia file formats using GroupDocs.Metadata for Java API."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "無料トライアルをダウンロード"
+    label: "Download Free Trial"
     link: "https://downloads.groupdocs.com/metadata/java"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,234 +33,87 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/metadata/java"
-              text: "APIリファレンス"
+              text: "{submenu.content_middle.button_text_1}"
 
+            # button loop
             - link: "https://github.com/groupdocs-metadata"
-              text: "コード例"
+              text: "{submenu.content_middle.button_text_2}"
 
+            # button loop
             - link: "https://products.groupdocs.app/metadata/family"
-              text: "ライブデモ"
+              text: "{submenu.content_middle.button_text_3}"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/java"
-              text: "価格設定"
+              text: "{submenu.content_middle.button_text_4}"
 
     right:
         link_download: "https://downloads.groupdocs.com/metadata"
         link_learn: "https://docs.groupdocs.com/metadata/java"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Metadata for Java APIについて"
+    title: "About GroupDocs.Metadata for Java API"
     content: |
-        [GroupDocs.Metadata for Java](/metadata/java/)は、外部ソフトウェアを使用せずに、画像やドキュメント形式からメタデータ情報を簡単に読み取り、追加、更新、削除、検索、比較、交換、エクスポートできる高度なメタデータフィールド操作ソリューションです。 。 Word文書、Excelスプレッドシート、PowerPointプレゼンテーション、Outlook電子メール、OneNote、Visio、Project、PDF、AutoCAD、ZIp、オーディオおよびビデオファイル形式からメタデータの詳細を削除し、他の多くのメタデータ処理機能の操作をサポートします。
+        [GroupDocs.Metadata for Java](/ja/metadata/java/) is an advanced metadata fields manipulation solution to easily read, add, update, delete, find, compare, exchange and export metadata information from images and document formats without using any external software. Remove metadata details from Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "JavaでPOTXメタデータを削除する手順"
+    title_left: "Steps for Removing  Metadata to POTX in Java"
     content_left: |
-        [GroupDocs.Metadata](/metadata/java/)を使用すると、Java開発者は、いくつかの簡単な手順を実装することで、アプリケーション内からPOTXファイルからメタデータ情報を簡単に削除できます。
-
-        * 更新するPOTXファイルをロードします。
-        *検索述語をRemovePropertiesメソッドに渡します。
-        *実際に削除されたプロパティの数を確認してください
-        * 変更を保存します。
+        [GroupDocs.Metadata for Java](/ja/metadata/java/) makes it easy for Java developers to delete metadata information from POTX files from within their applications by implementing a few easy steps.
         
-    title_right: "システム要求"
+        * Load the POTX file to be updated.
+        * Pass a search predicate to the RemoveProperties method.
+        * Check the number of properties that were actually removed.
+        * Save the changes.
+
+    title_right: "System Requirements"
     content_right: |
-        GroupDocs.Metadata for Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        GroupDocs.Metadata for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
-        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        * 開発環境：NetBeans、Intellij IDEA、Eclipseなど
-        * Javaランタイム環境：J2SE6.0以降
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)からJava用のGroupDocs.Metadataの最新バージョンを入手します。
-        
+        * Operating Systems: Microsoft Windows, Linux, MacOS
+        * Development Environments: NetBeans, IntelliJ IDEA, Eclipse
+        * Java Runtime Environments: J2SE 6.0 and above
+        * Get the latest version of  GroupDocs.Metadata for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
+         
     code: |
-        ```java
-        try (Metadata metadata = new Metadata("input.potx")) {
-        	
-        	//ファイル作成に貢献した人の言及をすべて削除します
-        	//指定された名前のカスタムプロパティを削除します         
-        	int affected = metadata.removeProperties(new FallsIntoCategorySpecification(Tags.getPerson()).or(new WithNameSpecification("CustomProperty")));
-        
-        	System.out.println(String.format("Affected properties: %s", affected));
-        
-        	metadata.save("output.potx");
+        ```java    
+        try (Metadata metadata = new Metadata("input.doc"))
+        {
+            // Remove all mentions of any people contributed in file creation
+            // Remove a custom property with the specified name 
+            int affected = metadata.removeProperties(new FallsIntoCategorySpecification(Tags.getPerson()).or(new WithNameSpecification("CustomProperty")));
+            System.out.println(String.format("Affected properties: %s", affected));
+            metadata.save("output.potx");
         }
         ```
-        
+
+############################# Demos ############################
 demos:
     enable: true
-    title: "メタデータを削除するライブデモ"
+    title: "Live Demos to Remove Metadata"
     content: |
-        [GroupDocs.Metadataライブデモ](https://products.groupdocs.app/metadata/family)サイトにアクセスして、POTXファイルのメタデータ情報を今すぐ削除してください。  
-        ライブデモには次の利点があります
+       Remove metadata information of POTX file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.
+       The live demo has the following benefits.
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-file-potx"
-          title: "POTXファイル形式について"
-          content: |
-            拡張子が.POTXのファイルは、MicrosoftPowerPoint2007以降で作成されたMicrosoftPowerPointテンプレートプレゼンテーションを表します。この形式は、バイナリファイル形式に基づいており、PowerPoint97-2003でサポートされているPOTファイル形式を置き換えるために作成されました。生成されたファイルを使用して、新しいファイルに適用する必要のある同じレイアウトやその他の設定を持つプレゼンテーションを作成できます。これらの設定には、スタイル、背景、カラーパレット、フォント、およびデフォルトを含めることができます。このようなファイルは、公式に使用できるすぐに使用できるテンプレートファイルを作成するために生成されます。
 
-          link: "https://docs.fileformat.com/presentation/potx/"
-
+############################# More Formats ############################
 more_formats:
-    enable: false
-    title: "他のファイル形式のメタデータの削除"
+    enable: true
+    title: "Removing Metadata Of Other File Formats"
     content: |
-        Java用のAPIを削除するマルチフォーマットのドキュメントと画像のメタデータ。以下に示すように、いくつかの一般的なファイル形式のメタデータの詳細を削除します。
-    format: 
-          link: "/metadata/java/remove/pdf/"
-          description: "AdobePortableドキュメント形式"
+        Multi format documents and images metadata removing API for Java. Retrieve metadata of some of the popular file formats as stated below.
 
-          link: "/metadata/java/remove/doc/"
-          description: "MicrosoftWordドキュメント"
-
-          link: "/metadata/java/remove/docm/"
-          description: "MicrosoftWordマクロ対応ドキュメント"
-
-          link: "/metadata/java/remove/docx/"
-          description: "Microsoft WordOpenXMLドキュメント"
-
-          link: "/metadata/java/remove/dot/"
-          description: "MicrosoftWord文書テンプレート"
-
-          link: "/metadata/java/remove/dotx/"
-          description: "WordOpenXMLドキュメントテンプレート"
-
-          link: "/metadata/java/remove/xls/"
-          description: "MicrosoftExcelバイナリファイル形式"
-
-          link: "/metadata/java/remove/xlsx/"
-          description: "Microsoft ExcelOpenXMLスプレッドシート"
-
-          link: "/metadata/java/remove/xlsm/"
-          description: "MicrosoftExcelマクロ対応スプレッドシート"
-
-          link: "/metadata/java/remove/xltx/"
-          description: "OOXMLマクロ対応ワークブックテンプレート"
-
-          link: "/metadata/java/remove/ppt/"
-          description: "PowerPointプレゼンテーション"
-
-          link: "/metadata/java/remove/pps/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "/metadata/java/remove/pptx/"
-          description: "PowerPointOpenXMLプレゼンテーション"
-
-          link: "/metadata/java/remove/ppsx/"
-          description: "PowerPointOpenXMLスライドショー"
-
-          link: "/metadata/java/remove/potx/"
-          description: "Microsoft PowerPointOpenXMLテンプレート"
-
-          link: "/metadata/java/remove/potm/"
-          description: "MicrosoftPowerPointテンプレート"
-
-          link: "/metadata/java/remove/pptm/"
-          description: "MicrosoftPowerPointプレゼンテーション"
-
-          link: "/metadata/java/remove/ppsm/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "/metadata/java/remove/ods/"
-          description: "ドキュメントスプレッドシートを開く"
-
-          link: "/metadata/java/remove/odt/"
-          description: "ドキュメントテキストを開く"
-
-          link: "/metadata/java/remove/tiff/"
-          description: "タグ付き画像ファイル形式"
-
-          link: "/metadata/java/remove/jpeg/"
-          description: "JPEG画像"
-
-          link: "/metadata/java/remove/png/"
-          description: "ポータブルネットワークグラフィック"
-
-          link: "/metadata/java/remove/gif/"
-          description: "グラフィカルな交換フォーマットファイル"
-
-          link: "/metadata/java/remove/bmp/"
-          description: "ビットマップファイル形式"
-
-          link: "/metadata/java/remove/jp2/"
-          description: "JPEG2000コア画像ファイル"
-
-          link: "/metadata/java/remove/webp/"
-          description: "ラスターWeb画像ファイル形式"
-
-          link: "/metadata/java/remove/psd/"
-          description: "AdobePhotoshopドキュメント"
-
-          link: "/metadata/java/remove/wmf/"
-          description: "Windowsメタファイル"
-
-          link: "/metadata/java/remove/emf/"
-          description: "強化されたメタファイル形式"
-
-          link: "/metadata/java/remove/emz/"
-          description: "MicrosoftProjectドキュメント"
-
-          link: "/metadata/java/remove/msg/"
-          description: "MicrosoftOutlookの電子メールメッセージ"
-
-          link: "/metadata/java/remove/eml/"
-          description: "電子メールメッセージ"
-
-          link: "/metadata/java/remove/dwg/"
-          description: "Autodesk Design Data Formats"
-
-          link: "/metadata/java/remove/dxf/"
-          description: "AutoCAD Drawing Interchange"
-
-          link: "/metadata/java/remove/one/"
-          description: "Microsoft OneNote"
-
-          link: "/metadata/java/remove/mp3/"
-          description: "MPEGオーディオレイヤーIII"
-
-          link: "/metadata/java/remove/wav/"
-          description: "波形オーディオファイル形式"
-
-          link: "/metadata/java/remove/dicom/"
-          description: "デジタルイメージング＆amp;医学のコミュニケーション"
-
-          link: "/metadata/java/remove/avi/"
-          description: "オーディオビデオインターリーブファイル"
-
-          link: "/metadata/java/remove/vsd/"
-          description: "MicrosoftVisio2003-2010図面"
-
-          link: "/metadata/java/remove/vsdx/"
-          description: "MicrosoftVisio図面"
-
-          link: "/metadata/java/remove/vss/"
-          description: "MicrosoftVisio2003-2010ステンシル"
-
-          link: "/metadata/java/remove/vdx/"
-          description: "Microsoft Visio2003-2010XML図面"
-
-          link: "/metadata/java/remove/vsx/"
-          description: "Microsoft Visio2003-2010XMLステンシル"
-
-          link: "/metadata/java/remove/zip/"
-          description: "アーカイブファイル形式"
-
-          link: "/metadata/java/remove/epub/"
-          description: "デジタル電子書籍ファイル形式"
-
-          link: "/metadata/java/remove/vcf/"
-          description: "電子名刺"
-
-          link: "/metadata/java/remove/vcr/"
-          description: "vCard"
-
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

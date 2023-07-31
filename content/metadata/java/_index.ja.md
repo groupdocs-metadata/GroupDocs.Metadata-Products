@@ -1,6 +1,7 @@
 ---
+############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2023-05-10T07:28:04
 draft: false
 
 product: "Metadata"
@@ -8,14 +9,17 @@ product_tag: "metadata"
 platform: "Java"
 platform_tag: "java"
 
-head_title: "JavaメタデータAPI–ドキュメントメタデータの表示、読み取り、エクスポート、編集、削除"
-head_description: "PDF Word Excel PPTX Outlook Visioオーディオビデオおよび画像ドキュメントのメタデータを表示、読み取り、編集、分析、検索、削除、比較、およびエクスポートするためのJavaメタデータAPI."
+############################# Head ############################
+head_title: "Java メタデータ API – ドキュメント メタデータの表示、読み取り、エクスポート、編集、削除"
+head_description: "PDF Word Excel PPTX Outlook Visio オーディオ ビデオ & 画像ドキュメントのメタデータを表示、読み取り、編集、分析、検索、削除、比較、およびエクスポートするための Java メタデータ API。"
 
-title: "Java用のメタデータ操作API"
-description: "人気のあるドキュメントや画像形式のメタデータを作成、表示、アクセス、更新、削除、検索、比較、置換、エクスポートするJavaアプリケーションを開発する."
+############################# Header ############################
+title: "Java 用メタデータ操作 API"
+description: "一般的なドキュメントと画像形式のメタデータを作成、表示、アクセス、更新、削除、検索、比較、置換、およびエクスポートする Java アプリケーションを開発します。"
 button:
     enable: true
 
+############################# SubMenu ############################
 submenu:
     enable: true
     
@@ -24,262 +28,300 @@ submenu:
         image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-metadata-java.png"
         product: "GroupDocs.Metadata"
         platform: "Java"
-
+        
     middle:
         button:
+            # button loop
             - link: "#overview"
               text: "概要"
 
+            # button loop
             - link: "#features"
               text: "特徴"
 
+            # button loop
             - link: "#support"
               text: "サポート"
 
+            # button loop
             - link: "https://products.groupdocs.app/metadata"
               text: "ライブデモ"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/java"
-              text: "価格設定"
+              text: "価格"
 
     right:
         link_download: "https://downloads.groupdocs.com/metadata"
         link_learn: "https://docs.groupdocs.com/metadata/java/"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# Overview ############################
 overview:
     enable: true
     content: |
-      GroupDocs.Metadata for Javaは、ドキュメント、画像、アーカイブ、トレント、その他のさまざまなファイル形式のメタデータ情報を操作するための高度なメタデータ管理APIです。開発者は、PDF、Microsoft Office Word、Excelスプレッドシート、PowerPointプレゼンテーション、スライド、Outlookメール、プロジェクト、Visioダイアグラム、OneNote、画像、AutoCAD、Photoshop、オーディオ、ビデオ、OpenTypeフォントおよびメタファイル。  
+      GroupDocs.Metadata for Java は、ドキュメント、画像、アーカイブ、トレント、およびその他のさまざまなファイル形式のメタデータ情報を操作する高度なメタデータ管理 API です。開発者は、メタデータの表示、変更、削除、抽出、検索、比較、置換、およびエクスポート機能を、PDF、Microsoft Office Word、Excel スプレッドシート、PowerPoint プレゼンテーション、およびスライド、Outlook メール、プロジェクト、Visio ダイアグラム、OneNote、画像、AutoCAD、Photoshop、オーディオ、ビデオ、OpenType フォント、およびメタファイル。  
 
-      Javaメタデータライブラリは、メタデータ検索、メタデータプロパティの置換、サポートされているファイル形式のメタデータの比較などの機能を提供して、類似点と相違点を識別します。メタデータを編集または変更して情報管理を改善し、取得したメタデータ情報をExcelファイル、CSVファイル、およびDataSetにエクスポートすることもできます。 APIは、サポートされているドキュメント形式内の組み込み、XMP、EXIF、カスタムメタデータプロパティなど、一般的に使用されるすべてのメタデータ標準を処理するための包括的なサポートを提供します。  
+      Java メタデータ ライブラリは、メタデータ検索、メタデータ プロパティの置換、サポートされているファイル形式のメタデータの比較などの機能を提供して、類似点と相違点を識別します。また、メタデータを編集または変更して情報管理を改善し、取得したメタデータ情報を Excel ファイル、CSV ファイル、および DataSet にエクスポートすることもできます。この API は、組み込み、XMP、EXIF、およびサポートされているドキュメント形式内のカスタム メタデータ プロパティなど、一般的に使用されるすべてのメタデータ標準を操作するための包括的なサポートを提供します。
 
-      GroupDocs.Metadata for Javaは、すべてのJavaバージョンと互換性があり、Javaランタイムを実行できる一般的なオペレーティングシステム（Windows、Linux、MacOS）をサポートしています。
+      GroupDocs.Metadata for Java は、すべての Java バージョンと互換性があり、Java ランタイムを実行できる一般的なオペレーティング システム (Windows、Linux、MacOS) をサポートします。
     tabs:
-      enable: true     
+      enable: true
       
+      ## TAB ONE ##
       tab_one:
         description: |
-          以下は、Java用のGroupDocs.Metadataの概要です。
-
+          Java の GroupDocs.Metadata の概要を次に示します。
+      
         left:
           enable: true
           icon: "fas fa-file-image"
           title: "画像の操作"
           content: |
-            *XMPメタデータ
-            *EXIFメタデータ
-            *IPTC-IIMメタデータ
-            *PSDメタデータ
-            *CADメタデータ
-            * 追加のIFDタグを解析します
-            *SRationalTIFFタグを読む
-      
+            * XMP メタデータ
+            * EXIF メタデータ
+            * IPTC-IIM メタデータ
+            * PSD メタデータ
+            * CAD メタデータ
+            * 追加の IFD タグを解析する
+        
         right:
           enable: true
           icon: "fab fa-html5"
           title: "オーディオとビデオの操作"
           content: |
-            *ランタイムMP3フォーマット検出
-            *Lyrics3タグを読む
-            *MPEGオーディオ情報を読む
-            *AVIヘッダー情報を読む
-            *Matroskaの字幕を読む
-            *データをExcelまたはCSVにエクスポート
+            * ランタイム MP3 フォーマットの検出
+            * 歌詞を読む3タグ
+            * MPEG オーディオ情報の読み取り
+            * AVI ヘッダー情報を読み取る
+            * マトロスカの字幕を読む
+            * データを Excel または CSV にエクスポート
       
+      ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Metadata for Javaは、次の[ドキュメントファイル形式]（https://docs.groupdocs.com/metadata/java/supported-document-formats/）をサポートしています。
+          GroupDocs.Metadata for Java は以下をサポートしています [ドキュメント ファイル形式](https://docs.groupdocs.com/metadata/java/supported-document-formats/):
 
         left:
           enable: true
           table:
+            # table loop
             - title: "マイクロソフトオフィス"
               content: |
-                * **ワード：** DOC、DOCX、DOCM、DOT、DOTX、DOTM、RTF、TXT
-                * ** Excel：** XLS、XLSX、XLSM、XLSB、XLTM、XLT、XLTM、XLTX、XLAM、SXC、SpreadsheetML
-                * ** PowerPoint：** PPT、PPTX、PPS、PPSX、PPSM、POT、POTM、POTX、PPTM
-                * ** Visio：** VSD、VDX、VSS、VSSX、VSX、VST、VSTX、VTX、VSDX、VDW、VSTM、VSSM、VSDM
-                * **プロジェクト：** MPP
-                * ** Outlook：** MSG、EML、EMLX、PST、OST
-                * ** OneNote：** ONE
+                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
+                * **Project:** MPP
+                * **Outlook:** MSG, EML, EMLX, PST, OST
+                * **OneNote:** ONE
 
         right:
           enable: true
           table:
+            # table loop
             - title: "その他のフォーマット"
               content: |
-                * ** OpenDocument **：ODT、ODS
-                * **ポータブル**：PDF
-                * ** Photoshop **：PSD
-                * ** AutoCAD **：DWG、DXF
-                * ** オーディオ**：MP3、WAV
-                * **ビデオ**：AVI、MOV、QT、FLV
-                * ** メタファイル**：EMF、WMF
-                * ** vCard **：VCF、VCR
-                * **画像**：JPG、JPEG、JPE、JP2、PNG、GIF、TIFF、WebP、BMP、DJVU、DJV、DICOM
-                * ** Matroska Media Container **：MKV、MKA、MK3D、WEBM
-                * ** OpenTypeフォント**：OTF、OTC、TTF、TTC
-                * **その他**：EPUB、ZIP、TORRENT、ASF
+                * **OpenDocument**: ODT, ODS
+                * **Portable**: PDF
+                * **Photoshop**: PSD
+                * **AutoCAD**: DWG, DXF
+                * **オーディオ**:  MP3, WAV
+                * **ビデオ**: AVI, MOV, QT, FLV
+                * **Metafiles**: EMF, WMF
+                * **vCard**: VCF, VCR
+                * **画像**: JPG, JPEG, JPE, JP2, PNG, GIF, TIFF, WebP, BMP, DJVU, DJV, DICOM
+                * **Matroska Media Container**: MKV, MKA, MK3D, WEBM
+                * **OpenType フォント**: OTF, OTC, TTF, TTC
+                * **その他**: EPUB, ZIP, TORRENT, ASF
 
+      ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Metadata for Javaは、次のオペレーティングシステム、フレームワーク、およびパッケージマネージャーをサポートしています。
+          GroupDocs.Metadata for .NET は、次のオペレーティング システム、フレームワーク、パッケージ マネージャーをサポートしています。
         
         left:
           enable: true
           table:
+            # table loop
             - icon: "fab fa-windows"
               title: "オペレーティングシステム"
               content: |
-                *MicrosoftWindowsデスクトップ
-                * Microsoft Windows Server
+                * Windows デスクトップ
+                * Windows サーバー
+                * Windows Azure
                 * Linux
-                * マックOS
 
+            # table loop
             - icon: "fas fa-code"
               title: "サポートされているフレームワーク"
               content: |
-                * Java 7（1.7）以降
+                * .NET Framework 2.0 以降
 
         right:
           enable: true
           table:
+            # table loop
             - icon: "fas fa-cogs"
+              title: "パッケージマネージャー"
+              content: |
+                * NuGet
+                {tabs.tab_three.right.content.line_2}
+                {tabs.tab_three.right.content.line_3}
+            # table loop
+            - icon: "fas fa-tools"
               title: "開発環境"
               content: |
-                * NetBeans
-                * IntelliJ IDEA
-                *Eclipse
-            - icon: "fas fa-tools"
-              title: "ビルド自動化ツール"
-              content: |
-                * Maven
+                *マイクロソフトビジュアルスタジオ
 
+############################# Features ############################
 features:
     enable: true
-    title: "GroupDocs.Metadata for Java Features"
+    title: "GroupDocs.Metadata for Java 機能"
 
     feature:
+      # feature loop
       - icon: "fas fa-copy"
-        content: "ビルトインおよびカスタムメタデータを操作し、Torrentおよびアーカイブ形式のメタデータを取得します"
-
+        content: "組み込みおよびカスタム メタデータを操作し、トレントおよびアーカイブ形式のメタデータをフェッチする"
+       
+      # feature loop
       - icon: "fas fa-eye"
-        content: "Microsoft Word、Excel、PowerPoint、PDFで隠しデータにアクセスして削除する"
+        content: "Microsoft Word、Excel、PowerPoint、PDF の隠しデータにアクセスして削除する"
 
+      # feature loop
       - icon: "fas fa-bolt"
-        content: "実行時にドキュメントファイルタイプを検出する"
+        content: "実行時にドキュメント ファイルの種類を検出する"
       
+      # feature loop
       - icon: "fas fa-file-powerpoint"
-        content: "Word、Excel、PDFでデジタル署名を識別/削除します"
+        content: "Word、Excel、PDF のデジタル署名を特定/削除する"
 
+      # feature loop
       - icon: "fas fa-code"
-        content: "Word、Excel、PowerPoint、PDFでドキュメントのパスワード保護を検出する"
+        content: "Word、Excel、PowerPoint、PDF でドキュメントのパスワード保護を検出"
 
+      # feature loop
       - icon: "fas fa-cloud"
-        content: "サポートされているフォーマットのサムネイルと画像プレビューの取得とMatroskaマルチメディアコンテナのサポート"
+        content: "サポートされているフォーマットのサムネイルと画像プレビューを取得し、Matroska マルチメディア コンテナをサポート"
 
+      # feature loop
       - icon: "fas fa-remove-format"
-        content: "PNG画像ファイルからテキストメタデータを抽出する"
+        content: "PNG 画像ファイルからテキスト メタデータを抽出する"
 
+      # feature loop
       - icon: "fas fa-comment-slash"
-        content: "OpenTypeフォントファイルの任意のメタデータタイプと読み取りメタデータの列挙をサポートします"
+        content: "任意のメタデータ タイプの列挙と OpenType フォント ファイルのメタデータの読み取りをサポート"
 
+      # feature loop
       - icon: "fas fa-location-arrow"
-        content: "サポートされている形式の定義済みキーを使用してメタデータプロパティを読み取る"
+        content: "サポートされている任意の形式の定義済みキーを使用してメタデータ プロパティを読み取る"
 
+      # feature loop
       - icon: "fas fa-border-all"
-        content: "電子メールメッセージのメタデータの取得/削除と添付ファイルの削除"
+        content: "電子メール メッセージのメタデータの取得/削除と添付ファイルの削除"
 
+      # feature loop
       - icon: "fas fa-wrench"
-        content: "Matroskaの字幕を読み、オーディオおよびビデオファイルのメタデータを取得します"
+        content: "Matroska の字幕を読み取り、オーディオおよびビデオ ファイルのメタデータを取得する"
 
+      # feature loop
       - icon: "fas fa-columns"
-        content: "EPUB、CAD、EML、MSGファイルの画像プレビューを生成する"
+        content: "EPUB、CAD、EML、MSG ファイルの画像プレビューを生成"
 
+      # feature loop
       - icon: "fas fa-file-word"
-        content: "比較により、サポートされている形式のメタデータの相違点または類似点を特定する"
+        content: "サポートされている形式のメタデータの相違点または類似点を比較して特定する"
 
+      # feature loop
       - icon: "fas fa-envelope"
-        content: "ドキュメント、EXIF、およびXMPメタデータの検索プロパティ"
+        content: "ドキュメント、EXIF、および XMP メタデータの検索プロパティ"
 
+      # feature loop
       - icon: "fas fa-print"
-        content: "Word、Excel、PowerPoint、PDFのメタデータプロパティを置き換える"
+        content: "Word、Excel、PowerPoint、PDF のメタデータ プロパティを置換"
 
+      # feature loop
       - icon: "fas fa-file-archive"
-        content: "サポートされているファイル形式のメタデータをExcel、CSV、またはDataSetにエクスポートする"
+        content: "サポートされているファイル形式のメタデータを Excel、CSV、または DataSet にエクスポート"
 
+      # feature loop
       - icon: "fas fa-lock"
-        content: "Search APIを使用して、任意のタイプのXMPおよびEXIFメタデータプロパティを追加または更新します"
+        content: "Search API を使用して任意のタイプの XMP および EXIF メタデータ プロパティを追加または更新する"
 
+      # feature loop
       - icon: "fas fa-file-code"
-        content: "画像メタデータのプロパティを操作し、写真の位置情報を削除する"
-      
+        content: "画像メタデータ プロパティの操作と写真の位置情報の削除"
+
+      # feature loop
       - icon: "fas fa-fill-drip"
         content: "レポートとドキュメントからメタデータとコメントを削除する"
-
+        
+      # feature loop
       - icon: "fas fa-file-excel"
-        content: "Excel95以降のMicrosoftExcelファイルからのメタデータ抽出"
+        content: "Excel 95 以降の Microsoft Excel ファイルからのメタデータ抽出"
 
+      # feature loop
       - icon: "fas fa-heading"
-        content: "PDF、Excel、画像形式のメモリ消費量の削減"
+        content: "PDF、Excel、および画像形式のメモリ消費量の削減"
 
+      # feature loop
       - icon: "fas fa-project-diagram"
-        content: "WEBP、PNG、PSDファイルのEXIFメタデータプロパティを更新します"
+        content: "WEBP、PNG、PSD ファイルの EXIF メタデータ プロパティを更新する"
 
+      # feature loop
       - icon: "fas fa-cube"
-        content: "MOV、MP3、WEBPファイルでXMPメタデータプロパティを抽出する"
+        content: "MOV、MP3、WEBP ファイルの XMP メタデータ プロパティを抽出"
 
-      - icon: "fab fa-uncharted"
-        content: "TIFF画像でのIPTCメタデータパッケージの追加、更新、削除"
-      
-      - icon: "fab fa-uncharted"
-        content: "JPEG2000画像でのEXIFメタデータパッケージの追加、更新、削除"
+      # feature loop
+      - icon: "fas fa-envelope"
+        content: "TIFF イメージの IPTC メタデータ パッケージの追加、更新、および削除"
 
-      - icon: "fab fa-uncharted"
-        content: "HEIC/HEIF画像形式からEXIFタグとXMPメタデータプロパティを読み取る"
+      # feature loop
+      - icon: "fas fa-project-diagram"
+        content: "JPEG2000 画像の EXIF メタデータ パッケージの追加、更新、削除"
 
-      - icon: "fab fa-uncharted"
-        content: "暗号化されたMicrosoftProjectファイルからメタデータを読み取る"
+      # feature loop
+      - icon: "fas fa-cube"
+        content: "HEIC/HEIF 画像フォーマットから EXIF タグと XMP メタデータ プロパティを読み取る"
 
+      # feature loop
+      - icon: "fas fa-lock"
+        content: "暗号化された Microsoft Project ファイルからのメタデータの読み取り"
+        
     more_feature:
-      - title: "メタデータプロパティを効率的にフェッチする"
+      # more_feature_loop
+      - title: "メタデータ プロパティを効率的に取得する"
         content: |
-          GroupDocs.Metadata for Java APIを使用すると、サポートされているファイル形式のメタデータプロパティを非常に効率的に取得できます。そのためのコードは非常に単純で簡単です。以下は、Javaを使用してMP3ファイルのメタデータプロパティをフェッチするのがいかに簡単かを示す例です。
-          
+          GroupDocs.Metadata for Java API を使用すると、サポートされているファイル形式のメタデータ プロパティを非常に効率的に取得できます。そのためのコードは非常に単純で簡単です。以下は、Java を使用して MP3 ファイルのメタデータ プロパティを取得することがいかに簡単かを示す例です。
           ```java
-          try (Mp3Format mp3Format = new Mp3Format("D:\\sample.mp3")) 
+           try (Mp3Format mp3Format = new Mp3Format("D:\\sample.mp3")) 
           {
-          //ID3v1でアルバムを読みます
-          System.out.printf("Album: %", mp3Format.getId3v1Properties().getAlbum());
-
-          //ID3v2でタイトルを読み取ります
-          System.out.printf("Title: %", mp3Format.getId3v2Properties().getTitle());
+            System.out.printf("Album: %", mp3Format.getId3v1Properties().getAlbum());
+            System.out.printf("Title: %", mp3Format.getId3v2Properties().getTitle());
           }
-          ```
+          ```      
+      # more_feature_loop
       - title: "操作のために隠しデータを取得する"
-        content: |
-          GroupDocs.Metadata for Javaは、Microsoft Word、Excel、およびPowerPointファイルから非表示のデータを取得および削除するための包括的な方法を提供します。 PDFドキュメントでも同じことができます。次のリストは、GroupDocs.MetadataforJavaを介してアクセスおよび操作できるメタデータの種類を詳しく示しています。  
+        content: "GroupDocs.Metadata for Java は、Microsoft Word、Excel、および PowerPoint ファイルから隠しデータを取得および削除する包括的な方法を提供します。 PDFドキュメントでも同じことができます。コメント、マージ フィールド、隠しページ、フォーム フィールド、注釈などを操作できます。"
 
-          * Microsoft Word（コメント、隠しテキスト、マージフィールド）
-          * Microsoft Excel（コメント、非表示のシート）
-          * Microsoft PowerPoint（コメント、非表示のスライド）
-          * PDFドキュメント（添付ファイル、注釈、ブックマーク、フォームフィールド）
-
+############################# Support ############################
 support:
     enable: true
 
+############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Metadataは、他の一般的な開発環境向けのドキュメント表示APIを提供します"
+    title: "GroupDocs.Metadata は、他の一般的な開発環境向けのドキュメント表示 API を提供します"
 
     solution:
+        # solution loop
         - img_alt: "GroupDocs.Metadata for .NET"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-metadata-net.png"
           product: "GroupDocs.Metadata"
           platform: ".NET"
           link: "/metadata/net/"
 
+############################# Back to top ###############################
 back_to_top:
   enable: true
 ---

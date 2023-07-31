@@ -1,0 +1,48 @@
+{
+  "head": {
+    "title": ".NET, Java Interfejsy API i aplikacje do manipulacji metadanymi online według GroupDocs",
+    "description": "Interfejsy API metadanych dokumentu natywne dla języka C# .NET i Java. Czytać, pisać, edytować i porównywać meta informacje wszystkich popularnych formatów. Analizuj i eksportuj metadane."
+  },
+  "header": {
+    "title": "Rozwiązanie do zarządzania metadanymi dokumentów",
+    "description": "Interfejsy API i aplikacje do odczytu, edycji, zastępowania i usuwania metadanych dokumentów, obrazów i innych formatów plików na popularnych platformach."
+  },
+  "apis": {
+    "highcode": {
+      "title": "GroupDocs.Metadata High Code Interfejsy API obejmują",
+      "label": "Wyświetl wszystkie interfejsy API High Code",
+      "net": {
+        "content": "Native .NET API do dynamicznego odczytu, zapisu, edycji i usuwania meta informacji z Microsoft Office, PDF, Multimediów, obrazów i różnych innych formatów plików."
+      },
+      "java": {
+        "content": "Java API do edycji i manipulowania metadanymi dokumentów, obrazów, plików wideo i różnych innych formatów plików."
+      }
+    },
+    "lowcode": {
+      "title": "GroupDocs.Metadata Low Code Interfejsy API obejmują",
+      "label": "Wyświetl wszystko Low Code API",
+      "curl": {
+        "content": "Pracuj z interfejsem API do manipulowania metadanymi cURL REST, aby zarządzać informacjami o metadanych PDF, Word, Excel, Prezentacjami, obrazami i plikami multimedialnymi w aplikacjach."
+      },
+      "net": {
+        "content": "Użyj metadanych REST API z .NET SDK, aby dodawać, edytować, wyodrębniać, wyszukiwać i usuwać metadane z formatów dokumentów w aplikacjach .NET."
+      },
+      "java": {
+        "content": "Ulepsz swoje aplikacje Java dzięki zaawansowanym funkcjom zarządzania metadanymi za pomocą Metadata SDK for Java."
+      }
+    },
+    "nocode": {
+      "title": "GroupDocs.Metadata No Code Aplikacje obejmują",
+      "label": "Zobacz wszystko No Code Apps",
+      "total": {
+        "content": "Bezpłatna aplikacja do przeglądania i edycji metadanych Word, Excel, PDF, PowerPoint i ponad 50 typów dokumentów."
+      },
+      "docx": {
+        "content": "Darmowa przeglądarka metadanych online i edytor dokumentów MS Word."
+      },
+      "pdf": {
+        "content": "Wyświetlanie lub edytowanie informacji o metadanych dokumentów PDF online."
+      }
+    }
+  }
+}

@@ -1,21 +1,26 @@
 ---
-layout: "auto-gen"
-date: 2021-05-20T16:11:34+03:00
+############################# Static ############################
+layout: "auto-gen-metadata"
+date: 2023-06-14T09:37:28
 draft: false
+otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
-head_title: "Javaメタデータエディタ-JavaでのDOTXファイルのメタデータの更新"
-head_description: "クロスプラットフォームのJavaメタデータエディターAPIを使用して、DOTXファイルのメタデータフィールドを編集および更新します。メタデータ標準XMP、EXIF、IPTC、ID3などを操作します。"
+############################# Head ############################
+head_title: "Edit Metadata to DOTX Files in Java Java Applications"
+head_description: "Java Java metadata processing API to edit metadata information to DOTX files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
-title: "JavaでDOTXファイルからメタデータを更新する"
-description: "Javaアプリケーション用のメタデータエディタ– Java用のメタデータエディタAPIを使用して、すべての一般的なドキュメント、画像、マルチメディアファイル形式からメタデータフィールドを変更します."
+############################# Header ############################
+title: "Update Metadata From DOTX File In Java"
+description: "Metadata Editor for Java applications – Change metadata fields from all popular documents, images and multimedia file formats using metadata editor API for Java."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "無料トライアルをダウンロード"
+    label: "Download Free Trial"
     link: "https://downloads.groupdocs.com/metadata/java"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,266 +33,128 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/metadata/java"
-              text: "APIリファレンス"
+              text: "{submenu.content_middle.button_text_1}"
 
+            # button loop
             - link: "https://github.com/groupdocs-metadata"
-              text: "コード例"
+              text: "{submenu.content_middle.button_text_2}"
 
+            # button loop
             - link: "https://products.groupdocs.app/metadata/family"
-              text: "ライブデモ"
+              text: "{submenu.content_middle.button_text_3}"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/java"
-              text: "価格設定"
+              text: "{submenu.content_middle.button_text_4}"
 
     right:
         link_download: "https://downloads.groupdocs.com/metadata"
         link_learn: "https://docs.groupdocs.com/metadata/java"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Metadata for Java APIについて"
+    title: "About GroupDocs.Metadata for Java API"
     content: |
-        [GroupDocs.Metadata for Java](/metadata/java/)は、外部ソフトウェアを使用せずに、画像やドキュメント形式からメタデータ情報を簡単に読み取り、追加、変更、削除、検索、比較、置換、エクスポートできる高度なメタデータフィールド操作ソリューションです。 。 Word文書、Excelスプレッドシート、PowerPointプレゼンテーション、Outlook電子メール、OneNote、Visio、Project、PDF、AutoCAD、ZIp、オーディオおよびビデオファイル形式からメタデータの詳細を編集し、他の多くのメタデータ処理機能の操作をサポートします。
+        [GroupDocs.Metadata for Java](/ja/metadata/java/) is an advanced metadata fields manipulation solution to easily read, add, modify, delete, search, compare, replace and export metadata information from images and document formats without using any external software. Edit metadata details from Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "JavaでのDOTXメタデータ抽出の手順"
+    title_left: "Steps for Updating Metadata to DOTX in Java"
     content_left: |
-        [GroupDocs.Metadata](/metadata/java/)を使用すると、Java開発者は、いくつかの簡単な手順を実装することで、アプリケーション内からDOTXファイルからメタデータ情報を簡単に取得できます。
-
-        * 更新するDOTXファイルをロードします。
-        *目的のメタデータプロパティをフィルタリングするために使用される述語を指定します。
-        * 選択したプロパティに割り当てる値を指定します。
-        * 述語と新しい値をUpdatePropertiesメソッドに渡します。
-        * 更新されたプロパティの実際の数を確認してください。
-        * 変更を保存します。
+        [GroupDocs.Metadata for Java](/ja/metadata/java/) makes it easy for Java developers to edit metadata details to DOTX files from within their applications by implementing a few easy steps.
         
-    title_right: "システム要求"
+        * Load the DOTX file to be updated
+        * Specify a predicate that will be used to filter desired metadata properties.
+        * Pass the predicate and the new value to the UpdateProperties method.
+        * Save the changes.
+
+    title_right: "System Requirements"
     content_right: |
-        GroupDocs.Metadata for Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        GroupDocs.Metadata for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
-        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        * 開発環境：NetBeans、Intellij IDEA、Eclipseなど
-        * Javaランタイム環境：J2SE6.0以降
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)からJava用のGroupDocs.Metadataの最新バージョンを入手します。
-        
+        * Operating Systems: Microsoft Windows, Linux, MacOS
+        * Development Environments: NetBeans, IntelliJ IDEA, Eclipse
+        * Java Runtime Environments: J2SE 6.0 and above
+        * Get the latest version of  GroupDocs.Metadata for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
+         
     code: |
-        ```java
-        public class UpdatingMetadata {
-            public static void run() {
-                Date threeDaysAgo = new Date(System.currentTimeMillis() - TimeUnit.DAYS.toMillis(3));
-                try (Metadata metadata = new Metadata("input.dotx")) {
-                        //既存の値が3日より古い場合は、ファイルの作成日時を更新します
-                        int affected = metadata.updateProperties(new ContainsTagSpecification(Tags.getTime().getCreated()).and(
-                                new OfTypeSpecification(MetadataPropertyType.DateTime)).and(
-                                new UpdatingMetadata().new DateBeforeSpecification(threeDaysAgo)), new PropertyValue(new Date()));
-        
-                        System.out.println(String.format("Affected properties: %s", affected));
-        
-                        metadata.save("output.dotx");
-                }
+        ```java    
+        public class UpdatingMetadata
+        {
+          public static void run() 
+          {
+            Date threeDaysAgo = new Date(System.currentTimeMillis() - TimeUnit.DAYS.toMillis(3));
+            try (Metadata metadata = new Metadata("input.dotx"))
+            {
+                // Update the file creation date/time if the existing value is older than 3 days
+                int affected = metadata.updateProperties(new ContainsTagSpecification(Tags.getTime().getCreated()).and(
+                        new OfTypeSpecification(MetadataPropertyType.DateTime)).and(
+                        new UpdatingMetadata().new DateBeforeSpecification(threeDaysAgo)), new PropertyValue(new Date()));
+
+                System.out.println(String.format("Affected properties: %s", affected));
+
+                metadata.save("output.dotx");
             }
-        
-            //メタデータプロパティをフィルタリングするための独自の仕様を定義します
-            public class DateBeforeSpecification extends Specification {
-                public DateBeforeSpecification(Date date) {
-                    setValue(date);
-                }
-        
-                public final Date getValue() {
-                    return auto_Value;
-                }
-        
-                private void setValue(Date value) {
-                    auto_Value = value;
-                }
-        
-                private Date auto_Value;
-        
-                public boolean isSatisfiedBy(MetadataProperty candidate) {
-                    Date date = candidate.getValue().toClass(Date.class);
-                    if (date != null) {
-                        return date.before(getValue());
-                    }
-                    return false;
-                }
+          }
+
+          // Define your own specifications to filter metadata properties
+          public class DateBeforeSpecification extends Specification
+          {
+            public DateBeforeSpecification(Date date)
+            {
+              setValue(date);
             }
+
+            public final Date getValue()
+            {
+              return auto_Value;
+            }
+
+            private void setValue(Date value)
+            {
+              auto_Value = value;
+            }
+
+            private Date auto_Value;
+
+            public boolean isSatisfiedBy(MetadataProperty candidate)
+            {
+              Date date = candidate.getValue().toClass(Date.class);
+              if (date != null)
+              {
+                return date.before(getValue());
+              }
+              return false;
+            }
+          }
         }
         ```
-        
+
+############################# Demos ############################
 demos:
     enable: true
-    title: "メタデータ編集のライブデモ"
+    title: "Live Demos of Editing Metadata"
     content: |
-        [GroupDocs.Metadataライブデモ](https://products.groupdocs.app/metadata/family)サイトにアクセスして、DOTXファイルのメタデータ情報を今すぐ更新してください。  
-        ライブデモには次の利点があります
+       Update metadata information to DOTX file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.
+       The live demo has the following benefits.
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-file-dotx"
-          title: "DOTXファイル形式について"
-          content: |
-            DOTX拡張子の付いたファイルは、Microsoft Wordによって作成されたテンプレートファイルであり、さらにDOCXファイルを生成するための事前にフォーマットされた設定があります。テンプレートファイルは、これらから作成された後続のハエに適用する必要がある特定のユーザー設定を持つために作成されます。これらの設定には、ページの余白、境界線、ヘッダー、フッター、およびその他のページ設定が含まれます。このようなテンプレートは、会社のレターヘッドや標準化されたフォームなどの公式文書で使用されます。 DOTXファイル形式は、バイナリDOTファイル形式を置き換えるためにMicrosoft Office 2007のリリースで導入されましたが、より高いバージョンでもサポートされています。 Microsoft Wordはデフォルトで、normal.dotファイルに基づいてすべての新しいドキュメントを開きます。変更すると、作成されたすべての新しいファイルは、テンプレートファイルと同じ設定になります。 Microsoft Word 2007では、DOTファイル形式がOfficeOpenXMLベースのDOTXファイル形式に置き換えられました。
 
-          link: "https://docs.fileformat.com/word-processing/dotx/"
-
+############################# More Formats ############################
 more_formats:
-    enable: false
-    title: "他のファイル形式のメタデータの変更"
+    enable: true
+    title: "Changing Metadata Of Other File Formats"
     content: |
-        Java用のマルチフォーマットドキュメントおよび画像メタデータ編集API。以下に示すように、いくつかの一般的なファイル形式のメタデータの詳細を取得します。
-    format: 
-          link: "https://products.groupdocs.com/metadata/java/edit/pdf/"
-          description: "AdobePortableドキュメント形式"
+        Multi format documents and images metadata editing API for Java. Retrieve metadata of some of the popular file formats as stated below.
 
-          link: "https://products.groupdocs.com/metadata/java/edit/doc/"
-          description: "MicrosoftWordドキュメント"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/docm/"
-          description: "MicrosoftWordマクロ対応ドキュメント"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/docx/"
-          description: "Microsoft WordOpenXMLドキュメント"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/dot/"
-          description: "MicrosoftWord文書テンプレート"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/dotx/"
-          description: "WordOpenXMLドキュメントテンプレート"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/xls/"
-          description: "MicrosoftExcelバイナリファイル形式"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/xlsx/"
-          description: "Microsoft ExcelOpenXMLスプレッドシート"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/xlsm/"
-          description: "MicrosoftExcelマクロ対応スプレッドシート"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/xltx/"
-          description: "OOXMLマクロ対応ワークブックテンプレート"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/ppt/"
-          description: "PowerPointプレゼンテーション"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/pps/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/pptx/"
-          description: "PowerPointOpenXMLプレゼンテーション"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/ppsx/"
-          description: "PowerPointOpenXMLスライドショー"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/potx/"
-          description: "Microsoft PowerPointOpenXMLテンプレート"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/potm/"
-          description: "MicrosoftPowerPointテンプレート"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/pptm/"
-          description: "MicrosoftPowerPointプレゼンテーション"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/ppsm/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/ods/"
-          description: "ドキュメントスプレッドシートを開く"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/odt/"
-          description: "ドキュメントテキストを開く"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/tiff/"
-          description: "タグ付き画像ファイル形式"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/jpeg/"
-          description: "JPEG画像"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/png/"
-          description: "ポータブルネットワークグラフィック"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/gif/"
-          description: "グラフィカルな交換フォーマットファイル"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/bmp/"
-          description: "ビットマップファイル形式"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/jp2/"
-          description: "JPEG2000コア画像ファイル"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/webp/"
-          description: "ラスターWeb画像ファイル形式"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/psd/"
-          description: "AdobePhotoshopドキュメント"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/wmf/"
-          description: "Windowsメタファイル"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/emf/"
-          description: "強化されたメタファイル形式"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/emz/"
-          description: "MicrosoftProjectドキュメント"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/msg/"
-          description: "MicrosoftOutlookの電子メールメッセージ"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/eml/"
-          description: "電子メールメッセージ"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/dwg/"
-          description: "Autodesk Design Data Formats"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/dxf/"
-          description: "AutoCAD Drawing Interchange"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/one/"
-          description: "Microsoft OneNote"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/mp3/"
-          description: "MPEGオーディオレイヤーIII"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/wav/"
-          description: "波形オーディオファイル形式"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/dicom/"
-          description: "デジタルイメージング＆amp;医学のコミュニケーション"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/avi/"
-          description: "オーディオビデオインターリーブファイル"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/vsd/"
-          description: "MicrosoftVisio2003-2010図面"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/vsdx/"
-          description: "MicrosoftVisio図面"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/vss/"
-          description: "MicrosoftVisio2003-2010ステンシル"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/vdx/"
-          description: "Microsoft Visio2003-2010XML図面"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/vsx/"
-          description: "Microsoft Visio2003-2010XMLステンシル"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/zip/"
-          description: "アーカイブファイル形式"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/epub/"
-          description: "デジタル電子書籍ファイル形式"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/vcf/"
-          description: "電子名刺"
-
-          link: "https://products.groupdocs.com/metadata/java/edit/vcr/"
-          description: "vCard"
-
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

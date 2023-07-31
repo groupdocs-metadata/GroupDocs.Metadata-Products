@@ -1,16 +1,16 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2023-07-31T12:04:41
 draft: false
 
 ############################# Head ############################
-head_title: ".NET、Java API 和 GroupDocs 的在线元数据操作应用程序"
-head_description: "C# .NET 和 Java 原生的文档元数据 API。读取、写入、编辑和比较所有流行格式的元信息。分析和导出元数据."
+head_title: ".NET、Java API 和 GroupDocs 的在线元数据处理应用程序"
+head_description: "C# .NET 和 Java 原生的文档元数据 API。读取、写入、编辑和比较所有流行格式的元信息。分析和导出元数据。"
 
 ############################# Header ############################
 title: "文档元数据管理解决方案"
-description: "用于在流行平台上读取、编辑、替换和删除文档、图像和其他文件格式的元数据的 API 和应用程序."
+description: "用于读取、编辑、替换和删除流行平台上文档、图像和其他文件格式的元数据的 API 和应用程序。"
 
 ############################# APIs ###############################
 apis:
@@ -18,9 +18,9 @@ apis:
 
   api:
     # api loop
-    - title: "GroupDocs.Metadata 高代码 API 包括"
+    - title: "GroupDocs.Metadata 高级代码 API 包括"
       link: "/metadata/"
-      label: "查看所有高代码 API"
+      label: "查看所有高级代码 API"
       api_product:
         # api_product loop
         - link: "/metadata/net/"
@@ -28,7 +28,7 @@ apis:
           image: "/border/groupdocs-metadata-net.svg"
           product: "GroupDocs.Metadata for"
           platform: ".NET"
-          content: "用于从 微软办公软件、PDF、多媒体、图像和各种其他文件格式动态读取、写入、编辑和删除元信息的原生 .NET API."
+          content: "本机 .NET API 可动态读取、写入、编辑和删除来自 Microsoft Office、PDF、多媒体、图像和各种其他文件格式的元信息。"
 
         # api_product loop
         - link: "/metadata/java/"
@@ -36,7 +36,7 @@ apis:
           image: "/border/groupdocs-metadata-java.svg"
           product: "GroupDocs.Metadata for"
           platform: "Java"
-          content: "用于从 微软办公软件、PDF、多媒体、图像和各种其他文件格式动态读取、写入、编辑和删除元信息的原生 .NET API."
+          content: "用于编辑和操作文档、图像、视频文件和各种其他文件格式的元数据的 Java API。"
 
     # api loop
     - title: "GroupDocs.Metadata 低代码 API 包括"
@@ -49,7 +49,7 @@ apis:
           image: "/sdk/groupdocs_metadata-for-curl.svg"
           product: "GroupDocs.Metadata"
           platform: "Cloud for cURL"
-          content: "使用 cURL RESTful 元数据操作 API 来管理应用程序中 PDF、Word、Excel、演示文稿、图像和多媒体文件的元数据信息."
+          content: "使用 cURL RESTful 元数据操作 API 来管理应用程序中 PDF、Word、Excel、演示文稿、图像和多媒体文件的元数据信息。"
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/metadata/net"
@@ -57,7 +57,7 @@ apis:
           image: "/sdk/groupdocs_metadata-for-net.svg"
           product: "GroupDocs.Metadata"
           platform: "Cloud SDK for .NET"
-          content: "使用带有 .NET SDK 的元数据 REST API 从 .NET 应用程序中的文档格式中添加、编辑、提取、搜索和删除元数据."
+          content: "将元数据 REST API 与 .NET SDK 结合使用，以在 .NET 应用程序中添加、编辑、提取、搜索和删除文档格式的元数据。"
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/metadata/java"
@@ -65,12 +65,12 @@ apis:
           image: "/sdk/groupdocs_metadata-for-java.svg"
           product: "GroupDocs.Metadata"
           platform: "Cloud SDK for Java"
-          content: "使用 Metadata SDK for Java 通过强大的元数据管理功能增强您的 Java 应用程序."
+          content: "使用 Metadata SDK for Java 通过强大的元数据管理功能增强您的 Java 应用程序。"
 
     # api loop
     - title: "GroupDocs.Metadata 无代码应用程序包括"
       link: "https://products.groupdocs.app/metadata"
-      label: "查看所有无代码应用程序"
+      label: "查看所有无代码应用"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.app/metadata/total"
@@ -78,7 +78,7 @@ apis:
           image: "/app/groupdocs_metadata-app.svg"
           product: "GroupDocs.Metadata"
           platform: "Total"
-          content: "用于查看和编辑 Word、Excel、PDF、PowerPoint 和 50 多种文档类型的元数据的免费应用程序."
+          content: "免费应用程序，用于查看和编辑 Word、Excel、PDF、PowerPoint 和 50 多种文档类型的元数据。"
 
         # api_product loop
         - link: "https://products.groupdocs.app/metadata/docx"
@@ -86,7 +86,7 @@ apis:
           image: "/app/groupdocs_words-app.svg"
           product: "GroupDocs.Metadata"
           platform: "DOCX"
-          content: "用于 MS Word 文档的免费在线元数据查看器和编辑器."
+          content: "MS Word 文档的免费在线元数据查看器和编辑器。"
 
         # api_product loop
         - link: "https://products.groupdocs.app/metadata/pdf"
@@ -94,7 +94,7 @@ apis:
           image: "/app/groupdocs_pdf-app.svg"
           product: "GroupDocs.Metadata"
           platform: "PDF"
-          content: "在线查看或编辑 PDF 文档的元数据信息."
+          content: "在线查看或编辑 PDF 文档的元数据信息。"
 
 ############################# Back to top ###############################
 back_to_top:

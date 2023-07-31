@@ -1,0 +1,47 @@
+{
+  "head": {
+    "title": "Edit Metadata to {{EXT}} Files in {{ProgLang}} {{ProductName}} Applications",
+    "description": "{{ProgLang}} {{ProductName}} metadata processing API to edit metadata information to {{EXT}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+  },
+  "header": {
+    "title": "Update Metadata From {{EXT}} File In {{ProgLang}}",
+    "description": "Metadata Editor for Java applications – Change metadata fields from all popular documents, images and multimedia file formats using metadata editor API for Java.",
+    "button_label": "Download Free Trial"
+  },
+  "about": {
+    "title": "About {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/metadata/{{ProductCode}}/) is an advanced metadata fields manipulation solution to easily read, add, modify, delete, search, compare, replace and export metadata information from images and document formats without using any external software. Edit metadata details from Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.",
+  },
+  "steps": {
+    "title_left": "Steps for Updating Metadata to {{EXT}} in {{ProgLang}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/metadata/{{ProductCode}}/) makes it easy for {{ProductName}} developers to edit metadata details to {{EXT}} files from within their applications by implementing a few easy steps.",
+      "step_1": "Load the {{EXT}} file to be updated",
+      "step_2": "Specify a predicate that will be used to filter desired metadata properties.",
+      "step_3": "Pass the predicate and the new value to the UpdateProperties method.",
+      "step_4": "Save the changes.",
+    },
+    "title_right": "System Requirements",
+    "content_right": {
+      "description": "{{ProductFullName}} APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.",
+      "step_1": "Operating Systems: Microsoft Windows, Linux, MacOS",
+      "step_2": "Development Environments: {{DevEnv}}",
+      "step_3": "Java Runtime Environments",
+      "step_4": "Get the latest version of  {{ProductFullName}} from [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "How to update Metaddata {{EXT}} file using {{ProgLang}} example code",
+    "code": {
+     "update_commnet": "Update the file creation date/time if the existing value is older than 3 days",
+     "define_comment": "Define your own specifications to filter metadata properties"
+    }
+  },
+  "demos": {
+    "title": "Live Demos of Editing Metadata",
+    "h1": "Update metadata information to {{EXT}} file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.",
+    "h2": "The live demo has the following benefits."
+  },
+  "more_formats": {
+    "title": "Changing Metadata Of Other File Formats",
+    "content": "Multi format documents and images metadata editing API for {{ProductName}}. Retrieve metadata of some of the popular file formats as stated below."
+  }
+}

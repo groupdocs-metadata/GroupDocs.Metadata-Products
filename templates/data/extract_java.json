@@ -1,0 +1,46 @@
+{
+  "head": {
+    "title": "Read & Extract Metadata of {{EXT}} Files in {{ProgLang}} {{ProductName}} Applications",
+    "description": "Cross platform {{ProgLang}} {{ProductName}} metadata menagement API to read and extract metadata information of {{EXT}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+  },
+  "header": {
+    "title": "Extract Metadata From {{EXT}} File In {{ProgLang}}",
+    "description": "Read & Extract metadata information from a wide range of documents, images, audio & video formats using {{ProductFullName}}",
+    "button_label": "Download Free Trial"
+  },
+  "about": {
+    "title": "About {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/metadata/{{ProductCode}}/) offers an advanced set of metadata management and manipulation features, allowing developers to easily read, edit, remove, search, compare, replace and export metadata information from images and document formats without using any external software. Extract metadata details from PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats, and perform supported metadata operations with true flexibility.",
+  },
+  "steps": {
+    "title_left": "Steps for {{EXT}} Metadata Extraction in {{ProgLang}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/metadata/{{ProductCode}}/) makes it easy for {{ProductName}} developers to extract to read and extract metadata information from {{EXT}} files from within their applications by implementing a few easy steps.",
+      "step_1": "Load the {{EXT}} with an instance of Metadata class.",
+      "step_2": "Make up a predicate to examine all metadata properties.",
+      "step_3": "Pass the predicate to the FindProperties method.",
+      "step_4": "Iterate through the found properties."
+    },
+    "title_right": "System Requirements",
+    "content_right": {
+      "description": "{{ProductFullName}} APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.",
+      "step_1": "Operating Systems: Microsoft Windows, Linux, MacOS",
+      "step_2": "Development Environments: {{DevEnv}}",
+      "step_3": "Java Runtime Environment",
+      "step_4": "Download the latest version of {{ProductFullName}} from [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "How to extract Metaddata {{EXT}} file using {{ProgLang}} example code",
+    "code": {
+     "fetch_comment": "Fetch all metadata properties that fall into a particular category"
+    }
+  },
+  "demos": {
+    "title": "Metadata Extraction Live Demos",
+    "h1": "Retrieve metadata information of {{EXT}} file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.",
+    "h2": "The live demo has the following benefits."
+  },
+  "more_formats": {
+    "title": "Reading & Extracting Other File Formats",
+    "content": "Multi format documents and images metadata extraction API for {{ProductName}}. Retrieve metadata of some of the popular file formats as stated below."
+  }
+}

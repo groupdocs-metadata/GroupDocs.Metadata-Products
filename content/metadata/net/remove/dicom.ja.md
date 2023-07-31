@@ -1,21 +1,26 @@
 ---
-layout: "auto-gen"
-date: 2021-05-20T16:12:30+03:00
+############################# Static ############################
+layout: "auto-gen-metadata"
+date: 2023-06-14T09:37:51
 draft: false
+otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dcm bmp avi asf mkv one otc djvu
 
-head_title: "C＃.NETアプリケーションでDICOMファイルのメタデータを削除する"
-head_description: "C＃.NETメタデータ処理APIを使用して、DICOMファイルのメタデータ情報を削除します。メタデータ標準XMP、EXIF、IPTC、ID3などを操作します。"
+############################# Head ############################
+head_title: "Remove Metadata to DICOM Files in C# .NET Applications"
+head_description: "C# .NET metadata processing API to remove metadata information to DICOM files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
-title: "C＃でDICOMファイルからメタデータを削除する"
-description: "さまざまなドキュメント、画像、音声、音声からメタデータ情報を削除します。 GroupDocs.Metadata for .NET APIを使用したビデオファイル形式."
+############################# Header ############################
+title: "Remove Metadata From DICOM File In C#"
+description: "Remove metadata information from a variety of documents, images, audio & video file formats using GroupDocs.Metadata for .NET API."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "無料トライアルをダウンロード"
+    label: "Download Free Trial"
     link: "https://downloads.groupdocs.com/metadata/net"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,229 +33,87 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/metadata/net"
-              text: "APIリファレンス"
+              text: "{submenu.content_middle.button_text_1}"
 
+            # button loop
             - link: "https://github.com/groupdocs-metadata"
-              text: "コード例"
+              text: "{submenu.content_middle.button_text_2}"
 
+            # button loop
             - link: "https://products.groupdocs.app/metadata/family"
-              text: "ライブデモ"
+              text: "{submenu.content_middle.button_text_3}"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/net"
-              text: "価格設定"
+              text: "{submenu.content_middle.button_text_4}"
 
     right:
         link_download: "https://downloads.groupdocs.com/metadata"
         link_learn: "https://docs.groupdocs.com/metadata/net"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Metadata for .NET APIについて"
+    title: "About GroupDocs.Metadata for .NET API"
     content: |
-        [GroupDocs.Metadata for .NET](/metadata/net/)は、メタデータ操作機能の高度なセットを提供し、開発者が使用せずに画像やドキュメント形式からメタデータ情報を簡単に読み取り、編集、削除、検索、比較、置換、およびエクスポートできるようにします外部ソフトウェア。メタデータ管理APIを使用して、PDF、Microsoft Office Word、Excelスプレッドシート、PowerPointプレゼンテーション、Outlook、OneNote、Visio、Project、AutoCAD、アーカイブ、マルチメディアファイル形式、およびその他の多くのメタデータ処理機能からメタデータの詳細を削除します。
+        [GroupDocs.Metadata for .NET](/ja/metadata/net/) offers an advanced set of metadata manipulation features, allowing developers to easily read, edit, remove, search, compare, replace and export metadata information from images and document formats without using any external software. Use metadata management API to delete metadata details from PDF, Microsoft Office Word, Excel spreadsheets, PowerPoint presentations, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats along with many other metadata processing features.
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "C＃でDICOMメタデータを削除する手順"
+    title_left: "Steps for Removing DICOM Metadata in C#"
     content_left: |
-        [GroupDocs.Metadata](/metadata/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実装することで、アプリケーション内からDICOMファイルからメタデータの詳細を簡単に削除できます。
-
-        * メタデータクラスのインスタンスでDICOMをロードします。
-        * 述語を使用して、目的のメタデータプロパティを検索します。
-        *プロパティを削除するには、Metadata.RemovePropertiesメソッドを使用します。
-        * 変更をDICOM形式で保存し直します。
+        [GroupDocs.Metadata for .NET](/ja/metadata/net/) makes it easy for .NET developers to remove  metadata details to DICOM files from within their applications by implementing a few easy steps.
         
-    title_right: "システム要求"
+        * Load DICOM with an instance of Metadata class.
+        * Use a predicate to find desired metadata properties.
+        * Use Metadata.RemoveProperties method to remove the properties.
+        * Save the changes back in DICOM format.
+
+    title_right: "System Requirements"
     content_right: |
-        GroupDocs.Metadata for .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        GroupDocs.Metadata for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
-        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        * 開発環境：Visual Studio、Xamarin、MonoDevelop
-        * フレームワーク：.NET Framework、.NET Standard、.NET Core、Mono
-        * [NuGet](https://www.nuget.org/packages/groupdocs.metadata)から最新バージョンのGroupDocs.Metadatafor.NETをダウンロードします。
-        
+        * Operating Systems: Microsoft Windows, Linux, MacOS
+        * Development Environments: Visual Studio, Xamarin, MonoDevelop
+        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
+        * Download the latest version of GroupDocs.Metadata for .NET from [NuGet](https://www.nuget.org/packages/groupdocs.metadata)
+         
     code: |
-        ```cs
+        ```csharp    
         using (var metadata = new GroupDocs.Metadata.Metadata("input.dicom"))
         {
-        
-        		//ファイル作成に貢献した人の言及をすべて削除します
-        		//指定された名前のすべてのプロパティを削除します
-        		var affected = metadata.RemoveProperties(p => p.Tags.Any(t => t.Category == Tags.Person) || p.Name == "CustomProperty");
-        
-        		Console.WriteLine("Affected properties: {0}", affected);
-        
-        		metadata.Save("output.dicom");
+            // Remove all mentions of any people contributed in file creation
+            // Remove all properties with the specified name
+            var affected = metadata.RemoveProperties(p => p.Tags.Any(t => t.Category == Tags.Person) || p.Name == "CustomProperty");
+            Console.WriteLine("Affected properties: {0}", affected);
+            metadata.Save("output.dicom");
         }
         ```
-        
+
+############################# Demos ############################
 demos:
     enable: true
-    title: "メタデータ削除ライブデモ"
+    title: "Metadata Removal Live Demos"
     content: |
-        [GroupDocs.Metadataライブデモ](https://products.groupdocs.app/metadata/family)サイトにアクセスして、DICOMファイルのメタデータ情報を今すぐ削除してください。  
-        ライブデモには次の利点があります
+       Delete metadata information of DICOM file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.
+       The live demo has the following benefits.
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-file-dicom"
-          title: "DICOMファイル形式について"
-          content: |
-            DICOMは、Medical Imaging and Communications in Medicineの頭字語であり、医療情報学の分野に関係しています。 DICOMは、ファイル形式の定義とネットワーク通信プロトコルを組み合わせたものです。 DICOMは.DCM拡張子を使用します。 .DCMは、フォーマット1.xとフォーマット2.xの2つの異なるフォーマットで存在します。 DCMフォーマット1.xは、通常と拡張の2つのバージョンでさらに利用できます。 DICOMは、さまざまなベンダーのプリンター、サーバー、スキャナーなどの医用画像装置の統合に使用され、一意性のために各患者の識別データも含まれています。 DICOMファイルは、DICOM形式の画像データを受信できる場合、2者間で共有できます。 DICOMの通信部分はアプリケーション層プロトコルであり、TCP/IPを使用してエンティティ間で通信します。 HTTPおよびHTTPSプロトコルは、DICOMのWebサービスに使用されます。 Webサービスでサポートされているバージョンは、1.0、1.1、2以降です。
 
-          link: "https://docs.fileformat.com/image/dicom/"
-
+############################# More Formats ############################
 more_formats:
-    enable: false
-    title: "他のファイル形式からのメタデータプロパティの削除"
+    enable: true
+    title: "Deleting Metadata Properties From Other File Formats"
     content: |
-        .NET用のマルチフォーマットドキュメントおよび画像メタデータ削除API。以下に示すように、いくつかの一般的なファイル形式のメタデータを削除します。
-    format: 
-          link: "/metadata/net/remove/pdf/"
-          description: "AdobePortableドキュメント形式"
+        Multi format documents and images metadata deletion API for .NET. Retrieve metadata of some of the popular file formats as stated below.
 
-          link: "/metadata/net/remove/doc/"
-          description: "MicrosoftWordドキュメント"
-
-          link: "/metadata/net/remove/docm/"
-          description: "MicrosoftWordマクロ対応ドキュメント"
-
-          link: "/metadata/net/remove/docx/"
-          description: "Microsoft WordOpenXMLドキュメント"
-
-          link: "/metadata/net/remove/dot/"
-          description: "MicrosoftWord文書テンプレート"
-
-          link: "/metadata/net/remove/dotx/"
-          description: "WordOpenXMLドキュメントテンプレート"
-
-          link: "/metadata/net/remove/xls/"
-          description: "MicrosoftExcelバイナリファイル形式"
-
-          link: "/metadata/net/remove/xlsx/"
-          description: "Microsoft ExcelOpenXMLスプレッドシート"
-
-          link: "/metadata/net/remove/xlsm/"
-          description: "MicrosoftExcelマクロ対応スプレッドシート"
-
-          link: "/metadata/net/remove/xltm/"
-          description: "OOXMLマクロ対応ワークブックテンプレート"
-
-          link: "/metadata/net/remove/ppt/"
-          description: "PowerPointプレゼンテーション"
-
-          link: "/metadata/net/remove/pps/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "/metadata/net/remove/pptx/"
-          description: "PowerPointOpenXMLプレゼンテーション"
-
-          link: "/metadata/net/remove/ppsx/"
-          description: "PowerPointOpenXMLスライドショー"
-
-          link: "/metadata/net/remove/potx/"
-          description: "Microsoft PowerPointOpenXMLテンプレート"
-
-          link: "/metadata/net/remove/potm/"
-          description: "MicrosoftPowerPointテンプレート"
-
-          link: "/metadata/net/remove/pptm/"
-          description: "MicrosoftPowerPointプレゼンテーション"
-
-          link: "/metadata/net/remove/ppsm/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "/metadata/net/remove/ods/"
-          description: "ドキュメントスプレッドシートを開く"
-
-          link: "/metadata/net/remove/odt/"
-          description: "ドキュメントテキストを開く"
-
-          link: "/metadata/net/remove/tiff/"
-          description: "タグ付き画像ファイル形式"
-
-          link: "/metadata/net/remove/jpeg/"
-          description: "JPEG画像"
-
-          link: "/metadata/net/remove/png/"
-          description: "ポータブルネットワークグラフィック"
-
-          link: "/metadata/net/remove/gif/"
-          description: "グラフィカルな交換フォーマットファイル"
-
-          link: "/metadata/net/remove/bmp/"
-          description: "ビットマップファイル形式"
-
-          link: "/metadata/net/remove/jp2/"
-          description: "JPEG2000コア画像ファイル"
-
-          link: "/metadata/net/remove/webp/"
-          description: "ラスターWeb画像ファイル形式"
-
-          link: "/metadata/net/remove/psd/"
-          description: "AdobePhotoshopドキュメント"
-
-          link: "/metadata/net/remove/wmf/"
-          description: "Windowsメタファイル"
-
-          link: "/metadata/net/remove/emf/"
-          description: "強化されたメタファイル形式"
-
-          link: "/metadata/net/remove/mpp/"
-          description: "MicrosoftProjectドキュメント"
-
-          link: "/metadata/net/remove/msg/"
-          description: "MicrosoftOutlookの電子メールメッセージ"
-
-          link: "/metadata/net/remove/eml/"
-          description: "電子メールメッセージ"
-
-          link: "/metadata/net/remove/dwg/"
-          description: "Autodesk Design Data Formats"
-
-          link: "/metadata/net/remove/dxf/"
-          description: "AutoCAD Drawing Interchange"
-
-          link: "/metadata/net/remove/one/"
-          description: "Microsoft OneNote"
-
-          link: "/metadata/net/remove/mp3/"
-          description: "MPEGオーディオレイヤーIII"
-
-          link: "/metadata/net/remove/wav/"
-          description: "波形オーディオファイル形式"
-
-          link: "/metadata/net/remove/dicom/"
-          description: "デジタルイメージング＆amp;医学のコミュニケーション"
-
-          link: "/metadata/net/remove/avi/"
-          description: "オーディオビデオインターリーブファイル"
-
-          link: "/metadata/net/remove/vsd/"
-          description: "MicrosoftVisio2003-2010図面"
-
-          link: "/metadata/net/remove/vsdx/"
-          description: "MicrosoftVisio図面"
-
-          link: "/metadata/net/remove/vss/"
-          description: "MicrosoftVisio2003-2010ステンシル"
-
-          link: "/metadata/net/remove/vdx/"
-          description: "Microsoft Visio2003-2010XML図面"
-
-          link: "/metadata/net/remove/vsx/"
-          description: "Microsoft Visio2003-2010XMLステンシル"
-
-          link: "/metadata/net/remove/zip/"
-          description: "アーカイブファイル形式"
-
-          link: "/metadata/net/remove/epub/"
-          description: "デジタル電子書籍ファイル形式"
-
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---
