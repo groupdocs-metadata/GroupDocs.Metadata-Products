@@ -1,0 +1,7 @@
+call build_index_solution_landings.bat
+call build_index_platform_java_landings.bat
+call build_index_platform_net_landings.bat
+call build_add_landings.bat
+call build_edit_landings.bat
+call build_extract_landings.bat
+call build_remove_landings.bat
