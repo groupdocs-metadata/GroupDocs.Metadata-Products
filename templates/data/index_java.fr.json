@@ -1,0 +1,201 @@
+{
+  "head": {
+    "title": "API de métadonnées Java - Afficher, lire, exporter, modifier, supprimer les métadonnées de document",
+    "description": "API de métadonnées Java pour afficher, lire, modifier, analyser, rechercher, supprimer, comparer et exporter les métadonnées des documents PDF Word Excel PPTX Outlook Visio Audio Vidéo & Image."
+  },
+  "header": {
+    "title": "API de manipulation de métadonnées pour Java",
+    "description": "Développez des applications Java pour créer, afficher, accéder, mettre à jour, supprimer, rechercher, comparer, remplacer et exporter des métadonnées de documents et de formats d'image populaires."
+  },
+  "submenu": {
+    "middle": {
+      "overview": "Aperçu",
+      "features": "Fonctionnalités",
+      "support": "Soutien",
+      "livedemo": "Démo en direct",
+      "pricing": "Tarification"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Metadata for Java est une API de gestion des métadonnées avancée pour manipuler les informations de métadonnées des documents, images, archives, torrents et divers autres formats de fichiers. Les développeurs peuvent désormais améliorer les fonctionnalités de leurs applications Java en intégrant facilement l'affichage, la modification, la suppression, l'extraction, la recherche, la comparaison, le remplacement et l'exportation de métadonnées dans tous les formats de documents commerciaux courants tels que PDF, Microsoft Office Word, les feuilles de calcul Excel, les présentations PowerPoint et diapositives, e-mails Outlook, Project, diagrammes Visio, OneNote, images, AutoCAD, Photoshop, audio, vidéo, polices OpenType et métafichiers.",
+      "paragraph_2": "La bibliothèque de métadonnées Java vous offre des fonctionnalités telles que la recherche de métadonnées, le remplacement des propriétés des métadonnées, la comparaison des métadonnées des formats de fichiers pris en charge pour identifier les similitudes ainsi que les différences. Vous pouvez également éditer ou modifier les métadonnées pour une meilleure gestion des informations et exporter les informations de métadonnées récupérées vers un fichier Excel, un fichier CSV et un DataSet. L'API offre une prise en charge complète pour travailler avec toutes les normes de métadonnées couramment utilisées telles que les propriétés de métadonnées intégrées, XMP, EXIF ​​et personnalisées dans les formats de document pris en charge.",
+      "paragraph_3": "GroupDocs.Metadata for Java est compatible avec toutes les versions de Java et prend en charge les systèmes d'exploitation courants (Windows, Linux, MacOS) capables d'exécuter Java Runtime."
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Voici un aperçu de GroupDocs.Metadata pour Java :",
+      "left": {
+        "title": "Travailler avec des images",
+        "content": {
+          "line_1": "Métadonnées XMP",
+          "line_2": "Métadonnées EXIF",
+          "line_3": "Métadonnées IPTC-IIM",
+          "line_4": "Métadonnées PSD",
+          "line_5": "Métadonnées CAO",
+          "line_6": "Analyser des balises IFD supplémentaires"
+        }
+      },
+      "right": {
+        "title": "Travailler avec l'audio et la vidéo",
+        "content": {
+          "line_1": "Détection du format MP3 d'exécution",
+          "line_2": "Lire les paroles3 Tag",
+          "line_3": "Lire les informations audio MPEG",
+          "line_4": "Lire les informations d'en-tête AVI",
+          "line_5": "Lire les sous-titres de Matroska",
+          "line_6": "Exporter des données vers Excel ou CSV"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Metadata pour Java prend en charge les éléments suivants",
+      "formats_url_title": "formats de fichiers de documents",
+      "left": {
+        "title": "Microsoft Office"
+      },
+      "right": {
+        "title": "Autres formats",
+        "content": {
+          "line_5": "l'audio",
+          "line_6": "Vidéo",
+          "line_9": "Images",
+          "line_11": "Polices OpenType",
+          "line_12": "Les autres"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Metadata pour .NET prend en charge les systèmes d'exploitation, frameworks et gestionnaires de packages suivants :",
+      "left": {
+        "title": "Systèmes d'exploitation",
+        "content": {
+          "line_1": "Bureau Windows",
+          "line_2": "Serveur Windows",
+          "line_3": "windows Azure",
+          "line_4": "Linux"
+        },
+        "title_2": "Cadres pris en charge",
+        "content_2": {
+          "line_1": ".NET Framework 2.0 ou supérieur",
+          "line_2": "Mono Framework 1.2 ou supérieur",
+          "line_3": "Norme .NET 2.0",
+          "line_4": ".NET Core 2.0",
+          "line_5": ".NET Core 2.1"
+        }
+      },
+      "right": {
+        "title": "Gestionnaires de packages",
+        "content": {
+          "line_1": "* NuGet"
+        },
+        "title_2": "Environnements de développement",
+        "content_2": {
+          "line_1": "*Microsoft Visual Studio",
+          "line_2": "* Xamarin. Android",
+          "line_3": "* Xamarin.IOS",
+          "line_4": "* Xamarin. Mac",
+          "line_5": "* MonoDévelopper"
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Metadata pour les fonctionnalités Java",
+    "feature_1": {
+      "content": "Manipuler les métadonnées intégrées et personnalisées et récupérer les métadonnées des formats de torrents et d'archives"
+    },
+    "feature_2": {
+      "content": "Accéder et supprimer des données cachées dans Microsoft Word, Excel, PowerPoint et PDF"
+    },
+    "feature_3": {
+      "content": "Détecter le type de fichier de document au moment de l'exécution"
+    },
+    "feature_4": {
+      "content": "Identifier/supprimer les signatures numériques dans Word, Excel, PDF"
+    },
+    "feature_5": {
+      "content": "Détecter la protection par mot de passe des documents dans Word, Excel, PowerPoint et PDF"
+    },
+    "feature_6": {
+      "content": "Récupérer des vignettes et des aperçus d'images des formats pris en charge et de la prise en charge du conteneur multimédia Matroska"
+    },
+    "feature_7": {
+      "content": "Extraire des métadonnées de texte à partir de fichiers image PNG"
+    },
+    "feature_8": {
+      "content": "Prend en charge l'énumération de tout type de métadonnées et la lecture des métadonnées des fichiers de polices OpenType"
+    },
+    "feature_9": {
+      "content": "Lire la propriété de métadonnées à l'aide de la clé définie pour tout format pris en charge"
+    },
+    "feature_10": {
+      "content": "Obtenir/Supprimer les métadonnées des e-mails et supprimer les pièces jointes"
+    },
+    "feature_11": {
+      "content": "Lire les sous-titres Matroska et récupérer les métadonnées des fichiers audio et vidéo"
+    },
+    "feature_12": {
+      "content": "Générer des aperçus d'image pour les fichiers EPUB, CAD, EML et MSG"
+    },
+    "feature_13": {
+      "content": "Identifier les différences ou les similitudes dans les métadonnées des formats pris en charge par comparaison"
+    },
+    "feature_14": {
+      "content": "Propriétés de recherche des métadonnées de document, EXIF ​​et XMP"
+    },
+    "feature_15": {
+      "content": "Remplacer les propriétés des métadonnées de Word, Excel, PowerPoint et PDF"
+    },
+    "feature_16": {
+      "content": "Exporter les métadonnées des formats de fichiers pris en charge vers Excel, CSV ou DataSet"
+    },
+    "feature_17": {
+      "content": "Ajouter ou mettre à jour les propriétés de métadonnées XMP et EXIF ​​de types arbitraires à l'aide de l'API de recherche"
+    },
+    "feature_18": {
+      "content": "Manipuler les propriétés des métadonnées d'image et supprimer les informations de localisation des photos"
+    },
+    "feature_19": {
+      "content": "Supprimer les métadonnées et les commentaires des rapports et des documents"
+    },
+    "feature_20": {
+      "content": "Extraction de métadonnées à partir de fichiers Microsoft Excel à partir d'Excel 95"
+    },
+    "feature_21": {
+      "content": "Réduction de la consommation de mémoire des formats PDF, Excel et Image"
+    },
+    "feature_22": {
+      "content": "Mettre à jour les propriétés des métadonnées EXIF ​​dans les fichiers WEBP, PNG et PSD"
+    },
+    "feature_23": {
+      "content": "Extraire les propriétés des métadonnées XMP dans les fichiers MOV, MP3 et WEBP"
+    },
+    "feature_24": {
+      "content": "Ajouter, mettre à jour et supprimer des packages de métadonnées IPTC dans les images TIFF"
+    },
+    "feature_25": {
+      "content": "Ajouter, mettre à jour et supprimer des packages de métadonnées EXIF ​​dans les images JPEG2000"
+    },
+    "feature_26": {
+      "content": "Lire les balises EXIF ​​et les propriétés de métadonnées XMP à partir des formats d'image HEIC/HEIF"
+    },
+    "feature_27": {
+      "content": "Lire les métadonnées à partir de fichiers Microsoft Project cryptés"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "Récupérer efficacement les propriétés des métadonnées",
+      "content": "Avec GroupDocs.Metadata pour l'API Java, les propriétés de métadonnées des formats de fichiers pris en charge peuvent être récupérées assez efficacement. Le code pour le faire est assez simple et direct. Voici un exemple qui montre à quel point il est facile de récupérer les propriétés des métadonnées d'un fichier MP3 à l'aide de Java :"
+    },
+    "feature_2": {
+      "title": "Récupérer des données cachées pour les manipuler",
+      "content": "GroupDocs.Metadata pour Java vous offre un moyen complet d'obtenir et de supprimer des données masquées à partir de fichiers Microsoft Word, Excel et PowerPoint. Vous pouvez également faire de même pour les documents PDF. Vous pouvez manipuler des commentaires, des champs de fusion, des pages masquées, des champs de formulaire, des annotations et plus encore."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Metadata propose des API de visualisation de documents pour d'autres environnements de développement populaires"
+  }
+}

@@ -1,328 +1,145 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2021-05-20T16:12:28+03:00
+layout: "auto-gen-metadata"
+date: 2024-03-10T13:38:35
 draft: false
+otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
+
 ############################# Head ############################
-head_title: "Прочитать и усилить Извлечение метаданных файлов WAV в приложениях C# .NET"
-head_description: "Межплатформенный API-интерфейс управления метаданными C # .NET для чтения и извлечения информации о метаданных файлов WAV. Работа со стандартами метаданных XMP, EXIF, IPTC, ID3 и т. Д."
+head_title: "Чтение и извлечение метаданных WAV файлов в C# приложениях"
+head_description: "Кроссплатформенный API управления метаданными C# для чтения и извлечения метаданных из файлов WAV. Работайте со стандартами метаданных XMP, EXIF, IPTC, ID3 и т. д."
+
 ############################# Header ############################
-title: "Извлечь метаданные из файла WAV в C#"
-description: "Прочитать и усилить Извлекайте метаданные из широкого спектра документов, изображений, аудио и других материалов. форматы видео с использованием GroupDocs.Metadata для .NET API."
+title: "Извлечение метаданных из файла WAV в C#"
+description: "Чтение и извлечение метаданных из широкого спектра документов, изображений, аудио- и видеоформатов с помощью GroupDocs.Metadata for .NET"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
+    label: "Загрузить бесплатную пробную версию"
     link: "https://downloads.groupdocs.com/metadata/net"
+
 ############################# SubMenu ############################
 submenu:
     enable: true
+
     left:
         img_alt: "GroupDocs.Metadata for .NET"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-metadata-net.png"
         product: "GroupDocs.Metadata"
         platform: ".NET"
+
     middle:
         button:
+
             # button loop
             - link: "https://apireference.groupdocs.com/metadata/net"
-              text: "Справочник по API"
+              text: "{submenu.content_middle.button_text_1}"
+
             # button loop
             - link: "https://github.com/groupdocs-metadata"
-              text: "Примеры кода"
+              text: "{submenu.content_middle.button_text_2}"
+
             # button loop
             - link: "https://products.groupdocs.app/metadata/family"
-              text: "Живые демонстрации"
+              text: "{submenu.content_middle.button_text_3}"
+
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/net"
-              text: "Цены"
+              text: "{submenu.content_middle.button_text_4}"
+
     right:
         link_download: "https://downloads.groupdocs.com/metadata"
         link_learn: "https://docs.groupdocs.com/metadata/net"
         link_buy: "https://purchase.groupdocs.com"
+
 ############################# About ############################
 about:
     enable: true
-    title: "О GroupDocs.Metadata для .NET API"
+    title: "Об API GroupDocs.Metadata for .NET"
     content: |
-        [GroupDocs.Metadata for .NET](/ru/metadata/net/) предлагает расширенный набор функций управления метаданными и манипулирования ими, позволяя разработчикам легко читать, редактировать, удалять, искать, сравнивать, заменять и экспортировать метаданные из изображений и форматов документов. без использования какого-либо внешнего программного обеспечения. Извлекайте сведения о метаданных из форматов файлов PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive и Multimedia и выполняйте поддерживаемые операции с метаданными с максимальной гибкостью.
+        [GroupDocs.Metadata for .NET](/ru/metadata/net/) предлагает расширенный набор функций управления метаданными и манипулирования ими, позволяющий разработчикам легко читать, редактировать, удалять, искать, сравнивать, заменять и экспортировать метаданные из изображений и форматов документов без использования внешнего программного обеспечения. Извлекайте метаданные из форматов PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, архивных и мультимедийных файлов и выполняйте поддерживаемые операции с метаданными с максимальной гибкостью.
+
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги для извлечения метаданных WAV в C#"
+    title_left: "Этапы извлечения метаданных WAV в C#"
     content_left: |
-        [GroupDocs.Metadata](/ru/metadata/net/) позволяет разработчикам .NET легко читать и извлекать метаданные из файлов WAV из своих приложений, выполняя несколько простых шагов.
-        * Загрузите WAV с экземпляром класса метаданных.
+        [GroupDocs.Metadata for .NET](/ru/metadata/net/) позволяет разработчикам .NET легко извлекать, читать и извлекать метаданные из WAV файлов из своих приложений, выполнив несколько простых шагов.
+        
+        * Загрузите WAV с экземпляром класса Metadata.
         * Создайте предикат для проверки всех свойств метаданных.
-        * Передайте предикат методу FindProperties.
-        * Перебрать найденные свойства.
-    title_right: "Системные Требования"
+        * Передайте предикат методу findProperties.
+        * Просмотрите найденные свойства.
+
+    title_right: "Системные требования"
     content_right: |
-        GroupDocs.Metadata для API .NET поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
-        * Операционные системы: Microsoft Windows, Linux, MacOS
+        GroupDocs.Metadata for .NET API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные условия.
+
+        * Операционные системы: ОС Microsoft Windows, Linux, Mac
         * Среды разработки: Visual Studio, Xamarin, MonoDevelop
-        * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Загрузите последнюю версию GroupDocs.Metadata для .NET из [NuGet](https://www.nuget.org/packages/groupdocs.metadata).
+        * Каркасы: .NET Framework, .NET Standard, .NET Core, Mono
+        * Загрузите последнюю версию GroupDocs.Metadata for .NET с сайта [NuGet](https://www.nuget.org/packages/groupdocs.metadata)
+         
     code: |
-        ```cs
+        ```csharp    
         using (var metadata = new GroupDocs.Metadata.Metadata("input.wav"))
         {
-        	// извлечь все свойства метаданных, попадающие в определенную категорию
-        	var properties = metadata.FindProperties(
-        		p => p.Tags.Any(t => t.Category == GroupDocs.Metadata.Tagging.Tags.Content));
-        
-        	// перебираем все свойства и отображаем
-        	foreach (var property in properties)
-        	{
-        		Console.WriteLine("{0} = {1}", property.Name, property.Value);
-        	}
-        
-        	// извлечь все свойства, имеющие определенный тип и значение
-        	var year = DateTime.Today.Year;
-        	properties = metadata.FindProperties(
-        		p => p.Value.Type == GroupDocs.Metadata.Common.MetadataPropertyType.DateTime &&
-        		p.Value.ToStruct(DateTime.MinValue).Year == year);
-        
-        	// отображаем все свойства даты и времени со значением года, равным текущему году
-        	foreach (var property in properties)
-        	{
-        		Console.WriteLine("{0} = {1}", property.Name, property.Value);
-        	}
-        
-        	// извлечь все свойства, имена которых соответствуют указанному регулярному выражению
-        	const string pattern = "^author|company|(.+date.*)$";
-        	var regex = new System.Text.RegularExpressions.Regex(pattern,
-        		System.Text.RegularExpressions.RegexOptions.IgnoreCase);
-        	properties = metadata.FindProperties(p => regex.IsMatch(p.Name));
-        
-        	// отображаем свойства, имена которых соответствуют следующему шаблону
-        	foreach (var property in properties)
-        	{
-        		Console.WriteLine("{0} = {1}", property.Name, property.Value);
-        	}
+            // извлеките все свойства метаданных, которые попадают в определенную категорию
+            var properties = metadata.FindProperties(
+              p => p.Tags.Any(t => t.Category == GroupDocs.Metadata.Tagging.Tags.Content));
+            // итерация по всем свойствам и отображению
+            foreach (var property in properties)
+            {
+                Console.WriteLine("{0} = {1}", property.Name, property.Value);
+            }
+
+            // извлеките все свойства, имеющие определенный тип и значение
+            var year = DateTime.Today.Year;
+            properties = metadata.FindProperties(
+              p => p.Value.Type == GroupDocs.Metadata.Common.MetadataPropertyType.DateTime && 
+              p.Value.ToStruct(DateTime.MinValue).Year == year);
+
+            // отображать все свойства даты и времени со значением года, равным текущему году
+            foreach (var property in properties)
+            {
+                Console.WriteLine("{0} = {1}", property.Name, property.Value);
+            }
+
+            // извлечь все свойства, имена которых соответствуют указанному регулярному выражению
+            const string pattern = "^author|company|(.+date.*)$";
+            var regex = new System.Text.RegularExpressions.Regex(pattern, 
+              System.Text.RegularExpressions.RegexOptions.IgnoreCase);
+            properties = metadata.FindProperties(p => regex.IsMatch(p.Name));
+
+            // свойства отображения, имена которых соответствуют следующему шаблону
+            foreach (var property in properties)
+            {
+                Console.WriteLine("{0} = {1}", property.Name, property.Value);
+            }
         }
         ```
+
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Демонстрации извлечения метаданных в реальном времени"
+    title: "Живые демоверсии извлечения метаданных"
     content: |
-        Получите метаданные файла ASF прямо сейчас, посетив веб-сайт [GroupDocs.Metadata Живые волнения](https://products.groupdocs.app/metadata/family).
+       Получите метаданные файла WAV прямо сейчас, посетив веб-сайт [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family).
+       Живая демонстрация имеет следующие преимущества.
+        
 ############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-wav"
-          title: "О формате файла WAV"
-          content: |
-            WAV, известный как WAVE (формат аудиофайлов Waveform), является подмножеством спецификации Microsoft Resource Interchange File Format (RIFF) для хранения цифровых аудиофайлов. Формат не применяет никакого сжатия к битовому потоку и хранит аудиозаписи с разными частотами дискретизации и битрейтами. Он был и остается одним из стандартных форматов аудио компакт-дисков. Файлы Wave имеют больший размер по сравнению с новыми форматами аудиофайлов, такими как MP3, в которых используется сжатие с потерями для уменьшения размера файла при сохранении того же качества звука. Однако файлы WAV можно сжимать с помощью кодеков Audio Compression Manager (ACM). Существует несколько доступных API и приложений, которые могут конвертировать файлы WAV в другие популярные форматы аудиофайлов.
-          link: "https://docs.fileformat.com/audio/wav/"
+
 ############################# More Formats ############################
 more_formats:
     enable: true
     title: "Чтение и извлечение файлов других форматов"
     content: |
-        API для извлечения метаданных мультиформатных документов и изображений для .NET. Получите метаданные некоторых популярных форматов файлов, как указано ниже.
-    format: 
-        # format loop
-        - name: "Извлечь метаданные PDF"
-          link: "/metadata/net/extract/pdf/"
-          description: "Adobe Portable Document Format"
-        # format loop
-        - name: "Извлечь метаданные DOC"
-          link: "/metadata/net/extract/doc/"
-          description: "Документ Microsoft Word"
-        # format loop
-        - name: "Извлечь метаданные DOCM"
-          link: "/metadata/net/extract/docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-        # format loop
-        - name: "Извлечь метаданные DOCX"
-          link: "/metadata/net/extract/docx/"
-          description: "Документ Microsoft Word с открытым XML"
-        # format loop
-        - name: "Извлечь метаданные DOT"
-          link: "/metadata/net/extract/dot/"
-          description: "Шаблон документа Microsoft Word"
-        # format loop
-        - name: "Извлечь метаданные DOTX"
-          link: "/metadata/net/extract/dotx/"
-          description: "Шаблон документа Word Open XML"
-        # format loop
-        - name: "Извлечь метаданные XLS"
-          link: "/metadata/net/extract/xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-        # format loop
-        - name: "Извлечь метаданные XLSX"
-          link: "/metadata/net/extract/xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-        # format loop
-        - name: "Извлечь метаданные XLSM"
-          link: "/metadata/net/extract/xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-        # format loop
-        - name: "Извлечь метаданные XLTM"
-          link: "/metadata/net/extract/xltx/"
-          description: "Шаблон рабочей книги с поддержкой макросов OOXML"
-        # format loop
-        - name: "Извлечь метаданные PPT"
-          link: "/metadata/net/extract/ppt/"
-          description: "Презентация PowerPoint"
-        # format loop
-        - name: "Извлечь метаданные PPS"
-          link: "/metadata/net/extract/pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-        # format loop
-        - name: "Извлечь метаданные PPTX"
-          link: "/metadata/net/extract/pptx/"
-          description: "Презентация PowerPoint Open XML"
-        # format loop
-        - name: "Извлечь метаданные PPSX"
-          link: "/metadata/net/extract/ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-        # format loop
-        - name: "Извлечь метаданные POTX"
-          link: "/metadata/net/extract/potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-        # format loop
-        - name: "Извлечь метаданные POTM"
-          link: "/metadata/net/extract/potm/"
-          description: "Шаблон Microsoft PowerPoint"
-        # format loop
-        - name: "Извлечь метаданные PPTM"
-          link: "/metadata/net/extract/pptm/"
-          description: "Презентация Microsoft PowerPoint"
-        # format loop
-        - name: "Извлечь метаданные PPSM"
-          link: "/metadata/net/extract/ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-        # format loop
-        - name: "Извлечь метаданные ODS"
-          link: "/metadata/net/extract/ods/"
-          description: "Открыть электронную таблицу документов"
-        # format loop
-        - name: "Извлечь метаданные ODT"
-          link: "/metadata/net/extract/odt/"
-          description: "Открыть текст документа"
-        # format loop
-        - name: "Извлечь метаданные TIFF"
-          link: "/metadata/net/extract/tiff/"
-          description: "Формат файла изображения с тегами"
-        # format loop
-        - name: "Извлечь метаданные JPEG"
-          link: "/metadata/net/extract/jpeg/"
-          description: "Изображение в формате JPEG"
-        # format loop
-        - name: "Извлечь метаданные PNG"
-          link: "/metadata/net/extract/png/"
-          description: "Портативная сетевая графика"
-        # format loop
-        - name: "Извлечь метаданные GIF"
-          link: "/metadata/net/extract/gif/"
-          description: "Графический файл формата обмена"
-        # format loop
-        - name: "Извлечь метаданные BMP"
-          link: "/metadata/net/extract/bmp/"
-          description: "Формат растрового файла"
-        # format loop
-        - name: "Извлечь метаданные JP2"
-          link: "/metadata/net/extract/jp2/"
-          description: "Основной файл изображения JPEG 2000"
-        # format loop
-        - name: "Извлечь метаданные WEBP"
-          link: "/metadata/net/extract/webp/"
-          description: "Формат файла растрового веб-изображения"
-        # format loop
-        - name: "Извлечь метаданные PSD"
-          link: "/metadata/net/extract/psd/"
-          description: "Документ Adobe Photoshop"
-        # format loop
-        - name: "Извлечь метаданные WMF"
-          link: "/metadata/net/extract/wmf/"
-          description: "Метафайл Windows"
-        # format loop
-        - name: "Извлечь метаданные EMF"
-          link: "/metadata/net/extract/emf/"
-          description: "Расширенный формат метафайла"
-        # format loop
-        - name: "Извлечь метаданные MPP"
-          link: "/metadata/net/extract/emz/"
-          description: "Документ Microsoft Project"
-        # format loop
-        - name: "Извлечь метаданные MSG"
-          link: "/metadata/net/extract/msg/"
-          description: "Сообщение электронной почты Microsoft Outlook"
-        # format loop
-        - name: "Извлечь метаданные EML"
-          link: "/metadata/net/extract/eml/"
-          description: "Сообщение электронной почты"
-        # format loop
-        - name: "Извлечь метаданные DWG"
-          link: "/metadata/net/extract/dwg/"
-          description: "Форматы проектных данных Autodesk"
-        # format loop
-        - name: "Извлечь метаданные DXF"
-          link: "/metadata/net/extract/dxf/"
-          description: "Обмен чертежами AutoCAD"
-        # format loop
-        - name: "Извлечь метаданные ONE"
-          link: "/metadata/net/extract/one/"
-          description: "Майкрософт OneNote"
-        # format loop
-        - name: "Извлечь метаданные MP3"
-          link: "/metadata/net/extract/mp3/"
-          description: "Аудиоуровень MPEG III"
-        # format loop
-        - name: "Извлечь метаданные WAV"
-          link: "/metadata/net/extract/wav/"
-          description: "Формат звукового файла формы волны"
-        # format loop
-        - name: "Извлечь метаданные DICOM"
-          link: "/metadata/net/extract/dicom/"
-          description: "Цифровая визуализацияКомм в медицине"
-        # format loop
-        - name: "Извлечь метаданные AVI"
-          link: "/metadata/net/extract/avi/"
-          description: "Файл чередования аудио-видео"
-        # format loop
-        - name: "Извлечь метаданные VSD"
-          link: "/metadata/net/extract/vsd/"
-          description: "Чертеж Microsoft Visio 2003-2010"
-        # format loop
-        - name: "Извлечь метаданные VSDX"
-          link: "/metadata/net/extract/vsdx/"
-          description: "Рисование Microsoft Visio"
-        # format loop
-        - name: "Извлечь метаданные VSS"
-          link: "/metadata/net/extract/vss/"
-          description: "Трафарет Microsoft Visio 2003-2010"
-        # format loop
-        - name: "Извлечь метаданные VDX"
-          link: "/metadata/net/extract/vdx/"
-          description: "Microsoft Visio 2003-2010 XML-чертеж"
-        # format loop
-        - name: "Извлечь метаданные VSX"
-          link: "/metadata/net/extract/vsx/"
-          description: "Microsoft Visio 2003-2010 XML-трафарет"
-        # format loop
-        - name: "Извлечь метаданные ZIP"
-          link: "/metadata/net/extract/zip/"
-          description: "Формат файла архива"
-        # format loop
-        - name: "Извлечь метаданные EPUB"
-          link: "/metadata/net/extract/epub/"
-          description: "Формат файла цифровой электронной книги"
-        # format loop
-        - name: "Извлечь метаданные VCF"
-          link: "/metadata/net/extract/vcf/"
-          description: "Электронная визитная карточка"
-        # format loop
-        - name: "Извлечь метаданные VCR"
-          link: "/metadata/net/extract/vcr/"
-          description: "визитная карточка"
+        API извлечения метаданных многоформатных документов и изображений для .NET. Извлеките метаданные некоторых популярных форматов файлов, как указано ниже.
+
 ############################# Back to top ###############################
 back_to_top:
     enable: true

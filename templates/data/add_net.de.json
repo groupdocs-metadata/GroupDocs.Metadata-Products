@@ -1,0 +1,47 @@
+{
+  "head": {
+    "title": "Metadaten zu {{EXT}} Dateien in {{ProgLang}} Anwendungen hinzufügen",
+    "description": "{{ProgLang}} API zur Metadatenverarbeitung zum Hinzufügen von Metadateninformationen zu {{EXT}} Dateien. Arbeiten Sie mit den Metadatenstandards XMP, EXIF, IPTC, ID3 usw."
+  },
+  "header": {
+    "title": "Hinzufügen von Metadaten zu {{EXT}} in {{ProgLang}}",
+    "description": "Fügen Sie mithilfe der {{ProductFullName}} API benutzerdefinierte Metadateneigenschaften zu einer Vielzahl von Geschäftsdokumenten, Bildern, Audio- und Videodateiformaten hinzu.",
+    "button_label": "Kostenlose Testversion herunterladen"
+  },
+  "about": {
+    "title": "Über die {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/metadata/{{ProductCode}}/) bietet erweiterte Funktionen zur Verwaltung und Manipulation von Metadaten, mit denen .NET Programmierer Metadateninformationen aus Bildern und Dokumentformaten einfach anzeigen, bearbeiten, löschen, suchen, vergleichen, austauschen und exportieren können, ohne externe Software verwenden zu müssen. Fügen Sie Metadatendetails zu PDF, Microsoft Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archiv- und Multimediadateiformaten mit zusätzlicher Unterstützung hinzu, um Metadatenoperationen in beliebigen {{ProductName}} -basierten Anwendungen mit echter Flexibilität durchzuführen."
+  },
+  "steps": {
+    "title_left": "Schritte zum Hinzufügen von Metadaten zu {{EXT}} in {{ProgLang}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/metadata/{{ProductCode}}/) erleichtert es {{ProductName}} Entwicklern, innerhalb ihrer Anwendungen Metadatendetails zu {{EXT}} Dateien hinzuzufügen, indem sie einige einfache Schritte implementieren.",
+      "step_1": "Laden Sie die zu aktualisierende Datei {{EXT}}.",
+      "step_2": "Geben Sie ein Prädikat an, das zum Hinzufügen von Metadateneigenschaften verwendet wird.",
+      "step_3": "Übergeben Sie das Prädikat an die AddProperties-Methode.",
+      "step_4": "Speichern Sie die Änderungen."
+    },
+    "title_right": "Anforderungen an das System",
+    "content_right": {
+      "description": "{{ProductFullName}} APIs werden auf allen wichtigen Plattformen und Betriebssystemen unterstützt. Bevor Sie den folgenden Code ausführen, stellen Sie bitte sicher, dass die folgenden Voraussetzungen auf Ihrem System installiert sind.",
+      "step_1": "Betriebssysteme: Microsoft Windows, Linux, Mac OS",
+      "step_2": "Entwicklungsumgebungen: {{DevEnv}}",
+      "step_3": "Frameworks",
+      "step_4": "Laden Sie die neueste Version von {{ProductFullName}} von [{{RepoName}}] herunter ({{RepoUrl}})"
+    },
+    "title_code": "Wie füge ich eine Metadata {{EXT}} -Datei mit dem {{ProgLang}} -Beispielcode hinzu",
+    "code": {
+      "load_comment": "lade die Datei in eine Instanz der Metadata-Klasse",
+      "add_comment": "eine Eigenschaft hinzufügen, die den Inhaltsautor enthält"
+    }
+  },
+  "demos": {
+    "title": "Live-Demos zum Hinzufügen von Metadaten",
+    "h1": "Fügen Sie jetzt Metadateninformationen zur Datei {{EXT}} hinzu, indem Sie die Website [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) besuchen.",
+    "h2": "Die Live-Demo hat die folgenden Vorteile."
+  },
+  "more_formats": {
+    "title": "Hinzufügen von Metadateneigenschaften zu anderen Dateiformaten",
+    "content": "API zum Hinzufügen von Metadaten für Dokumente und Bilder in mehreren Formaten für {{ProductName}}. Rufen Sie Metadaten einiger der gängigen Dateiformate ab, wie unten angegeben."
+  }
+}

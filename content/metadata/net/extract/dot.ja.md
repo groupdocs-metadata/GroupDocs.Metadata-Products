@@ -1,21 +1,26 @@
 ---
-layout: "auto-gen"
-date: 2021-05-20T16:12:21+03:00
+############################# Static ############################
+layout: "auto-gen-metadata"
+date: 2024-03-10T13:38:37
 draft: false
+otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
-head_title: "読む＆amp; C＃.NETアプリケーションでDOTファイルのメタデータを抽出する"
-head_description: "クロスプラットフォームC＃.NETメタデータ管理APIを使用して、DOTファイルのメタデータ情報を読み取りおよび抽出します。メタデータ標準XMP、EXIF、IPTC、ID3などを操作します。"
+############################# Head ############################
+head_title: "C# アプリケーションの DOT ファイルのメタデータの読み取りと抽出"
+head_description: "DOT ファイルのメタデータ情報を読み取って抽出するためのクロスプラットフォーム C# メタデータ管理API。メタデータ規格 XMP、EXIF、IPTC、ID3 などと連携してください。"
 
-title: "C＃でDOTファイルからメタデータを抽出する"
-description: "読む＆amp;さまざまなドキュメント、画像、音声、音声からメタデータ情報を抽出します。 GroupDocs.Metadata for .NET APIを使用したビデオ形式."
+############################# Header ############################
+title: "C# 内の DOT ファイルからメタデータを抽出"
+description: "GroupDocs.Metadata for .NET を使用して、さまざまなドキュメント、画像、オーディオ、ビデオ形式からメタデータ情報を読み取り、抽出します"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "無料トライアルをダウンロード"
+    label: "無料試用版をダウンロード"
     link: "https://downloads.groupdocs.com/metadata/net"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,260 +33,114 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/metadata/net"
-              text: "APIリファレンス"
+              text: "{submenu.content_middle.button_text_1}"
 
+            # button loop
             - link: "https://github.com/groupdocs-metadata"
-              text: "コード例"
+              text: "{submenu.content_middle.button_text_2}"
 
+            # button loop
             - link: "https://products.groupdocs.app/metadata/family"
-              text: "ライブデモ"
+              text: "{submenu.content_middle.button_text_3}"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/net"
-              text: "価格設定"
+              text: "{submenu.content_middle.button_text_4}"
 
     right:
         link_download: "https://downloads.groupdocs.com/metadata"
         link_learn: "https://docs.groupdocs.com/metadata/net"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Metadata for .NET APIについて"
+    title: "GroupDocs.Metadata for .NET API について"
     content: |
-        [GroupDocs.Metadata for .NET](/metadata/net/)は、メタデータ管理および操作機能の高度なセットを提供し、開発者が画像やドキュメント形式からメタデータ情報を簡単に読み取り、編集、削除、検索、比較、置換、およびエクスポートできるようにします。外部ソフトウェアを使用せずに。 PDF、Word、Excel、PowerPoint、Outlook、OneNote、Visio、Project、AutoCAD、Archive、Multimediaのファイル形式からメタデータの詳細を抽出し、サポートされているメタデータ操作を真の柔軟性で実行します。
+        [GroupDocs.Metadata for .NET](/ja/metadata/net/) は、高度なメタデータ管理および操作機能セットを提供します。これにより、開発者は外部ソフトウェアを使用せずに、画像や文書形式からメタデータ情報を簡単に読み取り、編集、削除、検索、比較、置換、エクスポートできます。PDF、Word、Excel、PowerPoint、Outlook、OneNote、Visio、Project、AutoCAD、アーカイブおよびマルチメディアファイル形式からメタデータの詳細を抽出し、サポートされているメタデータ操作を柔軟に実行できます。
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "C＃でのDOTメタデータ抽出の手順"
+    title_left: "C# での DOT メタデータ抽出の手順"
     content_left: |
-        [GroupDocs.Metadata](/metadata/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実行することで、アプリケーション内からDOTファイルからメタデータ情報を簡単に読み取って抽出できます。
-
-        * メタデータクラスのインスタンスを使用してDOTをロードします。
-        * すべてのメタデータプロパティを調べるための述語を作成します。
-        * 述語をFindPropertiesメソッドに渡します。
+        [GroupDocs.Metadata for .NET](/ja/metadata/net/) を使用すると、.NET 開発者は、いくつかの簡単な手順を実装するだけで、アプリケーション内から DOT ファイルからメタデータ情報を簡単に抽出、読み取り、抽出できます。
+        
+        * DOT に Metadata クラスのインスタンスをロードします。
+        * 述語を作成して、すべてのメタデータのプロパティを調べてください。
+        * 述語を findProperties メソッドに渡します。
         * 見つかったプロパティを繰り返し処理します。
-        
-    title_right: "システム要求"
-    content_right: |
-        GroupDocs.Metadata for .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        * 開発環境：Visual Studio、Xamarin、MonoDevelop
-        * フレームワーク：.NET Framework、.NET Standard、.NET Core、Mono
-        * [NuGet](https://www.nuget.org/packages/groupdocs.metadata)から最新バージョンのGroupDocs.Metadatafor.NETをダウンロードします。
-        
+    title_right: "システム要件"
+    content_right: |
+        GroupDocs.Metadata for .NET 個のAPIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、以下の前提条件がシステムにインストールされていることを確認してください。
+
+        * オペレーティングシステム:マイクロソフト Windows、Linux、Mac OS
+        * 開発環境:Visual Studio, Xamarin, MonoDevelop
+        * フレームワーク: .NET Framework, .NET Standard, .NET Core, Mono
+        * [NuGet](https://www.nuget.org/packages/groupdocs.metadata) から GroupDocs.Metadata for .NET の最新バージョンをダウンロードしてください
+         
     code: |
-        ```cs
+        ```csharp    
         using (var metadata = new GroupDocs.Metadata.Metadata("input.dot"))
         {
-        	//特定のカテゴリに分類されるすべてのメタデータプロパティを抽出します
-        	var properties = metadata.FindProperties(
-        		p => p.Tags.Any(t => t.Category == GroupDocs.Metadata.Tagging.Tags.Content));
-        
-        	//すべてのプロパティを繰り返して表示します
-        	foreach (var property in properties)
-        	{
-        		Console.WriteLine("{0} = {1}", property.Name, property.Value);
-        	}
-        
-        	//特定のタイプと値を持つすべてのプロパティを抽出します
-        	var year = DateTime.Today.Year;
-        	properties = metadata.FindProperties(
-        		p => p.Value.Type == GroupDocs.Metadata.Common.MetadataPropertyType.DateTime &&
-        		p.Value.ToStruct(DateTime.MinValue).Year == year);
-        
-        	//年の値が現在の年と等しいすべての日時プロパティを表示します
-        	foreach (var property in properties)
-        	{
-        		Console.WriteLine("{0} = {1}", property.Name, property.Value);
-        	}
-        
-        	//指定された正規表現に一致する名前を持つすべてのプロパティを抽出します
-        	const string pattern = "^author|company|(.+date.*)$";
-        	var regex = new System.Text.RegularExpressions.Regex(pattern,
-        		System.Text.RegularExpressions.RegexOptions.IgnoreCase);
-        	properties = metadata.FindProperties(p => regex.IsMatch(p.Name));
-        
-        	//名前が次のパターンに一致するプロパティを表示します
-        	foreach (var property in properties)
-        	{
-        		Console.WriteLine("{0} = {1}", property.Name, property.Value);
-        	}
+            // 特定のカテゴリに分類されるすべてのメタデータプロパティを抽出します
+            var properties = metadata.FindProperties(
+              p => p.Tags.Any(t => t.Category == GroupDocs.Metadata.Tagging.Tags.Content));
+            // すべてのプロパティを繰り返し処理して表示する
+            foreach (var property in properties)
+            {
+                Console.WriteLine("{0} = {1}", property.Name, property.Value);
+            }
+
+            // 特定のタイプと値を持つすべてのプロパティを抽出します
+            var year = DateTime.Today.Year;
+            properties = metadata.FindProperties(
+              p => p.Value.Type == GroupDocs.Metadata.Common.MetadataPropertyType.DateTime && 
+              p.Value.ToStruct(DateTime.MinValue).Year == year);
+
+            // 現在の年と等しい年の値を持つすべての datetime プロパティを表示します
+            foreach (var property in properties)
+            {
+                Console.WriteLine("{0} = {1}", property.Name, property.Value);
+            }
+
+            // 指定された正規表現と一致する名前を持つすべてのプロパティを抽出します
+            const string pattern = "^author|company|(.+date.*)$";
+            var regex = new System.Text.RegularExpressions.Regex(pattern, 
+              System.Text.RegularExpressions.RegexOptions.IgnoreCase);
+            properties = metadata.FindProperties(p => regex.IsMatch(p.Name));
+
+            // 名前が次のパターンに一致するプロパティを表示します
+            foreach (var property in properties)
+            {
+                Console.WriteLine("{0} = {1}", property.Name, property.Value);
+            }
         }
         ```
-        
+
+############################# Demos ############################
 demos:
     enable: true
     title: "メタデータ抽出ライブデモ"
     content: |
-        [GroupDocs.Metadataライブデモ](https://products.groupdocs.app/metadata/family)サイトにアクセスして、DOTファイルのメタデータ情報を今すぐ取得してください。  
-        ライブデモには次の利点があります
+       [GroupDocs.Metadata ライブデモ](https://products.groupdocs.app/metadata/family) ウェブサイトにアクセスして、DOT ファイルのメタデータ情報を今すぐ取得してください。
+       ライブデモには次の利点があります。
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-file-dot"
-          title: "DOTファイル形式について"
-          content: |
-            拡張子が.DOTのファイルは、Microsoft Wordによって作成されたテンプレートファイルであり、さらにDOCまたはDOCXファイルを生成するための事前にフォーマットされた設定があります。テンプレートファイルは、これらから作成された後続のファイルに適用する必要がある特定のユーザー設定を持つために作成されます。これらの設定には、ページの余白、境界線、ヘッダー、フッター、およびその他のページ設定が含まれます。このようなテンプレートは、会社のレターヘッドや標準化されたフォームなどの公式文書で使用されます。 DOTファイル形式はMicrosoftWord2003以前に固有ですが、それ以降のバージョンでもサポートされています。 Microsoft Wordはデフォルトで、normal.dotファイルに基づいてすべての新しいドキュメントを開きます。変更すると、作成されたすべての新しいファイルは、テンプレートファイルと同じ設定になります。 Microsoft Word 2007では、DOTファイル形式がOfficeOpenXMLベースのDOTXファイル形式に置き換えられました。
 
-          link: "https://docs.fileformat.com/word-processing/dot/"
-
+############################# More Formats ############################
 more_formats:
-    enable: false
+    enable: true
     title: "他のファイル形式の読み取りと抽出"
     content: |
-        .NET用のマルチフォーマットドキュメントおよび画像メタデータ抽出API。以下に示すように、いくつかの一般的なファイル形式のメタデータを取得します。
-    format: 
-          link: "/metadata/net/extract/pdf/"
-          description: "AdobePortableドキュメント形式"
+        .NET 用のマルチフォーマット文書および画像メタデータ抽出API。以下に説明するように、一般的なファイル形式のメタデータを取得します。
 
-          link: "/metadata/net/extract/doc/"
-          description: "MicrosoftWordドキュメント"
-
-          link: "/metadata/net/extract/docm/"
-          description: "MicrosoftWordマクロ対応ドキュメント"
-
-          link: "/metadata/net/extract/docx/"
-          description: "Microsoft WordOpenXMLドキュメント"
-
-          link: "/metadata/net/extract/dot/"
-          description: "MicrosoftWord文書テンプレート"
-
-          link: "/metadata/net/extract/dotx/"
-          description: "WordOpenXMLドキュメントテンプレート"
-
-          link: "/metadata/net/extract/xls/"
-          description: "MicrosoftExcelバイナリファイル形式"
-
-          link: "/metadata/net/extract/xlsx/"
-          description: "Microsoft ExcelOpenXMLスプレッドシート"
-
-          link: "/metadata/net/extract/xlsm/"
-          description: "MicrosoftExcelマクロ対応スプレッドシート"
-
-          link: "/metadata/net/extract/xltx/"
-          description: "OOXMLマクロ対応ワークブックテンプレート"
-
-          link: "/metadata/net/extract/ppt/"
-          description: "PowerPointプレゼンテーション"
-
-          link: "/metadata/net/extract/pps/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "/metadata/net/extract/pptx/"
-          description: "PowerPointOpenXMLプレゼンテーション"
-
-          link: "/metadata/net/extract/ppsx/"
-          description: "PowerPointOpenXMLスライドショー"
-
-          link: "/metadata/net/extract/potx/"
-          description: "Microsoft PowerPointOpenXMLテンプレート"
-
-          link: "/metadata/net/extract/potm/"
-          description: "MicrosoftPowerPointテンプレート"
-
-          link: "/metadata/net/extract/pptm/"
-          description: "MicrosoftPowerPointプレゼンテーション"
-
-          link: "/metadata/net/extract/ppsm/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "/metadata/net/extract/ods/"
-          description: "ドキュメントスプレッドシートを開く"
-
-          link: "/metadata/net/extract/odt/"
-          description: "ドキュメントテキストを開く"
-
-          link: "/metadata/net/extract/tiff/"
-          description: "タグ付き画像ファイル形式"
-
-          link: "/metadata/net/extract/jpeg/"
-          description: "JPEG画像"
-
-          link: "/metadata/net/extract/png/"
-          description: "ポータブルネットワークグラフィック"
-
-          link: "/metadata/net/extract/gif/"
-          description: "グラフィカルな交換フォーマットファイル"
-
-          link: "/metadata/net/extract/bmp/"
-          description: "ビットマップファイル形式"
-
-          link: "/metadata/net/extract/jp2/"
-          description: "JPEG2000コア画像ファイル"
-
-          link: "/metadata/net/extract/webp/"
-          description: "ラスターWeb画像ファイル形式"
-
-          link: "/metadata/net/extract/psd/"
-          description: "AdobePhotoshopドキュメント"
-
-          link: "/metadata/net/extract/wmf/"
-          description: "Windowsメタファイル"
-
-          link: "/metadata/net/extract/emf/"
-          description: "強化されたメタファイル形式"
-
-          link: "/metadata/net/extract/emz/"
-          description: "MicrosoftProjectドキュメント"
-
-          link: "/metadata/net/extract/msg/"
-          description: "MicrosoftOutlookの電子メールメッセージ"
-
-          link: "/metadata/net/extract/eml/"
-          description: "電子メールメッセージ"
-
-          link: "/metadata/net/extract/dwg/"
-          description: "Autodesk Design Data Formats"
-
-          link: "/metadata/net/extract/dxf/"
-          description: "AutoCAD Drawing Interchange"
-
-          link: "/metadata/net/extract/one/"
-          description: "Microsoft OneNote"
-
-          link: "/metadata/net/extract/mp3/"
-          description: "MPEGオーディオレイヤーIII"
-
-          link: "/metadata/net/extract/wav/"
-          description: "波形オーディオファイル形式"
-
-          link: "/metadata/net/extract/dicom/"
-          description: "デジタルイメージング＆amp;医学のコミュニケーション"
-
-          link: "/metadata/net/extract/avi/"
-          description: "オーディオビデオインターリーブファイル"
-
-          link: "/metadata/net/extract/vsd/"
-          description: "MicrosoftVisio2003-2010図面"
-
-          link: "/metadata/net/extract/vsdx/"
-          description: "MicrosoftVisio図面"
-
-          link: "/metadata/net/extract/vss/"
-          description: "MicrosoftVisio2003-2010ステンシル"
-
-          link: "/metadata/net/extract/vdx/"
-          description: "Microsoft Visio2003-2010XML図面"
-
-          link: "/metadata/net/extract/vsx/"
-          description: "Microsoft Visio2003-2010XMLステンシル"
-
-          link: "/metadata/net/extract/zip/"
-          description: "アーカイブファイル形式"
-
-          link: "/metadata/net/extract/epub/"
-          description: "デジタル電子書籍ファイル形式"
-
-          link: "/metadata/net/extract/vcf/"
-          description: "電子名刺"
-
-          link: "/metadata/net/extract/vcr/"
-          description: "vCard"
-
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

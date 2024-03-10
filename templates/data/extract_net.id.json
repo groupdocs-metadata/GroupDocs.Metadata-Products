@@ -1,0 +1,51 @@
+{
+  "head": {
+    "title": "Baca & Ekstrak Metadata dari {{EXT}} File di {{ProgLang}} Aplikasi",
+    "description": "API manajemen metadata lintas platform {{ProgLang}} untuk membaca dan mengekstrak informasi metadata dari {{EXT}} file. Bekerja dengan standar metadata XMP, EXIF, IPTC, ID3 dll."
+  },
+  "header": {
+    "title": "Ekstrak Metadata Dari File {{EXT}} Di {{ProgLang}}",
+    "description": "Baca & Ekstrak informasi metadata dari berbagai dokumen, gambar, format audio & video menggunakan {{ProductFullName}}",
+    "button_label": "Unduh Uji Coba Gratis"
+  },
+  "about": {
+    "title": "Tentang {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/metadata/{{ProductCode}}/) menawarkan serangkaian fitur manajemen dan manipulasi metadata lanjutan, memungkinkan pengembang untuk dengan mudah membaca, mengedit, menghapus, mencari, membandingkan, mengganti, dan mengekspor informasi metadata dari gambar dan format dokumen tanpa menggunakan perangkat lunak eksternal apa pun. Ekstrak detail metadata dari format file PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Arsip dan Multimedia, dan lakukan operasi metadata yang didukung dengan fleksibilitas yang sesungguhnya."
+  },
+  "steps": {
+    "title_left": "Langkah-langkah untuk {{EXT}} Ekstraksi Metadata di {{ProgLang}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/metadata/{{ProductCode}}/) memudahkan pengembang {{ProductName}} untuk mengekstrak untuk membaca dan mengekstrak informasi metadata dari file {{EXT}} dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.",
+      "step_1": "Muat {{EXT}} dengan instance kelas Metadata.",
+      "step_2": "Buat predikat untuk memeriksa semua properti metadata.",
+      "step_3": "Meneruskan predikat ke metode findProperties.",
+      "step_4": "Iterasi melalui properti yang ditemukan."
+    },
+    "title_right": "Persyaratan Sistem",
+    "content_right": {
+      "description": "{{ProductFullName}} API didukung di semua platform utama dan sistem operasi. Sebelum menjalankan kode di bawah ini, pastikan bahwa Anda memiliki prasyarat berikut diinstal pada sistem Anda.",
+      "step_1": "Sistem Operasi: Microsoft Windows, Linux, Mac OS",
+      "step_2": "Lingkungan Pengembangan: {{DevEnv}}",
+      "step_3": "Kerangka",
+      "step_4": "Unduh versi terbaru {{ProductFullName}} dari [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Cara mengekstrak file Metaddata {{EXT}} menggunakan kode contoh {{ProgLang}}",
+    "code": {
+      "extract_all_metadata_properties_comment": "ekstrak semua properti metadata yang termasuk dalam kategori tertentu",
+      "iterate_comment": "mengulangi semua properti dan tampilan",
+      "extract_all_properties_comment2": "ekstrak semua properti yang memiliki tipe dan nilai tertentu",
+      "display_all_comment": "menampilkan semua properti datetime dengan nilai tahun sama dengan tahun berjalan",
+      "extract_all_properties_comment3": "ekstrak semua properti yang memiliki nama yang cocok dengan regex yang ditentukan",
+      "display_properties_comment": "menampilkan properti yang namanya cocok dengan pola berikut"
+    }
+  },
+  "demos": {
+    "title": "Demo Langsung Ekstraksi Metadata",
+    "h1": "Ambil informasi metadata file {{EXT}} sekarang dengan mengunjungi situs web [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family).",
+    "h2": "Demo langsung memiliki manfaat sebagai berikut."
+  },
+  "more_formats": {
+    "title": "Membaca & Mengekstrak Format File Lainnya",
+    "content": "Dokumen multi format dan API ekstraksi metadata gambar untuk {{ProductName}}. Ambil metadata dari beberapa format file populer seperti yang dinyatakan di bawah ini."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "head": {
+    "title": ".NET, Java API & Aplikasi Manipulasi Metadata Online oleh GroupDocs",
+    "description": "Dokumen Metadata API asli C# .NET & Java. Baca, tulis, edit & bandingkan informasi meta dari semua format populer. Analisis & ekspor metadata."
+  },
+  "header": {
+    "title": "Solusi Manajemen Metadata Dokumen",
+    "description": "API dan aplikasi untuk membaca, mengedit, mengganti, dan menghapus metadata dokumen, gambar, dan format file lainnya di platform populer."
+  },
+  "apis": {
+    "highcode": {
+      "title": "GroupDocs.Metadata High Code API Termasuk",
+      "label": "Lihat Semua High Code API",
+      "net": {
+        "content": "Native .NET API untuk secara dinamis membaca, menulis, mengedit, dan menghapus informasi meta dari Microsoft Office, PDF, Multimedia, gambar, dan berbagai format file lainnya."
+      },
+      "java": {
+        "content": "Java API untuk mengedit dan memanipulasi metadata dokumen, gambar, file video, dan berbagai format file lainnya."
+      }
+    },
+    "lowcode": {
+      "title": "GroupDocs.Metadata Low Code API Termasuk",
+      "label": "Lihat Semua Low Code API",
+      "curl": {
+        "content": "Bekerja dengan API manipulasi metadata penuh cURL RESTuntuk mengelola informasi metadata dari PDF, Word, Excel, Presentasi, gambar, dan file multimedia dalam aplikasi Anda."
+      },
+      "net": {
+        "content": "Gunakan metadata REST API dengan .NET SDK untuk menambahkan, mengedit, mengekstrak, menelusuri, dan menghapus metadata dari format dokumen dalam .NET aplikasi."
+      },
+      "java": {
+        "content": "Tingkatkan aplikasi Java Anda dengan fitur pengelolaan metadata yang canggih menggunakan Metadata SDK for Java."
+      }
+    },
+    "nocode": {
+      "title": "GroupDocs.Metadata No Code Termasuk Aplikasi",
+      "label": "Lihat Semua No Code Aplikasi",
+      "total": {
+        "content": "Aplikasi gratis untuk melihat & mengedit metadata Word, Excel, PDF, PowerPoint dan lebih dari 50 jenis dokumen."
+      },
+      "docx": {
+        "content": "Penampil & editor metadata online gratis untuk MS Word dokumen."
+      },
+      "pdf": {
+        "content": "Lihat atau edit informasi Metadata dari PDF dokumen secara online."
+      }
+    }
+  }
+}

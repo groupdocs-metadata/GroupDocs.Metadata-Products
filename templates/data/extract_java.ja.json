@@ -1,0 +1,46 @@
+{
+  "head": {
+    "title": "{{ProgLang}} アプリケーションの {{EXT}} ファイルのメタデータの読み取りと抽出",
+    "description": "{{EXT}} ファイルのメタデータ情報を読み取って抽出するためのクロスプラットフォーム {{ProgLang}} メタデータ管理API。メタデータ規格 XMP、EXIF、IPTC、ID3 などと連携してください。"
+  },
+  "header": {
+    "title": "{{ProgLang}} 内の {{EXT}} ファイルからメタデータを抽出",
+    "description": "{{ProductFullName}} を使用して、さまざまなドキュメント、画像、オーディオ、ビデオ形式からメタデータ情報を読み取り、抽出します",
+    "button_label": "無料試用版をダウンロード"
+  },
+  "about": {
+    "title": "{{ProductFullName}} API について",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/metadata/{{ProductCode}}/) は、高度なメタデータ管理および操作機能セットを提供します。これにより、開発者は外部ソフトウェアを使用せずに、画像や文書形式からメタデータ情報を簡単に読み取り、編集、削除、検索、比較、置換、エクスポートできます。PDF、Word、Excel、PowerPoint、Outlook、OneNote、Visio、Project、AutoCAD、アーカイブおよびマルチメディアファイル形式からメタデータの詳細を抽出し、サポートされているメタデータ操作を柔軟に実行できます。"
+  },
+  "steps": {
+    "title_left": "{{ProgLang}} での {{EXT}} メタデータ抽出の手順",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/metadata/{{ProductCode}}/) を使用すると、{{ProductName}} 開発者は、いくつかの簡単な手順を実装するだけで、アプリケーション内から {{EXT}} ファイルからメタデータ情報を簡単に抽出、読み取り、抽出できます。",
+      "step_1": "{{EXT}} に Metadata クラスのインスタンスをロードします。",
+      "step_2": "述語を作成して、すべてのメタデータのプロパティを調べてください。",
+      "step_3": "述語を findProperties メソッドに渡します。",
+      "step_4": "見つかったプロパティを繰り返し処理します。"
+    },
+    "title_right": "システム要件",
+    "content_right": {
+      "description": "{{ProductFullName}} 個のAPIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、以下の前提条件がシステムにインストールされていることを確認してください。",
+      "step_1": "オペレーティングシステム:マイクロソフト Windows、Linux、Mac OS",
+      "step_2": "開発環境:{{DevEnv}}",
+      "step_3": "Java ランタイム環境",
+      "step_4": "[{{RepoName}}]({{RepoUrl}}) から {{ProductFullName}} の最新バージョンをダウンロードしてください"
+    },
+    "title_code": "{{ProgLang}} サンプルコードを使用してメタデータ {{EXT}} ファイルを抽出する方法",
+    "code": {
+      "fetch_comment": "特定のカテゴリに分類されるすべてのメタデータプロパティを取得"
+    }
+  },
+  "demos": {
+    "title": "メタデータ抽出ライブデモ",
+    "h1": "[GroupDocs.Metadata ライブデモ](https://products.groupdocs.app/metadata/family) ウェブサイトにアクセスして、{{EXT}} ファイルのメタデータ情報を今すぐ取得してください。",
+    "h2": "ライブデモには次の利点があります。"
+  },
+  "more_formats": {
+    "title": "他のファイル形式の読み取りと抽出",
+    "content": "{{ProductName}} 用のマルチフォーマット文書および画像メタデータ抽出API。以下に説明するように、一般的なファイル形式のメタデータを取得します。"
+  }
+}

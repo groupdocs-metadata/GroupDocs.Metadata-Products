@@ -1,6 +1,7 @@
 ---
+############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2023-08-26T11:56:43
 draft: false
 
 product: "Metadata"
@@ -8,14 +9,17 @@ product_tag: "metadata"
 platform: ".NET"
 platform_tag: "net"
 
-head_title: ".NETメタデータリーダー、ビューアー、エクストラクター、リムーバー、エクスポーターAPI"
-head_description: "PDF Word Excel PPTX Outlookオーディオビデオおよび画像のメタデータの読み取り、書き込み、編集、分析、検索、抽出、削除、比較、およびエクスポートを行うC＃.NETメタデータAPI."
+############################# Head ############################
+head_title: ".NET メタデータ リーダー、ビューアー、エクストラクター、リムーバー、エクスポーター API"
+head_description: "PDF Word Excel PPTX Outlook オーディオ ビデオ & 画像のメタデータを読み取り、書き込み、編集、分析、検索、抽出、削除、比較、およびエクスポートするための C# .NET メタデータ API。"
 
-title: ".メタデータを管理および操作するためのNETAPI"
-description: ".NETアプリケーションを構築して、すべての一般的なドキュメントおよび画像ファイル形式のメタデータ情報を読み取り、編集、削除、取得、検索、比較、置換、およびエクスポートします。."
+############################# Header ############################
+title: "メタデータを管理および操作する .NET API"
+description: "すべての一般的なドキュメントと画像ファイル形式のメタデータ情報を読み取り、編集、削除、取得、検索、比較、置換、およびエクスポートする .NET アプリケーションを構築します。"
 button:
     enable: true
 
+############################# SubMenu ############################
 submenu:
     enable: true
     
@@ -24,258 +28,296 @@ submenu:
         image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-metadata-net.png"
         product: "GroupDocs.Metadata"
         platform: ".NET"
-
+        
     middle:
         button:
+            # button loop
             - link: "#overview"
               text: "概要"
 
+            # button loop
             - link: "#features"
               text: "特徴"
 
+            # button loop
             - link: "#support"
               text: "サポート"
 
+            # button loop
             - link: "https://products.groupdocs.app/metadata"
               text: "ライブデモ"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/net"
-              text: "価格設定"
+              text: "価格"
 
     right:
         link_download: "https://downloads.groupdocs.com/metadata"
         link_learn: "https://docs.groupdocs.com/metadata/net/"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# Overview ############################
 overview:
     enable: true
     content: |
-      GroupDocs.Metadata for .NET APIは、C＃、ASP.NET、およびその他の.NETベースのアプリケーションと簡単に統合できるため、外部ソフトウェアをインストールしなくても、エンドユーザーがさまざまな画像、ドキュメント、その他のメディアファイル形式のメタデータを操作できます。 .NETメタデータライブラリは、PDF、Microsoft Office Word、Excelスプレッドシート、PowerPointプレゼンテーション、Outlook電子メール、プロジェクトなどの業界標準のドキュメント形式で、メタデータビューア、エディタ、リムーバー、エクストラクタ、比較、およびエクスポータの機能をすばやく追加するためのツールの構築をサポートしています。 、Visioダイアグラム、OneNote、画像、AutoCAD、Photoshop、オーディオ、ビデオ、メタファイル。  
+      GroupDocs.Metadata for .NET API は、C#、ASP.NET、およびその他の .NET ベースのアプリケーションと簡単に統合できるため、エンドユーザーは、外部ソフトウェアをインストールすることなく、さまざまな画像、ドキュメント、およびその他のメディア ファイル形式からメタデータを操作できます。 .NET メタデータ ライブラリは、PDF、Microsoft Office Word、Excel スプレッドシート、PowerPoint プレゼンテーション、Outlook 電子メール、Project などの多くの業界標準ドキュメント形式内に、メタデータ ビューア、エディタ、リムーバ、エクストラクタ、比較、およびエクスポータ機能をすばやく追加する構築ツールをサポートしています。 、Visio ダイアグラム、OneNote、画像、AutoCAD、Photoshop、オーディオ、ビデオ、およびメタファイル。  
 
-      メタデータAPIは非常に柔軟性があり、操作が簡単です。ドキュメントファイルを入力として取得し、メタデータ情報を分析し、サポートされているメタデータ操作を実行し、変更したファイルを保存して、将来の使用ですばやくアクセスできるようにします。ビルトイン、XMP、EXIF、IPTC、画像リソースブロック、ID3、カスタムメタデータプロパティなどの最も注目すべきメタデータ標準で動作します。 GroupDocs.Metadata for .NET APIを使用して、2つのドキュメントを比較し、メタデータプロパティに存在する相違点と類似点を特定することもできます。必要なドキュメントのメタデータをExcel、CSV、またはDataSetにエクスポートすることもできます。  
+      メタデータ API は非常に柔軟で、操作が簡単です。ドキュメントファイルを入力として取得し、メタデータ情報を分析し、サポートされているメタデータ操作を実行し、変更されたファイルを保存して、将来の使用ですばやくアクセスできるようにします。ビルトイン、XMP、EXIF、IPTC、画像リソース ブロック、ID3、カスタム メタデータ プロパティなど、最も注目すべきメタデータ標準で動作します。 GroupDocs.Metadata for .NET API を使用すると、2 つのドキュメントを比較して、それらのメタデータ プロパティに存在する相違点と類似点を特定することもできます。必要なドキュメントのメタデータを Excel、CSV、または DataSet にエクスポートすることもできます。
 
-      GroupDocs.Metadata for .NETを使用して、.NETプラットフォームを対象とする任意の開発環境でアプリケーションを開発できます。すべての.NETベースの言語と互換性があり、Monoまたは.NETフレームワーク（.NET Coreを含む）をインストールできる一般的なオペレーティングシステム（Windows、Linux、MacOS）をサポートします。
+      GroupDocs.Metadata for .NET を使用して、.NET プラットフォームを対象とする任意の開発環境でアプリケーションを開発できます。すべての .NET ベースの言語と互換性があり、Mono または .NET フレームワーク (.NET Core を含む) をインストールできる一般的なオペレーティング システム (Windows、Linux、MacOS) をサポートします。
     tabs:
       enable: true
       
+      ## TAB ONE ##
       tab_one:
         description: |
-          以下は、GroupDocs.Metadatafor.NETの概要です。
-
+          以下は、GroupDocs.Metadata for .NET の概要です。
+      
         left:
           enable: true
           icon: "fas fa-file-image"
           title: "画像の操作"
           content: |
-            *XMPメタデータ
-            *EXIFメタデータ
-            *IPTC-IIMメタデータ
-            *PSDメタデータ
-            *CADメタデータ
-            * 追加のIFDタグを解析します
-            *SRationalTIFFタグを読む
-      
+            * XMP メタデータ
+            * EXIF メタデータ
+            * IPTC-IIM メタデータ
+            * PSD メタデータ
+            * CAD メタデータ
+            * 追加の IFD タグを解析する
+        
         right:
           enable: true
           icon: "fab fa-html5"
           title: "オーディオとビデオの操作"
           content: |
-            *ランタイムMP3フォーマット検出
-            *Lyrics3タグを読む
-            *MPEGオーディオ情報を読む
-            *AVIヘッダー情報を読む
-            *Matroskaの字幕を読む
-            *データをExcelまたはCSVにエクスポート
+            * ランタイム MP3 フォーマットの検出
+            * 歌詞を読む3タグ
+            * MPEG オーディオ情報の読み取り
+            * AVI ヘッダー情報を読み取る
+            * マトロスカの字幕を読む
+            * データを Excel または CSV にエクスポート
       
+      ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Metadata for .NETは、次の[ドキュメントファイル形式]（https://docs.groupdocs.com/metadata/net/supported-document-formats/）をサポートしています。
+          GroupDocs.Metadata for .NET は以下をサポートします [ドキュメント ファイル形式](https://docs.groupdocs.com/metadata/net/supported-document-formats/):
 
         left:
           enable: true
           table:
+            # table loop
             - title: "マイクロソフトオフィス"
               content: |
-                * **ワード：** DOC、DOCX、DOCM、DOT、DOTX、DOTM、RTF、TXT
-                * ** Excel：** XLS、XLSX、XLSM、XLSB、XLTM、XLT、XLTM、XLTX、XLAM、SXC、SpreadsheetML
-                * ** PowerPoint：** PPT、PPTX、PPS、PPSX、PPSM、POT、POTM、POTX、PPTM
-                * ** Visio：** VSD、VDX、VSS、VSSX、VSX、VST、VSTX、VTX、VSDX、VDW、VSTM、VSSM、VSDM
-                * **プロジェクト：** MPP
-                * ** Outlook：** MSG、EML、EMLX、PST、OST
-                * ** OneNote：** ONE
+                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
+                * **Project:** MPP
+                * **Outlook:** MSG, EML, EMLX, PST, OST
+                * **OneNote:** ONE
 
         right:
           enable: true
           table:
+            # table loop
             - title: "その他のフォーマット"
               content: |
-                * ** OpenDocument **：ODT、ODS
-                * **ポータブル**：PDF
-                * ** Photoshop **：PSD
-                * ** AutoCAD **：DWG、DXF
-                * ** オーディオ**：MP3、WAV
-                * **ビデオ**：AVI、MOV、QT、FLV
-                * ** メタファイル**：EMF、WMF
-                * ** vCard **：VCF、VCR
-                * **画像**：JPG、JPEG、JPE、JP2、PNG、GIF、TIFF、WebP、BMP、DJVU、DJV、DICOM
-                * ** Matroska Media Container **：MKV、MKA、MK3D、WEBM
-                * ** OpenTypeフォント**：OTF、OTC、TTF、TTC
-                * **その他**：EPUB、ZIP、TORRENT、ASF
+                * **OpenDocument**: ODT, ODS
+                * **Portable**: PDF
+                * **Photoshop**: PSD
+                * **AutoCAD**: DWG, DXF
+                * **オーディオ**:  MP3, WAV
+                * **ビデオ**: AVI, MOV, QT, FLV
+                * **Metafiles**: EMF, WMF
+                * **vCard**: VCF, VCR
+                * **画像**: JPG, JPEG, JPE, JP2, PNG, GIF, TIFF, WebP, BMP, DJVU, DJV, DICOM
+                * **Matroska Media Container**: MKV, MKA, MK3D, WEBM
+                * **OpenType フォント**: OTF, OTC, TTF, TTC
+                * **その他**: EPUB, ZIP, TORRENT, ASF
 
+      ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Metadata for .NETは、次のオペレーティングシステム、フレームワーク、およびパッケージマネージャーをサポートしています。
+          GroupDocs.Metadata for .NET は、次のオペレーティング システム、フレームワーク、パッケージ マネージャーをサポートしています。
         
         left:
           enable: true
           table:
+            # table loop
             - icon: "fab fa-windows"
               title: "オペレーティングシステム"
               content: |
-                *Windowsデスクトップ
-                * WindowsServer
+                * Windows デスクトップ
+                * Windows サーバー
                 * Windows Azure
                 * Linux
 
+            # table loop
             - icon: "fas fa-code"
               title: "サポートされているフレームワーク"
               content: |
-                * .NETFramework2.0以降
-                * MonoFramework1.2以降
-                * .NET Standard 2.0
-                * .NET Core 2.0
-                * .NET Core 2.1
-
+                * .NET Framework 2.0 以降
+                * Mono フレームワーク 1.2 以降
+                * .NET 標準 2.0
+                * .NET コア 2.0
+                * .NET コア 2.1
         right:
           enable: true
           table:
+            # table loop
             - icon: "fas fa-box"
               title: "パッケージマネージャー"
               content: |
                 * NuGet
 
+            # table loop
             - icon: "fas fa-tools"
               title: "開発環境"
               content: |
-                * Microsoft Visual Studio
+                *マイクロソフトビジュアルスタジオ
                 * Xamarin.Android
                 * Xamarin.IOS
                 * Xamarin.Mac
-                * MonoDevelop
+                *モノデベロップ
 
+############################# Features ############################
 features:
     enable: true
-    title: "GroupDocs.Metadatafor.NET機能"
+    title: "GroupDocs.Metadata for .NET 機能"
 
     feature:
+      # feature loop
       - icon: "fas fa-copy"
-        content: "組み込みおよびカスタムメタデータを特定する"
-
+        content: "組み込みおよびカスタム メタデータの特定"
+       
+      # feature loop
       - icon: "fas fa-eye"
-        content: "Microsoft Word、Excel、PowerPoint、PDFで隠しデータを取得して削除する"
+        content: "Microsoft Word、Excel、PowerPoint、PDF の隠しデータを取得して削除する"
 
+      # feature loop
       - icon: "fas fa-bolt"
-        content: "ドキュメントファイルタイプの実行時認識"
+        content: "ドキュメント ファイル タイプの実行時認識"
       
+      # feature loop
       - icon: "fas fa-file-powerpoint"
         content: "デジタル署名を検出/削除する機能"
 
+      # feature loop
       - icon: "fas fa-code"
-        content: "Matroskaマルチメディアコンテナのパスワード保護とサポートを特定する"
+        content: "Matroska マルチメディア コンテナのパスワード保護とサポートを特定する"
 
+      # feature loop
       - icon: "fas fa-cloud"
-        content: "サポートされている形式のサムネイルを取得して画像プレビューをレンダリングする"
+        content: "サポートされている形式のサムネイルの取得と画像プレビューのレンダリング"
 
+      # feature loop
       - icon: "fas fa-remove-format"
-        content: "特定のファイルまたはファイルストリームのMIMEタイプを検出する"
+        content: "特定のファイルまたはファイル ストリームの MIME タイプを検出する"
 
+      # feature loop
       - icon: "fas fa-comment-slash"
-        content: "EPUB、CAD、EML、MSGファイルの画像プレビューを生成する"
+        content: "EPUB、CAD、EML、MSG ファイルの画像プレビューを生成"
 
+      # feature loop
       - icon: "fas fa-location-arrow"
-        content: "定義済みキーを使用して、サポートされている形式のメタデータプロパティを読み取ります"
+        content: "定義されたキーを使用して、サポートされている形式のメタデータ プロパティを読み取る"
 
+      # feature loop
       - icon: "fas fa-border-all"
-        content: "電子メールメッセージのメタデータを読み取り、OpenTypeフォントファイルを解析します"
+        content: "メール メッセージのメタデータを読み取り、OpenType フォント ファイルを解析する"
 
+      # feature loop
       - icon: "fas fa-wrench"
-        content: "Matroskaの字幕を読み、オーディオおよびビデオファイルのメタデータを取得します"
+        content: "Matroska の字幕を読み取り、オーディオおよびビデオ ファイルのメタデータを取得する"
 
+      # feature loop
       - icon: "fas fa-columns"
-        content: "アーカイブ形式とトレントのメタデータを取得する"
+        content: "アーカイブ形式とトレントのメタデータを取得"
 
+      # feature loop
       - icon: "fas fa-file-word"
-        content: "サポートされている形式のメタデータプロパティとIDの相違点または類似点を比較する"
+        content: "サポートされている形式のメタデータ プロパティと ID の相違点または類似点を比較する"
 
+      # feature loop
       - icon: "fas fa-envelope"
-        content: "ファイルのメタデータプロパティを検索し、任意のタイプのメタデータを列挙します"
+        content: "ファイルのメタデータ プロパティを検索し、任意のタイプのメタデータを列挙します"
 
+      # feature loop
       - icon: "fas fa-print"
-        content: "サポートされているファイル形式のメタデータプロパティを置き換える"
+        content: "サポートされているファイル形式のメタデータ プロパティを置き換える"
 
+      # feature loop
       - icon: "fas fa-file-archive"
-        content: "Excel95以降のMicrosoftExcelファイルからメタデータを抽出する"
+        content: "Excel 95 以降の Microsoft Excel ファイルからメタデータを抽出する"
 
+      # feature loop
       - icon: "fas fa-lock"
-        content: "特定のカメラで作成された写真を検索"
+        content: "特定のカメラで作成された写真を探す"
 
+      # feature loop
       - icon: "fas fa-file-code"
-        content: "画像のメタデータプロパティをインポートし、写真から位置情報を削除します"
-      
+        content: "画像のメタデータ プロパティをインポート & 写真から位置情報を削除"
+
+      # feature loop
       - icon: "fas fa-fill-drip"
-        content: "レポートとドキュメントからメタデータとコメントを削除する"
-
+        content: "レポートとドキュメントからメタデータとコメントを削除"
+        
+      # feature loop
       - icon: "fas fa-file-excel"
-        content: "PNG画像ファイルからテキストメタデータを抽出する"
+        content: "PNG 画像ファイルからテキスト メタデータを抽出する"
 
+      # feature loop
       - icon: "fas fa-heading"
-        content: "ドキュメントと画像のメモリ消費量の削減"
+        content: "ドキュメントと画像のメモリ消費を削減する"
 
+      # feature loop
       - icon: "fas fa-project-diagram"
-        content: "WEBP、PNG、PSDファイルのEXIFメタデータプロパティを更新します"
+        content: "WEBP、PNG、PSD ファイルの EXIF メタデータ プロパティを更新する"
 
+      # feature loop
       - icon: "fas fa-cube"
-        content: "MOV、MP3、WEBPファイルでXMPメタデータプロパティを抽出する"
+        content: "MOV、MP3、WEBP ファイルの XMP メタデータ プロパティを抽出"
 
+      # feature loop
       - icon: "fab fa-uncharted"
-        content: "TIFF画像でのIPTCメタデータパッケージの追加、更新、削除"
+        content: "TIFF イメージの IPTC メタデータ パッケージの追加、更新、および削除"
 
+        
     more_feature:
-      - title: "メタデータプロパティをすばやく取得する"
+      # more_feature_loop
+      - title: "メタデータ プロパティの迅速な取得"
         content: |
-          GroupDocs.Metadata for .NET APIを使用すると、サポートされているファイル形式のあらゆる種類のメタデータを操作するのは非常に簡単です。次のコードは、C＃を使用してJPEGファイルからPhotoshopメタデータを削除するのがいかに簡単かを示しています。
-
+          GroupDocs.Metadata for .NET API を使用すると、サポートされているファイル形式のあらゆる種類のメタデータを操作するのは非常に簡単です。次のコードは、C# を使用して JPEG ファイルから Photoshop メタデータを簡単に削除できることを示しています。
           ```cs
-          using (Metadata metadata = new Metadata("sample.jpeg"))
+          using (var metadata = new GroupDocs.Metadata.Metadata("sample.jpeg"))
           {
-              var root = metadata.GetRootPackage();
-              root.RemoveImageResourcePackage();
-              metadata.Save("output.jpeg");
+            var root = metadata.GetRootPackage();
+            root.RemoveImageResourcePackage();
+            metadata.Save("output.jpeg");
           }
-          ```
-      - title: "隠しデータの取得と操作"
-        content: |
-          GroupDocs.Metadata for .NETは、PDF、Microsoft Word、Excel、およびPowerPointドキュメントの非表示データをフェッチおよび削除するための便利なメカニズムを提供します。以下は、GroupDocs.Metadatafor.NETを使用して操作できるメタデータ情報のリストです。  
+          ```      
+      # more_feature_loop
+      - title: "隠しデータの検索と操作"
+        content: "GroupDocs.Metadata for .NET は、Microsoft Word、Excel、および PowerPoint ドキュメントだけでなく、PDF の非表示データを取得して削除するための便利なメカニズムを提供します。コメント、マージ フィールド、隠しページ、フォーム フィールド、注釈などを操作できます。"
 
-          * Microsoft Word（コメント、隠しテキスト、マージフィールド）
-          * Microsoft Excel（コメント、非表示のシート）
-          * Microsoft PowerPoint（コメント、非表示のスライド）
-          * PDFドキュメント（添付ファイル、注釈、ブックマーク、フォームフィールド）
-
+############################# Support ############################
 support:
     enable: true
 
+############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Metadataは、他の一般的な開発環境向けのドキュメント表示APIを提供します"
+    title: "GroupDocs.Metadata は、他の一般的な開発環境向けのドキュメント表示 API を提供します"
 
     solution:
+        # solution loop
         - img_alt: "GroupDocs.Metadata for Java"
           image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-metadata-java.png"
           product: "GroupDocs.Metadata"
           platform: "Java"
           link: "/metadata/java/"
 
+############################# Back to top ###############################
 back_to_top:
   enable: true
 ---

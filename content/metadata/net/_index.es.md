@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2023-08-26T11:56:43
 draft: false
 
 product: "Metadata"
@@ -11,10 +11,10 @@ platform_tag: "net"
 
 ############################# Head ############################
 head_title: "Lector, visor, extractor, eliminador y exportador de metadatos .NET API"
-head_description: "API de metadatos C# .NET para leer, escribir, editar, analizar, buscar, extraer, eliminar, comparar y exportar metadatos de PDF Word Excel PPTX Outlook Audio Video e imágenes."
+head_description: "API de metadatos C# .NET para leer, escribir, editar, analizar, buscar, extraer, eliminar, comparar y exportar metadatos de PDF Word Excel PPTX Outlook Audio Video & Images."
 
 ############################# Header ############################
-title: ".NET API para administrar y manipular metadatos"
+title: "API .NET para administrar y manipular metadatos"
 description: "Cree aplicaciones .NET para leer, editar, eliminar, recuperar, buscar, comparar, reemplazar y exportar información de metadatos de todos los documentos populares y formatos de archivo de imagen."
 button:
     enable: true
@@ -25,15 +25,15 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Metadata for .NET"
-        image: "/border/groupdocs-metadata-net.svg"
+        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-metadata-net.png"
         product: "GroupDocs.Metadata"
         platform: ".NET"
-
+        
     middle:
         button:
             # button loop
             - link: "#overview"
-              text: "Visión de conjunto"
+              text: "Visión general"
 
             # button loop
             - link: "#features"
@@ -41,11 +41,11 @@ submenu:
 
             # button loop
             - link: "#support"
-              text: "Support"
+              text: "Apoyo"
 
             # button loop
             - link: "https://products.groupdocs.app/metadata"
-              text: "Live Demo"
+              text: "Demo en vivo"
 
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/net"
@@ -56,15 +56,15 @@ submenu:
         link_learn: "https://docs.groupdocs.com/metadata/net/"
         link_buy: "https://purchase.groupdocs.com"
 
-############################# Visión de conjunto ############################
+############################# Overview ############################
 overview:
     enable: true
     content: |
-      GroupDocs.Metadata para .NET API es fácil de integrar con C#, ASP.NET y otras aplicaciones basadas en .NET para ayudar a sus usuarios finales a manipular metadatos de una variedad de imágenes, documentos y otros formatos de archivos multimedia sin instalar ningún software externo. La biblioteca de metadatos .NET admite herramientas de creación para agregar rápidamente funcionalidades de visor, editor, eliminador, extractor, comparación y exportación de metadatos dentro de una serie de formatos de documentos estándar de la industria, como PDF, Office de Microsoft Word, hojas de cálculo de Excel, presentaciones de PowerPoint, correos electrónicos de Outlook, Project, diagramas de Visio, OneNote, imágenes, AutoCAD, Photoshop, audio, video y metarchivos.
+      GroupDocs.Metadata para .NET API es fácil de integrar con C#, ASP.NET y otras aplicaciones basadas en .NET para ayudar a sus usuarios finales a manipular metadatos de una variedad de imágenes, documentos y otros formatos de archivos multimedia sin instalar ningún software externo. La biblioteca de metadatos .NET admite herramientas de creación para agregar rápidamente funcionalidades de visor, editor, eliminador, extractor, comparación y exportación de metadatos dentro de una serie de formatos de documentos estándar de la industria, como PDF, Microsoft Office Word, hojas de cálculo de Excel, presentaciones de PowerPoint, correos electrónicos de Outlook, Project , diagramas de Visio, OneNote, imágenes, AutoCAD, Photoshop, audio, video y metarchivos.  
 
       La API de metadatos es muy flexible y fácil de usar. Obtiene el archivo del documento como entrada, analiza la información de los metadatos, permite realizar operaciones de metadatos compatibles y guardar el archivo modificado para acceder rápidamente en el futuro. Funciona con los estándares de metadatos más notables, como integrado, XMP, EXIF, IPTC, bloques de recursos de imágenes, ID3 y propiedades de metadatos personalizados. A través de GroupDocs.Metadata para la API de .NET, también puede comparar dos documentos para identificar las diferencias y similitudes presentes en sus propiedades de metadatos. También puede exportar metadatos de los documentos requeridos a Excel, CSV o DataSet.
 
-      GroupDocs.Metadata para .NET se puede utilizar para desarrollar aplicaciones en cualquier entorno de desarrollo que se dirija a la plataforma .NET. Es compatible con todos los lenguajes basados en .NET y es compatible con los sistemas operativos más populares (Windows, Linux, MacOS) donde se pueden instalar marcos Mono o .NET (incluido .NET Core).
+      GroupDocs.Metadata para .NET se puede utilizar para desarrollar aplicaciones en cualquier entorno de desarrollo que se dirija a la plataforma .NET. Es compatible con todos los lenguajes basados ​​en .NET y es compatible con los sistemas operativos más populares (Windows, Linux, MacOS) donde se pueden instalar marcos Mono o .NET (incluido .NET Core).
     tabs:
       enable: true
       
@@ -72,7 +72,7 @@ overview:
       tab_one:
         description: |
           A continuación se muestra una descripción general de GroupDocs.Metadata para .NET:
-
+      
         left:
           enable: true
           icon: "fas fa-file-image"
@@ -84,8 +84,7 @@ overview:
             * Metadatos PSD
             * Metadatos CAD
             * Analizar etiquetas IFD adicionales
-            * Leer etiqueta TIFF de SRational
-      
+        
         right:
           enable: true
           icon: "fab fa-html5"
@@ -101,13 +100,13 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Metadata para .NET admite los siguientes [formatos de archivo de documento] (https://docs.groupdocs.com/metadata/net/supported-document-formats/):
+          GroupDocs.Metadata para .NET admite lo siguiente [formatos de archivos de documentos](https://docs.groupdocs.com/metadata/net/supported-document-formats/):
 
         left:
           enable: true
           table:
             # table loop
-            - title: "oficina de Microsoft"
+            - title: "oficina de microsoft"
               content: |
                 * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
                 * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
@@ -123,23 +122,23 @@ overview:
             # table loop
             - title: "Otros formatos"
               content: |
-                * **Documento abierto**: ODT, ODS
-                * **Portátil**: PDF
+                * **OpenDocument**: ODT, ODS
+                * **Portable**: PDF
                 * **Photoshop**: PSD
                 * **AutoCAD**: DWG, DXF
-                * **Audio**: MP3, WAV
-                * **Vídeo**: AVI, MOV, QT, FLV
-                * **Metarchivos**: EMF, WMF
+                * **Audio**:  MP3, WAV
+                * **Video**: AVI, MOV, QT, FLV
+                * **Metafiles**: EMF, WMF
                 * **vCard**: VCF, VCR
-                * **Imagen**: JPG, JPEG, JPE, JP2, PNG, GIF, TIFF, WebP, BMP, DJVU, DJV, DICOM
-                * **Contenedor multimedia Matroska**: MKV, MKA, MK3D, WEBM
+                * **Imágenes**: JPG, JPEG, JPE, JP2, PNG, GIF, TIFF, WebP, BMP, DJVU, DJV, DICOM
+                * **Matroska Media Container**: MKV, MKA, MK3D, WEBM
                 * **Fuentes OpenType**: OTF, OTC, TTF, TTC
                 * **Otros**: EPUB, ZIP, TORRENT, ASF
 
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Metadata for .NET apoya siguiendo Sistemas operativos, Frameworks & Gerente de empaquetacións:
+          GroupDocs.Metadata para .NET es compatible con los siguientes sistemas operativos, marcos y administradores de paquetes:
         
         left:
           enable: true
@@ -148,10 +147,10 @@ overview:
             - icon: "fab fa-windows"
               title: "Sistemas operativos"
               content: |
-                * Windows Desktop
-                * Windows Server
+                * Escritorio de Windows
+                * Servidor de windows
                 * Windows Azure
-                * Linux
+                * linux
 
             # table loop
             - icon: "fas fa-code"
@@ -160,15 +159,14 @@ overview:
                 * .NET Framework 2.0 o superior
                 * Mono Framework 1.2 o superior
                 * .NET estándar 2.0
-                * .NET Core 2.0
-                * .NET Core 2.1
-
+                * .NET Núcleo 2.0
+                * .NET Núcleo 2.1
         right:
           enable: true
           table:
             # table loop
             - icon: "fas fa-box"
-              title: "Gerente de empaquetación"
+              title: "Administradores de paquetes"
               content: |
                 * NuGet
 
@@ -176,13 +174,13 @@ overview:
             - icon: "fas fa-tools"
               title: "Entornos de desarrollo"
               content: |
-                * Microsoft Visual Studio
+                *Microsoft Visual Studio
                 * Xamarin.Android
                 * Xamarin.IOS
                 * Xamarin.Mac
-                * MonoDevelop
+                * MonoDesarrollo
 
-############################# Características ############################
+############################# Features ############################
 features:
     enable: true
     title: "Funciones de GroupDocs.Metadata para .NET"
@@ -190,8 +188,8 @@ features:
     feature:
       # feature loop
       - icon: "fas fa-copy"
-        content: "Identifique metadatos incorporados y personalizados"
-
+        content: "Identifique metadatos integrados y personalizados"
+       
       # feature loop
       - icon: "fas fa-eye"
         content: "Recupere y elimine datos ocultos en Microsoft Word, Excel, PowerPoint y PDF"
@@ -230,7 +228,7 @@ features:
 
       # feature loop
       - icon: "fas fa-wrench"
-        content: "Leer subtítulos de Matroska and retrieve Metadata of Audio & Video Files"
+        content: "Lea subtítulos de Matroska y recupere metadatos de archivos de audio y video"
 
       # feature loop
       - icon: "fas fa-columns"
@@ -259,11 +257,11 @@ features:
       # feature loop
       - icon: "fas fa-file-code"
         content: "Importar propiedades de metadatos de imágenes y eliminar información de ubicación de las fotos"
-      
+
       # feature loop
       - icon: "fas fa-fill-drip"
         content: "Eliminar metadatos y comentarios de informes y documentos"
-
+        
       # feature loop
       - icon: "fas fa-file-excel"
         content: "Extraer metadatos de texto de archivos de imagen PNG"
@@ -274,39 +272,33 @@ features:
 
       # feature loop
       - icon: "fas fa-project-diagram"
-        content: "Actualizar propiedades EXIF ​​de metadatos en archivos WEBP, PNG y PSD"
+        content: "Actualizar propiedades de metadatos EXIF ​​en archivos WEBP, PNG y PSD"
 
       # feature loop
       - icon: "fas fa-cube"
-        content: "Extraiga propiedades XMP de metadatos en archivos MOV, MP3 y WEBP"
+        content: "Extraiga propiedades de metadatos XMP en archivos MOV, MP3 y WEBP"
 
       # feature loop
       - icon: "fab fa-uncharted"
         content: "Agregar, actualizar y eliminar paquetes de metadatos IPTC en imágenes TIFF"
 
+        
     more_feature:
       # more_feature_loop
       - title: "Obtención rápida de propiedades de metadatos"
         content: |
-          El uso de GroupDocs.Metadata para la API de .NET, la manipulación de cualquier tipo de metadatos para los formatos de archivo admitidos es un negocio bastante sencillo. El siguiente fragmento de código demuestra lo fácil que es eliminar los metadatos de Photoshop de un archivo JPEG usando C#:
-
+          El uso de GroupDocs.Metadata para la API de .NET, la manipulación de cualquier tipo de metadatos para formatos de archivo admitidos es un negocio bastante sencillo. El siguiente fragmento de código demuestra lo fácil que es eliminar los metadatos de Photoshop de un archivo JPEG usando C#:
           ```cs
-          using (Metadata metadata = new Metadata("sample.jpeg"))
+          using (var metadata = new GroupDocs.Metadata.Metadata("sample.jpeg"))
           {
-              var root = metadata.GetRootPackage();
-              root.RemoveImageResourcePackage();
-              metadata.Save("output.jpeg");
+            var root = metadata.GetRootPackage();
+            root.RemoveImageResourcePackage();
+            metadata.Save("output.jpeg");
           }
-          ```
+          ```      
       # more_feature_loop
       - title: "Recuperación y manipulación de datos ocultos"
-        content: |
-          GroupDocs.Metadata para .NET proporciona un mecanismo útil para obtener y eliminar datos ocultos en documentos PDF, así como en documentos de Microsoft Word, Excel y PowerPoint. La siguiente es una lista de información de metadatos que puede manipular con GroupDocs.Metadata para .NET:
-
-          * Microsoft Word (comentarios, texto oculto, campos de combinación)
-          * Microsoft Excel (Comentarios, Hojas ocultas)
-          * Microsoft PowerPoint (Comentarios, Diapositivas ocultas)
-          * Documentos PDF (archivos adjuntos, anotaciones, marcadores, campos de formulario)
+        content: "GroupDocs.Metadata para .NET proporciona un mecanismo útil para obtener y eliminar datos ocultos en documentos PDF, así como en documentos de Microsoft Word, Excel y PowerPoint. Puede manipular comentarios, fusionar campos, páginas ocultas, campos de formulario, anotaciones y más."
 
 ############################# Support ############################
 support:
@@ -320,7 +312,7 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Metadata for Java"
-          image: "/border/groupdocs-metadata-java.svg"
+          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-metadata-java.png"
           product: "GroupDocs.Metadata"
           platform: "Java"
           link: "/metadata/java/"

@@ -1,0 +1,201 @@
+{
+  "head": {
+    "title": "Java メタデータ API – ドキュメント メタデータの表示、読み取り、エクスポート、編集、削除",
+    "description": "PDF Word Excel PPTX Outlook Visio オーディオ ビデオ & 画像ドキュメントのメタデータを表示、読み取り、編集、分析、検索、削除、比較、およびエクスポートするための Java メタデータ API。"
+  },
+  "header": {
+    "title": "Java 用メタデータ操作 API",
+    "description": "一般的なドキュメントと画像形式のメタデータを作成、表示、アクセス、更新、削除、検索、比較、置換、およびエクスポートする Java アプリケーションを開発します。"
+  },
+  "submenu": {
+    "middle": {
+      "overview": "概要",
+      "features": "特徴",
+      "support": "サポート",
+      "livedemo": "ライブデモ",
+      "pricing": "価格"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Metadata for Java は、ドキュメント、画像、アーカイブ、トレント、およびその他のさまざまなファイル形式のメタデータ情報を操作する高度なメタデータ管理 API です。開発者は、メタデータの表示、変更、削除、抽出、検索、比較、置換、およびエクスポート機能を、PDF、Microsoft Office Word、Excel スプレッドシート、PowerPoint プレゼンテーション、およびスライド、Outlook メール、プロジェクト、Visio ダイアグラム、OneNote、画像、AutoCAD、Photoshop、オーディオ、ビデオ、OpenType フォント、およびメタファイル。",
+      "paragraph_2": "Java メタデータ ライブラリは、メタデータ検索、メタデータ プロパティの置換、サポートされているファイル形式のメタデータの比較などの機能を提供して、類似点と相違点を識別します。また、メタデータを編集または変更して情報管理を改善し、取得したメタデータ情報を Excel ファイル、CSV ファイル、および DataSet にエクスポートすることもできます。この API は、組み込み、XMP、EXIF、およびサポートされているドキュメント形式内のカスタム メタデータ プロパティなど、一般的に使用されるすべてのメタデータ標準を操作するための包括的なサポートを提供します。",
+      "paragraph_3": "GroupDocs.Metadata for Java は、すべての Java バージョンと互換性があり、Java ランタイムを実行できる一般的なオペレーティング システム (Windows、Linux、MacOS) をサポートします。"
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Java の GroupDocs.Metadata の概要を次に示します。",
+      "left": {
+        "title": "画像の操作",
+        "content": {
+          "line_1": "XMP メタデータ",
+          "line_2": "EXIF メタデータ",
+          "line_3": "IPTC-IIM メタデータ",
+          "line_4": "PSD メタデータ",
+          "line_5": "CAD メタデータ",
+          "line_6": "追加の IFD タグを解析する"
+        }
+      },
+      "right": {
+        "title": "オーディオとビデオの操作",
+        "content": {
+          "line_1": "ランタイム MP3 フォーマットの検出",
+          "line_2": "歌詞を読む3タグ",
+          "line_3": "MPEG オーディオ情報の読み取り",
+          "line_4": "AVI ヘッダー情報を読み取る",
+          "line_5": "マトロスカの字幕を読む",
+          "line_6": "データを Excel または CSV にエクスポート"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Metadata for Java は以下をサポートしています",
+      "formats_url_title": "ドキュメント ファイル形式",
+      "left": {
+        "title": "マイクロソフトオフィス"
+      },
+      "right": {
+        "title": "その他のフォーマット",
+        "content": {
+          "line_5": "オーディオ",
+          "line_6": "ビデオ",
+          "line_9": "画像",
+          "line_11": "OpenType フォント",
+          "line_12": "その他"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Metadata for .NET は、次のオペレーティング システム、フレームワーク、パッケージ マネージャーをサポートしています。",
+      "left": {
+        "title": "オペレーティングシステム",
+        "content": {
+          "line_1": "Windows デスクトップ",
+          "line_2": "Windows サーバー",
+          "line_3": "Windows Azure",
+          "line_4": "Linux"
+        },
+        "title_2": "サポートされているフレームワーク",
+        "content_2": {
+          "line_1": ".NET Framework 2.0 以降",
+          "line_2": "Mono フレームワーク 1.2 以降",
+          "line_3": ".NET 標準 2.0",
+          "line_4": ".NET コア 2.0",
+          "line_5": ".NET コア 2.1"
+        }
+      },
+      "right": {
+        "title": "パッケージマネージャー",
+        "content": {
+          "line_1": "* NuGet"
+        },
+        "title_2": "開発環境",
+        "content_2": {
+          "line_1": "*マイクロソフトビジュアルスタジオ",
+          "line_2": "* Xamarin.Android",
+          "line_3": "* Xamarin.IOS",
+          "line_4": "* Xamarin.Mac",
+          "line_5": "*モノデベロップ"
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Metadata for Java 機能",
+    "feature_1": {
+      "content": "組み込みおよびカスタム メタデータを操作し、トレントおよびアーカイブ形式のメタデータをフェッチする"
+    },
+    "feature_2": {
+      "content": "Microsoft Word、Excel、PowerPoint、PDF の隠しデータにアクセスして削除する"
+    },
+    "feature_3": {
+      "content": "実行時にドキュメント ファイルの種類を検出する"
+    },
+    "feature_4": {
+      "content": "Word、Excel、PDF のデジタル署名を特定/削除する"
+    },
+    "feature_5": {
+      "content": "Word、Excel、PowerPoint、PDF でドキュメントのパスワード保護を検出"
+    },
+    "feature_6": {
+      "content": "サポートされているフォーマットのサムネイルと画像プレビューを取得し、Matroska マルチメディア コンテナをサポート"
+    },
+    "feature_7": {
+      "content": "PNG 画像ファイルからテキスト メタデータを抽出する"
+    },
+    "feature_8": {
+      "content": "任意のメタデータ タイプの列挙と OpenType フォント ファイルのメタデータの読み取りをサポート"
+    },
+    "feature_9": {
+      "content": "サポートされている任意の形式の定義済みキーを使用してメタデータ プロパティを読み取る"
+    },
+    "feature_10": {
+      "content": "電子メール メッセージのメタデータの取得/削除と添付ファイルの削除"
+    },
+    "feature_11": {
+      "content": "Matroska の字幕を読み取り、オーディオおよびビデオ ファイルのメタデータを取得する"
+    },
+    "feature_12": {
+      "content": "EPUB、CAD、EML、MSG ファイルの画像プレビューを生成"
+    },
+    "feature_13": {
+      "content": "サポートされている形式のメタデータの相違点または類似点を比較して特定する"
+    },
+    "feature_14": {
+      "content": "ドキュメント、EXIF、および XMP メタデータの検索プロパティ"
+    },
+    "feature_15": {
+      "content": "Word、Excel、PowerPoint、PDF のメタデータ プロパティを置換"
+    },
+    "feature_16": {
+      "content": "サポートされているファイル形式のメタデータを Excel、CSV、または DataSet にエクスポート"
+    },
+    "feature_17": {
+      "content": "Search API を使用して任意のタイプの XMP および EXIF メタデータ プロパティを追加または更新する"
+    },
+    "feature_18": {
+      "content": "画像メタデータ プロパティの操作と写真の位置情報の削除"
+    },
+    "feature_19": {
+      "content": "レポートとドキュメントからメタデータとコメントを削除する"
+    },
+    "feature_20": {
+      "content": "Excel 95 以降の Microsoft Excel ファイルからのメタデータ抽出"
+    },
+    "feature_21": {
+      "content": "PDF、Excel、および画像形式のメモリ消費量の削減"
+    },
+    "feature_22": {
+      "content": "WEBP、PNG、PSD ファイルの EXIF メタデータ プロパティを更新する"
+    },
+    "feature_23": {
+      "content": "MOV、MP3、WEBP ファイルの XMP メタデータ プロパティを抽出"
+    },
+    "feature_24": {
+      "content": "TIFF イメージの IPTC メタデータ パッケージの追加、更新、および削除"
+    },
+    "feature_25": {
+      "content": "JPEG2000 画像の EXIF メタデータ パッケージの追加、更新、削除"
+    },
+    "feature_26": {
+      "content": "HEIC/HEIF 画像フォーマットから EXIF タグと XMP メタデータ プロパティを読み取る"
+    },
+    "feature_27": {
+      "content": "暗号化された Microsoft Project ファイルからのメタデータの読み取り"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "メタデータ プロパティを効率的に取得する",
+      "content": "GroupDocs.Metadata for Java API を使用すると、サポートされているファイル形式のメタデータ プロパティを非常に効率的に取得できます。そのためのコードは非常に単純で簡単です。以下は、Java を使用して MP3 ファイルのメタデータ プロパティを取得することがいかに簡単かを示す例です。"
+    },
+    "feature_2": {
+      "title": "操作のために隠しデータを取得する",
+      "content": "GroupDocs.Metadata for Java は、Microsoft Word、Excel、および PowerPoint ファイルから隠しデータを取得および削除する包括的な方法を提供します。 PDFドキュメントでも同じことができます。コメント、マージ フィールド、隠しページ、フォーム フィールド、注釈などを操作できます。"
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Metadata は、他の一般的な開発環境向けのドキュメント表示 API を提供します"
+  }
+}

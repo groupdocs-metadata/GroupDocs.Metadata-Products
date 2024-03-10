@@ -1,21 +1,26 @@
 ---
-layout: "auto-gen"
-date: 2021-05-20T16:12:19+03:00
+############################# Static ############################
+layout: "auto-gen-metadata"
+date: 2024-03-10T13:38:33
 draft: false
+otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
-head_title: "編集＆amp; C＃.NETアプリケーションでWMFファイルのメタデータを更新する"
-head_description: "C＃.NETメタデータ編集APIを使用して、WMFファイルのメタデータ情報を更新します。メタデータ標準XMP、EXIF、IPTC、ID3などを操作します。"
+############################# Head ############################
+head_title: "C# アプリケーションの WMF ファイルへのメタデータの編集"
+head_description: "C# メタデータ処理APIを使用してメタデータ情報を WMF ファイルに編集します。メタデータ規格 XMP、EXIF、IPTC、ID3 などと連携してください。"
 
-title: "C＃でWMFファイルのメタデータを更新する"
-description: "最も必要なすべてのメタデータ処理操作の実行をサポートして、すべての一般的なドキュメント、画像、およびマルチメディアファイル形式からメタデータ情報を更新します."
+############################# Header ############################
+title: "C# 内の WMF ファイルのメタデータを更新"
+description: "最も必要なすべてのメタデータ処理操作の実行をサポートして、すべての一般的な文書、画像、マルチメディアファイル形式のメタデータ情報を更新します。"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "無料トライアルをダウンロード"
+    label: "無料試用版をダウンロード"
     link: "https://downloads.groupdocs.com/metadata/net"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,236 +33,91 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/metadata/net"
-              text: "APIリファレンス"
+              text: "{submenu.content_middle.button_text_1}"
 
+            # button loop
             - link: "https://github.com/groupdocs-metadata"
-              text: "コード例"
+              text: "{submenu.content_middle.button_text_2}"
 
+            # button loop
             - link: "https://products.groupdocs.app/metadata/family"
-              text: "ライブデモ"
+              text: "{submenu.content_middle.button_text_3}"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/net"
-              text: "価格設定"
+              text: "{submenu.content_middle.button_text_4}"
 
     right:
         link_download: "https://downloads.groupdocs.com/metadata"
         link_learn: "https://docs.groupdocs.com/metadata/net"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Metadata for .NET APIについて"
+    title: "GroupDocs.Metadata for .NET API について"
     content: |
-        [GroupDocs.Metadata for .NET](/metadata/net/)は、メタデータ管理機能の高度なセットを提供し、開発者が使用せずに画像やドキュメント形式からメタデータ情報を簡単に読み取り、wmf、削除、検索、比較、置換、およびエクスポートできるようにします外部ソフトウェア。メタデータ操作APIを使用して、PDF、Microsoft Office Word、Excelスプレッドシート、PowerPointプレゼンテーション、Outlook電子メール、OneNote、Visio、Project、AutoCAD、アーカイブ、マルチメディアファイル形式のメタデータの詳細を編集し、他の多くのメタデータ処理機能をサポートします。
+        [GroupDocs.Metadata for .NET](/ja/metadata/net/) は、高度なメタデータ管理機能セットを提供します。これにより、開発者は外部ソフトウェアを使用せずに、画像や文書形式のメタデータ情報の読み取り、文書化、削除、検索、比較、置換、エクスポートを簡単に行うことができます。メタデータ操作APIを使用すると、PDF、Microsoft Office Word、Excel スプレッドシート、PowerPoint プレゼンテーション、Outlook 電子メール、OneNote、Visio、Project、AutoCAD、アーカイブおよびマルチメディアファイル形式のメタデータの詳細を編集できます。また、他の多くのメタデータ処理機能との連携もサポートされています。
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "C＃でWMFメタデータを更新する手順"
+    title_left: "C# のメタデータを WMF に更新する手順"
     content_left: |
-        [GroupDocs.Metadata](/metadata/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実装することで、アプリケーション内からWMFファイルのメタデータ情報を簡単に編集および編集できます。
-
-        * メタデータクラスのインスタンスを介してWMFファイルをロードします。
-        *目的のメタデータプロパティをフィルタリングするために使用される述語を指定します。
-        * 述語と新しい値をUpdatePropertiesメソッドに渡します。
-        * 変更をWMF形式でディスクに保存します。
+        [GroupDocs.Metadata for .NET](/ja/metadata/net/) を使用すると、.NET 開発者はいくつかの簡単な手順を実行することで、アプリケーション内からメタデータ情報を WMF ファイルに簡単に編集できます。
         
-    title_right: "システム要求"
+        * Metadata クラスのインスタンス経由で WMF ファイルをロードします。
+        * 必要なメタデータプロパティをフィルタリングするために使用する述語を指定します。
+        * 述語と新しい値を updateProperties メソッドに渡します。
+        * 変更を WMF 形式でディスクに保存します。
+
+    title_right: "システム要件"
     content_right: |
-        GroupDocs.Metadata for .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        GroupDocs.Metadata for .NET 個のAPIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、以下の前提条件がシステムにインストールされていることを確認してください。
 
-        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        * 開発環境：Visual Studio、Xamarin、MonoDevelop
-        * フレームワーク：.NET Framework、.NET Standard、.NET Core、Mono
-        * [NuGet](https://www.nuget.org/packages/groupdocs.metadata)から最新バージョンのGroupDocs.Metadatafor.NETをダウンロードします。
-        
+        * オペレーティングシステム:マイクロソフト Windows、Linux、Mac OS
+        * 開発環境:Visual Studio, Xamarin, MonoDevelop
+        * フレームワーク: .NET Framework, .NET Standard, .NET Core, Mono
+        * [NuGet](https://www.nuget.org/packages/groupdocs.metadata) から GroupDocs.Metadata for .NET の最新バージョンをダウンロードしてください
+         
     code: |
-        ```cs
+        ```csharp    
         using (var metadata = new GroupDocs.Metadata.Metadata("input.wmf"))
         {
-        	//述語を満たす各プロパティの値を設定します：
-        	//プロパティには、ドキュメントが作成された日付/時刻が含まれます
-        	//既存の値が3日より古い場合は、ファイルの作成日時を更新します
-        	var affected = metadata.UpdateProperties(
-        		p => p.Tags.Contains(GroupDocs.Metadata.Tagging.Tags.Time.Created) &&
-        		p.Value.Type == GroupDocs.Metadata.Common.MetadataPropertyType.DateTime &&
-        		p.Value.ToStruct() < DateTime.Today.AddDays(-3), new GroupDocs.Metadata.Common.PropertyValue(DateTime.Today));
-        	Console.WriteLine("Properties set: {0}", affected);
-        	metadata.Save("output.wmf");
+            // 述語を満たす各プロパティの値を設定します。
+            // プロパティには、ドキュメントが作成された日付/時刻が含まれます
+            // 既存の値が 3 日より古い場合は、ファイルの作成日時を更新します
+            var affected = metadata.UpdateProperties(
+              p => p.Tags.Contains(GroupDocs.Metadata.Tagging.Tags.Time.Created) &&
+              p.Value.Type == GroupDocs.Metadata.Common.MetadataPropertyType.DateTime &&
+              p.Value.ToStruct() < DateTime.Today.AddDays(-3), new GroupDocs.Metadata.Common.PropertyValue(DateTime.Today));
+            Console.WriteLine("Properties set: {0}", affected);
+            metadata.Save("output.wmf");
         }
         ```
-        
+
+############################# Demos ############################
 demos:
     enable: true
-    title: "メタデータを更新するライブデモ"
+    title: "メタデータを更新するためのライブデモ"
     content: |
-        [GroupDocs.Metadataライブデモ](https://products.groupdocs.app/metadata/family)サイトにアクセスして、WMFファイルのメタデータ情報を今すぐ更新してください。  
-        ライブデモには次の利点があります
+       [GroupDocs.Metadata ライブデモ](https://products.groupdocs.app/metadata/family) ウェブサイトにアクセスして、メタデータ情報を WMF ファイルに今すぐ更新してください。
+       ライブデモには次の利点があります。
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-file-wmf"
-          title: "WMFファイル形式について"
-          content: |
-            WMF拡張子の付いたファイルは、ベクターおよびビットマップ形式の画像データを格納するためのMicrosoft Windowsメタファイル（WMF）を表します。より正確に言うと、WMFは、デバイスに依存しないグラフィックスファイル形式のベクターファイル形式カテゴリに属しています。 Windowsグラフィックデバイスインターフェイス（GDI）は、WMFファイルに格納されている関数を使用して、画面に画像を表示します。拡張メタファイル（EMF）として知られるWMFのより拡張されたバージョンは、フォーマットをより豊富な機能にするために後で公開されました。実際には、WMFはSVGに似ています。
 
-          link: "https://docs.fileformat.com/image/wmf/"
-
+############################# More Formats ############################
 more_formats:
-    enable: false
-    title: "他のファイル形式からのメタデータプロパティの更新"
+    enable: true
+    title: "他のファイル形式のメタデータプロパティの更新"
     content: |
-        .NET用のマルチフォーマットドキュメントおよび画像メタデータ編集API。以下に示すように、いくつかの一般的なファイル形式のメタデータを変更します。
-    format: 
-          link: "/metadata/net/edit/pdf/"
-          description: "AdobePortableドキュメント形式"
+        .NET 用のマルチフォーマット文書および画像メタデータ編集 API。以下に示すように、一般的なファイル形式のメタデータを取得します。
 
-          link: "/metadata/net/edit/doc/"
-          description: "MicrosoftWordドキュメント"
-
-          link: "/metadata/net/edit/docm/"
-          description: "MicrosoftWordマクロ対応ドキュメント"
-
-          link: "/metadata/net/edit/docx/"
-          description: "Microsoft WordOpenXMLドキュメント"
-
-          link: "/metadata/net/edit/dot/"
-          description: "MicrosoftWord文書テンプレート"
-
-          link: "/metadata/net/edit/dotx/"
-          description: "WordOpenXMLドキュメントテンプレート"
-
-          link: "/metadata/net/edit/xls/"
-          description: "MicrosoftExcelバイナリファイル形式"
-
-          link: "/metadata/net/edit/xlsx/"
-          description: "Microsoft ExcelOpenXMLスプレッドシート"
-
-          link: "/metadata/net/edit/xlsm/"
-          description: "MicrosoftExcelマクロ対応スプレッドシート"
-
-          link: "/metadata/net/edit/xltm/"
-          description: "OOXMLマクロ対応ワークブックテンプレート"
-
-          link: "/metadata/net/edit/ppt/"
-          description: "PowerPointプレゼンテーション"
-
-          link: "/metadata/net/edit/pps/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "/metadata/net/edit/pptx/"
-          description: "PowerPointOpenXMLプレゼンテーション"
-
-          link: "/metadata/net/edit/ppsx/"
-          description: "PowerPointOpenXMLスライドショー"
-
-          link: "/metadata/net/edit/potx/"
-          description: "Microsoft PowerPointOpenXMLテンプレート"
-
-          link: "/metadata/net/edit/potm/"
-          description: "MicrosoftPowerPointテンプレート"
-
-          link: "/metadata/net/edit/pptm/"
-          description: "MicrosoftPowerPointプレゼンテーション"
-
-          link: "/metadata/net/edit/ppsm/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "/metadata/net/edit/ods/"
-          description: "ドキュメントスプレッドシートを開く"
-
-          link: "/metadata/net/edit/odt/"
-          description: "ドキュメントテキストを開く"
-
-          link: "/metadata/net/edit/tiff/"
-          description: "タグ付き画像ファイル形式"
-
-          link: "/metadata/net/edit/jpeg/"
-          description: "JPEG画像"
-
-          link: "/metadata/net/edit/png/"
-          description: "ポータブルネットワークグラフィック"
-
-          link: "/metadata/net/edit/gif/"
-          description: "グラフィカルな交換フォーマットファイル"
-
-          link: "/metadata/net/edit/bmp/"
-          description: "ビットマップファイル形式"
-
-          link: "/metadata/net/edit/jp2/"
-          description: "JPEG2000コア画像ファイル"
-
-          link: "/metadata/net/edit/webp/"
-          description: "ラスターWeb画像ファイル形式"
-
-          link: "/metadata/net/edit/psd/"
-          description: "AdobePhotoshopドキュメント"
-
-          link: "/metadata/net/edit/wmf/"
-          description: "Windowsメタファイル"
-
-          link: "/metadata/net/edit/emf/"
-          description: "強化されたメタファイル形式"
-
-          link: "/metadata/net/edit/mpp/"
-          description: "MicrosoftProjectドキュメント"
-
-          link: "/metadata/net/edit/msg/"
-          description: "MicrosoftOutlookの電子メールメッセージ"
-
-          link: "/metadata/net/edit/eml/"
-          description: "電子メールメッセージ"
-
-          link: "/metadata/net/edit/dwg/"
-          description: "Autodesk Design Data Formats"
-
-          link: "/metadata/net/edit/dxf/"
-          description: "AutoCAD Drawing Interchange"
-
-          link: "/metadata/net/edit/one/"
-          description: "Microsoft OneNote"
-
-          link: "/metadata/net/edit/mp3/"
-          description: "MPEGオーディオレイヤーIII"
-
-          link: "/metadata/net/edit/wav/"
-          description: "波形オーディオファイル形式"
-
-          link: "/metadata/net/edit/dicom/"
-          description: "デジタルイメージング＆amp;医学のコミュニケーション"
-
-          link: "/metadata/net/edit/avi/"
-          description: "オーディオビデオインターリーブファイル"
-
-          link: "/metadata/net/edit/vsd/"
-          description: "MicrosoftVisio2003-2010図面"
-
-          link: "/metadata/net/edit/vsdx/"
-          description: "MicrosoftVisio図面"
-
-          link: "/metadata/net/edit/vss/"
-          description: "MicrosoftVisio2003-2010ステンシル"
-
-          link: "/metadata/net/edit/vdx/"
-          description: "Microsoft Visio2003-2010XML図面"
-
-          link: "/metadata/net/edit/vsx/"
-          description: "Microsoft Visio2003-2010XMLステンシル"
-
-          link: "/metadata/net/edit/zip/"
-          description: "アーカイブファイル形式"
-
-          link: "/metadata/net/edit/epub/"
-          description: "デジタル電子書籍ファイル形式"
-
-          link: "/metadata/net/edit/vcf/"
-          description: "電子名刺"
-
-          link: "/metadata/net/edit/vcr/"
-          description: "vCard"
-
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

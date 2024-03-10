@@ -1,11 +1,11 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2023-07-31T12:04:41
 draft: false
 
 ############################# Head ############################
-head_title: ".NET, Java-APIs und Online-Metadaten-Manipulations-Apps von GroupDocs"
+head_title: ".NET, Java APIs und Online-Metadaten-Manipulations-Apps von GroupDocs"
 head_description: "Dokument-Metadaten-APIs, die in C# .NET und Java nativ sind. Lesen, schreiben, bearbeiten und vergleichen Sie Metainformationen aller gängigen Formate. Metadaten analysieren und exportieren."
 
 ############################# Header ############################
@@ -18,9 +18,9 @@ apis:
 
   api:
     # api loop
-    - title: "GroupDocs.Metadata High Code APIs einschließen"
+    - title: "GroupDocs.Metadata High Code APIs enthalten"
       link: "/metadata/"
-      label: "Alle High-Code-APIs anzeigen"
+      label: "Alle High Code-APIs anzeigen"
       api_product:
         # api_product loop
         - link: "/metadata/net/"
@@ -28,7 +28,7 @@ apis:
           image: "/border/groupdocs-metadata-net.svg"
           product: "GroupDocs.Metadata for"
           platform: ".NET"
-          content: "Native .NET-API zum dynamischen Lesen, Schreiben, Bearbeiten und Entfernen von Metainformationen aus Microsoft Office, PDF, Multimedia, Bildern und verschiedenen anderen Dateiformaten."
+          content: "Native .NET API zum dynamischen Lesen, Schreiben, Bearbeiten und Entfernen von Metainformationen aus Microsoft Office, PDF, Multimedia, Bildern und verschiedenen anderen Dateiformaten."
 
         # api_product loop
         - link: "/metadata/java/"
@@ -36,12 +36,12 @@ apis:
           image: "/border/groupdocs-metadata-java.svg"
           product: "GroupDocs.Metadata for"
           platform: "Java"
-          content: "Native .NET-API zum dynamischen Lesen, Schreiben, Bearbeiten und Entfernen von Metainformationen aus Microsoft Office, PDF, Multimedia, Bildern und verschiedenen anderen Dateiformaten."
+          content: "Java API zum Bearbeiten und Manipulieren von Metadaten von Dokumenten, Bildern, Videodateien und verschiedenen anderen Dateiformaten."
 
     # api loop
-    - title: "GroupDocs.Metadata Low-Code-APIs enthalten"
+    - title: "GroupDocs.Metadata Low Code APIs enthalten"
       link: "https://products.groupdocs.cloud/metadata"
-      label: "Alle Low-Code-APIs anzeigen"
+      label: "Alle Low Code-APIs anzeigen"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.cloud/metadata/curl"
@@ -49,7 +49,7 @@ apis:
           image: "/sdk/groupdocs_metadata-for-curl.svg"
           product: "GroupDocs.Metadata"
           platform: "Cloud for cURL"
-          content: "Arbeiten Sie mit cURL RESTful-APIs zur Bearbeitung von Metadaten, um Metadateninformationen von PDF-, Word-, Excel-, Präsentations-, Bild- und Multimediadateien in Ihren Anwendungen zu verwalten."
+          content: "Arbeiten Sie mit cURL RESTvollen Metadaten-Manipulations-APIs, um Metadateninformationen von PDF, Word, Excel, Präsentationen, Bildern und Multimediadateien in Ihren Anwendungen zu verwalten."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/metadata/net"
@@ -57,7 +57,7 @@ apis:
           image: "/sdk/groupdocs_metadata-for-net.svg"
           product: "GroupDocs.Metadata"
           platform: "Cloud SDK for .NET"
-          content: "Verwenden Sie die Metadaten-REST-API mit .NET SDK, um Metadaten aus Dokumentformaten in .NET-Anwendungen hinzuzufügen, zu bearbeiten, zu extrahieren, zu suchen und zu löschen."
+          content: "Verwenden Sie die REST Metadaten-API mit dem .NET SDK, um Metadaten aus Dokumentformaten in .NET-Anwendungen hinzuzufügen, zu bearbeiten, zu extrahieren, zu suchen und zu löschen."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/metadata/java"
@@ -65,12 +65,12 @@ apis:
           image: "/sdk/groupdocs_metadata-for-java.svg"
           product: "GroupDocs.Metadata"
           platform: "Cloud SDK for Java"
-          content: "Erweitern Sie Ihre Java-Anwendungen mit leistungsstarken Metadaten-Verwaltungsfunktionen mit Metadata SDK for Java."
+          content: "Erweitern Sie Ihre Java-Anwendungen mit leistungsstarken Metadatenverwaltungsfunktionen mit Metadata SDK for Java."
 
     # api loop
-    - title: "GroupDocs.Metadata Keine Code-Apps enthalten"
+    - title: "GroupDocs.Metadata No Code Apps enthalten"
       link: "https://products.groupdocs.app/metadata"
-      label: "Alle No-Code-Apps anzeigen"
+      label: "Alle No Code Apps anzeigen"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.app/metadata/total"
@@ -94,7 +94,7 @@ apis:
           image: "/app/groupdocs_pdf-app.svg"
           product: "GroupDocs.Metadata"
           platform: "PDF"
-          content: "Metadateninformationen von PDF-Dokumenten online anzeigen oder bearbeiten."
+          content: "Anzeigen oder Bearbeiten von Metadateninformationen von PDF-Dokumenten online."
 
 ############################# Back to top ###############################
 back_to_top:

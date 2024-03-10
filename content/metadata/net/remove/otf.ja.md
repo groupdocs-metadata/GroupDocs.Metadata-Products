@@ -1,21 +1,26 @@
 ---
-layout: "auto-gen"
-date: 2021-05-20T16:12:33+03:00
+############################# Static ############################
+layout: "auto-gen-metadata"
+date: 2024-03-10T13:38:41
 draft: false
+otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
-head_title: "C＃.NETアプリケーションでOTFファイルのメタデータを削除する"
-head_description: "C＃.NETメタデータ処理APIを使用して、OTFファイルのメタデータ情報を削除します。メタデータ標準XMP、EXIF、IPTC、ID3などを操作します。"
+############################# Head ############################
+head_title: "{head.title}"
+head_description: "{head.description}"
 
-title: "C＃でOTFファイルからメタデータを削除する"
-description: "さまざまなドキュメント、画像、音声、音声からメタデータ情報を削除します。 GroupDocs.Metadata for .NET APIを使用したビデオファイル形式."
+############################# Header ############################
+title: "{header.title}"
+description: "{header.description}"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "無料トライアルをダウンロード"
+    label: "{header.button_label}"
     link: "https://downloads.groupdocs.com/metadata/net"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,229 +33,87 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/metadata/net"
-              text: "APIリファレンス"
+              text: "{submenu.content_middle.button_text_1}"
 
+            # button loop
             - link: "https://github.com/groupdocs-metadata"
-              text: "コード例"
+              text: "{submenu.content_middle.button_text_2}"
 
+            # button loop
             - link: "https://products.groupdocs.app/metadata/family"
-              text: "ライブデモ"
+              text: "{submenu.content_middle.button_text_3}"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/net"
-              text: "価格設定"
+              text: "{submenu.content_middle.button_text_4}"
 
     right:
         link_download: "https://downloads.groupdocs.com/metadata"
         link_learn: "https://docs.groupdocs.com/metadata/net"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Metadata for .NET APIについて"
+    title: "{about.title}"
     content: |
-        [GroupDocs.Metadata for .NET](/metadata/net/)は、メタデータ操作機能の高度なセットを提供し、開発者が使用せずに画像やドキュメント形式からメタデータ情報を簡単に読み取り、編集、削除、検索、比較、置換、およびエクスポートできるようにします外部ソフトウェア。メタデータ管理APIを使用して、PDF、Microsoft Office Word、Excelスプレッドシート、PowerPointプレゼンテーション、Outlook、OneNote、Visio、Project、AutoCAD、アーカイブ、マルチメディアファイル形式、およびその他の多くのメタデータ処理機能からメタデータの詳細を削除します。
+        {about.h1}
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "C＃でOTFメタデータを削除する手順"
+    title_left: "{steps.title_left}"
     content_left: |
-        [GroupDocs.Metadata](/metadata/net/)を使用すると、.NET開発者は、いくつかの簡単な手順を実装することで、アプリケーション内からOTFファイルからメタデータの詳細を簡単に削除できます。
-
-        * メタデータクラスのインスタンスを使用してOTFをロードします。
-        * 述語を使用して、目的のメタデータプロパティを検索します。
-        *プロパティを削除するには、Metadata.RemovePropertiesメソッドを使用します。
-        * 変更をOTF形式で保存し直します。
+        {steps.content_left.description}
         
-    title_right: "システム要求"
+        * {steps.content_left.step_1}
+        * {steps.content_left.step_2}
+        * {steps.content_left.step_3}
+        * {steps.content_left.step_4}
+
+    title_right: "{steps.title_right}"
     content_right: |
-        GroupDocs.Metadata for .NET APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        {steps.content_right.description}
 
-        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        * 開発環境：Visual Studio、Xamarin、MonoDevelop
-        * フレームワーク：.NET Framework、.NET Standard、.NET Core、Mono
-        * [NuGet](https://www.nuget.org/packages/groupdocs.metadata)から最新バージョンのGroupDocs.Metadatafor.NETをダウンロードします。
-        
+        * {steps.content_right.step_1}
+        * {steps.content_right.step_2}
+        * {steps.content_right.step_3}: .NET Framework, .NET Standard, .NET Core, Mono
+        * {steps.content_right.step_4}
+         
     code: |
-        ```cs
+        ```csharp    
         using (var metadata = new GroupDocs.Metadata.Metadata("input.otf"))
         {
-        
-        		//ファイル作成に貢献した人の言及をすべて削除します
-        		//指定された名前のすべてのプロパティを削除します
-        		var affected = metadata.RemoveProperties(p => p.Tags.Any(t => t.Category == Tags.Person) || p.Name == "CustomProperty");
-        
-        		Console.WriteLine("Affected properties: {0}", affected);
-        
-        		metadata.Save("output.otf");
+            // {steps.code.remove_mention_comment}
+            // {steps.code.remove_prop_comment}
+            var affected = metadata.RemoveProperties(p => p.Tags.Any(t => t.Category == Tags.Person) || p.Name == "CustomProperty");
+            Console.WriteLine("Affected properties: {0}", affected);
+            metadata.Save("output.otf");
         }
         ```
-        
+
+############################# Demos ############################
 demos:
     enable: true
-    title: "メタデータ削除ライブデモ"
+    title: "{demos.title}"
     content: |
-        [GroupDocs.Metadataライブデモ](https://products.groupdocs.app/metadata/family)サイトにアクセスして、OTFファイルのメタデータ情報を今すぐ削除してください。  
-        ライブデモには次の利点があります
+       {demos.h1}
+       {demos.h2}
         
+############################# About Formats ############################
 about_formats:
-    enable: false
-    format:
-        - icon: "far fa-file-otf"
-          title: "OTFファイル形式について"
-          content: |
-            {{otf}}
+    enable: true
 
-          link: "/{{otf_url}}/"
-
+############################# More Formats ############################
 more_formats:
-    enable: false
-    title: "他のファイル形式からのメタデータプロパティの削除"
+    enable: true
+    title: "{more_formats.title}"
     content: |
-        .NET用のマルチフォーマットドキュメントおよび画像メタデータ削除API。以下に示すように、いくつかの一般的なファイル形式のメタデータを削除します。
-    format: 
-          link: "/metadata/net/remove/pdf/"
-          description: "AdobePortableドキュメント形式"
+        {more_formats.content}
 
-          link: "/metadata/net/remove/doc/"
-          description: "MicrosoftWordドキュメント"
-
-          link: "/metadata/net/remove/docm/"
-          description: "MicrosoftWordマクロ対応ドキュメント"
-
-          link: "/metadata/net/remove/docx/"
-          description: "Microsoft WordOpenXMLドキュメント"
-
-          link: "/metadata/net/remove/dot/"
-          description: "MicrosoftWord文書テンプレート"
-
-          link: "/metadata/net/remove/dotx/"
-          description: "WordOpenXMLドキュメントテンプレート"
-
-          link: "/metadata/net/remove/xls/"
-          description: "MicrosoftExcelバイナリファイル形式"
-
-          link: "/metadata/net/remove/xlsx/"
-          description: "Microsoft ExcelOpenXMLスプレッドシート"
-
-          link: "/metadata/net/remove/xlsm/"
-          description: "MicrosoftExcelマクロ対応スプレッドシート"
-
-          link: "/metadata/net/remove/xltm/"
-          description: "OOXMLマクロ対応ワークブックテンプレート"
-
-          link: "/metadata/net/remove/ppt/"
-          description: "PowerPointプレゼンテーション"
-
-          link: "/metadata/net/remove/pps/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "/metadata/net/remove/pptx/"
-          description: "PowerPointOpenXMLプレゼンテーション"
-
-          link: "/metadata/net/remove/ppsx/"
-          description: "PowerPointOpenXMLスライドショー"
-
-          link: "/metadata/net/remove/potx/"
-          description: "Microsoft PowerPointOpenXMLテンプレート"
-
-          link: "/metadata/net/remove/potm/"
-          description: "MicrosoftPowerPointテンプレート"
-
-          link: "/metadata/net/remove/pptm/"
-          description: "MicrosoftPowerPointプレゼンテーション"
-
-          link: "/metadata/net/remove/ppsm/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "/metadata/net/remove/ods/"
-          description: "ドキュメントスプレッドシートを開く"
-
-          link: "/metadata/net/remove/odt/"
-          description: "ドキュメントテキストを開く"
-
-          link: "/metadata/net/remove/tiff/"
-          description: "タグ付き画像ファイル形式"
-
-          link: "/metadata/net/remove/jpeg/"
-          description: "JPEG画像"
-
-          link: "/metadata/net/remove/png/"
-          description: "ポータブルネットワークグラフィック"
-
-          link: "/metadata/net/remove/gif/"
-          description: "グラフィカルな交換フォーマットファイル"
-
-          link: "/metadata/net/remove/bmp/"
-          description: "ビットマップファイル形式"
-
-          link: "/metadata/net/remove/jp2/"
-          description: "JPEG2000コア画像ファイル"
-
-          link: "/metadata/net/remove/webp/"
-          description: "ラスターWeb画像ファイル形式"
-
-          link: "/metadata/net/remove/psd/"
-          description: "AdobePhotoshopドキュメント"
-
-          link: "/metadata/net/remove/wmf/"
-          description: "Windowsメタファイル"
-
-          link: "/metadata/net/remove/emf/"
-          description: "強化されたメタファイル形式"
-
-          link: "/metadata/net/remove/mpp/"
-          description: "MicrosoftProjectドキュメント"
-
-          link: "/metadata/net/remove/msg/"
-          description: "MicrosoftOutlookの電子メールメッセージ"
-
-          link: "/metadata/net/remove/eml/"
-          description: "電子メールメッセージ"
-
-          link: "/metadata/net/remove/dwg/"
-          description: "Autodesk Design Data Formats"
-
-          link: "/metadata/net/remove/dxf/"
-          description: "AutoCAD Drawing Interchange"
-
-          link: "/metadata/net/remove/one/"
-          description: "Microsoft OneNote"
-
-          link: "/metadata/net/remove/mp3/"
-          description: "MPEGオーディオレイヤーIII"
-
-          link: "/metadata/net/remove/wav/"
-          description: "波形オーディオファイル形式"
-
-          link: "/metadata/net/remove/dicom/"
-          description: "デジタルイメージング＆amp;医学のコミュニケーション"
-
-          link: "/metadata/net/remove/avi/"
-          description: "オーディオビデオインターリーブファイル"
-
-          link: "/metadata/net/remove/vsd/"
-          description: "MicrosoftVisio2003-2010図面"
-
-          link: "/metadata/net/remove/vsdx/"
-          description: "MicrosoftVisio図面"
-
-          link: "/metadata/net/remove/vss/"
-          description: "MicrosoftVisio2003-2010ステンシル"
-
-          link: "/metadata/net/remove/vdx/"
-          description: "Microsoft Visio2003-2010XML図面"
-
-          link: "/metadata/net/remove/vsx/"
-          description: "Microsoft Visio2003-2010XMLステンシル"
-
-          link: "/metadata/net/remove/zip/"
-          description: "アーカイブファイル形式"
-
-          link: "/metadata/net/remove/epub/"
-          description: "デジタル電子書籍ファイル形式"
-
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

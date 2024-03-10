@@ -1,0 +1,201 @@
+{
+  "head": {
+    "title": "API de metadatos de Java: ver, leer, exportar, editar, eliminar metadatos de documentos",
+    "description": "API de metadatos de Java para ver, leer, editar, analizar, buscar, eliminar, comparar y exportar metadatos de documentos PDF Word Excel PPTX Outlook Visio Audio Video & Image."
+  },
+  "header": {
+    "title": "API de manipulación de metadatos para Java",
+    "description": "Desarrolle aplicaciones Java para crear, ver, acceder, actualizar, eliminar, buscar, comparar, reemplazar y exportar metadatos de documentos populares y formatos de imagen."
+  },
+  "submenu": {
+    "middle": {
+      "overview": "Visión general",
+      "features": "Características",
+      "support": "Apoyo",
+      "livedemo": "Demo en vivo",
+      "pricing": "Precios"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Metadata para Java es una API avanzada de administración de metadatos para manipular información de metadatos de documentos, imágenes, archivos, torrents y otros formatos de archivo. Los desarrolladores ahora pueden mejorar la funcionalidad de sus aplicaciones Java al incorporar fácilmente funciones de visualización, modificación, eliminación, extracción, búsqueda, comparación, reemplazo y exportación de metadatos dentro de todos los formatos de documentos comerciales populares, como PDF, Microsoft Office Word, hojas de cálculo de Excel, presentaciones de PowerPoint y diapositivas, correos electrónicos de Outlook, proyectos, diagramas de Visio, OneNote, imágenes, AutoCAD, Photoshop, audio, video, fuentes OpenType y metarchivos.",
+      "paragraph_2": "La biblioteca de metadatos de Java le ofrece funciones como búsqueda de metadatos, reemplazo de propiedades de metadatos, comparación de metadatos de formatos de archivo admitidos para identificar similitudes y diferencias. También puede editar o modificar los metadatos para una mejor gestión de la información y exportar la información de los metadatos recuperados a un archivo de Excel, un archivo CSV y un conjunto de datos. La API ofrece soporte integral para trabajar con todos los estándares de metadatos comúnmente utilizados, como propiedades de metadatos integradas, XMP, EXIF ​​y personalizadas dentro de los formatos de documentos admitidos.",
+      "paragraph_3": "GroupDocs.Metadata para Java es compatible con todas las versiones de Java y es compatible con los sistemas operativos populares (Windows, Linux, MacOS) que pueden ejecutar el tiempo de ejecución de Java."
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "A continuación se muestra una descripción general de GroupDocs.Metadata para Java:",
+      "left": {
+        "title": "Trabajar con imágenes",
+        "content": {
+          "line_1": "Metadatos XMP",
+          "line_2": "Metadatos EXIF",
+          "line_3": "Metadatos IPTC-IIM",
+          "line_4": "Metadatos PSD",
+          "line_5": "Metadatos CAD",
+          "line_6": "Analizar etiquetas IFD adicionales"
+        }
+      },
+      "right": {
+        "title": "Trabajar con audio y video",
+        "content": {
+          "line_1": "Detección de formato MP3 en tiempo de ejecución",
+          "line_2": "Leer Letras3 Etiqueta",
+          "line_3": "Leer información de audio MPEG",
+          "line_4": "Leer información de encabezado AVI",
+          "line_5": "Leer subtítulos de Matroska",
+          "line_6": "Exportar datos a Excel o CSV"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Metadata para Java admite lo siguiente",
+      "formats_url_title": "formatos de archivos de documentos",
+      "left": {
+        "title": "oficina de microsoft"
+      },
+      "right": {
+        "title": "Otros formatos",
+        "content": {
+          "line_5": "Audio",
+          "line_6": "Video",
+          "line_9": "Imágenes",
+          "line_11": "Fuentes OpenType",
+          "line_12": "Otros"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Metadata para .NET es compatible con los siguientes sistemas operativos, marcos y administradores de paquetes:",
+      "left": {
+        "title": "Sistemas operativos",
+        "content": {
+          "line_1": "Escritorio de Windows",
+          "line_2": "Servidor de windows",
+          "line_3": "Windows Azure",
+          "line_4": "linux"
+        },
+        "title_2": "Marcos compatibles",
+        "content_2": {
+          "line_1": ".NET Framework 2.0 o superior",
+          "line_2": "Mono Framework 1.2 o superior",
+          "line_3": ".NET estándar 2.0",
+          "line_4": ".NET Núcleo 2.0",
+          "line_5": ".NET Núcleo 2.1"
+        }
+      },
+      "right": {
+        "title": "Administradores de paquetes",
+        "content": {
+          "line_1": "* NuGet"
+        },
+        "title_2": "Entornos de desarrollo",
+        "content_2": {
+          "line_1": "*Microsoft Visual Studio",
+          "line_2": "* Xamarin.Android",
+          "line_3": "* Xamarin.IOS",
+          "line_4": "* Xamarin.Mac",
+          "line_5": "* MonoDesarrollo"
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "Funciones de GroupDocs.Metadata para Java",
+    "feature_1": {
+      "content": "Manipule metadatos integrados y personalizados y obtenga metadatos de formatos de archivo y torrents"
+    },
+    "feature_2": {
+      "content": "Acceda y elimine datos ocultos en Microsoft Word, Excel, PowerPoint y PDF"
+    },
+    "feature_3": {
+      "content": "Detectar tipo de archivo de documento en tiempo de ejecución"
+    },
+    "feature_4": {
+      "content": "Identificar/eliminar firmas digitales en Word, Excel, PDF"
+    },
+    "feature_5": {
+      "content": "Detecte la protección con contraseña de documentos en Word, Excel, PowerPoint y PDF"
+    },
+    "feature_6": {
+      "content": "Obtener miniaturas y vistas previas de imágenes de formatos admitidos y compatibilidad con contenedores multimedia Matroska"
+    },
+    "feature_7": {
+      "content": "Extraer metadatos de texto de archivos de imagen PNG"
+    },
+    "feature_8": {
+      "content": "Admite la enumeración de cualquier tipo de metadatos y lectura de metadatos de archivos de fuentes OpenType"
+    },
+    "feature_9": {
+      "content": "Lea la propiedad de metadatos usando la clave definida para cualquier formato admitido"
+    },
+    "feature_10": {
+      "content": "Obtener/eliminar metadatos de mensajes de correo electrónico y eliminar archivos adjuntos"
+    },
+    "feature_11": {
+      "content": "Lea subtítulos de Matroska y recupere metadatos de archivos de audio y video"
+    },
+    "feature_12": {
+      "content": "Genere vistas previas de imágenes para archivos EPUB, CAD, EML y MSG"
+    },
+    "feature_13": {
+      "content": "Identificar diferencias o similitudes en metadatos de formatos admitidos por comparación"
+    },
+    "feature_14": {
+      "content": "Propiedades de búsqueda de metadatos de documentos, EXIF ​​y XMP"
+    },
+    "feature_15": {
+      "content": "Reemplace las propiedades de metadatos de Word, Excel, PowerPoint y PDF"
+    },
+    "feature_16": {
+      "content": "Exportar metadatos de formatos de archivo admitidos a Excel, CSV o DataSet"
+    },
+    "feature_17": {
+      "content": "Agregue o actualice las propiedades de metadatos XMP y EXIF ​​de tipos arbitrarios mediante la API de búsqueda"
+    },
+    "feature_18": {
+      "content": "Manipule las propiedades de los metadatos de la imagen y elimine la información de ubicación de la foto"
+    },
+    "feature_19": {
+      "content": "Eliminar metadatos y comentarios de informes y documentos"
+    },
+    "feature_20": {
+      "content": "Extracción de metadatos de archivos de Microsoft Excel a partir de Excel 95"
+    },
+    "feature_21": {
+      "content": "Reducción del consumo de memoria de formatos PDF, Excel e imagen"
+    },
+    "feature_22": {
+      "content": "Actualizar propiedades de metadatos EXIF ​​en archivos WEBP, PNG y PSD"
+    },
+    "feature_23": {
+      "content": "Extraiga propiedades de metadatos XMP en archivos MOV, MP3 y WEBP"
+    },
+    "feature_24": {
+      "content": "Agregar, actualizar y eliminar paquetes de metadatos IPTC en imágenes TIFF"
+    },
+    "feature_25": {
+      "content": "Agregue, actualice y elimine paquetes de metadatos EXIF ​​en imágenes JPEG2000"
+    },
+    "feature_26": {
+      "content": "Leer etiquetas EXIF ​​y propiedades de metadatos XMP de formatos de imagen HEIC/HEIF"
+    },
+    "feature_27": {
+      "content": "Leer metadatos de archivos cifrados de Microsoft Project"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "Obtener propiedades de metadatos de manera eficiente",
+      "content": "Con GroupDocs.Metadata para la API de Java, las propiedades de metadatos de los formatos de archivo admitidos se pueden obtener de manera bastante eficiente. El código para hacerlo es bastante simple y directo. El siguiente es un ejemplo que muestra lo fácil que es obtener las propiedades de los metadatos de un archivo MP3 usando Java:"
+    },
+    "feature_2": {
+      "title": "Recuperar datos ocultos para manipulación",
+      "content": "GroupDocs.Metadata para Java le brinda una forma integral de obtener y eliminar datos ocultos de archivos de Microsoft Word, Excel y PowerPoint. También puede hacer lo mismo con los documentos PDF. Puede manipular comentarios, fusionar campos, páginas ocultas, campos de formulario, anotaciones y más."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Metadata ofrece API de visualización de documentos para otros entornos de desarrollo populares"
+  }
+}

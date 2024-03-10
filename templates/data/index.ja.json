@@ -1,0 +1,48 @@
+{
+  "head": {
+    "title": ".NET、Java API & オンライン メタデータ操作アプリ GroupDocs",
+    "description": "C# .NET および Java にネイティブなドキュメント メタデータ API。すべての一般的なフォーマットのメタ情報を読み取り、書き込み、編集、比較します。メタデータを分析してエクスポートします。"
+  },
+  "header": {
+    "title": "ドキュメント メタデータ管理ソリューション",
+    "description": "一般的なプラットフォームでドキュメント、画像、その他のファイル形式のメタデータを読み取り、編集、置換、削除するための API とアプリ。"
+  },
+  "apis": {
+    "highcode": {
+      "title": "GroupDocs.Metadata High Code API には以下が含まれます",
+      "label": "High Code API をすべて表示",
+      "net": {
+        "content": "Microsoft Office、PDF、マルチメディア、画像、およびその他のさまざまなファイル形式からメタ情報を動的に読み取り、書き込み、編集、および削除するためのネイティブ .NET API。"
+      },
+      "java": {
+        "content": "Java ドキュメント、画像、動画ファイル、その他のさまざまなファイル形式のメタデータを編集および操作するための API。"
+      }
+    },
+    "lowcode": {
+      "title": "GroupDocs.Metadata Low Code API には以下が含まれます",
+      "label": "すべての Low Code API を表示",
+      "curl": {
+        "content": "cURL RESTful メタデータ操作 API を使用して、PDF、Word、Excel、プレゼンテーション、画像、およびアプリケーション内のマルチメディア ファイルのメタデータ情報を管理します。"
+      },
+      "net": {
+        "content": ".NET SDK でメタデータ REST API を使用して、.NET アプリケーション内のドキュメント形式からメタデータを追加、編集、抽出、検索、削除します。"
+      },
+      "java": {
+        "content": "Metadata SDK for Java を使用して、強力なメタデータ管理機能で Java アプリケーションを強化します。"
+      }
+    },
+    "nocode": {
+      "title": "GroupDocs.Metadata No Code アプリの内容",
+      "label": "No Code 個のアプリをすべて表示",
+      "total": {
+        "content": "Word、Excel、PDF、PowerPoint、および 50 を超えるドキュメント タイプのメタデータを表示および編集するための無料アプリ。"
+      },
+      "docx": {
+        "content": "MS Word ドキュメント用の無料のオンライン メタデータ ビューアおよびエディタ。"
+      },
+      "pdf": {
+        "content": "PDF ドキュメントのメタデータ情報をオンラインで表示または編集します。"
+      }
+    }
+  }
+}

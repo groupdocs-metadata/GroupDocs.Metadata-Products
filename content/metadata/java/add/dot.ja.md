@@ -1,21 +1,26 @@
 ---
-layout: "auto-gen"
-date: 2021-05-20T16:11:18+03:00
+############################# Static ############################
+layout: "auto-gen-metadata"
+date: 2024-03-10T13:38:29
 draft: false
+otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
-head_title: "JavaのDOTファイルにメタデータプロパティを追加する"
-head_description: "クロスプラットフォームのJavaメタデータAPIを使用して、メタデータフィールドを表示し、DOTファイルに追加します。メタデータ標準XMP、EXIF、IPTC、ID3などを操作します。"
+############################# Head ############################
+head_title: "Java アプリケーションの DOT ファイルにメタデータを追加"
+head_description: "Java メタデータ処理 API により、DOT ファイルにメタデータ情報を追加できます。メタデータ標準 XMP、EXIF、IPTC、ID3 などを使用してください。"
 
-title: "JavaのDOTにメタデータを追加する"
-description: "GroupDocs.Metadata for Java APIを使用して、メタデータプロパティをDOTやその他の多くの一般的なドキュメント、画像、マルチメディアファイル形式に追加します."
+############################# Header ############################
+title: "Java の DOT へのメタデータの追加"
+description: "GroupDocs.Metadata for Java を使用して、さまざまなビジネス文書、画像、オーディオ、ビデオファイル形式にカスタムメタデータプロパティを追加します。"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "無料トライアルをダウンロード"
+    label: "無料試用版をダウンロード"
     link: "https://downloads.groupdocs.com/metadata/java"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,236 +33,87 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/metadata/java"
-              text: "APIリファレンス"
+              text: "{submenu.content_middle.button_text_1}"
 
+            # button loop
             - link: "https://github.com/groupdocs-metadata"
-              text: "コード例"
+              text: "{submenu.content_middle.button_text_2}"
 
+            # button loop
             - link: "https://products.groupdocs.app/metadata/family"
-              text: "ライブデモ"
+              text: "{submenu.content_middle.button_text_3}"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/java"
-              text: "価格設定"
+              text: "{submenu.content_middle.button_text_4}"
 
     right:
         link_download: "https://downloads.groupdocs.com/metadata"
         link_learn: "https://docs.groupdocs.com/metadata/java"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Metadata for Java APIについて"
+    title: "GroupDocs.Metadata for Java API について"
     content: |
-        [GroupDocs.Metadata for Java](/metadata/java/)は、外部ソフトウェアを使用せずに、画像やドキュメント形式からメタデータ情報を簡単に表示、更新、削除、検索、比較、交換、エクスポートできる高度なメタデータフィールド管理および操作ソリューションです。 。メタデータの詳細をWord文書、Excelスプレッドシート、PowerPointプレゼンテーション、Outlook電子メール、OneNote、Visio、Project、PDF、AutoCAD、ZIp、オーディオおよびビデオファイル形式に追加し、他の多くのメタデータ処理機能の操作をサポートします。
+        [GroupDocs.Metadata for Java](/ja/metadata/java/) は、外部ソフトウェアを使用せずに、画像やドキュメント形式のメタデータ情報を簡単に表示、更新、削除、検索、比較、交換、エクスポートできる高度なメタデータフィールド管理および操作ソリューションです。Word ドキュメント、Excel スプレッドシート、PowerPoint プレゼンテーション、Outlook 電子メール、OneNote、Visio、Project、PDF、AutoCAD、ZIP、Audio、Video ファイル形式にメタデータの詳細を追加します。また、他の多くのメタデータ処理機能との連携もサポートされます。
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "JavaでメタデータをDOTに追加する手順"
+    title_left: "Java の DOT にメタデータを追加する手順"
     content_left: |
-        [GroupDocs.Metadata](/metadata/java/)を使用すると、Java開発者は、いくつかの簡単な手順を実装することで、アプリケーション内からDOTファイルにメタデータフィールドを簡単に追加できます。
-
-        * 更新するDOTファイルをロードします。
-        * メタデータプロパティの追加に使用される述語を指定します。
-        * 選択したプロパティに割り当てる値を指定します。
-        * 述語をAddPropertiesメソッドに渡します。
-        * 追加されたプロパティの実際の数を確認してください。
-        * 変更を保存します。
+        [GroupDocs.Metadata for Java](/ja/metadata/java/) を使用すると、Java 開発者はいくつかの簡単な手順を実装することで、アプリケーション内から DOT ファイルにメタデータの詳細を簡単に追加できます。
         
-    title_right: "システム要求"
+        * Metadata クラスのインスタンスで DOT をロードします。
+        * Metadata.AddProperties メソッドを使用してプロパティを追加します。
+        * 述語を使用して目的のメタデータプロパティを検索します。
+        * 変更を DOT 形式で保存し直します。
+
+    title_right: "システム要件"
     content_right: |
-        GroupDocs.Metadata for Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
+        GroupDocs.Metadata for Java API はすべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、以下の前提条件がシステムにインストールされていることを確認してください。
 
-        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        * 開発環境：NetBeans、Intellij IDEA、Eclipseなど
-        * Javaランタイム環境：J2SE6.0以降
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)からJava用のGroupDocs.Metadataの最新バージョンを入手します。
-        
+        * オペレーティングシステム:マイクロソフト Windows、Linux、Mac OS
+        * 開発環境:NetBeans, IntelliJ IDEA, Eclipse
+        * Java ランタイム環境: J2SE 6.0 and above
+        * GroupDocs.Metadata for Java の最新バージョンを [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata) から入手してください
+         
     code: |
-        ```java
-        //メタデータクラスのインスタンスにファイルをロードします
-        try (Metadata metadata = new Metadata("input.dot")) {
-        
-        	//コンテンツ作成者を含むプロパティを追加します
-        	int affected = metadata.addProperties(new ContainsTagSpecification(Tags.getTime().getPrinted()), new PropertyValue(new Date()));
-        
-        	System.out.println(String.format("Affected properties: %s", affected));
-        
-        	metadata.save("output.dot");
+        ```java    
+        // {steps.code.load_comment}
+        try (Metadata metadata = new Metadata("input.dot"))
+        {
+            // コンテンツ作成者を含むプロパティを追加
+            int affected = metadata.addProperties(new ContainsTagSpecification(Tags.getTime().getPrinted()), new PropertyValue(new Date()));
+            System.out.println(String.format("Affected properties: %s", affected));
+            metadata.save("output.dot");
         }
         ```
-        
+
+############################# Demos ############################
 demos:
     enable: true
     title: "メタデータを追加するためのライブデモ"
     content: |
-        [GroupDocs.Metadataライブデモ](https://products.groupdocs.app/metadata/family)サイトにアクセスして、今すぐDOTファイルにメタデータ情報を追加してください。  
-        ライブデモには次の利点があります
+       [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) ウェブサイトにアクセスして、今すぐ DOT ファイルにメタデータ情報を追加してください。
+       ライブデモには以下のメリットがあります。
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-file-dot"
-          title: "DOTファイル形式について"
-          content: |
-            拡張子が.DOTのファイルは、Microsoft Wordによって作成されたテンプレートファイルであり、さらにDOCまたはDOCXファイルを生成するための事前にフォーマットされた設定があります。テンプレートファイルは、これらから作成された後続のファイルに適用する必要がある特定のユーザー設定を持つために作成されます。これらの設定には、ページの余白、境界線、ヘッダー、フッター、およびその他のページ設定が含まれます。このようなテンプレートは、会社のレターヘッドや標準化されたフォームなどの公式文書で使用されます。 DOTファイル形式はMicrosoftWord2003以前に固有ですが、それ以降のバージョンでもサポートされています。 Microsoft Wordはデフォルトで、normal.dotファイルに基づいてすべての新しいドキュメントを開きます。変更すると、作成されたすべての新しいファイルは、テンプレートファイルと同じ設定になります。 Microsoft Word 2007では、DOTファイル形式がOfficeOpenXMLベースのDOTXファイル形式に置き換えられました。
 
-          link: "https://docs.fileformat.com/word-processing/dot/"
-
+############################# More Formats ############################
 more_formats:
-    enable: false
+    enable: true
     title: "他のファイル形式へのメタデータプロパティの追加"
     content: |
-        マルチフォーマットのドキュメントや画像にメタデータを追加するためのJavaAPI。以下に示すように、いくつかの一般的なファイル形式のメタデータの詳細を設定します。
-    format: 
-          link: "/metadata/java/add/pdf/"
-          description: "AdobePortableドキュメント形式"
+        Java 用のマルチフォーマット文書および画像メタデータ追加 API。以下に説明するように、一般的なファイル形式のメタデータを取得します。
 
-          link: "/metadata/java/add/doc/"
-          description: "MicrosoftWordドキュメント"
-
-          link: "/metadata/java/add/docm/"
-          description: "MicrosoftWordマクロ対応ドキュメント"
-
-          link: "/metadata/java/add/docx/"
-          description: "Microsoft WordOpenXMLドキュメント"
-
-          link: "/metadata/java/add/dot/"
-          description: "MicrosoftWord文書テンプレート"
-
-          link: "/metadata/java/add/dotx/"
-          description: "WordOpenXMLドキュメントテンプレート"
-
-          link: "/metadata/java/add/xls/"
-          description: "MicrosoftExcelバイナリファイル形式"
-
-          link: "/metadata/java/add/xlsx/"
-          description: "Microsoft ExcelOpenXMLスプレッドシート"
-
-          link: "/metadata/java/add/xlsm/"
-          description: "MicrosoftExcelマクロ対応スプレッドシート"
-
-          link: "/metadata/java/add/xltx/"
-          description: "OOXMLマクロ対応ワークブックテンプレート"
-
-          link: "/metadata/java/add/ppt/"
-          description: "PowerPointプレゼンテーション"
-
-          link: "/metadata/java/add/pps/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "/metadata/java/add/pptx/"
-          description: "PowerPointOpenXMLプレゼンテーション"
-
-          link: "/metadata/java/add/ppsx/"
-          description: "PowerPointOpenXMLスライドショー"
-
-          link: "/metadata/java/add/potx/"
-          description: "Microsoft PowerPointOpenXMLテンプレート"
-
-          link: "/metadata/java/add/potm/"
-          description: "MicrosoftPowerPointテンプレート"
-
-          link: "/metadata/java/add/pptm/"
-          description: "MicrosoftPowerPointプレゼンテーション"
-
-          link: "/metadata/java/add/ppsm/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "/metadata/java/add/ods/"
-          description: "ドキュメントスプレッドシートを開く"
-
-          link: "/metadata/java/add/odt/"
-          description: "ドキュメントテキストを開く"
-
-          link: "/metadata/java/add/tiff/"
-          description: "タグ付き画像ファイル形式"
-
-          link: "/metadata/java/add/jpeg/"
-          description: "JPEG画像"
-
-          link: "/metadata/java/add/png/"
-          description: "ポータブルネットワークグラフィック"
-
-          link: "/metadata/java/add/gif/"
-          description: "グラフィカルな交換フォーマットファイル"
-
-          link: "/metadata/java/add/bmp/"
-          description: "ビットマップファイル形式"
-
-          link: "/metadata/java/add/jp2/"
-          description: "JPEG2000コア画像ファイル"
-
-          link: "/metadata/java/add/webp/"
-          description: "ラスターWeb画像ファイル形式"
-
-          link: "/metadata/java/add/psd/"
-          description: "AdobePhotoshopドキュメント"
-
-          link: "/metadata/java/add/wmf/"
-          description: "Windowsメタファイル"
-
-          link: "/metadata/java/add/emf/"
-          description: "強化されたメタファイル形式"
-
-          link: "/metadata/java/add/emz/"
-          description: "MicrosoftProjectドキュメント"
-
-          link: "/metadata/java/add/msg/"
-          description: "MicrosoftOutlookの電子メールメッセージ"
-
-          link: "/metadata/java/add/eml/"
-          description: "電子メールメッセージ"
-
-          link: "/metadata/java/add/dwg/"
-          description: "Autodesk Design Data Formats"
-
-          link: "/metadata/java/add/dxf/"
-          description: "AutoCAD Drawing Interchange"
-
-          link: "/metadata/java/add/one/"
-          description: "Microsoft OneNote"
-
-          link: "/metadata/java/add/mp3/"
-          description: "MPEGオーディオレイヤーIII"
-
-          link: "/metadata/java/add/wav/"
-          description: "波形オーディオファイル形式"
-
-          link: "/metadata/java/add/dicom/"
-          description: "デジタルイメージング＆amp;医学のコミュニケーション"
-
-          link: "/metadata/java/add/avi/"
-          description: "オーディオビデオインターリーブファイル"
-
-          link: "/metadata/java/add/vsd/"
-          description: "MicrosoftVisio2003-2010図面"
-
-          link: "/metadata/java/add/vsdx/"
-          description: "MicrosoftVisio図面"
-
-          link: "/metadata/java/add/vss/"
-          description: "MicrosoftVisio2003-2010ステンシル"
-
-          link: "/metadata/java/add/vdx/"
-          description: "Microsoft Visio2003-2010XML図面"
-
-          link: "/metadata/java/add/vsx/"
-          description: "Microsoft Visio2003-2010XMLステンシル"
-
-          link: "/metadata/java/add/zip/"
-          description: "アーカイブファイル形式"
-
-          link: "/metadata/java/add/epub/"
-          description: "デジタル電子書籍ファイル形式"
-
-          link: "/metadata/java/add/vcf/"
-          description: "電子名刺"
-
-          link: "/metadata/java/add/vcr/"
-          description: "vCard"
-
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

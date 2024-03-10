@@ -1,16 +1,17 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2021-05-20T16:11:30+03:00
+layout: "auto-gen-metadata"
+date: 2024-03-10T13:38:26
 draft: false
+otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
 ############################# Head ############################
-head_title: "Add Metadata Properties to WMF Files in Java"
-head_description: "Cross platform Java metadata API to view and add metadata fields to WMF files.Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Add Metadata to WMF Files in Java Applications"
+head_description: "Java metadata processing API to add metadata information to WMF files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
 ############################# Header ############################
-title: "Add Metadata to WMF in Java"
-description: "Add metadata properties to WMF and many other popular documents, images and multimedia file formats using GroupDocs.Metadata for Java API."
+title: "Adding Metadata To WMF In Java"
+description: "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using GroupDocs.Metadata for Java."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -34,19 +35,19 @@ submenu:
 
             # button loop
             - link: "https://apireference.groupdocs.com/metadata/java"
-              text: "API Reference"
+              text: "{submenu.content_middle.button_text_1}"
 
             # button loop
             - link: "https://github.com/groupdocs-metadata"
-              text: "Code Examples"
+              text: "{submenu.content_middle.button_text_2}"
 
             # button loop
             - link: "https://products.groupdocs.app/metadata/family"
-              text: "Live Demos"
+              text: "{submenu.content_middle.button_text_3}"
 
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/java"
-              text: "Pricing"
+              text: "{submenu.content_middle.button_text_4}"
 
     right:
         link_download: "https://downloads.groupdocs.com/metadata"
@@ -65,310 +66,52 @@ steps:
     enable: true
     title_left: "Steps for adding Metadata to WMF in Java"
     content_left: |
-        [GroupDocs.Metadata](/metadata/java/) makes it easy for Java developers to add metadata fields to WMF files from within their applications by implementing a few easy steps.
-
-        *   Load the WMF file to be updated.
-        *   Specify a predicate that will be used to add metadata properties.
-        *   Specify a value which you want to be assigned to the selected properties.
-        *   Pass the predicate to the AddProperties method.
-        *   Check the actual number of added properties.
-        *   Save the changes.
+        [GroupDocs.Metadata for Java](/metadata/java/) makes it easy for Java developers to add metadata details to WMF files from within their applications by implementing a few easy steps.
         
+        * Load WMF with an instance of Metadata class.
+        * Use Metadata.AddProperties method to add the properties.
+        * Use a predicate to find desired metadata properties.
+        * Save the changes back in WMF format.
+
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Metadata for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
-        *   Operating Systems: Microsoft Windows, Linux, MacOS
-        *   Development Environment: NetBeans, Intellij IDEA, Eclipse etc
-        *   Java Runtime Environment: J2SE 6.0 and above
-        *   Get the latest version of GroupDocs.Metadata for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
-        
+        * Operating Systems: Microsoft Windows, Linux, MacOS
+        * Development Environments: NetBeans, IntelliJ IDEA, Eclipse
+        * Java Runtime Environments: J2SE 6.0 and above
+        * Get the latest version of  GroupDocs.Metadata for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
+         
     code: |
-        ```java
-        // load the file in an instance of Metadata class
-        try (Metadata metadata = new Metadata("input.wmf")) {
-        
-        	// add a property containing the content author
-        	int affected = metadata.addProperties(new ContainsTagSpecification(Tags.getTime().getPrinted()), new PropertyValue(new Date()));
-        
-        	System.out.println(String.format("Affected properties: %s", affected));
-        
-        	metadata.save("output.wmf");
+        ```java    
+        // {steps.code.load_comment}
+        try (Metadata metadata = new Metadata("input.wmf"))
+        {
+            // add a property containing the content author
+            int affected = metadata.addProperties(new ContainsTagSpecification(Tags.getTime().getPrinted()), new PropertyValue(new Date()));
+            System.out.println(String.format("Affected properties: %s", affected));
+            metadata.save("output.wmf");
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
     title: "Live Demos to Add Metadata"
     content: |
-        Add metadata information to WMF file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.  
-        The live demo has the following benefits
+       Add metadata information to WMF file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.
+       The live demo has the following benefits.
         
 ############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-wmf"
-          title: "About WMF File Format"
-          content: |
-            Files with WMF extension represent Microsoft Windows Metafile (WMF) for storing vector as well as bitmap-format images data. To be more accurate, WMF belongs to the vector file format category of Graphics file formats that is device independent. Windows Graphical Device Interface (GDI) uses the functions stored in a WMF file to display an image on the screen. A more enhanced version of WMF, known as Enhanced Meta Files (EMF), was published later that makes the format more feature rich. Practically, WMF are similar to SVG.
-
-          link: "https://docs.fileformat.com/image/wmf/"
 
 ############################# More Formats ############################
 more_formats:
     enable: true
     title: "Adding Metadata Properties To Other File Formats"
     content: |
-        Java API for adding metadata to multi format documents and images. Set metadata details of some of the popular file formats as stated below.
-    format: 
-        # format loop
-        - name: "Add PDF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/pdf"
-          description: "Adobe Portable Document Format"
-
-        # format loop
-        - name: "Add DOC Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/doc"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "Add DOCM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/docm"
-          description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "Add DOCX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/docx"
-          description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "Add DOT Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/dot"
-          description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "Add DOTX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/dotx"
-          description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "Add XLS Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/xls"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "Add XLSX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/xlsx"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "Add XLSM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/xlsm"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "Add XLTM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/xltx"
-          description: "OOXML Macro Enabled Workbook Template"
-
-        # format loop
-        - name: "Add PPT Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/ppt"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "Add PPS Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/pps"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "Add PPTX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/pptx"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "Add PPSX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/ppsx"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "Add POTX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/potx"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "Add POTM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/potm"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "Add PPTM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/pptm"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "Add PPSM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/ppsm"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "Add ODS Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/ods"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "Add ODT Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/odt"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "Add TIFF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/tiff"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "Add JPEG Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/jpeg"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "Add PNG Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/png"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "Add GIF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/gif"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "Add BMP Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/bmp"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "Add JP2 Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/jp2"
-          description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "Add WEBP Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/webp"
-          description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "Add PSD Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/psd"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "Add WMF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/wmf"
-          description: "Windows Metafile"
-
-        # format loop
-        - name: "Add EMF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/emf"
-          description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "Add MPP Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/emz"
-          description: "Microsoft Project Document"
-
-        # format loop
-        - name: "Add MSG Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/msg"
-          description: "Microsoft Outlook E-mail Message"
-
-        # format loop
-        - name: "Add EML Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/eml"
-          description: "E-mail Message"
-
-        # format loop
-        - name: "Add DWG Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/dwg"
-          description: "Autodesk Design Data Formats"
-
-        # format loop
-        - name: "Add DXF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/dxf"
-          description: "AutoCAD Drawing Interchange"
-
-        # format loop
-        - name: "Add ONE Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/one"
-          description: "Microsoft OneNote"
-
-        # format loop
-        - name: "Add MP3 Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/mp3"
-          description: "MPEG Audio Layer III"
-
-        # format loop
-        - name: "Add WAV Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/wav"
-          description: "Waveform Audio File Format"
-
-        # format loop
-        - name: "Add DICOM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/dicom"
-          description: "Digital Imaging &amp; Comm in Medicine"
-
-        # format loop
-        - name: "Add AVI Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/avi"
-          description: "Audio Video Interleave File"
-
-        # format loop
-        - name: "Add VSD Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/vsd"
-          description: "Microsoft Visio 2003-2010 Drawing"
-
-        # format loop
-        - name: "Add VSDX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/vsdx"
-          description: "Microsoft Visio Drawing"
-
-        # format loop
-        - name: "Add VSS Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/vss"
-          description: "Microsoft Visio 2003-2010 Stencil"
-
-        # format loop
-        - name: "Add VDX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/vdx"
-          description: "Microsoft Visio 2003-2010 XML Drawing"
-
-        # format loop
-        - name: "Add VSX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/vsx"
-          description: "Microsoft Visio 2003-2010 XML Stencil"
-
-        # format loop
-        - name: "Add ZIP Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/zip"
-          description: "Archive File Format"
-
-        # format loop
-        - name: "Add EPUB Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/epub"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "Add VCF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/vcf"
-          description: "Electronic Business Card"
-
-        # format loop
-        - name: "Add VCR Metadata"
-          link: "https://products.groupdocs.com/metadata/java/add/vcr"
-          description: "vCard"
-
+        Multi format documents and images metadata addition API for Java. Retrieve metadata of some of the popular file formats as stated below.
 
 ############################# Back to top ###############################
 back_to_top:

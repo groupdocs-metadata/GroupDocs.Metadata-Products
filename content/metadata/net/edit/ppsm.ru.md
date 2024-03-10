@@ -1,304 +1,122 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2021-05-20T16:12:17+03:00
+layout: "auto-gen-metadata"
+date: 2024-03-10T13:38:31
 draft: false
+otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
+
 ############################# Head ############################
-head_title: "Редактировать &amp; Обновление метаданных файлов PPSM в приложениях C# .NET"
-head_description: "API редактирования метаданных C# .NET для обновления метаданных файлов PPSM. Работа со стандартами метаданных XMP, EXIF, IPTC, ID3 и т. д."
+head_title: "Редактирование метаданных в PPSM файлах в C# приложениях"
+head_description: "API обработки метаданных C# для редактирования метаданных в файлы PPSM. Работайте со стандартами метаданных XMP, EXIF, IPTC, ID3 и т. д."
+
 ############################# Header ############################
 title: "Обновить метаданные файла PPSM в C#"
-description: "Обновляйте информацию метаданных из всех популярных форматов документов, изображений и мультимедийных файлов с поддержкой выполнения всех наиболее необходимых операций обработки метаданных."
+description: "Обновляйте метаданные из всех популярных документов, изображений и форматов мультимедийных файлов с поддержкой выполнения всех наиболее необходимых операций обработки метаданных."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
+    label: "Загрузить бесплатную пробную версию"
     link: "https://downloads.groupdocs.com/metadata/net"
+
 ############################# SubMenu ############################
 submenu:
     enable: true
+
     left:
         img_alt: "GroupDocs.Metadata for .NET"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-metadata-net.png"
         product: "GroupDocs.Metadata"
         platform: ".NET"
+
     middle:
         button:
+
             # button loop
             - link: "https://apireference.groupdocs.com/metadata/net"
-              text: "Справочник по API"
+              text: "{submenu.content_middle.button_text_1}"
+
             # button loop
             - link: "https://github.com/groupdocs-metadata"
-              text: "Примеры кода"
+              text: "{submenu.content_middle.button_text_2}"
+
             # button loop
             - link: "https://products.groupdocs.app/metadata/family"
-              text: "Живые демонстрации"
+              text: "{submenu.content_middle.button_text_3}"
+
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/net"
-              text: "Цены"
+              text: "{submenu.content_middle.button_text_4}"
+
     right:
         link_download: "https://downloads.groupdocs.com/metadata"
         link_learn: "https://docs.groupdocs.com/metadata/net"
         link_buy: "https://purchase.groupdocs.com"
+
 ############################# About ############################
 about:
     enable: true
-    title: "О GroupDocs.Metadata для .NET API"
+    title: "Об API GroupDocs.Metadata for .NET"
     content: |
-        [GroupDocs.Metadata for .NET](/ru/metadata/net/) предлагает расширенный набор функций управления метаданными, позволяя разработчикам легко читать, ppsm, удалять, находить, сравнивать, заменять и экспортировать информацию метаданных из изображений и форматов документов без использования любое внешнее ПО. Используйте API управления метаданными для редактирования сведений о метаданных из PDF, Microsoft Office Word, электронных таблиц Excel, презентаций PowerPoint, электронных писем Outlook, форматов файлов OneNote, Visio, Project, AutoCAD, архива и мультимедиа, а также поддержку работы со многими другими функциями обработки метаданных.
+        [GroupDocs.Metadata for .NET](/ru/metadata/net/) предлагает расширенный набор функций управления метаданными, позволяющий разработчикам легко читать, документировать, удалять, находить, сравнивать, заменять и экспортировать метаданные из изображений и форматов документов без использования внешнего программного обеспечения. Используйте API управления метаданными для редактирования сведений о метаданных из электронных таблиц PDF, Microsoft Office Word, Excel презентаций, Outlook электронных писем, OneNote, Visio, Project, AutoCAD, форматов архивных и мультимедийных файлов, а также для поддержки работы со многими другими функциями обработки метаданных.
+
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги по обновлению метаданных PPSM в C#"
+    title_left: "Этапы обновления метаданных до PPSM в C#"
     content_left: |
-        [GroupDocs.Metadata](/ru/metadata/net/) позволяет разработчикам .NET легко редактировать метаданные из файлов PPSM из своих приложений, выполняя несколько простых шагов.
-        * Загрузить файл PPSM через экземпляр класса метаданных.
+        [GroupDocs.Metadata for .NET](/ru/metadata/net/) позволяет разработчикам .NET легко редактировать метаданные в файлы PPSM из своих приложений, выполнив несколько простых шагов.
+        
+        * Загрузите файл PPSM через экземпляр класса Metadata.
         * Укажите предикат, который будет использоваться для фильтрации желаемых свойств метаданных.
-        * Передайте предикат и новое значение методу UpdateProperties.
-        * Сохраните изменения на диск в формате PPSM.
-    title_right: "Системные Требования"
+        * Передайте предикат и новое значение методу updateProperties.
+        * Сохраните изменения на диске в формате PPSM.
+
+    title_right: "Системные требования"
     content_right: |
-        GroupDocs.Metadata для API .NET поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
-        * Операционные системы: Microsoft Windows, Linux, MacOS
+        GroupDocs.Metadata for .NET API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные условия.
+
+        * Операционные системы: ОС Microsoft Windows, Linux, Mac
         * Среды разработки: Visual Studio, Xamarin, MonoDevelop
-        * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Загрузите последнюю версию GroupDocs.Metadata для .NET из [NuGet](https://www.nuget.org/packages/groupdocs.metadata).
+        * Каркасы: .NET Framework, .NET Standard, .NET Core, Mono
+        * Загрузите последнюю версию GroupDocs.Metadata for .NET с сайта [NuGet](https://www.nuget.org/packages/groupdocs.metadata)
+         
     code: |
-        ```cs
+        ```csharp    
         using (var metadata = new GroupDocs.Metadata.Metadata("input.ppsm"))
         {
-        	// установить значение каждого свойства, которое удовлетворяет предикату:
-        	// свойство содержит дату/время создания документа
-        	// обновить дату/время создания файла, если существующее значение старше 3 дней
-        	var affected = metadata.UpdateProperties(
-        		p => p.Tags.Contains(GroupDocs.Metadata.Tagging.Tags.Time.Created) &&
-        		p.Value.Type == GroupDocs.Metadata.Common.MetadataPropertyType.DateTime &&
-        		p.Value.ToStruct() < DateTime.Today.AddDays(-3), new GroupDocs.Metadata.Common.PropertyValue(DateTime.Today));
-        	Console.WriteLine("Properties set: {0}", affected);
-        	metadata.Save("output.ppsm");
+            // задайте значение каждого свойства, удовлетворяющего предикату:
+            // свойство содержит дату и время создания документа
+            // обновите дату/время создания файла, если существующее значение старше 3 дней
+            var affected = metadata.UpdateProperties(
+              p => p.Tags.Contains(GroupDocs.Metadata.Tagging.Tags.Time.Created) &&
+              p.Value.Type == GroupDocs.Metadata.Common.MetadataPropertyType.DateTime &&
+              p.Value.ToStruct() < DateTime.Today.AddDays(-3), new GroupDocs.Metadata.Common.PropertyValue(DateTime.Today));
+            Console.WriteLine("Properties set: {0}", affected);
+            metadata.Save("output.ppsm");
         }
         ```
+
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Живые демонстрации для обновления метаданных"
+    title: "Демонстрации в реальном времени для обновления метаданных"
     content: |
-        Обновите метаданные файла PPSM прямо сейчас, посетив веб-сайт [GroupDocs.Metadata Живые события](https://products.groupdocs.app/metadata/family).
+       Обновите метаданные до файла PPSM прямо сейчас, посетив веб-сайт [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family).
+       Живая демонстрация имеет следующие преимущества.
+        
 ############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-ppsm"
-          title: "О формате файла PPSM"
-          content: |
-            Файлы с расширением PPSM представляют собой формат файлов слайд-шоу с поддержкой макросов, созданный с помощью Microsoft PowerPoint 2007 или более поздней версии. Другим похожим форматом файла является PPTM, который отличается тем, что открывается с помощью Microsoft PowerPoint в редактируемом формате, а не в виде слайд-шоу. При запуске в виде слайд-шоу файл PPSM показывает слайды презентации с неповрежденным содержимым в слайд-шоу и по умолчанию находится в режиме только для чтения. Файлы PPSM по-прежнему можно редактировать в Microsoft PowerPoint, открыв их в PowerPoint.
-          link: "https://docs.fileformat.com/presentation/ppsm/"
+
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Обновление свойств метаданных из файлов других форматов"
+    title: "Обновление свойств метаданных из других форматов файлов"
     content: |
-        API для редактирования метаданных мультиформатных документов и изображений для .NET. Измените метаданные некоторых популярных форматов файлов, как указано ниже.
-    format: 
-        # format loop
-        - name: "Обновить метаданные PDF"
-          link: "/metadata/net/edit/pdf/"
-          description: "Adobe Portable Document Format"
-        # format loop
-        - name: "Обновить метаданные DOC"
-          link: "/metadata/net/edit/doc/"
-          description: "Документ Microsoft Word"
-        # format loop
-        - name: "Обновить метаданные DOCM"
-          link: "/metadata/net/edit/docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-        # format loop
-        - name: "Обновить метаданные DOCX"
-          link: "/metadata/net/edit/docx/"
-          description: "Документ Microsoft Word с открытым XML"
-        # format loop
-        - name: "Обновить метаданные DOT"
-          link: "/metadata/net/edit/dot/"
-          description: "Шаблон документа Microsoft Word"
-        # format loop
-        - name: "Обновить метаданные DOTX"
-          link: "/metadata/net/edit/dotx/"
-          description: "Шаблон документа Word Open XML"
-        # format loop
-        - name: "Обновить метаданные XLS"
-          link: "/metadata/net/edit/xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-        # format loop
-        - name: "Обновить метаданные XLSX"
-          link: "/metadata/net/edit/xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-        # format loop
-        - name: "Обновить метаданные XLSM"
-          link: "/metadata/net/edit/xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-        # format loop
-        - name: "Обновить метаданные XLTM"
-          link: "/metadata/net/edit/xltm/"
-          description: "Шаблон рабочей книги с поддержкой макросов OOXML"
-        # format loop
-        - name: "Обновить метаданные PPT"
-          link: "/metadata/net/edit/ppt/"
-          description: "Презентация PowerPoint"
-        # format loop
-        - name: "Обновить метаданные PPS"
-          link: "/metadata/net/edit/pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-        # format loop
-        - name: "Обновить метаданные PPTX"
-          link: "/metadata/net/edit/pptx/"
-          description: "Презентация PowerPoint Open XML"
-        # format loop
-        - name: "Обновить метаданные PPSX"
-          link: "/metadata/net/edit/ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-        # format loop
-        - name: "Обновить метаданные POTX"
-          link: "/metadata/net/edit/potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-        # format loop
-        - name: "Обновить метаданные POTM"
-          link: "/metadata/net/edit/potm/"
-          description: "Шаблон Microsoft PowerPoint"
-        # format loop
-        - name: "Обновить метаданные PPTM"
-          link: "/metadata/net/edit/pptm/"
-          description: "Презентация Microsoft PowerPoint"
-        # format loop
-        - name: "Обновить метаданные PPSM"
-          link: "/metadata/net/edit/ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-        # format loop
-        - name: "Обновить метаданные ODS"
-          link: "/metadata/net/edit/ods/"
-          description: "Открыть электронную таблицу документов"
-        # format loop
-        - name: "Обновить метаданные ODT"
-          link: "/metadata/net/edit/odt/"
-          description: "Открыть текст документа"
-        # format loop
-        - name: "Обновить метаданные TIFF"
-          link: "/metadata/net/edit/tiff/"
-          description: "Формат файла изображения с тегами"
-        # format loop
-        - name: "Обновить метаданные JPEG"
-          link: "/metadata/net/edit/jpeg/"
-          description: "Изображение в формате JPEG"
-        # format loop
-        - name: "Обновить метаданные PNG"
-          link: "/metadata/net/edit/png/"
-          description: "Портативная сетевая графика"
-        # format loop
-        - name: "Обновить метаданные GIF"
-          link: "/metadata/net/edit/gif/"
-          description: "Графический файл формата обмена"
-        # format loop
-        - name: "Обновить метаданные BMP"
-          link: "/metadata/net/edit/bmp/"
-          description: "Формат растрового файла"
-        # format loop
-        - name: "Обновить метаданные JP2"
-          link: "/metadata/net/edit/jp2/"
-          description: "Основной файл изображения JPEG 2000"
-        # format loop
-        - name: "Обновить метаданные WEBP"
-          link: "/metadata/net/edit/webp/"
-          description: "Формат файла растрового веб-изображения"
-        # format loop
-        - name: "Обновить метаданные PSD"
-          link: "/metadata/net/edit/psd/"
-          description: "Документ Adobe Photoshop"
-        # format loop
-        - name: "Обновить метаданные WMF"
-          link: "/metadata/net/edit/wmf/"
-          description: "Метафайл Windows"
-        # format loop
-        - name: "Обновить метаданные EMF"
-          link: "/metadata/net/edit/emf/"
-          description: "Расширенный формат метафайла"
-        # format loop
-        - name: "Обновить метаданные MPP"
-          link: "/metadata/net/edit/mpp/"
-          description: "Документ Microsoft Project"
-        # format loop
-        - name: "Обновить метаданные MSG"
-          link: "/metadata/net/edit/msg/"
-          description: "Сообщение электронной почты Microsoft Outlook"
-        # format loop
-        - name: "Обновить метаданные EML"
-          link: "/metadata/net/edit/eml/"
-          description: "Сообщение электронной почты"
-        # format loop
-        - name: "Обновить метаданные DWG"
-          link: "/metadata/net/edit/dwg/"
-          description: "Форматы проектных данных Autodesk"
-        # format loop
-        - name: "Обновить метаданные DXF"
-          link: "/metadata/net/edit/dxf/"
-          description: "Обмен чертежами AutoCAD"
-        # format loop
-        - name: "Обновить метаданные ONE"
-          link: "/metadata/net/edit/one/"
-          description: "Майкрософт OneNote"
-        # format loop
-        - name: "Обновить метаданные MP3"
-          link: "/metadata/net/edit/mp3/"
-          description: "Аудиоуровень MPEG III"
-        # format loop
-        - name: "Обновить метаданные WAV"
-          link: "/metadata/net/edit/wav/"
-          description: "Формат звукового файла формы волны"
-        # format loop
-        - name: "Обновить метаданные DICOM"
-          link: "/metadata/net/edit/dicom/"
-          description: "Цифровая визуализацияКомм в медицине"
-        # format loop
-        - name: "Обновить метаданные AVI"
-          link: "/metadata/net/edit/avi/"
-          description: "Файл чередования аудио-видео"
-        # format loop
-        - name: "Обновить метаданные VSD"
-          link: "/metadata/net/edit/vsd/"
-          description: "Чертеж Microsoft Visio 2003-2010"
-        # format loop
-        - name: "Обновить метаданные VSDX"
-          link: "/metadata/net/edit/vsdx/"
-          description: "Рисование Microsoft Visio"
-        # format loop
-        - name: "Обновить метаданные VSS"
-          link: "/metadata/net/edit/vss/"
-          description: "Трафарет Microsoft Visio 2003-2010"
-        # format loop
-        - name: "Обновить метаданные VDX"
-          link: "/metadata/net/edit/vdx/"
-          description: "Microsoft Visio 2003-2010 XML-чертеж"
-        # format loop
-        - name: "Обновить метаданные VSX"
-          link: "/metadata/net/edit/vsx/"
-          description: "Microsoft Visio 2003-2010 XML-трафарет"
-        # format loop
-        - name: "Обновить метаданные ZIP"
-          link: "/metadata/net/edit/zip/"
-          description: "Формат файла архива"
-        # format loop
-        - name: "Обновить метаданные EPUB"
-          link: "/metadata/net/edit/epub/"
-          description: "Формат файла цифровой электронной книги"
-        # format loop
-        - name: "Обновить метаданные VCF"
-          link: "/metadata/net/edit/vcf/"
-          description: "Электронная визитная карточка"
-        # format loop
-        - name: "Обновить метаданные VCR"
-          link: "/metadata/net/edit/vcr/"
-          description: "визитная карточка"
+        API редактирования метаданных многоформатных документов и изображений для .NET. Извлеките метаданные некоторых популярных форматов файлов, как указано ниже.
+
 ############################# Back to top ###############################
 back_to_top:
     enable: true

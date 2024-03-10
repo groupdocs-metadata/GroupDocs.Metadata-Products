@@ -1,21 +1,26 @@
 ---
-layout: "auto-gen"
-date: 2021-05-20T16:11:45+03:00
+############################# Static ############################
+layout: "auto-gen-metadata"
+date: 2024-03-10T13:38:37
 draft: false
+otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
-head_title: "表示＆amp; JavaアプリケーションでEMFファイルのメタデータを抽出する"
-head_description: "クロスプラットフォームのJavaメタデータ抽出APIを使用して、EMFファイルのメタデータ情報を読み取って抽出します。メタデータ標準XMP、EXIF、IPTC、ID3などを操作します。"
+############################# Head ############################
+head_title: "Java アプリケーションの EMF ファイルのメタデータの読み取りと抽出"
+head_description: "EMF ファイルのメタデータ情報を読み取って抽出するためのクロスプラットフォーム Java メタデータ管理API。メタデータ規格 XMP、EXIF、IPTC、ID3 などと連携してください。"
 
-title: "JavaでEMFメタデータを抽出する"
-description: "GroupDocs.Metadata for Java APIと連携して、ドキュメント、画像、およびさまざまなマルチメディアファイル形式からメタデータ情報を抽出します."
+############################# Header ############################
+title: "Java 内の EMF ファイルからメタデータを抽出"
+description: "GroupDocs.Metadata for Java を使用して、さまざまなドキュメント、画像、オーディオ、ビデオ形式からメタデータ情報を読み取り、抽出します"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "無料トライアルをダウンロード"
+    label: "無料試用版をダウンロード"
     link: "https://downloads.groupdocs.com/metadata/java"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,235 +33,92 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/metadata/java"
-              text: "APIリファレンス"
+              text: "{submenu.content_middle.button_text_1}"
 
+            # button loop
             - link: "https://github.com/groupdocs-metadata"
-              text: "コード例"
+              text: "{submenu.content_middle.button_text_2}"
 
+            # button loop
             - link: "https://products.groupdocs.app/metadata/family"
-              text: "ライブデモ"
+              text: "{submenu.content_middle.button_text_3}"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/java"
-              text: "価格設定"
+              text: "{submenu.content_middle.button_text_4}"
 
     right:
         link_download: "https://downloads.groupdocs.com/metadata"
         link_learn: "https://docs.groupdocs.com/metadata/java"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Metadata for Java APIについて"
+    title: "GroupDocs.Metadata for Java API について"
     content: |
-        [GroupDocs.Metadata for Java](/metadata/java/)は高度なメタデータ管理ソリューションであり、開発者は画像やドキュメント形式のメタデータ情報を使用せずに簡単に表示、追加、編集、削除、検索、比較、置換、エクスポートできます。外部ソフトウェア。 Microsoft Office Word、Excel、PowerPoint、Outlook、OneNote、Visio、Project、PDF、AutoCAD、アーカイブ、オーディオ、ビデオのファイル形式からメタデータの詳細を抽出します。
+        [GroupDocs.Metadata for Java](/ja/metadata/java/) は、高度なメタデータ管理および操作機能セットを提供します。これにより、開発者は外部ソフトウェアを使用せずに、画像や文書形式からメタデータ情報を簡単に読み取り、編集、削除、検索、比較、置換、エクスポートできます。PDF、Word、Excel、PowerPoint、Outlook、OneNote、Visio、Project、AutoCAD、アーカイブおよびマルチメディアファイル形式からメタデータの詳細を抽出し、サポートされているメタデータ操作を柔軟に実行できます。
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "JavaでのEMFメタデータ抽出の手順"
+    title_left: "Java での EMF メタデータ抽出の手順"
     content_left: |
-        [GroupDocs.Metadata](/metadata/java/)を使用すると、Java開発者は、いくつかの簡単な手順を実装することで、アプリケーション内からEMFファイルからメタデータ情報を簡単に取得できます。
-
-        * メタデータプロパティを検索するEMFファイルをロードします。
-        *抽出されたすべてのメタデータプロパティを調べるための述語を作成します。
-        * 述語をFindPropertiesメソッドに渡します。
+        [GroupDocs.Metadata for Java](/ja/metadata/java/) を使用すると、Java 開発者は、いくつかの簡単な手順を実装するだけで、アプリケーション内から EMF ファイルからメタデータ情報を簡単に抽出、読み取り、抽出できます。
+        
+        * EMF に Metadata クラスのインスタンスをロードします。
+        * 述語を作成して、すべてのメタデータのプロパティを調べてください。
+        * 述語を findProperties メソッドに渡します。
         * 見つかったプロパティを繰り返し処理します。
-        
-    title_right: "システム要求"
-    content_right: |
-        GroupDocs.Metadata for Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        * 開発環境：NetBeans、Intellij IDEA、Eclipseなど
-        * Javaランタイム環境：J2SE6.0以降
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)からJava用のGroupDocs.Metadataの最新バージョンを入手します。
-        
+    title_right: "システム要件"
+    content_right: |
+        GroupDocs.Metadata for Java 個のAPIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、以下の前提条件がシステムにインストールされていることを確認してください。
+
+        * オペレーティングシステム:マイクロソフト Windows、Linux、Mac OS
+        * 開発環境:NetBeans, IntelliJ IDEA, Eclipse
+        * Java ランタイム環境: J2SE 6.0 and above
+        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata) から GroupDocs.Metadata for Java の最新バージョンをダウンロードしてください
+         
     code: |
-        ```java
-        try (Metadata metadata = new Metadata("input.emf")) {
-        	if (metadata.getFileFormat() != FileFormat.Unknown && !metadata.getDocumentInfo().isEncrypted()) {
-        
-        		//特定のカテゴリに分類されるすべてのメタデータプロパティを取得します
-        		IReadOnlyList properties = metadata.findProperties(new FallsIntoCategorySpecification(Tags.getContent()));
-        		System.out.println("The metadata properties describing some characteristics of the file content: title, keywords, language, etc.");
-        		for (MetadataProperty property : properties) {
-        			System.out.println(String.format("Property name: %s, Property value: %s", property.getName(), property.getValue()));
-        		}
-        	}
+        ```java    
+        try (Metadata metadata = new Metadata("input.asf"))
+        {
+            if (metadata.getFileFormat() != FileFormat.Unknown && !metadata.getDocumentInfo().isEncrypted())
+            {
+                // 特定のカテゴリに分類されるすべてのメタデータプロパティを取得
+                IReadOnlyList properties = metadata.findProperties(new FallsIntoCategorySpecification(Tags.getContent()));
+                System.out.println("The metadata properties describing some characteristics of the file content: title, keywords, language, etc.");
+                for (MetadataProperty property : properties) 
+                {
+                    System.out.println(String.format("Property name: %s, Property value: %s", property.getName(), property.getValue()));
+                }
+            }
         }
         ```
-        
+
+############################# Demos ############################
 demos:
     enable: true
-    title: "メタデータ抽出のライブデモ"
+    title: "メタデータ抽出ライブデモ"
     content: |
-        [GroupDocs.Metadataライブデモ](https://products.groupdocs.app/metadata/family)サイトにアクセスして、EMFファイルのメタデータ情報を今すぐ取得してください。  
-        ライブデモには次の利点があります
+       [GroupDocs.Metadata ライブデモ](https://products.groupdocs.app/metadata/family) ウェブサイトにアクセスして、EMF ファイルのメタデータ情報を今すぐ取得してください。
+       ライブデモには次の利点があります。
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-file-emf"
-          title: "EMFファイル形式について"
-          content: |
-            拡張メタファイル形式（EMF）は、グラフィック画像をデバイスに依存せずに保存します。 EMFのメタファイルは、任意の出力デバイスで解析した後、保存された画像をレンダリングできる時系列の可変長レコードで構成されます。これらの可変長レコードは、囲まれたオブジェクトの定義、描画用のコマンド、および画像を正確にレンダリングするために重要なグラフィックスプロパティにすることができます。デバイスが独自のグラフィックス環境を使用してEMFメタファイルを開くと、開いているデバイスプラットフォームに関係なく、元の画像の比率、寸法、色、およびその他のグラフィックプロパティは同じままです。
 
-          link: "https://docs.fileformat.com/image/emf/"
-
+############################# More Formats ############################
 more_formats:
-    enable: false
-    title: "他のファイル形式のメタデータの表示と抽出"
+    enable: true
+    title: "他のファイル形式の読み取りと抽出"
     content: |
-        Java用のマルチフォーマットドキュメントおよび画像メタデータ抽出API。以下に示すように、いくつかの一般的なファイル形式のメタデータの詳細を取得します。
-    format: 
-          link: "/metadata/java/extract/pdf/"
-          description: "AdobePortableドキュメント形式"
+        Java 用のマルチフォーマット文書および画像メタデータ抽出API。以下に説明するように、一般的なファイル形式のメタデータを取得します。
 
-          link: "/metadata/java/extract/doc/"
-          description: "MicrosoftWordドキュメント"
-
-          link: "/metadata/java/extract/docm/"
-          description: "MicrosoftWordマクロ対応ドキュメント"
-
-          link: "/metadata/java/extract/docx/"
-          description: "Microsoft WordOpenXMLドキュメント"
-
-          link: "/metadata/java/extract/dot/"
-          description: "MicrosoftWord文書テンプレート"
-
-          link: "/metadata/java/extract/dotx/"
-          description: "WordOpenXMLドキュメントテンプレート"
-
-          link: "/metadata/java/extract/xls/"
-          description: "MicrosoftExcelバイナリファイル形式"
-
-          link: "/metadata/java/extract/xlsx/"
-          description: "Microsoft ExcelOpenXMLスプレッドシート"
-
-          link: "/metadata/java/extract/xlsm/"
-          description: "MicrosoftExcelマクロ対応スプレッドシート"
-
-          link: "/metadata/java/extract/xltx/"
-          description: "OOXMLマクロ対応ワークブックテンプレート"
-
-          link: "/metadata/java/extract/ppt/"
-          description: "PowerPointプレゼンテーション"
-
-          link: "/metadata/java/extract/pps/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "/metadata/java/extract/pptx/"
-          description: "PowerPointOpenXMLプレゼンテーション"
-
-          link: "/metadata/java/extract/ppsx/"
-          description: "PowerPointOpenXMLスライドショー"
-
-          link: "/metadata/java/extract/potx/"
-          description: "Microsoft PowerPointOpenXMLテンプレート"
-
-          link: "/metadata/java/extract/potm/"
-          description: "MicrosoftPowerPointテンプレート"
-
-          link: "/metadata/java/extract/pptm/"
-          description: "MicrosoftPowerPointプレゼンテーション"
-
-          link: "/metadata/java/extract/ppsm/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "/metadata/java/extract/ods/"
-          description: "ドキュメントスプレッドシートを開く"
-
-          link: "/metadata/java/extract/odt/"
-          description: "ドキュメントテキストを開く"
-
-          link: "/metadata/java/extract/tiff/"
-          description: "タグ付き画像ファイル形式"
-
-          link: "/metadata/java/extract/jpeg/"
-          description: "JPEG画像"
-
-          link: "/metadata/java/extract/png/"
-          description: "ポータブルネットワークグラフィック"
-
-          link: "/metadata/java/extract/gif/"
-          description: "グラフィカルな交換フォーマットファイル"
-
-          link: "/metadata/java/extract/bmp/"
-          description: "ビットマップファイル形式"
-
-          link: "/metadata/java/extract/jp2/"
-          description: "JPEG2000コア画像ファイル"
-
-          link: "/metadata/java/extract/webp/"
-          description: "ラスターWeb画像ファイル形式"
-
-          link: "/metadata/java/extract/psd/"
-          description: "AdobePhotoshopドキュメント"
-
-          link: "/metadata/java/extract/wmf/"
-          description: "Windowsメタファイル"
-
-          link: "/metadata/java/extract/emf/"
-          description: "強化されたメタファイル形式"
-
-          link: "/metadata/java/extract/emz/"
-          description: "MicrosoftProjectドキュメント"
-
-          link: "/metadata/java/extract/msg/"
-          description: "MicrosoftOutlookの電子メールメッセージ"
-
-          link: "/metadata/java/extract/eml/"
-          description: "電子メールメッセージ"
-
-          link: "/metadata/java/extract/dwg/"
-          description: "Autodesk Design Data Formats"
-
-          link: "/metadata/java/extract/dxf/"
-          description: "AutoCAD Drawing Interchange"
-
-          link: "/metadata/java/extract/one/"
-          description: "Microsoft OneNote"
-
-          link: "/metadata/java/extract/mp3/"
-          description: "MPEGオーディオレイヤーIII"
-
-          link: "/metadata/java/extract/wav/"
-          description: "波形オーディオファイル形式"
-
-          link: "/metadata/java/extract/dicom/"
-          description: "デジタルイメージング＆amp;医学のコミュニケーション"
-
-          link: "/metadata/java/extract/avi/"
-          description: "オーディオビデオインターリーブファイル"
-
-          link: "/metadata/java/extract/vsd/"
-          description: "MicrosoftVisio2003-2010図面"
-
-          link: "/metadata/java/extract/vsdx/"
-          description: "MicrosoftVisio図面"
-
-          link: "/metadata/java/extract/vss/"
-          description: "MicrosoftVisio2003-2010ステンシル"
-
-          link: "/metadata/java/extract/vdx/"
-          description: "Microsoft Visio2003-2010XML図面"
-
-          link: "/metadata/java/extract/vsx/"
-          description: "Microsoft Visio2003-2010XMLステンシル"
-
-          link: "/metadata/java/extract/zip/"
-          description: "アーカイブファイル形式"
-
-          link: "/metadata/java/extract/epub/"
-          description: "デジタル電子書籍ファイル形式"
-
-          link: "/metadata/java/extract/vcf/"
-          description: "電子名刺"
-
-          link: "/metadata/java/extract/vcr/"
-          description: "vCard"
-
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

@@ -1,0 +1,47 @@
+{
+  "head": {
+    "title": "Hapus Properti Metadata dari {{EXT}} File di {{ProgLang}}",
+    "description": "API metadata lintas platform {{ProgLang}} untuk menyembunyikan dan menghapus bidang metadata dari {{EXT}} file. Bekerja dengan standar metadata XMP, EXIF, IPTC, ID3 dll. "
+  },
+  "header": {
+    "title": "Hapus {{EXT}} Metadata Dalam {{ProgLang}}",
+    "description": "Hapus properti metadata dari {{EXT}} dan banyak dokumen populer lainnya, gambar, dan format file multimedia menggunakan {{ProductFullName}} API.",
+    "button_label": "Unduh Uji Coba Gratis"
+  },
+  "about": {
+    "title": "Tentang {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/metadata/{{ProductCode}}/) adalah solusi manipulasi bidang metadata lanjutan untuk dengan mudah membaca, menambah, memperbarui, menghapus, menemukan, membandingkan, bertukar, dan mengekspor informasi metadata dari gambar dan format dokumen tanpa menggunakan perangkat lunak eksternal apa pun. Hapus detail metadata dari Word dokumen, Excel spreadsheet, PowerPoint presentasi, Outlook email, OneNote, Visio, Project, PDF, AutoCAD, Zip, Audio dan Video format file bersama dengan dukungan untuk bekerja dengan banyak fitur pemrosesan metadata lainnya."
+  },
+  "steps": {
+    "title_left": "Langkah-langkah untuk Menghapus Metadata ke {{EXT}} di {{ProgLang}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/metadata/{{ProductCode}}/) memudahkan pengembang {{ProgLang}} untuk menghapus informasi metadata dari file {{EXT}} dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.",
+      "step_1": "Muat file {{EXT}} yang akan diperbarui.",
+      "step_2": "Meneruskan predikat pencarian ke metode removeProperties.",
+      "step_3": "Periksa jumlah properti yang benar-benar dihapus.",
+      "step_4": "Simpan perubahan."
+    },
+    "title_right": "Persyaratan Sistem",
+    "content_right": {
+      "description": "{{ProductFullName}} API didukung di semua platform utama dan sistem operasi. Sebelum menjalankan kode di bawah ini, pastikan bahwa Anda memiliki prasyarat berikut diinstal pada sistem Anda.",
+      "step_1": "Sistem Operasi: Microsoft Windows, Linux, Mac OS",
+      "step_2": "Lingkungan Pengembangan: {{DevEnv}}",
+      "step_3": "Java Lingkungan Runtime",
+      "step_4": "Dapatkan versi terbaru {{ProductFullName}} dari [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Cara menghapus file Metaddata {{EXT}} menggunakan kode contoh {{ProgLang}}",
+    "code": {
+      "remove_mention_comment": "Hapus semua penyebutan orang yang berkontribusi dalam pembuatan file",
+      "remove_prop_comment": "Hapus properti kustom dengan nama yang ditentukan "
+    }
+  },
+  "demos": {
+    "title": "Demo Langsung untuk Menghapus Metadata",
+    "h1": "Hapus informasi metadata dari file {{EXT}} sekarang dengan mengunjungi situs web [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family).",
+    "h2": "Demo langsung memiliki manfaat sebagai berikut."
+  },
+  "more_formats": {
+    "title": "Menghapus Metadata Format File Lain",
+    "content": "Dokumen multi format dan metadata gambar menghapus API untuk {{ProductName}}. Ambil metadata dari beberapa format file populer seperti yang dinyatakan di bawah ini."
+  }
+}

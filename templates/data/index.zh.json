@@ -1,0 +1,48 @@
+{
+  "head": {
+    "title": ".NET、Java API 和 GroupDocs 的在线元数据处理应用程序",
+    "description": "C# .NET 和 Java 原生的文档元数据 API。读取、写入、编辑和比较所有流行格式的元信息。分析和导出元数据。"
+  },
+  "header": {
+    "title": "文档元数据管理解决方案",
+    "description": "用于读取、编辑、替换和删除流行平台上文档、图像和其他文件格式的元数据的 API 和应用程序。"
+  },
+  "apis": {
+    "highcode": {
+      "title": "GroupDocs.Metadata 高级代码 API 包括",
+      "label": "查看所有高级代码 API",
+      "net": {
+        "content": "本机 .NET API 可动态读取、写入、编辑和删除来自 Microsoft Office、PDF、多媒体、图像和各种其他文件格式的元信息。"
+      },
+      "java": {
+        "content": "用于编辑和操作文档、图像、视频文件和各种其他文件格式的元数据的 Java API。"
+      }
+    },
+    "lowcode": {
+      "title": "GroupDocs.Metadata 低代码 API 包括",
+      "label": "查看所有低代码 API",
+      "curl": {
+        "content": "使用 cURL RESTful 元数据操作 API 来管理应用程序中 PDF、Word、Excel、演示文稿、图像和多媒体文件的元数据信息。"
+      },
+      "net": {
+        "content": "将元数据 REST API 与 .NET SDK 结合使用，以在 .NET 应用程序中添加、编辑、提取、搜索和删除文档格式的元数据。"
+      },
+      "java": {
+        "content": "使用 Metadata SDK for Java 通过强大的元数据管理功能增强您的 Java 应用程序。"
+      }
+    },
+    "nocode": {
+      "title": "GroupDocs.Metadata 无代码应用程序包括",
+      "label": "查看所有无代码应用",
+      "total": {
+        "content": "免费应用程序，用于查看和编辑 Word、Excel、PDF、PowerPoint 和 50 多种文档类型的元数据。"
+      },
+      "docx": {
+        "content": "MS Word 文档的免费在线元数据查看器和编辑器。"
+      },
+      "pdf": {
+        "content": "在线查看或编辑 PDF 文档的元数据信息。"
+      }
+    }
+  }
+}

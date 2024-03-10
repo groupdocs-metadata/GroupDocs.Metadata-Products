@@ -1,0 +1,5 @@
+inherits: languages.yml
+
+dictionaries: [ "..\\data\\index_net.{lang}.json" ]
+
+outputPath: "net\\_index.{lang}.md"

@@ -1,0 +1,48 @@
+{
+  "head": {
+    "title": ".NET, Java GroupDocs의 API 및 온라인 메타데이터 조작 앱",
+    "description": "C# .NET 및 Java 고유의 문서 메타데이터 API. 모든 대중적인 형식의 메타 정보를 읽고, 쓰고, 편집하고, 비교하십시오. 메타데이터를 분석하고 내보냅니다."
+  },
+  "header": {
+    "title": "문서 메타데이터 관리 솔루션",
+    "description": "널리 사용되는 플랫폼에서 문서, 이미지 및 기타 파일 형식의 메타데이터를 읽고, 편집하고, 교체하고, 제거하는 API 및 앱."
+  },
+  "apis": {
+    "highcode": {
+      "title": "GroupDocs.Metadata High Code API 포함",
+      "label": "모든 High Code API 보기",
+      "net": {
+        "content": "네이티브 .NET API는 Microsoft Office, PDF, 멀티미디어, 이미지 및 다양한 기타 파일 형식에서 메타 정보를 동적으로 읽고, 쓰고, 편집하고, 제거합니다."
+      },
+      "java": {
+        "content": "Java 문서, 이미지, 비디오 파일 및 기타 다양한 파일 형식의 메타데이터를 편집하고 조작하는 API입니다."
+      }
+    },
+    "lowcode": {
+      "title": "GroupDocs.Metadata Low Code API 포함",
+      "label": "모든 Low Code API 보기",
+      "curl": {
+        "content": "cURL RESTful 메타데이터 조작 API로 작업하여 애플리케이션에서 PDF, Word, Excel, 프리젠테이션, 이미지 및 멀티미디어 파일의 메타데이터 정보를 관리합니다."
+      },
+      "net": {
+        "content": ".NET SDK와 함께 메타데이터 REST API를 사용하여 .NET 애플리케이션 내의 문서 형식에서 메타데이터를 추가, 편집, 추출, 검색 및 삭제합니다."
+      },
+      "java": {
+        "content": "Metadata SDK for Java를 사용하여 강력한 메타데이터 관리 기능으로 Java 애플리케이션을 향상시키십시오."
+      }
+    },
+    "nocode": {
+      "title": "GroupDocs.Metadata No Code 앱 포함",
+      "label": "모든 No Code 앱 보기",
+      "total": {
+        "content": "Word, Excel, PDF, PowerPoint 및 50개 이상의 문서 유형의 메타데이터를 보고 편집할 수 있는 무료 앱입니다."
+      },
+      "docx": {
+        "content": "MS Word 문서에 대한 무료 온라인 메타데이터 뷰어 및 편집기."
+      },
+      "pdf": {
+        "content": "온라인으로 PDF 문서의 메타데이터 정보를 보거나 편집합니다."
+      }
+    }
+  }
+}

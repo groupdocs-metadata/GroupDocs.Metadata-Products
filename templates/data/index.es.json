@@ -1,0 +1,48 @@
+{
+  "head": {
+    "title": ".NET, Java API y aplicaciones de manipulación de metadatos en línea de GroupDocs",
+    "description": "Documente las API de metadatos nativas de C# .NET y Java. Lea, escriba, edite y compare metainformación de todos los formatos populares. Analizar y exportar metadatos."
+  },
+  "header": {
+    "title": "Solución de gestión de metadatos de documentos",
+    "description": "API y aplicaciones para leer, editar, reemplazar y eliminar metadatos de documentos, imágenes y otros formatos de archivo en plataformas populares."
+  },
+  "apis": {
+    "highcode": {
+      "title": "GroupDocs.Metadata High Code Las API incluyen",
+      "label": "Ver todas las High Code API",
+      "net": {
+        "content": "API nativa .NET para leer, escribir, editar y eliminar dinámicamente metainformación de Microsoft Office, PDF, multimedia, imágenes y varios otros formatos de archivo."
+      },
+      "java": {
+        "content": "Java API para editar y manipular metadatos de documentos, imágenes, archivos de video y varios otros formatos de archivo."
+      }
+    },
+    "lowcode": {
+      "title": "GroupDocs.Metadata Low Code Las API incluyen",
+      "label": "Ver todas las Low Code API",
+      "curl": {
+        "content": "Trabaje con las API de manipulación de metadatos de cURL RESTful para gestionar la información de metadatos de PDF, Word, Excel, presentaciones, imágenes y archivos multimedia en sus aplicaciones."
+      },
+      "net": {
+        "content": "Utilice la API de metadatos REST con .NET SDK para agregar, editar, extraer, buscar y eliminar metadatos de formatos de documentos dentro de .NET aplicaciones."
+      },
+      "java": {
+        "content": "Mejore sus aplicaciones Java con potentes funciones de gestión de metadatos usando Metadata SDK for Java."
+      }
+    },
+    "nocode": {
+      "title": "GroupDocs.Metadata No Code Las aplicaciones incluyen",
+      "label": "Ver todas las No Code aplicaciones",
+      "total": {
+        "content": "Aplicación gratuita para ver y editar metadatos de Word, Excel, PDF, PowerPoint y más de 50 tipos de documentos."
+      },
+      "docx": {
+        "content": "Visor y editor de metadatos en línea gratuito para MS Word documentos."
+      },
+      "pdf": {
+        "content": "Ver o editar información de metadatos de PDF documentos en línea."
+      }
+    }
+  }
+}

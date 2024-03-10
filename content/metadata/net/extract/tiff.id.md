@@ -1,13 +1,17 @@
 ---
-layout: "auto-gen"
-date: 2022-07-07T12:44:18+03:00
+############################# Static ############################
+layout: "auto-gen-metadata"
+date: 2024-03-10T13:38:36
 draft: false
+otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
-head_title: "Baca &amp; Ekstrak Metadata File TIFF di Aplikasi C# .NET"
-head_description: "Lintas platform C# .NET metadata manajemen API untuk membaca dan mengekstrak informasi metadata dari file TIFF.Bekerja dengan standar metadata XMP, EXIF, IPTC, ID3 dll."
+############################# Head ############################
+head_title: "Baca & Ekstrak Metadata dari TIFF File di C# Aplikasi"
+head_description: "API manajemen metadata lintas platform C# untuk membaca dan mengekstrak informasi metadata dari TIFF file. Bekerja dengan standar metadata XMP, EXIF, IPTC, ID3 dll."
 
-title: "Ekstrak Metadata dari File TIFF di C#"
-description: "Baca &amp; Ekstrak informasi metadata dari berbagai dokumen, gambar, audio &amp; format video menggunakan GroupDocs.Metadata untuk .NET API."
+############################# Header ############################
+title: "Ekstrak Metadata Dari File TIFF Di C#"
+description: "Baca & Ekstrak informasi metadata dari berbagai dokumen, gambar, format audio & video menggunakan GroupDocs.Metadata for .NET"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -16,6 +20,7 @@ button:
     label: "Unduh Uji Coba Gratis"
     link: "https://downloads.groupdocs.com/metadata/net"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,309 +33,114 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/metadata/net"
-              text: "Referensi API"
+              text: "{submenu.content_middle.button_text_1}"
 
+            # button loop
             - link: "https://github.com/groupdocs-metadata"
-              text: "Contoh Kode"
+              text: "{submenu.content_middle.button_text_2}"
 
+            # button loop
             - link: "https://products.groupdocs.app/metadata/family"
-              text: "Demo Langsung"
+              text: "{submenu.content_middle.button_text_3}"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/net"
-              text: "Harga"
+              text: "{submenu.content_middle.button_text_4}"
 
     right:
         link_download: "https://downloads.groupdocs.com/metadata"
         link_learn: "https://docs.groupdocs.com/metadata/net"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "Tentang GroupDocs.Metadata untuk .NET API"
+    title: "Tentang GroupDocs.Metadata for .NET API"
     content: |
-        [GroupDocs.Metadata for .NET](/id/metadata/net/) menawarkan serangkaian fitur manajemen dan manipulasi metadata yang canggih, memungkinkan pengembang untuk dengan mudah membaca, mengedit, menghapus, mencari, membandingkan, mengganti, dan mengekspor informasi metadata dari gambar dan format dokumen tanpa menggunakan perangkat lunak eksternal. Ekstrak detail metadata dari format file PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Arsip, dan Multimedia, dan lakukan operasi metadata yang didukung dengan fleksibilitas yang sebenarnya.
+        [GroupDocs.Metadata for .NET](/id/metadata/net/) menawarkan serangkaian fitur manajemen dan manipulasi metadata lanjutan, memungkinkan pengembang untuk dengan mudah membaca, mengedit, menghapus, mencari, membandingkan, mengganti, dan mengekspor informasi metadata dari gambar dan format dokumen tanpa menggunakan perangkat lunak eksternal apa pun. Ekstrak detail metadata dari format file PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Arsip dan Multimedia, dan lakukan operasi metadata yang didukung dengan fleksibilitas yang sesungguhnya.
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "Langkah-langkah untuk Ekstraksi Metadata TIFF di C#"
+    title_left: "Langkah-langkah untuk TIFF Ekstraksi Metadata di C#"
     content_left: |
-        [GroupDocs.Metadata](/id/metadata/net/) memudahkan pengembang .NET untuk membaca dan mengekstrak informasi metadata dari file TIFF dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
-
+        [GroupDocs.Metadata for .NET](/id/metadata/net/) memudahkan pengembang .NET untuk mengekstrak untuk membaca dan mengekstrak informasi metadata dari file TIFF dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
+        
         * Muat TIFF dengan instance kelas Metadata.
         * Buat predikat untuk memeriksa semua properti metadata.
-        * Berikan predikat ke metode FindProperties.
+        * Meneruskan predikat ke metode findProperties.
         * Iterasi melalui properti yang ditemukan.
-        
-    title_right: "Persyaratan sistem"
-    content_right: |
-        GroupDocs.Metadata untuk .NET API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
 
-        * Sistem Operasi: Microsoft Windows, Linux, MacOS
+    title_right: "Persyaratan Sistem"
+    content_right: |
+        GroupDocs.Metadata for .NET API didukung di semua platform utama dan sistem operasi. Sebelum menjalankan kode di bawah ini, pastikan bahwa Anda memiliki prasyarat berikut diinstal pada sistem Anda.
+
+        * Sistem Operasi: Microsoft Windows, Linux, Mac OS
         * Lingkungan Pengembangan: Visual Studio, Xamarin, MonoDevelop
         * Kerangka: .NET Framework, .NET Standard, .NET Core, Mono
-        * Unduh versi terbaru GroupDocs.Metadata untuk .NET dari [NuGet](https://www.nuget.org/packages/groupdocs.metadata)
-        
+        * Unduh versi terbaru GroupDocs.Metadata for .NET dari [NuGet](https://www.nuget.org/packages/groupdocs.metadata)
+         
     code: |
-        ```cs
+        ```csharp    
         using (var metadata = new GroupDocs.Metadata.Metadata("input.tiff"))
         {
-        	// ekstrak semua properti metadata yang termasuk dalam kategori tertentu
-        	var properties = metadata.FindProperties(
-        		p => p.Tags.Any(t => t.Category == GroupDocs.Metadata.Tagging.Tags.Content));
-        
-        	// ulangi semua properti dan tampilan
-        	foreach (var property in properties)
-        	{
-        		Console.WriteLine("{0} = {1}", property.Name, property.Value);
-        	}
-        
-        	// ekstrak semua properti yang memiliki tipe dan nilai tertentu
-        	var year = DateTime.Today.Year;
-        	properties = metadata.FindProperties(
-        		p => p.Value.Type == GroupDocs.Metadata.Common.MetadataPropertyType.DateTime &&
-        		p.Value.ToStruct(DateTime.MinValue).Year == year);
-        
-        	// menampilkan semua properti datetime dengan nilai tahun sama dengan tahun sekarang
-        	foreach (var property in properties)
-        	{
-        		Console.WriteLine("{0} = {1}", property.Name, property.Value);
-        	}
-        
-        	// ekstrak semua properti yang memiliki nama yang cocok dengan regex yang ditentukan
-        	const string pattern = "^author|company|(.+date.*)$";
-        	var regex = new System.Text.RegularExpressions.Regex(pattern,
-        		System.Text.RegularExpressions.RegexOptions.IgnoreCase);
-        	properties = metadata.FindProperties(p => regex.IsMatch(p.Name));
-        
-        	// menampilkan properti yang namanya cocok dengan pola berikut
-        	foreach (var property in properties)
-        	{
-        		Console.WriteLine("{0} = {1}", property.Name, property.Value);
-        	}
+            // ekstrak semua properti metadata yang termasuk dalam kategori tertentu
+            var properties = metadata.FindProperties(
+              p => p.Tags.Any(t => t.Category == GroupDocs.Metadata.Tagging.Tags.Content));
+            // mengulangi semua properti dan tampilan
+            foreach (var property in properties)
+            {
+                Console.WriteLine("{0} = {1}", property.Name, property.Value);
+            }
+
+            // ekstrak semua properti yang memiliki tipe dan nilai tertentu
+            var year = DateTime.Today.Year;
+            properties = metadata.FindProperties(
+              p => p.Value.Type == GroupDocs.Metadata.Common.MetadataPropertyType.DateTime && 
+              p.Value.ToStruct(DateTime.MinValue).Year == year);
+
+            // menampilkan semua properti datetime dengan nilai tahun sama dengan tahun berjalan
+            foreach (var property in properties)
+            {
+                Console.WriteLine("{0} = {1}", property.Name, property.Value);
+            }
+
+            // ekstrak semua properti yang memiliki nama yang cocok dengan regex yang ditentukan
+            const string pattern = "^author|company|(.+date.*)$";
+            var regex = new System.Text.RegularExpressions.Regex(pattern, 
+              System.Text.RegularExpressions.RegexOptions.IgnoreCase);
+            properties = metadata.FindProperties(p => regex.IsMatch(p.Name));
+
+            // menampilkan properti yang namanya cocok dengan pola berikut
+            foreach (var property in properties)
+            {
+                Console.WriteLine("{0} = {1}", property.Name, property.Value);
+            }
         }
         ```
-        
+
+############################# Demos ############################
 demos:
     enable: true
     title: "Demo Langsung Ekstraksi Metadata"
     content: |
-        Ambil informasi metadata file TIFF sekarang juga dengan mengunjungi situs web [GroupDocs.Metadata](https://products.groupdocs.app/metadata/family).  
-        Demo langsung memiliki manfaat sebagai berikut
+       Ambil informasi metadata file TIFF sekarang dengan mengunjungi situs web [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family).
+       Demo langsung memiliki manfaat sebagai berikut.
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-file-tiff"
-          title: "Tentang Format Berkas TIFF"
-          content: |
-            TIFF atau TIF, Tagged Image File Format, mewakili gambar raster yang dimaksudkan untuk digunakan pada berbagai perangkat yang memenuhi standar format file ini. Ia mampu menggambarkan data gambar bilevel, grayscale, palette-color dan full-color dalam beberapa ruang warna. Ini mendukung skema kompresi lossy serta lossless untuk memilih antara ruang dan waktu untuk aplikasi yang menggunakan format. Formatnya dapat diperluas dan telah mengalami beberapa revisi yang memungkinkan dimasukkannya informasi pribadi atau tujuan khusus dalam jumlah yang tidak terbatas. Formatnya tidak bergantung pada mesin dan bebas dari batasan seperti prosesor, sistem operasi, atau sistem file.
 
-          link: "https://docs.fileformat.com/image/tiff/"
-
+############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Membaca & Mengekstrak Format File Lain"
+    title: "Membaca & Mengekstrak Format File Lainnya"
     content: |
         Dokumen multi format dan API ekstraksi metadata gambar untuk .NET. Ambil metadata dari beberapa format file populer seperti yang dinyatakan di bawah ini.
-    format: 
-        - name: "Ekstrak Metadata PDF"
-          link: "/metadata/net/extract/pdf/"
-          description: "Format Dokumen Portabel Adobe"
 
-        - name: "Ekstrak Metadata DOC"
-          link: "/metadata/net/extract/doc/"
-          description: "Dokumen Microsoft Word"
-
-        - name: "Ekstrak Metadata DOCM"
-          link: "/metadata/net/extract/docm/"
-          description: "Dokumen Berkemampuan Makro Microsoft Word"
-
-        - name: "Ekstrak Metadata DOCX"
-          link: "/metadata/net/extract/docx/"
-          description: "Microsoft Word Buka Dokumen XML"
-
-        - name: "Ekstrak Metadata DOT"
-          link: "/metadata/net/extract/dot/"
-          description: "Templat Dokumen Microsoft Word"
-
-        - name: "Ekstrak Metadata DOTX"
-          link: "/metadata/net/extract/dotx/"
-          description: "Templat Dokumen XML Word Terbuka"
-
-        - name: "Ekstrak Metadata XLS"
-          link: "/metadata/net/extract/xls/"
-          description: "Format File Biner Microsoft Excel"
-
-        - name: "Ekstrak Metadata XLSX"
-          link: "/metadata/net/extract/xlsx/"
-          description: "Microsoft Excel Buka XML Spreadsheet"
-
-        - name: "Ekstrak Metadata XLSM"
-          link: "/metadata/net/extract/xlsm/"
-          description: "Spreadsheet Berkemampuan Makro Microsoft Excel"
-
-        - name: "Ekstrak Metadata XLTM"
-          link: "/metadata/net/extract/xltx/"
-          description: "Templat Buku Kerja yang Diaktifkan Makro OOXML"
-
-        - name: "Ekstrak Metadata PPT"
-          link: "/metadata/net/extract/ppt/"
-          description: "Presentasi powerpoint"
-
-        - name: "Ekstrak Metadata PPS"
-          link: "/metadata/net/extract/pps/"
-          description: "Pertunjukan Slide Microsoft PowerPoint"
-
-        - name: "Ekstrak Metadata PPTX"
-          link: "/metadata/net/extract/pptx/"
-          description: "Presentasi PowerPoint Terbuka XML"
-
-        - name: "Ekstrak Metadata PPSX"
-          link: "/metadata/net/extract/ppsx/"
-          description: "PowerPoint Terbuka XML Slide Show"
-
-        - name: "Ekstrak Metadata POTX"
-          link: "/metadata/net/extract/potx/"
-          description: "Templat XML Terbuka Microsoft PowerPoint"
-
-        - name: "Ekstrak Metadata POTM"
-          link: "/metadata/net/extract/potm/"
-          description: "Templat Microsoft PowerPoint"
-
-        - name: "Ekstrak Metadata PPTM"
-          link: "/metadata/net/extract/pptm/"
-          description: "Presentasi Microsoft PowerPoint"
-
-        - name: "Ekstrak Metadata PPSM"
-          link: "/metadata/net/extract/ppsm/"
-          description: "Pertunjukan Slide Microsoft PowerPoint"
-
-        - name: "Ekstrak Metadata ODS"
-          link: "/metadata/net/extract/ods/"
-          description: "Buka Spreadsheet Dokumen"
-
-        - name: "Ekstrak Metadata ODT"
-          link: "/metadata/net/extract/odt/"
-          description: "Buka Teks Dokumen"
-
-        - name: "Ekstrak TIFF Metadata"
-          link: "/metadata/net/extract/tiff/"
-          description: "Format File Gambar yang Ditandai"
-
-        - name: "Ekstrak Metadata JPEG"
-          link: "/metadata/net/extract/jpeg/"
-          description: "Gambar JPEG"
-
-        - name: "Ekstrak Metadata PNG"
-          link: "/metadata/net/extract/png/"
-          description: "Grafik Jaringan Portabel"
-
-        - name: "Ekstrak Metadata GIF"
-          link: "/metadata/net/extract/gif/"
-          description: "File Format Pertukaran Grafis"
-
-        - name: "Ekstrak Metadata BMP"
-          link: "/metadata/net/extract/bmp/"
-          description: "Format File Bitmap"
-
-        - name: "Ekstrak Metadata JP2"
-          link: "/metadata/net/extract/jp2/"
-          description: "File Gambar Inti JPEG 2000"
-
-        - name: "Ekstrak Metadata WEBP"
-          link: "/metadata/net/extract/webp/"
-          description: "Format File Gambar Web Raster"
-
-        - name: "Ekstrak Metadata PSD"
-          link: "/metadata/net/extract/psd/"
-          description: "Dokumen Adobe Photoshop"
-
-        - name: "Ekstrak Metadata WMF"
-          link: "/metadata/net/extract/wmf/"
-          description: "Metafile Windows"
-
-        - name: "Ekstrak Metadata EMF"
-          link: "/metadata/net/extract/emf/"
-          description: "Format Metafile yang Ditingkatkan"
-
-        - name: "Ekstrak Metadata MPP"
-          link: "/metadata/net/extract/emz/"
-          description: "Dokumen Proyek Microsoft"
-
-        - name: "Ekstrak Metadata MSG"
-          link: "/metadata/net/extract/msg/"
-          description: "Pesan Email Microsoft Outlook"
-
-        - name: "Ekstrak Metadata EML"
-          link: "/metadata/net/extract/eml/"
-          description: "Pesan email"
-
-        - name: "Ekstrak Metadata DWG"
-          link: "/metadata/net/extract/dwg/"
-          description: "Format Data Desain Autodesk"
-
-        - name: "Ekstrak Metadata DXF"
-          link: "/metadata/net/extract/dxf/"
-          description: "Pertukaran Gambar AutoCAD"
-
-        - name: "Ekstrak SATU Metadata"
-          link: "/metadata/net/extract/one/"
-          description: "Microsoft OneNote"
-
-        - name: "Ekstrak Metadata MP3"
-          link: "/metadata/net/extract/mp3/"
-          description: "Lapisan Audio MPEG III"
-
-        - name: "Ekstrak Metadata WAV"
-          link: "/metadata/net/extract/wav/"
-          description: "Format File Audio Bentuk Gelombang"
-
-        - name: "Ekstrak Metadata DICOM"
-          link: "/metadata/net/extract/dicom/"
-          description: "Pencitraan Digital &amp; Kom dalam Kedokteran"
-
-        - name: "Ekstrak Metadata AVI"
-          link: "/metadata/net/extract/avi/"
-          description: "File Interleave Audio Video"
-
-        - name: "Ekstrak Metadata VSD"
-          link: "/metadata/net/extract/vsd/"
-          description: "Gambar Microsoft Visio 2003-2010"
-
-        - name: "Ekstrak Metadata VSDX"
-          link: "/metadata/net/extract/vsdx/"
-          description: "Gambar Microsoft Visio"
-
-        - name: "Ekstrak Metadata VSS"
-          link: "/metadata/net/extract/vss/"
-          description: "Microsoft Visio 2003-2010 Stensil"
-
-        - name: "Ekstrak Metadata VDX"
-          link: "/metadata/net/extract/vdx/"
-          description: "Gambar XML Microsoft Visio 2003-2010"
-
-        - name: "Ekstrak Metadata VSX"
-          link: "/metadata/net/extract/vsx/"
-          description: "Stensil XML Microsoft Visio 2003-2010"
-
-        - name: "Ekstrak Metadata ZIP"
-          link: "/metadata/net/extract/zip/"
-          description: "Format File Arsip"
-
-        - name: "Ekstrak Metadata EPUB"
-          link: "/metadata/net/extract/epub/"
-          description: "Format File E-Book Digital"
-
-        - name: "Ekstrak Metadata VCF"
-          link: "/metadata/net/extract/vcf/"
-          description: "Kartu Nama Elektronik"
-
-        - name: "Ekstrak Metadata VCR"
-          link: "/metadata/net/extract/vcr/"
-          description: "kartu v"
-
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

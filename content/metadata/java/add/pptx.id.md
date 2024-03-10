@@ -1,13 +1,17 @@
 ---
-layout: "auto-gen"
-date: 2022-07-07T12:44:18+03:00
+############################# Static ############################
+layout: "auto-gen-metadata"
+date: 2024-03-10T13:38:28
 draft: false
+otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
-head_title: "Tambahkan Properti Metadata ke PPTX File di Java"
-head_description: "Lintas platform Java metadata API untuk melihat dan menambahkan bidang metadata ke file PPTX. Bekerja dengan standar metadata XMP, EXIF, IPTC, ID3 dll."
+############################# Head ############################
+head_title: "Tambahkan Metadata ke PPTX File di Java Aplikasi"
+head_description: "Java API pemrosesan metadata untuk menambahkan informasi metadata ke file PPTX. Bekerja dengan standar metadata XMP, EXIF, IPTC, ID3 dll."
 
-title: "Tambahkan Metadata ke PPTX di Java"
-description: "Tambahkan properti metadata ke PPTX dan banyak dokumen, gambar, dan format file multimedia populer lainnya menggunakan GroupDocs.Metadata for Java API."
+############################# Header ############################
+title: "Menambahkan Metadata Ke PPTX Di Java"
+description: "Tambahkan properti metadata kustom ke berbagai dokumen bisnis, gambar, format file audio & video menggunakan GroupDocs.Metadata for Java."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -16,6 +20,7 @@ button:
     label: "Unduh Uji Coba Gratis"
     link: "https://downloads.groupdocs.com/metadata/java"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,285 +33,87 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/metadata/java"
-              text: "Referensi API"
+              text: "{submenu.content_middle.button_text_1}"
 
+            # button loop
             - link: "https://github.com/groupdocs-metadata"
-              text: "Contoh Kode"
+              text: "{submenu.content_middle.button_text_2}"
 
+            # button loop
             - link: "https://products.groupdocs.app/metadata/family"
-              text: "Demo Langsung"
+              text: "{submenu.content_middle.button_text_3}"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/java"
-              text: "Harga"
+              text: "{submenu.content_middle.button_text_4}"
 
     right:
         link_download: "https://downloads.groupdocs.com/metadata"
         link_learn: "https://docs.groupdocs.com/metadata/java"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "Tentang GroupDocs.Metadata untuk Java API"
+    title: "Tentang GroupDocs.Metadata for Java API"
     content: |
-        [GroupDocs.Metadata for Java](/id/metadata/java/) adalah solusi manajemen dan manipulasi bidang metadata tingkat lanjut untuk dengan mudah melihat, memperbarui, menghapus, menemukan, membandingkan, menukar, dan mengekspor informasi metadata dari gambar dan format dokumen tanpa menggunakan perangkat lunak eksternal apa pun . Tambahkan detail metadata ke dokumen Word, spreadsheet Excel, presentasi PowerPoint, email Outlook, OneNote, Visio, Project, PDF, AutoCAD, ZIp, format file Audio dan Video bersama dengan dukungan untuk bekerja dengan banyak fitur pemrosesan metadata lainnya.
+        [GroupDocs.Metadata for Java](/id/metadata/java/) adalah solusi manajemen dan manipulasi bidang metadata lanjutan untuk dengan mudah melihat, memperbarui, menghapus, menemukan, membandingkan, menukar, dan mengekspor informasi metadata dari gambar dan format dokumen tanpa menggunakan perangkat lunak eksternal apa pun. Tambahkan detail metadata ke Word dokumen, Excel spreadsheet, PowerPoint presentasi, Outlook email, OneNote, Visio, Project, PDF, AutoCAD, ZIP, Audio dan Video serta dukungan untuk bekerja dengan banyak fitur pemrosesan metadata lainnya.
 
+############################# Steps ############################
 steps:
     enable: true
     title_left: "Langkah-langkah untuk menambahkan Metadata ke PPTX di Java"
     content_left: |
-        [GroupDocs.Metadata](/id/metadata/java/) memudahkan pengembang Java untuk menambahkan bidang metadata ke file PPTX dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
-
-        * Muat file PPTX yang akan diperbarui.
-        * Tentukan predikat yang akan digunakan untuk menambahkan properti metadata.
-        * Tentukan nilai yang ingin Anda berikan ke properti yang dipilih.
-        * Berikan predikat ke metode AddProperties.
-        * Periksa jumlah sebenarnya dari properti yang ditambahkan.
-        * Simpan perubahan.
+        [GroupDocs.Metadata for Java](/id/metadata/java/) memudahkan pengembang Java untuk menambahkan detail metadata ke file PPTX dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
         
-    title_right: "Persyaratan sistem"
+        * Muat PPTX dengan instance kelas Metadata.
+        * Gunakan metode Metadata.addProperties untuk menambahkan properti.
+        * Gunakan predikat untuk menemukan properti metadata yang diinginkan.
+        * Simpan perubahan kembali dalam format PPTX.
+
+    title_right: "Persyaratan Sistem"
     content_right: |
-        GroupDocs.Metadata untuk Java API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
+        GroupDocs.Metadata for Java API didukung pada semua platform utama dan sistem operasi. Sebelum mengeksekusi kode di bawah ini, pastikan bahwa Anda memiliki prasyarat berikut diinstal pada sistem Anda.
 
-        * Sistem Operasi: Microsoft Windows, Linux, MacOS
-        * Lingkungan Pengembangan: NetBeans, Intellij IDEA, Eclipse dll
-        * Lingkungan Runtime Java: J2SE 6.0 dan yang lebih baru
-        * Dapatkan versi terbaru GroupDocs.Metadata untuk Java dari [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
-        
+        * Sistem Operasi: Microsoft Windows, Linux, Mac OS
+        * Lingkungan Pengembangan: NetBeans, IntelliJ IDEA, Eclipse
+        * Java Lingkungan Runtime: J2SE 6.0 and above
+        * Dapatkan versi terbaru GroupDocs.Metadata for Java dari [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
+         
     code: |
-        ```java
-        // memuat file dalam instance kelas Metadata
-        try (Metadata metadata = new Metadata("input.pptx")) {
-        
-        	// tambahkan properti yang berisi pembuat konten
-        	int affected = metadata.addProperties(new ContainsTagSpecification(Tags.getTime().getPrinted()), new PropertyValue(new Date()));
-        
-        	System.out.println(String.format("Affected properties: %s", affected));
-        
-        	metadata.save("output.pptx");
+        ```java    
+        // {steps.code.load_comment}
+        try (Metadata metadata = new Metadata("input.pptx"))
+        {
+            // menambahkan properti yang berisi penulis konten
+            int affected = metadata.addProperties(new ContainsTagSpecification(Tags.getTime().getPrinted()), new PropertyValue(new Date()));
+            System.out.println(String.format("Affected properties: %s", affected));
+            metadata.save("output.pptx");
         }
         ```
-        
+
+############################# Demos ############################
 demos:
     enable: true
     title: "Demo Langsung untuk Menambahkan Metadata"
     content: |
-        Tambahkan informasi metadata ke file PPTX sekarang juga dengan mengunjungi situs web [GroupDocs.Metadata](https://products.groupdocs.app/metadata/family).  
-        Demo langsung memiliki manfaat sebagai berikut
+       Tambahkan informasi metadata ke file PPTX sekarang juga dengan mengunjungi situs web [GroupDocs.Metadata Demo Langsung](https://products.groupdocs.app/metadata/family).
+       Demo langsung memiliki manfaat sebagai berikut.
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-file-pptx"
-          title: "Tentang Format Berkas PPTX"
-          content: |
-            File dengan ekstensi PPTX adalah file presentasi yang dibuat dengan aplikasi Microsoft PowerPoint yang populer. Berbeda dengan versi sebelumnya dari format file presentasi PPT yang biner, format PPTX didasarkan pada format file presentasi Microsoft PowerPoint open XML. File presentasi adalah kumpulan slide di mana setiap slide dapat terdiri dari teks, gambar, pemformatan, animasi, dan media lainnya. Slide ini disajikan kepada audiens dalam bentuk slideshow dengan pengaturan presentasi khusus.
 
-          link: "https://docs.fileformat.com/presentation/pptx/"
-
+############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Menambahkan Properti Metadata Ke Format File Lain"
+    title: "Menambahkan Properti Metadata Ke Format File Lainnya"
     content: |
-        Java API untuk menambahkan metadata ke dokumen dan gambar multi format. Tetapkan detail metadata dari beberapa format file populer seperti yang dinyatakan di bawah ini.
-    format: 
-        - name: "Tambahkan Metadata PDF"
-          link: "/metadata/java/add/pdf/"
-          description: "Format Dokumen Portabel Adobe"
+        Multi format dokumen dan gambar penambahan metadata API untuk Java. Ambil metadata dari beberapa format file populer seperti yang dinyatakan di bawah ini.
 
-        - name: "Tambahkan Metadata DOC"
-          link: "/metadata/java/add/doc/"
-          description: "Dokumen Microsoft Word"
-
-        - name: "Tambahkan Metadata DOCM"
-          link: "/metadata/java/add/docm/"
-          description: "Dokumen Berkemampuan Makro Microsoft Word"
-
-        - name: "Tambahkan Metadata DOCX"
-          link: "/metadata/java/add/docx/"
-          description: "Microsoft Word Buka Dokumen XML"
-
-        - name: "Tambahkan Metadata DOT"
-          link: "/metadata/java/add/dot/"
-          description: "Templat Dokumen Microsoft Word"
-
-        - name: "Tambahkan Metadata DOTX"
-          link: "/metadata/java/add/dotx/"
-          description: "Templat Dokumen XML Word Terbuka"
-
-        - name: "Tambahkan Metadata XLS"
-          link: "/metadata/java/add/xls/"
-          description: "Format File Biner Microsoft Excel"
-
-        - name: "Tambahkan Metadata XLSX"
-          link: "/metadata/java/add/xlsx/"
-          description: "Microsoft Excel Buka XML Spreadsheet"
-
-        - name: "Tambahkan Metadata XLSM"
-          link: "/metadata/java/add/xlsm/"
-          description: "Spreadsheet Berkemampuan Makro Microsoft Excel"
-
-        - name: "Tambahkan Metadata XLTM"
-          link: "/metadata/java/add/xltx/"
-          description: "Templat Buku Kerja yang Diaktifkan Makro OOXML"
-
-        - name: "Tambahkan Metadata PPT"
-          link: "/metadata/java/add/ppt/"
-          description: "Presentasi powerpoint"
-
-        - name: "Tambahkan Metadata PPS"
-          link: "/metadata/java/add/pps/"
-          description: "Pertunjukan Slide Microsoft PowerPoint"
-
-        - name: "Tambahkan PPTX Metadata"
-          link: "/metadata/java/add/pptx/"
-          description: "Presentasi PowerPoint Terbuka XML"
-
-        - name: "Tambahkan Metadata PPSX"
-          link: "/metadata/java/add/ppsx/"
-          description: "PowerPoint Terbuka XML Slide Show"
-
-        - name: "Tambahkan Metadata POTX"
-          link: "/metadata/java/add/potx/"
-          description: "Templat XML Terbuka Microsoft PowerPoint"
-
-        - name: "Tambahkan Metadata POTM"
-          link: "/metadata/java/add/potm/"
-          description: "Templat Microsoft PowerPoint"
-
-        - name: "Tambahkan Metadata PPTM"
-          link: "/metadata/java/add/pptm/"
-          description: "Presentasi Microsoft PowerPoint"
-
-        - name: "Tambahkan Metadata PPSM"
-          link: "/metadata/java/add/ppsm/"
-          description: "Pertunjukan Slide Microsoft PowerPoint"
-
-        - name: "Tambahkan Metadata ODS"
-          link: "/metadata/java/add/ods/"
-          description: "Buka Spreadsheet Dokumen"
-
-        - name: "Tambahkan Metadata ODT"
-          link: "/metadata/java/add/odt/"
-          description: "Buka Teks Dokumen"
-
-        - name: "Tambahkan Metadata TIFF"
-          link: "/metadata/java/add/tiff/"
-          description: "Format File Gambar yang Ditandai"
-
-        - name: "Tambahkan Metadata JPEG"
-          link: "/metadata/java/add/jpeg/"
-          description: "Gambar JPEG"
-
-        - name: "Tambahkan Metadata PNG"
-          link: "/metadata/java/add/png/"
-          description: "Grafik Jaringan Portabel"
-
-        - name: "Tambahkan Metadata GIF"
-          link: "/metadata/java/add/gif/"
-          description: "File Format Pertukaran Grafis"
-
-        - name: "Tambahkan Metadata BMP"
-          link: "/metadata/java/add/bmp/"
-          description: "Format File Bitmap"
-
-        - name: "Tambahkan Metadata JP2"
-          link: "/metadata/java/add/jp2/"
-          description: "File Gambar Inti JPEG 2000"
-
-        - name: "Tambahkan Metadata WEBP"
-          link: "/metadata/java/add/webp/"
-          description: "Format File Gambar Web Raster"
-
-        - name: "Tambahkan Metadata PSD"
-          link: "/metadata/java/add/psd/"
-          description: "Dokumen Adobe Photoshop"
-
-        - name: "Tambahkan Metadata WMF"
-          link: "/metadata/java/add/wmf/"
-          description: "Metafile Windows"
-
-        - name: "Tambahkan Metadata EMF"
-          link: "/metadata/java/add/emf/"
-          description: "Format Metafile yang Ditingkatkan"
-
-        - name: "Tambahkan Metadata MPP"
-          link: "/metadata/java/add/emz/"
-          description: "Dokumen Proyek Microsoft"
-
-        - name: "Tambahkan Metadata MSG"
-          link: "/metadata/java/add/msg/"
-          description: "Pesan Email Microsoft Outlook"
-
-        - name: "Tambahkan Metadata EML"
-          link: "/metadata/java/add/eml/"
-          description: "Pesan email"
-
-        - name: "Tambahkan Metadata DWG"
-          link: "/metadata/java/add/dwg/"
-          description: "Format Data Desain Autodesk"
-
-        - name: "Tambahkan Metadata DXF"
-          link: "/metadata/java/add/dxf/"
-          description: "Pertukaran Gambar AutoCAD"
-
-        - name: "Tambahkan SATU Metadata"
-          link: "/metadata/java/add/one/"
-          description: "Microsoft OneNote"
-
-        - name: "Tambahkan Metadata MP3"
-          link: "/metadata/java/add/mp3/"
-          description: "Lapisan Audio MPEG III"
-
-        - name: "Tambahkan Metadata WAV"
-          link: "/metadata/java/add/wav/"
-          description: "Format File Audio Bentuk Gelombang"
-
-        - name: "Tambahkan Metadata DICOM"
-          link: "/metadata/java/add/dicom/"
-          description: "Pencitraan Digital &amp; Kom dalam Kedokteran"
-
-        - name: "Tambahkan Metadata AVI"
-          link: "/metadata/java/add/avi/"
-          description: "File Interleave Audio Video"
-
-        - name: "Tambahkan Metadata VSD"
-          link: "/metadata/java/add/vsd/"
-          description: "Gambar Microsoft Visio 2003-2010"
-
-        - name: "Tambahkan Metadata VSDX"
-          link: "/metadata/java/add/vsdx/"
-          description: "Gambar Microsoft Visio"
-
-        - name: "Tambahkan Metadata VSS"
-          link: "/metadata/java/add/vss/"
-          description: "Microsoft Visio 2003-2010 Stensil"
-
-        - name: "Tambahkan Metadata VDX"
-          link: "/metadata/java/add/vdx/"
-          description: "Gambar XML Microsoft Visio 2003-2010"
-
-        - name: "Tambahkan Metadata VSX"
-          link: "/metadata/java/add/vsx/"
-          description: "Stensil XML Microsoft Visio 2003-2010"
-
-        - name: "Tambahkan Metadata ZIP"
-          link: "/metadata/java/add/zip/"
-          description: "Format File Arsip"
-
-        - name: "Tambahkan Metadata EPUB"
-          link: "/metadata/java/add/epub/"
-          description: "Format File E-Book Digital"
-
-        - name: "Tambahkan Metadata VCF"
-          link: "/metadata/java/add/vcf/"
-          description: "Kartu Nama Elektronik"
-
-        - name: "Tambahkan Metadata VCR"
-          link: "/metadata/java/add/vcr/"
-          description: "kartu v"
-
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

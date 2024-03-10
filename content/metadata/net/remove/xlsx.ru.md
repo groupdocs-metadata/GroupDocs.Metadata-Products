@@ -1,293 +1,118 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2021-05-20T16:12:37+03:00
+layout: "auto-gen-metadata"
+date: 2024-03-10T13:38:39
 draft: false
+otherformats: zip xltx xltm xlt xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
+
 ############################# Head ############################
-head_title: "Удаление метаданных файлов XLSX в приложениях C# .NET"
-head_description: "API обработки метаданных C # .NET для удаления метаданных файлов XLSX. Работа со стандартами метаданных XMP, EXIF, IPTC, ID3 и т. д."
+head_title: "{head.title}"
+head_description: "{head.description}"
+
 ############################# Header ############################
-title: "Удалить метаданные из файла XLSX в С#"
-description: "Удалите информацию метаданных из различных документов, изображений, аудио &amp;amp;amp;amp;amp; форматы видеофайлов с использованием GroupDocs.Metadata для .NET API."
+title: "{header.title}"
+description: "{header.description}"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Скачать бесплатную пробную версию"
+    label: "{header.button_label}"
     link: "https://downloads.groupdocs.com/metadata/net"
+
 ############################# SubMenu ############################
 submenu:
     enable: true
+
     left:
         img_alt: "GroupDocs.Metadata for .NET"
         image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-metadata-net.png"
         product: "GroupDocs.Metadata"
         platform: ".NET"
+
     middle:
         button:
+
             # button loop
             - link: "https://apireference.groupdocs.com/metadata/net"
-              text: "Справочник по API"
+              text: "{submenu.content_middle.button_text_1}"
+
             # button loop
             - link: "https://github.com/groupdocs-metadata"
-              text: "Примеры кода"
+              text: "{submenu.content_middle.button_text_2}"
+
             # button loop
             - link: "https://products.groupdocs.app/metadata/family"
-              text: "Живые демонстрации"
+              text: "{submenu.content_middle.button_text_3}"
+
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/net"
-              text: "Цены"
+              text: "{submenu.content_middle.button_text_4}"
+
     right:
         link_download: "https://downloads.groupdocs.com/metadata"
         link_learn: "https://docs.groupdocs.com/metadata/net"
         link_buy: "https://purchase.groupdocs.com"
+
 ############################# About ############################
 about:
     enable: true
-    title: "О GroupDocs.Metadata для .NET API"
+    title: "{about.title}"
     content: |
-        [GroupDocs.Metadata for .NET](/ru/metadata/net/) предлагает расширенный набор функций управления метаданными, позволяя разработчикам легко читать, редактировать, удалять, искать, сравнивать, заменять и экспортировать метаданные из изображений и форматов документов без использования любое внешнее программное обеспечение. Используйте API управления метаданными для удаления сведений о метаданных из файлов PDF, Microsoft Office Word, электронных таблиц Excel, презентаций PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, архивов и мультимедиа, а также многие другие функции обработки метаданных.
+        {about.h1}
+
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Действия по удалению метаданных XLSX в C#"
+    title_left: "{steps.title_left}"
     content_left: |
-        [GroupDocs.Metadata](/ru/metadata/net/) позволяет разработчикам .NET легко удалять сведения о метаданных из файлов XLSX из своих приложений, выполняя несколько простых шагов.
-        * Загрузите XLSX с экземпляром класса метаданных.
-        * Используйте предикат, чтобы найти нужные свойства метаданных.
-        * Используйте метод Metadata.RemoveProperties для удаления свойств.
-        * Сохраните изменения обратно в формате XLSX.
-    title_right: "Системные Требования"
+        {steps.content_left.description}
+        
+        * {steps.content_left.step_1}
+        * {steps.content_left.step_2}
+        * {steps.content_left.step_3}
+        * {steps.content_left.step_4}
+
+    title_right: "{steps.title_right}"
     content_right: |
-        GroupDocs.Metadata для API .NET поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные компоненты.
-        * Операционные системы: Microsoft Windows, Linux, MacOS
-        * Среды разработки: Visual Studio, Xamarin, MonoDevelop
-        * Фреймворки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Загрузите последнюю версию GroupDocs.Metadata для .NET из [NuGet](https://www.nuget.org/packages/groupdocs.metadata).
+        {steps.content_right.description}
+
+        * {steps.content_right.step_1}
+        * {steps.content_right.step_2}
+        * {steps.content_right.step_3}: .NET Framework, .NET Standard, .NET Core, Mono
+        * {steps.content_right.step_4}
+         
     code: |
-        ```cs
+        ```csharp    
         using (var metadata = new GroupDocs.Metadata.Metadata("input.xlsx"))
         {
-        		// Удаляем все упоминания о любых людях, внесших вклад в создание файла
-        		// Удаляем все свойства с указанным именем
-        		var affected = metadata.RemoveProperties(p => p.Tags.Any(t => t.Category == Tags.Person) || p.Name == "CustomProperty");
-        		Console.WriteLine("Affected properties: {0}", affected);
-        		metadata.Save("output.xlsx");
+            // {steps.code.remove_mention_comment}
+            // {steps.code.remove_prop_comment}
+            var affected = metadata.RemoveProperties(p => p.Tags.Any(t => t.Category == Tags.Person) || p.Name == "CustomProperty");
+            Console.WriteLine("Affected properties: {0}", affected);
+            metadata.Save("output.xlsx");
         }
         ```
+
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Демонстрации удаления метаданных в реальном времени"
+    title: "{demos.title}"
     content: |
-        Delete metadata information of XLSX file right now by visiting [GroupDocs.Metadata Живые демонстрации](https://products.groupdocs.app/metadata/family) website.  
-        Живая демонстрация имеет следующие преимущества
+       {demos.h1}
+       {demos.h2}
+        
 ############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-xlsx"
-          title: "О формате файла XLSX"
-          content: |
-            XLSX — это хорошо известный формат для документов Microsoft Excel, который был представлен Microsoft с выпуском Microsoft Office 2007. Основанный на структуре, организованной в соответствии с соглашениями об открытой упаковке, как указано в части 2 стандарта OOXML ECMA-376, новый формат ZIP-пакет, содержащий несколько XML-файлов. Базовую структуру и файлы можно изучить, просто разархивировав файл .xlsx.
-          link: "https://docs.fileformat.com/spreadsheet/xlsx/"
+
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Удаление свойств метаданных из файлов других форматов"
+    title: "{more_formats.title}"
     content: |
-        API для удаления метаданных мультиформатных документов и изображений для .NET. Удалите метаданные некоторых популярных форматов файлов, как указано ниже.
-    format: 
-        # format loop
-        - name: "Удалить метаданные PDF"
-          link: "/metadata/net/remove/pdf/"
-          description: "Adobe Portable Document Format"
-        # format loop
-        - name: "Удалить метаданные DOC"
-          link: "/metadata/net/remove/doc/"
-          description: "Документ Microsoft Word"
-        # format loop
-        - name: "Удалить метаданные DOCM"
-          link: "/metadata/net/remove/docm/"
-          description: "Документ Microsoft Word с поддержкой макросов"
-        # format loop
-        - name: "Удалить метаданные DOCX"
-          link: "/metadata/net/remove/docx/"
-          description: "Документ Microsoft Word с открытым XML"
-        # format loop
-        - name: "Удалить метаданные DOT"
-          link: "/metadata/net/remove/dot/"
-          description: "Шаблон документа Microsoft Word"
-        # format loop
-        - name: "Удалить метаданные DOTX"
-          link: "/metadata/net/remove/dotx/"
-          description: "Шаблон документа Word Open XML"
-        # format loop
-        - name: "Удалить метаданные XLS"
-          link: "/metadata/net/remove/xls/"
-          description: "Формат двоичного файла Microsoft Excel"
-        # format loop
-        - name: "Удалить метаданные XLSX"
-          link: "/metadata/net/remove/xlsx/"
-          description: "Электронная таблица Microsoft Excel Open XML"
-        # format loop
-        - name: "Удалить метаданные XLSM"
-          link: "/metadata/net/remove/xlsm/"
-          description: "Электронная таблица Microsoft Excel с поддержкой макросов"
-        # format loop
-        - name: "Удалить метаданные XLTM"
-          link: "/metadata/net/remove/xltm/"
-          description: "Шаблон рабочей книги с поддержкой макросов OOXML"
-        # format loop
-        - name: "Удалить метаданные PPT"
-          link: "/metadata/net/remove/ppt/"
-          description: "Презентация PowerPoint"
-        # format loop
-        - name: "Удалить метаданные PPS"
-          link: "/metadata/net/remove/pps/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-        # format loop
-        - name: "Удалить метаданные PPTX"
-          link: "/metadata/net/remove/pptx/"
-          description: "Презентация PowerPoint Open XML"
-        # format loop
-        - name: "Удалить метаданные PPSX"
-          link: "/metadata/net/remove/ppsx/"
-          description: "Слайд-шоу PowerPoint Open XML"
-        # format loop
-        - name: "Удалить метаданные POTX"
-          link: "/metadata/net/remove/potx/"
-          description: "Открытый XML-шаблон Microsoft PowerPoint"
-        # format loop
-        - name: "Удалить метаданные POTM"
-          link: "/metadata/net/remove/potm/"
-          description: "Шаблон Microsoft PowerPoint"
-        # format loop
-        - name: "Удалить метаданные PPTM"
-          link: "/metadata/net/remove/pptm/"
-          description: "Презентация Microsoft PowerPoint"
-        # format loop
-        - name: "Удалить метаданные PPSM"
-          link: "/metadata/net/remove/ppsm/"
-          description: "Слайд-шоу Microsoft PowerPoint"
-        # format loop
-        - name: "Удалить метаданные ODS"
-          link: "/metadata/net/remove/ods/"
-          description: "Открыть электронную таблицу документов"
-        # format loop
-        - name: "Удалить метаданные ODT"
-          link: "/metadata/net/remove/odt/"
-          description: "Открыть текст документа"
-        # format loop
-        - name: "Удалить метаданные TIFF"
-          link: "/metadata/net/remove/tiff/"
-          description: "Формат файла изображения с тегами"
-        # format loop
-        - name: "Удалить метаданные JPEG"
-          link: "/metadata/net/remove/jpeg/"
-          description: "Изображение в формате JPEG"
-        # format loop
-        - name: "Удалить метаданные PNG"
-          link: "/metadata/net/remove/png/"
-          description: "Портативная сетевая графика"
-        # format loop
-        - name: "Удалить метаданные GIF"
-          link: "/metadata/net/remove/gif/"
-          description: "Графический файл формата обмена"
-        # format loop
-        - name: "Удалить метаданные BMP"
-          link: "/metadata/net/remove/bmp/"
-          description: "Формат растрового файла"
-        # format loop
-        - name: "Удалить метаданные JP2"
-          link: "/metadata/net/remove/jp2/"
-          description: "Основной файл изображения JPEG 2000"
-        # format loop
-        - name: "Удалить метаданные WEBP"
-          link: "/metadata/net/remove/webp/"
-          description: "Формат файла растрового веб-изображения"
-        # format loop
-        - name: "Удалить метаданные PSD"
-          link: "/metadata/net/remove/psd/"
-          description: "Документ Adobe Photoshop"
-        # format loop
-        - name: "Удалить метаданные WMF"
-          link: "/metadata/net/remove/wmf/"
-          description: "Метафайл Windows"
-        # format loop
-        - name: "Удалить метаданные EMF"
-          link: "/metadata/net/remove/emf/"
-          description: "Расширенный формат метафайла"
-        # format loop
-        - name: "Удалить метаданные MPP"
-          link: "/metadata/net/remove/mpp/"
-          description: "Документ Microsoft Project"
-        # format loop
-        - name: "Удалить метаданные MSG"
-          link: "/metadata/net/remove/msg/"
-          description: "Сообщение электронной почты Microsoft Outlook"
-        # format loop
-        - name: "Удалить метаданные EML"
-          link: "/metadata/net/remove/eml/"
-          description: "Сообщение электронной почты"
-        # format loop
-        - name: "Удалить метаданные DWG"
-          link: "/metadata/net/remove/dwg/"
-          description: "Форматы проектных данных Autodesk"
-        # format loop
-        - name: "Удалить метаданные DXF"
-          link: "/metadata/net/remove/dxf/"
-          description: "Обмен чертежами AutoCAD"
-        # format loop
-        - name: "Удалить метаданные ONE"
-          link: "/metadata/net/remove/one/"
-          description: "Майкрософт OneNote"
-        # format loop
-        - name: "Удалить метаданные MP3"
-          link: "/metadata/net/remove/mp3/"
-          description: "Аудиоуровень MPEG III"
-        # format loop
-        - name: "Удалить метаданные WAV"
-          link: "/metadata/net/remove/wav/"
-          description: "Формат звукового файла формы волны"
-        # format loop
-        - name: "Удалить метаданные DICOM"
-          link: "/metadata/net/remove/dicom/"
-          description: "Цифровая визуализацияКомм в медицине"
-        # format loop
-        - name: "Удалить метаданные AVI"
-          link: "/metadata/net/remove/avi/"
-          description: "Файл чередования аудио-видео"
-        # format loop
-        - name: "Удалить метаданные VSD"
-          link: "/metadata/net/remove/vsd/"
-          description: "Чертеж Microsoft Visio 2003-2010"
-        # format loop
-        - name: "Удалить метаданные VSDX"
-          link: "/metadata/net/remove/vsdx/"
-          description: "Рисование Microsoft Visio"
-        # format loop
-        - name: "Удалить метаданные VSS"
-          link: "/metadata/net/remove/vss/"
-          description: "Трафарет Microsoft Visio 2003-2010"
-        # format loop
-        - name: "Удалить метаданные VDX"
-          link: "/metadata/net/remove/vdx/"
-          description: "Microsoft Visio 2003-2010 XML-чертеж"
-        # format loop
-        - name: "Удалить метаданные VSX"
-          link: "/metadata/net/remove/vsx/"
-          description: "Microsoft Visio 2003-2010 XML-трафарет"
-        # format loop
-        - name: "Удалить метаданные ZIP"
-          link: "/metadata/net/remove/zip/"
-          description: "Формат файла архива"
-        # format loop
-        - name: "Удалить метаданные EPUB"
-          link: "/metadata/net/remove/epub/"
-          description: "Формат файла цифровой электронной книги"
+        {more_formats.content}
+
 ############################# Back to top ###############################
 back_to_top:
     enable: true

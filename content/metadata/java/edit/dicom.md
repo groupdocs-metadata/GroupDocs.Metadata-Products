@@ -1,15 +1,16 @@
 ---
 ############################# Static ############################
-layout: "auto-gen"
-date: 2021-05-20T16:11:33+03:00
+layout: "auto-gen-metadata"
+date: 2024-03-10T13:38:31
 draft: false
+otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dcm bmp avi asf mkv one otc djvu
 
 ############################# Head ############################
-head_title: "Java Metadata Editor - Update Metadata of DICOM Files in Java"
-head_description: "Cross platform Java metadata editor API to edit and update metadata fields of DICOM files.Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Edit Metadata to DICOM Files in Java Applications"
+head_description: "Java metadata processing API to edit metadata information to DICOM files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
 ############################# Header ############################
-title: "Update Metadata from DICOM File in Java"
+title: "Update Metadata From DICOM File In Java"
 description: "Metadata Editor for Java applications – Change metadata fields from all popular documents, images and multimedia file formats using metadata editor API for Java."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
@@ -34,19 +35,19 @@ submenu:
 
             # button loop
             - link: "https://apireference.groupdocs.com/metadata/java"
-              text: "API Reference"
+              text: "{submenu.content_middle.button_text_1}"
 
             # button loop
             - link: "https://github.com/groupdocs-metadata"
-              text: "Code Examples"
+              text: "{submenu.content_middle.button_text_2}"
 
             # button loop
             - link: "https://products.groupdocs.app/metadata/family"
-              text: "Live Demos"
+              text: "{submenu.content_middle.button_text_3}"
 
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/java"
-              text: "Pricing"
+              text: "{submenu.content_middle.button_text_4}"
 
     right:
         link_download: "https://downloads.groupdocs.com/metadata"
@@ -63,342 +64,95 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for DICOM Metadata Extraction in Java"
+    title_left: "Steps for Updating Metadata to DICOM in Java"
     content_left: |
-        [GroupDocs.Metadata](/metadata/java/) makes it easy for Java developers to get metadata information from DICOM files from within their applications by implementing a few easy steps.
-
-        *   Load the DICOM file to be updated.
-        *   Specify a predicate that will be used to filter desired metadata properties.
-        *   Specify a value which you want to be assigned to the selected properties.
-        *   Pass the predicate and the new value to the UpdateProperties method.
-        *   Check the actual number of updated properties.
-        *   Save the changes.
+        [GroupDocs.Metadata for Java](/metadata/java/) makes it easy for Java developers to edit metadata details to DICOM files from within their applications by implementing a few easy steps.
         
+        * Load the DICOM file to be updated
+        * Specify a predicate that will be used to filter desired metadata properties.
+        * Pass the predicate and the new value to the UpdateProperties method.
+        * Save the changes.
+
     title_right: "System Requirements"
     content_right: |
         GroupDocs.Metadata for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
 
-        *   Operating Systems: Microsoft Windows, Linux, MacOS
-        *   Development Environment: NetBeans, Intellij IDEA, Eclipse etc
-        *   Java Runtime Environment: J2SE 6.0 and above
-        *   Get the latest version of GroupDocs.Metadata for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
-        
+        * Operating Systems: Microsoft Windows, Linux, MacOS
+        * Development Environments: NetBeans, IntelliJ IDEA, Eclipse
+        * Java Runtime Environments: J2SE 6.0 and above
+        * Get the latest version of  GroupDocs.Metadata for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
+         
     code: |
-        ```java
-        public class UpdatingMetadata {
-            public static void run() {
-                Date threeDaysAgo = new Date(System.currentTimeMillis() - TimeUnit.DAYS.toMillis(3));
-                try (Metadata metadata = new Metadata("input.dicom")) {
-                        // Update the file creation date/time if the existing value is older than 3 days
-                        int affected = metadata.updateProperties(new ContainsTagSpecification(Tags.getTime().getCreated()).and(
-                                new OfTypeSpecification(MetadataPropertyType.DateTime)).and(
-                                new UpdatingMetadata().new DateBeforeSpecification(threeDaysAgo)), new PropertyValue(new Date()));
-        
-                        System.out.println(String.format("Affected properties: %s", affected));
-        
-                        metadata.save("output.dicom");
-                }
+        ```java    
+        public class UpdatingMetadata
+        {
+          public static void run() 
+          {
+            Date threeDaysAgo = new Date(System.currentTimeMillis() - TimeUnit.DAYS.toMillis(3));
+            try (Metadata metadata = new Metadata("input.dicom"))
+            {
+                // Update the file creation date/time if the existing value is older than 3 days
+                int affected = metadata.updateProperties(new ContainsTagSpecification(Tags.getTime().getCreated()).and(
+                        new OfTypeSpecification(MetadataPropertyType.DateTime)).and(
+                        new UpdatingMetadata().new DateBeforeSpecification(threeDaysAgo)), new PropertyValue(new Date()));
+
+                System.out.println(String.format("Affected properties: %s", affected));
+
+                metadata.save("output.dicom");
             }
-        
-            // Define your own specifications to filter metadata properties
-            public class DateBeforeSpecification extends Specification {
-                public DateBeforeSpecification(Date date) {
-                    setValue(date);
-                }
-        
-                public final Date getValue() {
-                    return auto_Value;
-                }
-        
-                private void setValue(Date value) {
-                    auto_Value = value;
-                }
-        
-                private Date auto_Value;
-        
-                public boolean isSatisfiedBy(MetadataProperty candidate) {
-                    Date date = candidate.getValue().toClass(Date.class);
-                    if (date != null) {
-                        return date.before(getValue());
-                    }
-                    return false;
-                }
+          }
+
+          // Define your own specifications to filter metadata properties
+          public class DateBeforeSpecification extends Specification
+          {
+            public DateBeforeSpecification(Date date)
+            {
+              setValue(date);
             }
+
+            public final Date getValue()
+            {
+              return auto_Value;
+            }
+
+            private void setValue(Date value)
+            {
+              auto_Value = value;
+            }
+
+            private Date auto_Value;
+
+            public boolean isSatisfiedBy(MetadataProperty candidate)
+            {
+              Date date = candidate.getValue().toClass(Date.class);
+              if (date != null)
+              {
+                return date.before(getValue());
+              }
+              return false;
+            }
+          }
         }
         ```
-        
+
 ############################# Demos ############################
 demos:
     enable: true
     title: "Live Demos of Editing Metadata"
     content: |
-        Update metadata information of DICOM file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.  
-        The live demo has the following benefits
+       Update metadata information to DICOM file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.
+       The live demo has the following benefits.
         
 ############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        # format loop
-        - icon: "far fa-file-dicom"
-          title: "About DICOM File Format"
-          content: |
-            DICOM is the acronym for Digital Imaging and Communications in Medicine and pertains to the field of Medical Informatics. DICOM is the combination of file format definition and a network communications protocol. DICOM uses the .DCM extension. .DCM exist in two different formats i.e. format 1.x and format 2.x. DCM Format 1.x is further available in two versions normal and extended. DICOM is used for the integration of medical imaging devices like printers, servers, scanners etc from various vendors and also contains identification data of each patient for uniqueness. DICOM files can be shared between two parties if they are capable of receiving image data in DICOM format. The communication part of DICOM is application layer protocol and uses TCP/IP to communicate between entities. HTTP and HTTPS protocols are used for the web services of DICOM. Versions supported by web services are 1.0, 1.1, 2 or later.
-
-          link: "https://docs.fileformat.com/image/dicom/"
 
 ############################# More Formats ############################
 more_formats:
     enable: true
     title: "Changing Metadata Of Other File Formats"
     content: |
-        Multi format documents and images metadata editing API for Java. Get metadata details of some of the popular file formats as stated below.
-    format: 
-        # format loop
-        - name: "Update PDF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/pdf"
-          description: "Adobe Portable Document Format"
-
-        # format loop
-        - name: "Update DOC Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/doc"
-          description: "Microsoft Word Document"
-
-        # format loop
-        - name: "Update DOCM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/docm"
-          description: "Microsoft Word Macro-Enabled Document"
-
-        # format loop
-        - name: "Update DOCX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/docx"
-          description: "Microsoft Word Open XML Document"
-
-        # format loop
-        - name: "Update DOT Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/dot"
-          description: "Microsoft Word Document Template"
-
-        # format loop
-        - name: "Update DOTX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/dotx"
-          description: "Word Open XML Document Template"
-
-        # format loop
-        - name: "Update XLS Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/xls"
-          description: "Microsoft Excel Binary File Format"
-
-        # format loop
-        - name: "Update XLSX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/xlsx"
-          description: "Microsoft Excel Open XML Spreadsheet"
-
-        # format loop
-        - name: "Update XLSM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/xlsm"
-          description: "Microsoft Excel Macro-Enabled Spreadsheet"
-
-        # format loop
-        - name: "Update XLTM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/xltx"
-          description: "OOXML Macro Enabled Workbook Template"
-
-        # format loop
-        - name: "Update PPT Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/ppt"
-          description: "PowerPoint Presentation"
-
-        # format loop
-        - name: "Update PPS Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/pps"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "Update PPTX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/pptx"
-          description: "PowerPoint Open XML Presentation"
-
-        # format loop
-        - name: "Update PPSX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/ppsx"
-          description: "PowerPoint Open XML Slide Show"
-
-        # format loop
-        - name: "Update POTX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/potx"
-          description: "Microsoft PowerPoint Open XML Template"
-
-        # format loop
-        - name: "Update POTM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/potm"
-          description: "Microsoft PowerPoint Template"
-
-        # format loop
-        - name: "Update PPTM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/pptm"
-          description: "Microsoft PowerPoint Presentation"
-
-        # format loop
-        - name: "Update PPSM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/ppsm"
-          description: "Microsoft PowerPoint Slide Show"
-
-        # format loop
-        - name: "Update ODS Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/ods"
-          description: "Open Document Spreadsheet"
-
-        # format loop
-        - name: "Update ODT Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/odt"
-          description: "Open Document Text"
-
-        # format loop
-        - name: "Update TIFF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/tiff"
-          description: "Tagged Image File Format"
-
-        # format loop
-        - name: "Update JPEG Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/jpeg"
-          description: "JPEG Image"
-
-        # format loop
-        - name: "Update PNG Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/png"
-          description: "Portable Network Graphic"
-
-        # format loop
-        - name: "Update GIF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/gif"
-          description: "Graphical Interchange Format File"
-
-        # format loop
-        - name: "Update BMP Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/bmp"
-          description: "Bitmap File Format"
-
-        # format loop
-        - name: "Update JP2 Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/jp2"
-          description: "JPEG 2000 Core Image File"
-
-        # format loop
-        - name: "Update WEBP Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/webp"
-          description: "Raster Web Image File Format"
-
-        # format loop
-        - name: "Update PSD Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/psd"
-          description: "Adobe Photoshop Document"
-
-        # format loop
-        - name: "Update WMF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/wmf"
-          description: "Windows Metafile"
-
-        # format loop
-        - name: "Update EMF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/emf"
-          description: "Enhanced Metafile Format"
-
-        # format loop
-        - name: "Update MPP Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/emz"
-          description: "Microsoft Project Document"
-
-        # format loop
-        - name: "Update MSG Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/msg"
-          description: "Microsoft Outlook E-mail Message"
-
-        # format loop
-        - name: "Update EML Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/eml"
-          description: "E-mail Message"
-
-        # format loop
-        - name: "Update DWG Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/dwg"
-          description: "Autodesk Design Data Formats"
-
-        # format loop
-        - name: "Update DXF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/dxf"
-          description: "AutoCAD Drawing Interchange"
-
-        # format loop
-        - name: "Update ONE Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/one"
-          description: "Microsoft OneNote"
-
-        # format loop
-        - name: "Update MP3 Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/mp3"
-          description: "MPEG Audio Layer III"
-
-        # format loop
-        - name: "Update WAV Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/wav"
-          description: "Waveform Audio File Format"
-
-        # format loop
-        - name: "Update DICOM Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/dicom"
-          description: "Digital Imaging &amp; Comm in Medicine"
-
-        # format loop
-        - name: "Update AVI Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/avi"
-          description: "Audio Video Interleave File"
-
-        # format loop
-        - name: "Update VSD Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/vsd"
-          description: "Microsoft Visio 2003-2010 Drawing"
-
-        # format loop
-        - name: "Update VSDX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/vsdx"
-          description: "Microsoft Visio Drawing"
-
-        # format loop
-        - name: "Update VSS Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/vss"
-          description: "Microsoft Visio 2003-2010 Stencil"
-
-        # format loop
-        - name: "Update VDX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/vdx"
-          description: "Microsoft Visio 2003-2010 XML Drawing"
-
-        # format loop
-        - name: "Update VSX Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/vsx"
-          description: "Microsoft Visio 2003-2010 XML Stencil"
-
-        # format loop
-        - name: "Update ZIP Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/zip"
-          description: "Archive File Format"
-
-        # format loop
-        - name: "Update EPUB Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/epub"
-          description: "Digital E-Book File Format"
-
-        # format loop
-        - name: "Update VCF Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/vcf"
-          description: "Electronic Business Card"
-
-        # format loop
-        - name: "Update VCR Metadata"
-          link: "https://products.groupdocs.com/metadata/java/edit/vcr"
-          description: "vCard"
-
+        Multi format documents and images metadata editing API for Java. Retrieve metadata of some of the popular file formats as stated below.
 
 ############################# Back to top ###############################
 back_to_top:

@@ -1,12 +1,12 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2023-07-31T12:04:41
 draft: false
 
 ############################# Head ############################
-head_title: ".NET, Java API и онлайн-приложения для работы с метаданными от GroupDocs"
-head_description: "API-интерфейсы метаданных документов, встроенные в C#, .NET и Java. Читайте, пишите, редактируйте и сравнивайте метаданные всех популярных форматов. Анализ и экспорт метаданных."
+head_title: ".NET, Java API и онлайн-приложения для обработки метаданных от GroupDocs"
+head_description: "API метаданных документов, встроенные в C# .NET и Java. Читайте, записывайте, редактируйте и сравнивайте метаинформацию всех популярных форматов. Анализируйте и экспортируйте метаданные."
 
 ############################# Header ############################
 title: "Решение для управления метаданными документов"
@@ -18,9 +18,9 @@ apis:
 
   api:
     # api loop
-    - title: "API High Code GroupDocs.Metadata включают"
+    - title: "GroupDocs.Metadata High Code API включают"
       link: "/metadata/"
-      label: "Просмотреть все API High Code"
+      label: "Просмотреть все High Code API"
       api_product:
         # api_product loop
         - link: "/metadata/net/"
@@ -28,7 +28,7 @@ apis:
           image: "/border/groupdocs-metadata-net.svg"
           product: "GroupDocs.Metadata for"
           platform: ".NET"
-          content: "Собственный .NET API для динамического чтения, записи, редактирования и удаления метаинформации из Microsoft Office, PDF, мультимедиа, изображений и различных других форматов файлов.."
+          content: "Встроенный API .NET для динамического чтения, записи, редактирования и удаления метаинформации из Microsoft Office, PDF, мультимедиа, изображений и других форматов файлов."
 
         # api_product loop
         - link: "/metadata/java/"
@@ -36,12 +36,12 @@ apis:
           image: "/border/groupdocs-metadata-java.svg"
           product: "GroupDocs.Metadata for"
           platform: "Java"
-          content: "Собственный .NET API для динамического чтения, записи, редактирования и удаления метаинформации из Microsoft Office, PDF, мультимедиа, изображений и различных других форматов файлов.."
+          content: "Java API для редактирования и обработки метаданных документов, изображений, видеофайлов и различных других форматов файлов."
 
     # api loop
-    - title: "API-интерфейсы GroupDocs.Metadata Low Code включают"
+    - title: "GroupDocs.Metadata Low Code API включают"
       link: "https://products.groupdocs.cloud/metadata"
-      label: "Просмотреть все API с низким кодом"
+      label: "Просмотреть все Low Code API"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.cloud/metadata/curl"
@@ -49,7 +49,7 @@ apis:
           image: "/sdk/groupdocs_metadata-for-curl.svg"
           product: "GroupDocs.Metadata"
           platform: "Cloud for cURL"
-          content: "Работайте с API-интерфейсами управления метаданными cURL RESTful для управления метаданными PDF, Word, Excel, презентаций, изображений и мультимедийных файлов в ваших приложениях.."
+          content: "Работайте с полными API-интерфейсами управления метаданными cURL REST для управления метаданными PDF, Word, Excel, презентаций, изображений и мультимедийных файлов в ваших приложениях."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/metadata/net"
@@ -57,7 +57,7 @@ apis:
           image: "/sdk/groupdocs_metadata-for-net.svg"
           product: "GroupDocs.Metadata"
           platform: "Cloud SDK for .NET"
-          content: "Используйте REST API метаданных с .NET SDK для добавления, редактирования, извлечения, поиска и удаления метаданных из форматов документов в приложениях .NET.."
+          content: "Используйте API метаданных REST вместе с .NET SDK для добавления, редактирования, извлечения, поиска и удаления метаданных из форматов документов в приложениях .NET."
 
         # api_product loop
         - link: "https://products.groupdocs.cloud/metadata/java"
@@ -65,12 +65,12 @@ apis:
           image: "/sdk/groupdocs_metadata-for-java.svg"
           product: "GroupDocs.Metadata"
           platform: "Cloud SDK for Java"
-          content: "Расширьте возможности своих Java-приложений с помощью мощных функций управления метаданными с помощью Metadata SDK для Java.."
+          content: "Расширьте возможности приложений Java с помощью мощных функций управления метаданными с помощью Metadata SDK for Java."
 
     # api loop
-    - title: "GroupDocs.Metadata No Code Apps Include"
+    - title: "GroupDocs.Metadata No Code Приложения включают"
       link: "https://products.groupdocs.app/metadata"
-      label: "Просмотреть все приложения без кода."
+      label: "Просмотреть все приложения No Code"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.app/metadata/total"
@@ -78,7 +78,7 @@ apis:
           image: "/app/groupdocs_metadata-app.svg"
           product: "GroupDocs.Metadata"
           platform: "Total"
-          content: "Бесплатное приложение для просмотра и редактирования метаданных Word, Excel, PDF, PowerPoint и более 50 типов документов.."
+          content: "Бесплатное приложение для просмотра и редактирования метаданных Word, Excel, PDF, PowerPoint и более 50 типов документов."
 
         # api_product loop
         - link: "https://products.groupdocs.app/metadata/docx"
@@ -86,7 +86,7 @@ apis:
           image: "/app/groupdocs_words-app.svg"
           product: "GroupDocs.Metadata"
           platform: "DOCX"
-          content: "Бесплатная онлайн-программа просмотра и редактирования метаданных для документов MS Word."
+          content: "Бесплатный онлайн-просмотрщик и редактор метаданных для документов MS Word."
 
         # api_product loop
         - link: "https://products.groupdocs.app/metadata/pdf"
@@ -94,7 +94,7 @@ apis:
           image: "/app/groupdocs_pdf-app.svg"
           product: "GroupDocs.Metadata"
           platform: "PDF"
-          content: "Просмотр или редактирование метаданных PDF-документов онлайн."
+          content: "Просматривайте или редактируйте метаданные документов PDF онлайн."
 
 ############################# Back to top ###############################
 back_to_top:

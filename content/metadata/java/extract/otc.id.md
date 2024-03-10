@@ -1,13 +1,17 @@
 ---
-layout: "auto-gen"
-date: 2022-07-07T12:44:18+03:00
+############################# Static ############################
+layout: "auto-gen-metadata"
+date: 2024-03-10T13:38:37
 draft: false
+otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one djvu
 
-head_title: "Lihat &amp; Ekstrak Metadata File OTC di Aplikasi Java"
-head_description: "API ekstraksi metadata Java lintas platform untuk membaca dan mengekstrak informasi metadata dari file OTC. Bekerja dengan standar metadata XMP, EXIF, IPTC, ID3 dll."
+############################# Head ############################
+head_title: "Baca & Ekstrak Metadata dari OTC File di Java Aplikasi"
+head_description: "API manajemen metadata lintas platform Java untuk membaca dan mengekstrak informasi metadata dari OTC file. Bekerja dengan standar metadata XMP, EXIF, IPTC, ID3 dll."
 
-title: "Ekstrak OTC Metadata di Jawa"
-description: "Bekerja dengan GroupDocs.Metadata for Java API untuk mengekstrak informasi metadata dari dokumen, gambar, dan berbagai format file multimedia."
+############################# Header ############################
+title: "Ekstrak Metadata Dari File OTC Di Java"
+description: "Baca & Ekstrak informasi metadata dari berbagai dokumen, gambar, format audio & video menggunakan GroupDocs.Metadata for Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
@@ -16,6 +20,7 @@ button:
     label: "Unduh Uji Coba Gratis"
     link: "https://downloads.groupdocs.com/metadata/java"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,284 +33,92 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/metadata/java"
-              text: "Referensi API"
+              text: "{submenu.content_middle.button_text_1}"
 
+            # button loop
             - link: "https://github.com/groupdocs-metadata"
-              text: "Contoh Kode"
+              text: "{submenu.content_middle.button_text_2}"
 
+            # button loop
             - link: "https://products.groupdocs.app/metadata/family"
-              text: "Demo Langsung"
+              text: "{submenu.content_middle.button_text_3}"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/java"
-              text: "Harga"
+              text: "{submenu.content_middle.button_text_4}"
 
     right:
         link_download: "https://downloads.groupdocs.com/metadata"
         link_learn: "https://docs.groupdocs.com/metadata/java"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "Tentang GroupDocs.Metadata untuk Java API"
+    title: "Tentang GroupDocs.Metadata for Java API"
     content: |
-        [GroupDocs.Metadata for Java](/id/metadata/java/) adalah solusi manajemen metadata canggih, yang memungkinkan pengembang untuk dengan mudah melihat, menambah, mengedit, menghapus, mencari, membandingkan, mengganti, dan mengekspor informasi metadata dari gambar dan format dokumen tanpa menggunakan perangkat lunak eksternal. Ekstrak detail metadata dari format file Microsoft Office Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, PDF, AutoCAD, Arsip, Audio, dan Video.
+        [GroupDocs.Metadata for Java](/id/metadata/java/) menawarkan serangkaian fitur manajemen dan manipulasi metadata lanjutan, memungkinkan pengembang untuk dengan mudah membaca, mengedit, menghapus, mencari, membandingkan, mengganti, dan mengekspor informasi metadata dari gambar dan format dokumen tanpa menggunakan perangkat lunak eksternal apa pun. Ekstrak detail metadata dari format file PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Arsip dan Multimedia, dan lakukan operasi metadata yang didukung dengan fleksibilitas yang sesungguhnya.
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "Langkah-langkah untuk Ekstraksi Metadata OTC di Java"
+    title_left: "Langkah-langkah untuk OTC Ekstraksi Metadata di Java"
     content_left: |
-        [GroupDocs.Metadata](/id/metadata/java/) memudahkan pengembang Java untuk mendapatkan informasi metadata dari file OTC dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
-
-        * Muat file OTC yang akan dicari properti metadatanya.
-        * Buat predikat untuk memeriksa semua properti metadata yang diekstraksi.
-        * Berikan predikat ke metode FindProperties.
+        [GroupDocs.Metadata for Java](/id/metadata/java/) memudahkan pengembang Java untuk mengekstrak untuk membaca dan mengekstrak informasi metadata dari file OTC dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
+        
+        * Muat OTC dengan instance kelas Metadata.
+        * Buat predikat untuk memeriksa semua properti metadata.
+        * Meneruskan predikat ke metode findProperties.
         * Iterasi melalui properti yang ditemukan.
-        
-    title_right: "Persyaratan sistem"
-    content_right: |
-        GroupDocs.Metadata untuk Java API didukung di semua platform dan sistem operasi utama. Sebelum menjalankan kode di bawah ini, pastikan Anda telah menginstal prasyarat berikut di sistem Anda.
 
-        * Sistem Operasi: Microsoft Windows, Linux, MacOS
-        * Lingkungan Pengembangan: NetBeans, Intellij IDEA, Eclipse dll
-        * Lingkungan Runtime Java: J2SE 6.0 dan yang lebih baru
-        * Dapatkan versi terbaru GroupDocs.Metadata untuk Java dari [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)
-        
+    title_right: "Persyaratan Sistem"
+    content_right: |
+        GroupDocs.Metadata for Java API didukung di semua platform utama dan sistem operasi. Sebelum menjalankan kode di bawah ini, pastikan bahwa Anda memiliki prasyarat berikut diinstal pada sistem Anda.
+
+        * Sistem Operasi: Microsoft Windows, Linux, Mac OS
+        * Lingkungan Pengembangan: NetBeans, IntelliJ IDEA, Eclipse
+        * Java Lingkungan Runtime: J2SE 6.0 and above
+        * Unduh versi terbaru GroupDocs.Metadata for Java dari [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
+         
     code: |
-        ```java
-        try (Metadata metadata = new Metadata("input.otc")) {
-        	if (metadata.getFileFormat() != FileFormat.Unknown && !metadata.getDocumentInfo().isEncrypted()) {
-        
-        		// Ambil semua properti metadata yang termasuk dalam kategori tertentu
-        		IReadOnlyList properties = metadata.findProperties(new FallsIntoCategorySpecification(Tags.getContent()));
-        		System.out.println("The metadata properties describing some characteristics of the file content: title, keywords, language, etc.");
-        		for (MetadataProperty property : properties) {
-        			System.out.println(String.format("Property name: %s, Property value: %s", property.getName(), property.getValue()));
-        		}
-        	}
+        ```java    
+        try (Metadata metadata = new Metadata("input.asf"))
+        {
+            if (metadata.getFileFormat() != FileFormat.Unknown && !metadata.getDocumentInfo().isEncrypted())
+            {
+                // Ambil semua properti metadata yang termasuk dalam kategori tertentu
+                IReadOnlyList properties = metadata.findProperties(new FallsIntoCategorySpecification(Tags.getContent()));
+                System.out.println("The metadata properties describing some characteristics of the file content: title, keywords, language, etc.");
+                for (MetadataProperty property : properties) 
+                {
+                    System.out.println(String.format("Property name: %s, Property value: %s", property.getName(), property.getValue()));
+                }
+            }
         }
         ```
-        
+
+############################# Demos ############################
 demos:
     enable: true
-    title: "Demo Langsung Mengekstrak Metadata"
+    title: "Demo Langsung Ekstraksi Metadata"
     content: |
-        Ambil informasi metadata file OTC sekarang juga dengan mengunjungi situs web [GroupDocs.Metadata](https://products.groupdocs.app/metadata/family).  
-        Demo langsung memiliki manfaat sebagai berikut
+       Ambil informasi metadata file OTC sekarang dengan mengunjungi situs web [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family).
+       Demo langsung memiliki manfaat sebagai berikut.
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-file-word-o"
-          title: "Tentang Format Berkas OTC"
-          content: |
-            File pengolah kata berisi informasi pengguna dalam format teks biasa atau teks kaya. Format file teks biasa berisi teks yang tidak diformat dan tidak ada pengaturan font atau halaman, dll. yang dapat diterapkan. Sebaliknya, format file teks kaya memungkinkan opsi pemformatan seperti pengaturan jenis font, gaya (tebal, miring, garis bawah, dll.), margin halaman, judul, poin dan angka, dan beberapa fitur pemformatan lainnya. Penggunaan file teks biasa telah berkurang secara signifikan dengan berlalunya waktu karena ada komputer dan program yang lebih kuat yang tersedia untuk menawarkan pemrosesan file teks kaya.
 
-          link: "https://docs.fileformat.com/word-processing/"
-
+############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Melihat & Mengekstrak Metadata Dari Format File Lain"
+    title: "Membaca & Mengekstrak Format File Lainnya"
     content: |
-        Dokumen multi format dan API ekstraksi metadata gambar untuk Java. Dapatkan detail metadata dari beberapa format file populer seperti yang dinyatakan di bawah ini.
-    format: 
-        - name: "Ekstrak Metadata PDF"
-          link: "/metadata/java/extract/pdf/"
-          description: "Format Dokumen Portabel Adobe"
+        Dokumen multi format dan API ekstraksi metadata gambar untuk Java. Ambil metadata dari beberapa format file populer seperti yang dinyatakan di bawah ini.
 
-        - name: "Ekstrak Metadata DOC"
-          link: "/metadata/java/extract/doc/"
-          description: "Dokumen Microsoft Word"
-
-        - name: "Ekstrak Metadata DOCM"
-          link: "/metadata/java/extract/docm/"
-          description: "Dokumen Berkemampuan Makro Microsoft Word"
-
-        - name: "Ekstrak Metadata DOCX"
-          link: "/metadata/java/extract/docx/"
-          description: "Microsoft Word Buka Dokumen XML"
-
-        - name: "Ekstrak Metadata DOT"
-          link: "/metadata/java/extract/dot/"
-          description: "Templat Dokumen Microsoft Word"
-
-        - name: "Ekstrak Metadata DOTX"
-          link: "/metadata/java/extract/dotx/"
-          description: "Templat Dokumen XML Word Terbuka"
-
-        - name: "Ekstrak Metadata XLS"
-          link: "/metadata/java/extract/xls/"
-          description: "Format File Biner Microsoft Excel"
-
-        - name: "Ekstrak Metadata XLSX"
-          link: "/metadata/java/extract/xlsx/"
-          description: "Microsoft Excel Buka XML Spreadsheet"
-
-        - name: "Ekstrak Metadata XLSM"
-          link: "/metadata/java/extract/xlsm/"
-          description: "Spreadsheet Berkemampuan Makro Microsoft Excel"
-
-        - name: "Ekstrak Metadata XLTM"
-          link: "/metadata/java/extract/xltx/"
-          description: "Templat Buku Kerja yang Diaktifkan Makro OOXML"
-
-        - name: "Ekstrak Metadata PPT"
-          link: "/metadata/java/extract/ppt/"
-          description: "Presentasi powerpoint"
-
-        - name: "Ekstrak Metadata PPS"
-          link: "/metadata/java/extract/pps/"
-          description: "Pertunjukan Slide Microsoft PowerPoint"
-
-        - name: "Ekstrak Metadata PPTX"
-          link: "/metadata/java/extract/pptx/"
-          description: "Presentasi PowerPoint Terbuka XML"
-
-        - name: "Ekstrak Metadata PPSX"
-          link: "/metadata/java/extract/ppsx/"
-          description: "PowerPoint Terbuka XML Slide Show"
-
-        - name: "Ekstrak Metadata POTX"
-          link: "/metadata/java/extract/potx/"
-          description: "Templat XML Terbuka Microsoft PowerPoint"
-
-        - name: "Ekstrak Metadata POTM"
-          link: "/metadata/java/extract/potm/"
-          description: "Templat Microsoft PowerPoint"
-
-        - name: "Ekstrak Metadata PPTM"
-          link: "/metadata/java/extract/pptm/"
-          description: "Presentasi Microsoft PowerPoint"
-
-        - name: "Ekstrak Metadata PPSM"
-          link: "/metadata/java/extract/ppsm/"
-          description: "Pertunjukan Slide Microsoft PowerPoint"
-
-        - name: "Ekstrak Metadata ODS"
-          link: "/metadata/java/extract/ods/"
-          description: "Buka Spreadsheet Dokumen"
-
-        - name: "Ekstrak Metadata ODT"
-          link: "/metadata/java/extract/odt/"
-          description: "Buka Teks Dokumen"
-
-        - name: "Ekstrak Metadata TIFF"
-          link: "/metadata/java/extract/tiff/"
-          description: "Format File Gambar yang Ditandai"
-
-        - name: "Ekstrak Metadata JPEG"
-          link: "/metadata/java/extract/jpeg/"
-          description: "Gambar JPEG"
-
-        - name: "Ekstrak Metadata PNG"
-          link: "/metadata/java/extract/png/"
-          description: "Grafik Jaringan Portabel"
-
-        - name: "Ekstrak Metadata GIF"
-          link: "/metadata/java/extract/gif/"
-          description: "File Format Pertukaran Grafis"
-
-        - name: "Ekstrak Metadata BMP"
-          link: "/metadata/java/extract/bmp/"
-          description: "Format File Bitmap"
-
-        - name: "Ekstrak Metadata JP2"
-          link: "/metadata/java/extract/jp2/"
-          description: "File Gambar Inti JPEG 2000"
-
-        - name: "Ekstrak Metadata WEBP"
-          link: "/metadata/java/extract/webp/"
-          description: "Format File Gambar Web Raster"
-
-        - name: "Ekstrak Metadata PSD"
-          link: "/metadata/java/extract/psd/"
-          description: "Dokumen Adobe Photoshop"
-
-        - name: "Ekstrak Metadata WMF"
-          link: "/metadata/java/extract/wmf/"
-          description: "Metafile Windows"
-
-        - name: "Ekstrak Metadata EMF"
-          link: "/metadata/java/extract/emf/"
-          description: "Format Metafile yang Ditingkatkan"
-
-        - name: "Ekstrak Metadata MPP"
-          link: "/metadata/java/extract/emz/"
-          description: "Dokumen Proyek Microsoft"
-
-        - name: "Ekstrak Metadata MSG"
-          link: "/metadata/java/extract/msg/"
-          description: "Pesan Email Microsoft Outlook"
-
-        - name: "Ekstrak Metadata EML"
-          link: "/metadata/java/extract/eml/"
-          description: "Pesan email"
-
-        - name: "Ekstrak Metadata DWG"
-          link: "/metadata/java/extract/dwg/"
-          description: "Format Data Desain Autodesk"
-
-        - name: "Ekstrak Metadata DXF"
-          link: "/metadata/java/extract/dxf/"
-          description: "Pertukaran Gambar AutoCAD"
-
-        - name: "Ekstrak SATU Metadata"
-          link: "/metadata/java/extract/one/"
-          description: "Microsoft OneNote"
-
-        - name: "Ekstrak Metadata MP3"
-          link: "/metadata/java/extract/mp3/"
-          description: "Lapisan Audio MPEG III"
-
-        - name: "Ekstrak Metadata WAV"
-          link: "/metadata/java/extract/wav/"
-          description: "Format File Audio Bentuk Gelombang"
-
-        - name: "Ekstrak Metadata DICOM"
-          link: "/metadata/java/extract/dicom/"
-          description: "Pencitraan Digital &amp; Kom dalam Kedokteran"
-
-        - name: "Ekstrak Metadata AVI"
-          link: "/metadata/java/extract/avi/"
-          description: "File Interleave Audio Video"
-
-        - name: "Ekstrak Metadata VSD"
-          link: "/metadata/java/extract/vsd/"
-          description: "Gambar Microsoft Visio 2003-2010"
-
-        - name: "Ekstrak Metadata VSDX"
-          link: "/metadata/java/extract/vsdx/"
-          description: "Gambar Microsoft Visio"
-
-        - name: "Ekstrak Metadata VSS"
-          link: "/metadata/java/extract/vss/"
-          description: "Microsoft Visio 2003-2010 Stensil"
-
-        - name: "Ekstrak Metadata VDX"
-          link: "/metadata/java/extract/vdx/"
-          description: "Gambar XML Microsoft Visio 2003-2010"
-
-        - name: "Ekstrak Metadata VSX"
-          link: "/metadata/java/extract/vsx/"
-          description: "Stensil XML Microsoft Visio 2003-2010"
-
-        - name: "Ekstrak Metadata ZIP"
-          link: "/metadata/java/extract/zip/"
-          description: "Format File Arsip"
-
-        - name: "Ekstrak Metadata EPUB"
-          link: "/metadata/java/extract/epub/"
-          description: "Format File E-Book Digital"
-
-        - name: "Ekstrak Metadata VCF"
-          link: "/metadata/java/extract/vcf/"
-          description: "Kartu Nama Elektronik"
-
-        - name: "Ekstrak Metadata VCR"
-          link: "/metadata/java/extract/vcr/"
-          description: "kartu v"
-
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

@@ -1,86 +1,102 @@
 ---
+############################# Static ############################
 layout: "product"
-date: 2021-04-27T09:31:06+03:00
+date: 2023-07-31T12:04:41
 draft: false
 
-head_title: ".GroupDocsによるNET、Java API、オンラインメタデータ操作アプリ"
-head_description: "C＃.NETおよびJavaにネイティブなドキュメントメタデータAPI。すべての一般的な形式のメタ情報を読み取り、書き込み、編集、比較します。メタデータの分析とエクスポート."
+############################# Head ############################
+head_title: ".NET、Java API & オンライン メタデータ操作アプリ GroupDocs"
+head_description: "C# .NET および Java にネイティブなドキュメント メタデータ API。すべての一般的なフォーマットのメタ情報を読み取り、書き込み、編集、比較します。メタデータを分析してエクスポートします。"
 
-title: "ドキュメントメタデータ管理ソリューション"
-description: "一般的なプラットフォームでドキュメント、画像、その他のファイル形式のメタデータを読み取り、編集、置換、削除するためのAPIとアプリ."
+############################# Header ############################
+title: "ドキュメント メタデータ管理ソリューション"
+description: "一般的なプラットフォームでドキュメント、画像、その他のファイル形式のメタデータを読み取り、編集、置換、削除するための API とアプリ。"
 
+############################# APIs ###############################
 apis:
   enable: true
 
   api:
-    - title: "GroupDocs.MetadataハイコードAPIには次のものが含まれます"
+    # api loop
+    - title: "GroupDocs.Metadata High Code API には以下が含まれます"
       link: "/metadata/"
-      label: "すべてのハイコードAPIを表示"
+      label: "High Code API をすべて表示"
       api_product:
+        # api_product loop
         - link: "/metadata/net/"
           img_alt: "GroupDocs.Metadata for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-metadata-net.png"
+          image: "/border/groupdocs-metadata-net.svg"
           product: "GroupDocs.Metadata for"
           platform: ".NET"
-          content: "Microsoft Office、PDF、マルチメディア、画像、その他のさまざまなファイル形式からメタ情報を動的に読み取り、書き込み、編集、削除するためのネイティブ.NET API."
+          content: "Microsoft Office、PDF、マルチメディア、画像、およびその他のさまざまなファイル形式からメタ情報を動的に読み取り、書き込み、編集、および削除するためのネイティブ .NET API。"
 
+        # api_product loop
         - link: "/metadata/java/"
           img_alt: "GroupDocs.Metadata for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-metadata-java.png"
+          image: "/border/groupdocs-metadata-java.svg"
           product: "GroupDocs.Metadata for"
           platform: "Java"
-          content: "Microsoft Office、PDF、マルチメディア、画像、その他のさまざまなファイル形式からメタ情報を動的に読み取り、書き込み、編集、削除するためのネイティブ.NET API."
+          content: "Java ドキュメント、画像、動画ファイル、その他のさまざまなファイル形式のメタデータを編集および操作するための API。"
 
-    - title: "GroupDocs.MetadataローコードAPIには次のものが含まれます"
+    # api loop
+    - title: "GroupDocs.Metadata Low Code API には以下が含まれます"
       link: "https://products.groupdocs.cloud/metadata"
-      label: "すべてのローコードAPIを表示"
+      label: "すべての Low Code API を表示"
       api_product:
+        # api_product loop
         - link: "https://products.groupdocs.cloud/metadata/curl"
           img_alt: "GroupDocs.Metadata Cloud for cURL"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_metadata-for-curl.png"
+          image: "/sdk/groupdocs_metadata-for-curl.svg"
           product: "GroupDocs.Metadata"
           platform: "Cloud for cURL"
-          content: "cURL RESTfulメタデータ操作APIを使用して、アプリケーション内のPDF、Word、Excel、プレゼンテーション、画像、マルチメディアファイルのメタデータ情報を管理します."
+          content: "cURL RESTful メタデータ操作 API を使用して、PDF、Word、Excel、プレゼンテーション、画像、およびアプリケーション内のマルチメディア ファイルのメタデータ情報を管理します。"
 
+        # api_product loop
         - link: "https://products.groupdocs.cloud/metadata/net"
           img_alt: "GroupDocs.Metadata Cloud SDK for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_metadata-for-net.png"
+          image: "/sdk/groupdocs_metadata-for-net.svg"
           product: "GroupDocs.Metadata"
           platform: "Cloud SDK for .NET"
-          content: ".NETSDKでメタデータRESTAPIを使用して、.NETアプリケーション内のドキュメント形式からメタデータを追加、編集、抽出、検索、および削除します."
+          content: ".NET SDK でメタデータ REST API を使用して、.NET アプリケーション内のドキュメント形式からメタデータを追加、編集、抽出、検索、削除します。"
 
+        # api_product loop
         - link: "https://products.groupdocs.cloud/metadata/java"
           img_alt: "GroupDocs.Metadata Cloud SDK for Java"
-          image: "https://www.groupdocs.cloud/templates/groupdocscloud/images/sdk/272x272/groupdocs_metadata-for-java.png"
+          image: "/sdk/groupdocs_metadata-for-java.svg"
           product: "GroupDocs.Metadata"
           platform: "Cloud SDK for Java"
-          content: "Metadata SDK for Javaを使用して、強力なメタデータ管理機能でJavaアプリケーションを強化します。."
+          content: "Metadata SDK for Java を使用して、強力なメタデータ管理機能で Java アプリケーションを強化します。"
 
-    - title: "GroupDocs.Metadataコードアプリは含まれていません"
+    # api loop
+    - title: "GroupDocs.Metadata No Code アプリの内容"
       link: "https://products.groupdocs.app/metadata"
-      label: "すべてのノーコードアプリを表示"
+      label: "No Code 個のアプリをすべて表示"
       api_product:
+        # api_product loop
         - link: "https://products.groupdocs.app/metadata/total"
           img_alt: "GroupDocs.Metadata Total"
-          image: "https://www.aspose.cloud/templates/asposeapp/images/products/logo/aspose_metadata-app.png"
+          image: "/app/groupdocs_metadata-app.svg"
           product: "GroupDocs.Metadata"
           platform: "Total"
-          content: "Word、Excel、PDF、PowerPointおよび50以上のドキュメントタイプのメタデータを表示および編集するための無料アプリ."
+          content: "Word、Excel、PDF、PowerPoint、および 50 を超えるドキュメント タイプのメタデータを表示および編集するための無料アプリ。"
 
+        # api_product loop
         - link: "https://products.groupdocs.app/metadata/docx"
           img_alt: "GroupDocs.Metadata DOCX"
-          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_words-app.png"
+          image: "/app/groupdocs_words-app.svg"
           product: "GroupDocs.Metadata"
           platform: "DOCX"
-          content: "MSWordドキュメント用の無料のオンラインメタデータビューアおよびエディタ."
+          content: "MS Word ドキュメント用の無料のオンライン メタデータ ビューアおよびエディタ。"
 
+        # api_product loop
         - link: "https://products.groupdocs.app/metadata/pdf"
           img_alt: "GroupDocs.Metadata PDF"
-          image: "https://www.aspose.cloud/templates/groupdocsapp/images/products/logo/groupdocs_pdf-app.png"
+          image: "/app/groupdocs_pdf-app.svg"
           product: "GroupDocs.Metadata"
           platform: "PDF"
-          content: "PDFドキュメントのメタデータ情報をオンラインで表示または編集する."
+          content: "PDF ドキュメントのメタデータ情報をオンラインで表示または編集します。"
 
+############################# Back to top ###############################
 back_to_top:
   enable: true
 ---

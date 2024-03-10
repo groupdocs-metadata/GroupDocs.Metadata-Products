@@ -1,0 +1,47 @@
+{
+  "head": {
+    "title": "{{ProgLang}} アプリケーションの {{EXT}} ファイルにメタデータを追加",
+    "description": "{{ProgLang}} メタデータ処理 API により、{{EXT}} ファイルにメタデータ情報を追加できます。メタデータ標準 XMP、EXIF、IPTC、ID3 などを使用してください。"
+  },
+  "header": {
+    "title": "{{ProgLang}} の {{EXT}} へのメタデータの追加",
+    "description": "{{ProductFullName}} API を使用して、さまざまなビジネス文書、画像、音声、動画ファイル形式にカスタムメタデータプロパティを追加します。",
+    "button_label": "無料試用版をダウンロード"
+  },
+  "about": {
+    "title": "{{ProductFullName}} API について",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/metadata/{{ProductCode}}/) は、高度なメタデータ管理および操作機能を備えているため、.NET 人のプログラマーは、外部ソフトウェアを使用せずに、画像や文書形式のメタデータ情報を簡単に表示、編集、削除、検索、比較、交換、エクスポートできます。PDF、Microsoft Word、Excel、PowerPoint、Outlook、OneNote、Visio、Project、AutoCAD、アーカイブおよびマルチメディアファイル形式にメタデータの詳細を追加します。さらに、{{ProductName}} ベースのアプリケーションでメタデータ操作を非常に柔軟に実行するためのサポートも追加されています。"
+  },
+  "steps": {
+    "title_left": "{{ProgLang}} の {{EXT}} にメタデータを追加する手順",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/metadata/{{ProductCode}}/) を使用すると、{{ProductName}} 開発者はいくつかの簡単な手順を実装することで、アプリケーション内から {{EXT}} ファイルにメタデータの詳細を簡単に追加できます。",
+      "step_1": "更新する {{EXT}} ファイルをロードします。",
+      "step_2": "メタデータのプロパティを追加するために使用する述語を指定します。",
+      "step_3": "述語を addProperties メソッドに渡します。",
+      "step_4": "変更を保存します。"
+    },
+    "title_right": "システム要件",
+    "content_right": {
+      "description": "{{ProductFullName}} API はすべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、以下の前提条件がシステムにインストールされていることを確認してください。",
+      "step_1": "オペレーティングシステム:マイクロソフト Windows、Linux、Mac OS",
+      "step_2": "開発環境:{{DevEnv}}",
+      "step_3": "フレームワーク",
+      "step_4": "{{ProductFullName}} の最新バージョンを [{{RepoName}}]({{RepoUrl}}) からダウンロードしてください"
+    },
+    "title_code": "{{ProgLang}} サンプルコードを使用してメタデータ {{EXT}} ファイルを追加する方法",
+    "code": {
+      "load_comment": "Metadata クラスのインスタンスにファイルをロードする",
+      "add_comment": "コンテンツ作成者を含むプロパティを追加"
+    }
+  },
+  "demos": {
+    "title": "メタデータを追加するためのライブデモ",
+    "h1": "[GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) ウェブサイトにアクセスして、今すぐ {{EXT}} ファイルにメタデータ情報を追加してください。",
+    "h2": "ライブデモには以下のメリットがあります。"
+  },
+  "more_formats": {
+    "title": "他のファイル形式へのメタデータプロパティの追加",
+    "content": "{{ProductName}} 用のマルチフォーマット文書および画像メタデータ追加 API。以下に説明するように、一般的なファイル形式のメタデータを取得します。"
+  }
+}

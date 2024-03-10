@@ -1,0 +1,48 @@
+{
+  "head": {
+    "title": "{{ProgLang}} アプリケーションの {{EXT}} ファイルへのメタデータの編集",
+    "description": "{{ProgLang}} メタデータ処理APIを使用してメタデータ情報を {{EXT}} ファイルに編集します。メタデータ規格 XMP、EXIF、IPTC、ID3 などと連携してください。"
+  },
+  "header": {
+    "title": "{{ProgLang}} 内の {{EXT}} ファイルのメタデータを更新",
+    "description": "最も必要なすべてのメタデータ処理操作の実行をサポートして、すべての一般的な文書、画像、マルチメディアファイル形式のメタデータ情報を更新します。",
+    "button_label": "無料試用版をダウンロード"
+  },
+  "about": {
+    "title": "{{ProductFullName}} API について",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/metadata/{{ProductCode}}/) は、高度なメタデータ管理機能セットを提供します。これにより、開発者は外部ソフトウェアを使用せずに、画像や文書形式のメタデータ情報の読み取り、文書化、削除、検索、比較、置換、エクスポートを簡単に行うことができます。メタデータ操作APIを使用すると、PDF、Microsoft Office Word、Excel スプレッドシート、PowerPoint プレゼンテーション、Outlook 電子メール、OneNote、Visio、Project、AutoCAD、アーカイブおよびマルチメディアファイル形式のメタデータの詳細を編集できます。また、他の多くのメタデータ処理機能との連携もサポートされています。"
+  },
+  "steps": {
+    "title_left": "{{ProgLang}} のメタデータを {{EXT}} に更新する手順",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/metadata/{{ProductCode}}/) を使用すると、{{ProductName}} 開発者はいくつかの簡単な手順を実行することで、アプリケーション内からメタデータ情報を {{EXT}} ファイルに簡単に編集できます。",
+      "step_1": "Metadata クラスのインスタンス経由で {{EXT}} ファイルをロードします。",
+      "step_2": "必要なメタデータプロパティをフィルタリングするために使用する述語を指定します。",
+      "step_3": "述語と新しい値を updateProperties メソッドに渡します。",
+      "step_4": "変更を {{EXT}} 形式でディスクに保存します。"
+    },
+    "title_right": "システム要件",
+    "content_right": {
+      "description": "{{ProductFullName}} 個のAPIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、以下の前提条件がシステムにインストールされていることを確認してください。",
+      "step_1": "オペレーティングシステム:マイクロソフト Windows、Linux、Mac OS",
+      "step_2": "開発環境:{{DevEnv}}",
+      "step_3": "フレームワーク",
+      "step_4": "[{{RepoName}}]({{RepoUrl}}) から {{ProductFullName}} の最新バージョンをダウンロードしてください"
+    },
+    "title_code": "{{ProgLang}} サンプルコードを使用してメタデータ {{EXT}} ファイルを追加する方法",
+    "code": {
+      "set_comment": "述語を満たす各プロパティの値を設定します。",
+      "prop_comment": "プロパティには、ドキュメントが作成された日付/時刻が含まれます",
+      "update_comment": "既存の値が 3 日より古い場合は、ファイルの作成日時を更新します"
+    }
+  },
+  "demos": {
+    "title": "メタデータを更新するためのライブデモ",
+    "h1": "[GroupDocs.Metadata ライブデモ](https://products.groupdocs.app/metadata/family) ウェブサイトにアクセスして、メタデータ情報を {{EXT}} ファイルに今すぐ更新してください。",
+    "h2": "ライブデモには次の利点があります。"
+  },
+  "more_formats": {
+    "title": "他のファイル形式のメタデータプロパティの更新",
+    "content": "{{ProductName}} 用のマルチフォーマット文書および画像メタデータ編集 API。以下に示すように、一般的なファイル形式のメタデータを取得します。"
+  }
+}

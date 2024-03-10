@@ -1,0 +1,48 @@
+{
+  "head": {
+    "title": ".NET, Java APIs & Online Metadata Manipulation Apps by GroupDocs",
+    "description": "Document Metadata APIs native to C# .NET & Java. Read, write, edit & compare meta information of all popular formats. Analyze & export metadata."
+  },
+  "header": {
+    "title": "Document Metadata Management Solution",
+    "description": "APIs and apps to read, edit, replace and remove metadata of documents, images and other file formats on popular platforms."
+  },
+  "apis": {
+    "highcode": {
+      "title": "GroupDocs.Metadata High Code APIs Include",
+      "label": "View All High Code APIs",
+      "net": {
+        "content": "Native .NET API to dynamically read, write, edit and remove meta information from Microsoft Office, PDF, Multimedia, images and various other file formats."
+      },
+      "java": {
+        "content": "Java API to edit and manipulate metadata of documents, images, video files and various other file formats."
+      }
+    },
+    "lowcode": {
+      "title": "GroupDocs.Metadata Low Code APIs Include",
+      "label": "View All Low Code APIs",
+      "curl": {
+        "content": "Work with cURL RESTful metadata manipulation APIs to manage metadata information of PDF, Word, Excel, Presentations, images and multimedia file in your applications."
+      },
+      "net": {
+        "content": "Use metadata REST API with .NET SDK to add, edit, extract, search and delete metadata from document formats within .NET applications."
+      },
+      "java": {
+        "content": "Enhance your Java applications with powerful metadata management features using Metadata SDK for Java."
+      }
+    },
+    "nocode": {
+      "title": "GroupDocs.Metadata No Code Apps Include",
+      "label": "View All No Code Apps",
+      "total": {
+        "content": "Free app to view & edit metadata of Word, Excel, PDF, PowerPoint and more than 50 document types."
+      },
+      "docx": {
+        "content": "Free online metadata viewer & editor for MS Word documents."
+      },
+      "pdf": {
+        "content": "View or edit Metadata information of PDF documents online."
+      }
+    }
+  }
+}

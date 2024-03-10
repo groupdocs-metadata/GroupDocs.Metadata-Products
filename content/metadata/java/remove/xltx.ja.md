@@ -1,21 +1,26 @@
 ---
-layout: "auto-gen"
-date: 2021-05-20T16:12:02+03:00
+############################# Static ############################
+layout: "auto-gen-metadata"
+date: 2024-03-10T13:38:41
 draft: false
+otherformats: zip xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
-head_title: "JavaでXLTXファイルのメタデータプロパティを削除する"
-head_description: "クロスプラットフォームのJavaメタデータAPIを使用して、XLTXファイルのメタデータフィールドを非表示にしたり削除したりします。メタデータ標準XMP、EXIF、IPTC、ID3などを操作します。"
+############################# Head ############################
+head_title: "Java 内の XLTX ファイルのメタデータプロパティを削除"
+head_description: "XLTX ファイルのメタデータフィールドを非表示にしたり削除したりするためのクロスプラットフォーム Java メタデータAPI。メタデータ規格 XMP、EXIF、IPTC、ID3 などと連携してください。 "
 
-title: "JavaでXLTXメタデータを削除する"
-description: "GroupDocs.Metadata for Java APIを使用して、XLTXやその他の多くの一般的なドキュメント、画像、マルチメディアファイル形式からメタデータプロパティを削除します."
+############################# Header ############################
+title: "Java の XLTX メタデータを削除します"
+description: "GroupDocs.Metadata for Java APIを使用して、XLTX や他の多くの一般的な文書、画像、マルチメディアファイル形式からメタデータプロパティを削除します。"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "無料トライアルをダウンロード"
+    label: "無料試用版をダウンロード"
     link: "https://downloads.groupdocs.com/metadata/java"
 
+############################# SubMenu ############################
 submenu:
     enable: true
 
@@ -28,234 +33,87 @@ submenu:
     middle:
         button:
 
+            # button loop
             - link: "https://apireference.groupdocs.com/metadata/java"
-              text: "APIリファレンス"
+              text: "{submenu.content_middle.button_text_1}"
 
+            # button loop
             - link: "https://github.com/groupdocs-metadata"
-              text: "コード例"
+              text: "{submenu.content_middle.button_text_2}"
 
+            # button loop
             - link: "https://products.groupdocs.app/metadata/family"
-              text: "ライブデモ"
+              text: "{submenu.content_middle.button_text_3}"
 
+            # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/java"
-              text: "価格設定"
+              text: "{submenu.content_middle.button_text_4}"
 
     right:
         link_download: "https://downloads.groupdocs.com/metadata"
         link_learn: "https://docs.groupdocs.com/metadata/java"
         link_buy: "https://purchase.groupdocs.com"
 
+############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Metadata for Java APIについて"
+    title: "GroupDocs.Metadata for Java API について"
     content: |
-        [GroupDocs.Metadata for Java](/metadata/java/)は、外部ソフトウェアを使用せずに、画像やドキュメント形式からメタデータ情報を簡単に読み取り、追加、更新、削除、検索、比較、交換、エクスポートできる高度なメタデータフィールド操作ソリューションです。 。 Word文書、Excelスプレッドシート、PowerPointプレゼンテーション、Outlook電子メール、OneNote、Visio、Project、PDF、AutoCAD、ZIp、オーディオおよびビデオファイル形式からメタデータの詳細を削除し、他の多くのメタデータ処理機能の操作をサポートします。
+        [GroupDocs.Metadata for Java](/ja/metadata/java/) は、外部ソフトウェアを使用せずに、画像やドキュメント形式からメタデータ情報を簡単に読み取り、追加、更新、削除、検索、比較、交換、エクスポートできる高度なメタデータフィールド操作ソリューションです。Word ドキュメント、Excel スプレッドシート、PowerPoint プレゼンテーション、Outlook 電子メール、OneNote、Visio、Project、PDF、AutoCAD、Zip、Audio、Video ファイル形式からメタデータの詳細を削除し、他の多くのメタデータ処理機能との連携もサポートします。
 
+############################# Steps ############################
 steps:
     enable: true
-    title_left: "JavaでXLTXメタデータを削除する手順"
+    title_left: "Java の XLTX からメタデータを削除する手順"
     content_left: |
-        [GroupDocs.Metadata](/metadata/java/)を使用すると、Java開発者は、いくつかの簡単な手順を実装することで、アプリケーション内からXLTXファイルからメタデータ情報を簡単に削除できます。
-
-        * 更新するXLTXファイルをロードします。
-        *検索述語をRemovePropertiesメソッドに渡します。
-        *実際に削除されたプロパティの数を確認してください
+        [GroupDocs.Metadata for Java](/ja/metadata/java/) を使用すると、Java 開発者はいくつかの簡単な手順を実行することで、アプリケーション内から XLTX ファイルからメタデータ情報を簡単に削除できます。
+        
+        * 更新する XLTX ファイルをロードします。
+        * 検索述語を removeProperties メソッドに渡します。
+        * 実際に削除されたプロパティの数を確認してください。
         * 変更を保存します。
-        
-    title_right: "システム要求"
-    content_right: |
-        GroupDocs.Metadata for Java APIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、システムに次の前提条件がインストールされていることを確認してください。
 
-        * オペレーティングシステム：Microsoft Windows、Linux、MacOS
-        * 開発環境：NetBeans、Intellij IDEA、Eclipseなど
-        * Javaランタイム環境：J2SE6.0以降
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-conversion)からJava用のGroupDocs.Metadataの最新バージョンを入手します。
-        
+    title_right: "システム要件"
+    content_right: |
+        GroupDocs.Metadata for Java 個のAPIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、以下の前提条件がシステムにインストールされていることを確認してください。
+
+        * オペレーティングシステム:マイクロソフト Windows、Linux、Mac OS
+        * 開発環境:NetBeans, IntelliJ IDEA, Eclipse
+        * Java ランタイム環境: J2SE 6.0 and above
+        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata) から GroupDocs.Metadata for Java の最新バージョンを入手してください
+         
     code: |
-        ```java
-        try (Metadata metadata = new Metadata("input.xltx")) {
-        	
-        	//ファイル作成に貢献した人の言及をすべて削除します
-        	//指定された名前のカスタムプロパティを削除します         
-        	int affected = metadata.removeProperties(new FallsIntoCategorySpecification(Tags.getPerson()).or(new WithNameSpecification("CustomProperty")));
-        
-        	System.out.println(String.format("Affected properties: %s", affected));
-        
-        	metadata.save("output.xltx");
+        ```java    
+        try (Metadata metadata = new Metadata("input.doc"))
+        {
+            // ファイル作成に貢献したすべてのユーザーのメンションをすべて削除する
+            // 指定した名前のカスタムプロパティを削除する 
+            int affected = metadata.removeProperties(new FallsIntoCategorySpecification(Tags.getPerson()).or(new WithNameSpecification("CustomProperty")));
+            System.out.println(String.format("Affected properties: %s", affected));
+            metadata.save("output.xltx");
         }
         ```
-        
+
+############################# Demos ############################
 demos:
     enable: true
     title: "メタデータを削除するライブデモ"
     content: |
-        [GroupDocs.Metadataライブデモ](https://products.groupdocs.app/metadata/family)サイトにアクセスして、XLTXファイルのメタデータ情報を今すぐ削除してください。  
-        ライブデモには次の利点があります
+       [GroupDocs.Metadata ライブデモ](https://products.groupdocs.app/metadata/family) ウェブサイトにアクセスして、XLTX ファイルのメタデータ情報を今すぐ削除してください。
+       ライブデモには次の利点があります。
         
+############################# About Formats ############################
 about_formats:
     enable: true
-    format:
-        - icon: "far fa-file-xltx"
-          title: "XLTXファイル形式について"
-          content: |
-            XLTX拡張子の付いたファイルは、OfficeOpenXMLファイル形式の仕様に基づくMicrosoftExcelテンプレートファイルを表します。これは、XLTXファイルで指定されたものと同じ設定を示すXLSXファイルを生成するために使用できる標準テンプレートファイルを作成するために使用されます。
 
-          link: "https://docs.fileformat.com/spreadsheet/xltx/"
-
+############################# More Formats ############################
 more_formats:
-    enable: false
+    enable: true
     title: "他のファイル形式のメタデータの削除"
     content: |
-        Java用のAPIを削除するマルチフォーマットのドキュメントと画像のメタデータ。以下に示すように、いくつかの一般的なファイル形式のメタデータの詳細を削除します。
-    format: 
-          link: "/metadata/java/remove/pdf/"
-          description: "AdobePortableドキュメント形式"
+        Java のマルチフォーマットドキュメントと画像メタデータを削除する API。以下に示すように、一般的なファイル形式のメタデータを取得します。
 
-          link: "/metadata/java/remove/doc/"
-          description: "MicrosoftWordドキュメント"
-
-          link: "/metadata/java/remove/docm/"
-          description: "MicrosoftWordマクロ対応ドキュメント"
-
-          link: "/metadata/java/remove/docx/"
-          description: "Microsoft WordOpenXMLドキュメント"
-
-          link: "/metadata/java/remove/dot/"
-          description: "MicrosoftWord文書テンプレート"
-
-          link: "/metadata/java/remove/dotx/"
-          description: "WordOpenXMLドキュメントテンプレート"
-
-          link: "/metadata/java/remove/xls/"
-          description: "MicrosoftExcelバイナリファイル形式"
-
-          link: "/metadata/java/remove/xlsx/"
-          description: "Microsoft ExcelOpenXMLスプレッドシート"
-
-          link: "/metadata/java/remove/xlsm/"
-          description: "MicrosoftExcelマクロ対応スプレッドシート"
-
-          link: "/metadata/java/remove/xltx/"
-          description: "OOXMLマクロ対応ワークブックテンプレート"
-
-          link: "/metadata/java/remove/ppt/"
-          description: "PowerPointプレゼンテーション"
-
-          link: "/metadata/java/remove/pps/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "/metadata/java/remove/pptx/"
-          description: "PowerPointOpenXMLプレゼンテーション"
-
-          link: "/metadata/java/remove/ppsx/"
-          description: "PowerPointOpenXMLスライドショー"
-
-          link: "/metadata/java/remove/potx/"
-          description: "Microsoft PowerPointOpenXMLテンプレート"
-
-          link: "/metadata/java/remove/potm/"
-          description: "MicrosoftPowerPointテンプレート"
-
-          link: "/metadata/java/remove/pptm/"
-          description: "MicrosoftPowerPointプレゼンテーション"
-
-          link: "/metadata/java/remove/ppsm/"
-          description: "MicrosoftPowerPointスライドショー"
-
-          link: "/metadata/java/remove/ods/"
-          description: "ドキュメントスプレッドシートを開く"
-
-          link: "/metadata/java/remove/odt/"
-          description: "ドキュメントテキストを開く"
-
-          link: "/metadata/java/remove/tiff/"
-          description: "タグ付き画像ファイル形式"
-
-          link: "/metadata/java/remove/jpeg/"
-          description: "JPEG画像"
-
-          link: "/metadata/java/remove/png/"
-          description: "ポータブルネットワークグラフィック"
-
-          link: "/metadata/java/remove/gif/"
-          description: "グラフィカルな交換フォーマットファイル"
-
-          link: "/metadata/java/remove/bmp/"
-          description: "ビットマップファイル形式"
-
-          link: "/metadata/java/remove/jp2/"
-          description: "JPEG2000コア画像ファイル"
-
-          link: "/metadata/java/remove/webp/"
-          description: "ラスターWeb画像ファイル形式"
-
-          link: "/metadata/java/remove/psd/"
-          description: "AdobePhotoshopドキュメント"
-
-          link: "/metadata/java/remove/wmf/"
-          description: "Windowsメタファイル"
-
-          link: "/metadata/java/remove/emf/"
-          description: "強化されたメタファイル形式"
-
-          link: "/metadata/java/remove/emz/"
-          description: "MicrosoftProjectドキュメント"
-
-          link: "/metadata/java/remove/msg/"
-          description: "MicrosoftOutlookの電子メールメッセージ"
-
-          link: "/metadata/java/remove/eml/"
-          description: "電子メールメッセージ"
-
-          link: "/metadata/java/remove/dwg/"
-          description: "Autodesk Design Data Formats"
-
-          link: "/metadata/java/remove/dxf/"
-          description: "AutoCAD Drawing Interchange"
-
-          link: "/metadata/java/remove/one/"
-          description: "Microsoft OneNote"
-
-          link: "/metadata/java/remove/mp3/"
-          description: "MPEGオーディオレイヤーIII"
-
-          link: "/metadata/java/remove/wav/"
-          description: "波形オーディオファイル形式"
-
-          link: "/metadata/java/remove/dicom/"
-          description: "デジタルイメージング＆amp;医学のコミュニケーション"
-
-          link: "/metadata/java/remove/avi/"
-          description: "オーディオビデオインターリーブファイル"
-
-          link: "/metadata/java/remove/vsd/"
-          description: "MicrosoftVisio2003-2010図面"
-
-          link: "/metadata/java/remove/vsdx/"
-          description: "MicrosoftVisio図面"
-
-          link: "/metadata/java/remove/vss/"
-          description: "MicrosoftVisio2003-2010ステンシル"
-
-          link: "/metadata/java/remove/vdx/"
-          description: "Microsoft Visio2003-2010XML図面"
-
-          link: "/metadata/java/remove/vsx/"
-          description: "Microsoft Visio2003-2010XMLステンシル"
-
-          link: "/metadata/java/remove/zip/"
-          description: "アーカイブファイル形式"
-
-          link: "/metadata/java/remove/epub/"
-          description: "デジタル電子書籍ファイル形式"
-
-          link: "/metadata/java/remove/vcf/"
-          description: "電子名刺"
-
-          link: "/metadata/java/remove/vcr/"
-          description: "vCard"
-
-
+############################# Back to top ###############################
 back_to_top:
     enable: true
 ---

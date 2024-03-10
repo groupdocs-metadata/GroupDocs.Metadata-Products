@@ -1,0 +1,47 @@
+{
+  "head": {
+    "title": "Tambahkan Metadata ke {{EXT}} File di {{ProgLang}} Aplikasi",
+    "description": "{{ProgLang}} API pemrosesan metadata untuk menambahkan informasi metadata ke file {{EXT}}. Bekerja dengan standar metadata XMP, EXIF, IPTC, ID3 dll."
+  },
+  "header": {
+    "title": "Menambahkan Metadata Ke {{EXT}} Di {{ProgLang}}",
+    "description": "Tambahkan properti metadata kustom ke berbagai dokumen bisnis, gambar, format file audio & video menggunakan {{ProductFullName}} API.",
+    "button_label": "Unduh Uji Coba Gratis"
+  },
+  "about": {
+    "title": "Tentang {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/metadata/{{ProductCode}}/) menawarkan serangkaian fitur manajemen dan manipulasi metadata lanjutan, memungkinkan .NET programmer untuk dengan mudah melihat, mengedit, menghapus, menemukan, membandingkan, menukar, dan mengekspor informasi metadata dari gambar dan format dokumen tanpa menggunakan perangkat lunak eksternal apa pun. Tambahkan detail metadata ke PDF, Microsoft Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, format file Arsip dan Multimedia dengan dukungan tambahan untuk melakukan operasi metadata pada aplikasi berbasis {{ProductName}} apa pun dengan fleksibilitas yang sebenarnya."
+  },
+  "steps": {
+    "title_left": "Langkah-langkah untuk menambahkan Metadata ke {{EXT}} di {{ProgLang}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/metadata/{{ProductCode}}/) memudahkan pengembang {{ProductName}} untuk menambahkan detail metadata ke file {{EXT}} dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.",
+      "step_1": "Muat file {{EXT}} yang akan diperbarui.",
+      "step_2": "Tentukan predikat yang akan digunakan untuk menambahkan properti metadata.",
+      "step_3": "Lulus predikat ke metode addProperties.",
+      "step_4": "Simpan perubahan."
+    },
+    "title_right": "Persyaratan Sistem",
+    "content_right": {
+      "description": "{{ProductFullName}} API didukung pada semua platform utama dan sistem operasi. Sebelum mengeksekusi kode di bawah ini, pastikan bahwa Anda memiliki prasyarat berikut diinstal pada sistem Anda.",
+      "step_1": "Sistem Operasi: Microsoft Windows, Linux, Mac OS",
+      "step_2": "Lingkungan Pengembangan: {{DevEnv}}",
+      "step_3": "Kerangka",
+      "step_4": "Unduh versi terbaru {{ProductFullName}} from [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Cara menambahkan file Metaddata {{EXT}} menggunakan kode contoh {{ProgLang}}",
+    "code": {
+      "load_comment": "memuat file dalam contoh kelas Metadata",
+      "add_comment": "menambahkan properti yang berisi penulis konten"
+    }
+  },
+  "demos": {
+    "title": "Demo Langsung untuk Menambahkan Metadata",
+    "h1": "Tambahkan informasi metadata ke file {{EXT}} sekarang juga dengan mengunjungi situs web [GroupDocs.Metadata Demo Langsung](https://products.groupdocs.app/metadata/family).",
+    "h2": "Demo langsung memiliki manfaat sebagai berikut."
+  },
+  "more_formats": {
+    "title": "Menambahkan Properti Metadata Ke Format File Lainnya",
+    "content": "Multi format dokumen dan gambar penambahan metadata API untuk {{ProductName}}. Ambil metadata dari beberapa format file populer seperti yang dinyatakan di bawah ini."
+  }
+}

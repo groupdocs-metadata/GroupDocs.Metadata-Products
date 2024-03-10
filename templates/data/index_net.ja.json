@@ -1,0 +1,192 @@
+{
+  "head": {
+    "title": ".NET メタデータ リーダー、ビューアー、エクストラクター、リムーバー、エクスポーター API",
+    "description": "PDF Word Excel PPTX Outlook オーディオ ビデオ & 画像のメタデータを読み取り、書き込み、編集、分析、検索、抽出、削除、比較、およびエクスポートするための C# .NET メタデータ API。"
+  },
+  "header": {
+    "title": "メタデータを管理および操作する .NET API",
+    "description": "すべての一般的なドキュメントと画像ファイル形式のメタデータ情報を読み取り、編集、削除、取得、検索、比較、置換、およびエクスポートする .NET アプリケーションを構築します。"
+  },
+  "submenu": {
+    "middle": {
+      "overview": "概要",
+      "features": "特徴",
+      "support": "サポート",
+      "livedemo": "ライブデモ",
+      "pricing": "価格"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Metadata for .NET API は、C#、ASP.NET、およびその他の .NET ベースのアプリケーションと簡単に統合できるため、エンドユーザーは、外部ソフトウェアをインストールすることなく、さまざまな画像、ドキュメント、およびその他のメディア ファイル形式からメタデータを操作できます。 .NET メタデータ ライブラリは、PDF、Microsoft Office Word、Excel スプレッドシート、PowerPoint プレゼンテーション、Outlook 電子メール、Project などの多くの業界標準ドキュメント形式内に、メタデータ ビューア、エディタ、リムーバ、エクストラクタ、比較、およびエクスポータ機能をすばやく追加する構築ツールをサポートしています。 、Visio ダイアグラム、OneNote、画像、AutoCAD、Photoshop、オーディオ、ビデオ、およびメタファイル。",
+      "paragraph_2": "メタデータ API は非常に柔軟で、操作が簡単です。ドキュメントファイルを入力として取得し、メタデータ情報を分析し、サポートされているメタデータ操作を実行し、変更されたファイルを保存して、将来の使用ですばやくアクセスできるようにします。ビルトイン、XMP、EXIF、IPTC、画像リソース ブロック、ID3、カスタム メタデータ プロパティなど、最も注目すべきメタデータ標準で動作します。 GroupDocs.Metadata for .NET API を使用すると、2 つのドキュメントを比較して、それらのメタデータ プロパティに存在する相違点と類似点を特定することもできます。必要なドキュメントのメタデータを Excel、CSV、または DataSet にエクスポートすることもできます。",
+      "paragraph_3": "GroupDocs.Metadata for .NET を使用して、.NET プラットフォームを対象とする任意の開発環境でアプリケーションを開発できます。すべての .NET ベースの言語と互換性があり、Mono または .NET フレームワーク (.NET Core を含む) をインストールできる一般的なオペレーティング システム (Windows、Linux、MacOS) をサポートします。"
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "以下は、GroupDocs.Metadata for .NET の概要です。",
+      "left": {
+        "title": "画像の操作",
+        "content": {
+          "line_1": "XMP メタデータ",
+          "line_2": "EXIF メタデータ",
+          "line_3": "IPTC-IIM メタデータ",
+          "line_4": "PSD メタデータ",
+          "line_5": "CAD メタデータ",
+          "line_6": "追加の IFD タグを解析する"
+        }
+      },
+      "right": {
+        "title": "オーディオとビデオの操作",
+        "content": {
+          "line_1": "ランタイム MP3 フォーマットの検出",
+          "line_2": "歌詞を読む3タグ",
+          "line_3": "MPEG オーディオ情報の読み取り",
+          "line_4": "AVI ヘッダー情報を読み取る",
+          "line_5": "マトロスカの字幕を読む",
+          "line_6": "データを Excel または CSV にエクスポート"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Metadata for .NET は以下をサポートします",
+      "formats_url_title": "ドキュメント ファイル形式",
+      "left": {
+        "title": "マイクロソフトオフィス"
+      },
+      "right": {
+        "title": "その他のフォーマット",
+        "content": {
+          "line_5": "オーディオ",
+          "line_6": "ビデオ",
+          "line_9": "画像",
+          "line_11": "OpenType フォント",
+          "line_12": "その他"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Metadata for .NET は、次のオペレーティング システム、フレームワーク、パッケージ マネージャーをサポートしています。",
+      "left": {
+        "title": "オペレーティングシステム",
+        "content": {
+          "line_1": "Windows デスクトップ",
+          "line_2": "Windows サーバー",
+          "line_3": "Windows Azure",
+          "line_4": "Linux"
+        },
+        "title_2": "サポートされているフレームワーク",
+        "content_2": {
+          "line_1": ".NET Framework 2.0 以降",
+          "line_2": "Mono フレームワーク 1.2 以降",
+          "line_3": ".NET 標準 2.0",
+          "line_4": ".NET コア 2.0",
+          "line_5": ".NET コア 2.1"
+        }
+      },
+      "right": {
+        "title": "パッケージマネージャー",
+        "content": {
+          "line_1": "* NuGet"
+        },
+        "title_2": "開発環境",
+        "content_2": {
+          "line_1": "*マイクロソフトビジュアルスタジオ",
+          "line_2": "* Xamarin.Android",
+          "line_3": "* Xamarin.IOS",
+          "line_4": "* Xamarin.Mac",
+          "line_5": "*モノデベロップ"
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Metadata for .NET 機能",
+    "feature_1": {
+      "content": "組み込みおよびカスタム メタデータの特定"
+    },
+    "feature_2": {
+      "content": "Microsoft Word、Excel、PowerPoint、PDF の隠しデータを取得して削除する"
+    },
+    "feature_3": {
+      "content": "ドキュメント ファイル タイプの実行時認識"
+    },
+    "feature_4": {
+      "content": "デジタル署名を検出/削除する機能"
+    },
+    "feature_5": {
+      "content": "Matroska マルチメディア コンテナのパスワード保護とサポートを特定する"
+    },
+    "feature_6": {
+      "content": "サポートされている形式のサムネイルの取得と画像プレビューのレンダリング"
+    },
+    "feature_7": {
+      "content": "特定のファイルまたはファイル ストリームの MIME タイプを検出する"
+    },
+    "feature_8": {
+      "content": "EPUB、CAD、EML、MSG ファイルの画像プレビューを生成"
+    },
+    "feature_9": {
+      "content": "定義されたキーを使用して、サポートされている形式のメタデータ プロパティを読み取る"
+    },
+    "feature_10": {
+      "content": "メール メッセージのメタデータを読み取り、OpenType フォント ファイルを解析する"
+    },
+    "feature_11": {
+      "content": "Matroska の字幕を読み取り、オーディオおよびビデオ ファイルのメタデータを取得する"
+    },
+    "feature_12": {
+      "content": "アーカイブ形式とトレントのメタデータを取得"
+    },
+    "feature_13": {
+      "content": "サポートされている形式のメタデータ プロパティと ID の相違点または類似点を比較する"
+    },
+    "feature_14": {
+      "content": "ファイルのメタデータ プロパティを検索し、任意のタイプのメタデータを列挙します"
+    },
+    "feature_15": {
+      "content": "サポートされているファイル形式のメタデータ プロパティを置き換える"
+    },
+    "feature_16": {
+      "content": "Excel 95 以降の Microsoft Excel ファイルからメタデータを抽出する"
+    },
+    "feature_17": {
+      "content": "特定のカメラで作成された写真を探す"
+    },
+    "feature_18": {
+      "content": "画像のメタデータ プロパティをインポート & 写真から位置情報を削除"
+    },
+    "feature_19": {
+      "content": "レポートとドキュメントからメタデータとコメントを削除"
+    },
+    "feature_20": {
+      "content": "PNG 画像ファイルからテキスト メタデータを抽出する"
+    },
+    "feature_21": {
+      "content": "ドキュメントと画像のメモリ消費を削減する"
+    },
+    "feature_22": {
+      "content": "WEBP、PNG、PSD ファイルの EXIF メタデータ プロパティを更新する"
+    },
+    "feature_23": {
+      "content": "MOV、MP3、WEBP ファイルの XMP メタデータ プロパティを抽出"
+    },
+    "feature_24": {
+      "content": "TIFF イメージの IPTC メタデータ パッケージの追加、更新、および削除"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "メタデータ プロパティの迅速な取得",
+      "content": "GroupDocs.Metadata for .NET API を使用すると、サポートされているファイル形式のあらゆる種類のメタデータを操作するのは非常に簡単です。次のコードは、C# を使用して JPEG ファイルから Photoshop メタデータを簡単に削除できることを示しています。"
+    },
+    "feature_2": {
+      "title": "隠しデータの検索と操作",
+      "content": "GroupDocs.Metadata for .NET は、Microsoft Word、Excel、および PowerPoint ドキュメントだけでなく、PDF の非表示データを取得して削除するための便利なメカニズムを提供します。コメント、マージ フィールド、隠しページ、フォーム フィールド、注釈などを操作できます。"
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Metadata は、他の一般的な開発環境向けのドキュメント表示 API を提供します"
+  }
+}
