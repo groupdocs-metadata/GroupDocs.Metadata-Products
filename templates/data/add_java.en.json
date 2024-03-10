@@ -1,0 +1,47 @@
+{
+  "head": {
+    "title": "Add Metadata to {{EXT}} Files in {{ProgLang}} Applications",
+    "description": "{{ProgLang}} metadata processing API to add metadata information to {{EXT}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+  },
+  "header": {
+    "title": "Adding Metadata To {{EXT}} In {{ProgLang}}",
+    "description": "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using {{ProductFullName}}.",
+    "button_label": "Download Free Trial"
+  },
+  "about": {
+    "title": "About {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/metadata/{{ProductCode}}/) is an advanced metadata fields management and manipulation solution to easily view, update, remove, find, compare, exchange and export metadata information from images and document formats without using any external software. Add metadata details to Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.",
+  },
+  "steps": {
+    "title_left": "Steps for adding Metadata to {{EXT}} in {{ProgLang}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/metadata/{{ProductCode}}/) makes it easy for {{ProductName}} developers to add metadata details to {{EXT}} files from within their applications by implementing a few easy steps.",
+      "step_1": "Load {{EXT}} with an instance of Metadata class.",
+      "step_2": "Use Metadata.AddProperties method to add the properties.",
+      "step_3": "Use a predicate to find desired metadata properties.",
+      "step_4": "Save the changes back in {{EXT}} format.",
+    },
+    "title_right": "System Requirements",
+    "content_right": {
+      "description": "{{ProductFullName}} APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.",
+      "step_1": "Operating Systems: Microsoft Windows, Linux, MacOS",
+      "step_2": "Development Environments: {{DevEnv}}",
+      "step_3": "Java Runtime Environments",
+      "step_4": "Get the latest version of  {{ProductFullName}} from [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "How to adding Metaddata {{EXT}} file using {{ProgLang}} example code",
+    "code": {
+     "load_commnet": "load the file in an instance of Metadata class",
+     "add_comment": "add a property containing the content author"
+    }
+  },
+  "demos": {
+    "title": "Live Demos to Add Metadata",
+    "h1": "Add metadata information to {{EXT}} file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.",
+    "h2": "The live demo has the following benefits."
+  },
+  "more_formats": {
+    "title": "Adding Metadata Properties To Other File Formats",
+    "content": "Multi format documents and images metadata addition API for {{ProductName}}. Retrieve metadata of some of the popular file formats as stated below."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "head": {
+    "title": "Edit Metadata ke {{EXT}} File di {{ProgLang}} Aplikasi",
+    "description": "{{ProgLang}} API pemrosesan metadata untuk mengedit informasi metadata ke file {{EXT}}. Bekerja dengan standar metadata XMP, EXIF, IPTC, ID3 dll."
+  },
+  "header": {
+    "title": "Perbarui Metadata File {{EXT}} Di {{ProgLang}}",
+    "description": "Perbarui informasi metadata dari semua dokumen populer, gambar, dan format file multimedia dengan dukungan melakukan semua operasi pemrosesan metadata yang paling dibutuhkan.",
+    "button_label": "Unduh Uji Coba Gratis"
+  },
+  "about": {
+    "title": "Tentang {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/metadata/{{ProductCode}}/) menawarkan serangkaian fitur manajemen metadata lanjutan, memungkinkan pengembang untuk dengan mudah membaca, mendokumentasikan, menghapus, menemukan, membandingkan, mengganti, dan mengekspor informasi metadata dari gambar dan format dokumen tanpa menggunakan perangkat lunak eksternal apa pun. Gunakan API manipulasi metadata untuk mengedit detail metadata dari format file PDF, Microsoft Office Word, Excel spreadsheet, PowerPoint presentasi, Outlook email, OneNote, Visio, Project, AutoCAD, Arsip dan format file Multimedia bersama dengan dukungan untuk bekerja dengan banyak fitur pemrosesan metadata lainnya."
+  },
+  "steps": {
+    "title_left": "Langkah-langkah untuk Memperbarui Metadata ke {{EXT}} di {{ProgLang}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/metadata/{{ProductCode}}/) memudahkan pengembang {{ProductName}} untuk mengedit informasi metadata ke file {{EXT}} dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.",
+      "step_1": "Muat file {{EXT}} melalui instance kelas Metadata.",
+      "step_2": "Tentukan predikat yang akan digunakan untuk memfilter properti metadata yang diinginkan.",
+      "step_3": "Meneruskan predikat dan nilai baru ke metode updateProperties.",
+      "step_4": "Simpan perubahan ke disk dalam format {{EXT}}."
+    },
+    "title_right": "Persyaratan Sistem",
+    "content_right": {
+      "description": "{{ProductFullName}} API didukung di semua platform utama dan sistem operasi. Sebelum menjalankan kode di bawah ini, pastikan bahwa Anda memiliki prasyarat berikut diinstal pada sistem Anda.",
+      "step_1": "Sistem Operasi: Microsoft Windows, Linux, Mac OS",
+      "step_2": "Lingkungan Pengembangan: {{DevEnv}}",
+      "step_3": "Kerangka",
+      "step_4": "Unduh versi terbaru {{ProductFullName}} dari [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Cara menambahkan file Metaddata {{EXT}} menggunakan kode contoh {{ProgLang}}",
+    "code": {
+      "set_comment": "menetapkan nilai setiap properti yang memenuhi predikat:",
+      "prop_comment": "properti berisi tanggal/waktu dokumen dibuat",
+      "update_comment": "perbarui tanggal/waktu pembuatan file jika nilai yang ada lebih tua dari 3 hari"
+    }
+  },
+  "demos": {
+    "title": "Demo Langsung untuk Memperbarui Metadata",
+    "h1": "Perbarui informasi metadata ke file {{EXT}} sekarang dengan mengunjungi situs web [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family).",
+    "h2": "Demo langsung memiliki manfaat sebagai berikut."
+  },
+  "more_formats": {
+    "title": "Memperbarui Properti Metadata Dari Format File Lain",
+    "content": "Dokumen multi format dan API pengeditan metadata gambar untuk {{ProductName}}. Ambil metadata dari beberapa format file populer seperti yang dinyatakan di bawah ini."
+  }
+}

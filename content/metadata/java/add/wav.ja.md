@@ -1,23 +1,23 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-metadata"
-date: 2023-06-14T09:36:32
+date: 2024-03-10T13:38:28
 draft: false
 otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
 ############################# Head ############################
-head_title: "Add Metadata to WAV Files in Java Java Applications"
-head_description: "Java Java metadata processing API to add metadata information to WAV files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Java アプリケーションの WAV ファイルにメタデータを追加"
+head_description: "Java メタデータ処理 API により、WAV ファイルにメタデータ情報を追加できます。メタデータ標準 XMP、EXIF、IPTC、ID3 などを使用してください。"
 
 ############################# Header ############################
-title: "Adding Metadata To WAV In Java"
-description: "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using GroupDocs.Metadata for Java."
+title: "Java の WAV へのメタデータの追加"
+description: "GroupDocs.Metadata for Java を使用して、さまざまなビジネス文書、画像、オーディオ、ビデオファイル形式にカスタムメタデータプロパティを追加します。"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
+    label: "無料試用版をダウンロード"
     link: "https://downloads.groupdocs.com/metadata/java"
 
 ############################# SubMenu ############################
@@ -57,37 +57,37 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Metadata for Java API"
+    title: "GroupDocs.Metadata for Java API について"
     content: |
-        [GroupDocs.Metadata for Java](/ja/metadata/java/) is an advanced metadata fields management and manipulation solution to easily view, update, remove, find, compare, exchange and export metadata information from images and document formats without using any external software. Add metadata details to Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
+        [GroupDocs.Metadata for Java](/ja/metadata/java/) は、外部ソフトウェアを使用せずに、画像やドキュメント形式のメタデータ情報を簡単に表示、更新、削除、検索、比較、交換、エクスポートできる高度なメタデータフィールド管理および操作ソリューションです。Word ドキュメント、Excel スプレッドシート、PowerPoint プレゼンテーション、Outlook 電子メール、OneNote、Visio、Project、PDF、AutoCAD、ZIP、Audio、Video ファイル形式にメタデータの詳細を追加します。また、他の多くのメタデータ処理機能との連携もサポートされます。
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for adding Metadata to WAV in Java"
+    title_left: "Java の WAV にメタデータを追加する手順"
     content_left: |
-        [GroupDocs.Metadata for Java](/ja/metadata/java/) makes it easy for Java developers to add metadata details to WAV files from within their applications by implementing a few easy steps.
+        [GroupDocs.Metadata for Java](/ja/metadata/java/) を使用すると、Java 開発者はいくつかの簡単な手順を実装することで、アプリケーション内から WAV ファイルにメタデータの詳細を簡単に追加できます。
         
-        * Load WAV with an instance of Metadata class.
-        * Use Metadata.AddProperties method to add the properties.
-        * Use a predicate to find desired metadata properties.
-        * Save the changes back in WAV format.
+        * Metadata クラスのインスタンスで WAV をロードします。
+        * Metadata.AddProperties メソッドを使用してプロパティを追加します。
+        * 述語を使用して目的のメタデータプロパティを検索します。
+        * 変更を WAV 形式で保存し直します。
 
-    title_right: "System Requirements"
+    title_right: "システム要件"
     content_right: |
-        GroupDocs.Metadata for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
+        GroupDocs.Metadata for Java API はすべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、以下の前提条件がシステムにインストールされていることを確認してください。
 
-        * Operating Systems: Microsoft Windows, Linux, MacOS
-        * Development Environments: NetBeans, IntelliJ IDEA, Eclipse
-        * Java Runtime Environments: J2SE 6.0 and above
-        * Get the latest version of  GroupDocs.Metadata for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
+        * オペレーティングシステム:マイクロソフト Windows、Linux、Mac OS
+        * 開発環境:NetBeans, IntelliJ IDEA, Eclipse
+        * Java ランタイム環境: J2SE 6.0 and above
+        * GroupDocs.Metadata for Java の最新バージョンを [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata) から入手してください
          
     code: |
         ```java    
         // {steps.code.load_comment}
         try (Metadata metadata = new Metadata("input.wav"))
         {
-            // add a property containing the content author
+            // コンテンツ作成者を含むプロパティを追加
             int affected = metadata.addProperties(new ContainsTagSpecification(Tags.getTime().getPrinted()), new PropertyValue(new Date()));
             System.out.println(String.format("Affected properties: %s", affected));
             metadata.save("output.wav");
@@ -97,10 +97,10 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Live Demos to Add Metadata"
+    title: "メタデータを追加するためのライブデモ"
     content: |
-       Add metadata information to WAV file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.
-       The live demo has the following benefits.
+       [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) ウェブサイトにアクセスして、今すぐ WAV ファイルにメタデータ情報を追加してください。
+       ライブデモには以下のメリットがあります。
         
 ############################# About Formats ############################
 about_formats:
@@ -109,9 +109,9 @@ about_formats:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Adding Metadata Properties To Other File Formats"
+    title: "他のファイル形式へのメタデータプロパティの追加"
     content: |
-        Multi format documents and images metadata addition API for Java. Retrieve metadata of some of the popular file formats as stated below.
+        Java 用のマルチフォーマット文書および画像メタデータ追加 API。以下に説明するように、一般的なファイル形式のメタデータを取得します。
 
 ############################# Back to top ###############################
 back_to_top:

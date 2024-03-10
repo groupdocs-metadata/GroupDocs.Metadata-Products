@@ -1,23 +1,23 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-metadata"
-date: 2023-06-14T09:37:50
+date: 2024-03-10T13:38:41
 draft: false
 otherformats: zip xltx xltm xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
 ############################# Head ############################
-head_title: "Remove Metadata Properties of XLT Files in Java"
-head_description: "Cross platform Java metadata API to hide and remove metadata fields of XLT files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc. "
+head_title: "Hapus Properti Metadata dari XLT File di Java"
+head_description: "API metadata lintas platform Java untuk menyembunyikan dan menghapus bidang metadata dari XLT file. Bekerja dengan standar metadata XMP, EXIF, IPTC, ID3 dll. "
 
 ############################# Header ############################
-title: "Remove XLT Metadata In Java"
-description: "Remove metadata properties from XLT and many other popular documents, images and multimedia file formats using GroupDocs.Metadata for Java API."
+title: "Hapus XLT Metadata Dalam Java"
+description: "Hapus properti metadata dari XLT dan banyak dokumen populer lainnya, gambar, dan format file multimedia menggunakan GroupDocs.Metadata for Java API."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
+    label: "Unduh Uji Coba Gratis"
     link: "https://downloads.groupdocs.com/metadata/java"
 
 ############################# SubMenu ############################
@@ -57,37 +57,37 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Metadata for Java API"
+    title: "Tentang GroupDocs.Metadata for Java API"
     content: |
-        [GroupDocs.Metadata for Java](/id/metadata/java/) is an advanced metadata fields manipulation solution to easily read, add, update, delete, find, compare, exchange and export metadata information from images and document formats without using any external software. Remove metadata details from Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
+        [GroupDocs.Metadata for Java](/id/metadata/java/) adalah solusi manipulasi bidang metadata lanjutan untuk dengan mudah membaca, menambah, memperbarui, menghapus, menemukan, membandingkan, bertukar, dan mengekspor informasi metadata dari gambar dan format dokumen tanpa menggunakan perangkat lunak eksternal apa pun. Hapus detail metadata dari Word dokumen, Excel spreadsheet, PowerPoint presentasi, Outlook email, OneNote, Visio, Project, PDF, AutoCAD, Zip, Audio dan Video format file bersama dengan dukungan untuk bekerja dengan banyak fitur pemrosesan metadata lainnya.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Removing  Metadata to XLT in Java"
+    title_left: "Langkah-langkah untuk Menghapus Metadata ke XLT di Java"
     content_left: |
-        [GroupDocs.Metadata for Java](/id/metadata/java/) makes it easy for Java developers to delete metadata information from XLT files from within their applications by implementing a few easy steps.
+        [GroupDocs.Metadata for Java](/id/metadata/java/) memudahkan pengembang Java untuk menghapus informasi metadata dari file XLT dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
         
-        * Load the XLT file to be updated.
-        * Pass a search predicate to the RemoveProperties method.
-        * Check the number of properties that were actually removed.
-        * Save the changes.
+        * Muat file XLT yang akan diperbarui.
+        * Meneruskan predikat pencarian ke metode removeProperties.
+        * Periksa jumlah properti yang benar-benar dihapus.
+        * Simpan perubahan.
 
-    title_right: "System Requirements"
+    title_right: "Persyaratan Sistem"
     content_right: |
-        GroupDocs.Metadata for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
+        GroupDocs.Metadata for Java API didukung di semua platform utama dan sistem operasi. Sebelum menjalankan kode di bawah ini, pastikan bahwa Anda memiliki prasyarat berikut diinstal pada sistem Anda.
 
-        * Operating Systems: Microsoft Windows, Linux, MacOS
-        * Development Environments: NetBeans, IntelliJ IDEA, Eclipse
-        * Java Runtime Environments: J2SE 6.0 and above
-        * Get the latest version of  GroupDocs.Metadata for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
+        * Sistem Operasi: Microsoft Windows, Linux, Mac OS
+        * Lingkungan Pengembangan: NetBeans, IntelliJ IDEA, Eclipse
+        * Java Lingkungan Runtime: J2SE 6.0 and above
+        * Dapatkan versi terbaru GroupDocs.Metadata for Java dari [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
          
     code: |
         ```java    
         try (Metadata metadata = new Metadata("input.doc"))
         {
-            // Remove all mentions of any people contributed in file creation
-            // Remove a custom property with the specified name 
+            // Hapus semua penyebutan orang yang berkontribusi dalam pembuatan file
+            // Hapus properti kustom dengan nama yang ditentukan 
             int affected = metadata.removeProperties(new FallsIntoCategorySpecification(Tags.getPerson()).or(new WithNameSpecification("CustomProperty")));
             System.out.println(String.format("Affected properties: %s", affected));
             metadata.save("output.xlt");
@@ -97,10 +97,10 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Live Demos to Remove Metadata"
+    title: "Demo Langsung untuk Menghapus Metadata"
     content: |
-       Remove metadata information of XLT file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.
-       The live demo has the following benefits.
+       Hapus informasi metadata dari file XLT sekarang dengan mengunjungi situs web [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family).
+       Demo langsung memiliki manfaat sebagai berikut.
         
 ############################# About Formats ############################
 about_formats:
@@ -109,9 +109,9 @@ about_formats:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Removing Metadata Of Other File Formats"
+    title: "Menghapus Metadata Format File Lain"
     content: |
-        Multi format documents and images metadata removing API for Java. Retrieve metadata of some of the popular file formats as stated below.
+        Dokumen multi format dan metadata gambar menghapus API untuk Java. Ambil metadata dari beberapa format file populer seperti yang dinyatakan di bawah ini.
 
 ############################# Back to top ###############################
 back_to_top:

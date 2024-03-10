@@ -1,23 +1,23 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-metadata"
-date: 2023-06-14T09:37:26
+date: 2024-03-10T13:38:31
 draft: false
 otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
 ############################# Head ############################
-head_title: "Edit Metadata to GIF Files in Java Java Applications"
-head_description: "Java Java metadata processing API to edit metadata information to GIF files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Редактирование метаданных в GIF файлах в Java приложениях"
+head_description: "API обработки метаданных Java для редактирования метаданных в файлы GIF. Работайте со стандартами метаданных XMP, EXIF, IPTC, ID3 и т. д."
 
 ############################# Header ############################
-title: "Update Metadata From GIF File In Java"
-description: "Metadata Editor for Java applications – Change metadata fields from all popular documents, images and multimedia file formats using metadata editor API for Java."
+title: "Обновить метаданные из файла GIF в Java"
+description: "Редактор метаданных для Java приложений — изменение полей метаданных во всех популярных форматах документов, изображений и мультимедийных файлов с помощью API редактора метаданных для Java."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
+    label: "Загрузить бесплатную пробную версию"
     link: "https://downloads.groupdocs.com/metadata/java"
 
 ############################# SubMenu ############################
@@ -57,30 +57,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Metadata for Java API"
+    title: "Об API GroupDocs.Metadata for Java"
     content: |
-        [GroupDocs.Metadata for Java](/ru/metadata/java/) is an advanced metadata fields manipulation solution to easily read, add, modify, delete, search, compare, replace and export metadata information from images and document formats without using any external software. Edit metadata details from Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
+        [GroupDocs.Metadata for Java](/ru/metadata/java/) — это усовершенствованное решение для работы с полями метаданных, позволяющее легко читать, добавлять, изменять, удалять, искать, сравнивать, заменять и экспортировать метаданные из изображений и форматов документов без использования внешнего программного обеспечения. Редактируйте метаданные из Word документов, Excel электронных таблиц, PowerPoint презентаций, Outlook электронных писем, форматов файлов OneNote, Visio, Project, PDF, AutoCAD, ZIP, Audio и Video, а также поддерживайте работу со многими другими функциями обработки метаданных.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Updating Metadata to GIF in Java"
+    title_left: "Этапы обновления метаданных до GIF в Java"
     content_left: |
-        [GroupDocs.Metadata for Java](/ru/metadata/java/) makes it easy for Java developers to edit metadata details to GIF files from within their applications by implementing a few easy steps.
+        [GroupDocs.Metadata for Java](/ru/metadata/java/) позволяет разработчикам Java легко редактировать детали метаданных в файлы GIF из своих приложений, выполнив несколько простых шагов.
         
-        * Load the GIF file to be updated
-        * Specify a predicate that will be used to filter desired metadata properties.
-        * Pass the predicate and the new value to the UpdateProperties method.
-        * Save the changes.
+        * Загрузите файл GIF для обновления
+        * Укажите предикат, который будет использоваться для фильтрации желаемых свойств метаданных.
+        * Передайте предикат и новое значение методу updateProperties.
+        * Сохраните изменения.
 
-    title_right: "System Requirements"
+    title_right: "Системные требования"
     content_right: |
-        GroupDocs.Metadata for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
+        GroupDocs.Metadata for Java API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные условия.
 
-        * Operating Systems: Microsoft Windows, Linux, MacOS
-        * Development Environments: NetBeans, IntelliJ IDEA, Eclipse
-        * Java Runtime Environments: J2SE 6.0 and above
-        * Get the latest version of  GroupDocs.Metadata for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
+        * Операционные системы: ОС Microsoft Windows, Linux, Mac
+        * Среды разработки: NetBeans, IntelliJ IDEA, Eclipse
+        * Java Среды выполнения: J2SE 6.0 and above
+        * Загрузите последнюю версию GroupDocs.Metadata for Java от [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
          
     code: |
         ```java    
@@ -91,7 +91,7 @@ steps:
             Date threeDaysAgo = new Date(System.currentTimeMillis() - TimeUnit.DAYS.toMillis(3));
             try (Metadata metadata = new Metadata("input.gif"))
             {
-                // Update the file creation date/time if the existing value is older than 3 days
+                // Обновите дату/время создания файла, если существующее значение старше 3 дней
                 int affected = metadata.updateProperties(new ContainsTagSpecification(Tags.getTime().getCreated()).and(
                         new OfTypeSpecification(MetadataPropertyType.DateTime)).and(
                         new UpdatingMetadata().new DateBeforeSpecification(threeDaysAgo)), new PropertyValue(new Date()));
@@ -102,7 +102,7 @@ steps:
             }
           }
 
-          // Define your own specifications to filter metadata properties
+          // Определите свои собственные спецификации для фильтрации свойств метаданных
           public class DateBeforeSpecification extends Specification
           {
             public DateBeforeSpecification(Date date)
@@ -138,10 +138,10 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Live Demos of Editing Metadata"
+    title: "Демонстрации редактирования метаданных в реальном времени"
     content: |
-       Update metadata information to GIF file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.
-       The live demo has the following benefits.
+       Обновите метаданные до файла GIF прямо сейчас, посетив веб-сайт [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family).
+       Живая демонстрация имеет следующие преимущества.
         
 ############################# About Formats ############################
 about_formats:
@@ -150,9 +150,9 @@ about_formats:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Changing Metadata Of Other File Formats"
+    title: "Изменение метаданных других форматов файлов"
     content: |
-        Multi format documents and images metadata editing API for Java. Retrieve metadata of some of the popular file formats as stated below.
+        API редактирования метаданных многоформатных документов и изображений для Java. Извлеките метаданные некоторых популярных форматов файлов, как указано ниже.
 
 ############################# Back to top ###############################
 back_to_top:

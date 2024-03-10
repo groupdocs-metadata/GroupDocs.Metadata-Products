@@ -1,23 +1,23 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-metadata"
-date: 2023-06-14T09:36:31
+date: 2024-03-10T13:38:28
 draft: false
 otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
 ############################# Head ############################
-head_title: "Add Metadata to WMF Files in Java Java Applications"
-head_description: "Java Java metadata processing API to add metadata information to WMF files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Tambahkan Metadata ke WMF File di Java Aplikasi"
+head_description: "Java API pemrosesan metadata untuk menambahkan informasi metadata ke file WMF. Bekerja dengan standar metadata XMP, EXIF, IPTC, ID3 dll."
 
 ############################# Header ############################
-title: "Adding Metadata To WMF In Java"
-description: "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using GroupDocs.Metadata for Java."
+title: "Menambahkan Metadata Ke WMF Di Java"
+description: "Tambahkan properti metadata kustom ke berbagai dokumen bisnis, gambar, format file audio & video menggunakan GroupDocs.Metadata for Java."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
+    label: "Unduh Uji Coba Gratis"
     link: "https://downloads.groupdocs.com/metadata/java"
 
 ############################# SubMenu ############################
@@ -57,37 +57,37 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Metadata for Java API"
+    title: "Tentang GroupDocs.Metadata for Java API"
     content: |
-        [GroupDocs.Metadata for Java](/id/metadata/java/) is an advanced metadata fields management and manipulation solution to easily view, update, remove, find, compare, exchange and export metadata information from images and document formats without using any external software. Add metadata details to Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
+        [GroupDocs.Metadata for Java](/id/metadata/java/) adalah solusi manajemen dan manipulasi bidang metadata lanjutan untuk dengan mudah melihat, memperbarui, menghapus, menemukan, membandingkan, menukar, dan mengekspor informasi metadata dari gambar dan format dokumen tanpa menggunakan perangkat lunak eksternal apa pun. Tambahkan detail metadata ke Word dokumen, Excel spreadsheet, PowerPoint presentasi, Outlook email, OneNote, Visio, Project, PDF, AutoCAD, ZIP, Audio dan Video serta dukungan untuk bekerja dengan banyak fitur pemrosesan metadata lainnya.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for adding Metadata to WMF in Java"
+    title_left: "Langkah-langkah untuk menambahkan Metadata ke WMF di Java"
     content_left: |
-        [GroupDocs.Metadata for Java](/id/metadata/java/) makes it easy for Java developers to add metadata details to WMF files from within their applications by implementing a few easy steps.
+        [GroupDocs.Metadata for Java](/id/metadata/java/) memudahkan pengembang Java untuk menambahkan detail metadata ke file WMF dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
         
-        * Load WMF with an instance of Metadata class.
-        * Use Metadata.AddProperties method to add the properties.
-        * Use a predicate to find desired metadata properties.
-        * Save the changes back in WMF format.
+        * Muat WMF dengan instance kelas Metadata.
+        * Gunakan metode Metadata.addProperties untuk menambahkan properti.
+        * Gunakan predikat untuk menemukan properti metadata yang diinginkan.
+        * Simpan perubahan kembali dalam format WMF.
 
-    title_right: "System Requirements"
+    title_right: "Persyaratan Sistem"
     content_right: |
-        GroupDocs.Metadata for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
+        GroupDocs.Metadata for Java API didukung pada semua platform utama dan sistem operasi. Sebelum mengeksekusi kode di bawah ini, pastikan bahwa Anda memiliki prasyarat berikut diinstal pada sistem Anda.
 
-        * Operating Systems: Microsoft Windows, Linux, MacOS
-        * Development Environments: NetBeans, IntelliJ IDEA, Eclipse
-        * Java Runtime Environments: J2SE 6.0 and above
-        * Get the latest version of  GroupDocs.Metadata for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
+        * Sistem Operasi: Microsoft Windows, Linux, Mac OS
+        * Lingkungan Pengembangan: NetBeans, IntelliJ IDEA, Eclipse
+        * Java Lingkungan Runtime: J2SE 6.0 and above
+        * Dapatkan versi terbaru GroupDocs.Metadata for Java dari [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
          
     code: |
         ```java    
         // {steps.code.load_comment}
         try (Metadata metadata = new Metadata("input.wmf"))
         {
-            // add a property containing the content author
+            // menambahkan properti yang berisi penulis konten
             int affected = metadata.addProperties(new ContainsTagSpecification(Tags.getTime().getPrinted()), new PropertyValue(new Date()));
             System.out.println(String.format("Affected properties: %s", affected));
             metadata.save("output.wmf");
@@ -97,10 +97,10 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Live Demos to Add Metadata"
+    title: "Demo Langsung untuk Menambahkan Metadata"
     content: |
-       Add metadata information to WMF file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.
-       The live demo has the following benefits.
+       Tambahkan informasi metadata ke file WMF sekarang juga dengan mengunjungi situs web [GroupDocs.Metadata Demo Langsung](https://products.groupdocs.app/metadata/family).
+       Demo langsung memiliki manfaat sebagai berikut.
         
 ############################# About Formats ############################
 about_formats:
@@ -109,9 +109,9 @@ about_formats:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Adding Metadata Properties To Other File Formats"
+    title: "Menambahkan Properti Metadata Ke Format File Lainnya"
     content: |
-        Multi format documents and images metadata addition API for Java. Retrieve metadata of some of the popular file formats as stated below.
+        Multi format dokumen dan gambar penambahan metadata API untuk Java. Ambil metadata dari beberapa format file populer seperti yang dinyatakan di bawah ini.
 
 ############################# Back to top ###############################
 back_to_top:

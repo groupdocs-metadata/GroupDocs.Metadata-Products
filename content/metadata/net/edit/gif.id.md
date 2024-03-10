@@ -1,23 +1,23 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-metadata"
-date: 2023-06-14T09:37:27
+date: 2024-03-10T13:38:32
 draft: false
 otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
 ############################# Head ############################
-head_title: "Edit Metadata to GIF Files in C# .NET Applications"
-head_description: "C# .NET metadata processing API to edit metadata information to GIF files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Edit Metadata ke GIF File di C# Aplikasi"
+head_description: "C# API pemrosesan metadata untuk mengedit informasi metadata ke file GIF. Bekerja dengan standar metadata XMP, EXIF, IPTC, ID3 dll."
 
 ############################# Header ############################
-title: "Update Metadata Of GIF File  In C#"
-description: "Update metadata information from all popular documents, images and multimedia file formats with the support of performing all most-needed metadata processing operations."
+title: "Perbarui Metadata File GIF Di C#"
+description: "Perbarui informasi metadata dari semua dokumen populer, gambar, dan format file multimedia dengan dukungan melakukan semua operasi pemrosesan metadata yang paling dibutuhkan."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
+    label: "Unduh Uji Coba Gratis"
     link: "https://downloads.groupdocs.com/metadata/net"
 
 ############################# SubMenu ############################
@@ -57,38 +57,38 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Metadata for .NET API"
+    title: "Tentang GroupDocs.Metadata for .NET API"
     content: |
-        [GroupDocs.Metadata for .NET](/id/metadata/net/) offers an advanced set of metadata management features, allowing developers to easily read, doc, delete, find, compare, replace and export metadata information from images and document formats without using any external software. Use metadata manipulation API to edit metadata details from PDF, Microsoft Office Word, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats along with the support for working with many other metadata processing features.
+        [GroupDocs.Metadata for .NET](/id/metadata/net/) menawarkan serangkaian fitur manajemen metadata lanjutan, memungkinkan pengembang untuk dengan mudah membaca, mendokumentasikan, menghapus, menemukan, membandingkan, mengganti, dan mengekspor informasi metadata dari gambar dan format dokumen tanpa menggunakan perangkat lunak eksternal apa pun. Gunakan API manipulasi metadata untuk mengedit detail metadata dari format file PDF, Microsoft Office Word, Excel spreadsheet, PowerPoint presentasi, Outlook email, OneNote, Visio, Project, AutoCAD, Arsip dan format file Multimedia bersama dengan dukungan untuk bekerja dengan banyak fitur pemrosesan metadata lainnya.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Updating Metadata to GIF in C#"
+    title_left: "Langkah-langkah untuk Memperbarui Metadata ke GIF di C#"
     content_left: |
-        [GroupDocs.Metadata for .NET](/id/metadata/net/) makes it easy for .NET developers to edit metadata information to GIF files from within their applications by implementing a few easy steps.
+        [GroupDocs.Metadata for .NET](/id/metadata/net/) memudahkan pengembang .NET untuk mengedit informasi metadata ke file GIF dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
         
-        * Load GIF filevia an instance of Metadata class.
-        * Specify a predicate that will be used to filter desired metadata properties.
-        * Pass the predicate and the new value to the UpdateProperties method.
-        * Save the changes to disc in GIF format.
+        * Muat file GIF melalui instance kelas Metadata.
+        * Tentukan predikat yang akan digunakan untuk memfilter properti metadata yang diinginkan.
+        * Meneruskan predikat dan nilai baru ke metode updateProperties.
+        * Simpan perubahan ke disk dalam format GIF.
 
-    title_right: "System Requirements"
+    title_right: "Persyaratan Sistem"
     content_right: |
-        GroupDocs.Metadata for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
+        GroupDocs.Metadata for .NET API didukung di semua platform utama dan sistem operasi. Sebelum menjalankan kode di bawah ini, pastikan bahwa Anda memiliki prasyarat berikut diinstal pada sistem Anda.
 
-        * Operating Systems: Microsoft Windows, Linux, MacOS
-        * Development Environments: Visual Studio, Xamarin, MonoDevelop
-        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Download the latest version of GroupDocs.Metadata for .NET from [NuGet](https://www.nuget.org/packages/groupdocs.metadata)
+        * Sistem Operasi: Microsoft Windows, Linux, Mac OS
+        * Lingkungan Pengembangan: Visual Studio, Xamarin, MonoDevelop
+        * Kerangka: .NET Framework, .NET Standard, .NET Core, Mono
+        * Unduh versi terbaru GroupDocs.Metadata for .NET dari [NuGet](https://www.nuget.org/packages/groupdocs.metadata)
          
     code: |
         ```csharp    
         using (var metadata = new GroupDocs.Metadata.Metadata("input.gif"))
         {
-            // set the value of each property that satisfies the predicate:
-            // property contains the date/time the document was created
-            // update the file creation date/time if the existing value is older than 3 days
+            // menetapkan nilai setiap properti yang memenuhi predikat:
+            // properti berisi tanggal/waktu dokumen dibuat
+            // perbarui tanggal/waktu pembuatan file jika nilai yang ada lebih tua dari 3 hari
             var affected = metadata.UpdateProperties(
               p => p.Tags.Contains(GroupDocs.Metadata.Tagging.Tags.Time.Created) &&
               p.Value.Type == GroupDocs.Metadata.Common.MetadataPropertyType.DateTime &&
@@ -101,10 +101,10 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Live Demos to Update Metadata"
+    title: "Demo Langsung untuk Memperbarui Metadata"
     content: |
-       Update metadata information to GIF file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.
-       The live demo has the following benefits.
+       Perbarui informasi metadata ke file GIF sekarang dengan mengunjungi situs web [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family).
+       Demo langsung memiliki manfaat sebagai berikut.
         
 ############################# About Formats ############################
 about_formats:
@@ -113,9 +113,9 @@ about_formats:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Updating Metadata Properties From Other File Formats"
+    title: "Memperbarui Properti Metadata Dari Format File Lain"
     content: |
-        Multi format documents and images metadata editing API for .NET. Retrieve metadata of some of the popular file formats as stated below.
+        Dokumen multi format dan API pengeditan metadata gambar untuk .NET. Ambil metadata dari beberapa format file populer seperti yang dinyatakan di bawah ini.
 
 ############################# Back to top ###############################
 back_to_top:

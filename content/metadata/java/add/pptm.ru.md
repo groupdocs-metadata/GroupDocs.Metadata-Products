@@ -1,23 +1,23 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-metadata"
-date: 2023-06-14T09:36:29
+date: 2024-03-10T13:38:26
 draft: false
 otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
 ############################# Head ############################
-head_title: "Add Metadata to PPTM Files in Java Java Applications"
-head_description: "Java Java metadata processing API to add metadata information to PPTM files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Добавьте метаданные к файлам PPTM в приложениях Java"
+head_description: "Java API обработки метаданных для добавления информации о метаданных в файлы PPTM. Работа со стандартами метаданных XMP, EXIF, IPTC, ID3 и т. д."
 
 ############################# Header ############################
-title: "Adding Metadata To PPTM In Java"
-description: "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using GroupDocs.Metadata for Java."
+title: "Добавление метаданных в PPTM в Java"
+description: "Добавляйте собственные свойства метаданных к широкому спектру бизнес-документов, изображений, аудио- и видеофайлов с помощью GroupDocs.Metadata for Java."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
+    label: "Загрузить бесплатную пробную версию"
     link: "https://downloads.groupdocs.com/metadata/java"
 
 ############################# SubMenu ############################
@@ -57,37 +57,37 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Metadata for Java API"
+    title: "Об API GroupDocs.Metadata for Java"
     content: |
-        [GroupDocs.Metadata for Java](/ru/metadata/java/) is an advanced metadata fields management and manipulation solution to easily view, update, remove, find, compare, exchange and export metadata information from images and document formats without using any external software. Add metadata details to Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
+        [GroupDocs.Metadata for Java](/ru/metadata/java/) — это усовершенствованное решение для управления полями метаданных и управления ими, позволяющее легко просматривать, обновлять, удалять, находить, сравнивать, обмениваться и экспортировать метаданные изображений и форматов документов без использования внешнего программного обеспечения. Добавляйте сведения о метаданных в Word документы, Excel электронные таблицы, PowerPoint презентации, Outlook электронные письма, OneNote, Visio, Project, PDF, AutoCAD, ZIP, Audio и Video форматы файлов, а также поддерживайте работу со многими другими функциями обработки метаданных.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for adding Metadata to PPTM in Java"
+    title_left: "Шаги по добавлению метаданных в PPTM в Java"
     content_left: |
-        [GroupDocs.Metadata for Java](/ru/metadata/java/) makes it easy for Java developers to add metadata details to PPTM files from within their applications by implementing a few easy steps.
+        [GroupDocs.Metadata for Java](/ru/metadata/java/) позволяет разработчикам Java легко добавлять сведения о метаданных в PPTM файлы прямо из своих приложений, выполнив несколько простых шагов.
         
-        * Load PPTM with an instance of Metadata class.
-        * Use Metadata.AddProperties method to add the properties.
-        * Use a predicate to find desired metadata properties.
-        * Save the changes back in PPTM format.
+        * Загрузите PPTM с экземпляром класса Metadata.
+        * Используйте метод Metadata.addProperties для добавления свойств.
+        * Используйте предикат для поиска нужных свойств метаданных.
+        * Сохраните изменения в формате PPTM.
 
-    title_right: "System Requirements"
+    title_right: "Системные требования"
     content_right: |
-        GroupDocs.Metadata for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
+        GroupDocs.Metadata for Java API-интерфейсы поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные требования.
 
-        * Operating Systems: Microsoft Windows, Linux, MacOS
-        * Development Environments: NetBeans, IntelliJ IDEA, Eclipse
-        * Java Runtime Environments: J2SE 6.0 and above
-        * Get the latest version of  GroupDocs.Metadata for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
+        * Операционные системы: ОС Microsoft Windows, Linux, Mac
+        * Среды разработки: NetBeans, IntelliJ IDEA, Eclipse
+        * Java Среда выполнения: J2SE 6.0 and above
+        * Загрузите последнюю версию GroupDocs.Metadata for Java из [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
          
     code: |
         ```java    
         // {steps.code.load_comment}
         try (Metadata metadata = new Metadata("input.pptm"))
         {
-            // add a property containing the content author
+            // добавить свойство, содержащее автора контента
             int affected = metadata.addProperties(new ContainsTagSpecification(Tags.getTime().getPrinted()), new PropertyValue(new Date()));
             System.out.println(String.format("Affected properties: %s", affected));
             metadata.save("output.pptm");
@@ -97,10 +97,10 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Live Demos to Add Metadata"
+    title: "Живые демонстрации для добавления метаданных"
     content: |
-       Add metadata information to PPTM file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.
-       The live demo has the following benefits.
+       Добавьте метаданные в файл PPTM прямо сейчас, посетив веб-сайт [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family).
+       Живая демонстрация имеет следующие преимущества.
         
 ############################# About Formats ############################
 about_formats:
@@ -109,9 +109,9 @@ about_formats:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Adding Metadata Properties To Other File Formats"
+    title: "Добавление свойств метаданных к другим форматам файлов"
     content: |
-        Multi format documents and images metadata addition API for Java. Retrieve metadata of some of the popular file formats as stated below.
+        API добавления метаданных многоформатных документов и изображений для Java. Извлеките метаданные некоторых популярных форматов файлов, как указано ниже.
 
 ############################# Back to top ###############################
 back_to_top:

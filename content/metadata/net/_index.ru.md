@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2023-05-12T14:00:34
+date: 2023-08-26T11:56:43
 draft: false
 
 product: "Metadata"
@@ -10,12 +10,12 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "{head.title}"
-head_description: "{head.description}"
+head_title: ".NET API для чтения, просмотра, извлечения, удаления и экспорта метаданных"
+head_description: "API метаданных C# .NET для чтения, записи, редактирования, анализа, поиска, извлечения, удаления, сравнения и экспорта метаданных PDF Word Excel PPTX Outlook Audio Video и изображений."
 
 ############################# Header ############################
-title: "{header.title}"
-description: "{header.description}"
+title: ".NET API для управления метаданными и манипулирования ими"
+description: "Создавайте .NET приложения для чтения, редактирования, удаления, извлечения, поиска, сравнения, замены и экспорта метаданных всех популярных документов и форматов файлов изображений."
 button:
     enable: true
 
@@ -33,23 +33,23 @@ submenu:
         button:
             # button loop
             - link: "#overview"
-              text: "{submenu.middle.overview}"
+              text: "Обзор"
 
             # button loop
             - link: "#features"
-              text: "{submenu.middle.features}"
+              text: "Функции"
 
             # button loop
             - link: "#support"
-              text: "{submenu.middle.support}"
+              text: "Поддержка"
 
             # button loop
             - link: "https://products.groupdocs.app/metadata"
-              text: "{submenu.middle.livedemo}"
+              text: "Живая демонстрация"
 
             # button loop
             - link: "https://purchase.groupdocs.com/pricing/metadata/net"
-              text: "{submenu.middle.pricing}"
+              text: "Ценообразование"
 
     right:
         link_download: "https://downloads.groupdocs.com/metadata"
@@ -60,53 +60,53 @@ submenu:
 overview:
     enable: true
     content: |
-      {overview.content.paragraph_1}  
+      API GroupDocs.Metadata for .NET легко интегрируется с приложениями на основе C#, ASP .NET и другими .NET и помогает конечным пользователям манипулировать метаданными из различных изображений, документов и других форматов медиафайлов без установки внешнего программного обеспечения. Библиотека метаданных .NET поддерживает создание инструментов для быстрого добавления функций просмотра, редактирования, удаления, извлечения, сравнения и экспорта метаданных в ряд стандартных отраслевых форматов документов, таких как PDF, Microsoft Office Word, Excel электронные таблицы, PowerPoint презентации, Outlook электронные письма, Project, Visio диаграммы, OneNote, изображения, AutoCAD, Photoshop, аудио, видео и метафайлы.  
 
-      {overview.content.paragraph_2}
+      API метаданных очень гибкий и простой в использовании. Он получает файл документа в качестве входных данных, анализирует метаданные, позволяет выполнять поддерживаемые операции с метаданными и сохранять измененный файл для быстрого доступа к нему в будущем. Он работает с наиболее известными стандартами метаданных, такими как встроенные XMP, EXIF, IPTC, блоки ресурсов изображений, ID3 и настраиваемые свойства метаданных. С помощью API GroupDocs.Metadata for .NET вы также можете сравнить два документа, чтобы определить различия и сходства, присутствующие в их свойствах метаданных. Можно также экспортировать метаданные необходимых документов в формат Excel, CSV или DataSet.
 
-      {overview.content.paragraph_3}
+      GroupDocs.Metadata for .NET можно использовать для разработки приложений в любой среде разработки, ориентированной на платформу .NET. Он совместим со всеми языками на базе .NET и поддерживает популярные операционные системы (Windows, Linux, Mac OS), в которых можно установить фреймворки Mono или .NET (включая .NET Core).
     tabs:
       enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
-          {tabs.tab_one.description}
+          Ниже приведен обзор GroupDocs.Metadata for .NET:
       
         left:
           enable: true
           icon: "fas fa-file-image"
-          title: "{tabs.tab_one.left.title}"
+          title: "Работа с изображениями"
           content: |
-            * {tabs.tab_one.left.content.line_1}
-            * {tabs.tab_one.left.content.line_2}
-            * {tabs.tab_one.left.content.line_3}
-            * {tabs.tab_one.left.content.line_4}
-            * {tabs.tab_one.left.content.line_5}
-            * {tabs.tab_one.left.content.line_6}
+            * XMP Метаданные
+            * EXIF Метаданные
+            * IPTC-IIM Метаданные
+            * PSD Метаданные
+            * CAD Метаданные
+            * Проанализируйте дополнительные теги IFD
         
         right:
           enable: true
           icon: "fab fa-html5"
-          title: "{tabs.tab_one.right.title}"
+          title: "Работа с Audio и Video"
           content: |
-            * {tabs.tab_one.right.content.line_1}
-            * {tabs.tab_one.right.content.line_2}
-            * {tabs.tab_one.right.content.line_3}
-            * {tabs.tab_one.right.content.line_4}
-            * {tabs.tab_one.right.content.line_5}
-            * {tabs.tab_one.right.content.line_6}
+            * Определение формата во время выполнения MP3
+            * Прочитать Lyrics3 Тег
+            * Прочитайте информацию MPEG Audio
+            * Прочитайте информацию о заголовке AVI
+            * Читайте субтитры Matroska
+            * Экспорт данных в формат Excel или CSV
       
       ## TAB TWO ##
       tab_two:
         description: |
-          {tabs.tab_two.description} [{tabs.tab_two.formats_url_title}](https://docs.groupdocs.com/metadata/net/supported-document-formats/):
+          GroupDocs.Metadata for .NET поддерживает следующее [форматы файлов документов](https://docs.groupdocs.com/metadata/net/supported-document-formats/):
 
         left:
           enable: true
           table:
             # table loop
-            - title: "{tabs.tab_two.left.title}"
+            - title: "Microsoft Office"
               content: |
                 * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
                 * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
@@ -120,174 +120,174 @@ overview:
           enable: true
           table:
             # table loop
-            - title: "{tabs.tab_two.right.title}"
+            - title: "Другие форматы"
               content: |
                 * **OpenDocument**: ODT, ODS
                 * **Portable**: PDF
                 * **Photoshop**: PSD
                 * **AutoCAD**: DWG, DXF
-                * **{tabs.tab_two.right.content.line_5}**:  MP3, WAV
-                * **{tabs.tab_two.right.content.line_6}**: AVI, MOV, QT, FLV
+                * **Audio**:  MP3, WAV
+                * **Video**: AVI, MOV, QT, FLV
                 * **Metafiles**: EMF, WMF
                 * **vCard**: VCF, VCR
-                * **{tabs.tab_two.right.content.line_9}**: JPG, JPEG, JPE, JP2, PNG, GIF, TIFF, WebP, BMP, DJVU, DJV, DICOM
+                * **Изображения**: JPG, JPEG, JPE, JP2, PNG, GIF, TIFF, WebP, BMP, DJVU, DJV, DICOM
                 * **Matroska Media Container**: MKV, MKA, MK3D, WEBM
-                * **{tabs.tab_two.right.content.line_11}**: OTF, OTC, TTF, TTC
-                * **{tabs.tab_two.right.content.line_12}**: EPUB, ZIP, TORRENT, ASF
+                * **Шрифты OpenType**: OTF, OTC, TTF, TTC
+                * **Другие**: EPUB, ZIP, TORRENT, ASF
 
       ## TAB THREE ##
       tab_three:
         description: |
-          {tabs.tab_three.description}
+          GroupDocs.Metadata for .NET поддерживает следующие операционные системы, фреймворки и менеджеры пакетов:
         
         left:
           enable: true
           table:
             # table loop
             - icon: "fab fa-windows"
-              title: "{tabs.tab_three.left.title}"
+              title: "операционные системы"
               content: |
-                * {tabs.tab_three.left.content.line_1}
-                * {tabs.tab_three.left.content.line_2}
-                * {tabs.tab_three.left.content.line_3}
-                * {tabs.tab_three.left.content.line_4}
+                * Windows Desktop
+                * Windows Server
+                * Windows Azure
+                * Linux
 
             # table loop
             - icon: "fas fa-code"
-              title: "{tabs.tab_three.left.title_2}"
+              title: "Поддерживаемые платформы"
               content: |
-                * {tabs.tab_three.left.content_2.line_1}
-                * {tabs.tab_three.left.content_2.line_2}
-                * {tabs.tab_three.left.content_2.line_3}
-                * {tabs.tab_three.left.content_2.line_4}
-                * {tabs.tab_three.left.content_2.line_5}
+                * .NET Framework 2.0 или выше
+                * Mono Framework 1.2 или выше
+                * .NET Standard 2.0
+                * .NET Core 2.0
+                * .NET Core 2.1
         right:
           enable: true
           table:
             # table loop
             - icon: "fas fa-box"
-              title: "{tabs.tab_three.right.title}"
+              title: "Менеджеры пакетов"
               content: |
-                {tabs.tab_three.right.content.line_1}
+                * NuGet
 
             # table loop
             - icon: "fas fa-tools"
-              title: "{tabs.tab_three.right.title_2}"
+              title: "Среды разработки"
               content: |
-                {tabs.tab_three.right.content_2.line_1}
-                {tabs.tab_three.right.content_2.line_2}
-                {tabs.tab_three.right.content_2.line_3}
-                {tabs.tab_three.right.content_2.line_4}
-                {tabs.tab_three.right.content_2.line_5}
+                * Microsoft Visual Studio
+                * Xamarin.Android
+                * Xamarin.IOS
+                * Xamarin.Mac
+                * MonoDevelop
 
 ############################# Features ############################
 features:
     enable: true
-    title: "{features.title}"
+    title: "GroupDocs.Metadata for .NET Характеристики"
 
     feature:
       # feature loop
       - icon: "fas fa-copy"
-        content: "{features.feature_1.content}"
+        content: "Определите встроенные и настраиваемые метаданные"
        
       # feature loop
       - icon: "fas fa-eye"
-        content: "{features.feature_2.content}"
+        content: "Извлечение и удаление скрытых данных в Microsoft Word, Excel, PowerPoint и PDF"
 
       # feature loop
       - icon: "fas fa-bolt"
-        content: "{features.feature_3.content}"
+        content: "Распознавание типа файла документа во время выполнения"
       
       # feature loop
       - icon: "fas fa-file-powerpoint"
-        content: "{features.feature_4.content}"
+        content: "Возможность обнаруживать/удалять цифровые подписи"
 
       # feature loop
       - icon: "fas fa-code"
-        content: "{features.feature_5.content}"
+        content: "Защита идентификационных паролей и поддержка мультимедийного контейнера Matroska"
 
       # feature loop
       - icon: "fas fa-cloud"
-        content: "{features.feature_6.content}"
+        content: "Извлечение миниатюр и рендеринг изображений для предварительного просмотра в поддерживаемых форматах"
 
       # feature loop
       - icon: "fas fa-remove-format"
-        content: "{features.feature_7.content}"
+        content: "Определите тип MIME определенного файла или файлового потока"
 
       # feature loop
       - icon: "fas fa-comment-slash"
-        content: "{features.feature_8.content}"
+        content: "Создавайте предварительные просмотры изображений для файлов EPUB, CAD, EML и MSG"
 
       # feature loop
       - icon: "fas fa-location-arrow"
-        content: "{features.feature_9.content}"
+        content: "Используйте заданный ключ для чтения свойств метаданных поддерживаемых форматов"
 
       # feature loop
       - icon: "fas fa-border-all"
-        content: "{features.feature_10.content}"
+        content: "Чтение метаданных сообщений электронной почты и анализ файлов шрифтов OpenType"
 
       # feature loop
       - icon: "fas fa-wrench"
-        content: "{features.feature_11.content}"
+        content: "Читайте субтитры Matroska и извлекайте метаданные файлов Audio и Video"
 
       # feature loop
       - icon: "fas fa-columns"
-        content: "{features.feature_12.content}"
+        content: "Получите метаданные архивных форматов и торрентов"
 
       # feature loop
       - icon: "fas fa-file-word"
-        content: "{features.feature_13.content}"
+        content: "Сравните свойства метаданных поддерживаемых форматов и отличия или сходства идентичности"
 
       # feature loop
       - icon: "fas fa-envelope"
-        content: "{features.feature_14.content}"
+        content: "Поиск свойств метаданных файлов и перечисление метаданных любого типа"
 
       # feature loop
       - icon: "fas fa-print"
-        content: "{features.feature_15.content}"
+        content: "Заменить свойства метаданных поддерживаемых форматов файлов"
 
       # feature loop
       - icon: "fas fa-file-archive"
-        content: "{features.feature_16.content}"
+        content: "Извлечение метаданных из файлов Microsoft Excel, начиная с Excel 95"
 
       # feature loop
       - icon: "fas fa-lock"
-        content: "{features.feature_17.content}"
+        content: "Найдите фотографии, сделанные на определенной камере"
 
       # feature loop
       - icon: "fas fa-file-code"
-        content: "{features.feature_18.content}"
+        content: "Импорт свойств метаданных изображений и удаление информации о местоположении из фотографий"
 
       # feature loop
       - icon: "fas fa-fill-drip"
-        content: "{features.feature_19.content}"
+        content: "Удаление метаданных и комментариев из отчетов и документов"
         
       # feature loop
       - icon: "fas fa-file-excel"
-        content: "{features.feature_20.content}"
+        content: "Извлечение текстовых метаданных из PNG файлов изображений"
 
       # feature loop
       - icon: "fas fa-heading"
-        content: "{features.feature_21.content}"
+        content: "Снижение потребления памяти документами и изображениями"
 
       # feature loop
       - icon: "fas fa-project-diagram"
-        content: "{features.feature_22.content}"
+        content: "Обновите свойства метаданных EXIF в файлах WEBP, PNG и PSD"
 
       # feature loop
       - icon: "fas fa-cube"
-        content: "{features.feature_23.content}"
+        content: "Извлеките свойства метаданных XMP в файлы MOV, MP3 и WEBP"
 
       # feature loop
       - icon: "fab fa-uncharted"
-        content: "{features.feature_24.content}"
+        content: "Добавление, обновление и удаление пакетов метаданных IPTC в TIFF изображениях"
 
         
     more_feature:
       # more_feature_loop
-      - title: "{more_feature.feature_1.title}"
+      - title: "Быстрое получение свойств метаданных"
         content: |
-          {more_feature.feature_1.content}
+          Используя API GroupDocs.Metadata for .NET, манипулировать любыми метаданными поддерживаемых форматов файлов довольно просто. Следующий фрагмент кода показывает, как легко удалить метаданные Photoshop из файла JPEG с помощью C#:
           ```cs
           using (var metadata = new GroupDocs.Metadata.Metadata("sample.jpeg"))
           {
@@ -297,8 +297,8 @@ features:
           }
           ```      
       # more_feature_loop
-      - title: "{more_feature.feature_2.title}"
-        content: "{more_feature.feature_2.content}"
+      - title: "Извлечение скрытых данных и манипулирование ими"
+        content: "GroupDocs.Metadata for .NET предоставляет удобный механизм для получения и удаления скрытых данных в документах PDF, а также Microsoft Word, Excel и PowerPoint. Можно манипулировать комментариями, объединять поля, скрытые страницы, поля форм, аннотации и многое другое."
 
 ############################# Support ############################
 support:
@@ -307,7 +307,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "{solutions.title}"
+    title: "GroupDocs.Metadata предлагает API просмотра документов для других популярных сред разработки"
 
     solution:
         # solution loop

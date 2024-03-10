@@ -1,13 +1,13 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-metadata"
-date: 2023-06-14T09:36:29
+date: 2024-03-10T13:38:26
 draft: false
 otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc dicom dcm bmp avi asf mkv one otc
 
 ############################# Head ############################
-head_title: "Add Metadata to DJVU Files in C# .NET Applications"
-head_description: "C# .NET metadata processing API to add metadata information to DJVU files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Add Metadata to DJVU Files in C# Applications"
+head_description: "C# metadata processing API to add metadata information to DJVU files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
 ############################# Header ############################
 title: "Adding Metadata To DJVU In C#"

@@ -1,23 +1,23 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-metadata"
-date: 2023-06-14T09:36:31
+date: 2024-03-10T13:38:28
 draft: false
 otherformats: zip xltx xltm xlt xlsx xlsm xlsb wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
 ############################# Head ############################
-head_title: "Add Metadata to XLS Files in C# .NET Applications"
-head_description: "C# .NET metadata processing API to add metadata information to XLS files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Tambahkan Metadata ke XLS File di C# Aplikasi"
+head_description: "C# API pemrosesan metadata untuk menambahkan informasi metadata ke file XLS. Bekerja dengan standar metadata XMP, EXIF, IPTC, ID3 dll."
 
 ############################# Header ############################
-title: "Adding Metadata To XLS In C#"
-description: "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using GroupDocs.Metadata for .NET API."
+title: "Menambahkan Metadata Ke XLS Di C#"
+description: "Tambahkan properti metadata kustom ke berbagai dokumen bisnis, gambar, format file audio & video menggunakan GroupDocs.Metadata for .NET API."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
+    label: "Unduh Uji Coba Gratis"
     link: "https://downloads.groupdocs.com/metadata/net"
 
 ############################# SubMenu ############################
@@ -57,37 +57,37 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Metadata for .NET API"
+    title: "Tentang GroupDocs.Metadata for .NET API"
     content: |
-        [GroupDocs.Metadata for .NET](/id/metadata/net/) offers an advanced set of metadata management and manipulation features, allowing .NET programmers to easily view, edit, delete, find, compare, swap and export metadata information from images and document formats without using any external software. Add metadata details to PDF, Microsoft Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats with additional support to perform metadata operations on any .NET-based applications with true flexibility.
+        [GroupDocs.Metadata for .NET](/id/metadata/net/) menawarkan serangkaian fitur manajemen dan manipulasi metadata lanjutan, memungkinkan .NET programmer untuk dengan mudah melihat, mengedit, menghapus, menemukan, membandingkan, menukar, dan mengekspor informasi metadata dari gambar dan format dokumen tanpa menggunakan perangkat lunak eksternal apa pun. Tambahkan detail metadata ke PDF, Microsoft Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, format file Arsip dan Multimedia dengan dukungan tambahan untuk melakukan operasi metadata pada aplikasi berbasis .NET apa pun dengan fleksibilitas yang sebenarnya.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for adding Metadata to XLS in C#"
+    title_left: "Langkah-langkah untuk menambahkan Metadata ke XLS di C#"
     content_left: |
-        [GroupDocs.Metadata for .NET](/id/metadata/net/) makes it easy for .NET developers to add metadata details to XLS files from within their applications by implementing a few easy steps.
+        [GroupDocs.Metadata for .NET](/id/metadata/net/) memudahkan pengembang .NET untuk menambahkan detail metadata ke file XLS dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
         
-        * Load the XLS file to be updated.
-        * Specify a predicate that will be used to add metadata properties.
-        * Pass the predicate to the AddProperties method.
-        * Save the changes.
+        * Muat file XLS yang akan diperbarui.
+        * Tentukan predikat yang akan digunakan untuk menambahkan properti metadata.
+        * Lulus predikat ke metode addProperties.
+        * Simpan perubahan.
 
-    title_right: "System Requirements"
+    title_right: "Persyaratan Sistem"
     content_right: |
-        GroupDocs.Metadata for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
+        GroupDocs.Metadata for .NET API didukung pada semua platform utama dan sistem operasi. Sebelum mengeksekusi kode di bawah ini, pastikan bahwa Anda memiliki prasyarat berikut diinstal pada sistem Anda.
 
-        * Operating Systems: Microsoft Windows, Linux, MacOS
-        * Development Environments: Visual Studio, Xamarin, MonoDevelop
-        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Download the latest version of GroupDocs.Metadata for .NET from [NuGet](https://www.nuget.org/packages/groupdocs.metadata)
+        * Sistem Operasi: Microsoft Windows, Linux, Mac OS
+        * Lingkungan Pengembangan: Visual Studio, Xamarin, MonoDevelop
+        * Kerangka: .NET Framework, .NET Standard, .NET Core, Mono
+        * Unduh versi terbaru GroupDocs.Metadata for .NET from [NuGet](https://www.nuget.org/packages/groupdocs.metadata)
          
     code: |
         ```csharp    
-        // load the file in an instance of Metadata class
+        // memuat file dalam contoh kelas Metadata
         using (var metadata = new GroupDocs.Metadata.Metadata("input.xls"))
         {
-            // add a property containing the content author
+            // menambahkan properti yang berisi penulis konten
             var affected = metadata.AddProperties(p => p.Tags.Contains(
               GroupDocs.Metadata.Tagging.Tags.Person.Creator), new GroupDocs.Metadata.Common.PropertyValue("test content author"));
             Console.WriteLine("Affected properties: {0}", affected);
@@ -98,10 +98,10 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Live Demos to Add Metadata"
+    title: "Demo Langsung untuk Menambahkan Metadata"
     content: |
-       Add metadata information to XLS file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.
-       The live demo has the following benefits.
+       Tambahkan informasi metadata ke file XLS sekarang juga dengan mengunjungi situs web [GroupDocs.Metadata Demo Langsung](https://products.groupdocs.app/metadata/family).
+       Demo langsung memiliki manfaat sebagai berikut.
         
 ############################# About Formats ############################
 about_formats:
@@ -110,9 +110,9 @@ about_formats:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Adding Metadata Properties To Other File Formats"
+    title: "Menambahkan Properti Metadata Ke Format File Lainnya"
     content: |
-        Multi format documents and images metadata addition API for .NET. Retrieve metadata of some of the popular file formats as stated below.
+        Multi format dokumen dan gambar penambahan metadata API untuk .NET. Ambil metadata dari beberapa format file populer seperti yang dinyatakan di bawah ini.
 
 ############################# Back to top ###############################
 back_to_top:

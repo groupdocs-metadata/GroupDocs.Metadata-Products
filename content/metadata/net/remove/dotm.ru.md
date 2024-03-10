@@ -1,23 +1,23 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-metadata"
-date: 2023-06-14T09:37:49
+date: 2024-03-10T13:38:39
 draft: false
 otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
 ############################# Head ############################
-head_title: "Remove Metadata to DOTM Files in C# .NET Applications"
-head_description: "C# .NET metadata processing API to remove metadata information to DOTM files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "{head.title}"
+head_description: "{head.description}"
 
 ############################# Header ############################
-title: "Remove Metadata From DOTM File In C#"
-description: "Remove metadata information from a variety of documents, images, audio & video file formats using GroupDocs.Metadata for .NET API."
+title: "{header.title}"
+description: "{header.description}"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
+    label: "{header.button_label}"
     link: "https://downloads.groupdocs.com/metadata/net"
 
 ############################# SubMenu ############################
@@ -57,37 +57,37 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Metadata for .NET API"
+    title: "{about.title}"
     content: |
-        [GroupDocs.Metadata for .NET](/ru/metadata/net/) offers an advanced set of metadata manipulation features, allowing developers to easily read, edit, remove, search, compare, replace and export metadata information from images and document formats without using any external software. Use metadata management API to delete metadata details from PDF, Microsoft Office Word, Excel spreadsheets, PowerPoint presentations, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats along with many other metadata processing features.
+        {about.h1}
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Removing DOTM Metadata in C#"
+    title_left: "{steps.title_left}"
     content_left: |
-        [GroupDocs.Metadata for .NET](/ru/metadata/net/) makes it easy for .NET developers to remove  metadata details to DOTM files from within their applications by implementing a few easy steps.
+        {steps.content_left.description}
         
-        * Load DOTM with an instance of Metadata class.
-        * Use a predicate to find desired metadata properties.
-        * Use Metadata.RemoveProperties method to remove the properties.
-        * Save the changes back in DOTM format.
+        * {steps.content_left.step_1}
+        * {steps.content_left.step_2}
+        * {steps.content_left.step_3}
+        * {steps.content_left.step_4}
 
-    title_right: "System Requirements"
+    title_right: "{steps.title_right}"
     content_right: |
-        GroupDocs.Metadata for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
+        {steps.content_right.description}
 
-        * Operating Systems: Microsoft Windows, Linux, MacOS
-        * Development Environments: Visual Studio, Xamarin, MonoDevelop
-        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Download the latest version of GroupDocs.Metadata for .NET from [NuGet](https://www.nuget.org/packages/groupdocs.metadata)
+        * {steps.content_right.step_1}
+        * {steps.content_right.step_2}
+        * {steps.content_right.step_3}: .NET Framework, .NET Standard, .NET Core, Mono
+        * {steps.content_right.step_4}
          
     code: |
         ```csharp    
         using (var metadata = new GroupDocs.Metadata.Metadata("input.dotm"))
         {
-            // Remove all mentions of any people contributed in file creation
-            // Remove all properties with the specified name
+            // {steps.code.remove_mention_comment}
+            // {steps.code.remove_prop_comment}
             var affected = metadata.RemoveProperties(p => p.Tags.Any(t => t.Category == Tags.Person) || p.Name == "CustomProperty");
             Console.WriteLine("Affected properties: {0}", affected);
             metadata.Save("output.dotm");
@@ -97,10 +97,10 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Metadata Removal Live Demos"
+    title: "{demos.title}"
     content: |
-       Delete metadata information of DOTM file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.
-       The live demo has the following benefits.
+       {demos.h1}
+       {demos.h2}
         
 ############################# About Formats ############################
 about_formats:
@@ -109,9 +109,9 @@ about_formats:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Deleting Metadata Properties From Other File Formats"
+    title: "{more_formats.title}"
     content: |
-        Multi format documents and images metadata deletion API for .NET. Retrieve metadata of some of the popular file formats as stated below.
+        {more_formats.content}
 
 ############################# Back to top ###############################
 back_to_top:

@@ -1,23 +1,23 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-metadata"
-date: 2023-06-14T09:37:26
+date: 2024-03-10T13:38:31
 draft: false
 otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
 ############################# Head ############################
-head_title: "Edit Metadata to DWG Files in C# .NET Applications"
-head_description: "C# .NET metadata processing API to edit metadata information to DWG files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Редактирование метаданных в DWG файлах в C# приложениях"
+head_description: "API обработки метаданных C# для редактирования метаданных в файлы DWG. Работайте со стандартами метаданных XMP, EXIF, IPTC, ID3 и т. д."
 
 ############################# Header ############################
-title: "Update Metadata Of DWG File  In C#"
-description: "Update metadata information from all popular documents, images and multimedia file formats with the support of performing all most-needed metadata processing operations."
+title: "Обновить метаданные файла DWG в C#"
+description: "Обновляйте метаданные из всех популярных документов, изображений и форматов мультимедийных файлов с поддержкой выполнения всех наиболее необходимых операций обработки метаданных."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
+    label: "Загрузить бесплатную пробную версию"
     link: "https://downloads.groupdocs.com/metadata/net"
 
 ############################# SubMenu ############################
@@ -57,38 +57,38 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Metadata for .NET API"
+    title: "Об API GroupDocs.Metadata for .NET"
     content: |
-        [GroupDocs.Metadata for .NET](/ru/metadata/net/) offers an advanced set of metadata management features, allowing developers to easily read, doc, delete, find, compare, replace and export metadata information from images and document formats without using any external software. Use metadata manipulation API to edit metadata details from PDF, Microsoft Office Word, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats along with the support for working with many other metadata processing features.
+        [GroupDocs.Metadata for .NET](/ru/metadata/net/) предлагает расширенный набор функций управления метаданными, позволяющий разработчикам легко читать, документировать, удалять, находить, сравнивать, заменять и экспортировать метаданные из изображений и форматов документов без использования внешнего программного обеспечения. Используйте API управления метаданными для редактирования сведений о метаданных из электронных таблиц PDF, Microsoft Office Word, Excel презентаций, Outlook электронных писем, OneNote, Visio, Project, AutoCAD, форматов архивных и мультимедийных файлов, а также для поддержки работы со многими другими функциями обработки метаданных.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Updating Metadata to DWG in C#"
+    title_left: "Этапы обновления метаданных до DWG в C#"
     content_left: |
-        [GroupDocs.Metadata for .NET](/ru/metadata/net/) makes it easy for .NET developers to edit metadata information to DWG files from within their applications by implementing a few easy steps.
+        [GroupDocs.Metadata for .NET](/ru/metadata/net/) позволяет разработчикам .NET легко редактировать метаданные в файлы DWG из своих приложений, выполнив несколько простых шагов.
         
-        * Load DWG filevia an instance of Metadata class.
-        * Specify a predicate that will be used to filter desired metadata properties.
-        * Pass the predicate and the new value to the UpdateProperties method.
-        * Save the changes to disc in DWG format.
+        * Загрузите файл DWG через экземпляр класса Metadata.
+        * Укажите предикат, который будет использоваться для фильтрации желаемых свойств метаданных.
+        * Передайте предикат и новое значение методу updateProperties.
+        * Сохраните изменения на диске в формате DWG.
 
-    title_right: "System Requirements"
+    title_right: "Системные требования"
     content_right: |
-        GroupDocs.Metadata for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
+        GroupDocs.Metadata for .NET API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные условия.
 
-        * Operating Systems: Microsoft Windows, Linux, MacOS
-        * Development Environments: Visual Studio, Xamarin, MonoDevelop
-        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Download the latest version of GroupDocs.Metadata for .NET from [NuGet](https://www.nuget.org/packages/groupdocs.metadata)
+        * Операционные системы: ОС Microsoft Windows, Linux, Mac
+        * Среды разработки: Visual Studio, Xamarin, MonoDevelop
+        * Каркасы: .NET Framework, .NET Standard, .NET Core, Mono
+        * Загрузите последнюю версию GroupDocs.Metadata for .NET с сайта [NuGet](https://www.nuget.org/packages/groupdocs.metadata)
          
     code: |
         ```csharp    
         using (var metadata = new GroupDocs.Metadata.Metadata("input.dwg"))
         {
-            // set the value of each property that satisfies the predicate:
-            // property contains the date/time the document was created
-            // update the file creation date/time if the existing value is older than 3 days
+            // задайте значение каждого свойства, удовлетворяющего предикату:
+            // свойство содержит дату и время создания документа
+            // обновите дату/время создания файла, если существующее значение старше 3 дней
             var affected = metadata.UpdateProperties(
               p => p.Tags.Contains(GroupDocs.Metadata.Tagging.Tags.Time.Created) &&
               p.Value.Type == GroupDocs.Metadata.Common.MetadataPropertyType.DateTime &&
@@ -101,10 +101,10 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Live Demos to Update Metadata"
+    title: "Демонстрации в реальном времени для обновления метаданных"
     content: |
-       Update metadata information to DWG file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.
-       The live demo has the following benefits.
+       Обновите метаданные до файла DWG прямо сейчас, посетив веб-сайт [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family).
+       Живая демонстрация имеет следующие преимущества.
         
 ############################# About Formats ############################
 about_formats:
@@ -113,9 +113,9 @@ about_formats:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Updating Metadata Properties From Other File Formats"
+    title: "Обновление свойств метаданных из других форматов файлов"
     content: |
-        Multi format documents and images metadata editing API for .NET. Retrieve metadata of some of the popular file formats as stated below.
+        API редактирования метаданных многоформатных документов и изображений для .NET. Извлеките метаданные некоторых популярных форматов файлов, как указано ниже.
 
 ############################# Back to top ###############################
 back_to_top:

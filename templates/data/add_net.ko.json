@@ -1,0 +1,47 @@
+{
+  "head": {
+    "title": "{{ProgLang}} 애플리케이션의 {{EXT}} 파일에 메타데이터 추가",
+    "description": "{{EXT}} 파일에 메타데이터 정보를 추가하기 위한 {{ProgLang}} 메타데이터 처리 API입니다.메타데이터 표준 XMP, EXIF, IPTC, ID3 등으로 작업하십시오."
+  },
+  "header": {
+    "title": "{{ProgLang}} 의 {{EXT}} 에 메타데이터 추가",
+    "description": "{{ProductFullName}} API를 사용하여 다양한 비즈니스 문서, 이미지, 오디오 및 비디오 파일 형식에 사용자 지정 메타데이터 속성을 추가합니다.",
+    "button_label": "무료 체험판 다운로드"
+  },
+  "about": {
+    "title": "{{ProductFullName}} API에 대한 정보",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/metadata/{{ProductCode}}/) 는 고급 메타데이터 관리 및 조작 기능을 제공하므로 .NET 프로그래머가 외부 소프트웨어를 사용하지 않고도 이미지 및 문서 형식에서 메타데이터 정보를 쉽게 보고, 편집하고, 삭제하고, 찾고, 비교하고, 바꾸고, 내보낼 수 있습니다.PDF, Microsoft Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, 아카이브 및 멀티미디어 파일 형식에 메타데이터 세부 정보를 추가하여 진정한 유연성으로 모든 {{ProductName}} 기반 애플리케이션에서 메타데이터 작업을 수행할 수 있도록 지원합니다."
+  },
+  "steps": {
+    "title_left": "{{ProgLang}} 의 {{EXT}} 에 메타데이터를 추가하는 단계",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/metadata/{{ProductCode}}/) 를 사용하면 {{ProductName}} 개발자가 몇 가지 간단한 단계를 구현하여 애플리케이션 내에서 {{EXT}} 파일에 메타데이터 세부 정보를 쉽게 추가할 수 있습니다.",
+      "step_1": "업데이트할 {{EXT}} 파일을 로드합니다.",
+      "step_2": "메타데이터 속성을 추가하는 데 사용할 술어를 지정합니다.",
+      "step_3": "조건자를 AddProperties 메서드에 전달합니다.",
+      "step_4": "변경 내용을 저장합니다."
+    },
+    "title_right": "시스템 요구 사항",
+    "content_right": {
+      "description": "{{ProductFullName}} API는 모든 주요 플랫폼 및 운영 체제에서 지원됩니다.아래 코드를 실행하기 전에 시스템에 다음과 같은 사전 요구 사항이 설치되어 있는지 확인하십시오.",
+      "step_1": "운영 체제: 마이크로소프트 Windows, Linux, Mac OS",
+      "step_2": "개발 환경: {{DevEnv}}",
+      "step_3": "프레임워크",
+      "step_4": "[{{RepoName}}]({{RepoUrl}}) 에서 {{ProductFullName}} 의 최신 버전을 다운로드하십시오."
+    },
+    "title_code": "{{ProgLang}} 예제 코드를 사용하여 메타데이터 {{EXT}} 파일을 추가하는 방법",
+    "code": {
+      "load_comment": "Metadata 클래스의 인스턴스에 파일 로드",
+      "add_comment": "컨텐츠 작성자가 포함된 속성 추가"
+    }
+  },
+  "demos": {
+    "title": "메타데이터를 추가하는 라이브 데모",
+    "h1": "[GroupDocs.Metadata 라이브 데모](https://products.groupdocs.app/metadata/family) 웹 사이트를 방문하여 {{EXT}} 파일에 메타데이터 정보를 지금 바로 추가하십시오.",
+    "h2": "라이브 데모에는 다음과 같은 이점이 있습니다."
+  },
+  "more_formats": {
+    "title": "다른 파일 형식에 메타데이터 속성 추가",
+    "content": "{{ProductName}} 용 다중 형식 문서 및 이미지 메타데이터 추가 API.다음과 같이 널리 사용되는 일부 파일 형식의 메타데이터를 검색하십시오."
+  }
+}

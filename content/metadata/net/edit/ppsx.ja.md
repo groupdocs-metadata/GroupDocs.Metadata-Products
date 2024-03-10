@@ -1,23 +1,23 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-metadata"
-date: 2023-06-14T09:37:28
+date: 2024-03-10T13:38:33
 draft: false
 otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
 ############################# Head ############################
-head_title: "Edit Metadata to PPSX Files in C# .NET Applications"
-head_description: "C# .NET metadata processing API to edit metadata information to PPSX files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "C# アプリケーションの PPSX ファイルへのメタデータの編集"
+head_description: "C# メタデータ処理APIを使用してメタデータ情報を PPSX ファイルに編集します。メタデータ規格 XMP、EXIF、IPTC、ID3 などと連携してください。"
 
 ############################# Header ############################
-title: "Update Metadata Of PPSX File  In C#"
-description: "Update metadata information from all popular documents, images and multimedia file formats with the support of performing all most-needed metadata processing operations."
+title: "C# 内の PPSX ファイルのメタデータを更新"
+description: "最も必要なすべてのメタデータ処理操作の実行をサポートして、すべての一般的な文書、画像、マルチメディアファイル形式のメタデータ情報を更新します。"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
+    label: "無料試用版をダウンロード"
     link: "https://downloads.groupdocs.com/metadata/net"
 
 ############################# SubMenu ############################
@@ -57,38 +57,38 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Metadata for .NET API"
+    title: "GroupDocs.Metadata for .NET API について"
     content: |
-        [GroupDocs.Metadata for .NET](/ja/metadata/net/) offers an advanced set of metadata management features, allowing developers to easily read, doc, delete, find, compare, replace and export metadata information from images and document formats without using any external software. Use metadata manipulation API to edit metadata details from PDF, Microsoft Office Word, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats along with the support for working with many other metadata processing features.
+        [GroupDocs.Metadata for .NET](/ja/metadata/net/) は、高度なメタデータ管理機能セットを提供します。これにより、開発者は外部ソフトウェアを使用せずに、画像や文書形式のメタデータ情報の読み取り、文書化、削除、検索、比較、置換、エクスポートを簡単に行うことができます。メタデータ操作APIを使用すると、PDF、Microsoft Office Word、Excel スプレッドシート、PowerPoint プレゼンテーション、Outlook 電子メール、OneNote、Visio、Project、AutoCAD、アーカイブおよびマルチメディアファイル形式のメタデータの詳細を編集できます。また、他の多くのメタデータ処理機能との連携もサポートされています。
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Updating Metadata to PPSX in C#"
+    title_left: "C# のメタデータを PPSX に更新する手順"
     content_left: |
-        [GroupDocs.Metadata for .NET](/ja/metadata/net/) makes it easy for .NET developers to edit metadata information to PPSX files from within their applications by implementing a few easy steps.
+        [GroupDocs.Metadata for .NET](/ja/metadata/net/) を使用すると、.NET 開発者はいくつかの簡単な手順を実行することで、アプリケーション内からメタデータ情報を PPSX ファイルに簡単に編集できます。
         
-        * Load PPSX filevia an instance of Metadata class.
-        * Specify a predicate that will be used to filter desired metadata properties.
-        * Pass the predicate and the new value to the UpdateProperties method.
-        * Save the changes to disc in PPSX format.
+        * Metadata クラスのインスタンス経由で PPSX ファイルをロードします。
+        * 必要なメタデータプロパティをフィルタリングするために使用する述語を指定します。
+        * 述語と新しい値を updateProperties メソッドに渡します。
+        * 変更を PPSX 形式でディスクに保存します。
 
-    title_right: "System Requirements"
+    title_right: "システム要件"
     content_right: |
-        GroupDocs.Metadata for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
+        GroupDocs.Metadata for .NET 個のAPIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、以下の前提条件がシステムにインストールされていることを確認してください。
 
-        * Operating Systems: Microsoft Windows, Linux, MacOS
-        * Development Environments: Visual Studio, Xamarin, MonoDevelop
-        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Download the latest version of GroupDocs.Metadata for .NET from [NuGet](https://www.nuget.org/packages/groupdocs.metadata)
+        * オペレーティングシステム:マイクロソフト Windows、Linux、Mac OS
+        * 開発環境:Visual Studio, Xamarin, MonoDevelop
+        * フレームワーク: .NET Framework, .NET Standard, .NET Core, Mono
+        * [NuGet](https://www.nuget.org/packages/groupdocs.metadata) から GroupDocs.Metadata for .NET の最新バージョンをダウンロードしてください
          
     code: |
         ```csharp    
         using (var metadata = new GroupDocs.Metadata.Metadata("input.ppsx"))
         {
-            // set the value of each property that satisfies the predicate:
-            // property contains the date/time the document was created
-            // update the file creation date/time if the existing value is older than 3 days
+            // 述語を満たす各プロパティの値を設定します。
+            // プロパティには、ドキュメントが作成された日付/時刻が含まれます
+            // 既存の値が 3 日より古い場合は、ファイルの作成日時を更新します
             var affected = metadata.UpdateProperties(
               p => p.Tags.Contains(GroupDocs.Metadata.Tagging.Tags.Time.Created) &&
               p.Value.Type == GroupDocs.Metadata.Common.MetadataPropertyType.DateTime &&
@@ -101,10 +101,10 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Live Demos to Update Metadata"
+    title: "メタデータを更新するためのライブデモ"
     content: |
-       Update metadata information to PPSX file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.
-       The live demo has the following benefits.
+       [GroupDocs.Metadata ライブデモ](https://products.groupdocs.app/metadata/family) ウェブサイトにアクセスして、メタデータ情報を PPSX ファイルに今すぐ更新してください。
+       ライブデモには次の利点があります。
         
 ############################# About Formats ############################
 about_formats:
@@ -113,9 +113,9 @@ about_formats:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Updating Metadata Properties From Other File Formats"
+    title: "他のファイル形式のメタデータプロパティの更新"
     content: |
-        Multi format documents and images metadata editing API for .NET. Retrieve metadata of some of the popular file formats as stated below.
+        .NET 用のマルチフォーマット文書および画像メタデータ編集 API。以下に示すように、一般的なファイル形式のメタデータを取得します。
 
 ############################# Back to top ###############################
 back_to_top:

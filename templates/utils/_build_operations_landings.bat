@@ -1,0 +1,5 @@
+call build_add_landings.bat
+call build_edit_landings.bat
+call build_extract_landings.bat
+call build_remove_landings.bat
+delete_missing_langs.bat

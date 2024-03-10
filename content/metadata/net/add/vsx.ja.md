@@ -1,23 +1,23 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-metadata"
-date: 2023-06-14T09:36:31
+date: 2024-03-10T13:38:28
 draft: false
 otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
 ############################# Head ############################
-head_title: "Add Metadata to VSX Files in C# .NET Applications"
-head_description: "C# .NET metadata processing API to add metadata information to VSX files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "C# アプリケーションの VSX ファイルにメタデータを追加"
+head_description: "C# メタデータ処理 API により、VSX ファイルにメタデータ情報を追加できます。メタデータ標準 XMP、EXIF、IPTC、ID3 などを使用してください。"
 
 ############################# Header ############################
-title: "Adding Metadata To VSX In C#"
-description: "Add custom metadata properties to a wide range of business documents, images, audio & video file formats using GroupDocs.Metadata for .NET API."
+title: "C# の VSX へのメタデータの追加"
+description: "GroupDocs.Metadata for .NET API を使用して、さまざまなビジネス文書、画像、音声、動画ファイル形式にカスタムメタデータプロパティを追加します。"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
+    label: "無料試用版をダウンロード"
     link: "https://downloads.groupdocs.com/metadata/net"
 
 ############################# SubMenu ############################
@@ -57,37 +57,37 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Metadata for .NET API"
+    title: "GroupDocs.Metadata for .NET API について"
     content: |
-        [GroupDocs.Metadata for .NET](/ja/metadata/net/) offers an advanced set of metadata management and manipulation features, allowing .NET programmers to easily view, edit, delete, find, compare, swap and export metadata information from images and document formats without using any external software. Add metadata details to PDF, Microsoft Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats with additional support to perform metadata operations on any .NET-based applications with true flexibility.
+        [GroupDocs.Metadata for .NET](/ja/metadata/net/) は、高度なメタデータ管理および操作機能を備えているため、.NET 人のプログラマーは、外部ソフトウェアを使用せずに、画像や文書形式のメタデータ情報を簡単に表示、編集、削除、検索、比較、交換、エクスポートできます。PDF、Microsoft Word、Excel、PowerPoint、Outlook、OneNote、Visio、Project、AutoCAD、アーカイブおよびマルチメディアファイル形式にメタデータの詳細を追加します。さらに、.NET ベースのアプリケーションでメタデータ操作を非常に柔軟に実行するためのサポートも追加されています。
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for adding Metadata to VSX in C#"
+    title_left: "C# の VSX にメタデータを追加する手順"
     content_left: |
-        [GroupDocs.Metadata for .NET](/ja/metadata/net/) makes it easy for .NET developers to add metadata details to VSX files from within their applications by implementing a few easy steps.
+        [GroupDocs.Metadata for .NET](/ja/metadata/net/) を使用すると、.NET 開発者はいくつかの簡単な手順を実装することで、アプリケーション内から VSX ファイルにメタデータの詳細を簡単に追加できます。
         
-        * Load the VSX file to be updated.
-        * Specify a predicate that will be used to add metadata properties.
-        * Pass the predicate to the AddProperties method.
-        * Save the changes.
+        * 更新する VSX ファイルをロードします。
+        * メタデータのプロパティを追加するために使用する述語を指定します。
+        * 述語を addProperties メソッドに渡します。
+        * 変更を保存します。
 
-    title_right: "System Requirements"
+    title_right: "システム要件"
     content_right: |
-        GroupDocs.Metadata for .NET APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
+        GroupDocs.Metadata for .NET API はすべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、以下の前提条件がシステムにインストールされていることを確認してください。
 
-        * Operating Systems: Microsoft Windows, Linux, MacOS
-        * Development Environments: Visual Studio, Xamarin, MonoDevelop
-        * Frameworks: .NET Framework, .NET Standard, .NET Core, Mono
-        * Download the latest version of GroupDocs.Metadata for .NET from [NuGet](https://www.nuget.org/packages/groupdocs.metadata)
+        * オペレーティングシステム:マイクロソフト Windows、Linux、Mac OS
+        * 開発環境:Visual Studio, Xamarin, MonoDevelop
+        * フレームワーク: .NET Framework, .NET Standard, .NET Core, Mono
+        * GroupDocs.Metadata for .NET の最新バージョンを [NuGet](https://www.nuget.org/packages/groupdocs.metadata) からダウンロードしてください
          
     code: |
         ```csharp    
-        // load the file in an instance of Metadata class
+        // Metadata クラスのインスタンスにファイルをロードする
         using (var metadata = new GroupDocs.Metadata.Metadata("input.vsx"))
         {
-            // add a property containing the content author
+            // コンテンツ作成者を含むプロパティを追加
             var affected = metadata.AddProperties(p => p.Tags.Contains(
               GroupDocs.Metadata.Tagging.Tags.Person.Creator), new GroupDocs.Metadata.Common.PropertyValue("test content author"));
             Console.WriteLine("Affected properties: {0}", affected);
@@ -98,10 +98,10 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Live Demos to Add Metadata"
+    title: "メタデータを追加するためのライブデモ"
     content: |
-       Add metadata information to VSX file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.
-       The live demo has the following benefits.
+       [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) ウェブサイトにアクセスして、今すぐ VSX ファイルにメタデータ情報を追加してください。
+       ライブデモには以下のメリットがあります。
         
 ############################# About Formats ############################
 about_formats:
@@ -110,9 +110,9 @@ about_formats:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Adding Metadata Properties To Other File Formats"
+    title: "他のファイル形式へのメタデータプロパティの追加"
     content: |
-        Multi format documents and images metadata addition API for .NET. Retrieve metadata of some of the popular file formats as stated below.
+        .NET 用のマルチフォーマット文書および画像メタデータ追加 API。以下に説明するように、一般的なファイル形式のメタデータを取得します。
 
 ############################# Back to top ###############################
 back_to_top:

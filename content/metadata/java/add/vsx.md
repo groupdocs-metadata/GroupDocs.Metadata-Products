@@ -1,13 +1,13 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-metadata"
-date: 2023-06-14T09:36:29
+date: 2024-03-10T13:38:26
 draft: false
 otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
 ############################# Head ############################
-head_title: "Add Metadata to VSX Files in Java Java Applications"
-head_description: "Java Java metadata processing API to add metadata information to VSX files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Add Metadata to VSX Files in Java Applications"
+head_description: "Java metadata processing API to add metadata information to VSX files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
 ############################# Header ############################
 title: "Adding Metadata To VSX In Java"

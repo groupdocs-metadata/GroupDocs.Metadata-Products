@@ -1,23 +1,23 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-metadata"
-date: 2023-06-14T09:37:37
+date: 2024-03-10T13:38:35
 draft: false
 otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dcm bmp avi asf mkv one otc djvu
 
 ############################# Head ############################
-head_title: "Read & Extract Metadata of DICOM Files in Java Java Applications"
-head_description: "Cross platform Java Java metadata menagement API to read and extract metadata information of DICOM files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Чтение и извлечение метаданных DICOM файлов в Java приложениях"
+head_description: "Кроссплатформенный API управления метаданными Java для чтения и извлечения метаданных из файлов DICOM. Работайте со стандартами метаданных XMP, EXIF, IPTC, ID3 и т. д."
 
 ############################# Header ############################
-title: "Extract Metadata From DICOM File In Java"
-description: "Read & Extract metadata information from a wide range of documents, images, audio & video formats using GroupDocs.Metadata for Java"
+title: "Извлечение метаданных из файла DICOM в Java"
+description: "Чтение и извлечение метаданных из широкого спектра документов, изображений, аудио- и видеоформатов с помощью GroupDocs.Metadata for Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
+    label: "Загрузить бесплатную пробную версию"
     link: "https://downloads.groupdocs.com/metadata/java"
 
 ############################# SubMenu ############################
@@ -57,30 +57,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Metadata for Java API"
+    title: "Об API GroupDocs.Metadata for Java"
     content: |
-        [GroupDocs.Metadata for Java](/ru/metadata/java/) offers an advanced set of metadata management and manipulation features, allowing developers to easily read, edit, remove, search, compare, replace and export metadata information from images and document formats without using any external software. Extract metadata details from PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats, and perform supported metadata operations with true flexibility.
+        [GroupDocs.Metadata for Java](/ru/metadata/java/) предлагает расширенный набор функций управления метаданными и манипулирования ими, позволяющий разработчикам легко читать, редактировать, удалять, искать, сравнивать, заменять и экспортировать метаданные из изображений и форматов документов без использования внешнего программного обеспечения. Извлекайте метаданные из форматов PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, архивных и мультимедийных файлов и выполняйте поддерживаемые операции с метаданными с максимальной гибкостью.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for DICOM Metadata Extraction in Java"
+    title_left: "Этапы извлечения метаданных DICOM в Java"
     content_left: |
-        [GroupDocs.Metadata for Java](/ru/metadata/java/) makes it easy for Java developers to extract to read and extract metadata information from DICOM files from within their applications by implementing a few easy steps.
+        [GroupDocs.Metadata for Java](/ru/metadata/java/) позволяет разработчикам Java легко извлекать, читать и извлекать метаданные из DICOM файлов из своих приложений, выполнив несколько простых шагов.
         
-        * Load the DICOM with an instance of Metadata class.
-        * Make up a predicate to examine all metadata properties.
-        * Pass the predicate to the FindProperties method.
-        * Iterate through the found properties.
+        * Загрузите DICOM с экземпляром класса Metadata.
+        * Создайте предикат для проверки всех свойств метаданных.
+        * Передайте предикат методу findProperties.
+        * Просмотрите найденные свойства.
 
-    title_right: "System Requirements"
+    title_right: "Системные требования"
     content_right: |
-        GroupDocs.Metadata for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
+        GroupDocs.Metadata for Java API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные условия.
 
-        * Operating Systems: Microsoft Windows, Linux, MacOS
-        * Development Environments: NetBeans, IntelliJ IDEA, Eclipse
-        * Java Runtime Environment: J2SE 6.0 and above
-        * Download the latest version of GroupDocs.Metadata for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
+        * Операционные системы: ОС Microsoft Windows, Linux, Mac
+        * Среды разработки: NetBeans, IntelliJ IDEA, Eclipse
+        * Java Среда выполнения: J2SE 6.0 and above
+        * Загрузите последнюю версию GroupDocs.Metadata for Java с сайта [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
          
     code: |
         ```java    
@@ -88,7 +88,7 @@ steps:
         {
             if (metadata.getFileFormat() != FileFormat.Unknown && !metadata.getDocumentInfo().isEncrypted())
             {
-                // Fetch all metadata properties that fall into a particular category
+                // Извлеките все свойства метаданных, которые относятся к определенной категории
                 IReadOnlyList properties = metadata.findProperties(new FallsIntoCategorySpecification(Tags.getContent()));
                 System.out.println("The metadata properties describing some characteristics of the file content: title, keywords, language, etc.");
                 for (MetadataProperty property : properties) 
@@ -102,10 +102,10 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Metadata Extraction Live Demos"
+    title: "Живые демоверсии извлечения метаданных"
     content: |
-       Retrieve metadata information of DICOM file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.
-       The live demo has the following benefits.
+       Получите метаданные файла DICOM прямо сейчас, посетив веб-сайт [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family).
+       Живая демонстрация имеет следующие преимущества.
         
 ############################# About Formats ############################
 about_formats:
@@ -114,9 +114,9 @@ about_formats:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Reading & Extracting Other File Formats"
+    title: "Чтение и извлечение файлов других форматов"
     content: |
-        Multi format documents and images metadata extraction API for Java. Retrieve metadata of some of the popular file formats as stated below.
+        API извлечения метаданных многоформатных документов и изображений для Java. Извлеките метаданные некоторых популярных форматов файлов, как указано ниже.
 
 ############################# Back to top ###############################
 back_to_top:

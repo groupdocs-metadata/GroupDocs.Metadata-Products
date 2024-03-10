@@ -1,23 +1,23 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-metadata"
-date: 2023-06-14T09:37:49
+date: 2024-03-10T13:38:40
 draft: false
 otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
 ############################# Head ############################
-head_title: "Remove Metadata Properties of HEIC Files in Java"
-head_description: "Cross platform Java metadata API to hide and remove metadata fields of HEIC files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc. "
+head_title: "Удалить свойства метаданных файлов HEIC в Java"
+head_description: "Кроссплатформенный API метаданных Java для скрытия и удаления полей метаданных файлов HEIC. Работайте со стандартами метаданных XMP, EXIF, IPTC, ID3 и т. д. "
 
 ############################# Header ############################
-title: "Remove HEIC Metadata In Java"
-description: "Remove metadata properties from HEIC and many other popular documents, images and multimedia file formats using GroupDocs.Metadata for Java API."
+title: "Удалить метаданные HEIC из Java"
+description: "Удалите свойства метаданных из HEIC и многих других популярных форматов документов, изображений и мультимедийных файлов с помощью API GroupDocs.Metadata for Java."
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
+    label: "Загрузить бесплатную пробную версию"
     link: "https://downloads.groupdocs.com/metadata/java"
 
 ############################# SubMenu ############################
@@ -57,37 +57,37 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Metadata for Java API"
+    title: "Об API GroupDocs.Metadata for Java"
     content: |
-        [GroupDocs.Metadata for Java](/ru/metadata/java/) is an advanced metadata fields manipulation solution to easily read, add, update, delete, find, compare, exchange and export metadata information from images and document formats without using any external software. Remove metadata details from Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
+        [GroupDocs.Metadata for Java](/ru/metadata/java/) — это усовершенствованное решение для работы с полями метаданных, позволяющее легко читать, добавлять, обновлять, удалять, находить, сравнивать, обмениваться и экспортировать метаданные из изображений и форматов документов без использования внешнего программного обеспечения. Удалите метаданные из Word документов, Excel электронных таблиц, PowerPoint презентаций, Outlook электронных писем, форматов файлов OneNote, Visio, Project, PDF, AutoCAD, ZIP, Audio и Video, а также поддерживайте работу со многими другими функциями обработки метаданных.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Removing  Metadata to HEIC in Java"
+    title_left: "Шаги по удалению метаданных из HEIC в Java"
     content_left: |
-        [GroupDocs.Metadata for Java](/ru/metadata/java/) makes it easy for Java developers to delete metadata information from HEIC files from within their applications by implementing a few easy steps.
+        [GroupDocs.Metadata for Java](/ru/metadata/java/) позволяет разработчикам Java легко удалять метаданные из HEIC файлов из своих приложений, выполнив несколько простых шагов.
         
-        * Load the HEIC file to be updated.
-        * Pass a search predicate to the RemoveProperties method.
-        * Check the number of properties that were actually removed.
-        * Save the changes.
+        * Загрузите файл HEIC для обновления.
+        * Передайте поисковый предикат методу RemoveProperties.
+        * Проверьте количество свойств, которые действительно были удалены.
+        * Сохраните изменения.
 
-    title_right: "System Requirements"
+    title_right: "Системные требования"
     content_right: |
-        GroupDocs.Metadata for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
+        GroupDocs.Metadata for Java API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные условия.
 
-        * Operating Systems: Microsoft Windows, Linux, MacOS
-        * Development Environments: NetBeans, IntelliJ IDEA, Eclipse
-        * Java Runtime Environments: J2SE 6.0 and above
-        * Get the latest version of  GroupDocs.Metadata for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
+        * Операционные системы: ОС Microsoft Windows, Linux, Mac
+        * Среды разработки: NetBeans, IntelliJ IDEA, Eclipse
+        * Java Среды выполнения: J2SE 6.0 and above
+        * Загрузите последнюю версию GroupDocs.Metadata for Java от [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
          
     code: |
         ```java    
         try (Metadata metadata = new Metadata("input.doc"))
         {
-            // Remove all mentions of any people contributed in file creation
-            // Remove a custom property with the specified name 
+            // Удалите все упоминания всех людей, участвовавших в создании файла
+            // Удалить настраиваемое свойство с указанным именем 
             int affected = metadata.removeProperties(new FallsIntoCategorySpecification(Tags.getPerson()).or(new WithNameSpecification("CustomProperty")));
             System.out.println(String.format("Affected properties: %s", affected));
             metadata.save("output.heic");
@@ -97,10 +97,10 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Live Demos to Remove Metadata"
+    title: "Живые демонстрации для удаления метаданных"
     content: |
-       Remove metadata information of HEIC file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.
-       The live demo has the following benefits.
+       Удалите метаданные файла HEIC прямо сейчас, посетив веб-сайт [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family).
+       Живая демонстрация имеет следующие преимущества.
         
 ############################# About Formats ############################
 about_formats:
@@ -109,9 +109,9 @@ about_formats:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Removing Metadata Of Other File Formats"
+    title: "Удаление метаданных других форматов файлов"
     content: |
-        Multi format documents and images metadata removing API for Java. Retrieve metadata of some of the popular file formats as stated below.
+        API удаления метаданных многоформатных документов и изображений для Java. Извлеките метаданные некоторых популярных форматов файлов, как указано ниже.
 
 ############################# Back to top ###############################
 back_to_top:

@@ -1,23 +1,23 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-metadata"
-date: 2023-06-14T09:37:39
+date: 2024-03-10T13:38:37
 draft: false
 otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm djvu dicom dcm bmp avi asf mkv one otc djvu
 
 ############################# Head ############################
-head_title: "Read & Extract Metadata of DOC Files in Java Java Applications"
-head_description: "Cross platform Java Java metadata menagement API to read and extract metadata information of DOC files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Baca & Ekstrak Metadata dari DOC File di Java Aplikasi"
+head_description: "API manajemen metadata lintas platform Java untuk membaca dan mengekstrak informasi metadata dari DOC file. Bekerja dengan standar metadata XMP, EXIF, IPTC, ID3 dll."
 
 ############################# Header ############################
-title: "Extract Metadata From DOC File In Java"
-description: "Read & Extract metadata information from a wide range of documents, images, audio & video formats using GroupDocs.Metadata for Java"
+title: "Ekstrak Metadata Dari File DOC Di Java"
+description: "Baca & Ekstrak informasi metadata dari berbagai dokumen, gambar, format audio & video menggunakan GroupDocs.Metadata for Java"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
+    label: "Unduh Uji Coba Gratis"
     link: "https://downloads.groupdocs.com/metadata/java"
 
 ############################# SubMenu ############################
@@ -57,30 +57,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Metadata for Java API"
+    title: "Tentang GroupDocs.Metadata for Java API"
     content: |
-        [GroupDocs.Metadata for Java](/id/metadata/java/) offers an advanced set of metadata management and manipulation features, allowing developers to easily read, edit, remove, search, compare, replace and export metadata information from images and document formats without using any external software. Extract metadata details from PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats, and perform supported metadata operations with true flexibility.
+        [GroupDocs.Metadata for Java](/id/metadata/java/) menawarkan serangkaian fitur manajemen dan manipulasi metadata lanjutan, memungkinkan pengembang untuk dengan mudah membaca, mengedit, menghapus, mencari, membandingkan, mengganti, dan mengekspor informasi metadata dari gambar dan format dokumen tanpa menggunakan perangkat lunak eksternal apa pun. Ekstrak detail metadata dari format file PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Arsip dan Multimedia, dan lakukan operasi metadata yang didukung dengan fleksibilitas yang sesungguhnya.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for DOC Metadata Extraction in Java"
+    title_left: "Langkah-langkah untuk DOC Ekstraksi Metadata di Java"
     content_left: |
-        [GroupDocs.Metadata for Java](/id/metadata/java/) makes it easy for Java developers to extract to read and extract metadata information from DOC files from within their applications by implementing a few easy steps.
+        [GroupDocs.Metadata for Java](/id/metadata/java/) memudahkan pengembang Java untuk mengekstrak untuk membaca dan mengekstrak informasi metadata dari file DOC dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
         
-        * Load the DOC with an instance of Metadata class.
-        * Make up a predicate to examine all metadata properties.
-        * Pass the predicate to the FindProperties method.
-        * Iterate through the found properties.
+        * Muat DOC dengan instance kelas Metadata.
+        * Buat predikat untuk memeriksa semua properti metadata.
+        * Meneruskan predikat ke metode findProperties.
+        * Iterasi melalui properti yang ditemukan.
 
-    title_right: "System Requirements"
+    title_right: "Persyaratan Sistem"
     content_right: |
-        GroupDocs.Metadata for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
+        GroupDocs.Metadata for Java API didukung di semua platform utama dan sistem operasi. Sebelum menjalankan kode di bawah ini, pastikan bahwa Anda memiliki prasyarat berikut diinstal pada sistem Anda.
 
-        * Operating Systems: Microsoft Windows, Linux, MacOS
-        * Development Environments: NetBeans, IntelliJ IDEA, Eclipse
-        * Java Runtime Environment: J2SE 6.0 and above
-        * Download the latest version of GroupDocs.Metadata for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
+        * Sistem Operasi: Microsoft Windows, Linux, Mac OS
+        * Lingkungan Pengembangan: NetBeans, IntelliJ IDEA, Eclipse
+        * Java Lingkungan Runtime: J2SE 6.0 and above
+        * Unduh versi terbaru GroupDocs.Metadata for Java dari [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
          
     code: |
         ```java    
@@ -88,7 +88,7 @@ steps:
         {
             if (metadata.getFileFormat() != FileFormat.Unknown && !metadata.getDocumentInfo().isEncrypted())
             {
-                // Fetch all metadata properties that fall into a particular category
+                // Ambil semua properti metadata yang termasuk dalam kategori tertentu
                 IReadOnlyList properties = metadata.findProperties(new FallsIntoCategorySpecification(Tags.getContent()));
                 System.out.println("The metadata properties describing some characteristics of the file content: title, keywords, language, etc.");
                 for (MetadataProperty property : properties) 
@@ -102,10 +102,10 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Metadata Extraction Live Demos"
+    title: "Demo Langsung Ekstraksi Metadata"
     content: |
-       Retrieve metadata information of DOC file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.
-       The live demo has the following benefits.
+       Ambil informasi metadata file DOC sekarang dengan mengunjungi situs web [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family).
+       Demo langsung memiliki manfaat sebagai berikut.
         
 ############################# About Formats ############################
 about_formats:
@@ -114,9 +114,9 @@ about_formats:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Reading & Extracting Other File Formats"
+    title: "Membaca & Mengekstrak Format File Lainnya"
     content: |
-        Multi format documents and images metadata extraction API for Java. Retrieve metadata of some of the popular file formats as stated below.
+        Dokumen multi format dan API ekstraksi metadata gambar untuk Java. Ambil metadata dari beberapa format file populer seperti yang dinyatakan di bawah ini.
 
 ############################# Back to top ###############################
 back_to_top:

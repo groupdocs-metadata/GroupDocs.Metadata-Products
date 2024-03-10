@@ -1,0 +1,47 @@
+{
+  "head": {
+    "title": "Tambahkan Metadata ke {{EXT}} File di {{ProgLang}} Aplikasi",
+    "description": "{{ProgLang}} API pemrosesan metadata untuk menambahkan informasi metadata ke file {{EXT}}. Bekerja dengan standar metadata XMP, EXIF, IPTC, ID3 dll."
+  },
+  "header": {
+    "title": "Menambahkan Metadata Ke {{EXT}} Di {{ProgLang}}",
+    "description": "Tambahkan properti metadata kustom ke berbagai dokumen bisnis, gambar, format file audio & video menggunakan {{ProductFullName}}.",
+    "button_label": "Unduh Uji Coba Gratis"
+  },
+  "about": {
+    "title": "Tentang {{ProductFullName}} API",
+    "h1": "[{{ProductFullName}}]({{slash_lang}}/metadata/{{ProductCode}}/) adalah solusi manajemen dan manipulasi bidang metadata lanjutan untuk dengan mudah melihat, memperbarui, menghapus, menemukan, membandingkan, menukar, dan mengekspor informasi metadata dari gambar dan format dokumen tanpa menggunakan perangkat lunak eksternal apa pun. Tambahkan detail metadata ke Word dokumen, Excel spreadsheet, PowerPoint presentasi, Outlook email, OneNote, Visio, Project, PDF, AutoCAD, ZIP, Audio dan Video serta dukungan untuk bekerja dengan banyak fitur pemrosesan metadata lainnya."
+  },
+  "steps": {
+    "title_left": "Langkah-langkah untuk menambahkan Metadata ke {{EXT}} di {{ProgLang}}",
+    "content_left": {
+      "description": "[{{ProductFullName}}]({{slash_lang}}/metadata/{{ProductCode}}/) memudahkan pengembang {{ProductName}} untuk menambahkan detail metadata ke file {{EXT}} dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.",
+      "step_1": "Muat {{EXT}} dengan instance kelas Metadata.",
+      "step_2": "Gunakan metode Metadata.addProperties untuk menambahkan properti.",
+      "step_3": "Gunakan predikat untuk menemukan properti metadata yang diinginkan.",
+      "step_4": "Simpan perubahan kembali dalam format {{EXT}}."
+    },
+    "title_right": "Persyaratan Sistem",
+    "content_right": {
+      "description": "{{ProductFullName}} API didukung pada semua platform utama dan sistem operasi. Sebelum mengeksekusi kode di bawah ini, pastikan bahwa Anda memiliki prasyarat berikut diinstal pada sistem Anda.",
+      "step_1": "Sistem Operasi: Microsoft Windows, Linux, Mac OS",
+      "step_2": "Lingkungan Pengembangan: {{DevEnv}}",
+      "step_3": "Java Lingkungan Runtime",
+      "step_4": "Dapatkan versi terbaru {{ProductFullName}} dari [{{RepoName}}]({{RepoUrl}})"
+    },
+    "title_code": "Cara menambahkan file Metaddata {{EXT}} menggunakan kode contoh {{ProgLang}}",
+    "code": {
+      "load_commnet": "memuat file dalam contoh kelas Metadata",
+      "add_comment": "menambahkan properti yang berisi penulis konten"
+    }
+  },
+  "demos": {
+    "title": "Demo Langsung untuk Menambahkan Metadata",
+    "h1": "Tambahkan informasi metadata ke file {{EXT}} sekarang juga dengan mengunjungi situs web [GroupDocs.Metadata Demo Langsung](https://products.groupdocs.app/metadata/family).",
+    "h2": "Demo langsung memiliki manfaat sebagai berikut."
+  },
+  "more_formats": {
+    "title": "Menambahkan Properti Metadata Ke Format File Lainnya",
+    "content": "Multi format dokumen dan gambar penambahan metadata API untuk {{ProductName}}. Ambil metadata dari beberapa format file populer seperti yang dinyatakan di bawah ini."
+  }
+}

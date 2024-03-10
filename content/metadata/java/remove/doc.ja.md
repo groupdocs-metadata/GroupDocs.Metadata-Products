@@ -1,23 +1,23 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-metadata"
-date: 2023-06-14T09:37:51
+date: 2024-03-10T13:38:41
 draft: false
 otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm djvu dicom dcm bmp avi asf mkv one otc djvu
 
 ############################# Head ############################
-head_title: "Remove Metadata Properties of DOC Files in Java"
-head_description: "Cross platform Java metadata API to hide and remove metadata fields of DOC files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc. "
+head_title: "Java 内の DOC ファイルのメタデータプロパティを削除"
+head_description: "DOC ファイルのメタデータフィールドを非表示にしたり削除したりするためのクロスプラットフォーム Java メタデータAPI。メタデータ規格 XMP、EXIF、IPTC、ID3 などと連携してください。 "
 
 ############################# Header ############################
-title: "Remove DOC Metadata In Java"
-description: "Remove metadata properties from DOC and many other popular documents, images and multimedia file formats using GroupDocs.Metadata for Java API."
+title: "Java の DOC メタデータを削除します"
+description: "GroupDocs.Metadata for Java APIを使用して、DOC や他の多くの一般的な文書、画像、マルチメディアファイル形式からメタデータプロパティを削除します。"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
+    label: "無料試用版をダウンロード"
     link: "https://downloads.groupdocs.com/metadata/java"
 
 ############################# SubMenu ############################
@@ -57,37 +57,37 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Metadata for Java API"
+    title: "GroupDocs.Metadata for Java API について"
     content: |
-        [GroupDocs.Metadata for Java](/ja/metadata/java/) is an advanced metadata fields manipulation solution to easily read, add, update, delete, find, compare, exchange and export metadata information from images and document formats without using any external software. Remove metadata details from Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
+        [GroupDocs.Metadata for Java](/ja/metadata/java/) は、外部ソフトウェアを使用せずに、画像やドキュメント形式からメタデータ情報を簡単に読み取り、追加、更新、削除、検索、比較、交換、エクスポートできる高度なメタデータフィールド操作ソリューションです。Word ドキュメント、Excel スプレッドシート、PowerPoint プレゼンテーション、Outlook 電子メール、OneNote、Visio、Project、PDF、AutoCAD、Zip、Audio、Video ファイル形式からメタデータの詳細を削除し、他の多くのメタデータ処理機能との連携もサポートします。
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Removing  Metadata to DOC in Java"
+    title_left: "Java の DOC からメタデータを削除する手順"
     content_left: |
-        [GroupDocs.Metadata for Java](/ja/metadata/java/) makes it easy for Java developers to delete metadata information from DOC files from within their applications by implementing a few easy steps.
+        [GroupDocs.Metadata for Java](/ja/metadata/java/) を使用すると、Java 開発者はいくつかの簡単な手順を実行することで、アプリケーション内から DOC ファイルからメタデータ情報を簡単に削除できます。
         
-        * Load the DOC file to be updated.
-        * Pass a search predicate to the RemoveProperties method.
-        * Check the number of properties that were actually removed.
-        * Save the changes.
+        * 更新する DOC ファイルをロードします。
+        * 検索述語を removeProperties メソッドに渡します。
+        * 実際に削除されたプロパティの数を確認してください。
+        * 変更を保存します。
 
-    title_right: "System Requirements"
+    title_right: "システム要件"
     content_right: |
-        GroupDocs.Metadata for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
+        GroupDocs.Metadata for Java 個のAPIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、以下の前提条件がシステムにインストールされていることを確認してください。
 
-        * Operating Systems: Microsoft Windows, Linux, MacOS
-        * Development Environments: NetBeans, IntelliJ IDEA, Eclipse
-        * Java Runtime Environments: J2SE 6.0 and above
-        * Get the latest version of  GroupDocs.Metadata for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
+        * オペレーティングシステム:マイクロソフト Windows、Linux、Mac OS
+        * 開発環境:NetBeans, IntelliJ IDEA, Eclipse
+        * Java ランタイム環境: J2SE 6.0 and above
+        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata) から GroupDocs.Metadata for Java の最新バージョンを入手してください
          
     code: |
         ```java    
         try (Metadata metadata = new Metadata("input.doc"))
         {
-            // Remove all mentions of any people contributed in file creation
-            // Remove a custom property with the specified name 
+            // ファイル作成に貢献したすべてのユーザーのメンションをすべて削除する
+            // 指定した名前のカスタムプロパティを削除する 
             int affected = metadata.removeProperties(new FallsIntoCategorySpecification(Tags.getPerson()).or(new WithNameSpecification("CustomProperty")));
             System.out.println(String.format("Affected properties: %s", affected));
             metadata.save("output.doc");
@@ -97,10 +97,10 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Live Demos to Remove Metadata"
+    title: "メタデータを削除するライブデモ"
     content: |
-       Remove metadata information of DOC file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.
-       The live demo has the following benefits.
+       [GroupDocs.Metadata ライブデモ](https://products.groupdocs.app/metadata/family) ウェブサイトにアクセスして、DOC ファイルのメタデータ情報を今すぐ削除してください。
+       ライブデモには次の利点があります。
         
 ############################# About Formats ############################
 about_formats:
@@ -109,9 +109,9 @@ about_formats:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Removing Metadata Of Other File Formats"
+    title: "他のファイル形式のメタデータの削除"
     content: |
-        Multi format documents and images metadata removing API for Java. Retrieve metadata of some of the popular file formats as stated below.
+        Java のマルチフォーマットドキュメントと画像メタデータを削除する API。以下に示すように、一般的なファイル形式のメタデータを取得します。
 
 ############################# Back to top ###############################
 back_to_top:

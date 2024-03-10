@@ -1,23 +1,23 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-metadata"
-date: 2023-06-14T09:37:28
+date: 2024-03-10T13:38:33
 draft: false
 otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
 ############################# Head ############################
-head_title: "Edit Metadata to MPP Files in Java Java Applications"
-head_description: "Java Java metadata processing API to edit metadata information to MPP files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Java アプリケーションの MPP ファイルへのメタデータの編集"
+head_description: "Java メタデータ処理APIを使用してメタデータ情報を MPP ファイルに編集します。メタデータ規格 XMP、EXIF、IPTC、ID3 などと連携してください。"
 
 ############################# Header ############################
-title: "Update Metadata From MPP File In Java"
-description: "Metadata Editor for Java applications – Change metadata fields from all popular documents, images and multimedia file formats using metadata editor API for Java."
+title: "Java 内の MPP ファイルからメタデータを更新"
+description: "Java アプリケーション用のメタデータエディター — Java のメタデータエディター API を使用して、すべての一般的なドキュメント、画像、マルチメディアファイル形式のメタデータフィールドを変更します。"
 bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
 bg_overlay: false
 button:
     enable: true
     icon: "fas fa-arrow-down"
-    label: "Download Free Trial"
+    label: "無料試用版をダウンロード"
     link: "https://downloads.groupdocs.com/metadata/java"
 
 ############################# SubMenu ############################
@@ -57,30 +57,30 @@ submenu:
 ############################# About ############################
 about:
     enable: true
-    title: "About GroupDocs.Metadata for Java API"
+    title: "GroupDocs.Metadata for Java API について"
     content: |
-        [GroupDocs.Metadata for Java](/ja/metadata/java/) is an advanced metadata fields manipulation solution to easily read, add, modify, delete, search, compare, replace and export metadata information from images and document formats without using any external software. Edit metadata details from Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
+        [GroupDocs.Metadata for Java](/ja/metadata/java/) は、外部ソフトウェアを使用せずに、画像やドキュメント形式からメタデータ情報を簡単に読み取り、追加、変更、削除、検索、比較、置換、エクスポートできる高度なメタデータフィールド操作ソリューションです。Word ドキュメント、Excel スプレッドシート、PowerPoint プレゼンテーション、Outlook 電子メール、OneNote、Visio、Project、PDF、AutoCAD、Zip、Audio、Video ファイル形式のメタデータの詳細を編集できます。また、他の多くのメタデータ処理機能との連携もサポートされています。
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Steps for Updating Metadata to MPP in Java"
+    title_left: "Java のメタデータを MPP に更新する手順"
     content_left: |
-        [GroupDocs.Metadata for Java](/ja/metadata/java/) makes it easy for Java developers to edit metadata details to MPP files from within their applications by implementing a few easy steps.
+        [GroupDocs.Metadata for Java](/ja/metadata/java/) を使用すると、Java 開発者は、いくつかの簡単な手順を実行することで、アプリケーション内からメタデータの詳細を MPP ファイルに簡単に編集できます。
         
-        * Load the MPP file to be updated
-        * Specify a predicate that will be used to filter desired metadata properties.
-        * Pass the predicate and the new value to the UpdateProperties method.
-        * Save the changes.
+        * 更新する MPP ファイルをロードしてください
+        * 必要なメタデータプロパティをフィルタリングするために使用する述語を指定します。
+        * 述語と新しい値を updateProperties メソッドに渡します。
+        * 変更を保存します。
 
-    title_right: "System Requirements"
+    title_right: "システム要件"
     content_right: |
-        GroupDocs.Metadata for Java APIs are supported on all major platforms and operating systems. Before executing the code below, please make sure that you have the following prerequisites installed on your system.
+        GroupDocs.Metadata for Java 個のAPIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、以下の前提条件がシステムにインストールされていることを確認してください。
 
-        * Operating Systems: Microsoft Windows, Linux, MacOS
-        * Development Environments: NetBeans, IntelliJ IDEA, Eclipse
-        * Java Runtime Environments: J2SE 6.0 and above
-        * Get the latest version of  GroupDocs.Metadata for Java from [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
+        * オペレーティングシステム:マイクロソフト Windows、Linux、Mac OS
+        * 開発環境:NetBeans, IntelliJ IDEA, Eclipse
+        * Java ランタイム環境: J2SE 6.0 and above
+        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata) から GroupDocs.Metadata for Java の最新バージョンを入手してください
          
     code: |
         ```java    
@@ -91,7 +91,7 @@ steps:
             Date threeDaysAgo = new Date(System.currentTimeMillis() - TimeUnit.DAYS.toMillis(3));
             try (Metadata metadata = new Metadata("input.mpp"))
             {
-                // Update the file creation date/time if the existing value is older than 3 days
+                // 既存の値が 3 日より古い場合は、ファイルの作成日時を更新してください
                 int affected = metadata.updateProperties(new ContainsTagSpecification(Tags.getTime().getCreated()).and(
                         new OfTypeSpecification(MetadataPropertyType.DateTime)).and(
                         new UpdatingMetadata().new DateBeforeSpecification(threeDaysAgo)), new PropertyValue(new Date()));
@@ -102,7 +102,7 @@ steps:
             }
           }
 
-          // Define your own specifications to filter metadata properties
+          // 独自の仕様を定義してメタデータのプロパティをフィルタリングする
           public class DateBeforeSpecification extends Specification
           {
             public DateBeforeSpecification(Date date)
@@ -138,10 +138,10 @@ steps:
 ############################# Demos ############################
 demos:
     enable: true
-    title: "Live Demos of Editing Metadata"
+    title: "メタデータ編集のライブデモ"
     content: |
-       Update metadata information to MPP file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website.
-       The live demo has the following benefits.
+       [GroupDocs.Metadata ライブデモ](https://products.groupdocs.app/metadata/family) ウェブサイトにアクセスして、メタデータ情報を MPP ファイルに今すぐ更新してください。
+       ライブデモには次の利点があります。
         
 ############################# About Formats ############################
 about_formats:
@@ -150,9 +150,9 @@ about_formats:
 ############################# More Formats ############################
 more_formats:
     enable: true
-    title: "Changing Metadata Of Other File Formats"
+    title: "他のファイル形式のメタデータの変更"
     content: |
-        Multi format documents and images metadata editing API for Java. Retrieve metadata of some of the popular file formats as stated below.
+        Java 用のマルチフォーマット文書および画像メタデータ編集 API。以下に示すように、一般的なファイル形式のメタデータを取得します。
 
 ############################# Back to top ###############################
 back_to_top:

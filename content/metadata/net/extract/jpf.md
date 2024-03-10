@@ -1,13 +1,13 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-metadata"
-date: 2023-06-14T09:37:36
+date: 2024-03-10T13:38:34
 draft: false
 otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
 ############################# Head ############################
-head_title: "Read & Extract Metadata of JPF Files in C# .NET Applications"
-head_description: "Cross platform C# .NET metadata menagement API to read and extract metadata information of JPF files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Read & Extract Metadata of JPF Files in C# Applications"
+head_description: "Cross platform C# metadata menagement API to read and extract metadata information of JPF files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
 ############################# Header ############################
 title: "Extract Metadata From JPF File In C#"

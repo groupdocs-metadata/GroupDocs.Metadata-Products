@@ -1,13 +1,13 @@
 ---
 ############################# Static ############################
 layout: "auto-gen-metadata"
-date: 2023-06-14T09:37:25
+date: 2024-03-10T13:38:31
 draft: false
 otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
 
 ############################# Head ############################
-head_title: "Edit Metadata to HEIC Files in Java Java Applications"
-head_description: "Java Java metadata processing API to edit metadata information to HEIC files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Edit Metadata to HEIC Files in Java Applications"
+head_description: "Java metadata processing API to edit metadata information to HEIC files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
 ############################# Header ############################
 title: "Update Metadata From HEIC File In Java"
