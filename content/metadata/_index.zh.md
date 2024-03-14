@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2023-07-31T12:04:41
+date: 2024-03-14T18:19:53
 draft: false
 
 ############################# Head ############################
@@ -37,6 +37,14 @@ apis:
           product: "GroupDocs.Metadata for"
           platform: "Java"
           content: "用于编辑和操作文档、图像、视频文件和各种其他文件格式的元数据的 Java API。"
+
+        # api_product loop
+        - link: "/metadata/nodejs-java/"
+          img_alt: "GroupDocs.Metadata for Node.js via Java"
+          image: "/border/groupdocs-metadata-nodejs-java.svg"
+          product: "GroupDocs.Metadata for"
+          platform: "Node.js"
+          content: "{apis.highcode.nodejs-java.content}"
 
     # api loop
     - title: "GroupDocs.Metadata 低代码 API 包括"

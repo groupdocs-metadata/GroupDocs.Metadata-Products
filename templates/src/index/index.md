@@ -40,6 +40,14 @@ apis:
           platform: "Java"
           content: "<% "{apis.highcode.java.content}" %>"
 
+        # api_product loop
+        - link: "/metadata/nodejs-java/"
+          img_alt: "GroupDocs.Metadata for Node.js via Java"
+          image: "/border/groupdocs-metadata-nodejs-java.svg"
+          product: "GroupDocs.Metadata for"
+          platform: "Node.js"
+          content: "<% "{apis.highcode.nodejs-java.content}" %>"
+
     # api loop
     - title: "<% "{apis.lowcode.title}" %>"
       link: "https://products.groupdocs.cloud/metadata"

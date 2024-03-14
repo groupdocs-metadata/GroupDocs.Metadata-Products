@@ -6,16 +6,16 @@ draft: false
 
 product: "Metadata"
 product_tag: "metadata"
-platform: "Java"
-platform_tag: "java"
+platform: "Node.js via Java"
+platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Java Metadata API – View, Read, Export, Edit, Remove Document Metadata"
-head_description: "Java metadata API to view, read, edit, analyze, find, delete, compare & export metadata of PDF Word Excel PPTX Outlook Visio Audio Video & Image documents."
+head_title: "Node.js Library to Manipulate File Metadata"
+head_description: "Enhance Node.js applications by analyzing, comparing, editing, removing, and exporting metadata of popular file formats, like PDF, Word, Excel etc."
 
 ############################# Header ############################
-title: "Metadata Manipulation API for Java"
-description: "Develop Java Applications to Create, View, Access, Update, Delete, Search, Compare, Replace & Export Metadata of Popular Documents & Image Formats."
+title: "Documents Metadata Management Node.js"
+description: "Manage metadata in popular document and image formats using Node.js."
 button:
     enable: true
 
@@ -24,10 +24,10 @@ submenu:
     enable: true
     
     left:
-        img_alt: "GroupDocs.Metadata for Java"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-metadata-java.png"
+        img_alt: "GroupDocs.Metadata for .NET"
+        image: "/border/groupdocs-metadata-nodejs-java.svg"
         product: "GroupDocs.Metadata"
-        platform: "Java"
+        platform: ".NET"
         
     middle:
         button:
@@ -60,18 +60,18 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Metadata for Java is an advanced metadata management API to manipulate metadata information of documents, images, archives, torrents and various other file formats. Developers can now enhance the functionality of their Java applications by easily incorporating metadata viewing, modifying, deleting, extracting, searching, comparing, replacing and exporting features within all popular business document formats such as PDF, Microsoft Office Word, Excel spreadsheets, PowerPoint presentations & slides, Outlook emails, Project, Visio diagrams, OneNote, images, AutoCAD, Photoshop, audio, video, OpenType fonts and metafiles.  
+      GroupDocs.Metadata for Node.js is an advanced library that empowers you to manage metadata within various file formats. Integrate metadata viewing, editing, deletion, searching, comparison, replacement, and export functionalities into your Node.js applications. Supported formats include popular business documents like PDF, Microsoft Office (Word, Excel, PowerPoint), Outlook emails, Project, Visio diagrams, OneNote, images (including PSD, CAD), audio, video, OpenType fonts, and metafiles.  
 
-      The Java metadata library offers you features such as metadata search, replace metadata properties, compare metadata of supported file formats to identify similarities as well as differences. You can also edit or modify metadata for better information management and export retrieved metadata information to Excel file, CSV file and DataSet. The API offers comprehensive support to work with all commonly used metadata standards like built-in, XMP, EXIF and custom metadata properties within supported document formats.
+      This library offers comprehensive features like metadata search, replacement, property comparison, and information extraction. You can export retrieved metadata to Excel, CSV, or DataSet formats. It supports commonly used metadata standards like built-in, XMP, EXIF, and custom properties within supported document formats.
 
-      GroupDocs.Metadata for Java is compatible with all Java versions and supports popular operating systems (Windows, Linux, MacOS) that are capable to run Java runtime.
+      GroupDocs.Metadata for Node.js is compatible with all Node.js versions and runs seamlessly on popular operating systems (Windows, Linux, macOS) that support Node.js runtime.
     tabs:
       enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
-          Following is an overview of GroupDocs.Metadata for Java:
+          Node.js Metadata Management Capabilities:
       
         left:
           enable: true
@@ -100,7 +100,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Metadata for Java supports following [document file formats](https://docs.groupdocs.com/metadata/java/supported-document-formats/):
+          GroupDocs.Metadata for Node.js Supported Formats: [document file formats](https://docs.groupdocs.com/metadata/java/supported-document-formats/):
 
         left:
           enable: true
@@ -138,7 +138,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Metadata for Java supports following Operating Systems, Frameworks & Package Managers:
+          GroupDocs.Metadata for Node.js Supported Operating Systems, Frameworks, and Package Managers:
         
         left:
           enable: true
@@ -156,153 +156,155 @@ overview:
             - icon: "fas fa-code"
               title: "Supported Frameworks"
               content: |
-                * Java 7 (1.7) and above
-
+                * Node.js 16+ and J2SE 8.0 (1.8)+
         right:
           enable: true
           table:
             # table loop
-            - icon: "fas fa-cogs"
+            - icon: "fas fa-box"
               title: "Development Environments"
               content: |
-                * NetBeans
-                * IntelliJ IDEA
-                * Eclipse
+                * Atom
+                * Visual Studio Code
+                * Any other text editor
             # table loop
             - icon: "fas fa-tools"
               title: "Build Automation Tool"
               content: |
-                * Maven
+                * NPM
 
 ############################# Features ############################
 features:
     enable: true
-    title: "GroupDocs.Metadata for Java Features"
+    title: "GroupDocs.Metadata for Node.js Features"
 
     feature:
       # feature loop
       - icon: "fas fa-copy"
-        content: "Manipulate Built-in & Custom Metadata and Fetch Metadata of Torrents & Archive Formats"
+        content: "Leverage extensive capabilities to manipulate built-in and custom metadata"
        
       # feature loop
       - icon: "fas fa-eye"
-        content: "Access & Delete Hidden Data in Microsoft Word, Excel, PowerPoint & PDF"
+        content: "Gain access to and delete hidden data embedded in PDF, MS Word, Excel, PowerPoint..."
 
       # feature loop
       - icon: "fas fa-bolt"
-        content: "Detect Document File Type at Run-time"
+        content: "Dynamically detect the file type at runtime using Node.js."
       
       # feature loop
       - icon: "fas fa-file-powerpoint"
-        content: "Identify/Delete Digital Signatures in Word, Excel, PDF"
+        content: "Identify and remove digital signatures present in PDFs and Office documents."
 
       # feature loop
       - icon: "fas fa-code"
-        content: "Detect Document Password Protection in Word, Excel, PowerPoint and PDF"
+        content: "Detect password protection applied to PDF and MS Word, Excel, PowerPoint documents."
 
       # feature loop
       - icon: "fas fa-cloud"
-        content: "Fetch Thumbnails and Image Previews of Supported Formats & Matroska Multimedia Container Support"
+        content: "Retrieve thumbnails and image previews for supported file formats & Matroska Multimedia Container Support"
 
       # feature loop
       - icon: "fas fa-remove-format"
-        content: "Extract Text Metadata from PNG Image files"
+        content: "Extract text metadata directly from PNG image files using Node.js"
 
       # feature loop
       - icon: "fas fa-comment-slash"
-        content: "Supports Enumeration of any Metadata Type & Read Metadata of OpenType Font Files"
+        content: "Enumerate any metadata type and control metadata of OpenType font files"
 
       # feature loop
       - icon: "fas fa-location-arrow"
-        content: "Read Metadata Property using Defined Key for any Supported Format"
+        content: "Analyze specific metadata properties using defined keys for any supported format"
 
       # feature loop
       - icon: "fas fa-border-all"
-        content: "Get/Delete Metadata of Email Messages & Remove Attachments"
+        content: "Manipulate metadata and attachments in email messages"
 
       # feature loop
       - icon: "fas fa-wrench"
-        content: "Read Matroska subtitles and retrieve Metadata of Audio & Video Files"
+        content: "Access Matroska subtitles and metadata in audio and video files"
 
       # feature loop
       - icon: "fas fa-columns"
-        content: "Generate Image Previews for EPUB, CAD, EML & MSG Files"
+        content: "Generate Image Previews for MSG, CAD, EML or EPUB files"
 
       # feature loop
       - icon: "fas fa-file-word"
-        content: "Identify Difference or Similarities in Metadata of Supported Formats by Comparison"
+        content: "Compare and analyze any alterations in metadata in supported file formats"
 
       # feature loop
       - icon: "fas fa-envelope"
-        content: "Search Properties of Document, EXIF, & XMP Metadata"
+        content: "Collect document metadata properties like EXIF or XMP"
 
       # feature loop
       - icon: "fas fa-print"
-        content: "Replace Metadata Properties of Word, Excel, PowerPoint and PDF"
+        content: "Manipulate metadata in PDF, Word, Excel, PowerPoint, and other formats"
 
       # feature loop
       - icon: "fas fa-file-archive"
-        content: "Export Metadata of Supported File Formats to Excel, CSV or DataSet"
+        content: "Save metadata from supported files to Excel, CSV or DataSet output"
 
       # feature loop
       - icon: "fas fa-lock"
-        content: "Add or Update XMP and EXIF Metadata Properties of Arbitrary Types using the Search API"
+        content: "Use Search API to add or update XMP and EXIF metadata properties"
 
       # feature loop
       - icon: "fas fa-file-code"
-        content: "Manipulate Image Metadata Properties & Delete Photo Location Information"
+        content: "Control metadata in images including photo location information"
 
       # feature loop
       - icon: "fas fa-fill-drip"
-        content: "Delete Metadata & Comments from Reports and Documents"
+        content: "Clear business reports and documents from any metadata and comments"
         
       # feature loop
       - icon: "fas fa-file-excel"
-        content: "Metadata Extraction from Microsoft Excel Files Starting from Excel 95"
+        content: "Get metadata from Microsoft Excel Spreadsheets starting from Excel 95"
 
       # feature loop
       - icon: "fas fa-heading"
-        content: "Reducing Memory Consumption of PDF, Excel & Image Formats"
+        content: "Make your PDF, Excel & Image Formats less memory demanding"
 
       # feature loop
       - icon: "fas fa-project-diagram"
-        content: "Update EXIF Metadata Properties in WEBP, PNG & PSD Files"
+        content: "Correct content of EXIF Metadata in WEBP, PNG or PSD"
 
       # feature loop
       - icon: "fas fa-cube"
-        content: "Extract XMP Metadata Properties in MOV, MP3 & WEBP Files"
+        content: "Get XMP Metadata nodes from MOV, MP3 & WEBP Files"
 
       # feature loop
-      - icon: "fas fa-envelope"
-        content: "Add, Update and Delete IPTC Metadata Packages in TIFF Images"
+      - icon: "fab fa-uncharted"
+        content: "Manipulate IPTC Metadata Packages in TIFF Images"
 
       # feature loop
       - icon: "fas fa-project-diagram"
-        content: "Add, Update & Remove EXIF Metadata Packages in JPEG2000 Images"
+        content: "Add, Update or Remove EXIF data in JPEG2000 Images"
 
       # feature loop
       - icon: "fas fa-cube"
-        content: "Read EXIF Tags & XMP Metadata Properties from HEIC/HEIF Image Formats"
+        content: "Control EXIF tags & XMP metadata for HEIC/HEIF images"
 
       # feature loop
       - icon: "fas fa-lock"
-        content: "Read Metadata from Encrypted Microsoft Project Files"
+        content: "Get all metadata hidden in Encrypted Microsoft Project Files"
         
     more_feature:
       # more_feature_loop
-      - title: "Efficiently Fetch Metadata Properties"
+      - title: "Efficient Metadata Manipulation in Node.js"
         content: |
-          With GroupDocs.Metadata for Java API, Metadata Properties of supported file formats can be fetched pretty efficiently. The code to do so is quite simple and straight forward. Following is an example that shows how easy it is to fetch metadata properties of an MP3 file using Java:
-          ```java
-           try (Mp3Format mp3Format = new Mp3Format("D:\\sample.mp3")) 
-          {
-            System.out.printf("Album: %", mp3Format.getId3v1Properties().getAlbum());
-            System.out.printf("Title: %", mp3Format.getId3v2Properties().getTitle());
-          }
+          GroupDocs.Metadata provides a comprehensive Node.js library for streamlined management of metadata within various file formats. Retrieving, manipulating, and extracting metadata properties becomes effortless with the Node.js API. Here's an example demonstrating how to get metadata from an MP3 file using Node.js: (code example showcasing JavaScript syntax):
+          ```cs
+          const metadata = new groupdocs.metadata.Metadata("input.xlsx");
+
+            if (metadata.getFileFormat() != groupdocs.metadata.FileFormat.Unknown) {
+                var info = metadata.getDocumentInfo();
+                console.log(`File format: ${info.getFileType().getFileFormat()}`);
+                console.log(`MIME Type: ${info.getFileType().getMimeType()}`);
+            }
+
           ```      
       # more_feature_loop
-      - title: "Retrieve Hidden Data for Manipulation"
-        content: "GroupDocs.Metadata for Java provides you a comprehensive way to get and delete hidden data from Microsoft Word, Excel and PowerPoint files. You can also do the same for PDF documents. You can manipulate comments, merge fields, hidden pages, form fields, annotations and more."
+      - title: "Simplified Data Extraction with Node.js"
+        content: "The GroupDocs.Metadata for Node.js library empowers you to effortlessly retrieve specific hidden metadata. This simplifies metadata access and processing PDF, Microsoft Word, Excel and PowerPoint docs within your Node.js applications. Control content of comments, hidden pages, form fields, annotations etc."
 
 ############################# Support ############################
 support:
@@ -311,7 +313,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Metadata offers document viewing APIs for other popular development environments"
+    title: "GroupDocs.Metadata offers data processing APIs for other popular development environments"
 
     solution:
         # solution loop
@@ -322,11 +324,11 @@ solutions:
           link: "/metadata/net/"
 
         # solution loop
-        - img_alt: "GroupDocs.Metadata for Node.js"
-          image: "/border/groupdocs-metadata-nodejs-java.svg"
+        - img_alt: "GroupDocs.Metadata for Java"
+          image: "/border/groupdocs-metadata-java.svg"
           product: "GroupDocs.Metadata"
-          platform: "Node.js via Java"
-          link: "/metadata/nodejs-java/"
+          platform: "Java"
+          link: "/metadata/java/"
 
 ############################# Back to top ###############################
 back_to_top:

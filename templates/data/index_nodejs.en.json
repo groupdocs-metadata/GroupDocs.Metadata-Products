@@ -1,0 +1,195 @@
+{
+  "head": {
+    "title": "Node.js Library to Manipulate File Metadata",
+    "description": "Enhance Node.js applications by analyzing, comparing, editing, removing, and exporting metadata of popular file formats, like PDF, Word, Excel etc."
+  },
+  "header": {
+    "title": "Documents Metadata Management Node.js",
+    "description": "Manage metadata in popular document and image formats using Node.js."
+  },
+  "submenu":{
+    "middle": {
+      "overview": "Overview",           
+      "features": "Features",
+      "support": "Support",
+      "livedemo": "Live Demo",
+      "pricing": "Pricing"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Metadata for Node.js is an advanced library that empowers you to manage metadata within various file formats. Integrate metadata viewing, editing, deletion, searching, comparison, replacement, and export functionalities into your Node.js applications. Supported formats include popular business documents like PDF, Microsoft Office (Word, Excel, PowerPoint), Outlook emails, Project, Visio diagrams, OneNote, images (including PSD, CAD), audio, video, OpenType fonts, and metafiles.",
+      "paragraph_2": "This library offers comprehensive features like metadata search, replacement, property comparison, and information extraction. You can export retrieved metadata to Excel, CSV, or DataSet formats. It supports commonly used metadata standards like built-in, XMP, EXIF, and custom properties within supported document formats.",
+      "paragraph_3": "GroupDocs.Metadata for Node.js is compatible with all Node.js versions and runs seamlessly on popular operating systems (Windows, Linux, macOS) that support Node.js runtime."
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Node.js Metadata Management Capabilities:",
+      "left": {
+        "title": "Working with Images",
+        "content": {
+          "line_1": "XMP Metadata",
+          "line_2": "EXIF Metadata",
+          "line_3": "IPTC-IIM Metadata",
+          "line_4": "PSD Metadata",
+          "line_5": "CAD Metadata",
+          "line_6": "Parse Additional IFD Tags"
+        }
+      },
+      "right": {
+        "title": "Working with Audio & Video",
+        "content": {
+          "line_1": "Runtime MP3 Format Detection",
+          "line_2": "Read Lyrics3 Tag",
+          "line_3": "Read MPEG Audio Info",
+          "line_4": "Read AVI Header Info",
+          "line_5": "Read Matroska subtitles",
+          "line_6": "Export Data to Excel or CSV"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Metadata for Node.js Supported Formats:",
+      "formats_url_title": "document file formats",
+      "left": {
+        "title": "Microsoft Office"
+      },
+      "right": {
+        "title": "Other Formats",
+        "content": {
+          "line_5": "Audio",
+          "line_6": "Video",
+          "line_9": "Images",
+          "line_11": "OpenType Fonts",
+          "line_12": "Others"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Metadata for Node.js Supported Operating Systems, Frameworks, and Package Managers:",
+      "left": {
+        "title": "Operating Systems",
+        "content": {
+          "line_1": "Microsoft Windows Desktop",
+          "line_2": "Microsoft Windows Server",
+          "line_3": "Linux",
+          "line_4": "MacOS"
+        },
+        "title_2": "Supported Frameworks",
+        "content_2": {
+          "line_1": "Node.js 16+ and J2SE 8.0 (1.8)+"
+        }
+      },
+      "right": {
+        "title": "Development Environments",
+        "content": {
+          "line_1": "* Atom",
+          "line_2": "* Visual Studio Code",
+          "line_3": "* Any other text editor"
+        },
+        "title_2": "Build Automation Tool",
+        "content_2": {
+          "line_1": "* NPM"
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Metadata for Node.js Features",
+    "feature_1": {
+      "content": "Leverage extensive capabilities to manipulate built-in and custom metadata"
+    },
+    "feature_2": {
+      "content": "Gain access to and delete hidden data embedded in PDF, MS Word, Excel, PowerPoint..."
+    },
+    "feature_3": {
+      "content": "Dynamically detect the file type at runtime using Node.js."
+    },
+    "feature_4": {
+      "content": "Identify and remove digital signatures present in PDFs and Office documents."
+    },
+    "feature_5": {
+      "content": "Detect password protection applied to PDF and MS Word, Excel, PowerPoint documents."
+    },
+    "feature_6": {
+      "content": "Retrieve thumbnails and image previews for supported file formats & Matroska Multimedia Container Support"
+    },
+    "feature_7": {
+      "content": "Extract text metadata directly from PNG image files using Node.js"
+    },
+    "feature_8": {
+      "content": "Enumerate any metadata type and control metadata of OpenType font files"
+    },
+    "feature_9": {
+      "content": "Analyze specific metadata properties using defined keys for any supported format"
+    },
+    "feature_10": {
+      "content": "Manipulate metadata and attachments in email messages"
+    },
+    "feature_11": {
+      "content": "Access Matroska subtitles and metadata in audio and video files"
+    },
+    "feature_12": {
+      "content": "Generate Image Previews for MSG, CAD, EML or EPUB files"
+    },
+    "feature_13": {
+      "content": "Compare and analyze any alterations in metadata in supported file formats"
+    },
+    "feature_14": {
+      "content": "Collect document metadata properties like EXIF or XMP"
+    },
+    "feature_15": {
+      "content": "Manipulate metadata in PDF, Word, Excel, PowerPoint, and other formats"
+    },
+    "feature_16": {
+      "content": "Save metadata from supported files to Excel, CSV or DataSet output"
+    },
+    "feature_17": {
+      "content": "Use Search API to add or update XMP and EXIF metadata properties"
+    },
+    "feature_18": {
+      "content": "Control metadata in images including photo location information"
+    },
+    "feature_19": {
+      "content": "Clear business reports and documents from any metadata and comments"
+    },
+    "feature_20": {
+      "content": "Get metadata from Microsoft Excel Spreadsheets starting from Excel 95"
+    },
+    "feature_21": {
+      "content": "Make your PDF, Excel & Image Formats less memory demanding"
+    },
+    "feature_22": {
+      "content": "Correct content of EXIF Metadata in WEBP, PNG or PSD"
+    },
+    "feature_23": {
+      "content": "Get XMP Metadata nodes from MOV, MP3 & WEBP Files"
+    },
+    "feature_24": {
+      "content": "Manipulate IPTC Metadata Packages in TIFF Images"
+    },
+    "feature_25": {
+      "content": "Add, Update or Remove EXIF data in JPEG2000 Images"
+    },
+    "feature_26": {
+      "content": "Control EXIF tags & XMP metadata for HEIC/HEIF images"
+    },
+    "feature_27": {
+      "content": "Get all metadata hidden in Encrypted Microsoft Project Files"
+    }
+  },
+  "more_feature":{
+    "feature_1": {
+      "title": "Efficient Metadata Manipulation in Node.js",
+      "content": "GroupDocs.Metadata provides a comprehensive Node.js library for streamlined management of metadata within various file formats. Retrieving, manipulating, and extracting metadata properties becomes effortless with the Node.js API. Here's an example demonstrating how to get metadata from an MP3 file using Node.js: (code example showcasing JavaScript syntax):"
+    },
+    "feature_2": {
+      "title": "Simplified Data Extraction with Node.js",
+      "content": "The GroupDocs.Metadata for Node.js library empowers you to effortlessly retrieve specific hidden metadata. This simplifies metadata access and processing PDF, Microsoft Word, Excel and PowerPoint docs within your Node.js applications. Control content of comments, hidden pages, form fields, annotations etc."
+    }
+  },
+  "solutions":  { 
+    "title": "GroupDocs.Metadata offers data processing APIs for other popular development environments"
+  }
+}

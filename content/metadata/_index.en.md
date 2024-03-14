@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2023-07-31T12:04:41
+date: 2024-03-14T18:19:53
 draft: false
 
 ############################# Head ############################
@@ -37,6 +37,14 @@ apis:
           product: "GroupDocs.Metadata for"
           platform: "Java"
           content: "Java API to edit and manipulate metadata of documents, images, video files and various other file formats."
+
+        # api_product loop
+        - link: "/metadata/nodejs-java/"
+          img_alt: "GroupDocs.Metadata for Node.js via Java"
+          image: "/border/groupdocs-metadata-nodejs-java.svg"
+          product: "GroupDocs.Metadata for"
+          platform: "Node.js"
+          content: "Node.js via Java solution to control and manipulate various types of metadata in popular file formats like PDFs, Office documents, or images."
 
     # api loop
     - title: "GroupDocs.Metadata Low Code APIs Include"

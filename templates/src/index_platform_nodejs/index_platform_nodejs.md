@@ -1,4 +1,4 @@
-<% configRef "..\\..\\configs\\index_platform_net.yml" %>
+<% configRef "..\\..\\configs\\index_platform_nodejs.yml" %>
 ---
 ############################# Static ############################
 layout: "product"
@@ -7,8 +7,8 @@ draft: false
 
 product: "Metadata"
 product_tag: "metadata"
-platform: ".NET"
-platform_tag: "net"
+platform: "Node.js via Java"
+platform_tag: "nodejs-java"
 
 ############################# Head ############################
 head_title: "<% "{head.title}" %>"
@@ -26,7 +26,7 @@ submenu:
     
     left:
         img_alt: "GroupDocs.Metadata for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-metadata-net.png"
+        image: "/border/groupdocs-metadata-nodejs-java.svg"
         product: "GroupDocs.Metadata"
         platform: ".NET"
         
@@ -49,12 +49,12 @@ submenu:
               text: "<% "{submenu.middle.livedemo}" %>"
 
             # button loop
-            - link: "https://purchase.groupdocs.com/pricing/metadata/net"
+            - link: "https://purchase.groupdocs.com/pricing/metadata/java"
               text: "<% "{submenu.middle.pricing}" %>"
 
     right:
         link_download: "https://downloads.groupdocs.com/metadata"
-        link_learn: "https://docs.groupdocs.com/metadata/net/"
+        link_learn: "https://docs.groupdocs.com/metadata/java/"
         link_buy: "https://purchase.groupdocs.com"
 
 ############################# Overview ############################
@@ -101,7 +101,7 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          <% "{tabs.tab_two.description}" %> [<% "{tabs.tab_two.formats_url_title}" %>](https://docs.groupdocs.com/metadata/net/supported-document-formats/):
+          <% "{tabs.tab_two.description}" %> [<% "{tabs.tab_two.formats_url_title}" %>](https://docs.groupdocs.com/metadata/java/supported-document-formats/):
 
         left:
           enable: true
@@ -158,10 +158,6 @@ overview:
               title: "<% "{tabs.tab_three.left.title_2}" %>"
               content: |
                 * <% "{tabs.tab_three.left.content_2.line_1}" %>
-                * <% "{tabs.tab_three.left.content_2.line_2}" %>
-                * <% "{tabs.tab_three.left.content_2.line_3}" %>
-                * <% "{tabs.tab_three.left.content_2.line_4}" %>
-                * <% "{tabs.tab_three.left.content_2.line_5}" %>
         right:
           enable: true
           table:
@@ -170,16 +166,13 @@ overview:
               title: "<% "{tabs.tab_three.right.title}" %>"
               content: |
                 <% "{tabs.tab_three.right.content.line_1}" %>
-
+                <% "{tabs.tab_three.right.content.line_2}" %>
+                <% "{tabs.tab_three.right.content.line_3}" %>
             # table loop
             - icon: "fas fa-tools"
               title: "<% "{tabs.tab_three.right.title_2}" %>"
               content: |
                 <% "{tabs.tab_three.right.content_2.line_1}" %>
-                <% "{tabs.tab_three.right.content_2.line_2}" %>
-                <% "{tabs.tab_three.right.content_2.line_3}" %>
-                <% "{tabs.tab_three.right.content_2.line_4}" %>
-                <% "{tabs.tab_three.right.content_2.line_5}" %>
 
 ############################# Features ############################
 features:
@@ -283,6 +276,17 @@ features:
       - icon: "fab fa-uncharted"
         content: "<% "{features.feature_24.content}" %>"
 
+      # feature loop
+      - icon: "fas fa-project-diagram"
+        content: "<% "{features.feature_25.content}" %>"
+
+      # feature loop
+      - icon: "fas fa-cube"
+        content: "<% "{features.feature_26.content}" %>"
+
+      # feature loop
+      - icon: "fas fa-lock"
+        content: "<% "{features.feature_27.content}" %>"
         
     more_feature:
       # more_feature_loop
@@ -290,7 +294,7 @@ features:
         content: |
           <% "{more_feature.feature_1.content}" %>
           ```cs
-          <% include "_example_net.md" %>
+          <% include "_example_nodejs.md" %>
           ```      
       # more_feature_loop
       - title: "<% "{more_feature.feature_2.title}" %>"
@@ -307,18 +311,18 @@ solutions:
 
     solution:
         # solution loop
+        - img_alt: "GroupDocs.Metadata for .NET"
+          image: "/border/groupdocs-metadata-net.svg"
+          product: "GroupDocs.Metadata"
+          platform: ".NET"
+          link: "/metadata/net/"
+
+        # solution loop
         - img_alt: "GroupDocs.Metadata for Java"
           image: "/border/groupdocs-metadata-java.svg"
           product: "GroupDocs.Metadata"
           platform: "Java"
           link: "/metadata/java/"
-
-        # solution loop
-        - img_alt: "GroupDocs.Metadata for Node.js"
-          image: "/border/groupdocs-metadata-nodejs-java.svg"
-          product: "GroupDocs.Metadata"
-          platform: "Node.js via Java"
-          link: "/metadata/nodejs-java/"
 
 ############################# Back to top ###############################
 back_to_top:

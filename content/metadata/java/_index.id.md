@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2023-08-26T11:41:37
+date: 2024-03-14T18:19:54
 draft: false
 
 product: "Metadata"
@@ -316,10 +316,17 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Metadata for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-metadata-net.png"
+          image: "/border/groupdocs-metadata-net.svg"
           product: "GroupDocs.Metadata"
           platform: ".NET"
           link: "/metadata/net/"
+
+        # solution loop
+        - img_alt: "GroupDocs.Metadata for Node.js"
+          image: "/border/groupdocs-metadata-nodejs-java.svg"
+          product: "GroupDocs.Metadata"
+          platform: "Node.js via Java"
+          link: "/metadata/nodejs-java/"
 
 ############################# Back to top ###############################
 back_to_top:

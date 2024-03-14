@@ -313,10 +313,17 @@ solutions:
     solution:
         # solution loop
         - img_alt: "GroupDocs.Metadata for .NET"
-          image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-metadata-net.png"
+          image: "/border/groupdocs-metadata-net.svg"
           product: "GroupDocs.Metadata"
           platform: ".NET"
           link: "/metadata/net/"
+
+        # solution loop
+        - img_alt: "GroupDocs.Metadata for Node.js"
+          image: "/border/groupdocs-metadata-nodejs-java.svg"
+          product: "GroupDocs.Metadata"
+          platform: "Node.js via Java"
+          link: "/metadata/nodejs-java/"
 
 ############################# Back to top ###############################
 back_to_top:

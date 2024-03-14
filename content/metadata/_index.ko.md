@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2023-07-31T12:04:41
+date: 2024-03-14T18:19:53
 draft: false
 
 ############################# Head ############################
@@ -37,6 +37,14 @@ apis:
           product: "GroupDocs.Metadata for"
           platform: "Java"
           content: "Java 문서, 이미지, 비디오 파일 및 기타 다양한 파일 형식의 메타데이터를 편집하고 조작하는 API입니다."
+
+        # api_product loop
+        - link: "/metadata/nodejs-java/"
+          img_alt: "GroupDocs.Metadata for Node.js via Java"
+          image: "/border/groupdocs-metadata-nodejs-java.svg"
+          product: "GroupDocs.Metadata for"
+          platform: "Node.js"
+          content: "{apis.highcode.nodejs-java.content}"
 
     # api loop
     - title: "GroupDocs.Metadata Low Code API 포함"
