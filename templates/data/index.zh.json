@@ -16,6 +16,9 @@
       },
       "java": {
         "content": "用于编辑和操作文档、图像、视频文件和各种其他文件格式的元数据的 Java API。"
+      },
+      "nodejs-java": {
+        "content": "Node.js 通过 Java 解决方案来控制和操作流行文件格式（如 PDF、Office 文档或图像）中的各种类型的元数据。"
       }
     },
     "lowcode": {

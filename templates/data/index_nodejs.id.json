@@ -1,0 +1,195 @@
+{
+  "head": {
+    "title": "Perpustakaan Node.js untuk Memanipulasi Metadata File",
+    "description": "Tingkatkan aplikasi Node.js dengan menganalisis, membandingkan, mengedit, menghapus, dan mengekspor metadata format file populer, seperti PDF, Word, Excel, dll."
+  },
+  "header": {
+    "title": "Manajemen Metadata Dokumen Node.js",
+    "description": "Kelola metadata dalam format dokumen dan gambar populer menggunakan Node.js."
+  },
+  "submenu": {
+    "middle": {
+      "overview": "Ringkasan",
+      "features": "Fitur",
+      "support": "Mendukung",
+      "livedemo": "Demo Langsung",
+      "pricing": "Harga"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Metadata untuk Node.js adalah pustaka tingkat lanjut yang memberdayakan Anda untuk mengelola metadata dalam berbagai format file. Integrasikan fungsi melihat, mengedit, menghapus, mencari, membandingkan, mengganti, dan mengekspor metadata ke dalam aplikasi Node.js Anda. Format yang didukung mencakup dokumen bisnis populer seperti PDF, Microsoft Office (Word, Excel, PowerPoint), email Outlook, Project, diagram Visio, OneNote, gambar (termasuk PSD, CAD), audio, video, font OpenType, dan metafile.",
+      "paragraph_2": "Perpustakaan ini menawarkan fitur lengkap seperti pencarian metadata, penggantian, perbandingan properti, dan ekstraksi informasi. Anda dapat mengekspor metadata yang diambil ke format Excel, CSV, atau DataSet. Ini mendukung standar metadata yang umum digunakan seperti bawaan, XMP, EXIF, dan properti khusus dalam format dokumen yang didukung.",
+      "paragraph_3": "GroupDocs.Metadata untuk Node.js kompatibel dengan semua versi Node.js dan berjalan dengan lancar di sistem operasi populer (Windows, Linux, macOS) yang mendukung runtime Node.js."
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Kemampuan Manajemen Metadata Node.js:",
+      "left": {
+        "title": "Bekerja dengan Gambar",
+        "content": {
+          "line_1": "Metadata XMP",
+          "line_2": "Metadata EXIF",
+          "line_3": "Metadata IPTC-IIM",
+          "line_4": "Metadata PSD",
+          "line_5": "Metadata CAD",
+          "line_6": "Parsing Tag IFD Tambahan"
+        }
+      },
+      "right": {
+        "title": "Bekerja dengan Audio & Video",
+        "content": {
+          "line_1": "Deteksi Format MP3 Waktu Proses",
+          "line_2": "Baca Lirik3 Tag",
+          "line_3": "Baca Info Audio MPEG",
+          "line_4": "Baca Info Tajuk AVI",
+          "line_5": "Baca subtitle Matroska",
+          "line_6": "Ekspor Data ke Excel atau CSV"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Metadata untuk Format yang Didukung Node.js:",
+      "formats_url_title": "format file dokumen",
+      "left": {
+        "title": "Microsoft Office"
+      },
+      "right": {
+        "title": "Format Lainnya",
+        "content": {
+          "line_5": "Audio",
+          "line_6": "Video",
+          "line_9": "Gambar-gambar",
+          "line_11": "Font Tipe Terbuka",
+          "line_12": "Yang lain"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Metadata untuk Sistem Operasi, Kerangka Kerja, dan Manajer Paket yang Didukung Node.js:",
+      "left": {
+        "title": "Sistem operasi",
+        "content": {
+          "line_1": "Desktop Microsoft Windows",
+          "line_2": "Microsoft WindowsServer",
+          "line_3": "Linux",
+          "line_4": "macOS"
+        },
+        "title_2": "Kerangka Kerja yang Didukung",
+        "content_2": {
+          "line_1": "Node.js 16+ dan J2SE 8.0 (1.8)+"
+        }
+      },
+      "right": {
+        "title": "Lingkungan Pembangunan",
+        "content": {
+          "line_1": "* atom",
+          "line_2": "* Kode Visual Studio",
+          "line_3": "* Editor teks lainnya"
+        },
+        "title_2": "Bangun Alat Otomatisasi",
+        "content_2": {
+          "line_1": "* NPM"
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Metadata untuk Fitur Node.js",
+    "feature_1": {
+      "content": "Manfaatkan kemampuan ekstensif untuk memanipulasi metadata bawaan dan kustom"
+    },
+    "feature_2": {
+      "content": "Dapatkan akses ke dan hapus data tersembunyi yang tertanam dalam PDF, MS Word, Excel, PowerPoint..."
+    },
+    "feature_3": {
+      "content": "Deteksi jenis file secara dinamis saat runtime menggunakan Node.js."
+    },
+    "feature_4": {
+      "content": "Identifikasi dan hapus tanda tangan digital yang ada di PDF dan dokumen Office."
+    },
+    "feature_5": {
+      "content": "Deteksi perlindungan kata sandi yang diterapkan pada dokumen PDF dan MS Word, Excel, PowerPoint."
+    },
+    "feature_6": {
+      "content": "Ambil thumbnail dan pratinjau gambar untuk format file yang didukung & Dukungan Kontainer Multimedia Matroska"
+    },
+    "feature_7": {
+      "content": "Ekstrak metadata teks langsung dari file gambar PNG menggunakan Node.js"
+    },
+    "feature_8": {
+      "content": "Menghitung semua jenis metadata dan mengontrol metadata file font OpenType"
+    },
+    "feature_9": {
+      "content": "Analisis properti metadata tertentu menggunakan kunci yang ditentukan untuk format apa pun yang didukung"
+    },
+    "feature_10": {
+      "content": "Memanipulasi metadata dan lampiran dalam pesan email"
+    },
+    "feature_11": {
+      "content": "Akses subtitle dan metadata Matroska dalam file audio dan video"
+    },
+    "feature_12": {
+      "content": "Hasilkan Pratinjau Gambar untuk file MSG, CAD, EML atau EPUB"
+    },
+    "feature_13": {
+      "content": "Bandingkan dan analisis setiap perubahan metadata dalam format file yang didukung"
+    },
+    "feature_14": {
+      "content": "Kumpulkan properti metadata dokumen seperti EXIF ​​atau XMP"
+    },
+    "feature_15": {
+      "content": "Memanipulasi metadata dalam PDF, Word, Excel, PowerPoint, dan format lainnya"
+    },
+    "feature_16": {
+      "content": "Simpan metadata dari file yang didukung ke keluaran Excel, CSV, atau DataSet"
+    },
+    "feature_17": {
+      "content": "Gunakan Search API untuk menambah atau memperbarui properti metadata XMP dan EXIF"
+    },
+    "feature_18": {
+      "content": "Kontrol metadata dalam gambar termasuk informasi lokasi foto"
+    },
+    "feature_19": {
+      "content": "Hapus laporan dan dokumen bisnis dari metadata dan komentar apa pun"
+    },
+    "feature_20": {
+      "content": "Dapatkan metadata dari Microsoft Excel Spreadsheets mulai dari Excel 95"
+    },
+    "feature_21": {
+      "content": "Jadikan PDF, Excel & Format Gambar Anda lebih hemat memori"
+    },
+    "feature_22": {
+      "content": "Konten Metadata EXIF ​​yang benar dalam WEBP, PNG atau PSD"
+    },
+    "feature_23": {
+      "content": "Dapatkan node Metadata XMP dari File MOV, MP3 & WEBP"
+    },
+    "feature_24": {
+      "content": "Memanipulasi Paket Metadata IPTC dalam Gambar TIFF"
+    },
+    "feature_25": {
+      "content": "Tambah, Perbarui atau Hapus data EXIF ​​dalam Gambar JPEG2000"
+    },
+    "feature_26": {
+      "content": "Kontrol tag EXIF ​​& metadata XMP untuk gambar HEIC/HEIF"
+    },
+    "feature_27": {
+      "content": "Sembunyikan semua metadata di File Proyek Microsoft Terenkripsi"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "Manipulasi Metadata yang Efisien di Node.js",
+      "content": "GroupDocs.Metadata menyediakan pustaka Node.js yang komprehensif untuk pengelolaan metadata yang efisien dalam berbagai format file. Mengambil, memanipulasi, dan mengekstrak properti metadata menjadi mudah dengan API Node.js. Berikut ini contoh yang menunjukkan cara mendapatkan metadata dari file MP3 menggunakan Node.js: (contoh kode yang menampilkan sintaksis JavaScript):"
+    },
+    "feature_2": {
+      "title": "Ekstraksi Data yang Disederhanakan dengan Node.js",
+      "content": "Pustaka GroupDocs.Metadata untuk Node.js memberdayakan Anda untuk dengan mudah mengambil metadata tersembunyi tertentu. Ini menyederhanakan akses metadata dan pemrosesan dokumen PDF, Microsoft Word, Excel, dan PowerPoint dalam aplikasi Node.js Anda. Kontrol konten komentar, halaman tersembunyi, kolom formulir, anotasi, dll."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Metadata menawarkan API pemrosesan data untuk lingkungan pengembangan populer lainnya"
+  }
+}

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2024-03-14T18:19:53
+date: 2024-03-19T16:27:02
 draft: false
 
 ############################# Head ############################
@@ -44,7 +44,7 @@ apis:
           image: "/border/groupdocs-metadata-nodejs-java.svg"
           product: "GroupDocs.Metadata for"
           platform: "Node.js"
-          content: "{apis.highcode.nodejs-java.content}"
+          content: "Node.js über eine Java-Lösung zur Steuerung und Bearbeitung verschiedener Arten von Metadaten in gängigen Dateiformaten wie PDFs, Office-Dokumenten oder Bildern."
 
     # api loop
     - title: "GroupDocs.Metadata Low Code APIs enthalten"

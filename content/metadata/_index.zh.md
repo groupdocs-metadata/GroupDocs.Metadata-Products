@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "product"
-date: 2024-03-14T18:19:53
+date: 2024-03-19T16:27:02
 draft: false
 
 ############################# Head ############################
@@ -44,7 +44,7 @@ apis:
           image: "/border/groupdocs-metadata-nodejs-java.svg"
           product: "GroupDocs.Metadata for"
           platform: "Node.js"
-          content: "{apis.highcode.nodejs-java.content}"
+          content: "Node.js 通过 Java 解决方案来控制和操作流行文件格式（如 PDF、Office 文档或图像）中的各种类型的元数据。"
 
     # api loop
     - title: "GroupDocs.Metadata 低代码 API 包括"

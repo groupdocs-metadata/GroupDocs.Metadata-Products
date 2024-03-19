@@ -16,6 +16,9 @@
       },
       "java": {
         "content": "Java API pour éditer et manipuler les métadonnées des documents, images, fichiers vidéo et divers autres formats de fichiers."
+      },
+      "nodejs-java": {
+        "content": "Node.js via une solution Java pour contrôler et manipuler différents types de métadonnées dans des formats de fichiers courants tels que des PDF, des documents Office ou des images."
       }
     },
     "lowcode": {

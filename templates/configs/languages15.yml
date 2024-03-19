@@ -1,0 +1,3 @@
+dimensions: 
+- alias: lang
+  values: [en, de, es, fr, ja, ko, ru, zh, id, fa, it, pt, th, uk, vi]

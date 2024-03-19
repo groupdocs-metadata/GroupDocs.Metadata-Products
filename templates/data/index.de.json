@@ -16,6 +16,9 @@
       },
       "java": {
         "content": "Java API zum Bearbeiten und Manipulieren von Metadaten von Dokumenten, Bildern, Videodateien und verschiedenen anderen Dateiformaten."
+      },
+      "nodejs-java": {
+        "content": "Node.js über eine Java-Lösung zur Steuerung und Bearbeitung verschiedener Arten von Metadaten in gängigen Dateiformaten wie PDFs, Office-Dokumenten oder Bildern."
       }
     },
     "lowcode": {

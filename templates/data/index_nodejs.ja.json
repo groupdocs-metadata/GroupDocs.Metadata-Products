@@ -1,0 +1,198 @@
+{
+  "nodejs-java": {
+    "content": "Java ソリューションを介した Node.js は、PDF、Office ドキュメント、画像などの一般的なファイル形式のさまざまなタイプのメタデータを制御および操作します。"
+  },
+  "head": {
+    "title": "ファイルのメタデータを操作するための Node.js ライブラリ",
+    "description": "PDF、Word、Excel などの一般的なファイル形式のメタデータを分析、比較、編集、削除、エクスポートすることで Node.js アプリケーションを強化します。"
+  },
+  "header": {
+    "title": "ドキュメント メタデータ管理 Node.js",
+    "description": "Node.js を使用して、一般的なドキュメントおよび画像形式のメタデータを管理します。"
+  },
+  "submenu": {
+    "middle": {
+      "overview": "概要",
+      "features": "特徴",
+      "support": "サポート",
+      "livedemo": "ライブデモ",
+      "pricing": "価格設定"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Metadata for Node.js は、さまざまなファイル形式内のメタデータを管理できるようにする高度なライブラリです。メタデータの表示、編集、削除、検索、比較、置換、エクスポート機能を Node.js アプリケーションに統合します。サポートされている形式には、PDF、Microsoft Office (Word、Excel、PowerPoint)、Outlook 電子メール、Project、Visio 図、OneNote、画像 (PSD、CAD を含む)、オーディオ、ビデオ、OpenType フォント、メタファイルなどの一般的なビジネス ドキュメントが含まれます。",
+      "paragraph_2": "このライブラリは、メタデータの検索、置換、プロパティの比較、情報抽出などの包括的な機能を提供します。取得したメタデータを Excel、CSV、または DataSet 形式にエクスポートできます。サポートされているドキュメント形式内の組み込み、XMP、EXIF、カスタム プロパティなどの一般的に使用されるメタデータ標準をサポートします。",
+      "paragraph_3": "GroupDocs.Metadata for Node.js は、すべての Node.js バージョンと互換性があり、Node.js ランタイムをサポートする一般的なオペレーティング システム (Windows、Linux、macOS) 上でシームレスに実行されます。"
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Node.js メタデータ管理機能:",
+      "left": {
+        "title": "画像の操作",
+        "content": {
+          "line_1": "XMPメタデータ",
+          "line_2": "EXIFメタデータ",
+          "line_3": "IPTC-IIM メタデータ",
+          "line_4": "PSDメタデータ",
+          "line_5": "CAD メタデータ",
+          "line_6": "追加の IFD タグを解析する"
+        }
+      },
+      "right": {
+        "title": "オーディオとビデオの操作",
+        "content": {
+          "line_1": "ランタイム MP3 フォーマット検出",
+          "line_2": "歌詞を読む3 タグ",
+          "line_3": "MPEG オーディオ情報の読み取り",
+          "line_4": "AVI ヘッダー情報の読み取り",
+          "line_5": "マトロスカの字幕を読む",
+          "line_6": "データを Excel または CSV にエクスポート"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "Node.js の GroupDocs.Metadata サポートされる形式:",
+      "formats_url_title": "文書ファイル形式",
+      "left": {
+        "title": "マイクロソフトオフィス"
+      },
+      "right": {
+        "title": "その他の形式",
+        "content": {
+          "line_5": "オーディオ",
+          "line_6": "ビデオ",
+          "line_9": "画像",
+          "line_11": "OpenType フォント",
+          "line_12": "その他"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "Node.js の GroupDocs.Metadata サポートされているオペレーティング システム、フレームワーク、およびパッケージ マネージャー:",
+      "left": {
+        "title": "オペレーティングシステム",
+        "content": {
+          "line_1": "Microsoft Windows デスクトップ",
+          "line_2": "Microsoft Windowsサーバー",
+          "line_3": "Linux",
+          "line_4": "マックOS"
+        },
+        "title_2": "サポートされているフレームワーク",
+        "content_2": {
+          "line_1": "Node.js 16 以降および J2SE 8.0 (1.8) 以降"
+        }
+      },
+      "right": {
+        "title": "開発環境",
+        "content": {
+          "line_1": "* 原子",
+          "line_2": "* ビジュアルスタジオコード",
+          "line_3": "* 他のテキストエディター"
+        },
+        "title_2": "ビルド自動化ツール",
+        "content_2": {
+          "line_1": "* 故宮"
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "Node.js 機能の GroupDocs.Metadata",
+    "feature_1": {
+      "content": "広範な機能を活用して組み込みメタデータとカスタムメタデータを操作します"
+    },
+    "feature_2": {
+      "content": "PDF、MS Word、Excel、PowerPoint... に埋め込まれた非表示データにアクセスして削除します。"
+    },
+    "feature_3": {
+      "content": "Node.js を使用して、実行時にファイルの種類を動的に検出します。"
+    },
+    "feature_4": {
+      "content": "PDF および Office ドキュメントに存在するデジタル署名を特定して削除します。"
+    },
+    "feature_5": {
+      "content": "PDF および MS Word、Excel、PowerPoint ドキュメントに適用されているパスワード保護を検出します。"
+    },
+    "feature_6": {
+      "content": "サポートされているファイル形式のサムネイルと画像プレビューを取得し、Matroska マルチメディア コンテナをサポート"
+    },
+    "feature_7": {
+      "content": "Node.js を使用して PNG 画像ファイルからテキスト メタデータを直接抽出する"
+    },
+    "feature_8": {
+      "content": "任意のメタデータ タイプを列挙し、OpenType フォント ファイルのメタデータを制御します"
+    },
+    "feature_9": {
+      "content": "サポートされている形式に対して定義されたキーを使用して、特定のメタデータ プロパティを分析します"
+    },
+    "feature_10": {
+      "content": "電子メール メッセージ内のメタデータと添付ファイルを操作する"
+    },
+    "feature_11": {
+      "content": "Matroska の字幕とオーディオ ファイルとビデオ ファイルのメタデータにアクセスする"
+    },
+    "feature_12": {
+      "content": "MSG、CAD、EML、または EPUB ファイルの画像プレビューを生成"
+    },
+    "feature_13": {
+      "content": "サポートされているファイル形式のメタデータの変更を比較および分析します"
+    },
+    "feature_14": {
+      "content": "EXIF や XMP などのドキュメントのメタデータ プロパティを収集する"
+    },
+    "feature_15": {
+      "content": "PDF、Word、Excel、PowerPoint、その他の形式のメタデータを操作する"
+    },
+    "feature_16": {
+      "content": "サポートされているファイルからメタデータを Excel、CSV、または DataSet 出力に保存する"
+    },
+    "feature_17": {
+      "content": "Search API を使用して XMP および EXIF メタデータ プロパティを追加または更新する"
+    },
+    "feature_18": {
+      "content": "写真の位置情報を含む画像内のメタデータを制御する"
+    },
+    "feature_19": {
+      "content": "ビジネスレポートやドキュメントをメタデータやコメントから消去します"
+    },
+    "feature_20": {
+      "content": "Excel 95 以降の Microsoft Excel スプレッドシートからメタデータを取得する"
+    },
+    "feature_21": {
+      "content": "PDF、Excel、画像形式のメモリ要求を軽減します"
+    },
+    "feature_22": {
+      "content": "WEBP、PNG、または PSD の EXIF メタデータの正しい内容"
+    },
+    "feature_23": {
+      "content": "MOV、MP3、WEBP ファイルから XMP メタデータ ノードを取得"
+    },
+    "feature_24": {
+      "content": "TIFF イメージ内の IPTC メタデータ パッケージを操作する"
+    },
+    "feature_25": {
+      "content": "JPEG2000 画像の EXIF データの追加、更新、または削除"
+    },
+    "feature_26": {
+      "content": "HEIC/HEIF 画像の EXIF タグと XMP メタデータを制御する"
+    },
+    "feature_27": {
+      "content": "暗号化された Microsoft Project ファイルに隠されているすべてのメタデータを取得する"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "Node.js での効率的なメタデータ操作",
+      "content": "GroupDocs.Metadata は、さまざまなファイル形式内のメタデータを合理的に管理するための包括的な Node.js ライブラリを提供します。 Node.js API を使用すると、メタデータ プロパティの取得、操作、抽出が簡単になります。 Node.js を使用して MP3 ファイルからメタデータを取得する方法を示す例を次に示します (JavaScript 構文を示すコード例)。"
+    },
+    "feature_2": {
+      "title": "Node.js を使用した簡素化されたデータ抽出",
+      "content": "GroupDocs.Metadata for Node.js ライブラリを使用すると、特定の非表示のメタデータを簡単に取得できます。これにより、メタデータへのアクセスと、Node.js アプリケーション内での PDF、Microsoft Word、Excel、PowerPoint ドキュメントの処理が簡素化されます。コメント、隠しページ、フォームフィールド、注釈などのコンテンツを制御します。"
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Metadata は、他の一般的な開発環境向けのデータ処理 API を提供します"
+  }
+}

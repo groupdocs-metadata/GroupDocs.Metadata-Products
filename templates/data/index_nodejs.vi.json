@@ -1,0 +1,198 @@
+{
+  "nodejs-java": {
+    "content": "Node.js thông qua giải pháp Java để kiểm soát và thao tác các loại siêu dữ liệu khác nhau ở các định dạng tệp phổ biến như PDF, tài liệu Office hoặc hình ảnh."
+  },
+  "head": {
+    "title": "Thư viện Node.js để thao tác siêu dữ liệu tệp",
+    "description": "Nâng cao các ứng dụng Node.js bằng cách phân tích, so sánh, chỉnh sửa, xóa và xuất siêu dữ liệu của các định dạng tệp phổ biến, như PDF, Word, Excel, v.v."
+  },
+  "header": {
+    "title": "Quản lý siêu dữ liệu tài liệu Node.js",
+    "description": "Quản lý siêu dữ liệu ở các định dạng tài liệu và hình ảnh phổ biến bằng Node.js."
+  },
+  "submenu": {
+    "middle": {
+      "overview": "Tổng quan",
+      "features": "Đặc trưng",
+      "support": "Ủng hộ",
+      "livedemo": "Bản thử trực tiếp",
+      "pricing": "Định giá"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Metadata cho Node.js là một thư viện nâng cao cho phép bạn quản lý siêu dữ liệu ở nhiều định dạng tệp khác nhau. Tích hợp các chức năng xem, chỉnh sửa, xóa, tìm kiếm, so sánh, thay thế và xuất siêu dữ liệu vào các ứng dụng Node.js của bạn. Các định dạng được hỗ trợ bao gồm các tài liệu kinh doanh phổ biến như PDF, Microsoft Office (Word, Excel, PowerPoint), email Outlook, Project, sơ đồ Visio, OneNote, hình ảnh (bao gồm PSD, CAD), âm thanh, video, phông chữ OpenType và siêu tệp.",
+      "paragraph_2": "Thư viện này cung cấp các tính năng toàn diện như tìm kiếm siêu dữ liệu, thay thế, so sánh thuộc tính và trích xuất thông tin. Bạn có thể xuất siêu dữ liệu đã truy xuất sang định dạng Excel, CSV hoặc DataSet. Nó hỗ trợ các tiêu chuẩn siêu dữ liệu thường được sử dụng như XMP, EXIF ​​​​tích hợp sẵn và các thuộc tính tùy chỉnh trong các định dạng tài liệu được hỗ trợ.",
+      "paragraph_3": "GroupDocs.Metadata cho Node.js tương thích với tất cả các phiên bản Node.js và chạy liền mạch trên các hệ điều hành phổ biến (Windows, Linux, macOS) hỗ trợ thời gian chạy Node.js."
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Khả năng quản lý siêu dữ liệu của Node.js:",
+      "left": {
+        "title": "Làm việc với hình ảnh",
+        "content": {
+          "line_1": "Siêu dữ liệu XMP",
+          "line_2": "Siêu dữ liệu EXIF",
+          "line_3": "Siêu dữ liệu IPTC-IIM",
+          "line_4": "Siêu dữ liệu PSD",
+          "line_5": "Siêu dữ liệu CAD",
+          "line_6": "Phân tích các thẻ IFD bổ sung"
+        }
+      },
+      "right": {
+        "title": "Làm việc với Âm thanh & Video",
+        "content": {
+          "line_1": "Phát hiện định dạng MP3 trong thời gian chạy",
+          "line_2": "Đọc lời bài hát3 Thẻ",
+          "line_3": "Đọc thông tin âm thanh MPEG",
+          "line_4": "Đọc thông tin tiêu đề AVI",
+          "line_5": "Đọc phụ đề Matroska",
+          "line_6": "Xuất dữ liệu sang Excel hoặc CSV"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Metadata cho các định dạng được hỗ trợ của Node.js:",
+      "formats_url_title": "các định dạng tập tin tài liệu",
+      "left": {
+        "title": "Microsoft Office"
+      },
+      "right": {
+        "title": "Các định dạng khác",
+        "content": {
+          "line_5": "Âm thanh",
+          "line_6": "Băng hình",
+          "line_9": "Hình ảnh",
+          "line_11": "Phông chữ OpenType",
+          "line_12": "Người khác"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Metadata dành cho các Hệ điều hành, Khung và Trình quản lý gói được hỗ trợ của Node.js:",
+      "left": {
+        "title": "Các hệ điều hành",
+        "content": {
+          "line_1": "Máy tính để bàn Microsoft Windows",
+          "line_2": "Máy chủ Microsoft Windows",
+          "line_3": "Linux",
+          "line_4": "Hệ điều hành Mac"
+        },
+        "title_2": "Các khung được hỗ trợ",
+        "content_2": {
+          "line_1": "Node.js 16+ và J2SE 8.0 (1.8)+"
+        }
+      },
+      "right": {
+        "title": "Môi trường phát triển",
+        "content": {
+          "line_1": "* Nguyên tử",
+          "line_2": "* Mã Visual Studio",
+          "line_3": "* Bất kỳ trình soạn thảo văn bản nào khác"
+        },
+        "title_2": "Xây dựng công cụ tự động hóa",
+        "content_2": {
+          "line_1": "* NPM"
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "GroupDocs.Metadata cho các tính năng của Node.js",
+    "feature_1": {
+      "content": "Tận dụng các khả năng mở rộng để thao tác siêu dữ liệu tùy chỉnh và tích hợp sẵn"
+    },
+    "feature_2": {
+      "content": "Có quyền truy cập và xóa dữ liệu ẩn được nhúng trong PDF, MS Word, Excel, PowerPoint..."
+    },
+    "feature_3": {
+      "content": "Tự động phát hiện loại tệp trong thời gian chạy bằng Node.js."
+    },
+    "feature_4": {
+      "content": "Xác định và xóa chữ ký số có trong tài liệu PDF và Office."
+    },
+    "feature_5": {
+      "content": "Phát hiện mật khẩu bảo vệ áp dụng cho tài liệu PDF và MS Word, Excel, PowerPoint."
+    },
+    "feature_6": {
+      "content": "Truy xuất hình thu nhỏ và xem trước hình ảnh cho các định dạng tệp được hỗ trợ & Hỗ trợ vùng chứa đa phương tiện Matroska"
+    },
+    "feature_7": {
+      "content": "Trích xuất siêu dữ liệu văn bản trực tiếp từ tệp hình ảnh PNG bằng Node.js"
+    },
+    "feature_8": {
+      "content": "Liệt kê mọi loại siêu dữ liệu và kiểm soát siêu dữ liệu của tệp phông chữ OpenType"
+    },
+    "feature_9": {
+      "content": "Phân tích các thuộc tính siêu dữ liệu cụ thể bằng cách sử dụng các khóa được xác định cho mọi định dạng được hỗ trợ"
+    },
+    "feature_10": {
+      "content": "Thao tác siêu dữ liệu và tệp đính kèm trong email"
+    },
+    "feature_11": {
+      "content": "Truy cập phụ đề và siêu dữ liệu Matroska trong tệp âm thanh và video"
+    },
+    "feature_12": {
+      "content": "Tạo bản xem trước hình ảnh cho các tệp MSG, CAD, EML hoặc EPUB"
+    },
+    "feature_13": {
+      "content": "So sánh và phân tích mọi thay đổi về siêu dữ liệu ở các định dạng tệp được hỗ trợ"
+    },
+    "feature_14": {
+      "content": "Thu thập các thuộc tính siêu dữ liệu tài liệu như EXIF ​​​​hoặc XMP"
+    },
+    "feature_15": {
+      "content": "Thao tác siêu dữ liệu ở dạng PDF, Word, Excel, PowerPoint và các định dạng khác"
+    },
+    "feature_16": {
+      "content": "Lưu siêu dữ liệu từ các tệp được hỗ trợ vào đầu ra Excel, CSV hoặc DataSet"
+    },
+    "feature_17": {
+      "content": "Sử dụng API tìm kiếm để thêm hoặc cập nhật thuộc tính siêu dữ liệu XMP và EXIF"
+    },
+    "feature_18": {
+      "content": "Kiểm soát siêu dữ liệu trong hình ảnh bao gồm thông tin vị trí ảnh"
+    },
+    "feature_19": {
+      "content": "Xóa các báo cáo và tài liệu kinh doanh khỏi mọi siêu dữ liệu và nhận xét"
+    },
+    "feature_20": {
+      "content": "Nhận siêu dữ liệu từ Bảng tính Microsoft Excel bắt đầu từ Excel 95"
+    },
+    "feature_21": {
+      "content": "Làm cho các định dạng PDF, Excel & Hình ảnh của bạn ít tốn bộ nhớ hơn"
+    },
+    "feature_22": {
+      "content": "Chỉnh sửa nội dung của Siêu dữ liệu EXIF ​​​​trong WEBP, PNG hoặc PSD"
+    },
+    "feature_23": {
+      "content": "Nhận các nút Siêu dữ liệu XMP từ Tệp MOV, MP3 & WEBP"
+    },
+    "feature_24": {
+      "content": "Thao tác các gói siêu dữ liệu IPTC trong hình ảnh TIFF"
+    },
+    "feature_25": {
+      "content": "Thêm, cập nhật hoặc xóa dữ liệu EXIF ​​​​trong hình ảnh JPEG2000"
+    },
+    "feature_26": {
+      "content": "Kiểm soát thẻ EXIF ​​​​& siêu dữ liệu XMP cho hình ảnh HEIC/HEIF"
+    },
+    "feature_27": {
+      "content": "Nhận tất cả siêu dữ liệu ẩn trong Tệp Microsoft Project được mã hóa"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "Thao tác siêu dữ liệu hiệu quả trong Node.js",
+      "content": "GroupDocs.Metadata cung cấp thư viện Node.js toàn diện để quản lý siêu dữ liệu một cách hợp lý trong nhiều định dạng tệp khác nhau. Việc truy xuất, thao tác và trích xuất các thuộc tính siêu dữ liệu trở nên dễ dàng với API Node.js. Dưới đây là ví dụ minh họa cách lấy siêu dữ liệu từ tệp MP3 bằng Node.js: (ví dụ mã hiển thị cú pháp JavaScript):"
+    },
+    "feature_2": {
+      "title": "Trích xuất dữ liệu đơn giản hóa với Node.js",
+      "content": "Thư viện GroupDocs.Metadata dành cho Node.js cho phép bạn truy xuất siêu dữ liệu ẩn cụ thể một cách dễ dàng. Điều này giúp đơn giản hóa việc truy cập và xử lý siêu dữ liệu các tài liệu PDF, Microsoft Word, Excel và PowerPoint trong các ứng dụng Node.js của bạn. Kiểm soát nội dung bình luận, trang ẩn, trường biểu mẫu, chú thích, v.v."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Metadata cung cấp API xử lý dữ liệu cho các môi trường phát triển phổ biến khác"
+  }
+}

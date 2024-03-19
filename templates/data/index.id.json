@@ -16,6 +16,9 @@
       },
       "java": {
         "content": "Java API untuk mengedit dan memanipulasi metadata dokumen, gambar, file video, dan berbagai format file lainnya."
+      },
+      "nodejs-java": {
+        "content": "Node.js melalui solusi Java untuk mengontrol dan memanipulasi berbagai jenis metadata dalam format file populer seperti PDF, dokumen Office, atau gambar."
       }
     },
     "lowcode": {

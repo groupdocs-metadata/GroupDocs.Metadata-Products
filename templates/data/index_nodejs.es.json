@@ -1,0 +1,195 @@
+{
+  "head": {
+    "title": "Biblioteca Node.js para manipular metadatos de archivos",
+    "description": "Mejore las aplicaciones Node.js analizando, comparando, editando, eliminando y exportando metadatos de formatos de archivos populares, como PDF, Word, Excel, etc."
+  },
+  "header": {
+    "title": "Gestión de metadatos de documentos Node.js",
+    "description": "Administre metadatos en formatos populares de documentos e imágenes utilizando Node.js."
+  },
+  "submenu": {
+    "middle": {
+      "overview": "Descripción general",
+      "features": "Características",
+      "support": "Apoyo",
+      "livedemo": "Demo en vivo",
+      "pricing": "Precios"
+    }
+  },
+  "overview": {
+    "content": {
+      "paragraph_1": "GroupDocs.Metadata para Node.js es una biblioteca avanzada que le permite administrar metadatos en varios formatos de archivo. Integre funciones de visualización, edición, eliminación, búsqueda, comparación, reemplazo y exportación de metadatos en sus aplicaciones Node.js. Los formatos admitidos incluyen documentos comerciales populares como PDF, Microsoft Office (Word, Excel, PowerPoint), correos electrónicos de Outlook, Project, diagramas de Visio, OneNote, imágenes (incluidos PSD, CAD), audio, video, fuentes OpenType y metarchivos.",
+      "paragraph_2": "Esta biblioteca ofrece funciones integrales como búsqueda de metadatos, reemplazo, comparación de propiedades y extracción de información. Puede exportar metadatos recuperados a formatos Excel, CSV o DataSet. Admite estándares de metadatos de uso común, como propiedades integradas, XMP, EXIF ​​y personalizadas dentro de los formatos de documentos admitidos.",
+      "paragraph_3": "GroupDocs.Metadata para Node.js es compatible con todas las versiones de Node.js y se ejecuta sin problemas en sistemas operativos populares (Windows, Linux, macOS) que admiten el tiempo de ejecución de Node.js."
+    }
+  },
+  "tabs": {
+    "tab_one": {
+      "description": "Capacidades de gestión de metadatos de Node.js:",
+      "left": {
+        "title": "Trabajar con imágenes",
+        "content": {
+          "line_1": "Metadatos XMP",
+          "line_2": "Metadatos EXIF",
+          "line_3": "Metadatos IPTC-IIM",
+          "line_4": "Metadatos PSD",
+          "line_5": "Metadatos CAD",
+          "line_6": "Analizar etiquetas IFD adicionales"
+        }
+      },
+      "right": {
+        "title": "Trabajar con audio y vídeo",
+        "content": {
+          "line_1": "Detección de formato MP3 en tiempo de ejecución",
+          "line_2": "Leer Letra3 Etiqueta",
+          "line_3": "Leer información de audio MPEG",
+          "line_4": "Leer información del encabezado AVI",
+          "line_5": "Leer subtítulos de Matroska",
+          "line_6": "Exportar datos a Excel o CSV"
+        }
+      }
+    },
+    "tab_two": {
+      "description": "GroupDocs.Metadata para formatos compatibles con Node.js:",
+      "formats_url_title": "formatos de archivos de documentos",
+      "left": {
+        "title": "oficina de microsoft"
+      },
+      "right": {
+        "title": "Otros formatos",
+        "content": {
+          "line_5": "Audio",
+          "line_6": "Video",
+          "line_9": "Imágenes",
+          "line_11": "Fuentes tipo abierto",
+          "line_12": "Otros"
+        }
+      }
+    },
+    "tab_three": {
+      "description": "GroupDocs.Metadata para sistemas operativos, marcos y administradores de paquetes compatibles con Node.js:",
+      "left": {
+        "title": "Sistemas operativos",
+        "content": {
+          "line_1": "Escritorio de Microsoft Windows",
+          "line_2": "Servidor Microsoft Windows",
+          "line_3": "linux",
+          "line_4": "Mac OS"
+        },
+        "title_2": "Marcos soportados",
+        "content_2": {
+          "line_1": "Node.js 16+ y J2SE 8.0 (1.8)+"
+        }
+      },
+      "right": {
+        "title": "Entornos de desarrollo",
+        "content": {
+          "line_1": "* Átomo",
+          "line_2": "* Código de estudio visual",
+          "line_3": "* Cualquier otro editor de texto"
+        },
+        "title_2": "Construir herramienta de automatización",
+        "content_2": {
+          "line_1": "* MNP"
+        }
+      }
+    }
+  },
+  "features": {
+    "title": "Funciones de GroupDocs.Metadata para Node.js",
+    "feature_1": {
+      "content": "Aproveche amplias capacidades para manipular metadatos integrados y personalizados"
+    },
+    "feature_2": {
+      "content": "Obtenga acceso y elimine datos ocultos incrustados en PDF, MS Word, Excel, PowerPoint..."
+    },
+    "feature_3": {
+      "content": "Detecte dinámicamente el tipo de archivo en tiempo de ejecución utilizando Node.js."
+    },
+    "feature_4": {
+      "content": "Identifique y elimine firmas digitales presentes en archivos PDF y documentos de Office."
+    },
+    "feature_5": {
+      "content": "Detecte la protección con contraseña aplicada a documentos PDF y MS Word, Excel, PowerPoint."
+    },
+    "feature_6": {
+      "content": "Recupere miniaturas y vistas previas de imágenes para formatos de archivo compatibles y compatibilidad con contenedores multimedia Matroska"
+    },
+    "feature_7": {
+      "content": "Extraiga metadatos de texto directamente de archivos de imagen PNG usando Node.js"
+    },
+    "feature_8": {
+      "content": "Enumere cualquier tipo de metadatos y controle los metadatos de archivos de fuentes OpenType"
+    },
+    "feature_9": {
+      "content": "Analice propiedades de metadatos específicos utilizando claves definidas para cualquier formato compatible"
+    },
+    "feature_10": {
+      "content": "Manipular metadatos y archivos adjuntos en mensajes de correo electrónico"
+    },
+    "feature_11": {
+      "content": "Acceda a subtítulos y metadatos de Matroska en archivos de audio y vídeo"
+    },
+    "feature_12": {
+      "content": "Genere vistas previas de imágenes para archivos MSG, CAD, EML o EPUB"
+    },
+    "feature_13": {
+      "content": "Compare y analice cualquier alteración en los metadatos en formatos de archivo compatibles"
+    },
+    "feature_14": {
+      "content": "Recopile propiedades de metadatos de documentos como EXIF ​​o XMP"
+    },
+    "feature_15": {
+      "content": "Manipular metadatos en PDF, Word, Excel, PowerPoint y otros formatos"
+    },
+    "feature_16": {
+      "content": "Guarde metadatos de archivos compatibles en salida de Excel, CSV o DataSet"
+    },
+    "feature_17": {
+      "content": "Utilice la API de búsqueda para agregar o actualizar propiedades de metadatos XMP y EXIF"
+    },
+    "feature_18": {
+      "content": "Controle los metadatos en imágenes, incluida la información de ubicación de la fotografía."
+    },
+    "feature_19": {
+      "content": "Borre informes y documentos comerciales de cualquier metadato y comentario."
+    },
+    "feature_20": {
+      "content": "Obtenga metadatos de hojas de cálculo de Microsoft Excel a partir de Excel 95"
+    },
+    "feature_21": {
+      "content": "Haga que sus formatos PDF, Excel e imágenes requieran menos memoria"
+    },
+    "feature_22": {
+      "content": "Contenido correcto de metadatos EXIF ​​en WEBP, PNG o PSD"
+    },
+    "feature_23": {
+      "content": "Obtenga nodos de metadatos XMP de archivos MOV, MP3 y WEBP"
+    },
+    "feature_24": {
+      "content": "Manipular paquetes de metadatos IPTC en imágenes TIFF"
+    },
+    "feature_25": {
+      "content": "Agregar, actualizar o eliminar datos EXIF ​​en imágenes JPEG2000"
+    },
+    "feature_26": {
+      "content": "Controle etiquetas EXIF ​​y metadatos XMP para imágenes HEIC/HEIF"
+    },
+    "feature_27": {
+      "content": "Oculte todos los metadatos en archivos cifrados de Microsoft Project"
+    }
+  },
+  "more_feature": {
+    "feature_1": {
+      "title": "Manipulación eficiente de metadatos en Node.js",
+      "content": "GroupDocs.Metadata proporciona una biblioteca Node.js completa para una gestión optimizada de metadatos en varios formatos de archivo. Recuperar, manipular y extraer propiedades de metadatos se vuelve muy sencillo con la API de Node.js. Aquí hay un ejemplo que demuestra cómo obtener metadatos de un archivo MP3 usando Node.js: (ejemplo de código que muestra la sintaxis de JavaScript):"
+    },
+    "feature_2": {
+      "title": "Extracción de datos simplificada con Node.js",
+      "content": "La biblioteca GroupDocs.Metadata para Node.js le permite recuperar sin esfuerzo metadatos ocultos específicos. Esto simplifica el acceso a los metadatos y el procesamiento de documentos PDF, Microsoft Word, Excel y PowerPoint dentro de sus aplicaciones Node.js. Controle el contenido de comentarios, páginas ocultas, campos de formulario, anotaciones, etc."
+    }
+  },
+  "solutions": {
+    "title": "GroupDocs.Metadata ofrece API de procesamiento de datos para otros entornos de desarrollo populares"
+  }
+}
