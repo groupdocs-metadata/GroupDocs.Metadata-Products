@@ -1,6 +1,5 @@
 dimensions: 
 - alias: lang
-##  values: [bg] 
-##  values: [en, ru] ## UNCOMMENT FOR TESTING
-##  values: [en, ru, ar, bg, de, es, fr, id, it, ja, ko, pl, pt, th, tr, vi, zh]  ## merger lang set
-  values: [en, ru, de, es, fr, id, ja, ko, zh]
+  values: [en]
+
+  #, de, es, fa, fr, id, it, ja, ko, pt, ru, th, uk, vi, zh

@@ -1,0 +1,203 @@
+{
+  "examples": {
+    "comment_1": "Search image watermarks in {{FileFormatUp}} document",
+    "comment_2": "Compose {{TextWatermarker}} passing {{FileFormatUp}} document",
+    "comment_3": "Search watermarks by image hash",
+    "comment_4": "Process found watermarks"
+  },
+  "steps": {
+    "title": "{{FileformatCap}} Watermarks Search via {{EnvName}}",
+    "content": {
+      "title": "**[{{ProdShortName}}]({{ProductUrl}})** simplifies the process of locating watermarks within business documents. Install our package into your {{EnvName}} applications to take advantage of its benefits.",
+      "step_1": "To utilize our library features, load the {{FileformatCap}} file into an instance of the {{TextWatermarkerBold}} class. You can provide a file path, file stream, or byte stream.",
+      "step_2": "To narrow down the list of potential watermarks, utilize the {{TextSearchCriteriaBold}} object. For example, provide an image to search for similar image watermarks. If searching for textual watermarks, provide text, font, color, and other relevant options.",
+      "step_3": "Retrieve watermarks placed within the document using the {{TextSearchBold}} method of the {{TextWatermarkerBold}} object. You will receive a collection of objects representing potential watermarks for further processing.",
+      "step_4": "Finally, you have the freedom to manipulate the search results as needed. You can delete found watermarks or edit their properties, such as changing size or text."
+    }
+  },
+  "more_features": {
+    "title": "Optimize Watermark Search in Documents with {{ProdShortName}} API",
+    "description": "Master the art of watermark search in any document using Java with the powerful {{ProdShortName}} API in the {{EnvName}} environment.",
+    "image_description": "Java Watermark Search",
+    "feature_1": {
+      "title": "Java Tools for Robust Watermark Search",
+      "content": "Enhance your document processing capabilities in Java with {{ProdShortName}}. Our API provides extensive tools to search and identify watermarks based on multiple parameters."
+    },
+    "feature_2": {
+      "title": "Pinpoint Watermark Retrieval with Java",
+      "content": "Target specific watermarks with precision in Java. Configure your search to filter by characteristics like size, date, and content, ensuring you find exactly what you need."
+    },
+    "feature_3": {
+      "title": "Comprehensive Watermark Analysis",
+      "content": "Leverage Java to conduct thorough analyses of found watermarks. Use {{ProdShortName}} to assess and manage watermarks effectively, enhancing security and compliance measures in your documents."
+    },
+    "code_1": {
+      "title": "Java Example: Dynamic Watermark Search",
+      "content": "This example demonstrates the use of Java with {{ProdShortName}} to dynamically search for watermarks in documents, illustrating how to handle search results programmatically.",
+      "comment_1": "Initialize Java environment and prepare document loading",
+      "comment_2": "Configure search filters based on dynamic user-defined criteria",
+      "comment_3": "Execute the watermark search using the Java API",
+      "comment_4": "Handle and process the search outcomes, preparing for further actions or reporting"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Discover {{FileFormatUp}} Watermark Search: A Game Changer",
+      "description": "Uncover the game-changing potential of G{{ProdFullName}} advanced search features for managing watermarks in various document types."
+    },
+    "header": {
+      "title": "Maximize Efficiency with {{FileFormatUp}} Documents Watermark Search",
+      "description": "Optimize your workflow efficiency with {{ProdFullName}} innovative watermark search capabilities.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} package for free"
+    },
+    "about": {
+      "title": "Get info {{ProdFullName}}",
+      "content": "{{ProdFullName}} provides a robust solution for watermark management using {{EnvName}}. Developers can effortlessly create, edit, search, and remove watermarks from documents in popular file formats. It supports both text and image watermarks across various document types, including PDF, Microsoft Word, Excel, PowerPoint, Visio, email, and image formats. {{ProdFullName}} seamlessly integrates with all major operating systems and {{EnvName}} versions."
+    },
+    "formats": {
+      "title": "Empower Your Workflow with Watermark Search",
+      "description": "Empower yourself to search and manage watermarks across different file formats with {{ProdFullName}} advanced capabilities."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Uncover the Potential of {{FileFormatUp}} Watermark Search",
+      "description": "Explore how {{ProdFullName}} robust search capabilities revolutionize watermark management across a variety of document formats."
+    },
+    "header": {
+      "title": "Unlock {{FileFormatUp}} Documents Watermark Search Features",
+      "description": "Unlock the full potential of {{ProdFullName}} search features to streamline your watermark management process.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Download at {{PackageStoreName}} for free"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Information",
+      "content": "{{ProdFullName}} offers a comprehensive solution for watermark management using {{EnvName}}. Developers can seamlessly create, edit, search, and remove watermarks from documents in various file formats. It supports text and image watermarks across a wide range of document types, including PDF, Microsoft Word, Excel, PowerPoint, Visio, email, and image formats. {{ProdFullName}} is compatible with all major operating systems and {{EnvName}} versions."
+    },
+    "formats": {
+      "title": "Revolutionize Your Workflow with Watermark Search",
+      "description": "Revolutionize your workflow by leveraging {{ProdFullName}} advanced search capabilities for managing watermarks across different file formats."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Empower {{FileFormatUp}} Processing with Watermark Search",
+      "description": "Empower yourself to efficiently search and manage watermarks across diverse document formats with {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Enhance Productivity with {{FileFormatUp}} Documents Watermark Search",
+      "description": "Enhance your productivity by harnessing {{ProdFullName}} powerful search features for {{FileFormatUp}} watermark management.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Get from {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}}",
+      "content": "{{ProdFullName}} provides a robust solution for watermark management using {{EnvName}}. Developers can effortlessly create, edit, search, and remove watermarks from documents in popular file formats. It supports both text and image watermarks across various document types, including PDF, Microsoft Word, Excel, PowerPoint, Visio, email, and image formats. {{ProdFullName}} seamlessly integrates with all major operating systems and {{EnvName}} versions."
+    },
+    "formats": {
+      "title": "Streamline Your Workflow with Watermark Search",
+      "description": "Streamline your workflow with {{ProdFullName}} advanced search capabilities for managing watermarks in different file formats."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Elevate Your Workflow with {{FileFormatUp}} Watermark Search",
+      "description": "Elevate your document management workflow with {{ProdFullName}} powerful search features for managing watermarks across various file formats."
+    },
+    "header": {
+      "title": "Discover Advanced {{FileFormatUp}} Presentations Watermark Search",
+      "description": "Discover the advanced capabilities of {{ProdFullName}} search features to streamline your watermark management process.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Download {{PackageStoreName}} package"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Base Information",
+      "content": "{{ProdFullName}} offers a comprehensive solution for watermark management using {{EnvName}}. Developers can seamlessly create, edit, search, and remove watermarks from documents in various file formats. It supports text and image watermarks across a wide range of document types, including PDF, Microsoft Word, Excel, PowerPoint, Visio, email, and image formats. {{ProdFullName}} is compatible with all major operating systems and {{EnvName}} versions."
+    },
+    "formats": {
+      "title": "Optimize Your Workflow with Watermark Search",
+      "description": "Optimize your workflow with {{ProdFullName}} advanced search capabilities for managing watermarks across different file formats."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Unveil the Power of {{FileFormatUp}} Watermark Search",
+      "description": "Unveil the power of {{ProdFullName}} advanced search capabilities to efficiently manage watermarks across a variety of document formats."
+    },
+    "header": {
+      "title": "Unlock {{FileFormatUp}} Presentations Watermark Search Features",
+      "description": "Unlock the full potential of {{ProdFullName}} search features to streamline your watermark management process.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Free {{PackageStoreName}} Download"
+    },
+    "about": {
+      "title": "About {{ProdFullName}}",
+      "content": "{{ProdFullName}} provides a robust solution for watermark management using {{EnvName}}. Developers can effortlessly create, edit, search, and remove watermarks from documents in popular file formats. It supports both text and image watermarks across various document types, including PDF, Microsoft Word, Excel, PowerPoint, Visio, email, and image formats. {{ProdFullName}} seamlessly integrates with all major operating systems and {{EnvName}} versions."
+    },
+    "formats": {
+      "title": "Empower Your Workflow with Watermark Search",
+      "description": "Empower yourself to efficiently search and manage watermarks across diverse document formats with {{ProdFullName}}."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Discover {{FileFormatUp}} Documents Watermark Search",
+      "description": "Discover the essence of {{ProdFullName}} powerful search capabilities for effective watermark management across different document types."
+    },
+    "header": {
+      "title": "Empower {{FileFormatUp}} Documents Watermark Search Process",
+      "description": "Unlock the full potential of {{ProdFullName}} search features to streamline your watermark management process.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} package for free"
+    },
+    "about": {
+      "title": "Learn more about {{ProdFullName}}",
+      "content": "{{ProdFullName}} provides a robust solution for watermark management using {{EnvName}}. Developers can effortlessly create, edit, search, and remove watermarks from documents in popular file formats. It supports both text and image watermarks across various document types, including PDF, Microsoft Word, Excel, PowerPoint, Visio, email, and image formats. {{ProdFullName}} seamlessly integrates with all major operating systems and {{EnvName}} versions."
+    },
+    "formats": {
+      "title": "Empower Your Workflow with Watermark Search",
+      "description": "Empower yourself to efficiently search and manage watermarks across diverse document formats with {{ProdFullName}}."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Empower Your {{FileFormatUp}} Spreadsheets Watermark Search",
+      "description": "Empower your document management workflow with {{ProdFullName}} advanced search for efficient watermark management across various file formats."
+    },
+    "header": {
+      "title": "Discover Advanced Watermark Search in {{FileFormatUp}} Spreadsheets",
+      "description": "Discover the advanced capabilities of {{ProdFullName}} search features to streamline your watermark management process.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Download at {{PackageStoreName}} for free"
+    },
+    "about": {
+      "title": "Get info {{ProdFullName}}",
+      "content": "{{ProdFullName}} provides a robust solution for watermark management using {{EnvName}}. Developers can effortlessly create, edit, search, and remove watermarks from documents in popular file formats. It supports both text and image watermarks across various document types, including PDF, Microsoft Word, Excel, PowerPoint, Visio, email, and image formats. {{ProdFullName}} seamlessly integrates with all major operating systems and {{EnvName}} versions."
+    },
+    "formats": {
+      "title": "Optimize Your Workflow with Watermark Search",
+      "description": "Optimize your workflow with {{ProdFullName}} advanced search capabilities for managing watermarks across different file formats."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "{{FileFormatUp}} Spreadsheets Processing with Watermark Search",
+      "description": "Maximize your efficiency by utilizing {{ProdFullName}} advanced search capabilities for managing watermarks across various document formats."
+    },
+    "header": {
+      "title": "Unleash the Power of Watermark Search for {{FileFormatUp}} Spreadsheets",
+      "description": "Unleash the full potential of {{ProdFullName}} search functionalities to revolutionize your watermark management process.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Get from {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Information",
+      "content": "{{ProdFullName}} is an innovative solution for watermark management using {{EnvName}}. Developers can effortlessly create, edit, search, and remove watermarks from documents in various file formats. It supports text and image watermarks across a wide range of document types, including PDF, Microsoft Word, Excel, PowerPoint, Visio, email, and image formats. {{ProdFullName}} seamlessly integrates with all major operating systems and {{EnvName}} versions."
+    },
+    "formats": {
+      "title": "Enhance Your Workflow with Watermark Search",
+      "description": "Enhance your document management workflow with {{ProdFullName}} powerful search features for managing watermarks in different file formats."
+    }
+  }
+}

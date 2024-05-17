@@ -1,0 +1,203 @@
+{
+  "examples": {
+    "comment_1": "Get image watermarks placed in {{FileFormatUp}}",
+    "comment_2": "Create {{TextWatermarker}} object with source path",
+    "comment_3": "Get watermarks by similar image hash",
+    "comment_4": "Process watermarks as you wish"
+  },
+  "steps": {
+    "title": "Get Watermarks from {{FileformatCap}} Files Using {{ProdShortName}}",
+    "content": {
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** offers a comprehensive solution for getting watermarks placed in popular business document formats. By integrating our library into your {{EnvName}} applications, you can equip them with powerful watermark searching capabilities.",
+      "step_1": "To access the functionalities provided by {{ProdShortName}}, instantiate the {{TextWatermarkerBold}} class and provide the {{FileformatCap}} file path. Also you can use file saved as byte stream. This action essentially loads the target document for comprehensive watermark analysis.",
+      "step_2": "To achieve targeted watermark identification, create the {{TextSearchCriteriaBold}} object. You can specify an image for locating similar image watermarks. Alternatively, for textual watermarks, define the text content, font properties, color attributes, and other relevant parameters to refine the search criteria and achieve more precise results.",
+      "step_3": "Call the {{TextSearchBold}} method (or a similar naming convention) of the {{TextWatermarkerBold}} object to start the watermark getting process within the loaded document. This function returns a collection of objects representing potential watermarks, facilitating further processing based on your specific requirements.",
+      "step_4": "The result collection of watermarks allows you to control over the watermarks identified within the document. You can remove unwanted watermarks or dynamically modify their properties, such as adjusting their size, position, or text content, to suit your needs."
+    }
+  },
+  "more_features": {
+    "title": "Leverage Node.js for Watermark Searching with {{ProdShortName}}",
+    "description": "Implement dynamic and efficient watermark search functionalities in your Node.js applications using {{ProdShortName}} within the {{EnvName}} platform.",
+    "image_description": "Node.js Watermark Search",
+    "feature_1": {
+      "title": "Node.js API for Flexible Watermark Search",
+      "content": "Harness the flexibility of Node.js with {{ProdShortName}} to search for watermarks across multiple document formats. Easily configure searches to match specific requirements like size, type, or content."
+    },
+    "feature_2": {
+      "title": "Enhanced Watermark Identification with Node.js",
+      "content": "Improve your document processing by identifying watermarks accurately using Node.js. Utilize {{ProdShortName}}'s API to detect watermarks even within complex document structures."
+    },
+    "feature_3": {
+      "title": "Scalable Watermark Search Solutions",
+      "content": "Scale your document security solutions with Node.js. {{ProdShortName}} allows for efficient processing of large document batches, making it ideal for enterprise-level applications."
+    },
+    "code_1": {
+      "title": "Node.js Example: Search and Retrieve Watermarks",
+      "content": "This Node.js example showcases how to use {{ProdShortName}} for searching and retrieving watermarks, demonstrating efficient and scalable search operations.",
+      "comment_1": "Set up the Node.js environment and load the necessary documents",
+      "comment_2": "Configure your search to identify watermarks based on varied criteria",
+      "comment_3": "Execute the watermark search and collect data on identified watermarks",
+      "comment_4": "Process the results to modify or remove watermarks as required by business needs"
+    }
+  },
+  "doc": {
+    "head": {
+      "title": "Retrieve {{FileFormatUp}} Documents Watermarks Effortlessly",
+      "description": "Effortlessly retrieve watermarks from documents with {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Get Watermark from {{FileFormatUp}} Documents",
+      "description": "Retrieve watermarks effortlessly using {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Download at {{PackageStoreName}} for free"
+    },
+    "about": {
+      "title": "Learn more about {{ProdFullName}}",
+      "content": "Effortlessly manage watermarks across {{EnvName}} with the powerful capabilities of {{ProdFullName}}. Simplify watermark operations such as generate, update, get, and delete across various file formats."
+    },
+    "formats": {
+      "title": "Simplify Watermark Retrieval",
+      "description": "Simplify watermark retrieval across different file formats with {{ProdFullName}}."
+    }
+  },
+  "docx": {
+    "head": {
+      "title": "Extract Watermarks from {{FileFormatUp}} Documents with Ease",
+      "description": "Easily extract watermarks from your documents using {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Access Watermarks in {{FileFormatUp}} Files",
+      "description": "Retrieve watermarks from your {{FileFormatUp}} documents effortlessly with {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Download for Free on {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Discover {{ProdFullName}}",
+      "content": "Effortlessly manage watermarks within your {{EnvName}} environment. {{ProdFullName}} empowers you to perform various watermark operations like generating, updating, retrieving, and deleting watermarks across a wide range of file formats."
+    },
+    "formats": {
+      "title": "Streamline Watermark Extraction",
+      "description": "Simplify the process of extracting watermarks from different file formats using {{ProdFullName}}."
+    }
+  },
+  "pdf": {
+    "head": {
+      "title": "Efficient {{FileFormatUp}} Documents Watermark Retrieval",
+      "description": "Efficiently retrieve watermarks from documents with {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Streamlined Watermark Extraction from {{FileFormatUp}} Documents",
+      "description": "Efficiently extract watermarks using {{ProdFullName}} streamlined approach.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Download {{PackageStoreName}} package"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Base Information",
+      "content": "{{ProdFullName}} provides a seamless solution for managing watermarks across {{EnvName}}. Simplify the process of watermark extraction and manipulation across various file formats."
+    },
+    "formats": {
+      "title": "Streamline Watermark Handling",
+      "description": "Streamline watermark handling across different file formats with {{ProdFullName}}."
+    }
+  },
+  "ppt": {
+    "head": {
+      "title": "Effortless {{FileFormatUp}} Presentations Watermark Management",
+      "description": "Effortlessly manage watermarks in documents with {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Simplified Watermark Control for {{FileFormatUp}} Presentations",
+      "description": "Take control of watermarks with ease using {{ProdFullName}} simplified approach.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Free {{PackageStoreName}} Download"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Information",
+      "content": "Take the hassle out of watermark management with {{ProdFullName}}. Seamlessly handle watermark tasks across multiple file formats with minimal effort."
+    },
+    "formats": {
+      "title": "Seamless Watermark Control",
+      "description": "Seamlessly control watermarks across different file formats with {{ProdFullName}}."
+    }
+  },
+  "pptx": {
+    "head": {
+      "title": "Discover Watermark Insights in {{FileFormatUp}} Presentations",
+      "description": "Discover valuable insights hidden within watermarks using {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Uncover Valuable {{FileFormatUp}} Presentations Watermark Insights",
+      "description": "Unlock valuable insights hidden within watermarks using {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "{{PackageStoreName}} package for free"
+    },
+    "about": {
+      "title": "Get info {{ProdFullName}}",
+      "content": "Unlock the potential of {{ProdFullName}} in uncovering valuable insights hidden within watermarks across {{EnvName}}. Easily extract and analyze watermarks from various file formats."
+    },
+    "formats": {
+      "title": "Extract Insights from Watermarks",
+      "description": "Extract valuable insights from watermarks across different file formats with {{ProdFullName}}."
+    }
+  },
+  "rtf": {
+    "head": {
+      "title": "Efficient {{FileFormatUp}} Documents Watermark Extraction",
+      "description": "Efficiently extract watermarks from documents using {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Streamlined {{FileFormatUp}} Documents Watermark Retrieval",
+      "description": "Effortlessly retrieve watermarks using {{ProdFullName}} streamlined approach.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Download at {{PackageStoreName}} for free"
+    },
+    "about": {
+      "title": "Learn more about {{ProdFullName}}",
+      "content": "{{ProdFullName}} offers efficient watermark extraction capabilities for managing watermarks across {{EnvName}}. Streamline the process of watermark retrieval across various file formats."
+    },
+    "formats": {
+      "title": "Efficiently Extract Watermarks",
+      "description": "Efficiently extract watermarks from different file formats with {{ProdFullName}}."
+    }
+  },
+  "xls": {
+    "head": {
+      "title": "Effortlessly Get Watermarks from Any {{FileFormatUp}} Document",
+      "description": "Quickly get watermarks from your {{FileFormatUp}} spreadsheets with {{ProdShortName}}."
+    },
+    "header": {
+      "title": "Access & Get Watermarks from {{FileFormatUp}} Spreadsheets",
+      "description": "Effortlessly retrieve and get watermarks within your {{FileFormatUp}} documents using {{ProdFullName}}.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Get {{ProdFullName}} Free on {{PackageStoreName}}"
+    },
+    "about": {
+      "title": "Unlock Powerful Watermark Management with {{ProdFullName}}",
+      "content": "Revolutionize watermark management within your {{EnvName}} workflow. {{ProdFullName}} empowers you to effortlessly generate, update, retrieve (get), and delete watermarks across various file formats, streamlining your document processing."
+    },
+    "formats": {
+      "title": "Effortlessly Get Watermarks from Any File Format",
+      "description": "Simplify watermark retrieval (get) across all your file formats with the power of {{ProdFullName}}."
+    }
+  },
+  "xlsx": {
+    "head": {
+      "title": "Efficient {{FileFormatUp}} Spreadsheets Watermark Handling",
+      "description": "Efficiently handle watermarks in documents with {{ProdFullName}}."
+    },
+    "header": {
+      "title": "Streamlined Watermark Control in {{FileFormatUp}} Spreadsheets",
+      "description": "Take control of watermarks efficiently using {{ProdFullName}} streamlined approach.",
+      "subtitle": "{{ProdFullName}}",
+      "action_title": "Download {{PackageStoreName}} package"
+    },
+    "about": {
+      "title": "{{ProdFullName}} Base Information",
+      "content": "{{ProdFullName}} provides a streamlined solution for managing watermarks across {{EnvName}}. Simplify the process of watermark handling across various file formats."
+    },
+    "formats": {
+      "title": "Streamline Watermark Control",
+      "description": "Streamline watermark control across different file formats with {{ProdFullName}}."
+    }
+  }
+}

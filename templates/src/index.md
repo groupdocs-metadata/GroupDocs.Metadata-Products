@@ -1,34 +1,36 @@
+<% configRef "..\\configs\\index\\index.yml" %>
+<% include "..\\data\\family_data.md" %>
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-05-17T15:39:50
+date:  <% date "utcnow" %>
 draft: false
 
 product: "Metadata"
 product_tag: "metadata"
 
-lang: en
+lang: <% lower ( get "lang") %>
 
 ############################# Head ############################
-head_title: "Document Metadata C# Java Node.js | manipulate metadata"
-head_description: "Control PDF, images and documents metadata. GroupDocs.Metadata for Microsoft Office, PDF, OpenDocument, Images and etc."
+head_title: "<% "{index-content.head_title}" %>"
+head_description: "<% "{index-content.head_description}" %>"
 
 ############################# Header ############################
-title: "Control Files Metadata"
+title: "<% "{index-content.title}" %>"
 description:  |
-  Add hidden metadata information to your business files and documents.
+  <% "{index-content.description_1}" %>
 
-  Modify or remove metadata that already presented in your documents.
+  <% "{index-content.description_2}" %>
 
-  Collect and analyze information about documents & files metadata.
+  <% "{index-content.description_3}" %>
 
 ############################# Supported Platforms ###############################
 supported_platforms:
   enable: true
-  head_title: "Choose your platform"
-  title: "Platform Compatibility"
-  description: "GroupDocs.Metadata is compatible with the wide range of operating systems and frameworks:"
-  details_link_title: "Learn more"
+  head_title: "<% "{index-content.platforms.head_title}" %>"
+  title: "<% "{index-content.platforms.title}" %>"
+  description: "<% "{index-content.platforms.description}" %>"
+  details_link_title: "<% "{index-content.platforms.learn_more}" %>"
 
   items:
     # items loop
@@ -109,7 +111,7 @@ supported_platforms:
           # features loop
           - rows: "3"
             content: |
-                    Atom <br> Visual Studio Code <br> Any other text editor
+                    Atom <br> Visual Studio Code <br> <% "{index-content.platforms.any_other_text_editor}" %>
       
           # features loop
           - rows: "1"
@@ -119,59 +121,59 @@ supported_platforms:
 ############################# Features ###############################
 features:
   enable: true
-  title: "GroupDocs.Metadata features review"
-  description: "Our solution is designed to manipulate metadata in many popular file formats including images and office documents."
+  title: "<% "{index-content.features.title}" %>"
+  description: "<% "{index-content.features.description}" %>"
 
   items:
     # items loop
     - icon: "protect"
-      title: "Protect business information"
-      content: "Add hidden metadata to your sensitive files and documents."
+      title: "<% "{index-content.features.feature_1.title}" %>"
+      content: "<% "{index-content.features.feature_1.content}" %>"
 
     # items loop
     - icon: "control"
-      title: "Control document metadata"
-      content: "Collect detailed information about metadata contained by documents."
+      title: "<% "{index-content.features.feature_2.title}" %>"
+      content: "<% "{index-content.features.feature_2.content}" %>"
 
     # items loop
     - icon: "manipulate"
-      title: "Manipulate metadata information"
-      content: "Modify content or delete metadata in many supported file formats."
+      title: "<% "{index-content.features.feature_3.title}" %>"
+      content: "<% "{index-content.features.feature_3.content}" %>"
 
     # items loop
     - icon: "additional"
-      title: "Various additional features"
-      content: "Get document preview, extract metadata packages etc."
+      title: "<% "{index-content.features.feature_4.title}" %>"
+      content: "<% "{index-content.features.feature_4.content}" %>"
 
 ############################# Code Samples ###############################
 code_samples:
   enable: true
-  title: "Protect documents using metadata"
-  description: "GroupDocs.Metadata typical operations code examples."
+  title: "<% "{index-content.code_samples.index_title}" %>"
+  description: "<% "{index-content.code_samples.index_description}" %>"
 
   items:
     # items loop
-    - title: "Remove unnecessary metadata from images and documents"
-      content: "GroupDocs.Metadata helps you easily remove hidden information from your files and documents. You can quickly delete details like when and where an image was taken, or remove author and editor info from Office documents."
+    - title: "<% "{index-content.code_samples.sample_index.title}" %>"
+      content: "<% "{index-content.code_samples.sample_index.content}" %>"
       samples:
           # samples loop
           - language: "C#"
             color: "blue"
             content: |
                     <code class="language-csharp" data-lang="csharp">
-                        // Pass path to a document to Metadata constructor
+                        // <% "{index-content.code_samples.sample_index.comment_1}" %>
 
                         using (Metadata metadata = new Metadata("source.docx"))
                         {
-                          // Remove document properties connected to creator and editor
+                          // <% "{index-content.code_samples.sample_index.comment_2}" %>
                           var affected = metadata.RemoveProperties(
                               p => p.Tags.Contains(Tags.Person.Creator) ||
                                    p.Tags.Contains(Tags.Person.Editor);
 
-                          // Process result of metadata removing
+                          // <% "{index-content.code_samples.sample_index.comment_3}" %>
                           Console.WriteLine("Properties removed: {0}", affected);
 
-                          // Save cleaned document
+                          // <% "{index-content.code_samples.sample_index.comment_4}" %>
                           metadata.Save("result.docx");
                         }                    
                     </code>
@@ -181,19 +183,19 @@ code_samples:
             color: "red"
             content: |
                     <code class="language-java" data-lang="java">
-                        // Pass path to a document to Metadata constructor
+                        // <% "{index-content.code_samples.sample_index.comment_1}" %>
 
                         try (Metadata metadata = new Metadata("source.docx");{
 
-                            // Remove document properties connected to creator and editor
+                            // <% "{index-content.code_samples.sample_index.comment_2}" %>
                             int affected = metadata.removeProperties(
                                 new ContainsTagSpecification(Tags.getPerson().getCreator()).or(
                                 new ContainsTagSpecification(Tags.getPerson().getEditor())));
 
-                            // Process result of metadata removing
+                            // <% "{index-content.code_samples.sample_index.comment_3}" %>
                             System.out.println(String.format("Properties removed: %s", affected));
 
-                            // Save cleaned document
+                            // <% "{index-content.code_samples.sample_index.comment_4}" %>
                             metadata.save("result.docx");
                         }
 
@@ -204,20 +206,20 @@ code_samples:
             color: "green"
             content: |
                     <code class="language-java" data-lang="javascript">
-                        // Pass path to a document to Metadata constructor
+                        // <% "{index-content.code_samples.sample_index.comment_1}" %>
 
                         const metadata = new groupdocs.metadata.Metadata("source.docx");
     
-                        // Remove document properties connected to creator and editor
+                        // <% "{index-content.code_samples.sample_index.comment_2}" %>
                         var affected = metadata.removeProperties(
                             new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getCreator()).or(
                             new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getEditor()))
                             );
 
-                        // Process result of metadata removing
+                        // <% "{index-content.code_samples.sample_index.comment_3}" %>
                         console.log('Properties removed: ${affected}');
 
-                        // Save cleaned document
+                        // <% "{index-content.code_samples.sample_index.comment_4}" %>
                         metadata.save(Constants.OutputDocx);                        
 
                     </code>
@@ -225,42 +227,42 @@ code_samples:
 ############################# Supported Formats ###############################
 formats:
   enable: true
-  title: "More than 70 formats are supported"
-  description: "GroupDocs.Metadata helps to control metadata in popular document and file formats."
+  title: "<% "{index-content.formats.title}" %>"
+  description: "<% "{index-content.formats.description}" %>"
 
 ############################# Metrics ###############################
 metrics:
   enable: true
-  title: "GroupDocs.Metadata achievements"
-  description: "Discover the Key Metrics of Our Library's Accomplishments"
+  title: "<% "{index-content.metrics.title}" %>"
+  description: "<% "{index-content.metrics.description}" %>"
 
   items:
     # items loop
     - number: "70+"
-      title: "Supported formats"
-      content: "GroupDocs.Metadata supports metadata manipulation for more than 70 popular file formats."
+      title: "<% "{index-content.metrics.item_1.title}" %>"
+      content: "<% "{index-content.metrics.item_1.description}" %>"
 
     # items loop
     - number: "700k"
-      title: "NuGet downloads"
-      content: "GroupDocs.Metadata for .NET NuGet package was downloaded more than 700,000 times."
+      title: "<% "{index-content.metrics.item_2.title}" %>"
+      content: "<% "{index-content.metrics.item_2.description}" %>"
 
     # items loop
     - number: "15k"
-      title: "Maven downloads"
-      content: "GroupDocs.Metadata has 15,000 downloads on Maven. Powerful Java Metadata Management."
+      title: "<% "{index-content.metrics.item_3.title}" %>"
+      content: "<% "{index-content.metrics.item_3.description}" %>"
 
     # items loop
     - number: "140+"
-      title: "Happy customers"
-      content: "As famous companies as individual developers prefer GroupDocs products to build innovative solutions."
+      title: "<% "{index-content.metrics.item_4.title}" %>"
+      content: "<% "{index-content.metrics.item_4.description}" %>"
 
 
 ############################# Customers ###############################
 customers:
   enable: true
-  title: "Our happy customers"
-  description: "GroupDocs products trusted by many customers globally and used in many competitive business solutions worldwide."
+  title: "<% "{index-content.customers.title}" %>"
+  description: "<% "{index-content.customers.description}" %>"
 
   items:
     # items loop
@@ -307,8 +309,8 @@ customers:
 ############################# Actions ###############################
 actions:
   enable: true
-  title: "Ready to start?"
-  description: "Try GroupDocs.Metadata features for free in your applications"
+  title: "<% "{index-content.actions.title}" %>"
+  description: "<% "{index-content.actions.description_index}" %>"
 
   items:
     # items loop
@@ -329,69 +331,69 @@ actions:
 ############################# FAQ ###############################
 faq:
   enable: true
-  title: "Frequently asked questions"
-  description: "Have questions about our product? We have answers!"
+  title: "<% "{index-content.faq.title}" %>"
+  description: "<% "{index-content.faq.description}" %>"
 
   items:
     # items loop
-    - question: "Does GroupDocs.Metadata require third-party software for document metadata processing?"
-      answer: "GroupDocs.Metadata operates independently; no external libraries like Microsoft Office or Adobe Acrobat are necessary."
+    - question: "<% "{index-content.faq.item_1.question}" %>"
+      answer: "<% "{index-content.faq.item_1.answer}" %>"
 
     # items loop
-    - question: "Can I try out GroupDocs.Metadata features before purchasing?"
-      answer: "Absolutely! GroupDocs.Metadata offers a free trial. Install it and explore its capabilities. However, please note that trial versions add 'trial badges' to your documents, and only process the first 3 pages. For the complete experience, get a free 30-day temporary license for full functionality. Check out the details [here](https://purchase.groupdocs.com/temporary-license/)."
+    - question: "<% "{index-content.faq.item_2.question}" %>"
+      answer: "<% "{index-content.faq.item_2.answer}" %>"
 
     # items loop
-    - question: "What types of licenses are available?"
-      answer: "Looking for a GroupDocs.Metadata license? We've got you covered with various options. Choose from licenses tailored to your needs, based on factors like the number of developers on your team, deployment locations (e.g., single office or remote workplaces), and whether end-customer distribution requires sharing the SDK/API with clients. Alternatively, opt for a monthly usage license, where you pay based on your usage with metered plans. Explore further and find the perfect fit [here](https://purchase.groupdocs.com/pricing/metadata/net/)."
+    - question: "<% "{index-content.faq.item_3.question}" %>"
+      answer: "<% "{index-content.faq.item_3.answer}" %>"
 
 ############################# Cloud Links ###############################
 cloud_links:
   enable: true
-  title: "GroupDocs.Metadata Low Code APIs"
-  description: "Manage sensitive metadata in business files within your application using our cloud-based REST API."
+  title: "<% "{index-content.cloud_links.title}" %>"
+  description: "<% "{index-content.cloud_links.description}" %>"
   
   items:
     # items loop
     - title: "GroupDocs.Metadata Cloud for cURL"
-      content: "Utilize the cURL RESTful API to manipulate metadata in PDFs, Word, Excel, PowerPoint documents, JPEG images, and other popular formats."
+      content: "<% "{index-content.cloud_links.item_1.content}" %>"
       icon: "groupdocs_metadata-for-curl"
       link: "https://products.groupdocs.cloud/metadata/curl"
 
     # items loop
     - title: "GroupDocs.Metadata Cloud for .NET"
-      content: "Leverage the metadata control features offered by Cloud SDK in your .NET applications. Safeguard business documents by managing hidden data."
+      content: "<% "{index-content.cloud_links.item_2.content}" %>"
       icon: "groupdocs_metadata-for-net"
       link: "https://products.groupdocs.cloud/metadata/net"
 
     # items loop
     - title: "GroupDocs.Metadata Cloud for Java"
-      content: " SDK is tailored to provide innovative features for your applications and streamline business processes."
+      content: "<% "{index-content.cloud_links.item_3.content}" %>"
       icon: "groupdocs_metadata-for-java"
       link: "https://products.groupdocs.cloud/metadata/java"
 
 ############################# App links ###############################
 app_links:
   enable: true
-  title: "GroupDocs.Metadata Web apps"
-  description: "Access GroupDocs web application for managing document metadata. Process over 70 popular file formats in your favorite browser FOR FREE."
+  title: "<% "{index-content.app_links.title}" %>"
+  description: "<% "{index-content.app_links.description}" %>"
 
   items:
     # items loop
     - title: "GroupDocs.Metadata Total"
-      content: "Easily update metadata in documents from any device."
+      content: "<% "{index-content.app_links.item_1.content}" %>"
       icon: "groupdocs_metadata-app"
       link: "https://products.groupdocs.app/metadata/total"
 
     # items loop
     - title: "GroupDocs.Metadata DOCX"
-      content: "Use the online MS Word DOCX Metadata Tool."
+      content: "<% "{index-content.app_links.item_2.content}" %>"
       icon: "groupdocs_words-app"
       link: "https://products.groupdocs.app/metadata/docx"
 
     # items loop
     - title: "GroupDocs.Metadata PDF"
-      content: "Protect PDF documents online."
+      content: "<% "{index-content.app_links.item_3.content}" %>"
       icon: "groupdocs_pdf-app"
       link: "https://products.groupdocs.app/metadata/pdf"
 

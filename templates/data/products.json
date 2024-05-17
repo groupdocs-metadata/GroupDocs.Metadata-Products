@@ -1,32 +1,88 @@
 {
-    "products": {        
-        "net": {
-            "name": ".NET",
-            "fullName": "GroupDocs.Metadata for .NET",
-            "code": "net",
-            "progLang": "C#",
-            "srcFileExt": ".cs",
-            "syntax": "csharp",
-            "devEnv": "Visual Studio, Xamarin, MonoDevelop",
-            "runtime": ".NET Framework, .NET Standard, .NET Core, Mono",
-            "repoName": "NuGet",
-            "repoUrl": "https://www.nuget.org/packages/groupdocs.metadata",
-            "url": "https://products.groupdocs.com/metadata/net/",
-            "logo_url": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-metadata-net.png"
-        },
-        "java": {
-            "name": "Java",
-            "fullName": "GroupDocs.Metadata for Java",
-            "code": "java",
-            "progLang": "Java",
-            "srcFileExt": ".java",
-            "syntax": "java",
-            "devEnv": "NetBeans, IntelliJ IDEA, Eclipse",
-            "runtime": "J2SE 6.0 and above",
-            "repoName": "Maven",
-            "repoUrl": "https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata",
-            "url": "https://products.groupdocs.com/metadata/java/",
-            "logo_url": "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-metadata-java.png"
-        }
+  "products": {
+    "nameCompany": "GroupDocs",
+    "nameProduct": "Metadata",
+    "productShortName": "GroupDocs.Metadata",
+    "licensingUrl": "https://purchase.groupdocs.com/temporary-license/",
+    "pricingUrl": "https://purchase.groupdocs.com/pricing/metadata/net/",
+    "textMetadata": "Metadata",
+    "textWatermarkerBold": "**Watermarker**",
+    "textWatermarkBold": "**Watermark**",
+    "textSearchBold": "**Search**",
+    "textSearchCriteriaBold": "**SearchCriteria**",
+    "textTextSearchCriteria": "TextSearchCriteria",
+    "textSearchCriteria": "SearchCriteria",
+    "net": {
+      "environmentName": ".NET",
+      "productCode": "net",
+      "productFullName": "GroupDocs.Metadata for .NET",
+
+      "programmingLanguage": "C#",
+      "srcFileExt": ".cs",
+      "syntax": "csharp",
+      "developmentEnvironment": "Microsoft Visual Studio, Xamarin, MonoDevelop",
+      "runtime": "Frameworks: .NET Framework, .NET Standard, .NET Core, Mono",
+
+      "productUrl": "https://products.groupdocs.com/metadata/net/",
+      "packageStoreName": "Nuget",
+      "packageUrl": "https://www.nuget.org/packages/GroupDocs.Metadata",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/metadata/net/",
+      "docsUrl": "https://docs.groupdocs.com/metadata/net/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/metadata/net/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/metadata/net/adding-image-metadatas/#add-image-metadata-from-local-file/",
+      "sample2Url": "https://docs.groupdocs.com/metadata/net/modifing-found-metadata-properties/#replacing-text/",
+
+      "more_link": "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-.NET/",
+      "release_downloads": "https://releases.groupdocs.com/metadata/net/"
+
+    },
+    "java": {
+      "environmentName": "Java",
+      "productCode": "java",
+      "productFullName": "GroupDocs.Metadata for Java",
+
+      "programmingLanguage": "Java",
+      "srcFileExt": ".java",
+      "syntax": "java",
+      "developmentEnvironment": "NetBeans, Intellij IDEA, Eclipse, etc.",
+      "runtime": "Java runtime: J2SE 6.0 and above",
+
+      "productUrl": "https://products.groupdocs.com/metadata/java/",
+      "packageStoreName": "Maven",
+      "packageUrl": "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-metadata/",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/metadata/java/",
+      "docsUrl": "https://docs.groupdocs.com/metadata/java/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/metadata/net/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/metadata/java/adding-image-metadatas/#add-image-metadata-from-local-file/",
+      "sample2Url": "https://docs.groupdocs.com/metadata/java/modifying-found-metadata-properties/#replacing-text/",
+
+      "more_link": "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java/",
+      "release_downloads": "https://releases.groupdocs.com/metadata/java/"
+
+    },
+    "nodejs-java": {
+      "environmentName": "Node.js via Java",
+      "productCode": "nodejs-java",
+      "productFullName": "GroupDocs.Metadata for Node.js via Java",
+
+      "programmingLanguage": "JavaScript",
+      "srcFileExt": ".js",
+      "syntax": "javascript",
+      "developmentEnvironment": "Intellij IDEA, Eclipse Che, Visual Studio Code, WebStorm, etc.",
+      "runtime": "Node.js",
+
+      "productUrl": "https://products.groupdocs.com/metadata/nodejs-java/",
+      "packageStoreName": "NPM",
+      "packageUrl": "https://www.npmjs.com/package/@groupdocs/groupdocs.metadata",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/metadata/nodejs-java/",
+      "docsUrl": "https://docs.groupdocs.com/metadata/nodejs-java/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/metadata/net/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/metadata/java/adding-image-metadatas/#add-image-metadata-from-local-file/",
+      "sample2Url": "https://docs.groupdocs.com/metadata/java/modifying-found-metadata-properties/#replacing-text/",
+
+      "more_link": "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Node.js-via-Java/",
+      "release_downloads": "https://releases.groupdocs.com/metadata/nodejs-java/"
+
     }
+  }
 }
