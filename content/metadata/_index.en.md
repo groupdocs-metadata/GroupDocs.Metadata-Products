@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-05-17T15:39:50
+date:  2024-05-20T12:28:27
 draft: false
 
 product: "Metadata"
@@ -10,12 +10,14 @@ product_tag: "metadata"
 lang: en
 
 ############################# Head ############################
-head_title: "Document Metadata C# Java Node.js | manipulate metadata"
+head_title: ".NET, Java, Node.js APIs & Online Metadata Manipulation Apps by GroupDocs"
 head_description: "Control PDF, images and documents metadata. GroupDocs.Metadata for Microsoft Office, PDF, OpenDocument, Images and etc."
 
 ############################# Header ############################
-title: "Control Files Metadata"
+title: "Document Metadata Management Solution"
 description:  |
+  APIs and apps to read, edit, replace and remove metadata of documents, images and other file formats on popular platforms.
+
   Add hidden metadata information to your business files and documents.
 
   Modify or remove metadata that already presented in your documents.
@@ -348,50 +350,50 @@ faq:
 ############################# Cloud Links ###############################
 cloud_links:
   enable: true
-  title: "GroupDocs.Metadata Low Code APIs"
+  title: "GroupDocs.Metadata Low Code APIs Include"
   description: "Manage sensitive metadata in business files within your application using our cloud-based REST API."
   
   items:
     # items loop
     - title: "GroupDocs.Metadata Cloud for cURL"
-      content: "Utilize the cURL RESTful API to manipulate metadata in PDFs, Word, Excel, PowerPoint documents, JPEG images, and other popular formats."
+      content: "Work with cURL RESTful metadata manipulation APIs to manage metadata information of PDF, Word, Excel, Presentations, images and multimedia file in your applications."
       icon: "groupdocs_metadata-for-curl"
       link: "https://products.groupdocs.cloud/metadata/curl"
 
     # items loop
     - title: "GroupDocs.Metadata Cloud for .NET"
-      content: "Leverage the metadata control features offered by Cloud SDK in your .NET applications. Safeguard business documents by managing hidden data."
+      content: "Use metadata REST API with .NET SDK to add, edit, extract, search and delete metadata from document formats within .NET applications."
       icon: "groupdocs_metadata-for-net"
       link: "https://products.groupdocs.cloud/metadata/net"
 
     # items loop
     - title: "GroupDocs.Metadata Cloud for Java"
-      content: " SDK is tailored to provide innovative features for your applications and streamline business processes."
+      content: "Enhance your Java applications with powerful metadata management features using Metadata SDK for Java."
       icon: "groupdocs_metadata-for-java"
       link: "https://products.groupdocs.cloud/metadata/java"
 
 ############################# App links ###############################
 app_links:
   enable: true
-  title: "GroupDocs.Metadata Web apps"
+  title: "GroupDocs.Metadata No Code Apps Include"
   description: "Access GroupDocs web application for managing document metadata. Process over 70 popular file formats in your favorite browser FOR FREE."
 
   items:
     # items loop
     - title: "GroupDocs.Metadata Total"
-      content: "Easily update metadata in documents from any device."
+      content: "Free app to view & edit metadata of Word, Excel, PDF, PowerPoint and more than 70 document types."
       icon: "groupdocs_metadata-app"
       link: "https://products.groupdocs.app/metadata/total"
 
     # items loop
     - title: "GroupDocs.Metadata DOCX"
-      content: "Use the online MS Word DOCX Metadata Tool."
+      content: "Free online metadata viewer & editor for MS Word documents."
       icon: "groupdocs_words-app"
       link: "https://products.groupdocs.app/metadata/docx"
 
     # items loop
     - title: "GroupDocs.Metadata PDF"
-      content: "Protect PDF documents online."
+      content: "View or edit Metadata information of PDF documents online."
       icon: "groupdocs_pdf-app"
       link: "https://products.groupdocs.app/metadata/pdf"
 

@@ -1,8 +1,9 @@
 {
   "index-content": {
-    "head_title": "Document Metadata C# Java Node.js | manipulate metadata",
+    "head_title": ".NET, Java, Node.js APIs & Online Metadata Manipulation Apps by {{NameCompany}}",
     "head_description": "Control PDF, images and documents metadata. {{ProdShortName}} for Microsoft Office, PDF, OpenDocument, Images and etc.",
-    "title": "Control Files Metadata",
+    "title": "Document Metadata Management Solution",
+    "description_0": "APIs and apps to read, edit, replace and remove metadata of documents, images and other file formats on popular platforms.",
     "description_1": "Add hidden metadata information to your business files and documents.",
     "description_2": "Modify or remove metadata that already presented in your documents.",
     "description_3": "Collect and analyze information about documents & files metadata.",
@@ -122,29 +123,29 @@
       }
     },
     "cloud_links": {
-      "title": "{{ProdShortName}} Low Code APIs",
+      "title": "{{ProdShortName}} Low Code APIs Include",
       "description": "Manage sensitive metadata in business files within your application using our cloud-based REST API.",
       "item_1": {
-        "content": "Utilize the cURL RESTful API to manipulate metadata in PDFs, Word, Excel, PowerPoint documents, JPEG images, and other popular formats."
+        "content": "Work with cURL RESTful metadata manipulation APIs to manage metadata information of PDF, Word, Excel, Presentations, images and multimedia file in your applications."
       },
       "item_2": {
-        "content": "Leverage the metadata control features offered by Cloud SDK in your .NET applications. Safeguard business documents by managing hidden data."
+        "content": "Use metadata REST API with .NET SDK to add, edit, extract, search and delete metadata from document formats within .NET applications."
       },
       "item_3": {
-        "content": "{{ProdFullName}} SDK is tailored to provide innovative features for your applications and streamline business processes."
+        "content": "Enhance your Java applications with powerful metadata management features using Metadata SDK for Java."
       }
     },
     "app_links": {
-      "title": "{{ProdShortName}} Web apps",
+      "title": "{{ProdShortName}} No Code Apps Include",
       "description": "Access {{NameCompany}} web application for managing document metadata. Process over 70 popular file formats in your favorite browser FOR FREE.",
       "item_1": {
-        "content": "Easily update metadata in documents from any device."
+        "content": "Free app to view & edit metadata of Word, Excel, PDF, PowerPoint and more than 70 document types."
       },
       "item_2": {
-        "content": "Use the online MS Word DOCX Metadata Tool."
+        "content": "Free online metadata viewer & editor for MS Word documents."
       },
       "item_3": {
-        "content": "Protect PDF documents online."
+        "content": "View or edit Metadata information of PDF documents online."
       }
     },
     "formats_groups": {

@@ -18,6 +18,8 @@ head_description: "<% "{index-content.head_description}" %>"
 ############################# Header ############################
 title: "<% "{index-content.title}" %>"
 description:  |
+  <% "{index-content.description_0}" %>
+
   <% "{index-content.description_1}" %>
 
   <% "{index-content.description_2}" %>
