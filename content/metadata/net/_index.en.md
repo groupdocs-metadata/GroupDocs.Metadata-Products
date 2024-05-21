@@ -1,13 +1,27 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2024-03-14T18:19:54
+layout: "landing"
+date: 2024-05-21T15:27:53
 draft: false
 
+lang: en
 product: "Metadata"
 product_tag: "metadata"
-platform: ".NET"
+platform: "Net"
 platform_tag: "net"
+
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
 
 ############################# Head ############################
 head_title: ".NET Metadata Reader, Viewer, Extractor, Remover & Exporter API"
@@ -16,315 +30,247 @@ head_description: "C# .NET metadata API to read, write, edit, analyze, search, e
 ############################# Header ############################
 title: ".NET API to Manage & Manipulate Metadata"
 description: "Build .NET Applications to Read, Edit, Remove, Retrieve, Search, Compare, Replace and Export Metadata Information of all Popular Documents & Image File Formats."
-button:
-    enable: true
+words:
+  for: "for"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Metadata for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-metadata-net.png"
-        product: "GroupDocs.Metadata"
-        platform: ".NET"
-        
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Overview"
+actions:
+  main: "Free NuGet Download"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Metadata"
+  alt: "Licensing"
+  alt_link: "https://purchase.groupdocs.com/pricing/metadata/net/"
+  title: "Ready to start?"
+  description: "Try GroupDocs.Metadata features for free or request a license"
 
-            # button loop
-            - link: "#features"
-              text: "Features"
+release:
+  title: "Version {0} released"
+  notes: "See what’s new"
+  downloads: "Downloads"
 
-            # button loop
-            - link: "#support"
-              text: "Support"
+code:
+  title: "Quickly Fetching Metadata Properties"
+  more: "More examples"
+  more_link: "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-.NET/"
+  install: "dotnet add package GroupDocs.Watermark"
+  content: |
+    ```csharp {style=abap}   
+    // Pass Jpeg to Metadata
+    using (var metadata = new Metadata("sample.jpeg"))
+    {
+      // Remove main metadata package
+      var root = metadata.GetRootPackage();
+      root.RemoveImageResourcePackage();
+      // Save cleared image
+      metadata.Save("output.jpeg");
+    }
 
-            # button loop
-            - link: "https://products.groupdocs.app/metadata"
-              text: "Live Demo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/metadata/net"
-              text: "Pricing"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/metadata"
-        link_learn: "https://docs.groupdocs.com/metadata/net/"
-        link_buy: "https://purchase.groupdocs.com"
+    ```
 
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Metadata for .NET API is easy to integrate with C#, ASP.NET and other .NET based applications to help your end-users manipulate metadata from a range of images, documents and other media file formats without installing any external software. The .NET metadata library supports building tools to quickly add metadata viewer, editor, remover, extractor, comparison and exporter functionalities within a number of industry standard document formats such as PDF, Microsoft Office Word, Excel spreadsheets, PowerPoint presentations, Outlook emails, Project, Visio diagrams, OneNote, images, AutoCAD, Photoshop, audio, video and metafiles.  
+  enable: true
+  title: "GroupDocs.Metadata at a glance"
+  description: "Following is an overview of GroupDocs.Metadata for .NET"
+  features:
+    # feature loop
+    - title: "C# applications integration"
+      content: "GroupDocs.Metadata for .NET API is easy to integrate with C#, ASP.NET and other .NET based applications to help your end-users manipulate metadata from a range of images, documents and other media file formats without installing any external software. The .NET metadata library supports building tools to quickly add metadata viewer, editor, remover, extractor, comparison and exporter functionalities within a number of industry standard document formats such as PDF, Microsoft Office Word, Excel spreadsheets, PowerPoint presentations, Outlook emails, Project, Visio diagrams, OneNote, images, AutoCAD, Photoshop, audio, video and metafiles."
 
-      The Metadata API is very flexible and easy to operate with. It gets the document file as input, analyses the metadata information, allows to perform supported meta data operations and save the modified file to access quickly in future use. It works with most notable metadata standards such as built-in, XMP, EXIF, IPTC, Image Resource Blocks, ID3 and custom metadata properties. Through GroupDocs.Metadata for .NET API, you can also compare two documents to identify differences and similarities present in their metadata properties. You can also export metadata of required documents to Excel, CSV or DataSet.
+    # feature loop
+    - title: "Various metadata types"
+      content: "The Metadata API is very flexible and easy to operate with. It gets the document file as input, analyses the metadata information, allows to perform supported meta data operations and save the modified file to access quickly in future use. It works with most notable metadata standards such as built-in, XMP, EXIF, IPTC, Image Resource Blocks, ID3 and custom metadata properties. Through GroupDocs.Metadata for .NET API, you can also compare two documents to identify differences and similarities present in their metadata properties. You can also export metadata of required documents to Excel, CSV or DataSet."
 
-      GroupDocs.Metadata for .NET can be used to develop applications in any development environment that targets .NET platform. It is compatible with all .NET based languages and supports popular operating systems (Windows, Linux, MacOS) where Mono or .NET frameworks (including .NET Core) can be installed.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Following is an overview of GroupDocs.Metadata for .NET:
-      
-        left:
-          enable: true
-          icon: "fas fa-file-image"
-          title: "Working with Images"
-          content: |
-            * XMP Metadata
-            * EXIF Metadata
-            * IPTC-IIM Metadata
-            * PSD Metadata
-            * CAD Metadata
-            * Parse Additional IFD Tags
+    # feature loop
+    - title: "All popular environments are supported"
+      content: "GroupDocs.Metadata for .NET can be used to develop applications in any development environment that targets .NET platform. It is compatible with all .NET based languages and supports popular operating systems (Windows, Linux, MacOS) where Mono or .NET frameworks (including .NET Core) can be installed."
+
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Platform Independence"
+  description: "GroupDocs.Metadata for .NET supports following Operating Systems, Frameworks & Package Managers:"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
+
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Supported file formats"
+  description: |
+    GroupDocs.Metadata for .NET supports following [document file formats](https://docs.groupdocs.com/metadata/net/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Office formats
+        * **Portable:** PDF 
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+        * **OpenDocument:** ODT, ODS
+        * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
+    # group loop
+    - color: "blue"
+      content: |
+        ### Media & Graphics
+        * **Video:** AVI, MOV, QT, FLV
+        * **Popular image formats:** JPG, JPEG, JPE, JP2, PNG, BMP
+        * **Multi-page images:** GIF, WEBP, TIFF, DJVU, DJV, DICOM
+        * **Audio:** MP3, WAV
+        * **Matroska Media Container:** MKV, MKA, MK3D, WEBM
+        * **AutoCAD:** DWG, DXF
+        * **Photoshop:** PSD
+      # group loop
+    - color: "red"
+      content: |
+        ### Other
+        * **Outlook:** MSG, EML, EMLX, PST, OS
+        * **Fonts:** OTF, OTC, TTF, TTC
+        * **Project:** MPP
+        * **Metafiles:** EMF, WMF
+        * **vCard:** VCF, VCR
+        * **OneNote:** ONE
+        * **Others:** EPUB, ZIP, TORRENT, ASF
         
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Working with Audio & Video"
-          content: |
-            * Runtime MP3 Format Detection
-            * Read Lyrics3 Tag
-            * Read MPEG Audio Info
-            * Read AVI Header Info
-            * Read Matroska subtitles
-            * Export Data to Excel or CSV
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Metadata for .NET supports following [document file formats](https://docs.groupdocs.com/metadata/net/supported-document-formats/):
-
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-                * **Project:** MPP
-                * **Outlook:** MSG, EML, EMLX, PST, OST
-                * **OneNote:** ONE
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Other Formats"
-              content: |
-                * **OpenDocument**: ODT, ODS
-                * **Portable**: PDF
-                * **Photoshop**: PSD
-                * **AutoCAD**: DWG, DXF
-                * **Audio**:  MP3, WAV
-                * **Video**: AVI, MOV, QT, FLV
-                * **Metafiles**: EMF, WMF
-                * **vCard**: VCF, VCR
-                * **Images**: JPG, JPEG, JPE, JP2, PNG, GIF, TIFF, WebP, BMP, DJVU, DJV, DICOM
-                * **Matroska Media Container**: MKV, MKA, MK3D, WEBM
-                * **OpenType**: OTF, OTC, TTF, TTC
-                * **Others**: EPUB, ZIP, TORRENT, ASF
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Metadata for .NET supports following Operating Systems, Frameworks & Package Managers:
         
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Operating Systems"
-              content: |
-                * Windows Desktop
-                * Windows Server
-                * Windows Azure
-                * Linux
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Supported Frameworks"
-              content: |
-                * .NET Framework 2.0 or higher
-                * Mono Framework 1.2 or higher
-                * .NET Standard 2.0
-                * .NET Core 2.0
-                * .NET Core 2.1
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Package Managers"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Development Environments"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Metadata for .NET Features"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Identify Built-in & Custom Metadata"
-       
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Retrieve & Remove Hidden Data in Microsoft Word, Excel, PowerPoint & PDF"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Run-time Recognition of Document File Type"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Ability to Detect/Remove Digital Signatures"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Identify Password Protection & Support for the Matroska Multimedia Container"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Retrieve Thumbnails & Render Image Previews for Supported Formats"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Detect MIME Type of a Specific File or File Stream"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Generate Image Previews for EPUB, CAD, EML & MSG Files"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Use Defined Key to Read Metadata Property of Supported Formats"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Read Metadata of Email Messages & Parse OpenType Font Files"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Read Matroska subtitles and retrieve Metadata of Audio & Video Files"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Get Metadata of Archive formats & Torrents"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Compare Metadata Properties of Supported Formats & Identity Differences or Similarities"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Search Metadata Properties of Files and Enumerate any Type of Metadata"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Replace Metadata Properties of Supported File Formats"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Extract Metadata from Microsoft Excel Files Starting from Excel 95"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Find Photos Made on Specific Camera"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Import Images Metadata Properties & Remove Location Info from Photos"
-
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Remove Metadata & Comments From Reports and Documents"
-        
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Extract Text Metadata from PNG Image files"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Reducing Memory Consumption of Documents & Images"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Update EXIF Metadata Properties in WEBP, PNG & PSD Files"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Extract XMP Metadata Properties in MOV, MP3 & WEBP Files"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Add, Update and Delete IPTC Metadata Packages in TIFF Images"
-
-        
-    more_feature:
-      # more_feature_loop
-      - title: "Quickly Fetching Metadata Properties"
-        content: |
-          Using GroupDocs.Metadata for .NET API, manipulating any sort of metadata for supported file formats is pretty straight forward business. Following piece of code demonstrates how easy it is to remove Photoshop metadata from a JPEG file using C#:
-          ```cs
-          using (var metadata = new GroupDocs.Metadata.Metadata("sample.jpeg"))
-          {
-            var root = metadata.GetRootPackage();
-            root.RemoveImageResourcePackage();
-            metadata.Save("output.jpeg");
-          }
-          ```      
-      # more_feature_loop
-      - title: "Retrieval and Manipulation of Hidden Data"
-        content: "GroupDocs.Metadata for .NET provides a handy mechanism to fetch and remove hidden data in PDF as well as Microsoft Word, Excel, and PowerPoint documents. You can manipulate comments, merge fields, hidden pages, form fields, annotations and more."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Metadata offers document viewing APIs for other popular development environments"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Metadata for Java"
-          image: "/border/groupdocs-metadata-java.svg"
-          product: "GroupDocs.Metadata"
-          platform: "Java"
-          link: "/metadata/java/"
-
-        # solution loop
-        - img_alt: "GroupDocs.Metadata for Node.js"
-          image: "/border/groupdocs-metadata-nodejs-java.svg"
-          product: "GroupDocs.Metadata"
-          platform: "Node.js via Java"
-          link: "/metadata/nodejs-java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Metadata features"
+  description: "Protect PDF, Office, Images and other formats by watermark"
+
+  items:
+    # feature loop
+    - icon: "watermark_add"
+      title: "Identify Built-in & Custom Metadata"
+      content: "Retrieve & Remove Hidden Data in Microsoft Word, Excel, PowerPoint & PDF"
+
+    # feature loop
+    - icon: "watermark_style"
+      title: "Run-time Recognition of Document File Type"
+      content: "Ability to Detect/Remove Digital Signatures"
+
+    # feature loop
+    - icon: "hidden_print"
+      title: "Detect MIME Type of a Specific File or File Stream"
+      content: "Reducing Memory Consumption of Documents & Images"
+
+    # feature loop
+    - icon: "image_only"
+      title: "Read Matroska subtitles and retrieve Metadata of Audio & Video Files"
+      content: "Identify Password Protection & Support for the Matroska Multimedia Container"
+
+    # feature loop
+    - icon: "image_frame"
+      title: "Generate Image Previews for EPUB, CAD, EML & MSG Files"
+      content: "Retrieve Thumbnails & Render Image Previews for Supported Formats"
+
+    # feature loop
+    - icon: "attachments"
+      title: "Search Metadata Properties of Files and Enumerate any Type of Metadata"
+      content: "Compare Metadata Properties of Supported Formats & Identity Differences or Similarities"
+
+    # feature loop
+    - icon: "pdf_objects"
+      title: "Replace Metadata Properties of Supported File Formats"
+      content: "Extract Metadata from Microsoft Excel Files Starting from Excel 95"
+
+    # feature loop
+    - icon: "doc_background"
+      title: "Find Photos Made on Specific Camera"
+      content: "Import Images Metadata Properties & Remove Location Info from Photos"
+
+    # feature loop
+    - icon: "unreadable_characters"
+      title: "Get Metadata of Archive formats & Torrents"
+      content: "Use Defined Key to Read Metadata Property of Supported Formats"
+
+    # feature loop
+    - icon: "watermark_text_search"
+      title: "Extract Text Metadata from PNG Image files"
+      content: "Update EXIF Metadata Properties in WEBP, PNG & PSD Files"
+
+    # feature loop
+    - icon: "watermark_image_search"
+      title: "Remove Metadata & Comments From Reports and Documents"
+      content: "Read Metadata of Email Messages & Parse OpenType Font Files"
+
+    # feature loop
+    - icon: "document_info"
+      title: "Add, Update and Delete IPTC Metadata Packages in TIFF Images"
+      content: "Extract XMP Metadata Properties in MOV, MP3 & WEBP Files"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Code samples"
+  description: "Some use cases of typical GroupDocs.Metadata for .NET operations"
+  items:
+    # code sample loop
+    - title: "Watermark by adding an image to a document."
+      content: |
+        To protect any document you can use [image watermarks](https://docs.groupdocs.com/metadata/net/adding-image-metadatas/#add-image-metadata-from-local-file/):
+        {{< landing/code title="How to protect file by image watermark.">}}
+        ```csharp {style=abap}
+        // Load source document to Watermarker
+        using (Watermarker watermarker = new Watermarker("document.pdf"))
+        {
+            // Specify path to a watermark image
+            using (ImageWatermark watermark = new ImageWatermark("watermark.jpg"))
+            {
+                // Protect the file and save it
+                watermarker.Add(watermark);
+
+                watermarker.Save("result.pdf");
+            }
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Search and modify existing watermarks."
+      content: |
+        GroupDocs.Metadata is able to [modify watermarks](https://docs.groupdocs.com/metadata/net/modifing-found-metadata-properties/#replacing-text/) that are already presented in a document. Search for desired items and update their properties.
+        {{< landing/code title="Watermarks search & modification.">}}
+        ```csharp {style=abap}   
+        // Load source document
+        using (Watermarker watermarker = new Watermarker("document.pdf"))
+        {
+            // Search for watermarks to be updated
+            TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);
+            PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
+            foreach (PossibleWatermark watermark in watermarks)
+            {
+                // Update desired properties
+                watermark.Text = "New Text";
+            }
+
+            // Save modified document to a specified path
+            watermarker.Save("document.pdf");
+        }
+        ```
+        {{< /landing/code >}}
+
 ---

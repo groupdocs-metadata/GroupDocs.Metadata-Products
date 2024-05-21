@@ -12,14 +12,10 @@
     "release_notes": "See what’s new",
     "release_downloads": "Downloads",
     "code_more": "More examples",
-    "code_comment_1": "Instantiate Watermarker passing PDF path",
-    "code_comment_2": "Customize watermark options",
-    "code_comment_3": "Apply watermark to PDF document",
-    "code_comment_4": "Save result document",
     "overview_title": "{{ProdShortName}} at a glance",
     "formats_title": "Supported file formats",
     "platforms": {
-      "title": "Platform Compatibility",
+      "title": "Platform Independence",
       "head_title": "Choose your platform",
       "description": "{{ProdShortName}} is compatible with the wide range of operating systems and frameworks:",
       "learn_more": "Learn more",
@@ -149,92 +145,96 @@
       }
     },
     "formats_groups": {
-      "title_1": "Microsoft Office & OpenDocument formats",
-      "title_2": "Images & Graphics",
+      "title_1": "Office formats",
+      "title_2": "Media & Graphics",
       "title_3": "Other",
       "format_portable": "Portable",
+      "format_video": "Video",
+      "format_audio": "Audio",
+      "format_fonts": "Fonts",
+      "format_project": "Project",
+      "format_others": "Others",
       "format_popular_images": "Popular image formats",
       "format_multi_images": "Multi-page images"
     }
   },
   "index-content-net": {
-    "head_title": "C# .NET Document Watermark Software | add watermark",
-    "head_description": "C# .NET Library to add, search and remove watermarks in documents: PDF, Word, Excel, presentations, Visio diagrams, email and image file formats.",
-    "title": "Watermark documents easily in your C# .NET applications",
-    "description": "Empower your C# solutions with a flexible document watermarking API that provides adding customizable watermarks to all popular document formats.",
+    "head_title": "{{EnvNameShort}} Metadata Reader, Viewer, Extractor, Remover & Exporter API",
+    "head_description": "C# {{EnvNameShort}} metadata API to read, write, edit, analyze, search, extract, remove, compare & export metadata of PDF Word Excel PPTX Outlook Audio Video & Images.",
+    "title": "{{EnvNameShort}} API to Manage & Manipulate Metadata",
+    "description": "Build {{EnvNameShort}} Applications to Read, Edit, Remove, Retrieve, Search, Compare, Replace and Export Metadata Information of all Popular Documents & Image File Formats.",
     "actions_main": "Free NuGet Download",
-    "code_title": "Watermark PDF files in C#",
-    "overview_description": "API to put watermarks on documents via .NET",
+    "code_title": "Quickly Fetching Metadata Properties",
+    "code_comment_1": "Pass Jpeg to Metadata",
+    "code_comment_2": "Remove main metadata package",
+    "code_comment_3": "Save cleared image",
+    "overview_description": "Following is an overview of {{ProdFullName}}",
     "overview_feature_1": {
-      "title": "C# files watermark",
-      "description": "Add watermarks to your business files using {{ProdShortName}}. Use text, images, diagrams or email attachments."
+      "title": "{{ProgLang}} applications integration",
+      "description": "{{ProdFullName}} API is easy to integrate with {{ProgLang}}, {{AspNet}} and other {{EnvNameShort}} based applications to help your end-users manipulate metadata from a range of images, documents and other media file formats without installing any external software. The {{EnvNameShort}} metadata library supports building tools to quickly add metadata viewer, editor, remover, extractor, comparison and exporter functionalities within a number of industry standard document formats such as PDF, Microsoft Office Word, Excel spreadsheets, PowerPoint presentations, Outlook emails, Project, Visio diagrams, OneNote, images, AutoCAD, Photoshop, audio, video and metafiles."
     },
     "overview_feature_2": {
-      "title": "Customize watermarks to your goals",
-      "description": "{{ProdFullName}} software allows to customize watermarks in various ways. Text styles like bold, italic, font types along with image properties like rotation etc. enrich watermarking process."
+      "title": "Various metadata types",
+      "description": "The Metadata API is very flexible and easy to operate with. It gets the document file as input, analyses the metadata information, allows to perform supported meta data operations and save the modified file to access quickly in future use. It works with most notable metadata standards such as built-in, XMP, EXIF, IPTC, Image Resource Blocks, ID3 and custom metadata properties. Through {{ProdFullName}} API, you can also compare two documents to identify differences and similarities present in their metadata properties. You can also export metadata of required documents to Excel, CSV or DataSet."
     },
     "overview_feature_3": {
-      "title": "All popular file formats are supported",
-      "description": "Many file and document formats are supported by {{ProdShortName}} solution. PDF, Microsoft Office Word, Excel, PowerPoint, images like JPEG, PNG, GIF, BMP, Visio diagrams, emails etc. could be protected with our watermarks."
-    },
-    "overview_feature_4": {
-      "title": "Search and update watermarks",
-      "description": "Watermarks which are already presented in a document may be found and processed again. Modify text, style, images or remove revealed watermarks without extra efforts."
+      "title": "All popular environments are supported",
+      "description": "{{ProdFullName}} can be used to develop applications in any development environment that targets {{EnvNameShort}} platform. It is compatible with all {{EnvNameShort}} based languages and supports popular operating systems (Windows, Linux, MacOS) where {{Mono}} or {{EnvNameShort}} frameworks (including {{CoreNet}}) can be installed."
     },
     "features": {
       "title": "{{ProdShortName}} features",
       "description": "Protect PDF, Office, Images and other formats by watermark",
       "feature_1": {
-        "title": "Documents watermarking",
-        "content": "Add or Remove Watermarks from a Particular Section or whole Document of Various File Formats."
+        "title": "Identify Built-in & Custom Metadata",
+        "content": "Retrieve & Remove Hidden Data in Microsoft Word, Excel, PowerPoint & PDF"
       },
       "feature_2": {
-        "title": "Style your watermark",
-        "content": "Customize various watermark properties like color, font, rotation etc."
+        "title": "Run-time Recognition of Document File Type",
+        "content": "Ability to Detect/Remove Digital Signatures"
       },
       "feature_3": {
-        "title": "PDF hidden printing watermark",
-        "content": "Allocate Hidden Watermark to PDF that only Appears when Printing Document."
+        "title": "Detect MIME Type of a Specific File or File Stream",
+        "content": "Reducing Memory Consumption of Documents & Images"
       },
       "feature_4": {
-        "title": "Watermark only images in documents",
-        "content": "Watermark all Images in a Particular Section, Page, Slide, or Document."
+        "title": "Read Matroska subtitles and retrieve Metadata of Audio & Video Files",
+        "content": "Identify Password Protection & Support for the Matroska Multimedia Container"
       },
       "feature_5": {
-        "title": "Process selected image frames",
-        "content": "Assign Watermark to only Particular Frames of a Multi-Framed Image."
+        "title": "Generate Image Previews for EPUB, CAD, EML & MSG Files",
+        "content": "Retrieve Thumbnails & Render Image Previews for Supported Formats"
       },
       "feature_6": {
-        "title": "Attachments & shapes",
-        "content": "Set Watermark to all Attachments in an Excel Document & all Image Shapes in Slides."
+        "title": "Search Metadata Properties of Files and Enumerate any Type of Metadata",
+        "content": "Compare Metadata Properties of Supported Formats & Identity Differences or Similarities"
       },
       "feature_7": {
-        "title": "PDF objects",
-        "content": "Align Watermark to Bleed Box, Art Box, Crop Box, or Trim Box in PDF Document."
+        "title": "Replace Metadata Properties of Supported File Formats",
+        "content": "Extract Metadata from Microsoft Excel Files Starting from Excel 95"
       },
       "feature_8": {
-        "title": "Documents background",
-        "content": "Place Watermark or Remove it from the Background Images of Spreadsheet or Slides."
+        "title": "Find Photos Made on Specific Camera",
+        "content": "Import Images Metadata Properties & Remove Location Info from Photos"
       },
       "feature_9": {
-        "title": "Unreadable Characters Protection",
-        "content": "Protect Text Watermark using Unreadable Characters in Presentations."
+        "title": "Get Metadata of Archive formats & Torrents",
+        "content": "Use Defined Key to Read Metadata Property of Supported Formats"
       },
       "feature_10": {
-        "title": "Search Watermarks in Documents",
-        "content": "Search Watermarks Based on Specific Parameters or by Combining Multiple Criteria."
+        "title": "Extract Text Metadata from PNG Image files",
+        "content": "Update EXIF Metadata Properties in WEBP, PNG & PSD Files"
       },
       "feature_11": {
-        "title": "Search similar image watermarks",
-        "content": "Look for Image Watermarks that Resemble a Particular Image."
+        "title": "Remove Metadata & Comments From Reports and Documents",
+        "content": "Read Metadata of Email Messages & Parse OpenType Font Files"
       },
       "feature_12": {
-        "title": "Get document information",
-        "content": "Programmatically Extract Page Setup & Other Information for Supported Formats."
+        "title": "Add, Update and Delete IPTC Metadata Packages in TIFF Images",
+        "content": "Extract XMP Metadata Properties in MOV, MP3 & WEBP Files"
       }
     },
-    "platforms_description": "{{ProdFullName}} supports operating systems, frameworks and package managers listed below",
-    "formats_description": "{{ProdFullName}} provides processing of the following [file formats]({{SupportedFormatsUrl}}).",
+    "platforms_description": "{{ProdFullName}} supports following Operating Systems, Frameworks & Package Managers:",
+    "formats_description": "{{ProdFullName}} supports following [document file formats]({{SupportedFormatsUrl}}).",
     "code_samples_description": "Some use cases of typical {{ProdFullName}} operations",
     "code_title_sample_1": "Watermark by adding an image to a document.",
     "code_samples_sample_1_content": "To protect any document you can use [image watermarks]({{Sample1Url}}):",
@@ -242,79 +242,77 @@
     "code_samples_sample_2_content": "{{ProdShortName}} is able to [modify watermarks]({{Sample2Url}}) that are already presented in a document. Search for desired items and update their properties."
   },
   "index-content-java": {
-    "head_title": "Java Watermark Library | add watermarks to documents",
-    "head_description": "Native Java Software to add and manipulate text and image watermarks in PDF, Word, Excel, Presentations, Visio diagrams, email and images files.",
-    "title": "Implement documents watermarking in Java projects easily",
-    "description": "Enhance your Java applications with the ability to watermark files using the GroupDocs.Watermark library. Our API offers customizable watermarks for a wide range of popular file formats.",
+    "head_title": "{{EnvNameShort}} Metadata API – View, Read, Export, Edit, Remove Document Metadata",
+    "head_description": "{{EnvNameShort}} metadata API to view, read, edit, analyze, find, delete, compare & export metadata of PDF Word Excel PPTX Outlook Visio Audio Video & Image documents.",
+    "title": "Metadata Manipulation API for {{EnvNameShort}}",
+    "description": "Develop {{EnvNameShort}} Applications to Create, View, Access, Update, Delete, Search, Compare, Replace & Export Metadata of Popular Documents & Image Formats.",
     "actions_main": "Free Download from Maven",
-    "code_title": "Watermark PDFs via Java",
+    "code_title": "Efficiently Fetch Metadata Properties",
+    "code_comment_1": "Provide MP3 path to Metadata constructor",
+    "code_comment_2": "Process built-in MP3 metadata",
     "overview_description": "Library designed for adding watermarks using Java technologies",
     "overview_feature_1": {
-      "title": "Watermark Files via Java",
-      "description": "Protect your business documents using {{ProdFullName}}. Add text, images, diagrams, or email attachments as watermarks to various file formats."
+      "title": "Control files & documents metadata",
+      "description": "{{ProdFullName}} is an advanced metadata management API to manipulate metadata information of documents, images, archives, torrents and various other file formats. Developers can now enhance the functionality of their {{EnvNameShort}} applications by easily incorporating metadata viewing, modifying, deleting, extracting, searching, comparing, replacing and exporting features within all popular business document formats such as PDF, Microsoft Office Word, Excel spreadsheets, PowerPoint presentations & slides, Outlook emails, Project, Visio diagrams, OneNote, images, AutoCAD, Photoshop, audio, video, OpenType fonts and metafiles."
     },
     "overview_feature_2": {
-      "title": "Customize Watermarks for Specific Needs",
-      "description": "{{ProdFullName}} offers extensive customization options for watermarks. Adjust text styles (bold, italic, font) and image properties (rotation, etc.) to tailor the watermarking process to your specific goals."
+      "title": "Manipulate built-in metadata",
+      "description": "The {{EnvNameShort}} metadata library offers you features such as metadata search, replace metadata properties, compare metadata of supported file formats to identify similarities as well as differences. You can also edit or modify metadata for better information management and export retrieved metadata information to Excel file, CSV file and DataSet. The API offers comprehensive support to work with all commonly used metadata standards like built-in, XMP, EXIF and custom metadata properties within supported document formats."
     },
     "overview_feature_3": {
-      "title": "Broad Format Support",
-      "description": "{{ProdFullName}} seamlessly integrates with a wide range of file formats, including: PDF, Microsoft Office (Word, Excel, PowerPoint), images (JPEG, PNG, GIF, BMP), Visio diagrams, and emails. Enhance document security across diverse file types."
-    },
-    "overview_feature_4": {
-      "title": "Effortless Watermark Search and Management",
-      "description": "Efficiently manage existing watermarks within documents. Locate specific watermarks, modify their text, style, or images, or remove them entirely. {{ProdFullName}} simplifies the watermarking workflow."
+      "title": "Broad Platform Support",
+      "description": "{{ProdFullName}} is compatible with all {{EnvNameShort}} versions and supports popular operating systems (Windows, Linux, MacOS) that are capable to run {{EnvNameShort}} runtime."
     },
     "features": {
       "title": "{{ProdFullName}} : Features",
       "description": "Protect your files by adding watermarks. Supports various formats including PDF, Office documents, and images.",
       "feature_1": {
-        "title": "Files Watermarking",
-        "content": "Add or remove watermarks from specific sections or entire documents for various supported file formats."
+        "title": "Detect Document File Type at Run-time",
+        "content": "Detect Document Password Protection in Word, Excel, PowerPoint and PDF"
       },
       "feature_2": {
-        "title": "Watermark Customization",
-        "content": "Customize your watermark's appearance with options like color, font, rotation, and more."
+        "title": "Delete Metadata & Comments from Reports and Documents",
+        "content": "Manipulate Image Metadata Properties & Delete Photo Location Information"
       },
       "feature_3": {
-        "title": "Hidden Printing Watermark for PDF",
-        "content": "Add a watermark that only appears when printing a PDF document."
+        "title": "Search Properties of Document, EXIF, & XMP Metadata",
+        "content": "Identify Difference or Similarities in Metadata of Supported Formats by Comparison"
       },
       "feature_4": {
-        "title": "Selective Image Watermarking",
-        "content": "Watermark all images within a specific section, page, slide, or entire document."
+        "title": "Export Metadata of Supported File Formats to Excel, CSV or DataSet",
+        "content": "Manipulate Built-in & Custom Metadata and Fetch Metadata of Torrents & Archive Formats"
       },
       "feature_5": {
-        "title": "Watermarking Specific Image Frames",
-        "content": "Apply watermarks to specific frames within a multi-framed image."
+        "title": "Extract Text Metadata from PNG Image files",
+        "content": "Add or Update XMP and EXIF Metadata Properties of Arbitrary Types using the Search API"
       },
       "feature_6": {
-        "title": "Watermarking Attachments and Shapes",
-        "content": "Add watermarks to all attachments in Excel documents or all image shapes in Presentations."
+        "title": "Identify/Delete Digital Signatures in Word, Excel, PDF",
+        "content": "Access & Delete Hidden Data in Microsoft Word, Excel, PowerPoint & PDF"
       },
       "feature_7": {
-        "title": "Watermark Alignment in PDF",
-        "content": "Align watermarks to different areas of a PDF document, including Bleed Box, Art Box, Crop Box, and Trim Box."
+        "title": "Read Metadata Property using Defined Key for any Supported Format",
+        "content": "Supports Enumeration of any Metadata Type & Read Metadata of OpenType Font Files"
       },
       "feature_8": {
-        "title": "Watermark by Background Images",
-        "content": "Add or remove background image watermark to Spreadsheets or Presentations."
+        "title": "Generate Image Previews for EPUB, CAD, EML & MSG Files",
+        "content": "Get/Delete Metadata of Email Messages & Remove Attachments"
       },
       "feature_9": {
-        "title": "Protection with Unreadable Characters",
-        "content": "Protect Presentations using Text Watermark with Unreadable Characters."
+        "title": "Reducing Memory Consumption of PDF, Excel & Image Formats",
+        "content": "Metadata Extraction from Microsoft Excel Files Starting from Excel 95. Add, Update & Remove EXIF Metadata Packages in JPEG2000 Images"
       },
       "feature_10": {
-        "title": "Search for Watermarks",
-        "content": "Get list of watermarks presented in file, using various parameters including regular expressions."
+        "title": "Read Matroska subtitles and retrieve Metadata of Audio & Video Files",
+        "content": "Fetch Thumbnails and Image Previews of Supported Formats & Matroska Multimedia Container Support"
       },
       "feature_11": {
-        "title": "Find Similar Image Watermarks",
-        "content": "Locate image watermarks that looks like a specific image."
+        "title": "Read Metadata from Encrypted Microsoft Project Files",
+        "content": "Replace Metadata Properties of Word, Excel, PowerPoint and PDF. Extract XMP Metadata Properties in MOV, MP3 & WEBP Files"
       },
       "feature_12": {
-        "title": "Extract Document Information",
-        "content": "Get various document data like page setup for supported file formats."
+        "title": "Update EXIF Metadata Properties in WEBP, PNG & PSD Files",
+        "content": "Add, Update and Delete IPTC Metadata Packages in TIFF Images. Read EXIF Tags & XMP Metadata Properties from HEIC/HEIF Image Formats"
       }
     },
     "platforms_description": "{{ProdFullName}} supports various operating systems and package managers.",
@@ -326,86 +324,85 @@
     "code_samples_sample_2_content": "{{ProdFullName}} empowers you to manage existing watermarks within documents. Locate specific watermarks and [modify their properties]({{Sample2Url}})."
   },
   "index-content-nodejs-java": {
-    "head_title": "Node.js Watermarking Library | document watermarks",
-    "head_description": "Node.js solution protect business documents with text and image watermarks. Popular formats like PDF, Word, Excel, PowerPoint are supported.",
-    "title": "Access to watermarking technology in Node.js via Java solutions",
-    "description": "Protect your intellectual property and prevent unauthorized copying with this Node.js solution. It allows users to easily add watermarks to business documents in various formats, including PDF, Word, Excel, PowerPoint, images etc.",
+    "head_title": "{{EnvNameShort}} Library to Manipulate File Metadata",
+    "head_description": "Enhance {{EnvNameShort}} applications by analyzing, comparing, editing, removing, and exporting metadata of popular file formats, like PDF, Word, Excel etc.",
+    "title": "Documents Metadata Management {{EnvNameShort}}",
+    "description": "Manage metadata in popular document and image formats using {{EnvNameShort}}.",
     "actions_main": "Use NPM to download for free",
-    "code_title": "Add watermark to PDF with TypeScript",
+    "code_title": "Efficient Metadata Manipulation in {{EnvNameShort}}",
+    "code_comment_1": "Pass Spreadsheet to Metadata",
+    "code_comment_2": "Check file format",
+    "code_comment_3": "Analyze inner document metadata",
     "overview_description": "Node.js TypeScript library for watermarking",
     "overview_feature_1": {
-      "title": "Node.js File Watermarking",
-      "description": "Protect your business documents with {{ProdFullName}}. Add text, images, diagrams, or email attachments as watermarks to various file formats."
+      "title": "Main features",
+      "description": "{{ProdFullName}} is an advanced library that empowers you to manage metadata within various file formats. Integrate metadata viewing, editing, deletion, searching, comparison, replacement, and export functionalities into your {{EnvNameShort}} applications. Supported formats include popular business documents like PDF, Microsoft Office (Word, Excel, PowerPoint), Outlook emails, Project, Visio diagrams, OneNote, images (including PSD, CAD), audio, video, OpenType fonts, and metafiles."
     },
     "overview_feature_2": {
-      "title": "Customize Watermarks for Your Needs",
-      "description": "{{ProdFullName}} provides extensive customization options for watermarks. Fine-tune text styles (bold, italic, font) and image properties (rotation, etc.) allow to customize documents processing."
+      "title": "Manipulate metadata easily",
+      "description": "This library offers comprehensive features like metadata search, replacement, property comparison, and information extraction. You can export retrieved metadata to Excel, CSV, or DataSet formats. It supports commonly used metadata standards like built-in, XMP, EXIF, and custom properties within supported document formats."
     },
     "overview_feature_3": {
-      "title": "Comprehensive Format Support",
-      "description": "{{ProdFullName}} seamlessly integrates with a wide range of file formats, including: PDF, MS Office like Word, Excel, PowerPoint, images such as JPEG, PNG, GIF, BMP, Visio diagrams, emails etc. Empower documents processing to achieve business goals."
-    },
-    "overview_feature_4": {
-      "title": "Powerful Watermark Search and Update",
-      "description": "Get and update existing watermarks in watermarked documents. Modify text, style, image content, or remove them entirely. {{ProdFullName}} provides wide range of the watermarks processing."
+      "title": "Popular Platform Support",
+      "description": "{{ProdFullName}} is compatible with all {{EnvNameShort}} versions and runs seamlessly on popular operating systems (Windows, Linux, macOS) that support {{EnvNameShort}} runtime."
     },
     "features": {
       "title": "{{ProdFullName}}: Feature Set",
       "description": "Empower robust document security through programmatic watermarking. Supports diverse file formats including: PDF, DOCX, XLSX, PPTX, and image formats (PNG, JPG, etc.).",
       "feature_1": {
-        "title": "Precise Watermarking Control",
-        "content": "Precisely manipulate watermarks by adding or removing them from specific sections, entire documents, or individual attachments and shapes within different file formats."
+        "title": "Clear business reports and documents from any metadata and comments",
+        "content": "Identify and remove digital signatures present in PDFs and Office documents."
       },
       "feature_2": {
-        "title": "Customization of Watermark Appearance",
-        "content": "Exert fine-grained control over watermark aesthetics by modifying attributes like color, font, opacity, rotation, and positioning within the document."
+        "title": "Collect document metadata properties like EXIF or XMP",
+        "content": "Save metadata from supported files to Excel, CSV or DataSet output"
       },
       "feature_3": {
-        "title": "Print PDF Watermarking",
-        "content": "Deploy a stealthy watermark that remains invisible during regular document viewing but becomes apparent only during the printing process, enhancing document security discreetly."
+        "title": "Dynamically detect the file type at runtime using Node.js.",
+        "content": "Detect password protection applied to PDF and MS Word, Excel, PowerPoint documents."
       },
       "feature_4": {
-        "title": "Specific Image Watermarking",
-        "content": "Watermark specific images within a document using our solution. Choose to embed watermarks in a designated section (e.g., page, slide) or across the entire document."
+        "title": "Compare and analyze any alterations in metadata in supported file formats",
+        "content": "Analyze specific metadata properties using defined keys for any supported format"
       },
       "feature_5": {
-        "title": "Multi-Frame Images Watermarking",
-        "content": "Apply watermarks selectively to specific frames within a multi-frame image format, ensuring granular control over watermark placement."
+        "title": "Leverage extensive capabilities to manipulate built-in and custom metadata",
+        "content": "Gain access to and delete hidden data embedded in PDF, MS Word, Excel, PowerPoint…"
       },
       "feature_6": {
-        "title": "Comprehensive Content Protection",
-        "content": "Extend protection to various document elements like attachments within Excel documents and image shapes within Presentations, providing an additional layer of security."
+        "title": "Control metadata in images including photo location information",
+        "content": "Extract text metadata directly from PNG image files using Node.js"
       },
       "feature_7": {
-        "title": "Advanced Watermarking in PDF",
-        "content": "Watermark different areas of PDFs, including Bleed Box, Art Box, Crop Box, Trim Box etc."
+        "title": "Manipulate metadata and attachments in email messages",
+        "content": "Use Search API to add or update XMP and EXIF metadata properties"
       },
       "feature_8": {
-        "title": "Background Image Watermarking",
-        "content": "Manage watermarks within the background images of Spreadsheets and Presentations, offering additional customization options for visual security measures."
+        "title": "Correct content of EXIF Metadata in WEBP, PNG or PSD",
+        "content": "Manipulate metadata in PDF, Word, Excel, PowerPoint, and other formats"
       },
       "feature_9": {
-        "title": "Text Watermark with Unreadable Characters",
-        "content": "Employ unreadable characters within text watermarks embedded in Presentations, bolstering security by making unauthorized watermark extraction significantly more challenging."
+        "title": "Make your PDF, Excel & Image Formats less memory demanding",
+        "content": "Add, Update or Remove EXIF data in JPEG2000 Images. Get metadata from Microsoft Excel Spreadsheets starting from Excel 95"
       },
       "feature_10": {
-        "title": "Advanced Watermark Search",
-        "content": "Utilize comprehensive search capabilities to locate watermarks within documents based on specific parameters or by combining various criteria, enabling efficient retrieval and management."
+        "title": "Access Matroska subtitles and metadata in audio and video files",
+        "content": "Retrieve thumbnails and image previews for supported file formats & Matroska Multimedia Container Support"
       },
       "feature_11": {
-        "title": "Similar Image Watermark Detection",
-        "content": "Find similar watermark images within documents that visually resemble an source image."
+        "title": "Generate Image Previews for MSG, CAD, EML or EPUB files",
+        "content": "Manipulate IPTC Metadata Packages in TIFF Images. Enumerate any metadata type and control metadata of OpenType font files"
       },
       "feature_12": {
-        "title": "Programmatic Document Information Extraction",
-        "content": "Extract valuable metadata programmatically, including page setup details and other document information for supported file formats."
+        "title": "Get XMP Metadata nodes from MOV, MP3 & WEBP Files",
+        "content": "Control EXIF tags & XMP metadata for HEIC/HEIF images. Get all metadata hidden in Encrypted Microsoft Project Files"
       }
     },
     "platforms_description": "{{ProdFullName}} readily integrates with various operating systems and package managers.",
     "formats_description": "{{ProdFullName}} empowers you to process a diverse range of file formats. [Explore the full list]({{SupportedFormatsUrl}}).",
     "code_samples_description": "Dive into code examples showcasing common {{ProdFullName}} functionalities",
     "code_title_sample_1": "Watermark a Document with an Image",
-    "code_samples_sample_1_content": "Leverage {{ProdFullName}} to enhance document security by adding image watermarks. Learn more: [Image watermarks]({{Sample1Url}}).", 
+    "code_samples_sample_1_content": "Leverage {{ProdFullName}} to enhance document security by adding image watermarks. Learn more: [Image watermarks]({{Sample1Url}}).",
     "code_title_sample_2": "Search and Modify Existing Watermarks",
     "code_samples_sample_2_content": "{{ProdFullName}} empowers you to manage document watermarks. Select watermarks, modify their properties. Discover how: [Modify watermarks]({{Sample2Url}})."
   }

@@ -12,8 +12,12 @@
     "textSearchCriteriaBold": "**SearchCriteria**",
     "textTextSearchCriteria": "TextSearchCriteria",
     "textSearchCriteria": "SearchCriteria",
+    "aspNet": "ASP.NET",
+    "coreNet": ".NET Core",
+    "mono": "Mono",
     "net": {
       "environmentName": ".NET",
+      "environmentNameShort": ".NET",
       "productCode": "net",
       "productFullName": "GroupDocs.Metadata for .NET",
 
@@ -38,6 +42,7 @@
     },
     "java": {
       "environmentName": "Java",
+      "environmentNameShort": "Java",
       "productCode": "java",
       "productFullName": "GroupDocs.Metadata for Java",
 
@@ -62,6 +67,7 @@
     },
     "nodejs-java": {
       "environmentName": "Node.js via Java",
+      "environmentNameShort": "Node.js",
       "productCode": "nodejs-java",
       "productFullName": "GroupDocs.Metadata for Node.js via Java",
 

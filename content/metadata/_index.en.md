@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-05-20T12:28:27
+date:  2024-05-21T15:27:53
 draft: false
 
 product: "Metadata"
@@ -28,7 +28,7 @@ description:  |
 supported_platforms:
   enable: true
   head_title: "Choose your platform"
-  title: "Platform Compatibility"
+  title: "Platform Independence"
   description: "GroupDocs.Metadata is compatible with the wide range of operating systems and frameworks:"
   details_link_title: "Learn more"
 
