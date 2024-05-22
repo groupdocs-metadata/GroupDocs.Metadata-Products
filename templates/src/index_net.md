@@ -52,7 +52,7 @@ code:
   title: "<% "{index-content-net.code_title}" %>"
   more: "<% "{index-content.code_more}" %>"
   more_link: "<% dict "products.net.more_link" %>"
-  install: "dotnet add package GroupDocs.Watermark"
+  install: "dotnet add package GroupDocs.Metadata"
   content: |
     ```csharp {style=abap}   
     // <% "{index-content-net.code_comment_1}" %>
@@ -166,62 +166,62 @@ features:
 
   items:
     # feature loop
-    - icon: "watermark_add"
+    - icon: "metadata_text_search"
       title: "<% "{index-content-net.features.feature_1.title}" %>"
       content: "<% "{index-content-net.features.feature_1.content}" %>"
 
     # feature loop
-    - icon: "watermark_style"
+    - icon: "image_frame"
       title: "<% "{index-content-net.features.feature_2.title}" %>"
       content: "<% "{index-content-net.features.feature_2.content}" %>"
 
     # feature loop
-    - icon: "hidden_print"
+    - icon: "reduce"
       title: "<% "{index-content-net.features.feature_3.title}" %>"
       content: "<% "{index-content-net.features.feature_3.content}" %>"
 
     # feature loop
-    - icon: "image_only"
+    - icon: "doc_background"
       title: "<% "{index-content-net.features.feature_4.title}" %>"
       content: "<% "{index-content-net.features.feature_4.content}" %>"
 
     # feature loop
-    - icon: "image_frame"
+    - icon: "compare"
       title: "<% "{index-content-net.features.feature_5.title}" %>"
       content: "<% "{index-content-net.features.feature_5.content}" %>"
 
     # feature loop
-    - icon: "attachments"
+    - icon: "detect"
       title: "<% "{index-content-net.features.feature_6.title}" %>"
       content: "<% "{index-content-net.features.feature_6.content}" %>"
 
     # feature loop
-    - icon: "pdf_objects"
+    - icon: "preview"
       title: "<% "{index-content-net.features.feature_7.title}" %>"
       content: "<% "{index-content-net.features.feature_7.content}" %>"
 
     # feature loop
-    - icon: "doc_background"
+    - icon: "unreadable_characters"
       title: "<% "{index-content-net.features.feature_8.title}" %>"
       content: "<% "{index-content-net.features.feature_8.content}" %>"
 
     # feature loop
-    - icon: "unreadable_characters"
+    - icon: "get"
       title: "<% "{index-content-net.features.feature_9.title}" %>"
       content: "<% "{index-content-net.features.feature_9.content}" %>"
 
     # feature loop
-    - icon: "watermark_text_search"
+    - icon: "image_only"
       title: "<% "{index-content-net.features.feature_10.title}" %>"
       content: "<% "{index-content-net.features.feature_10.content}" %>"
 
     # feature loop
-    - icon: "watermark_image_search"
+    - icon: "remove"
       title: "<% "{index-content-net.features.feature_11.title}" %>"
       content: "<% "{index-content-net.features.feature_11.content}" %>"
 
     # feature loop
-    - icon: "document_info"
+    - icon: "metadata_add"
       title: "<% "{index-content-net.features.feature_12.title}" %>"
       content: "<% "{index-content-net.features.feature_12.content}" %>"
 

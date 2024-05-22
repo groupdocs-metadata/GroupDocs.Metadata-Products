@@ -55,7 +55,7 @@ code:
   install: |
     <dependency>
       <groupId>com.groupdocs</groupId>
-      <artifactId>groupdocs-watermark</artifactId>
+      <artifactId>groupdocs-metadata</artifactId>
       <version>{0}</version>
     </dependency>
   content: |
@@ -64,8 +64,10 @@ code:
     try (Mp3Format mp3Format = new Mp3Format("sample.mp3")) 
     {
       // <% "{index-content-java.code_comment_2}" %>
-      System.out.printf("Album: %", mp3Format.getId3v1Properties().getAlbum());
-      System.out.printf("Title: %", mp3Format.getId3v2Properties().getTitle());
+      System.out.printf("Album: %", 
+        mp3Format.getId3v1Properties().getAlbum());
+      System.out.printf("Title: %", 
+        mp3Format.getId3v2Properties().getTitle());
     }
       
     ```
@@ -167,57 +169,57 @@ features:
 
   items:
     # feature loop
-    - icon: "watermark_add"
+    - icon: "reduce"
       title: "<% "{index-content-java.features.feature_1.title}" %>"
       content: "<% "{index-content-java.features.feature_1.content}" %>"
 
     # feature loop
-    - icon: "watermark_style"
+    - icon: "compare"
       title: "<% "{index-content-java.features.feature_2.title}" %>"
       content: "<% "{index-content-java.features.feature_2.content}" %>"
 
     # feature loop
-    - icon: "hidden_print"
+    - icon: "detect"
       title: "<% "{index-content-java.features.feature_3.title}" %>"
       content: "<% "{index-content-java.features.feature_3.content}" %>"
 
     # feature loop
-    - icon: "image_only"
+    - icon: "get"
       title: "<% "{index-content-java.features.feature_4.title}" %>"
       content: "<% "{index-content-java.features.feature_4.content}" %>"
 
     # feature loop
-    - icon: "image_frame"
+    - icon: "export"
       title: "<% "{index-content-java.features.feature_5.title}" %>"
       content: "<% "{index-content-java.features.feature_5.content}" %>"
 
     # feature loop
-    - icon: "attachments"
+    - icon: "remove"
       title: "<% "{index-content-java.features.feature_6.title}" %>"
       content: "<% "{index-content-java.features.feature_6.content}" %>"
 
     # feature loop
-    - icon: "pdf_objects"
+    - icon: "metadata_style"
       title: "<% "{index-content-java.features.feature_7.title}" %>"
       content: "<% "{index-content-java.features.feature_7.content}" %>"
 
     # feature loop
-    - icon: "doc_background"
+    - icon: "preview"
       title: "<% "{index-content-java.features.feature_8.title}" %>"
       content: "<% "{index-content-java.features.feature_8.content}" %>"
 
     # feature loop
-    - icon: "unreadable_characters"
+    - icon: "pdf_objects"
       title: "<% "{index-content-java.features.feature_9.title}" %>"
       content: "<% "{index-content-java.features.feature_9.content}" %>"
 
     # feature loop
-    - icon: "watermark_text_search"
+    - icon: "metadata_text_search"
       title: "<% "{index-content-java.features.feature_10.title}" %>"
       content: "<% "{index-content-java.features.feature_10.content}" %>"
 
     # feature loop
-    - icon: "watermark_image_search"
+    - icon: "metadata_image_search"
       title: "<% "{index-content-java.features.feature_11.title}" %>"
       content: "<% "{index-content-java.features.feature_11.content}" %>"
 

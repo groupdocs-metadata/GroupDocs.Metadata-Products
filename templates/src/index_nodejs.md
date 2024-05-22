@@ -65,8 +65,10 @@ code:
     if (metadata.getFileFormat() != gMeta.FileFormat.Unknown) {
         // <% "{index-content-nodejs-java.code_comment_3}" %>
         var info = metadata.getDocumentInfo();
-        console.log(`File format: ${info.getFileType().getFileFormat()}`);
-        console.log(`MIME Type: ${info.getFileType().getMimeType()}`);
+        console.log(`File format: 
+            ${info.getFileType().getFileFormat()}`);
+        console.log(`MIME Type: 
+            ${info.getFileType().getMimeType()}`);
     }
     ```
 
@@ -176,62 +178,62 @@ features:
 
   items:
     # feature loop
-    - icon: "watermark_add"
+    - icon: "hidden_print"
       title: "<% "{index-content-nodejs-java.features.feature_1.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_1.content}" %>"
 
     # feature loop
-    - icon: "watermark_style"
+    - icon: "collect"
       title: "<% "{index-content-nodejs-java.features.feature_2.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_2.content}" %>"
 
     # feature loop
-    - icon: "hidden_print"
+    - icon: "compare"
       title: "<% "{index-content-nodejs-java.features.feature_3.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_3.content}" %>"
 
     # feature loop
-    - icon: "image_only"
+    - icon: "detect"
       title: "<% "{index-content-nodejs-java.features.feature_4.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_4.content}" %>"
 
     # feature loop
-    - icon: "image_frame"
+    - icon: "document_info"
       title: "<% "{index-content-nodejs-java.features.feature_5.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_5.content}" %>"
 
     # feature loop
-    - icon: "attachments"
+    - icon: "image_frame"
       title: "<% "{index-content-nodejs-java.features.feature_6.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_6.content}" %>"
 
     # feature loop
-    - icon: "pdf_objects"
+    - icon: "manipulate"
       title: "<% "{index-content-nodejs-java.features.feature_7.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_7.content}" %>"
 
     # feature loop
-    - icon: "doc_background"
+    - icon: "correct"
       title: "<% "{index-content-nodejs-java.features.feature_8.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_8.content}" %>"
 
     # feature loop
-    - icon: "unreadable_characters"
+    - icon: "pdf_objects"
       title: "<% "{index-content-nodejs-java.features.feature_9.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_9.content}" %>"
 
     # feature loop
-    - icon: "watermark_text_search"
+    - icon: "subtitle"
       title: "<% "{index-content-nodejs-java.features.feature_10.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_10.content}" %>"
 
     # feature loop
-    - icon: "watermark_image_search"
+    - icon: "preview"
       title: "<% "{index-content-nodejs-java.features.feature_11.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_11.content}" %>"
 
     # feature loop
-    - icon: "document_info"
+    - icon: "get"
       title: "<% "{index-content-nodejs-java.features.feature_12.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_12.content}" %>"
 

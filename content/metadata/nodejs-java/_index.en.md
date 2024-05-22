@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-05-21T15:27:53
+date: 2024-05-22T14:42:19
 draft: false
 
 lang: en
@@ -51,7 +51,7 @@ code:
   title: "Efficient Metadata Manipulation in Node.js"
   more: "More examples"
   more_link: "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Node.js-via-Java/"
-  install: "npm i @groupdocs/groupdocs.watermarker"
+  install: "npm i @groupdocs/groupdocs.metadata"
   content: |
     ```javascript {style=abap}
 
@@ -63,8 +63,10 @@ code:
     if (metadata.getFileFormat() != gMeta.FileFormat.Unknown) {
         // Analyze inner document metadata
         var info = metadata.getDocumentInfo();
-        console.log(`File format: ${info.getFileType().getFileFormat()}`);
-        console.log(`MIME Type: ${info.getFileType().getMimeType()}`);
+        console.log(`File format: 
+            ${info.getFileType().getFileFormat()}`);
+        console.log(`MIME Type: 
+            ${info.getFileType().getMimeType()}`);
     }
     ```
 
@@ -131,7 +133,7 @@ formats:
   enable: true
   title: "Supported file formats"
   description: |
-    GroupDocs.Metadata for Node.js via Java empowers you to process a diverse range of file formats. [Explore the full list](https://docs.groupdocs.com/metadata/net/supported-document-formats/).
+    GroupDocs.Metadata for Node.js via Java empowers you to process a diverse range of file formats. [Explore the full list](https://docs.groupdocs.com/metadata/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -174,62 +176,62 @@ features:
 
   items:
     # feature loop
-    - icon: "watermark_add"
+    - icon: "hidden_print"
       title: "Clear business reports and documents from any metadata and comments"
       content: "Identify and remove digital signatures present in PDFs and Office documents."
 
     # feature loop
-    - icon: "watermark_style"
+    - icon: "collect"
       title: "Collect document metadata properties like EXIF or XMP"
       content: "Save metadata from supported files to Excel, CSV or DataSet output"
 
     # feature loop
-    - icon: "hidden_print"
-      title: "Dynamically detect the file type at runtime using Node.js."
-      content: "Detect password protection applied to PDF and MS Word, Excel, PowerPoint documents."
-
-    # feature loop
-    - icon: "image_only"
+    - icon: "compare"
       title: "Compare and analyze any alterations in metadata in supported file formats"
       content: "Analyze specific metadata properties using defined keys for any supported format"
 
     # feature loop
-    - icon: "image_frame"
+    - icon: "detect"
+      title: "Dynamically detect the file type at runtime using Node.js."
+      content: "Detect password protection applied to PDF and MS Word, Excel, PowerPoint documents."
+
+    # feature loop
+    - icon: "document_info"
       title: "Leverage extensive capabilities to manipulate built-in and custom metadata"
       content: "Gain access to and delete hidden data embedded in PDF, MS Word, Excel, PowerPoint…"
 
     # feature loop
-    - icon: "attachments"
+    - icon: "image_frame"
       title: "Control metadata in images including photo location information"
       content: "Extract text metadata directly from PNG image files using Node.js"
 
     # feature loop
-    - icon: "pdf_objects"
+    - icon: "manipulate"
       title: "Manipulate metadata and attachments in email messages"
       content: "Use Search API to add or update XMP and EXIF metadata properties"
 
     # feature loop
-    - icon: "doc_background"
+    - icon: "correct"
       title: "Correct content of EXIF Metadata in WEBP, PNG or PSD"
       content: "Manipulate metadata in PDF, Word, Excel, PowerPoint, and other formats"
 
     # feature loop
-    - icon: "unreadable_characters"
+    - icon: "pdf_objects"
       title: "Make your PDF, Excel & Image Formats less memory demanding"
       content: "Add, Update or Remove EXIF data in JPEG2000 Images. Get metadata from Microsoft Excel Spreadsheets starting from Excel 95"
 
     # feature loop
-    - icon: "watermark_text_search"
+    - icon: "subtitle"
       title: "Access Matroska subtitles and metadata in audio and video files"
       content: "Retrieve thumbnails and image previews for supported file formats & Matroska Multimedia Container Support"
 
     # feature loop
-    - icon: "watermark_image_search"
+    - icon: "preview"
       title: "Generate Image Previews for MSG, CAD, EML or EPUB files"
       content: "Manipulate IPTC Metadata Packages in TIFF Images. Enumerate any metadata type and control metadata of OpenType font files"
 
     # feature loop
-    - icon: "document_info"
+    - icon: "get"
       title: "Get XMP Metadata nodes from MOV, MP3 & WEBP Files"
       content: "Control EXIF tags & XMP metadata for HEIC/HEIF images. Get all metadata hidden in Encrypted Microsoft Project Files"
 

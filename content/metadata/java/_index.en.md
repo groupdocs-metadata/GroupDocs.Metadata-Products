@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-05-21T15:27:53
+date: 2024-05-22T14:42:18
 draft: false
 
 lang: en
@@ -53,7 +53,7 @@ code:
   install: |
     <dependency>
       <groupId>com.groupdocs</groupId>
-      <artifactId>groupdocs-watermark</artifactId>
+      <artifactId>groupdocs-metadata</artifactId>
       <version>{0}</version>
     </dependency>
   content: |
@@ -62,8 +62,10 @@ code:
     try (Mp3Format mp3Format = new Mp3Format("sample.mp3")) 
     {
       // Process built-in MP3 metadata
-      System.out.printf("Album: %", mp3Format.getId3v1Properties().getAlbum());
-      System.out.printf("Title: %", mp3Format.getId3v2Properties().getTitle());
+      System.out.printf("Album: %", 
+        mp3Format.getId3v1Properties().getAlbum());
+      System.out.printf("Title: %", 
+        mp3Format.getId3v2Properties().getTitle());
     }
       
     ```
@@ -122,7 +124,7 @@ formats:
   enable: true
   title: "Supported file formats"
   description: |
-    GroupDocs.Metadata for Java enables processing of a wide range of file formats. [See the complete list](https://docs.groupdocs.com/metadata/net/supported-document-formats/).
+    GroupDocs.Metadata for Java enables processing of a wide range of file formats. [See the complete list](https://docs.groupdocs.com/metadata/java/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -165,57 +167,57 @@ features:
 
   items:
     # feature loop
-    - icon: "watermark_add"
-      title: "Detect Document File Type at Run-time"
-      content: "Detect Document Password Protection in Word, Excel, PowerPoint and PDF"
-
-    # feature loop
-    - icon: "watermark_style"
+    - icon: "reduce"
       title: "Delete Metadata & Comments from Reports and Documents"
       content: "Manipulate Image Metadata Properties & Delete Photo Location Information"
 
     # feature loop
-    - icon: "hidden_print"
+    - icon: "compare"
       title: "Search Properties of Document, EXIF, & XMP Metadata"
       content: "Identify Difference or Similarities in Metadata of Supported Formats by Comparison"
 
     # feature loop
-    - icon: "image_only"
+    - icon: "detect"
+      title: "Detect Document File Type at Run-time"
+      content: "Detect Document Password Protection in Word, Excel, PowerPoint and PDF"
+
+    # feature loop
+    - icon: "get"
       title: "Export Metadata of Supported File Formats to Excel, CSV or DataSet"
       content: "Manipulate Built-in & Custom Metadata and Fetch Metadata of Torrents & Archive Formats"
 
     # feature loop
-    - icon: "image_frame"
+    - icon: "export"
       title: "Extract Text Metadata from PNG Image files"
       content: "Add or Update XMP and EXIF Metadata Properties of Arbitrary Types using the Search API"
 
     # feature loop
-    - icon: "attachments"
+    - icon: "remove"
       title: "Identify/Delete Digital Signatures in Word, Excel, PDF"
       content: "Access & Delete Hidden Data in Microsoft Word, Excel, PowerPoint & PDF"
 
     # feature loop
-    - icon: "pdf_objects"
+    - icon: "metadata_style"
       title: "Read Metadata Property using Defined Key for any Supported Format"
       content: "Supports Enumeration of any Metadata Type & Read Metadata of OpenType Font Files"
 
     # feature loop
-    - icon: "doc_background"
+    - icon: "preview"
       title: "Generate Image Previews for EPUB, CAD, EML & MSG Files"
       content: "Get/Delete Metadata of Email Messages & Remove Attachments"
 
     # feature loop
-    - icon: "unreadable_characters"
+    - icon: "pdf_objects"
       title: "Reducing Memory Consumption of PDF, Excel & Image Formats"
       content: "Metadata Extraction from Microsoft Excel Files Starting from Excel 95. Add, Update & Remove EXIF Metadata Packages in JPEG2000 Images"
 
     # feature loop
-    - icon: "watermark_text_search"
+    - icon: "metadata_text_search"
       title: "Read Matroska subtitles and retrieve Metadata of Audio & Video Files"
       content: "Fetch Thumbnails and Image Previews of Supported Formats & Matroska Multimedia Container Support"
 
     # feature loop
-    - icon: "watermark_image_search"
+    - icon: "metadata_image_search"
       title: "Read Metadata from Encrypted Microsoft Project Files"
       content: "Replace Metadata Properties of Word, Excel, PowerPoint and PDF. Extract XMP Metadata Properties in MOV, MP3 & WEBP Files"
 
