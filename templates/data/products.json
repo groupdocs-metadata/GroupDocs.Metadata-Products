@@ -33,8 +33,8 @@
       "pricesUrl": "https://purchase.groupdocs.com/pricing/metadata/net/",
       "docsUrl": "https://docs.groupdocs.com/metadata/net/",
       "supportedFormatsUrl": "https://docs.groupdocs.com/metadata/net/supported-document-formats/",
-      "sample1Url": "https://docs.groupdocs.com/metadata/net/adding-image-metadatas/#add-image-metadata-from-local-file/",
-      "sample2Url": "https://docs.groupdocs.com/metadata/net/modifing-found-metadata-properties/#replacing-text/",
+      "sample1Url": "https://docs.groupdocs.com/metadata/net/find-metadata-properties/",
+      "sample2Url": "https://docs.groupdocs.com/metadata/net/adding-metadata/",
 
       "more_link": "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-.NET/",
       "release_downloads": "https://releases.groupdocs.com/metadata/net/"
@@ -58,8 +58,8 @@
       "pricesUrl": "https://purchase.groupdocs.com/pricing/metadata/java/",
       "docsUrl": "https://docs.groupdocs.com/metadata/java/",
       "supportedFormatsUrl": "https://docs.groupdocs.com/metadata/java/supported-document-formats/",
-      "sample1Url": "https://docs.groupdocs.com/metadata/java/adding-image-metadatas/#add-image-metadata-from-local-file/",
-      "sample2Url": "https://docs.groupdocs.com/metadata/java/modifying-found-metadata-properties/#replacing-text/",
+      "sample1Url": "https://docs.groupdocs.com/metadata/java/find-metadata-properties/",
+      "sample2Url": "https://docs.groupdocs.com/metadata/java/adding-metadata/",
 
       "more_link": "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java/",
       "release_downloads": "https://releases.groupdocs.com/metadata/java/"
@@ -83,8 +83,8 @@
       "pricesUrl": "https://purchase.groupdocs.com/pricing/metadata/nodejs-java/",
       "docsUrl": "https://docs.groupdocs.com/metadata/nodejs-java/",
       "supportedFormatsUrl": "https://docs.groupdocs.com/metadata/java/supported-document-formats/",
-      "sample1Url": "https://docs.groupdocs.com/metadata/java/adding-image-metadatas/#add-image-metadata-from-local-file/",
-      "sample2Url": "https://docs.groupdocs.com/metadata/java/modifying-found-metadata-properties/#replacing-text/",
+      "sample1Url": "https://docs.groupdocs.com/metadata/nodejs-java/find-metadata-properties/",
+      "sample2Url": "https://docs.groupdocs.com/metadata/nodejs-java/adding-metadata/",
 
       "more_link": "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Node.js-via-Java/",
       "release_downloads": "https://releases.groupdocs.com/metadata/nodejs-java/"

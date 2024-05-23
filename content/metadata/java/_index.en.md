@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-05-22T14:42:18
+date: 2024-05-23T19:03:02
 draft: false
 
 lang: en
@@ -233,49 +233,50 @@ code_samples:
   description: "Explore code examples illustrating typical GroupDocs.Metadata for Java functionalities"
   items:
     # code sample loop
-    - title: "Watermark a Document Using an Image"
+    - title: "Review Document Metadata"
       content: |
-        Utilize GroupDocs.Metadata for Java to enhance document security by adding image watermarks. Learn more: [Image watermarks](https://docs.groupdocs.com/metadata/java/adding-image-metadatas/#add-image-metadata-from-local-file/).
-        {{< landing/code title="How to protect file by image watermark.">}}
-        ```csharp {style=abap}
-        // Load source document to Watermarker
-        Watermarker watermarker = new Watermarker("document.pdf");
-        
-        // Specify path to a watermark image
-        ImageWatermark watermark = new ImageWatermark("watermark.jpg");
+        Utilize GroupDocs.Metadata for Java to control inner document content. Learn more: [document metadata search](https://docs.groupdocs.com/metadata/java/find-metadata-properties/):
+        {{< landing/code title="How to get specific document metadata">}}
+        ```java {style=abap}
+        // Load source document to Metadata constructor
+        try (Metadata metadata = new Metadata("source.pptx")){
+            // Get all the properties that contains the name of the last document editor
+            // or the date/time the document was last modified
 
-        // Protect the file and save it
-        watermarker.add(watermark); 
-        watermarker.save("result.pdf");
+            IReadOnlyList<MetadataProperty> properties = metadata.findProperties(
+                new ContainsTagSpecification(Tags.getPerson().getEditor()).
+                or(new ContainsTagSpecification(Tags.getTime().getModified())));
 
-        watermark.close();                                                                                               
-        watermarker.close();
+            // Process retrieved metadata entries
+            for (MetadataProperty property : properties) {
+                System.out.println(String.format("Property name: %s, Property value: %s", 
+                    property.getName(), property.getValue()));
+        }
 
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "Modify Watermarks"
+    - title: "Add metadata to documents"
       content: |
-        GroupDocs.Metadata for Java empowers you to manage existing watermarks within documents. Locate specific watermarks and [modify their properties](https://docs.groupdocs.com/metadata/java/modifying-found-metadata-properties/#replacing-text/).
-        {{< landing/code title="Watermarks search & modification.">}}
-        ```csharp {style=abap}   
+        GroupDocs.Metadata for Java empowers you to add [hidden entries](https://docs.groupdocs.com/metadata/java/adding-metadata/) to your business data:
+        {{< landing/code title="How to add some missing metadata properties to a file regardless of its format.">}}
+        ```java {style=abap}   
         // Load source document
-        Watermarker watermarker = new Watermarker("document.pdf");
+        try (Metadata metadata = new Metadata("source.pdf")) {
+            if (metadata.getFileFormat() != FileFormat.Unknown && !metadata.getDocumentInfo().isEncrypted()) {
 
-        // Search for watermarks to be updated
-        TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);                               
-        PossibleWatermarkCollection watermarks = watermarker.search(searchCriteria);                             
+                // Add a property containing the file last printing date if it's missing
+                // Property will be added if the document supports such type of metadata
+                int affected = metadata.addProperties(
+                    new ContainsTagSpecification(Tags.getTime().getPrinted()), 
+                    new PropertyValue(new Date()));
 
-        // Update desired properties
-        for (PossibleWatermark watermark : watermarks)                                                           
-        {  
-            watermark.setText("New Text");
+                System.out.println(String.format("Affected properties: %s", affected));
+
+                // Save modified document to a specified path
+                metadata.save("output.pdf");
+            }
         }
-
-        // Save modified document to a specified path
-        watermarker.Save("document.pdf");
-        watermarker.close();
-
         ```
         {{< /landing/code >}}
 

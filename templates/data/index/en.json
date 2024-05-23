@@ -59,16 +59,17 @@
         "comment_4": "Save cleaned document"
       },
       "sample_1": {
-        "code_title": "How to protect file by image watermark.",
-        "comment_1": "Load source document to Watermarker",
-        "comment_2": "Specify path to a watermark image",
-        "comment_3": "Protect the file and save it"
+        "code_title": "How to get specific document metadata",
+        "comment_1": "Load source document to Metadata constructor",
+        "comment_2": "Get all the properties that contains the name of the last document editor",
+        "comment_3": "or the date/time the document was last modified",
+        "comment_4": "Process retrieved metadata entries"
       },
       "sample_2": {
-        "code_title": "Watermarks search & modification.",
+        "code_title": "How to add some missing metadata properties to a file regardless of its format.",
         "comment_1": "Load source document",
-        "comment_2": "Search for watermarks to be updated",
-        "comment_3": "Update desired properties",
+        "comment_2": "Add a property containing the file last printing date if it's missing",
+        "comment_3": "Property will be added if the document supports such type of metadata",
         "comment_4": "Save modified document to a specified path"
       }
     },
@@ -236,10 +237,10 @@
     "platforms_description": "{{ProdFullName}} supports following Operating Systems, Frameworks & Package Managers:",
     "formats_description": "{{ProdFullName}} supports following [document file formats]({{SupportedFormatsUrl}}).",
     "code_samples_description": "Some use cases of typical {{ProdFullName}} operations",
-    "code_title_sample_1": "Watermark by adding an image to a document.",
-    "code_samples_sample_1_content": "To protect any document you can use [image watermarks]({{Sample1Url}}):",
-    "code_title_sample_2": "Search and modify existing watermarks.",
-    "code_samples_sample_2_content": "{{ProdShortName}} is able to [modify watermarks]({{Sample2Url}}) that are already presented in a document. Search for desired items and update their properties."
+    "code_title_sample_1": "Hidden metadata control",
+    "code_samples_sample_1_content": "To control inner document content you may find and process [document metadata]({{Sample1Url}}):",
+    "code_title_sample_2": "Secure documents content",
+    "code_samples_sample_2_content": "Add [hidden metadata]({{Sample2Url}}) to your business files in order to protect its content:"
   },
   "index-content-java": {
     "head_title": "{{EnvNameShort}} Metadata API – View, Read, Export, Edit, Remove Document Metadata",
@@ -318,10 +319,10 @@
     "platforms_description": "{{ProdFullName}} supports various operating systems and package managers.",
     "formats_description": "{{ProdFullName}} enables processing of a wide range of file formats. [See the complete list]({{SupportedFormatsUrl}}).",
     "code_samples_description": "Explore code examples illustrating typical {{ProdFullName}} functionalities",
-    "code_title_sample_1": "Watermark a Document Using an Image",
-    "code_samples_sample_1_content": "Utilize {{ProdFullName}} to enhance document security by adding image watermarks. Learn more: [Image watermarks]({{Sample1Url}}).",
-    "code_title_sample_2": "Modify Watermarks",
-    "code_samples_sample_2_content": "{{ProdFullName}} empowers you to manage existing watermarks within documents. Locate specific watermarks and [modify their properties]({{Sample2Url}})."
+    "code_title_sample_1": "Review Document Metadata",
+    "code_samples_sample_1_content": "Utilize {{ProdFullName}} to control inner document content. Learn more: [document metadata search]({{Sample1Url}}):",
+    "code_title_sample_2": "Add metadata to documents",
+    "code_samples_sample_2_content": "{{ProdFullName}} empowers you to add [hidden entries]({{Sample2Url}}) to your business data:"
   },
   "index-content-nodejs-java": {
     "head_title": "{{EnvNameShort}} Library to Manipulate File Metadata",
@@ -401,9 +402,10 @@
     "platforms_description": "{{ProdFullName}} readily integrates with various operating systems and package managers.",
     "formats_description": "{{ProdFullName}} empowers you to process a diverse range of file formats. [Explore the full list]({{SupportedFormatsUrl}}).",
     "code_samples_description": "Dive into code examples showcasing common {{ProdFullName}} functionalities",
-    "code_title_sample_1": "Watermark a Document with an Image",
-    "code_samples_sample_1_content": "Leverage {{ProdFullName}} to enhance document security by adding image watermarks. Learn more: [Image watermarks]({{Sample1Url}}).",
-    "code_title_sample_2": "Search and Modify Existing Watermarks",
-    "code_samples_sample_2_content": "{{ProdFullName}} empowers you to manage document watermarks. Select watermarks, modify their properties. Discover how: [Modify watermarks]({{Sample2Url}})."
+    "code_title_sample_1": "Be informed about documents inner content",
+    "code_samples_sample_1_content": "To get information about inner [document metadata]({{Sample1Url}}) use {{ProdFullName}} API:",
+    "code_title_sample_2": "Hide business info in documents",
+    "code_samples_sample_2_content": "Modify your documents by [adding metadata]({{Sample2Url}}) using our Solution:"
+
   }
 }

@@ -239,19 +239,21 @@ code_samples:
       content: |
         <% "{index-content-java.code_samples_sample_1_content}" %>
         {{< landing/code title="<% "{index-content.code_samples.sample_1.code_title}" %>">}}
-        ```csharp {style=abap}
+        ```java {style=abap}
         // <% "{index-content.code_samples.sample_1.comment_1}" %>
-        Watermarker watermarker = new Watermarker("document.pdf");
-        
-        // <% "{index-content.code_samples.sample_1.comment_2}" %>
-        ImageWatermark watermark = new ImageWatermark("watermark.jpg");
+        try (Metadata metadata = new Metadata("source.pptx")){
+            // <% "{index-content.code_samples.sample_1.comment_2}" %>
+            // <% "{index-content.code_samples.sample_1.comment_3}" %>
 
-        // <% "{index-content.code_samples.sample_1.comment_3}" %>
-        watermarker.add(watermark); 
-        watermarker.save("result.pdf");
+            IReadOnlyList<MetadataProperty> properties = metadata.findProperties(
+                new ContainsTagSpecification(Tags.getPerson().getEditor()).
+                or(new ContainsTagSpecification(Tags.getTime().getModified())));
 
-        watermark.close();                                                                                               
-        watermarker.close();
+            // <% "{index-content.code_samples.sample_1.comment_4}" %>
+            for (MetadataProperty property : properties) {
+                System.out.println(String.format("Property name: %s, Property value: %s", 
+                    property.getName(), property.getValue()));
+        }
 
         ```
         {{< /landing/code >}}
@@ -260,24 +262,23 @@ code_samples:
       content: |
         <% "{index-content-java.code_samples_sample_2_content}" %>
         {{< landing/code title="<% "{index-content.code_samples.sample_2.code_title}" %>">}}
-        ```csharp {style=abap}   
+        ```java {style=abap}   
         // <% "{index-content.code_samples.sample_2.comment_1}" %>
-        Watermarker watermarker = new Watermarker("document.pdf");
+        try (Metadata metadata = new Metadata("source.pdf")) {
+            if (metadata.getFileFormat() != FileFormat.Unknown && !metadata.getDocumentInfo().isEncrypted()) {
 
-        // <% "{index-content.code_samples.sample_2.comment_2}" %>
-        TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);                               
-        PossibleWatermarkCollection watermarks = watermarker.search(searchCriteria);                             
+                // <% "{index-content.code_samples.sample_2.comment_2}" %>
+                // <% "{index-content.code_samples.sample_2.comment_3}" %>
+                int affected = metadata.addProperties(
+                    new ContainsTagSpecification(Tags.getTime().getPrinted()), 
+                    new PropertyValue(new Date()));
 
-        // <% "{index-content.code_samples.sample_2.comment_3}" %>
-        for (PossibleWatermark watermark : watermarks)                                                           
-        {  
-            watermark.setText("New Text");
+                System.out.println(String.format("Affected properties: %s", affected));
+
+                // <% "{index-content.code_samples.sample_2.comment_4}" %>
+                metadata.save("output.pdf");
+            }
         }
-
-        // <% "{index-content.code_samples.sample_2.comment_4}" %>
-        watermarker.Save("document.pdf");
-        watermarker.close();
-
         ```
         {{< /landing/code >}}
 

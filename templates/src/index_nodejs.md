@@ -250,17 +250,21 @@ code_samples:
         {{< landing/code title="<% "{index-content.code_samples.sample_1.code_title}" %>">}}
         ```javascript {style=abap}
         // <% "{index-content.code_samples.sample_1.comment_1}" %>
-        let watermarker = new Watermarker("document.pdf");
-        
+        var metadata = new groupdocs.metadata.Metadata("source.pdf");
+
         // <% "{index-content.code_samples.sample_1.comment_2}" %>
-        let watermark = new ImageWatermark("watermark.jpg");
-
         // <% "{index-content.code_samples.sample_1.comment_3}" %>
-        watermarker.add(watermark); 
-        watermarker.save("result.pdf");
+        var searchSpecification = new groupdocs.metadata.ContainsTagSpecification
+            (groupdocs.metadata.Tags.getPerson().getEditor()).
+            or(new groupdocs.metadata.ContainsTagSpecification
+            (groupdocs.metadata.Tags.getTime().getModified()));
+        var metadataProperties = metadata.findProperties(searchSpecification);
 
-        watermark.close();                                                                                               
-        watermarker.close();
+        // <% "{index-content.code_samples.sample_1.comment_4}" %>
+        for (var i =0; i< metadataProperties.getCount(); i++) {
+            console.log(`Property name: ${metadataProperties.get_Item(i).getName()}, 
+            Property value: ${metadataProperties.get_Item(i).getValue()}`);
+        }
 
         ```
         {{< /landing/code >}}
@@ -271,21 +275,20 @@ code_samples:
         {{< landing/code title="<% "{index-content.code_samples.sample_2.code_title}" %>">}}
         ```javascript {style=abap}   
         // <% "{index-content.code_samples.sample_2.comment_1}" %>
-        let watermarker = new Watermarker("document.pdf");
+        var metadata = new groupdocs.metadata.Metadata("document.pdf");
+        if (metadata.getFileFormat() != groupdocs.metadata.FileFormat.Unknown 
+            && !metadata.getDocumentInfo().isEncrypted()) {
 
-        // <% "{index-content.code_samples.sample_2.comment_2}" %>
-        let searchCriteria = new TextSearchCriteria("test", false);                               
-        let watermarks = watermarker.search(searchCriteria); 
+            // <% "{index-content.code_samples.sample_2.comment_2}" %>
+            // <% "{index-content.code_samples.sample_2.comment_3}" %>
+            var affected = metadata.addProperties(
+            new groupdocs.metadata.ContainsTagSpecification(
+            groupdocs.metadata.Tags.getTime().getPrinted()), 
+            new groupdocs.metadata.PropertyValue(new Date()));
 
-        // <% "{index-content.code_samples.sample_2.comment_3}" %>
-        watermarks.forEach((watermark)
-        {  
-            watermark.setText("New Text");
+            // <% "{index-content.code_samples.sample_2.comment_4}" %>
+            console.log("Affected properties: ${affected}");
         }
-
-        // <% "{index-content.code_samples.sample_2.comment_4}" %>
-        watermarker.Save("document.pdf");
-        watermarker.close();
 
         ```
         {{< /landing/code >}}

@@ -238,15 +238,18 @@ code_samples:
         {{< landing/code title="<% "{index-content.code_samples.sample_1.code_title}" %>">}}
         ```csharp {style=abap}
         // <% "{index-content.code_samples.sample_1.comment_1}" %>
-        using (Watermarker watermarker = new Watermarker("document.pdf"))
+        using (Metadata metadata = new Metadata("source.pptx"))
         {
             // <% "{index-content.code_samples.sample_1.comment_2}" %>
-            using (ImageWatermark watermark = new ImageWatermark("watermark.jpg"))
-            {
-                // <% "{index-content.code_samples.sample_1.comment_3}" %>
-                watermarker.Add(watermark);
+            // <% "{index-content.code_samples.sample_1.comment_3}" %>
+            var properties = metadata.FindProperties(
+                p => p.Tags.Contains(Tags.Person.Editor) || 
+                p.Tags.Contains(Tags.Time.Modified));
 
-                watermarker.Save("result.pdf");
+            // <% "{index-content.code_samples.sample_1.comment_4}" %>
+            foreach (var property in properties)
+            {
+                Console.WriteLine("Property name: {0}, Property value: {1}", property.Name, property.Value);
             }
         }
         ```
@@ -258,19 +261,19 @@ code_samples:
         {{< landing/code title="<% "{index-content.code_samples.sample_2.code_title}" %>">}}
         ```csharp {style=abap}   
         // <% "{index-content.code_samples.sample_2.comment_1}" %>
-        using (Watermarker watermarker = new Watermarker("document.pdf"))
+        using (Metadata metadata = new Metadata("source.pdf"))
         {
-            // <% "{index-content.code_samples.sample_2.comment_2}" %>
-            TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);
-            PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
-            foreach (PossibleWatermark watermark in watermarks)
+            if (metadata.FileFormat != FileFormat.Unknown && !metadata.GetDocumentInfo().IsEncrypted)
             {
+                // <% "{index-content.code_samples.sample_2.comment_2}" %>
                 // <% "{index-content.code_samples.sample_2.comment_3}" %>
-                watermark.Text = "New Text";
-            }
+                var affected = metadata.AddProperties(p => p.Tags.Contains(Tags.Time.Printed), new PropertyValue(DateTime.Now));
+                  
+                Console.WriteLine("Affected properties: {0}", affected);
 
-            // <% "{index-content.code_samples.sample_2.comment_4}" %>
-            watermarker.Save("document.pdf");
+                // <% "{index-content.code_samples.sample_2.comment_4}" %>
+                metadata.Save("output.pdf");
+            }
         }
         ```
         {{< /landing/code >}}

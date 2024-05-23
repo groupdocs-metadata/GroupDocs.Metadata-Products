@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-05-22T14:42:18
+date: 2024-05-23T19:03:02
 draft: false
 
 lang: en
@@ -230,45 +230,48 @@ code_samples:
   description: "Some use cases of typical GroupDocs.Metadata for .NET operations"
   items:
     # code sample loop
-    - title: "Watermark by adding an image to a document."
+    - title: "Hidden metadata control"
       content: |
-        To protect any document you can use [image watermarks](https://docs.groupdocs.com/metadata/net/adding-image-metadatas/#add-image-metadata-from-local-file/):
-        {{< landing/code title="How to protect file by image watermark.">}}
+        To control inner document content you may find and process [document metadata](https://docs.groupdocs.com/metadata/net/find-metadata-properties/):
+        {{< landing/code title="How to get specific document metadata">}}
         ```csharp {style=abap}
-        // Load source document to Watermarker
-        using (Watermarker watermarker = new Watermarker("document.pdf"))
+        // Load source document to Metadata constructor
+        using (Metadata metadata = new Metadata("source.pptx"))
         {
-            // Specify path to a watermark image
-            using (ImageWatermark watermark = new ImageWatermark("watermark.jpg"))
-            {
-                // Protect the file and save it
-                watermarker.Add(watermark);
+            // Get all the properties that contains the name of the last document editor
+            // or the date/time the document was last modified
+            var properties = metadata.FindProperties(
+                p => p.Tags.Contains(Tags.Person.Editor) || 
+                p.Tags.Contains(Tags.Time.Modified));
 
-                watermarker.Save("result.pdf");
+            // Process retrieved metadata entries
+            foreach (var property in properties)
+            {
+                Console.WriteLine("Property name: {0}, Property value: {1}", property.Name, property.Value);
             }
         }
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "Search and modify existing watermarks."
+    - title: "Secure documents content"
       content: |
-        GroupDocs.Metadata is able to [modify watermarks](https://docs.groupdocs.com/metadata/net/modifing-found-metadata-properties/#replacing-text/) that are already presented in a document. Search for desired items and update their properties.
-        {{< landing/code title="Watermarks search & modification.">}}
+        Add [hidden metadata](https://docs.groupdocs.com/metadata/net/adding-metadata/) to your business files in order to protect its content:
+        {{< landing/code title="How to add some missing metadata properties to a file regardless of its format.">}}
         ```csharp {style=abap}   
         // Load source document
-        using (Watermarker watermarker = new Watermarker("document.pdf"))
+        using (Metadata metadata = new Metadata("source.pdf"))
         {
-            // Search for watermarks to be updated
-            TextSearchCriteria searchCriteria = new TextSearchCriteria("test", false);
-            PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
-            foreach (PossibleWatermark watermark in watermarks)
+            if (metadata.FileFormat != FileFormat.Unknown && !metadata.GetDocumentInfo().IsEncrypted)
             {
-                // Update desired properties
-                watermark.Text = "New Text";
-            }
+                // Add a property containing the file last printing date if it's missing
+                // Property will be added if the document supports such type of metadata
+                var affected = metadata.AddProperties(p => p.Tags.Contains(Tags.Time.Printed), new PropertyValue(DateTime.Now));
+                  
+                Console.WriteLine("Affected properties: {0}", affected);
 
-            // Save modified document to a specified path
-            watermarker.Save("document.pdf");
+                // Save modified document to a specified path
+                metadata.Save("output.pdf");
+            }
         }
         ```
         {{< /landing/code >}}

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-05-22T14:42:19
+date: 2024-05-23T19:03:02
 draft: false
 
 lang: en
@@ -242,48 +242,51 @@ code_samples:
   description: "Dive into code examples showcasing common GroupDocs.Metadata for Node.js via Java functionalities"
   items:
     # code sample loop
-    - title: "Watermark a Document with an Image"
+    - title: "Be informed about documents inner content"
       content: |
-        Leverage GroupDocs.Metadata for Node.js via Java to enhance document security by adding image watermarks. Learn more: [Image watermarks](https://docs.groupdocs.com/metadata/java/adding-image-metadatas/#add-image-metadata-from-local-file/).
-        {{< landing/code title="How to protect file by image watermark.">}}
+        To get information about inner [document metadata](https://docs.groupdocs.com/metadata/nodejs-java/find-metadata-properties/) use GroupDocs.Metadata for Node.js via Java API:
+        {{< landing/code title="How to get specific document metadata">}}
         ```javascript {style=abap}
-        // Load source document to Watermarker
-        let watermarker = new Watermarker("document.pdf");
-        
-        // Specify path to a watermark image
-        let watermark = new ImageWatermark("watermark.jpg");
+        // Load source document to Metadata constructor
+        var metadata = new groupdocs.metadata.Metadata("source.pdf");
 
-        // Protect the file and save it
-        watermarker.add(watermark); 
-        watermarker.save("result.pdf");
+        // Get all the properties that contains the name of the last document editor
+        // or the date/time the document was last modified
+        var searchSpecification = new groupdocs.metadata.ContainsTagSpecification
+            (groupdocs.metadata.Tags.getPerson().getEditor()).
+            or(new groupdocs.metadata.ContainsTagSpecification
+            (groupdocs.metadata.Tags.getTime().getModified()));
+        var metadataProperties = metadata.findProperties(searchSpecification);
 
-        watermark.close();                                                                                               
-        watermarker.close();
+        // Process retrieved metadata entries
+        for (var i =0; i< metadataProperties.getCount(); i++) {
+            console.log(`Property name: ${metadataProperties.get_Item(i).getName()}, 
+            Property value: ${metadataProperties.get_Item(i).getValue()}`);
+        }
 
         ```
         {{< /landing/code >}}
     # code sample loop
-    - title: "Search and Modify Existing Watermarks"
+    - title: "Hide business info in documents"
       content: |
-        GroupDocs.Metadata for Node.js via Java empowers you to manage document watermarks. Select watermarks, modify their properties. Discover how: [Modify watermarks](https://docs.groupdocs.com/metadata/java/modifying-found-metadata-properties/#replacing-text/).
-        {{< landing/code title="Watermarks search & modification.">}}
+        Modify your documents by [adding metadata](https://docs.groupdocs.com/metadata/nodejs-java/adding-metadata/) using our Solution:
+        {{< landing/code title="How to add some missing metadata properties to a file regardless of its format.">}}
         ```javascript {style=abap}   
         // Load source document
-        let watermarker = new Watermarker("document.pdf");
+        var metadata = new groupdocs.metadata.Metadata("document.pdf");
+        if (metadata.getFileFormat() != groupdocs.metadata.FileFormat.Unknown 
+            && !metadata.getDocumentInfo().isEncrypted()) {
 
-        // Search for watermarks to be updated
-        let searchCriteria = new TextSearchCriteria("test", false);                               
-        let watermarks = watermarker.search(searchCriteria); 
+            // Add a property containing the file last printing date if it's missing
+            // Property will be added if the document supports such type of metadata
+            var affected = metadata.addProperties(
+            new groupdocs.metadata.ContainsTagSpecification(
+            groupdocs.metadata.Tags.getTime().getPrinted()), 
+            new groupdocs.metadata.PropertyValue(new Date()));
 
-        // Update desired properties
-        watermarks.forEach((watermark)
-        {  
-            watermark.setText("New Text");
+            // Save modified document to a specified path
+            console.log("Affected properties: ${affected}");
         }
-
-        // Save modified document to a specified path
-        watermarker.Save("document.pdf");
-        watermarker.close();
 
         ```
         {{< /landing/code >}}
