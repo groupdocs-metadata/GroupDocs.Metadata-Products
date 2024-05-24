@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-05-23T19:03:02
+date: 2024-05-24T11:52:21
 draft: false
 
 lang: en
@@ -74,7 +74,7 @@ code:
 overview:
   enable: true
   title: "GroupDocs.Metadata at a glance"
-  description: "Library designed for adding watermarks using Java technologies"
+  description: "Library designed for metadata manipulation via Java"
   features:
     # feature loop
     - title: "Control files & documents metadata"
@@ -163,7 +163,7 @@ formats:
 features:
   enable: true
   title: "GroupDocs.Metadata for Java : Features"
-  description: "Protect your files by adding watermarks. Supports various formats including PDF, Office documents, and images."
+  description: "Protect your PDF, Office documents, and images metadata."
 
   items:
     # feature loop

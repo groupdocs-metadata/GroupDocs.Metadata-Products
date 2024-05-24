@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-05-23T19:03:02
+date: 2024-05-24T11:52:21
 draft: false
 
 lang: en
@@ -74,7 +74,7 @@ code:
 overview:
   enable: true
   title: "GroupDocs.Metadata at a glance"
-  description: "Node.js TypeScript library for watermarking"
+  description: "Node.js TypeScript library for to control metadata"
   features:
     # feature loop
     - title: "Main features"
@@ -172,7 +172,7 @@ formats:
 features:
   enable: true
   title: "GroupDocs.Metadata for Node.js via Java: Feature Set"
-  description: "Empower robust document security through programmatic watermarking. Supports diverse file formats including: PDF, DOCX, XLSX, PPTX, and image formats (PNG, JPG, etc.)."
+  description: "Empower robust document security through metadata processing."
 
   items:
     # feature loop

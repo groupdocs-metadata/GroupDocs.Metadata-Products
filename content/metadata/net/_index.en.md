@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-05-23T19:03:02
+date: 2024-05-24T11:52:21
 draft: false
 
 lang: en
@@ -160,7 +160,7 @@ formats:
 features:
   enable: true
   title: "GroupDocs.Metadata features"
-  description: "Protect PDF, Office, Images and other formats by watermark"
+  description: "Use Metadata to Protect PDF, Office, Images and other formats"
 
   items:
     # feature loop
