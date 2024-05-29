@@ -10,3 +10,7 @@
 <% set "AspNet" (dict "products.aspNet") %>
 <% set "CoreNet" (dict "products.coreNet") %>
 <% set "Mono" (dict "products.mono") %>
+<% set "FeaturesReadingBasicExifProperties" (dict "products.{product}.features_links.reading_basic_exif_properties") %>
+<% set "FeaturesUpdatingMetadata" (dict "products.{product}.features_links.updating_metadata") %>
+<% set "GifReadFileFormatProperties" (dict "products.{product}.features_links.GifReadFileFormatProperties") %>
+<% set "FeaturesRemoveDocx" (dict "products.features_links.remove_docx") %>

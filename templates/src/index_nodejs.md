@@ -193,7 +193,7 @@ features:
       content: "<% "{index-content-nodejs-java.features.feature_3.content}" %>"
 
     # feature loop
-    - icon: "detect"
+    - icon: "doc_background"
       title: "<% "{index-content-nodejs-java.features.feature_4.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_4.content}" %>"
 
@@ -236,6 +236,81 @@ features:
     - icon: "get"
       title: "<% "{index-content-nodejs-java.features.feature_12.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_12.content}" %>"
+
+    # feature loop
+    - icon: "remove"
+      title: "<% "{index-content-nodejs-java.features.feature_13.title}" %>"
+      content: "<% "{index-content-nodejs-java.features.feature_13.content}" %>"
+
+    # feature loop
+    - icon: "compare"
+      title: "<% "{index-content-nodejs-java.features.feature_14.title}" %>"
+      content: "<% "{index-content-nodejs-java.features.feature_14.content}" %>"
+
+    # feature loop
+    - icon: "metadata_text_search"
+      title: "<% "{index-content-nodejs-java.features.feature_15.title}" %>"
+      content: "<% "{index-content-nodejs-java.features.feature_15.content}" %>"
+
+    # feature loop
+    - icon: "detect"
+      title: "<% "{index-content-nodejs-java.features.feature_16.title}" %>"
+      content: "<% "{index-content-nodejs-java.features.feature_16.content}" %>"
+
+    # feature loop
+    - icon: "pdf_objects"
+      title: "<% "{index-content-nodejs-java.features.feature_17.title}" %>"
+      content: "<% "{index-content-nodejs-java.features.feature_17.content}" %>"
+
+    # feature loop
+    - icon: "export"
+      title: "<% "{index-content-nodejs-java.features.feature_18.title}" %>"
+      content: "<% "{index-content-nodejs-java.features.feature_18.content}" %>"
+
+    # feature loop
+    - icon: "metadata_add"
+      title: "<% "{index-content-nodejs-java.features.feature_19.title}" %>"
+      content: "<% "{index-content-nodejs-java.features.feature_19.content}" %>"
+
+    # feature loop
+    - icon: "pdf_objects"
+      title: "<% "{index-content-nodejs-java.features.feature_20.title}" %>"
+      content: "<% "{index-content-nodejs-java.features.feature_20.content}" %>"
+
+    # feature loop
+    - icon: "detect"
+      title: "<% "{index-content-nodejs-java.features.feature_21.title}" %>"
+      content: "<% "{index-content-nodejs-java.features.feature_21.content}" %>"
+
+    # feature loop
+    - icon: "preview"
+      title: "<% "{index-content-nodejs-java.features.feature_22.title}" %>"
+      content: "<% "{index-content-nodejs-java.features.feature_22.content}" %>"
+
+    # feature loop
+    - icon: "get"
+      title: "<% "{index-content-nodejs-java.features.feature_23.title}" %>"
+      content: "<% "{index-content-nodejs-java.features.feature_23.content}" %>"
+
+    # feature loop
+    - icon: "pdf_objects"
+      title: "<% "{index-content-nodejs-java.features.feature_24.title}" %>"
+      content: "<% "{index-content-nodejs-java.features.feature_24.content}" %>"
+
+    # feature loop
+    - icon: "subtitle"
+      title: "<% "{index-content-nodejs-java.features.feature_25.title}" %>"
+      content: "<% "{index-content-nodejs-java.features.feature_25.content}" %>"
+
+    # feature loop
+    - icon: "preview"
+      title: "<% "{index-content-nodejs-java.features.feature_26.title}" %>"
+      content: "<% "{index-content-nodejs-java.features.feature_26.content}" %>"
+
+    # feature loop
+    - icon: "get"
+      title: "<% "{index-content-nodejs-java.features.feature_27.title}" %>"
+      content: "<% "{index-content-nodejs-java.features.feature_27.content}" %>"
 
 ############################# Code samples ############################
 code_samples:

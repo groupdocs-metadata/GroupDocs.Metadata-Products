@@ -186,12 +186,12 @@ features:
       content: "<% "{index-content-net.features.feature_4.content}" %>"
 
     # feature loop
-    - icon: "compare"
+    - icon: "detect"
       title: "<% "{index-content-net.features.feature_5.title}" %>"
       content: "<% "{index-content-net.features.feature_5.content}" %>"
 
     # feature loop
-    - icon: "detect"
+    - icon: "remove"
       title: "<% "{index-content-net.features.feature_6.title}" %>"
       content: "<% "{index-content-net.features.feature_6.content}" %>"
 
@@ -201,7 +201,7 @@ features:
       content: "<% "{index-content-net.features.feature_7.content}" %>"
 
     # feature loop
-    - icon: "unreadable_characters"
+    - icon: "metadata_text_search"
       title: "<% "{index-content-net.features.feature_8.title}" %>"
       content: "<% "{index-content-net.features.feature_8.content}" %>"
 
@@ -211,12 +211,12 @@ features:
       content: "<% "{index-content-net.features.feature_9.content}" %>"
 
     # feature loop
-    - icon: "image_only"
+    - icon: "export"
       title: "<% "{index-content-net.features.feature_10.title}" %>"
       content: "<% "{index-content-net.features.feature_10.content}" %>"
 
     # feature loop
-    - icon: "remove"
+    - icon: "compare"
       title: "<% "{index-content-net.features.feature_11.title}" %>"
       content: "<% "{index-content-net.features.feature_11.content}" %>"
 
@@ -224,6 +224,66 @@ features:
     - icon: "metadata_add"
       title: "<% "{index-content-net.features.feature_12.title}" %>"
       content: "<% "{index-content-net.features.feature_12.content}" %>"
+
+    # feature loop
+    - icon: "remove"
+      title: "<% "{index-content-net.features.feature_13.title}" %>"
+      content: "<% "{index-content-net.features.feature_13.content}" %>"
+
+    # feature loop
+    - icon: "image_frame"
+      title: "<% "{index-content-net.features.feature_14.title}" %>"
+      content: "<% "{index-content-net.features.feature_14.content}" %>"
+
+    # feature loop
+    - icon: "reduce"
+      title: "<% "{index-content-net.features.feature_15.title}" %>"
+      content: "<% "{index-content-net.features.feature_15.content}" %>"
+
+    # feature loop
+    - icon: "export"
+      title: "<% "{index-content-net.features.feature_16.title}" %>"
+      content: "<% "{index-content-net.features.feature_16.content}" %>"
+
+    # feature loop
+    - icon: "compare"
+      title: "<% "{index-content-net.features.feature_17.title}" %>"
+      content: "<% "{index-content-net.features.feature_17.content}" %>"
+
+    # feature loop
+    - icon: "detect"
+      title: "<% "{index-content-net.features.feature_18.title}" %>"
+      content: "<% "{index-content-net.features.feature_18.content}" %>"
+
+    # feature loop
+    - icon: "preview"
+      title: "<% "{index-content-net.features.feature_19.title}" %>"
+      content: "<% "{index-content-net.features.feature_19.content}" %>"
+
+    # feature loop
+    - icon: "unreadable_characters"
+      title: "<% "{index-content-net.features.feature_20.title}" %>"
+      content: "<% "{index-content-net.features.feature_20.content}" %>"
+
+    # feature loop
+    - icon: "get"
+      title: "<% "{index-content-net.features.feature_21.title}" %>"
+      content: "<% "{index-content-net.features.feature_21.content}" %>"
+
+    # feature loop
+    - icon: "image_only"
+      title: "<% "{index-content-net.features.feature_22.title}" %>"
+      content: "<% "{index-content-net.features.feature_22.content}" %>"
+
+    # feature loop
+    - icon: "email"
+      title: "<% "{index-content-net.features.feature_23.title}" %>"
+      content: "<% "{index-content-net.features.feature_23.content}" %>"
+
+    # feature loop
+    - icon: "export"
+      title: "<% "{index-content-net.features.feature_24.title}" %>"
+      content: "<% "{index-content-net.features.feature_24.content}" %>"
 
 ############################# Code samples ############################
 code_samples:

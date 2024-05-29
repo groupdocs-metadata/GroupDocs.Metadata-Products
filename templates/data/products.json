@@ -15,6 +15,9 @@
     "aspNet": "ASP.NET",
     "coreNet": ".NET Core",
     "mono": "Mono",
+    "features_links": {
+      "remove_docx": "remove/docx/"
+    },
     "net": {
       "environmentName": ".NET",
       "environmentNameShort": ".NET",
@@ -37,8 +40,12 @@
       "sample2Url": "https://docs.groupdocs.com/metadata/net/adding-metadata/",
 
       "more_link": "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-.NET/",
-      "release_downloads": "https://releases.groupdocs.com/metadata/net/"
-
+      "release_downloads": "https://releases.groupdocs.com/metadata/net/",
+      "features_links": {
+        "reading_basic_exif_properties": "https://docs.groupdocs.com/metadata/net/working-with-exif-metadata/#reading-basic-exif-properties",
+        "updating_metadata": "https://docs.groupdocs.com/metadata/net/updating-metadata/",
+        "GifReadFileFormatProperties": "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-.NET/blob/master/Examples/GroupDocs.Metadata.Examples.CSharp/AdvancedUsage/ManagingMetadataForSpecificFormats/Image/Gif/GifReadFileFormatProperties.cs",
+      }
     },
     "java": {
       "environmentName": "Java",

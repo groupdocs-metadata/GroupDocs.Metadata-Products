@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-05-24T11:52:21
+date: 2024-05-29T12:21:40
 draft: false
 
 lang: en
@@ -167,64 +167,139 @@ features:
 
   items:
     # feature loop
-    - icon: "reduce"
-      title: "Delete Metadata & Comments from Reports and Documents"
-      content: "Manipulate Image Metadata Properties & Delete Photo Location Information"
-
-    # feature loop
-    - icon: "compare"
-      title: "Search Properties of Document, EXIF, & XMP Metadata"
-      content: "Identify Difference or Similarities in Metadata of Supported Formats by Comparison"
+    - icon: "document_info"
+      title: "Update EXIF Metadata Properties in WEBP, PNG & PSD Files"
+      content: ""
 
     # feature loop
     - icon: "detect"
-      title: "Detect Document File Type at Run-time"
-      content: "Detect Document Password Protection in Word, Excel, PowerPoint and PDF"
+      title: "Search Properties of Document, EXIF, & XMP Metadata"
+      content: ""
+
+    # feature loop
+    - icon: "remove"
+      title: "Access & Delete Hidden Data in Microsoft Word, Excel, PowerPoint & PDF"
+      content: ""
 
     # feature loop
     - icon: "get"
       title: "Export Metadata of Supported File Formats to Excel, CSV or DataSet"
-      content: "Manipulate Built-in & Custom Metadata and Fetch Metadata of Torrents & Archive Formats"
+      content: ""
 
     # feature loop
     - icon: "export"
       title: "Extract Text Metadata from PNG Image files"
-      content: "Add or Update XMP and EXIF Metadata Properties of Arbitrary Types using the Search API"
+      content: ""
 
     # feature loop
-    - icon: "remove"
+    - icon: "metadata_text_search"
       title: "Identify/Delete Digital Signatures in Word, Excel, PDF"
-      content: "Access & Delete Hidden Data in Microsoft Word, Excel, PowerPoint & PDF"
+      content: ""
 
     # feature loop
     - icon: "metadata_style"
       title: "Read Metadata Property using Defined Key for any Supported Format"
-      content: "Supports Enumeration of any Metadata Type & Read Metadata of OpenType Font Files"
+      content: ""
 
     # feature loop
     - icon: "preview"
       title: "Generate Image Previews for EPUB, CAD, EML & MSG Files"
-      content: "Get/Delete Metadata of Email Messages & Remove Attachments"
+      content: ""
 
     # feature loop
     - icon: "pdf_objects"
       title: "Reducing Memory Consumption of PDF, Excel & Image Formats"
-      content: "Metadata Extraction from Microsoft Excel Files Starting from Excel 95. Add, Update & Remove EXIF Metadata Packages in JPEG2000 Images"
+      content: ""
 
     # feature loop
     - icon: "metadata_text_search"
       title: "Read Matroska subtitles and retrieve Metadata of Audio & Video Files"
-      content: "Fetch Thumbnails and Image Previews of Supported Formats & Matroska Multimedia Container Support"
+      content: ""
 
     # feature loop
-    - icon: "metadata_image_search"
-      title: "Read Metadata from Encrypted Microsoft Project Files"
-      content: "Replace Metadata Properties of Word, Excel, PowerPoint and PDF. Extract XMP Metadata Properties in MOV, MP3 & WEBP Files"
+    - icon: "get"
+      title: "Replace Metadata Properties of Word, Excel, PowerPoint and PDF"
+      content: ""
+
+    # feature loop
+    - icon: "reduce"
+      title: "Delete Metadata & Comments from Reports and Documents"
+      content: ""
+
+    # feature loop
+    - icon: "image_frame"
+      title: "Manipulate Image Metadata Properties & Delete Photo Location Information"
+      content: ""
+
+    # feature loop
+    - icon: "compare"
+      title: "Identify Difference or Similarities in Metadata of Supported Formats by Comparison"
+      content: ""
+
+    # feature loop
+    - icon: "detect"
+      title: "Detect Document Password Protection in Word, Excel, PowerPoint and PDF"
+      content: ""
 
     # feature loop
     - icon: "document_info"
-      title: "Update EXIF Metadata Properties in WEBP, PNG & PSD Files"
-      content: "Add, Update and Delete IPTC Metadata Packages in TIFF Images. Read EXIF Tags & XMP Metadata Properties from HEIC/HEIF Image Formats"
+      title: "Manipulate Built-in & Custom Metadata and Fetch Metadata of Torrents & Archive Formats"
+      content: ""
+
+    # feature loop
+    - icon: "metadata_add"
+      title: "Add or Update XMP and EXIF Metadata Properties of Arbitrary Types using the Search API"
+      content: ""
+
+    # feature loop
+    - icon: "detect"
+      title: "Detect Document File Type at Run-time"
+      content: ""
+
+    # feature loop
+    - icon: "metadata_style"
+      title: "Supports Enumeration of any Metadata Type & Read Metadata of OpenType Font Files"
+      content: ""
+
+    # feature loop
+    - icon: "email"
+      title: "Get/Delete Metadata of Email Messages & Remove Attachments"
+      content: ""
+
+    # feature loop
+    - icon: "export"
+      title: "Metadata Extraction from Microsoft Excel Files Starting from Excel 95"
+      content: ""
+
+    # feature loop
+    - icon: "metadata_image_search"
+      title: "Fetch Thumbnails and Image Previews of Supported Formats & Matroska Multimedia Container Support"
+      content: ""
+
+    # feature loop
+    - icon: "unreadable_characters"
+      title: "Read Metadata from Encrypted Microsoft Project Files"
+      content: ""
+
+    # feature loop
+    - icon: "metadata_add"
+      title: "Add, Update and Delete IPTC Metadata Packages in TIFF Images"
+      content: ""
+
+    # feature loop
+    - icon: "metadata_image_search"
+      title: "Add, Update & Remove EXIF Metadata Packages in JPEG2000 Images"
+      content: ""
+
+    # feature loop
+    - icon: "export"
+      title: "Extract XMP Metadata Properties in MOV, MP3 & WEBP Files"
+      content: ""
+
+    # feature loop
+    - icon: "image_only"
+      title: "Read EXIF Tags & XMP Metadata Properties from HEIC/HEIF Image Formats"
+      content: ""
 
 ############################# Code samples ############################
 code_samples:

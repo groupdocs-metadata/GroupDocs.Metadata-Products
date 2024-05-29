@@ -169,17 +169,17 @@ features:
 
   items:
     # feature loop
-    - icon: "reduce"
+    - icon: "document_info"
       title: "<% "{index-content-java.features.feature_1.title}" %>"
       content: "<% "{index-content-java.features.feature_1.content}" %>"
 
     # feature loop
-    - icon: "compare"
+    - icon: "detect"
       title: "<% "{index-content-java.features.feature_2.title}" %>"
       content: "<% "{index-content-java.features.feature_2.content}" %>"
 
     # feature loop
-    - icon: "detect"
+    - icon: "remove"
       title: "<% "{index-content-java.features.feature_3.title}" %>"
       content: "<% "{index-content-java.features.feature_3.content}" %>"
 
@@ -194,7 +194,7 @@ features:
       content: "<% "{index-content-java.features.feature_5.content}" %>"
 
     # feature loop
-    - icon: "remove"
+    - icon: "metadata_text_search"
       title: "<% "{index-content-java.features.feature_6.title}" %>"
       content: "<% "{index-content-java.features.feature_6.content}" %>"
 
@@ -219,14 +219,89 @@ features:
       content: "<% "{index-content-java.features.feature_10.content}" %>"
 
     # feature loop
-    - icon: "metadata_image_search"
+    - icon: "get"
       title: "<% "{index-content-java.features.feature_11.title}" %>"
       content: "<% "{index-content-java.features.feature_11.content}" %>"
 
     # feature loop
-    - icon: "document_info"
+    - icon: "reduce"
       title: "<% "{index-content-java.features.feature_12.title}" %>"
       content: "<% "{index-content-java.features.feature_12.content}" %>"
+
+    # feature loop
+    - icon: "image_frame"
+      title: "<% "{index-content-java.features.feature_13.title}" %>"
+      content: "<% "{index-content-java.features.feature_13.content}" %>"
+
+    # feature loop
+    - icon: "compare"
+      title: "<% "{index-content-java.features.feature_14.title}" %>"
+      content: "<% "{index-content-java.features.feature_14.content}" %>"
+
+    # feature loop
+    - icon: "detect"
+      title: "<% "{index-content-java.features.feature_15.title}" %>"
+      content: "<% "{index-content-java.features.feature_15.content}" %>"
+
+    # feature loop
+    - icon: "document_info"
+      title: "<% "{index-content-java.features.feature_16.title}" %>"
+      content: "<% "{index-content-java.features.feature_16.content}" %>"
+
+    # feature loop
+    - icon: "metadata_add"
+      title: "<% "{index-content-java.features.feature_17.title}" %>"
+      content: "<% "{index-content-java.features.feature_17.content}" %>"
+
+    # feature loop
+    - icon: "detect"
+      title: "<% "{index-content-java.features.feature_18.title}" %>"
+      content: "<% "{index-content-java.features.feature_18.content}" %>"
+
+    # feature loop
+    - icon: "metadata_style"
+      title: "<% "{index-content-java.features.feature_19.title}" %>"
+      content: "<% "{index-content-java.features.feature_19.content}" %>"
+
+    # feature loop
+    - icon: "email"
+      title: "<% "{index-content-java.features.feature_20.title}" %>"
+      content: "<% "{index-content-java.features.feature_20.content}" %>"
+
+    # feature loop
+    - icon: "export"
+      title: "<% "{index-content-java.features.feature_21.title}" %>"
+      content: "<% "{index-content-java.features.feature_21.content}" %>"
+
+    # feature loop
+    - icon: "metadata_image_search"
+      title: "<% "{index-content-java.features.feature_22.title}" %>"
+      content: "<% "{index-content-java.features.feature_22.content}" %>"
+
+    # feature loop
+    - icon: "unreadable_characters"
+      title: "<% "{index-content-java.features.feature_23.title}" %>"
+      content: "<% "{index-content-java.features.feature_23.content}" %>"
+
+    # feature loop
+    - icon: "metadata_add"
+      title: "<% "{index-content-java.features.feature_24.title}" %>"
+      content: "<% "{index-content-java.features.feature_24.content}" %>"
+
+    # feature loop
+    - icon: "metadata_image_search"
+      title: "<% "{index-content-java.features.feature_25.title}" %>"
+      content: "<% "{index-content-java.features.feature_25.content}" %>"
+
+    # feature loop
+    - icon: "export"
+      title: "<% "{index-content-java.features.feature_26.title}" %>"
+      content: "<% "{index-content-java.features.feature_26.content}" %>"
+
+    # feature loop
+    - icon: "image_only"
+      title: "<% "{index-content-java.features.feature_27.title}" %>"
+      content: "<% "{index-content-java.features.feature_27.content}" %>"
 
 ############################# Code samples ############################
 code_samples:

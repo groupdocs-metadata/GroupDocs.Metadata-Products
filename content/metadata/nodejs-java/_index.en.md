@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-05-24T11:52:21
+date: 2024-05-29T12:21:40
 draft: false
 
 lang: en
@@ -178,62 +178,137 @@ features:
     # feature loop
     - icon: "hidden_print"
       title: "Clear business reports and documents from any metadata and comments"
-      content: "Identify and remove digital signatures present in PDFs and Office documents."
+      content: ""
 
     # feature loop
     - icon: "collect"
-      title: "Collect document metadata properties like EXIF or XMP"
-      content: "Save metadata from supported files to Excel, CSV or DataSet output"
+      title: "Control metadata in images including photo location information"
+      content: ""
 
     # feature loop
     - icon: "compare"
-      title: "Compare and analyze any alterations in metadata in supported file formats"
-      content: "Analyze specific metadata properties using defined keys for any supported format"
+      title: "Manipulate metadata in PDF, Word, Excel, PowerPoint, and other formats"
+      content: ""
 
     # feature loop
-    - icon: "detect"
-      title: "Dynamically detect the file type at runtime using Node.js."
-      content: "Detect password protection applied to PDF and MS Word, Excel, PowerPoint documents."
+    - icon: "doc_background"
+      title: "Compare and analyze any alterations in metadata in supported file formats"
+      content: ""
 
     # feature loop
     - icon: "document_info"
       title: "Leverage extensive capabilities to manipulate built-in and custom metadata"
-      content: "Gain access to and delete hidden data embedded in PDF, MS Word, Excel, PowerPoint…"
+      content: ""
 
     # feature loop
     - icon: "image_frame"
-      title: "Control metadata in images including photo location information"
-      content: "Extract text metadata directly from PNG image files using Node.js"
+      title: "Collect document metadata properties like EXIF or XMP"
+      content: ""
 
     # feature loop
     - icon: "manipulate"
       title: "Manipulate metadata and attachments in email messages"
-      content: "Use Search API to add or update XMP and EXIF metadata properties"
+      content: ""
 
     # feature loop
     - icon: "correct"
       title: "Correct content of EXIF Metadata in WEBP, PNG or PSD"
-      content: "Manipulate metadata in PDF, Word, Excel, PowerPoint, and other formats"
+      content: ""
 
     # feature loop
     - icon: "pdf_objects"
       title: "Make your PDF, Excel & Image Formats less memory demanding"
-      content: "Add, Update or Remove EXIF data in JPEG2000 Images. Get metadata from Microsoft Excel Spreadsheets starting from Excel 95"
+      content: ""
 
     # feature loop
     - icon: "subtitle"
       title: "Access Matroska subtitles and metadata in audio and video files"
-      content: "Retrieve thumbnails and image previews for supported file formats & Matroska Multimedia Container Support"
+      content: ""
 
     # feature loop
     - icon: "preview"
       title: "Generate Image Previews for MSG, CAD, EML or EPUB files"
-      content: "Manipulate IPTC Metadata Packages in TIFF Images. Enumerate any metadata type and control metadata of OpenType font files"
+      content: ""
 
     # feature loop
     - icon: "get"
       title: "Get XMP Metadata nodes from MOV, MP3 & WEBP Files"
-      content: "Control EXIF tags & XMP metadata for HEIC/HEIF images. Get all metadata hidden in Encrypted Microsoft Project Files"
+      content: ""
+
+    # feature loop
+    - icon: "remove"
+      title: "Identify and remove digital signatures present in PDFs and Office documents"
+      content: ""
+
+    # feature loop
+    - icon: "compare"
+      title: "Save metadata from supported files to Excel, CSV or DataSet output"
+      content: ""
+
+    # feature loop
+    - icon: "metadata_text_search"
+      title: "Analyze specific metadata properties using defined keys for any supported format"
+      content: ""
+
+    # feature loop
+    - icon: "detect"
+      title: "Detect password protection applied to PDF and MS Word, Excel, PowerPoint documents"
+      content: ""
+
+    # feature loop
+    - icon: "pdf_objects"
+      title: "Make your PDF, Excel & Image Formats less memory demanding"
+      content: ""
+
+    # feature loop
+    - icon: "export"
+      title: "Extract text metadata directly from PNG image files using Node.js"
+      content: ""
+
+    # feature loop
+    - icon: "metadata_add"
+      title: "Use Search API to add or update XMP and EXIF metadata properties"
+      content: ""
+
+    # feature loop
+    - icon: "pdf_objects"
+      title: "Gain access to and delete hidden data embedded in PDF, MS Word, Excel, PowerPoint…"
+      content: ""
+
+    # feature loop
+    - icon: "detect"
+      title: "Dynamically detect the file type at runtime using Node.js"
+      content: ""
+
+    # feature loop
+    - icon: "preview"
+      title: "Retrieve thumbnails and image previews for supported file formats & Matroska Multimedia Container Support"
+      content: ""
+
+    # feature loop
+    - icon: "get"
+      title: "Manipulate IPTC Metadata Packages in TIFF Images"
+      content: ""
+
+    # feature loop
+    - icon: "pdf_objects"
+      title: "Control EXIF tags & XMP metadata for HEIC/HEIF images"
+      content: ""
+
+    # feature loop
+    - icon: "subtitle"
+      title: "Enumerate any metadata type and control metadata of OpenType font files"
+      content: ""
+
+    # feature loop
+    - icon: "preview"
+      title: "Get all metadata hidden in Encrypted Microsoft Project Files"
+      content: ""
+
+    # feature loop
+    - icon: "get"
+      title: "Add, Update or Remove EXIF data in JPEG2000 Images"
+      content: ""
 
 ############################# Code samples ############################
 code_samples:
