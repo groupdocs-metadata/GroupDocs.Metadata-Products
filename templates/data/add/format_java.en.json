@@ -1,7 +1,7 @@
 {
   "head": {
     "title": "Add Metadata to {{FileFormatUp}} Files in {{ProgLang}} Applications",
-    "description": "{{ProgLang}} metadata processing API to add metadata information to {{FileFormatUp}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc.",
+    "description": "{{ProgLang}} metadata processing API to add metadata information to {{FileFormatUp}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
   },
   "header": {
     "title": "Adding Metadata To {{FileFormatUp}} In {{ProgLang}}",
@@ -36,7 +36,7 @@
   "more_features": {
     "title": "Document Metadata Management",
     "description": "Our comprehensive API streamlines managing document metadata. Access, edit, and manipulate various document properties for improved organization and searchability.",
-    "image_description": "Watermark Functionality",
+    "image_description": "Metadata Functionality",
     "feature_1": {
       "title": "Metadata Access",
       "content": "Effortlessly retrieve and process a document's metadata. Gain insights into properties like author, creation date, and many others."

@@ -3,7 +3,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-31T12:42:46
+date:  2024-05-31T14:53:04
 draft: false
 lang: en
 format: Xlsm
@@ -103,8 +103,8 @@ more_features:
   enable: true
   title: "Document Metadata Management"
   description: "Our comprehensive API streamlines managing document metadata. Access, edit, and manipulate various document properties for improved organization and searchability."
-  image: "/img/watermark/features_add.webp" # 500x500 px
-  image_description: "Watermark Functionality"
+  image: "/img/metadata/features_add.webp" # 500x500 px
+  image_description: "Metadata Functionality"
   features:
     # feature loop
     - title: "Metadata Access"
@@ -126,7 +126,7 @@ more_features:
         {{< landing/code title="Java">}}
         ```java {style=abap}
         
-        try (Metadata metadata = new Metadata(Constants.TiffWithExif)) {
+        try (Metadata metadata = new Metadata("input.tiff")) {
             IExif root = (IExif) metadata.getRootPackage();
 
             //  Set the EXIF package if it's missing
@@ -141,7 +141,7 @@ more_features:
             //  Please note that the chosen ID may intersect with the IDs used by some third party tools
             root.getExifPackage().set(new TiffAsciiTag(TiffTagID.getByRawValue(65523), "Hidden data"));
 
-            metadata.save(Constants.OutputTiff);
+            metadata.save("output.tiff");
         }
         ```
         {{< /landing/code >}}

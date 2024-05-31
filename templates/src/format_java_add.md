@@ -104,7 +104,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/watermark/features_add.webp" # 500x500 px
+  image: "/img/metadata/features_add.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -127,7 +127,7 @@ more_features:
         {{< landing/code title="Java">}}
         ```java {style=abap}
         
-        try (Metadata metadata = new Metadata(Constants.TiffWithExif)) {
+        try (Metadata metadata = new Metadata("input.tiff")) {
             IExif root = (IExif) metadata.getRootPackage();
 
             //  <% "{more_features.code_1.comment_1}" %>
@@ -142,7 +142,7 @@ more_features:
             //  <% "{more_features.code_1.comment_4}" %>
             root.getExifPackage().set(new TiffAsciiTag(TiffTagID.getByRawValue(65523), "Hidden data"));
 
-            metadata.save(Constants.OutputTiff);
+            metadata.save("output.tiff");
         }
         ```
         {{< /landing/code >}}
