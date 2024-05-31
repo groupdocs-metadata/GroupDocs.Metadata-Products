@@ -1,13 +1,12 @@
 <% set "Operation" (capitalize (get "operation")) %>
 <% set "OperationLow" (lower (get "operation")) %>
 <% set "OperationUrl" (lower (get "url")) %>
-<% set "Watermarktype" (capitalize (get "watermarktype")) %>
-<% set "WatermarktypeLow" (lower (get "watermarktype")) %>
 <% set "FileFormat" (get "fileformat") %>
 <% set "FileFormatUp" (upper (get "fileformat")) %>
 <% set "FileformatCap" (capitalize (get "fileformat")) %>
 <% set "EnvName" (dict "products.{product}.environmentName") %>
 <% set "ProdCode" (dict "products.{product}.productCode") %>
+<% set "PlatformLink" (dict "products.{product}.productPlatformLink") %>
 <% set "NameProduct" (dict "products.nameProduct") %>
 <% set "ProdShortName" (dict "products.productShortName") %>
 <% set "ProdFullName" (dict "products.{product}.productFullName") %>
@@ -23,9 +22,5 @@
 <% set "MoreLink" (dict "products.{product}.more_link") %>
 <% set "ReleaseDownloads" (dict "products.{product}.release_downloads") %>
 <% set "TextMetadata" (dict "products.textMetadata") %>
-<% set "TextWatermarkerBold" (dict "products.textWatermarkerBold") %>
-<% set "TextWatermarkBold" (dict "products.textWatermarkBold") %>
-<% set "TextSearchBold" (dict "products.textSearchBold") %>
-<% set "TextSearchCriteriaBold" (dict "products.textSearchCriteriaBold") %>
-<% set "TextTextSearchCriteria" (dict "products.textTextSearchCriteria") %>
-<% set "TextSearchCriteria" (dict "products.textSearchCriteria") %>
+<% set "TextMetadataAddProperties" (dict "products.textMetadataAddProperties") %>
+

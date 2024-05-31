@@ -1,73 +1,89 @@
 {
   "common-content": {
     "format-formats": {
-      "excel": {
-        "name": "Watermark Excel",
-        "description": "MS Excel and Open Office spreadsheets"
+      "avi": {
+        "name": "Add Metadata to AVI",
+        "description": "(Audio Video Interleave File)"
       },
-      "word": {
-        "name": "Watermark Word",
-        "description": "MS Word and Open Office documents"
-      },
-      "powerpoint": {
-        "name": "Watermark PowerPoint",
-        "description": "MS PowerPoint and Open Office presentations"
-      },
-      "image": {
-        "name": "Watermark Image",
-        "description": "Popular image formats"
-      },
-      "photo": {
-        "name": "Watermark Photo",
-        "description": "Photo formats"
-      },
-      "pdf": {
-        "name": "Watermark PDF",
-        "description": "Adobe Portable Document Format"
-      },
-      "doc": {
-        "name": "Watermark DOC",
-        "description": "Microsoft Word 97 - 2007 Document"
+      "djvu": {
+        "name": "Add Metadata to DJVU",
+        "description": "(Graphics File Format)"
       },
       "docx": {
-        "name": "Watermark DOCX",
-        "description": "Microsoft Word Open XML Document"
+        "name": "Add Metadata to DOCX",
+        "description": "(Office 2007+ Word Document)"
       },
-      "xls": {
-        "name": "Watermark XLS",
-        "description": "Microsoft Excel Workbook 97-2003"
+      "epub": {
+        "name": "Add Metadata to EPUB",
+        "description": "(Open eBook File)"
       },
-      "xlsx": {
-        "name": "Watermark XLSX",
-        "description": "Microsoft Excel Open XML Spreadsheet"
-      },
-      "ppt": {
-        "name": "Watermark PPT",
-        "description": "PowerPoint Presentation 97-2003"
-      },
-      "pptx": {
-        "name": "Watermark PPTX",
-        "description": "PowerPoint Open XML Presentation"
+      "heic": {
+        "name": "Add Metadata to HEIC",
+        "description": "(High Efficiency Image Format)"
       },
       "jpeg": {
-        "name": "Watermark JPEG",
-        "description": "JPEG Image"
+        "name": "Add Metadata to JPEG",
+        "description": "(Joint Photographic Expert Group Image)"
+      },
+      "mov": {
+        "name": "Add Metadata to MOV",
+        "description": "(Apple QuickTime Movie)"
+      },
+      "mp3": {
+        "name": "Add Metadata to MP3",
+        "description": "(MP3 Audio File)"
+      },
+      "msg": {
+        "name": "Add Metadata to MSG",
+        "description": "(Outlook Message Item File)"
+      },
+      "ods": {
+        "name": "Add Metadata to ODS",
+        "description": "(OpenDocument Spreadsheet)"
+      },
+      "odt": {
+        "name": "Add Metadata to ODT",
+        "description": "(OpenDocument Text File Format)"
+      },
+      "pdf": {
+        "name": "Add Metadata to PDF",
+        "description": "(Portable Document Format)"
       },
       "png": {
-        "name": "Watermark PNG",
-        "description": "Portable Network Graphic"
+        "name": "Add Metadata to PNG",
+        "description": "(Portable Network Graphic)"
+      },
+      "pptx": {
+        "name": "Add Metadata to PPTX",
+        "description": "(Open XML presentation Format)"
       },
       "tiff": {
-        "name": "Watermark TIFF",
-        "description": "Tag Image File Format"
+        "name": "Add Metadata to TIFF",
+        "description": "(Tagged Image File Format)"
+      },
+      "torrent": {
+        "name": "Add Metadata to TORRENT",
+        "description": "(Torrent link)"
+      },
+      "vsdx": {
+        "name": "Add Metadata to VSDX",
+        "description": "(Visio Drawing)"
+      },
+      "wav": {
+        "name": "Add Metadata to WAV",
+        "description": "(WAVE Audio File)"
       },
       "webp": {
-        "name": "Watermark WEBP",
-        "description": "WEB Picture"
+        "name": "Add Metadata to WEBP",
+        "description": "(Raster Web Image Format)"
       },
-      "rtf": {
-        "name": "Watermark RTF",
-        "description": "Rich Text Format"
+      "xlsx": {
+        "name": "Add Metadata to XLSX",
+        "description": "(Open XML Workbook)"
+      },
+      "zip": {
+        "name": "Add Metadata to ZIP",
+        "description": "(Zipped File)"
       }
     },
     "format-code": {
