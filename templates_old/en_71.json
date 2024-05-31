@@ -1,0 +1,308 @@
+{
+  "common-content": {
+    "format-formats": {
+      "asf": {
+        "name": "Add Metadata to ASF",
+        "description": "(Advanced Systems Format File)"
+      },
+      "avi": {
+        "name": "Add Metadata to AVI",
+        "description": "(Audio Video Interleave File)"
+      },
+      "bmp": {
+        "name": "Add Metadata to BMP",
+        "description": "(Bitmap Image File)"
+      },
+      "dcm": {
+        "name": "Add Metadata to DCM",
+        "description": "(DICOM Image)"
+      },
+      "dicom": {
+        "name": "Add Metadata to DICOM",
+        "description": "(Digital Imaging and Communications in Medicine)"
+      },
+      "djvu": {
+        "name": "Add Metadata to DJVU",
+        "description": "(Graphics File Format)"
+      },
+      "doc": {
+        "name": "Add Metadata to DOC",
+        "description": "(Microsoft Word Binary Format)"
+      },
+      "docm": {
+        "name": "Add Metadata to DOCM",
+        "description": "(Microsoft Word 2007 Marco File)"
+      },
+      "docx": {
+        "name": "Add Metadata to DOCX",
+        "description": "(Office 2007+ Word Document)"
+      },
+      "dot": {
+        "name": "Add Metadata to DOT",
+        "description": "(Microsoft Word Template Files)"
+      },
+      "dotm": {
+        "name": "Add Metadata to DOTM",
+        "description": "(Microsoft Word 2007+ Template File)"
+      },
+      "dotx": {
+        "name": "Add Metadata to DOTX",
+        "description": "(Microsoft Word Template File)"
+      },
+      "dwg": {
+        "name": "Add Metadata to DWG",
+        "description": "(AutoCAD Drawing File)"
+      },
+      "dxf": {
+        "name": "Add Metadata to DXF",
+        "description": "(Autodesk Drawing Exchange Format)"
+      },
+      "emf": {
+        "name": "Add Metadata to EMF",
+        "description": "(Enhanced Metafile Format)"
+      },
+      "eml": {
+        "name": "Add Metadata to EML",
+        "description": "(E-Mail Message)"
+      },
+      "epub": {
+        "name": "Add Metadata to EPUB",
+        "description": "(Open eBook File)"
+      },
+      "flv": {
+        "name": "Add Metadata to FLV",
+        "description": "(Flash Video File)"
+      },
+      "gif": {
+        "name": "Add Metadata to GIF",
+        "description": "(Graphical Interchange Format)"
+      },
+      "heic": {
+        "name": "Add Metadata to HEIC",
+        "description": "(High Efficiency Image Format)"
+      },
+      "heif": {
+        "name": "Add Metadata to HEIF",
+        "description": "(High Efficiency Image Format)"
+      },
+      "jpeg": {
+        "name": "Add Metadata to JPEG",
+        "description": "(Joint Photographic Expert Group Image)"
+      },
+      "jpf": {
+        "name": "Add Metadata to JPF",
+        "description": "(JPEG 2000 Image)"
+      },
+      "jpg": {
+        "name": "Add Metadata to JPG",
+        "description": "(JPEG format)"
+      },
+      "jp2": {
+        "name": "Add Metadata to JP2",
+        "description": "(JPEG 2000 Core Image)"
+      },
+      "mkv": {
+        "name": "Add Metadata to MKV",
+        "description": "(Matroska Video File)"
+      },
+      "mov": {
+        "name": "Add Metadata to MOV",
+        "description": "(Apple QuickTime Movie)"
+      },
+      "mpp": {
+        "name": "Add Metadata to MPP",
+        "description": "(Microsoft Project File)"
+      },
+      "mpt": {
+        "name": "Add Metadata to MPT",
+        "description": "(Microsoft Project Template)"
+      },
+      "mp3": {
+        "name": "Add Metadata to MP3",
+        "description": "(MP3 Audio File)"
+      },
+      "msg": {
+        "name": "Add Metadata to MSG",
+        "description": "(Outlook Message Item File)"
+      },
+      "ods": {
+        "name": "Add Metadata to ODS",
+        "description": "(OpenDocument Spreadsheet)"
+      },
+      "odt": {
+        "name": "Add Metadata to ODT",
+        "description": "(OpenDocument Text File Format)"
+      },
+      "one": {
+        "name": "Add Metadata to ONE",
+        "description": "(OneNote Document)"
+      },
+      "otc": {
+        "name": "Add Metadata to OTC",
+        "description": "(OpenDocument Chart Template)"
+      },
+      "otf": {
+        "name": "Add Metadata to OTF",
+        "description": "(OpenType Font)"
+      },
+      "pdf": {
+        "name": "Add Metadata to PDF",
+        "description": "(Portable Document Format)"
+      },
+      "png": {
+        "name": "Add Metadata to PNG",
+        "description": "(Portable Network Graphic)"
+      },
+      "pot": {
+        "name": "Add Metadata to POT",
+        "description": "(Microsoft PowerPoint Template Files)"
+      },
+      "potm": {
+        "name": "Add Metadata to POTM",
+        "description": "(Microsoft PowerPoint Template File)"
+      },
+      "potx": {
+        "name": "Add Metadata to POTX",
+        "description": "(Microsoft PowerPoint Template Presentation)"
+      },
+      "pps": {
+        "name": "Add Metadata to PPS",
+        "description": "(PowerPoint Slide Show)"
+      },
+      "ppsm": {
+        "name": "Add Metadata to PPSM",
+        "description": "(Macro-enabled Slide Show)"
+      },
+      "ppsx": {
+        "name": "Add Metadata to PPSX",
+        "description": "(PowerPoint Slide Show)"
+      },
+      "ppt": {
+        "name": "Add Metadata to PPT",
+        "description": "(Microsoft PowerPoint 97-2003)"
+      },
+      "pptm": {
+        "name": "Add Metadata to PPTM",
+        "description": "(Macro-enabled Presentation File)"
+      },
+      "pptx": {
+        "name": "Add Metadata to PPTX",
+        "description": "(Open XML presentation Format)"
+      },
+      "psd": {
+        "name": "Add Metadata to PSD",
+        "description": "(Photoshop Document)"
+      },
+      "tif": {
+        "name": "Add Metadata to TIF",
+        "description": "(TIFF image)"
+      },
+      "tiff": {
+        "name": "Add Metadata to TIFF",
+        "description": "(Tagged Image File Format)"
+      },
+      "torrent": {
+        "name": "Add Metadata to TORRENT",
+        "description": "(Torrent link)"
+      },
+      "ttc": {
+        "name": "Add Metadata to TTC",
+        "description": "(TrueType Font Collection)"
+      },
+      "ttf": {
+        "name": "Add Metadata to TTF",
+        "description": "(TrueType Font)"
+      },
+      "vcf": {
+        "name": "Add Metadata to VCF",
+        "description": "(vCard File)"
+      },
+      "vcr": {
+        "name": "Add Metadata to VCR",
+        "description": "(Video record)"
+      },
+      "vdx": {
+        "name": "Add Metadata to VDX",
+        "description": "(The 7th Guest Video File)"
+      },
+      "vsd": {
+        "name": "Add Metadata to VSD",
+        "description": "(Visio Drawing File)"
+      },
+      "vsdx": {
+        "name": "Add Metadata to VSDX",
+        "description": "(Visio Drawing)"
+      },
+      "vss": {
+        "name": "Add Metadata to VSS",
+        "description": "(Visio Stencil File)"
+      },
+      "vsx": {
+        "name": "Add Metadata to VSX",
+        "description": "(Visio Stencil XML File)"
+      },
+      "wav": {
+        "name": "Add Metadata to WAV",
+        "description": "(WAVE Audio File)"
+      },
+      "webp": {
+        "name": "Add Metadata to WEBP",
+        "description": "(Raster Web Image Format)"
+      },
+      "wmf": {
+        "name": "Add Metadata to WMF",
+        "description": "(Windows Metafile)"
+      },
+      "xls": {
+        "name": "Add Metadata to XLS",
+        "description": "(Microsoft Excel Spreadsheet (Legacy))"
+      },
+      "xlsb": {
+        "name": "Add Metadata to XLSB",
+        "description": "(Excel Binary Workbook)"
+      },
+      "xlsm": {
+        "name": "Add Metadata to XLSM",
+        "description": "(Macro-enabled Spreadsheet)"
+      },
+      "xlsx": {
+        "name": "Add Metadata to XLSX",
+        "description": "(Open XML Workbook)"
+      },
+      "xlt": {
+        "name": "Add Metadata to XLT",
+        "description": "(Excel 97 - 2003 Template)"
+      },
+      "xltm": {
+        "name": "Add Metadata to XLTM",
+        "description": "(Excel Macro-Enabled Template)"
+      },
+      "xltx": {
+        "name": "Add Metadata to XLTX",
+        "description": "(Excel Template)"
+      },
+      "zip": {
+        "name": "Add Metadata to ZIP",
+        "description": "(Zipped File)"
+      }
+    },
+    "format-code": {
+      "copy_title": "Copy",
+      "copy_tip": "click to copy",
+      "copy_done": "copied",
+      "links": {
+        "title_1": "More examples",
+        "title_2": "Documentation"
+      }
+    },
+    "format-actions": {
+      "title": "Ready to get started?",
+      "description": "Try {{ProdShortName}} features for free or request a license",
+      "comment_1": "{{PackageStoreName}} download",
+      "comment_2": "Licensing"
+    },
+    "texts": {
+      "learn_more": "Learn more"
+    }
+  }
+}
