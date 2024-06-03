@@ -181,7 +181,7 @@ features:
       content: "<% "{index-content-net.features.feature_3.content}" %>"
 
     # feature loop
-    - icon: "doc_background"
+    - icon: "image_frame"
       title: "<% "{index-content-net.features.feature_4.title}" %>"
       content: "<% "{index-content-net.features.feature_4.content}" %>"
 
@@ -211,7 +211,7 @@ features:
       content: "<% "{index-content-net.features.feature_9.content}" %>"
 
     # feature loop
-    - icon: "image_frame"
+    - icon: "compare"
       title: "<% "{index-content-net.features.feature_10.title}" %>"
       content: "<% "{index-content-net.features.feature_10.content}" %>"
 
@@ -221,7 +221,7 @@ features:
       content: "<% "{index-content-net.features.feature_11.content}" %>"
 
     # feature loop
-    - icon: "image_frame"
+    - icon: "reduce"
       title: "<% "{index-content-net.features.feature_12.title}" %>"
       content: "<% "{index-content-net.features.feature_12.content}" %>"
 
@@ -231,12 +231,12 @@ features:
       content: "<% "{index-content-net.features.feature_13.content}" %>"
 
     # feature loop
-    - icon: "image_frame"
+    - icon: "doc_background"
       title: "<% "{index-content-net.features.feature_14.title}" %>"
       content: "<% "{index-content-net.features.feature_14.content}" %>"
 
     # feature loop
-    - icon: "reduce"
+    - icon: "image_frame"
       title: "<% "{index-content-net.features.feature_15.title}" %>"
       content: "<% "{index-content-net.features.feature_15.content}" %>"
 
@@ -246,7 +246,7 @@ features:
       content: "<% "{index-content-net.features.feature_16.content}" %>"
 
     # feature loop
-    - icon: "compare"
+    - icon: "image_frame"
       title: "<% "{index-content-net.features.feature_17.title}" %>"
       content: "<% "{index-content-net.features.feature_17.content}" %>"
 

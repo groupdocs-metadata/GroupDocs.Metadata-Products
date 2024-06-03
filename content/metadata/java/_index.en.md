@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-06-03T15:00:57
+date: 2024-06-03T15:37:48
 draft: false
 
 lang: en
@@ -163,143 +163,143 @@ formats:
 features:
   enable: true
   title: "GroupDocs.Metadata for Java : Features"
-  description: "Protect your PDF, Office documents, and images metadata."
+  description: "Protect your PDF, Office documents, and images metadata"
 
   items:
     # feature loop
     - icon: "image_frame"
       title: "EXIF Images Metadata"
-      content: "Update EXIF Metadata Properties in WEBP, PNG & PSD Files"
+      content: "Update EXIF metadata properties in WEBP, PNG, and PSD files"
 
     # feature loop
     - icon: "detect"
       title: "Get File Metadata"
-      content: "Search Properties of Document, EXIF, & XMP Metadata"
+      content: "Search properties of document, EXIF, and XMP metadata"
 
     # feature loop
     - icon: "hidden_print"
-      title: "Clean office formats"
-      content: "Access & Delete Hidden Data in Microsoft Word, Excel, PowerPoint & PDF"
+      title: "Clean Office Formats"
+      content: "Access and delete hidden data in Microsoft Word, Excel, PowerPoint, and PDF files"
 
     # feature loop
     - icon: "get"
       title: "Metadata Export"
-      content: "Export Metadata of Supported File Formats to Excel, CSV or DataSet"
+      content: "Export metadata of supported file formats to Excel, CSV, or DataSet"
 
     # feature loop
     - icon: "image_frame"
       title: "PNG Image Support"
-      content: "Extract Text Metadata from PNG Image files"
+      content: "Extract text metadata from PNG image files"
 
     # feature loop
     - icon: "remove"
       title: "Remove Digital Signatures"
-      content: "Identify/Delete Digital Signatures in Word, Excel, PDF"
+      content: "Identify and delete digital signatures in Word, Excel, and PDF files"
 
     # feature loop
     - icon: "metadata_style"
       title: "Built-In Metadata Support"
-      content: "Read Metadata Property using Defined Key for any Supported Format"
+      content: "Read metadata property using a defined key for any supported format"
 
     # feature loop
     - icon: "preview"
       title: "Image Previews"
-      content: "Generate Image Previews for EPUB, CAD, EML & MSG Files"
+      content: "Generate image previews for EPUB, CAD, EML, and MSG files"
 
     # feature loop
     - icon: "pdf_objects"
       title: "File Content Optimization"
-      content: "Reducing Memory Consumption of PDF, Excel & Image Formats"
+      content: "Reduce memory consumption of PDF, Excel, and image formats"
 
     # feature loop
     - icon: "metadata_text_search"
       title: "Matroska Multimedia Support"
-      content: "Read Matroska subtitles and retrieve Metadata of Audio & Video Files"
+      content: "Read Matroska subtitles and retrieve metadata of audio and video files"
 
     # feature loop
     - icon: "manipulate"
       title: "Replace Metadata Content"
-      content: "Replace Metadata Properties of Word, Excel, PowerPoint and PDF"
+      content: "Replace metadata properties of Word, Excel, PowerPoint, and PDF files"
 
     # feature loop
     - icon: "remove"
-      title: "Clean business data"
-      content: "Delete Metadata & Comments from Reports and Documents"
+      title: "Clean Business Data"
+      content: "Delete metadata and comments from reports and documents"
 
     # feature loop
     - icon: "image_frame"
       title: "Photo Location"
-      content: "Manipulate Image Metadata Properties & Delete Photo Location Information"
+      content: "Manipulate image metadata properties and delete photo location information"
 
     # feature loop
     - icon: "compare"
       title: "Analyze Metadata Distinctions"
-      content: "Identify Difference or Similarities in Metadata of Supported Formats by Comparison"
+      content: "Identify differences or similarities in metadata of supported formats by comparison"
 
     # feature loop
     - icon: "unreadable_characters"
       title: "Password Protection"
-      content: "Detect Document Password Protection in Word, Excel, PowerPoint and PDF"
+      content: "Detect document password protection in Word, Excel, PowerPoint, and PDF files"
 
     # feature loop
     - icon: "document_info"
       title: "Archive & Torrents Support"
-      content: "Manipulate Built-in & Custom Metadata and Fetch Metadata of Torrents & Archive Formats"
+      content: "Manipulate built-in and custom metadata and fetch metadata of torrents and archive formats"
 
     # feature loop
     - icon: "image_only"
       title: "EXIF Image Metadata"
-      content: "Add or Update XMP and EXIF Metadata Properties of Arbitrary Types using the Search API"
+      content: "Add or update XMP and EXIF metadata properties of arbitrary types using the Search API"
 
     # feature loop
     - icon: "detect"
       title: "Detect Document File Type at Run-time"
-      content: "Our solution provides ability to detect file or stream type before metadata processing"
+      content: "Our solution provides the ability to detect file or stream type before metadata processing"
 
     # feature loop
     - icon: "metadata_style"
       title: "Font Metadata Support"
-      content: "Supports Enumeration of any Metadata Type & Read Metadata of OpenType Font Files"
+      content: "Supports enumeration of any metadata type and reads metadata of OpenType font files"
 
     # feature loop
     - icon: "email"
       title: "Email Metadata Support"
-      content: "Get/Delete Metadata of Email Messages & Remove Attachments"
+      content: "Get and delete metadata of email messages and remove attachments"
 
     # feature loop
     - icon: "export"
       title: "Microsoft Excel Support"
-      content: "Metadata Extraction from Microsoft Excel Files Starting from Excel 95"
+      content: "Metadata extraction from Microsoft Excel files starting from Excel 95"
 
     # feature loop
     - icon: "preview"
       title: "Matroska Multimedia Previews"
-      content: "Fetch Thumbnails and Image Previews of Supported Formats & Matroska Multimedia Container Support"
+      content: "Fetch thumbnails and image previews of supported formats with Matroska multimedia container support"
 
     # feature loop
     - icon: "unreadable_characters"
       title: "Microsoft Project Support"
-      content: "Read Metadata from Encrypted Microsoft Project Files"
+      content: "Read metadata from encrypted Microsoft Project files"
 
     # feature loop
     - icon: "image_only"
       title: "TIFF Support"
-      content: "Add, Update and Delete IPTC Metadata Packages in TIFF Images"
+      content: "Add, update, and delete IPTC metadata packages in TIFF images"
 
     # feature loop
     - icon: "metadata_image_search"
       title: "JPEG Support"
-      content: "Add, Update & Remove EXIF Metadata Packages in JPEG2000 Images"
+      content: "Add, update, and remove EXIF metadata packages in JPEG2000 images"
 
     # feature loop
     - icon: "export"
       title: "Multimedia Files Support"
-      content: "Extract XMP Metadata Properties in MOV, MP3 & WEBP Files"
+      content: "Extract XMP metadata properties in MOV, MP3, and WEBP files"
 
     # feature loop
     - icon: "image_only"
       title: "HEIC Media Support"
-      content: "Read EXIF Tags & XMP Metadata Properties from HEIC/HEIF Image Formats"
+      content: "Read EXIF tags and XMP metadata properties from HEIC/HEIF image formats"
 
 ############################# Code samples ############################
 code_samples:
