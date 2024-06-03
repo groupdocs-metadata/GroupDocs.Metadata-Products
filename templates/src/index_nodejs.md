@@ -198,7 +198,7 @@ features:
       content: "<% "{index-content-nodejs-java.features.feature_4.content}" %>"
 
     # feature loop
-    - icon: "document_info"
+    - icon: "metadata_style"
       title: "<% "{index-content-nodejs-java.features.feature_5.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_5.content}" %>"
 
@@ -208,12 +208,12 @@ features:
       content: "<% "{index-content-nodejs-java.features.feature_6.content}" %>"
 
     # feature loop
-    - icon: "manipulate"
+    - icon: "email"
       title: "<% "{index-content-nodejs-java.features.feature_7.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_7.content}" %>"
 
     # feature loop
-    - icon: "correct"
+    - icon: "image_only"
       title: "<% "{index-content-nodejs-java.features.feature_8.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_8.content}" %>"
 
@@ -243,22 +243,22 @@ features:
       content: "<% "{index-content-nodejs-java.features.feature_13.content}" %>"
 
     # feature loop
-    - icon: "compare"
+    - icon: "export"
       title: "<% "{index-content-nodejs-java.features.feature_14.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_14.content}" %>"
 
     # feature loop
-    - icon: "metadata_text_search"
+    - icon: "metadata_style"
       title: "<% "{index-content-nodejs-java.features.feature_15.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_15.content}" %>"
 
     # feature loop
-    - icon: "detect"
+    - icon: "unreadable_characters"
       title: "<% "{index-content-nodejs-java.features.feature_16.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_16.content}" %>"
 
     # feature loop
-    - icon: "pdf_objects"
+    - icon: "manipulate"
       title: "<% "{index-content-nodejs-java.features.feature_17.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_17.content}" %>"
 
@@ -273,7 +273,7 @@ features:
       content: "<% "{index-content-nodejs-java.features.feature_19.content}" %>"
 
     # feature loop
-    - icon: "pdf_objects"
+    - icon: "doc_background"
       title: "<% "{index-content-nodejs-java.features.feature_20.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_20.content}" %>"
 
@@ -293,17 +293,17 @@ features:
       content: "<% "{index-content-nodejs-java.features.feature_23.content}" %>"
 
     # feature loop
-    - icon: "pdf_objects"
+    - icon: "image_only"
       title: "<% "{index-content-nodejs-java.features.feature_24.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_24.content}" %>"
 
     # feature loop
-    - icon: "subtitle"
+    - icon: "metadata_style"
       title: "<% "{index-content-nodejs-java.features.feature_25.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_25.content}" %>"
 
     # feature loop
-    - icon: "preview"
+    - icon: "unreadable_characters"
       title: "<% "{index-content-nodejs-java.features.feature_26.title}" %>"
       content: "<% "{index-content-nodejs-java.features.feature_26.content}" %>"
 

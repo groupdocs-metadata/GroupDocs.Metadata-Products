@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-05-29T12:21:40
+date: 2024-06-03T15:00:57
 draft: false
 
 lang: en
@@ -167,139 +167,139 @@ features:
 
   items:
     # feature loop
-    - icon: "document_info"
-      title: "Update EXIF Metadata Properties in WEBP, PNG & PSD Files"
-      content: ""
+    - icon: "image_frame"
+      title: "EXIF Images Metadata"
+      content: "Update EXIF Metadata Properties in WEBP, PNG & PSD Files"
 
     # feature loop
     - icon: "detect"
-      title: "Search Properties of Document, EXIF, & XMP Metadata"
-      content: ""
+      title: "Get File Metadata"
+      content: "Search Properties of Document, EXIF, & XMP Metadata"
 
     # feature loop
-    - icon: "remove"
-      title: "Access & Delete Hidden Data in Microsoft Word, Excel, PowerPoint & PDF"
-      content: ""
-
-    # feature loop
-    - icon: "get"
-      title: "Export Metadata of Supported File Formats to Excel, CSV or DataSet"
-      content: ""
-
-    # feature loop
-    - icon: "export"
-      title: "Extract Text Metadata from PNG Image files"
-      content: ""
-
-    # feature loop
-    - icon: "metadata_text_search"
-      title: "Identify/Delete Digital Signatures in Word, Excel, PDF"
-      content: ""
-
-    # feature loop
-    - icon: "metadata_style"
-      title: "Read Metadata Property using Defined Key for any Supported Format"
-      content: ""
-
-    # feature loop
-    - icon: "preview"
-      title: "Generate Image Previews for EPUB, CAD, EML & MSG Files"
-      content: ""
-
-    # feature loop
-    - icon: "pdf_objects"
-      title: "Reducing Memory Consumption of PDF, Excel & Image Formats"
-      content: ""
-
-    # feature loop
-    - icon: "metadata_text_search"
-      title: "Read Matroska subtitles and retrieve Metadata of Audio & Video Files"
-      content: ""
+    - icon: "hidden_print"
+      title: "Clean office formats"
+      content: "Access & Delete Hidden Data in Microsoft Word, Excel, PowerPoint & PDF"
 
     # feature loop
     - icon: "get"
-      title: "Replace Metadata Properties of Word, Excel, PowerPoint and PDF"
-      content: ""
-
-    # feature loop
-    - icon: "reduce"
-      title: "Delete Metadata & Comments from Reports and Documents"
-      content: ""
+      title: "Metadata Export"
+      content: "Export Metadata of Supported File Formats to Excel, CSV or DataSet"
 
     # feature loop
     - icon: "image_frame"
-      title: "Manipulate Image Metadata Properties & Delete Photo Location Information"
-      content: ""
+      title: "PNG Image Support"
+      content: "Extract Text Metadata from PNG Image files"
+
+    # feature loop
+    - icon: "remove"
+      title: "Remove Digital Signatures"
+      content: "Identify/Delete Digital Signatures in Word, Excel, PDF"
+
+    # feature loop
+    - icon: "metadata_style"
+      title: "Built-In Metadata Support"
+      content: "Read Metadata Property using Defined Key for any Supported Format"
+
+    # feature loop
+    - icon: "preview"
+      title: "Image Previews"
+      content: "Generate Image Previews for EPUB, CAD, EML & MSG Files"
+
+    # feature loop
+    - icon: "pdf_objects"
+      title: "File Content Optimization"
+      content: "Reducing Memory Consumption of PDF, Excel & Image Formats"
+
+    # feature loop
+    - icon: "metadata_text_search"
+      title: "Matroska Multimedia Support"
+      content: "Read Matroska subtitles and retrieve Metadata of Audio & Video Files"
+
+    # feature loop
+    - icon: "manipulate"
+      title: "Replace Metadata Content"
+      content: "Replace Metadata Properties of Word, Excel, PowerPoint and PDF"
+
+    # feature loop
+    - icon: "remove"
+      title: "Clean business data"
+      content: "Delete Metadata & Comments from Reports and Documents"
+
+    # feature loop
+    - icon: "image_frame"
+      title: "Photo Location"
+      content: "Manipulate Image Metadata Properties & Delete Photo Location Information"
 
     # feature loop
     - icon: "compare"
-      title: "Identify Difference or Similarities in Metadata of Supported Formats by Comparison"
-      content: ""
+      title: "Analyze Metadata Distinctions"
+      content: "Identify Difference or Similarities in Metadata of Supported Formats by Comparison"
 
     # feature loop
-    - icon: "detect"
-      title: "Detect Document Password Protection in Word, Excel, PowerPoint and PDF"
-      content: ""
+    - icon: "unreadable_characters"
+      title: "Password Protection"
+      content: "Detect Document Password Protection in Word, Excel, PowerPoint and PDF"
 
     # feature loop
     - icon: "document_info"
-      title: "Manipulate Built-in & Custom Metadata and Fetch Metadata of Torrents & Archive Formats"
-      content: ""
+      title: "Archive & Torrents Support"
+      content: "Manipulate Built-in & Custom Metadata and Fetch Metadata of Torrents & Archive Formats"
 
     # feature loop
-    - icon: "metadata_add"
-      title: "Add or Update XMP and EXIF Metadata Properties of Arbitrary Types using the Search API"
-      content: ""
+    - icon: "image_only"
+      title: "EXIF Image Metadata"
+      content: "Add or Update XMP and EXIF Metadata Properties of Arbitrary Types using the Search API"
 
     # feature loop
     - icon: "detect"
       title: "Detect Document File Type at Run-time"
-      content: ""
+      content: "Our solution provides ability to detect file or stream type before metadata processing"
 
     # feature loop
     - icon: "metadata_style"
-      title: "Supports Enumeration of any Metadata Type & Read Metadata of OpenType Font Files"
-      content: ""
+      title: "Font Metadata Support"
+      content: "Supports Enumeration of any Metadata Type & Read Metadata of OpenType Font Files"
 
     # feature loop
     - icon: "email"
-      title: "Get/Delete Metadata of Email Messages & Remove Attachments"
-      content: ""
+      title: "Email Metadata Support"
+      content: "Get/Delete Metadata of Email Messages & Remove Attachments"
 
     # feature loop
     - icon: "export"
-      title: "Metadata Extraction from Microsoft Excel Files Starting from Excel 95"
-      content: ""
+      title: "Microsoft Excel Support"
+      content: "Metadata Extraction from Microsoft Excel Files Starting from Excel 95"
 
     # feature loop
-    - icon: "metadata_image_search"
-      title: "Fetch Thumbnails and Image Previews of Supported Formats & Matroska Multimedia Container Support"
-      content: ""
+    - icon: "preview"
+      title: "Matroska Multimedia Previews"
+      content: "Fetch Thumbnails and Image Previews of Supported Formats & Matroska Multimedia Container Support"
 
     # feature loop
     - icon: "unreadable_characters"
-      title: "Read Metadata from Encrypted Microsoft Project Files"
-      content: ""
-
-    # feature loop
-    - icon: "metadata_add"
-      title: "Add, Update and Delete IPTC Metadata Packages in TIFF Images"
-      content: ""
-
-    # feature loop
-    - icon: "metadata_image_search"
-      title: "Add, Update & Remove EXIF Metadata Packages in JPEG2000 Images"
-      content: ""
-
-    # feature loop
-    - icon: "export"
-      title: "Extract XMP Metadata Properties in MOV, MP3 & WEBP Files"
-      content: ""
+      title: "Microsoft Project Support"
+      content: "Read Metadata from Encrypted Microsoft Project Files"
 
     # feature loop
     - icon: "image_only"
-      title: "Read EXIF Tags & XMP Metadata Properties from HEIC/HEIF Image Formats"
-      content: ""
+      title: "TIFF Support"
+      content: "Add, Update and Delete IPTC Metadata Packages in TIFF Images"
+
+    # feature loop
+    - icon: "metadata_image_search"
+      title: "JPEG Support"
+      content: "Add, Update & Remove EXIF Metadata Packages in JPEG2000 Images"
+
+    # feature loop
+    - icon: "export"
+      title: "Multimedia Files Support"
+      content: "Extract XMP Metadata Properties in MOV, MP3 & WEBP Files"
+
+    # feature loop
+    - icon: "image_only"
+      title: "HEIC Media Support"
+      content: "Read EXIF Tags & XMP Metadata Properties from HEIC/HEIF Image Formats"
 
 ############################# Code samples ############################
 code_samples:

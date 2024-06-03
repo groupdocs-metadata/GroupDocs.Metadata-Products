@@ -166,7 +166,7 @@ features:
 
   items:
     # feature loop
-    - icon: "metadata_text_search"
+    - icon: "metadata_style"
       title: "<% "{index-content-net.features.feature_1.title}" %>"
       content: "<% "{index-content-net.features.feature_1.content}" %>"
 
@@ -176,7 +176,7 @@ features:
       content: "<% "{index-content-net.features.feature_2.content}" %>"
 
     # feature loop
-    - icon: "reduce"
+    - icon: "hidden_print"
       title: "<% "{index-content-net.features.feature_3.title}" %>"
       content: "<% "{index-content-net.features.feature_3.content}" %>"
 
@@ -211,7 +211,7 @@ features:
       content: "<% "{index-content-net.features.feature_9.content}" %>"
 
     # feature loop
-    - icon: "export"
+    - icon: "image_frame"
       title: "<% "{index-content-net.features.feature_10.title}" %>"
       content: "<% "{index-content-net.features.feature_10.content}" %>"
 
@@ -221,7 +221,7 @@ features:
       content: "<% "{index-content-net.features.feature_11.content}" %>"
 
     # feature loop
-    - icon: "metadata_add"
+    - icon: "image_frame"
       title: "<% "{index-content-net.features.feature_12.title}" %>"
       content: "<% "{index-content-net.features.feature_12.content}" %>"
 

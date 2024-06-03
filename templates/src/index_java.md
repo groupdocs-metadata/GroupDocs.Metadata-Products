@@ -169,7 +169,7 @@ features:
 
   items:
     # feature loop
-    - icon: "document_info"
+    - icon: "image_frame"
       title: "<% "{index-content-java.features.feature_1.title}" %>"
       content: "<% "{index-content-java.features.feature_1.content}" %>"
 
@@ -179,7 +179,7 @@ features:
       content: "<% "{index-content-java.features.feature_2.content}" %>"
 
     # feature loop
-    - icon: "remove"
+    - icon: "hidden_print"
       title: "<% "{index-content-java.features.feature_3.title}" %>"
       content: "<% "{index-content-java.features.feature_3.content}" %>"
 
@@ -189,12 +189,12 @@ features:
       content: "<% "{index-content-java.features.feature_4.content}" %>"
 
     # feature loop
-    - icon: "export"
+    - icon: "image_frame"
       title: "<% "{index-content-java.features.feature_5.title}" %>"
       content: "<% "{index-content-java.features.feature_5.content}" %>"
 
     # feature loop
-    - icon: "metadata_text_search"
+    - icon: "remove"
       title: "<% "{index-content-java.features.feature_6.title}" %>"
       content: "<% "{index-content-java.features.feature_6.content}" %>"
 
@@ -219,12 +219,12 @@ features:
       content: "<% "{index-content-java.features.feature_10.content}" %>"
 
     # feature loop
-    - icon: "get"
+    - icon: "manipulate"
       title: "<% "{index-content-java.features.feature_11.title}" %>"
       content: "<% "{index-content-java.features.feature_11.content}" %>"
 
     # feature loop
-    - icon: "reduce"
+    - icon: "remove"
       title: "<% "{index-content-java.features.feature_12.title}" %>"
       content: "<% "{index-content-java.features.feature_12.content}" %>"
 
@@ -239,7 +239,7 @@ features:
       content: "<% "{index-content-java.features.feature_14.content}" %>"
 
     # feature loop
-    - icon: "detect"
+    - icon: "unreadable_characters"
       title: "<% "{index-content-java.features.feature_15.title}" %>"
       content: "<% "{index-content-java.features.feature_15.content}" %>"
 
@@ -249,7 +249,7 @@ features:
       content: "<% "{index-content-java.features.feature_16.content}" %>"
 
     # feature loop
-    - icon: "metadata_add"
+    - icon: "image_only"
       title: "<% "{index-content-java.features.feature_17.title}" %>"
       content: "<% "{index-content-java.features.feature_17.content}" %>"
 
@@ -274,7 +274,7 @@ features:
       content: "<% "{index-content-java.features.feature_21.content}" %>"
 
     # feature loop
-    - icon: "metadata_image_search"
+    - icon: "preview"
       title: "<% "{index-content-java.features.feature_22.title}" %>"
       content: "<% "{index-content-java.features.feature_22.content}" %>"
 
@@ -284,7 +284,7 @@ features:
       content: "<% "{index-content-java.features.feature_23.content}" %>"
 
     # feature loop
-    - icon: "metadata_add"
+    - icon: "image_only"
       title: "<% "{index-content-java.features.feature_24.title}" %>"
       content: "<% "{index-content-java.features.feature_24.content}" %>"
 
