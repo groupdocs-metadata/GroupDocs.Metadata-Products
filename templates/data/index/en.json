@@ -186,100 +186,100 @@
       "title": "{{ProdShortName}} features",
       "description": "Use Metadata to Protect PDF, Office, Images and other formats",
       "feature_1": {
-        "title": "[Identify]({{GifReadFileFormatProperties}}) Built-in & Custom Metadata",
-        "content": ""
+        "title": "Identify Built-in & Custom Metadata",
+        "content": "Many file formats have mandatory metadata. [Manipulate]({{GifReadFileFormatProperties}}) them as well as custom metadata for your own aims"
       },
       "feature_2": {
-        "title": "Find Photos Made on [Specific Camera]({{FeaturesReadingBasicExifProperties}})",
-        "content": ""
+        "title": "Find Photos Made on Specific Camera",
+        "content": "Get [info]({{FeaturesReadingBasicExifProperties}}) about photos stored in metadata, including camera manufacturer, model, resolution, etc"
       },
       "feature_3": {
-        "title": "Ability to Detect/Remove [Digital Signatures]({{FeaturesRemoveDocx}})",
-        "content": ""
+        "title": "Ability to Detect/Remove Digital Signatures",
+        "content": "Find all [digital metadata]({{FeaturesRemoveDocx}}) in your business files and remove what you need"
       },
       "feature_4": {
-        "title": "[Replace Metadata Properties]({{FeaturesUpdatingMetadata}}) of Supported File Formats",
-        "content": ""
+        "title": "Photo Location",
+        "content": "Import image metadata properties and remove location info from photos",
       },
       "feature_5": {
-        "title": "Search Metadata Properties of Files and Enumerate any Type of Metadata",
-        "content": ""
+        "title": "Metadata Search",
+        "content": "Search metadata properties of files and enumerate any type of metadata"
       },
       "feature_6": {
-        "title": "Remove Metadata & Comments From Reports and Documents",
-        "content": ""
+        "title": "Clean Business Data",
+        "content": "Remove metadata and comments from reports and documents"
       },
       "feature_7": {
-        "title": "Generate Image Previews for EPUB, CAD, EML & MSG Files",
-        "content": ""
+        "title": "Document Previews",
+        "content": "Generate image previews for EPUB, CAD, EML, and MSG files"
       },
       "feature_8": {
-        "title": "Read Matroska subtitles and retrieve Metadata of Audio & Video Files",
-        "content": ""
+        "title": "Matroska Multimedia Support",
+        "content": "Read Matroska subtitles and retrieve metadata of audio and video files"
       },
       "feature_9": {
-        "title": "Get Metadata of Archive formats & Torrents",
-        "content": ""
+        "title": "Get Metadata of Archive Formats & Torrents",
+        "content": "Manipulate metadata of archive files like .ZIP and files with torrent data"
       },
       "feature_10": {
-        "title": "Extract Text Metadata from PNG Image files",
-        "content": ""
+        "title": "Run-time Recognition of Document File Type",
+        "content": "Our solution provides the ability to detect file or stream type before metadata processing",
       },
       "feature_11": {
-        "title": "Run-time Recognition of Document File Type",
-        "content": ""
+        "title": "Analyze Metadata Distinctions",
+        "content": "Compare metadata properties of supported formats and identify differences or similarities"
       },
       "feature_12": {
-        "title": "Add, Update and Delete IPTC Metadata Packages in TIFF Images",
-        "content": ""
+        "title": "Reducing Memory Consumption of Documents & Images",
+        "content": "Clean documents and images from extra hidden data"
       },
       "feature_13": {
-        "title": "Retrieve & Remove Hidden Data in Microsoft Word, Excel, PowerPoint & PDF",
-        "content": ""
+        "title": "Control Office Documents",
+        "content": "Retrieve and remove hidden data in Microsoft Word, Excel, PowerPoint, and PDF files"
       },
       "feature_14": {
-        "title": "Import Images Metadata Properties & Remove Location Info from Photos",
-        "content": ""
+        "title": "Replace Metadata Properties of Supported File Formats",
+        "content": "It is completely possible to get a list of suitable document metadata and [replace]({{FeaturesUpdatingMetadata}}) the content of each entry"
       },
       "feature_15": {
-        "title": "Reducing Memory Consumption of Documents & Images",
-        "content": ""
+        "title": "TIFF Image Support",
+        "content": "Add, update, and delete IPTC metadata packages in TIFF images"
       },
       "feature_16": {
-        "title": "Extract Metadata from Microsoft Excel Files Starting from Excel 95",
-        "content": ""
+        "title": "Microsoft Excel Support",
+        "content": "Extract metadata from Microsoft Excel files starting from Excel 95"
       },
       "feature_17": {
-        "title": "Compare Metadata Properties of Supported Formats & Identity Differences or Similarities",
-        "content": ""
+        "title": "PNG Image Support",
+        "content": "Extract text metadata from PNG image files"
       },
       "feature_18": {
-        "title": "Detect MIME Type of a Specific File or File Stream",
-        "content": ""
+        "title": "MIME Type Detection",
+        "content": "Detect the MIME type of a specific file or file stream"
       },
       "feature_19": {
-        "title": "Retrieve Thumbnails & Render Image Previews for Supported Formats",
-        "content": ""
+        "title": "Image Previews",
+        "content": "Retrieve thumbnails and render image previews for supported formats"
       },
       "feature_20": {
-        "title": "Identify Password Protection & Support for the Matroska Multimedia Container",
-        "content": ""
+        "title": "Matroska Multimedia Security",
+        "content": "Identify password protection and support for the Matroska multimedia container"
       },
       "feature_21": {
-        "title": "Use Defined Key to Read Metadata Property of Supported Formats",
-        "content": ""
+        "title": "Built-In Metadata Support",
+        "content": "Use a defined key to read metadata properties of supported formats"
       },
       "feature_22": {
-        "title": "Update EXIF Metadata Properties in WEBP, PNG & PSD Files",
-        "content": ""
+        "title": "EXIF Image Metadata",
+        "content": "Update EXIF metadata properties in WEBP, PNG, and PSD files"
       },
       "feature_23": {
-        "title": "Read Metadata of Email Messages & Parse OpenType Font Files",
-        "content": ""
+        "title": "Emails & Fonts Support",
+        "content": "Read metadata of email messages and parse OpenType font files"
       },
       "feature_24": {
-        "title": "Extract XMP Metadata Properties in MOV, MP3 & WEBP Files",
-        "content": ""
+        "title": "Multimedia Files Processing",
+        "content": "Extract XMP metadata properties in MOV, MP3, and WEBP files"
       }
     },
     "platforms_description": "{{ProdFullName}} supports following Operating Systems, Frameworks & Package Managers:",
@@ -314,114 +314,114 @@
     },
     "features": {
       "title": "{{ProdFullName}} : Features",
-      "description": "Protect your PDF, Office documents, and images metadata.",
+      "description": "Protect your PDF, Office documents, and images metadata",
       "feature_1": {
-        "title": "Update EXIF Metadata Properties in WEBP, PNG & PSD Files",
-        "content": ""
+        "title": "EXIF Images Metadata",
+        "content": "Update EXIF metadata properties in WEBP, PNG, and PSD files"
       },
       "feature_2": {
-        "title": "Search Properties of Document, EXIF, & XMP Metadata",
-        "content": ""
+        "title": "Get File Metadata",
+        "content": "Search properties of document, EXIF, and XMP metadata"
       },
       "feature_3": {
-        "title": "Access & Delete Hidden Data in Microsoft Word, Excel, PowerPoint & PDF",
-        "content": ""
+        "title": "Clean Office Formats",
+        "content": "Access and delete hidden data in Microsoft Word, Excel, PowerPoint, and PDF files"
       },
       "feature_4": {
-        "title": "Export Metadata of Supported File Formats to Excel, CSV or DataSet",
-        "content": ""
+        "title": "Metadata Export",
+        "content": "Export metadata of supported file formats to Excel, CSV, or DataSet"
       },
       "feature_5": {
-        "title": "Extract Text Metadata from PNG Image files",
-        "content": ""
+        "title": "PNG Image Support",
+        "content": "Extract text metadata from PNG image files"
       },
       "feature_6": {
-        "title": "Identify/Delete Digital Signatures in Word, Excel, PDF",
-        "content": ""
+        "title": "Remove Digital Signatures",
+        "content": "Identify and delete digital signatures in Word, Excel, and PDF files"
       },
       "feature_7": {
-        "title": "Read Metadata Property using Defined Key for any Supported Format",
-        "content": ""
+        "title": "Built-In Metadata Support",
+        "content": "Read metadata property using a defined key for any supported format"
       },
       "feature_8": {
-        "title": "Generate Image Previews for EPUB, CAD, EML & MSG Files",
-        "content": ""
+        "title": "Image Previews",
+        "content": "Generate image previews for EPUB, CAD, EML, and MSG files"
       },
       "feature_9": {
-        "title": "Reducing Memory Consumption of PDF, Excel & Image Formats",
-        "content": ""
+        "title": "File Content Optimization",
+        "content": "Reduce memory consumption of PDF, Excel, and image formats"
       },
       "feature_10": {
-        "title": "Read Matroska subtitles and retrieve Metadata of Audio & Video Files",
-        "content": ""
+        "title": "Matroska Multimedia Support",
+        "content": "Read Matroska subtitles and retrieve metadata of audio and video files"
       },
       "feature_11": {
-        "title": "Replace Metadata Properties of Word, Excel, PowerPoint and PDF",
-        "content": ""
+        "title": "Replace Metadata Content",
+        "content": "Replace metadata properties of Word, Excel, PowerPoint, and PDF files"
       },
       "feature_12": {
-        "title": "Delete Metadata & Comments from Reports and Documents",
-        "content": ""
+        "title": "Clean Business Data",
+        "content": "Delete metadata and comments from reports and documents"
       },
       "feature_13": {
-        "title": "Manipulate Image Metadata Properties & Delete Photo Location Information",
-        "content": ""
+        "title": "Photo Location",
+        "content": "Manipulate image metadata properties and delete photo location information"
       },
       "feature_14": {
-        "title": "Identify Difference or Similarities in Metadata of Supported Formats by Comparison",
-        "content": ""
+        "title": "Analyze Metadata Distinctions",
+        "content": "Identify differences or similarities in metadata of supported formats by comparison"
       },
       "feature_15": {
-        "title": "Detect Document Password Protection in Word, Excel, PowerPoint and PDF",
-        "content": ""
+        "title": "Password Protection",
+        "content": "Detect document password protection in Word, Excel, PowerPoint, and PDF files"
       },
       "feature_16": {
-        "title": "Manipulate Built-in & Custom Metadata and Fetch Metadata of Torrents & Archive Formats",
-        "content": ""
+        "title": "Archive & Torrents Support",
+        "content": "Manipulate built-in and custom metadata and fetch metadata of torrents and archive formats"
       },
       "feature_17": {
-        "title": "Add or Update XMP and EXIF Metadata Properties of Arbitrary Types using the Search API",
-        "content": ""
+        "title": "EXIF Image Metadata",
+        "content": "Add or update XMP and EXIF metadata properties of arbitrary types using the Search API"
       },
       "feature_18": {
         "title": "Detect Document File Type at Run-time",
-        "content": ""
+        "content": "Our solution provides the ability to detect file or stream type before metadata processing"
       },
       "feature_19": {
-        "title": "Supports Enumeration of any Metadata Type & Read Metadata of OpenType Font Files",
-        "content": ""
+        "title": "Font Metadata Support",
+        "content": "Supports enumeration of any metadata type and reads metadata of OpenType font files"
       },
       "feature_20": {
-        "title": "Get/Delete Metadata of Email Messages & Remove Attachments",
-        "content": ""
+        "title": "Email Metadata Support",
+        "content": "Get and delete metadata of email messages and remove attachments"
       },
       "feature_21": {
-        "title": "Metadata Extraction from Microsoft Excel Files Starting from Excel 95",
-        "content": ""
+        "title": "Microsoft Excel Support",
+        "content": "Metadata extraction from Microsoft Excel files starting from Excel 95"
       },
       "feature_22": {
-        "title": "Fetch Thumbnails and Image Previews of Supported Formats & Matroska Multimedia Container Support",
-        "content": ""
+        "title": "Matroska Multimedia Previews",
+        "content": "Fetch thumbnails and image previews of supported formats with Matroska multimedia container support"
       },
       "feature_23": {
-        "title": "Read Metadata from Encrypted Microsoft Project Files",
-        "content": ""
+        "title": "Microsoft Project Support",
+        "content": "Read metadata from encrypted Microsoft Project files"
       },
       "feature_24": {
-        "title": "Add, Update and Delete IPTC Metadata Packages in TIFF Images",
-        "content": ""
+        "title": "TIFF Support",
+        "content": "Add, update, and delete IPTC metadata packages in TIFF images"
       },
       "feature_25": {
-        "title": "Add, Update & Remove EXIF Metadata Packages in JPEG2000 Images",
-        "content": ""
+        "title": "JPEG Support",
+        "content": "Add, update, and remove EXIF metadata packages in JPEG2000 images"
       },
       "feature_26": {
-        "title": "Extract XMP Metadata Properties in MOV, MP3 & WEBP Files",
-        "content": ""
+        "title": "Multimedia Files Support",
+        "content": "Extract XMP metadata properties in MOV, MP3, and WEBP files"
       },
       "feature_27": {
-        "title": "Read EXIF Tags & XMP Metadata Properties from HEIC/HEIF Image Formats",
-        "content": ""
+        "title": "HEIC Media Support",
+        "content": "Read EXIF tags and XMP metadata properties from HEIC/HEIF image formats"
       }
     },
     "platforms_description": "{{ProdFullName}} supports various operating systems and package managers.",
@@ -459,112 +459,112 @@
       "title": "{{ProdFullName}}: Feature Set",
       "description": "Empower robust document security through metadata processing.",
       "feature_1": {
-        "title": "Clear business reports and documents from any metadata and comments",
-        "content": ""
+        "title": "Clear Business Files",
+        "content": "Clear business reports and documents of any metadata and comments"
       },
       "feature_2": {
-        "title": "Control metadata in images including photo location information",
-        "content": ""
+        "title": "Photo Location",
+        "content": "Control metadata in images, including photo location information"
       },
       "feature_3": {
-        "title": "Manipulate metadata in PDF, Word, Excel, PowerPoint, and other formats",
-        "content": ""
+        "title": "Control Office Documents",
+        "content": "Manipulate metadata in PDF, Word, Excel, PowerPoint, and other formats"
       },
       "feature_4": {
-        "title": "Compare and analyze any alterations in metadata in supported file formats",
-        "content": ""
+        "title": "Analyze Metadata Distinctions",
+        "content": "Compare and analyze alterations in metadata in supported file formats"
       },
       "feature_5": {
-        "title": "Leverage extensive capabilities to manipulate built-in and custom metadata",
-        "content": ""
+        "title": "Built-In Metadata Support",
+        "content": "Leverage extensive capabilities to manipulate built-in and custom metadata"
       },
       "feature_6": {
-        "title": "Collect document metadata properties like EXIF or XMP",
-        "content": ""
+        "title": "Control Image Metadata",
+        "content": "Collect document metadata properties like EXIF or XMP"
       },
       "feature_7": {
-        "title": "Manipulate metadata and attachments in email messages",
-        "content": ""
+        "title": "Email Metadata Support",
+        "content": "Manipulate metadata and attachments in email messages"
       },
       "feature_8": {
-        "title": "Correct content of EXIF Metadata in WEBP, PNG or PSD",
-        "content": ""
+        "title": "EXIF Image Metadata",
+        "content": "Correct EXIF metadata content in WEBP, PNG, or PSD files"
       },
       "feature_9": {
-        "title": "Make your PDF, Excel & Image Formats less memory demanding",
-        "content": ""
+        "title": "File Content Optimization",
+        "content": "Reduce memory consumption of PDF, Excel, and image formats"
       },
       "feature_10": {
-        "title": "Access Matroska subtitles and metadata in audio and video files",
-        "content": ""
+        "title": "Matroska Multimedia Support",
+        "content": "Access Matroska subtitles and metadata in audio and video files"
       },
       "feature_11": {
-        "title": "Generate Image Previews for MSG, CAD, EML or EPUB files",
-        "content": ""
+        "title": "Image Previews",
+        "content": "Generate image previews for MSG, CAD, EML, or EPUB files"
       },
       "feature_12": {
-        "title": "Get XMP Metadata nodes from MOV, MP3 & WEBP Files",
-        "content": ""
+        "title": "Multimedia Support",
+        "content": "Get XMP metadata nodes from MOV, MP3, and WEBP files"
       },
       "feature_13": {
-        "title": "Identify and remove digital signatures present in PDFs and Office documents",
-        "content": ""
+        "title": "Detect/Remove Digital Signatures",
+        "content": "Identify and remove digital signatures in PDFs and Office documents"
       },
       "feature_14": {
-        "title": "Save metadata from supported files to Excel, CSV or DataSet output",
-        "content": ""
+        "title": "Metadata Export",
+        "content": "Save metadata from supported files to Excel, CSV, or DataSet output"
       },
       "feature_15": {
-        "title": "Analyze specific metadata properties using defined keys for any supported format",
-        "content": ""
+        "title": "Built-In Metadata Control",
+        "content": "Analyze specific metadata properties using defined keys for any supported format"
       },
       "feature_16": {
-        "title": "Detect password protection applied to PDF and MS Word, Excel, PowerPoint documents",
-        "content": ""
+        "title": "Password Protection",
+        "content": "Detect password protection applied to PDF and MS Word, Excel, and PowerPoint documents"
       },
       "feature_17": {
-        "title": "Make your PDF, Excel & Image Formats less memory demanding",
-        "content": ""
+        "title": "Replace Metadata Content",
+        "content": "Replace metadata properties of Word, Excel, PowerPoint, and PDF files"
       },
       "feature_18": {
-        "title": "Extract text metadata directly from PNG image files using Node.js",
-        "content": ""
+        "title": "PNG Metadata Export",
+        "content": "Extract text metadata directly from PNG image files using Node.js"
       },
       "feature_19": {
-        "title": "Use Search API to add or update XMP and EXIF metadata properties",
-        "content": ""
+        "title": "Update Image Metadata",
+        "content": "Use the Search API to add or update XMP and EXIF metadata properties"
       },
       "feature_20": {
-        "title": "Gain access to and delete hidden data embedded in PDF, MS Word, Excel, PowerPoint…",
-        "content": ""
+        "title": "Control Office Files",
+        "content": "Gain access to and delete hidden data embedded in PDF, MS Word, Excel, and PowerPoint files"
       },
       "feature_21": {
-        "title": "Dynamically detect the file type at runtime using Node.js",
-        "content": ""
+        "title": "File Type Detection",
+        "content": "Dynamically detect the file type at runtime using Node.js"
       },
       "feature_22": {
-        "title": "Retrieve thumbnails and image previews for supported file formats & Matroska Multimedia Container Support",
-        "content": ""
+        "title": "Matroska Multimedia Preview",
+        "content": "Retrieve thumbnails and image previews for supported file formats with Matroska multimedia container support"
       },
       "feature_23": {
-        "title": "Manipulate IPTC Metadata Packages in TIFF Images",
-        "content": ""
+        "title": "TIFF Support",
+        "content": "Manipulate IPTC metadata packages in TIFF images"
       },
       "feature_24": {
-        "title": "Control EXIF tags & XMP metadata for HEIC/HEIF images",
-        "content": ""
+        "title": "HEIC Media Support",
+        "content": "Control EXIF tags and XMP metadata for HEIC/HEIF images"
       },
       "feature_25": {
-        "title": "Enumerate any metadata type and control metadata of OpenType font files",
-        "content": ""
+        "title": "Font Metadata Support",
+        "content": "Enumerate any metadata type and control metadata of OpenType font files"
       },
       "feature_26": {
-        "title": "Get all metadata hidden in Encrypted Microsoft Project Files",
-        "content": ""
+        "title": "Microsoft Project Support",
+        "content": "Get all metadata hidden in encrypted Microsoft Project files"
       },
       "feature_27": {
-        "title": "Add, Update or Remove EXIF data in JPEG2000 Images",
-        "content": ""
+        "title": "JPEG Support",
+        "content": "Add, update, or remove EXIF data in JPEG2000 images"
       }
     },
     "platforms_description": "{{ProdFullName}} readily integrates with various operating systems and package managers.",
