@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-06-03T15:00:57
+date: 2024-06-04T13:15:33
 draft: false
 
 lang: en
@@ -166,122 +166,122 @@ features:
     # feature loop
     - icon: "metadata_style"
       title: "Identify Built-in & Custom Metadata"
-      content: "Many file formats have mandatory metadata. [Manipulate](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-.NET/blob/master/Examples/GroupDocs.Metadata.Examples.CSharp/AdvancedUsage/ManagingMetadataForSpecificFormats/Image/Gif/GifReadFileFormatProperties.cs) them as well as custom metadata for your own aims"
+      content: "Many file formats have mandatory metadata. Manipulate them as well as custom metadata for your own aims"
 
     # feature loop
     - icon: "image_frame"
       title: "Find Photos Made on Specific Camera"
-      content: "Get [info](https://docs.groupdocs.com/metadata/net/working-with-exif-metadata/#reading-basic-exif-properties) about photo stored in metadata. Camera manufacturer, model, resolution, etc"
+      content: "Get info about photos stored in metadata, including camera manufacturer, model, resolution, etc"
 
     # feature loop
     - icon: "hidden_print"
       title: "Ability to Detect/Remove Digital Signatures"
-      content: "Find all [digital metadata](remove/docx/) in your business files and remove what do you need"
-
-    # feature loop
-    - icon: "doc_background"
-      title: "Replace Metadata Properties of Supported File Formats"
-      content: "It is completely possible to get list of suitable document metadata and [replace](https://docs.groupdocs.com/metadata/net/updating-metadata/) content of each entry"
-
-    # feature loop
-    - icon: "detect"
-      title: "Metadata Search"
-      content: "Search Metadata Properties of Files and Enumerate any Type of Metadata"
-
-    # feature loop
-    - icon: "remove"
-      title: "Clean business data"
-      content: "Remove Metadata & Comments From Reports and Documents"
-
-    # feature loop
-    - icon: "preview"
-      title: "Document previews"
-      content: "Generate Image Previews for EPUB, CAD, EML & MSG Files"
-
-    # feature loop
-    - icon: "metadata_text_search"
-      title: "Matroska Multimedia Support"
-      content: "Read Matroska subtitles and retrieve Metadata of Audio & Video Files"
-
-    # feature loop
-    - icon: "get"
-      title: "Get Metadata of Archive formats & Torrents"
-      content: "Manipulate metadata of archive files like .ZIP and files with torrent data"
-
-    # feature loop
-    - icon: "image_frame"
-      title: "PNG Image Support"
-      content: "Extract Text Metadata from PNG Image files"
-
-    # feature loop
-    - icon: "compare"
-      title: "Run-time Recognition of Document File Type"
-      content: "Our solution provides ability to detect file or stream type before metadata processing"
-
-    # feature loop
-    - icon: "image_frame"
-      title: "TIFF Image Support"
-      content: "Add, Update and Delete IPTC Metadata Packages in TIFF Images"
-
-    # feature loop
-    - icon: "remove"
-      title: "Control Office Documents"
-      content: "Retrieve & Remove Hidden Data in Microsoft Word, Excel, PowerPoint & PDF"
+      content: "Find all digital metadata in your business files and remove what you need"
 
     # feature loop
     - icon: "image_frame"
       title: "Photo Location"
-      content: "Import Images Metadata Properties & Remove Location Info from Photos"
+      content: "Import image metadata properties and remove location info from photos"
 
     # feature loop
-    - icon: "reduce"
-      title: "Reducing Memory Consumption of Documents & Images"
-      content: "GroupDocs.Metadata for .NET benefits users with possibility to clean documents and images from extra hidden data"
+    - icon: "detect"
+      title: "Metadata Search"
+      content: "Search metadata properties of files and enumerate any type of metadata"
 
     # feature loop
-    - icon: "export"
-      title: "Microsoft Excel Support"
-      content: "Extract Metadata from Microsoft Excel Files Starting from Excel 95"
+    - icon: "remove"
+      title: "Clean Business Data"
+      content: "Remove metadata and comments from reports and documents"
+
+    # feature loop
+    - icon: "preview"
+      title: "Document Previews"
+      content: "Generate image previews for EPUB, CAD, EML, and MSG files"
+
+    # feature loop
+    - icon: "metadata_text_search"
+      title: "Matroska Multimedia Support"
+      content: "Read Matroska subtitles and retrieve metadata of audio and video files"
+
+    # feature loop
+    - icon: "get"
+      title: "Get Metadata of Archive Formats & Torrents"
+      content: "Manipulate metadata of archive files like .ZIP and files with torrent data"
+
+    # feature loop
+    - icon: "compare"
+      title: "Run-time Recognition of Document File Type"
+      content: "Our solution provides the ability to detect file or stream type before metadata processing"
 
     # feature loop
     - icon: "compare"
       title: "Analyze Metadata Distinctions"
-      content: "Compare Metadata Properties of Supported Formats & Identity Differences or Similarities"
+      content: "Compare metadata properties of supported formats and identify differences or similarities"
+
+    # feature loop
+    - icon: "reduce"
+      title: "Reducing Memory Consumption of Documents & Images"
+      content: "Clean documents and images from extra hidden data"
+
+    # feature loop
+    - icon: "remove"
+      title: "Control Office Documents"
+      content: "Retrieve and remove hidden data in Microsoft Word, Excel, PowerPoint, and PDF files"
+
+    # feature loop
+    - icon: "doc_background"
+      title: "Replace Metadata Properties of Supported File Formats"
+      content: "It is completely possible to get a list of suitable document metadata and replace the content of each entry"
+
+    # feature loop
+    - icon: "image_frame"
+      title: "TIFF Image Support"
+      content: "Add, update, and delete IPTC metadata packages in TIFF images"
+
+    # feature loop
+    - icon: "export"
+      title: "Microsoft Excel Support"
+      content: "Extract metadata from Microsoft Excel files starting from Excel 95"
+
+    # feature loop
+    - icon: "image_frame"
+      title: "PNG Image Support"
+      content: "Extract text metadata from PNG image files"
 
     # feature loop
     - icon: "detect"
       title: "MIME Type Detection"
-      content: "Detect MIME Type of a Specific File or File Stream"
+      content: "Detect the MIME type of a specific file or file stream"
 
     # feature loop
     - icon: "preview"
       title: "Image Previews"
-      content: "Retrieve Thumbnails & Render Image Previews for Supported Formats"
+      content: "Retrieve thumbnails and render image previews for supported formats"
 
     # feature loop
     - icon: "unreadable_characters"
       title: "Matroska Multimedia Security"
-      content: "Identify Password Protection & Support for the Matroska Multimedia Container"
+      content: "Identify password protection and support for the Matroska multimedia container"
 
     # feature loop
     - icon: "get"
       title: "Built-In Metadata Support"
-      content: "Use Defined Key to Read Metadata Property of Supported Formats"
+      content: "Use a defined key to read metadata properties of supported formats"
 
     # feature loop
     - icon: "image_only"
       title: "EXIF Image Metadata"
-      content: "Update EXIF Metadata Properties in WEBP, PNG & PSD Files"
+      content: "Update EXIF metadata properties in WEBP, PNG, and PSD files"
 
     # feature loop
     - icon: "email"
-      title: "Emails & Fonts support"
-      content: "Read Metadata of Email Messages & Parse OpenType Font Files"
+      title: "Emails & Fonts Support"
+      content: "Read metadata of email messages and parse OpenType font files"
 
     # feature loop
     - icon: "export"
       title: "Multimedia Files Processing"
-      content: "Extract XMP Metadata Properties in MOV, MP3 & WEBP Files"
+      content: "Extract XMP metadata properties in MOV, MP3, and WEBP files"
 
 ############################# Code samples ############################
 code_samples:
