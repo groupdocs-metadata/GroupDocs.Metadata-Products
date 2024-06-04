@@ -187,15 +187,15 @@
       "description": "Use Metadata to Protect PDF, Office, Images and other formats",
       "feature_1": {
         "title": "Identify Built-in & Custom Metadata",
-        "content": "Many file formats have mandatory metadata. [Manipulate]({{GifReadFileFormatProperties}}) them as well as custom metadata for your own aims"
+        "content": "Many file formats have mandatory metadata. Manipulate them as well as custom metadata for your own aims"
       },
       "feature_2": {
         "title": "Find Photos Made on Specific Camera",
-        "content": "Get [info]({{FeaturesReadingBasicExifProperties}}) about photos stored in metadata, including camera manufacturer, model, resolution, etc"
+        "content": "Get info about photos stored in metadata, including camera manufacturer, model, resolution, etc"
       },
       "feature_3": {
         "title": "Ability to Detect/Remove Digital Signatures",
-        "content": "Find all [digital metadata]({{FeaturesRemoveDocx}}) in your business files and remove what you need"
+        "content": "Find all digital metadata in your business files and remove what you need"
       },
       "feature_4": {
         "title": "Photo Location",
@@ -239,7 +239,7 @@
       },
       "feature_14": {
         "title": "Replace Metadata Properties of Supported File Formats",
-        "content": "It is completely possible to get a list of suitable document metadata and [replace]({{FeaturesUpdatingMetadata}}) the content of each entry"
+        "content": "It is completely possible to get a list of suitable document metadata and replace the content of each entry"
       },
       "feature_15": {
         "title": "TIFF Image Support",
