@@ -1,204 +1,62 @@
 {
+  "head": {
+    "title": "Edit Metadata in {{FileFormatUp}} Files with {{EnvName}} Applications",
+    "description": "Use {{EnvName}} metadata API to edit metadata in {{FileFormatUp}} files. Supports XMP, EXIF, IPTC, ID3, and more."
+  },
+  "header": {
+    "title": "Update Metadata in {{FileformatCap}} Files Using {{ProgLang}}",
+    "description": "Metadata Editor for {{ProgLang}} – Edit metadata fields in documents, images, and multimedia files with our API.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download Free Trial"
+  },
+  "about": {
+    "title": "About {{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is an advanced solution for reading, adding, modifying, deleting, searching, comparing, replacing, and exporting metadata from images and documents. Edit metadata in Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, PDF, AutoCAD, ZIP, audio, and video files, along with many other features."
+  },
+  "formats": {
+    "title": "Edit Metadata in Various File Formats",
+    "description": "Multi-format documents and images metadata editing API for {{EnvName}}. Retrieve and edit metadata for popular file formats"
+  },
   "examples": {
-    "comment_1": "Update image {{FileFormatUp}} watermark",
-    "comment_2": "Compose {{TextWatermarker}} for {{FileFormatUp}} file",
-    "comment_3": "Use {{TextSearchCriteria}} to find a particular image",
-    "comment_4": "Update image content",
+    "comment_1": "Update the file's last print date/time metadata after printing",
+    "comment_2": "Load file into {{TextMetadata}} class constructor",
+    "comment_3": "Only existing metadata packages are affected. No new packages are added.",
+    "comment_4": "Processing result",
     "comment_5": "Save updated file"
   },
   "steps": {
-    "title": "Dynamic Watermark Edit for {{FileFormatUp}} in {{EnvName}}",
+    "title": "Steps to Update Metadata in {{FileformatCap}} Using {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** offers {{EnvName}} developers a powerful API for editing watermarks across diverse {{FileFormatUp}} documents. Here's a comprehensive guide to streamline your workflow:",
-      "step_1": "**Start the Process:** Begin by providing your {{FileFormatUp}} file as an argument to the {{TextWatermarkerBold}} class constructor. Depending on your requirements, the file can be sourced either as a stream or from a local disk location.",
-      "step_2": "**Pinpoint Watermarks:** Use the {{TextSearchCriteriaBold}} object to identify the watermarks in need of modification. This versatile tool enables targeted watermark selection based on specific properties.",
-      "step_3": "**Refine with Precision:** Upon successful execution of the search, gain access to a collection of relevant watermarks. Enjoy granular control over each element, with the ability to update dimensions, page positioning, text content, color, image data, and more.",
-      "step_4": "**Seamless Persistence:** Once watermark updates are complete, securely store the modified document. The API offers flexible storage options, allowing you to save to a local file path or as a stream object."
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** allows {{EnvName}} developers to edit metadata in {{FileformatCap}} files with a few easy steps.",
+      "step_1": "Load the {{FileformatCap}} file to be updated.",
+      "step_2": "Specify a predicate to filter desired metadata properties.",
+      "step_3": "Pass the predicate and new value to the UpdateProperties method.",
+      "step_4": "Save the changes."
     }
   },
   "more_features": {
-    "title": "Deep dive into adding Watermark",
-    "description": "API to render, display, convert documents, slides, diagrams, and many other document types in .NET applications",
-    "image_description": "Add Watermark",
+    "title": "Edit {{FileFormatUp}} Metadata for {{EnvName}} Apps",
+    "description": "The {{ProdShortName}} API allows developers to update hidden metadata in various document formats within {{EnvName}} applications. Apply, edit, search for, and remove metadata programmatically.",
+    "image_description": "Metadata Configuration",
     "feature_1": {
-      "title": "Effortlessly Edit Watermarks in PDFs",
-      "content": "{{ProdShortName}} offers robust tools in {{EnvName}} to seamlessly edit existing watermarks in PDF documents. Adjust position, transparency, and more with ease."
+      "title": "Easy Metadata Integration",
+      "content": "{{ProdShortName}} simplifies adding and editing metadata in documents and files within your {{EnvName}} apps. Developers can easily apply, update, or remove metadata."
     },
     "feature_2": {
-      "title": "Refine Watermark Details for Precision",
-      "content": "Take control over the details. Our API allows you to fine-tune the appearance of watermarks, enabling precise modifications of size, opacity, and color in your PDFs."
+      "title": "Comprehensive Metadata Control",
+      "content": "The API provides extensive options for customizing metadata. Easily find, remove, or update metadata in files using specialized queries."
     },
     "feature_3": {
-      "title": "Streamlined Watermark Management",
-      "content": "Our API simplifies watermark management. Whether updating or removing, you can manage watermarks efficiently, maintaining document integrity while catering to your branding needs."
+      "title": "Use Native {{FileFormatUp}} Features",
+      "content": "Leverage built-in metadata features like EXIF for images, which can include camera model, resolution, creation date, and more."
     },
     "code_1": {
-      "title": "Update Presentation watermark content",
-      "content": "This example shows how to update text content of Presentation watermarks",
-      "comment_1": "Load the PDF document for processing",
-      "comment_2": "Search for specific watermarks that meet your criteria",
-      "comment_3": "Edit the watermark's settings, such as size, color, and position",
-      "comment_4": "Save the updated document to a local system or stream it directly"
-    }
-  },
-  "doc": {
-    "head": {
-      "title": "Streamline {{FileFormatUp}} Watermark Updating",
-      "description": "Streamline the process of updating watermarks in {{FileFormatUp}} documents by {{ProdFullName}} library."
-    },
-    "header": {
-      "title": "Efficient Watermark Updating for {{FileFormatUp}} Documents",
-      "description": "Simplify and accelerate watermark updating with {{ProdFullName}}. Ensure the security of your corporate files through an array of watermarks. Modify watermark properties like size, alignment, rotation angle, and placement effortlessly.",
-      "subtitle": "{{ProdFullName}} Solution",
-      "action_title": "Download from {{PackageStoreName}}"
-    },
-    "about": {
-      "title": "{{ProdFullName}} features",
-      "content": "{{ProdFullName}} offers efficient tools to streamline the process of updating watermarks in documents. With this advanced solution, developers can easily update and modify watermarks in various file formats, including PDF, Microsoft Word, Excel, PowerPoint, Visio, email, and image formats. {{ProdShortName}} supports all major operating systems and {{EnvName}} versions."
-    },
-    "formats": {
-      "title": "Streamline Watermark Updating in Supported Formats",
-      "description": "Simplify watermark processing in popular formats like PDF, Word, Excel, and more with {{ProdFullName}}."
-    }
-  },
-  "docx": {
-    "head": {
-      "title": "Update Watermarks in {{FileFormatUp}} Seamlessly",
-      "description": "Seamlessly update watermarks in {{FileFormatUp}} documents with {{ProdFullName}}. Install our library to your application."
-    },
-    "header": {
-      "title": "Process Watermark in {{FileFormatUp}} Documents",
-      "description": "Effortlessly adjust watermarks with precision using {{ProdFullName}}. Preserve the confidentiality of your company documents by applying different watermarks. Tailor watermark features including size, alignment, angle of rotation, and position to your specifications.",
-      "subtitle": "{{ProdFullName}} Library",
-      "action_title": "Free download at {{PackageStoreName}}"
-    },
-    "about": {
-      "title": "Investigate {{ProdFullName}}",
-      "content": "{{ProdFullName}} empowers developers to update watermarks in {{FileFormatUp}} documents with ease. This powerful tool enables precise adjustment of watermarks in various file formats, including PDF, Microsoft Word, Excel, PowerPoint, Visio, email, and image formats. {{ProdFullName}} can be used on many popular platforms."
-    },
-    "formats": {
-      "title": "Update Watermarks for Other Formats",
-      "description": "Seamlessly adjust watermarks in PDF, Word, Excel, and more with {{ProdFullName}}. Many other formats are supported."
-    }
-  },
-  "pdf": {
-    "head": {
-      "title": "Enhance Watermarks in {{FileFormatUp}} Documents Effortlessly",
-      "description": "Effortlessly update watermarks in {{FileFormatUp}} documents vis {{ProdFullName}} API. Ensure your documents security."
-    },
-    "header": {
-      "title": "Update {{FileFormatUp}} Document Watermarks Effortlessly",
-      "description": "Elevate the quality of watermarks with ease using {{FileFormatUp}}. Enhance the protection of your business materials with a range of watermarks. Fine-tune watermark characteristics such as size, alignment, rotation angle, and position as needed.",
-      "subtitle": "{{ProdFullName}} API",
-      "action_title": "{{PackageStoreName}} Free Download"
-    },
-    "about": {
-      "title": "{{ProdFullName}} Info",
-      "content": "{{ProdFullName}} offers advanced capabilities to update watermarks in documents effortlessly. With this tool, developers can enhance the appearance and visibility of watermarks in various file formats, including PDF, Microsoft Word, Excel, PowerPoint, Visio, email, and image formats. All popular operating systems and {{EnvName}} versions are supported."
-    },
-    "formats": {
-      "title": "Watermarks Updating is Available for Many Formats",
-      "description": "Effortlessly enhance watermarks in PDF, Word, Excel, and more with {{ProdFullName}}. 50+ file formats are supported."
-    }
-  },
-  "ppt": {
-    "head": {
-      "title": "Update {{FileFormatUp}} Watermarks with Precision",
-      "description": "Refine watermarks in presentations with precision using {{ProdFullName}}. Ensure security of your business data."
-    },
-    "header": {
-      "title": "Update {{FileFormatUp}} Presentation Watermarks with Precision",
-      "description": "Achieve unparalleled precision in watermark refinement with {{ProdFullName}}. Fortify your business records with a variety of watermarks. Update watermark properties such as size, alignment, rotation angle, and placement according to your requirements.",
-      "subtitle": "{{ProdFullName}}",
-      "action_title": "Get from {{PackageStoreName}} for free"
-    },
-    "about": {
-      "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} provides developers with precise tools to update watermarks in documents. This sophisticated tool allows fine-tuning and refining watermarks in various file formats, including PDF, Microsoft Word, Excel, PowerPoint, Visio, email, and image formats. Our solution supports all major operating systems and popular frameworks."
-    },
-    "formats": {
-      "title": "Update Watermarks in Supported Formats",
-      "description": "Refine watermarks in PDF, Word, Excel, and more with precision using {{ProdFullName}}. All business formats are supported."
-    }
-  },
-  "pptx": {
-    "head": {
-      "title": "Update Watermarks in {{FileFormatUp}} Documents Seamlessly",
-      "description": "Seamlessly modify watermarks in {{FileFormatUp}} presentations via {{ProdFullName}}. Incorporate our library to your apps."
-    },
-    "header": {
-      "title": "Update Watermarks in {{FileFormatUp}} Presentations",
-      "description": "Modify watermarks with ease and efficiency using {{ProdFullName}}. Keep your business documents secure using a selection of watermarks. Customize watermark attributes like size, alignment, rotation angle, and position with ease.",
-      "subtitle": "{{ProdFullName}} Library",
-      "action_title": "{{PackageStoreName}} Package Download"
-    },
-    "about": {
-      "title": "{{ProdFullName}} Solutions",
-      "content": "{{ProdFullName}} enables seamless modification of watermarks in documents. With this versatile tool, developers can easily modify and update watermarks in various file formats, including PDF, Microsoft Word, Excel, PowerPoint, Visio, email, and image formats. {{ProdFullName}} may be used with all popular operating systems."
-    },
-    "formats": {
-      "title": "Update Supported File Formats Watermarks",
-      "description": "Seamlessly modify watermarks in PDF, Word, Excel, and more with {{ProdFullName}}. Empower your documents branding."
-    }
-  },
-  "rtf": {
-    "head": {
-      "title": "Update {{FileFormatUp}} Watermarks Effortlessly",
-      "description": "Effortlessly customize watermarks in {{FileFormatUp}} documents using {{ProdFullName}}. Involve our solution to your business logic."
-    },
-    "header": {
-      "title": "Update Watermarks in {{FileFormatUp}} Documents Effortlessly",
-      "description": "Tailor watermarks to your precise requirements with {{ProdFullName}}. Protect your corporate documents using diverse watermarks. Modify watermark elements such as size, alignment, rotation angle, and placement effortlessly.",
-      "subtitle": "{{ProdFullName}} API",
-      "action_title": "Get package at {{PackageStoreName}}"
-    },
-    "about": {
-      "title": "About {{ProdFullName}}",
-      "content": "{{ProdFullName}} offers seamless customization of watermarks in {{FileFormatUp}} documents. This flexible tool allows developers to easily customize and tailor watermarks according to specific requirements in various file formats, including PDF, Microsoft Word, Excel, PowerPoint, Visio, email, and image formats."
-    },
-    "formats": {
-      "title": "Update Watermarks in Many File Formats",
-      "description": "Effortlessly customize watermarks in PDF, Word, Excel, and more with {{ProdFullName}}. Polish your business logic."
-    }
-  },
-  "xls": {
-    "head": {
-      "title": "Update and Edit Watermarks Across {{FileFormatUp}} Spreadsheets",
-      "description": "Update and edit watermarks in various document formats with {{ProdFullName}}. Expand abilities of your applications."
-    },
-    "header": {
-      "title": "Efficiently Manage {{FileFormatUp}} Spreadsheets Watermarks",
-      "description": "Simplify watermark management with {{ProdFullName}}. Ensure the safety of your business files by applying various watermarks. Tailor watermark specifications like size, alignment, rotation angle, and position to your liking.",
-      "subtitle": "{{ProdFullName}}",
-      "action_title": "{{PackageStoreName}} Download"
-    },
-    "about": {
-      "title": "{{ProdFullName}} General Information",
-      "content": "{{ProdFullName}} offers efficient tools to update and edit watermarks across multiple file formats. With this comprehensive solution, developers can seamlessly manage watermarks in various documents, including PDF, Microsoft Word, Excel, PowerPoint, Visio, email, and image formats. All major operating systems and platforms are supported."
-    },
-    "formats": {
-      "title": "Update and Edit Watermarks for Other Formats",
-      "description": "Effortlessly update and edit watermarks in PDF, Word, Excel, and more with {{ProdFullName}}. Enrich content of your documents."
-    }
-  },
-  "xlsx": {
-    "head": {
-      "title": "Update {{FileFormatUp}} Watermarks to Your Needs",
-      "description": "Tailor watermarks to your precise requirements with {{ProdFullName}}. Empower business logic in your apps."
-    },
-    "header": {
-      "title": "Update {{FileFormatUp}} Spreadsheets Watermarks to Your Needs",
-      "description": "Customize watermarks effortlessly with {{ProdFullName}}. Safeguard your company's sensitive documents with different watermarks. Adjust watermark features such as size, alignment, rotation angle, and position as necessary.",
-      "subtitle": "{{ProdFullName}} Solution",
-      "action_title": "Free Download at {{PackageStoreName}}"
-    },
-    "about": {
-      "title": "Learn more about {{ProdFullName}}",
-      "content": "{{ProdFullName}} empowers developers to tailor watermarks to their specific needs. With this versatile tool, developers can easily customize and adjust watermarks in documents according to precise requirements in various file formats, including PDF, Microsoft Word, Excel, PowerPoint, Visio, email, and image formats. Major operating systems and development platforms are supported."
-    },
-    "formats": {
-      "title": "Update Watermarks Placed in Other Formats",
-      "description": "Tailor watermarks to your needs in PDF, Word, Excel, and more with {{ProdFullName}}. Include our product to your solutions and obtain valuable benefits."
+      "title": "Update the Lyrics Tag in an MP3 File (Example)",
+      "content": "This example shows how to update hidden metadata in an MP3 file.",
+      "comment_1": "Load file into {{TextMetadata}} class constructor",
+      "comment_2": "Update lyrics data",
+      "comment_3": "Add a custom field to the tag",
+      "comment_4": "Save the result"
     }
   }
 }
