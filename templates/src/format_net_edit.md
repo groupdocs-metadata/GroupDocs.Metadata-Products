@@ -8,36 +8,36 @@ date:  <% date "utcnow" %>
 draft: false
 lang: <% lower ( get "lang") %>
 format: <% get "FileformatCap" %>
-product: "Watermark"
-product_tag: "watermark"
+product: "Metadata"
+product_tag: "metadata"
 platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "<% (dict "{fileformat}.head.title") %>"
-head_description: "<% (dict "{fileformat}.head.description") %>"
+head_title: "<% (dict "head.title") %>"
+head_description: "<% (dict "head.description") %>"
 
 ############################# Header ############################
-title: "<% (dict "{fileformat}.header.title") %>" 
-description: "<% (dict "{fileformat}.header.description") %>"
-subtitle: "<% (dict "{fileformat}.header.subtitle") %>" 
+title: "<% (dict "header.title") %>" 
+description: "<% (dict "header.description") %>"
+subtitle: "<% (dict "header.subtitle") %>" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "<% (dict "{fileformat}.header.action_title") %>"
+    - title: "<% (dict "header.action_title") %>"
       link: "<% get "ReleaseDownloads" %>"
       
 ############################# About ############################
 about:
     enable: true
-    title: "<% (dict "{fileformat}.about.title") %>"
-    link: "/watermark/<% get "ProdCode" %>/"
+    title: "<% (dict "about.title") %>"
+    link: "/metadata/<% get "ProdCode" %>/"
     link_title: "<% "{common-content.texts.learn_more}" %>"
-    picture: "about_watermark.svg" # 480 X 400
+    picture: "about_metadata.svg" # 480 X 400
     content: |
-       <% (dict "{fileformat}.about.content") %>
+       <% (dict "about.content") %>
 
 ############################# Steps ############################
 steps:
@@ -56,7 +56,7 @@ steps:
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       install:
         command: |
-        command: "dotnet add package GroupDocs.Watermark"
+        command: "dotnet add package GroupDocs.Metadata"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -71,21 +71,20 @@ steps:
         ```csharp {style=abap}
         // <% "{examples.comment_1}" %>
 
-        // <% "{examples.comment_2}" %>
-        using (Watermarker watermarker = new Watermarker("input.<% get "fileformat" %>"))
+        using (var metadata = new GroupDocs.Metadata.Metadata("input.<% get "fileformat" %>"))
         {
+            // <% "{examples.comment_2}" %>:
             // <% "{examples.comment_3}" %>
-            SearchCriteria searchCriteria = new ImageDctHashSearchCriteria("logo.png");
-            PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
+            // <% "{examples.comment_4}" %>
+            var affected = metadata.UpdateProperties(
+              p => p.Tags.Contains(GroupDocs.Metadata.Tagging.Tags.Time.Created) &&
+              p.Value.Type == GroupDocs.Metadata.Common.MetadataPropertyType.DateTime &&
+              p.Value.ToStruct() < DateTime.Today.AddDays(-3), new GroupDocs.Metadata.Common.PropertyValue(DateTime.Today));
 
-            foreach (PossibleWatermark watermark in watermarks)
-            {
-                // <% "{examples.comment_4}" %>
-                watermark.ImageData = imageData;
-            }
+            Console.WriteLine("Properties set: {0}", affected);
 
             // <% "{examples.comment_5}" %>
-            watermarker.Save("output.<% get "fileformat" %>");
+            metadata.Save("output.<% get "fileformat" %>");
         }
         
         ```     
@@ -119,23 +118,26 @@ more_features:
         ```csharp {style=abap}
         
             //  <% "{more_features.code_1.comment_1}" %>
-            var loadOptions = new PdfLoadOptions();
-            using (Watermarker watermarker = new Watermarker("source.pdf", loadOptions))
+            using (Metadata metadata = new Metadata("input.mp3"))
             {
-                //  <% "{more_features.code_1.comment_2}" %>
-                PdfContent pdfContent = watermarker.GetContent<PdfContent>();
+                var root = metadata.GetRootPackage<MP3RootPackage>();
 
-                //  <% "{more_features.code_1.comment_3}" %>
-                foreach (PdfArtifact artifact in pdfContent.Pages[0].Artifacts)
+                if (root.Lyrics3V2 == null)
                 {
-                    if (artifact.Image != null)
-                    {
-                        artifact.Image = new PdfWatermarkableImage(File.ReadAllBytes("test.png"));
-                    }
+                    root.Lyrics3V2 = new LyricsTag();
                 }
 
-                //  <% "{more_features.code_1.comment_4}" %>
-                watermarker.save("result.pdf");
+                // <% "{more_features.code_1.comment_2}" %>
+                root.Lyrics3V2.Lyrics = "[00:01]Test lyrics";
+                root.Lyrics3V2.Artist = "test artist";
+                root.Lyrics3V2.Album = "test album";
+                root.Lyrics3V2.Track = "test track";
+
+                // <% "{emore_features.code_1.comment_3}" %>
+                root.Lyrics3V2.Set(new LyricsField("ABC", "custom value"));
+
+                // <% "{more_features.code_1.comment_4}" %>
+                metadata.Save("output.mp3");
             }
 
         ```
@@ -162,9 +164,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "<% (dict "{fileformat}.formats.title") %>"
+    title: "<% (dict "formats.title") %>"
     exclude: "<% get "FileFormatUp" %>"
-    description: "<% (dict "{fileformat}.formats.description") %>"
+    description: "<% (dict "formats.description") %>"
 <% include "..\\data\\format_others.md" %>
 
 ---

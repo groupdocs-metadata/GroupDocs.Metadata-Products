@@ -8,36 +8,36 @@ date:  <% date "utcnow" %>
 draft: false
 lang: <% lower ( get "lang") %>
 format: <% get "FileformatCap" %>
-product: "Watermark"
-product_tag: "watermark"
+product: "Metadata"
+product_tag: "metadata"
 platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "<% (dict "{fileformat}.head.title") %>"
-head_description: "<% (dict "{fileformat}.head.description") %>"
+head_title: "<% (dict "head.title") %>"
+head_description: "<% (dict "head.description") %>"
 
 ############################# Header ############################
-title: "<% (dict "{fileformat}.header.title") %>" 
-description: "<% (dict "{fileformat}.header.description") %>"
-subtitle: "<% (dict "{fileformat}.header.subtitle") %>" 
+title: "<% (dict "header.title") %>" 
+description: "<% (dict "header.description") %>"
+subtitle: "<% (dict "header.subtitle") %>" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "<% (dict "{fileformat}.header.action_title") %>"
+    - title: "<% (dict "header.action_title") %>"
       link: "<% get "ReleaseDownloads" %>"
       
 ############################# About ############################
 about:
     enable: true
-    title: "<% (dict "{fileformat}.about.title") %>"
-    link: "/watermark/<% get "ProdCode" %>/"
+    title: "<% (dict "about.title") %>"
+    link: "/metadata/<% get "ProdCode" %>/"
     link_title: "<% "{common-content.texts.learn_more}" %>"
-    picture: "about_watermark.svg" # 480 X 400
+    picture: "about_metadata.svg" # 480 X 400
     content: |
-       <% (dict "{fileformat}.about.content") %>
+       <% (dict "about.content") %>
 
 ############################# Steps ############################
 steps:
@@ -55,7 +55,7 @@ steps:
       platform: "net"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       install:
-        command: "npm i @groupdocs/groupdocs.watermark"
+        command: "npm i @groupdocs/groupdocs.metadata"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -72,21 +72,19 @@ steps:
         // <% "{examples.comment_1}" %>
 
         // <% "{examples.comment_2}" %>
-        const watermarker = new groupdocs.watermark.Watermarker("input.<% get "fileformat" %>");
-
-        // <% "{examples.comment_3}" %>
-        const searchCriteria = 
-            new groupdocs.watermark.ImageDctHashSearchCriteria("logo.png");
-        const watermarks = watermarker.search(searchCriteria);
+        var metadata = new groupdocs.metadata.Metadata('input.<% get "fileformat" %>');
         
+        // <% "{examples.comment_3}" %>
+        var affected = metadata.updateProperties(
+            new groupdocs.metadata.ContainsTagSpecification(
+                groupdocs.metadata.Tags.getTime().getPrinted()), 
+                    new groupdocs.metadata.PropertyValue(new Date()));
+
         // <% "{examples.comment_4}" %>
-        for (const watermark of watermarks.getInnerList().toArray())
-        {
-            watermark.setImageData(imageData);
-        }
+        console.log('Affected properties: ${affected}');
 
         // <% "{examples.comment_5}" %>
-        watermarker.save("output.<% get "fileformat" %>");
+        metadata.save('output.<% get "fileformat" %>');
         
         ```            
 
@@ -95,7 +93,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/watermark/features_edit.webp" # 500x500 px
+  image: "/img/metadata/features_edit.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -118,23 +116,25 @@ more_features:
         {{< landing/code title="TypeScript">}}
         ```javascript {style=abap}
         
-            const groupdocsWatermark = require('@groupdocs/groupdocs.watermark')
-
             //  <% "{more_features.code_1.comment_1}" %>
-            const watermarker = new groupdocsWatermark.Watermarker("source.pptx");
+            var metadata = new groupdocs.metadata.Metadata('input.mp3');
+            var root = metadata.getRootPackageGeneric();
 
-            //  <% "{more_features.code_1.comment_2}" %>
-            const searchCriteria = new groupdocsWatermark.TextSearchCriteria("denied", false);
-            const watermarks = watermarker.search(searchCriteria);
-  
-            //  <% "{more_features.code_1.comment_3}" %>
-            for (const watermark of watermarks.getInnerList().toArray()) {
-                watermark.setText("accepted");
+            if (root.getLyrics3V2() == null) {
+                root.setLyrics3V2(new LyricsTag());
             }
 
-            //  <% "{more_features.code_1.comment_4}" %>
-            watermarker.save("result.pptx");
-            watermarker.close();
+            //  <% "{more_features.code_1.comment_2}" %>
+            root.getLyrics3V2().setLyrics("[00:01]Test lyrics");
+            root.getLyrics3V2().setArtist("test artist");
+            root.getLyrics3V2().setAlbum("test album");
+            root.getLyrics3V2().setTrack("test track");
+
+            // <% "{more_features.code_1.comment_3}" %>
+            root.getLyrics3V2().set(new LyricsField("ABC", "custom value"));
+
+            // <% "{more_features.code_1.comment_4}" %>
+            metadata.save('output.mp3');
 
         ```
         {{< /landing/code >}}
@@ -160,9 +160,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "<% (dict "{fileformat}.formats.title") %>"
+    title: "<% (dict "formats.title") %>"
     exclude: "<% get "FileFormatUp" %>"
-    description: "<% (dict "{fileformat}.formats.description") %>"
+    description: "<% (dict "formats.description") %>"
 <% include "..\\data\\format_others.md" %>
 
 ---

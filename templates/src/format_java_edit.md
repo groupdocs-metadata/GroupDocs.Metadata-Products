@@ -8,36 +8,36 @@ date:  <% date "utcnow" %>
 draft: false
 lang: <% lower ( get "lang") %>
 format: <% get "FileformatCap" %>
-product: "Watermark"
-product_tag: "watermark"
+product: "Metadata"
+product_tag: "metadata"
 platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "<% (dict "{fileformat}.head.title") %>"
-head_description: "<% (dict "{fileformat}.head.description") %>"
+head_title: "<% (dict "head.title") %>"
+head_description: "<% (dict "head.description") %>"
 
 ############################# Header ############################
-title: "<% (dict "{fileformat}.header.title") %>" 
-description: "<% (dict "{fileformat}.header.description") %>"
-subtitle: "<% (dict "{fileformat}.header.subtitle") %>" 
+title: "<% (dict "header.title") %>" 
+description: "<% (dict "header.description") %>"
+subtitle: "<% (dict "header.subtitle") %>" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "<% (dict "{fileformat}.header.action_title") %>"
+    - title: "<% (dict "header.action_title") %>"
       link: "<% get "ReleaseDownloads" %>"
       
 ############################# About ############################
 about:
     enable: true
-    title: "<% (dict "{fileformat}.about.title") %>"
-    link: "/watermark/<% get "ProdCode" %>/"
+    title: "<% (dict "about.title") %>"
+    link: "/metadata/<% get "ProdCode" %>/"
     link_title: "<% "{common-content.texts.learn_more}" %>"
-    picture: "about_watermark.svg" # 480 X 400
+    picture: "about_metadata.svg" # 480 X 400
     content: |
-       <% (dict "{fileformat}.about.content") %>
+       <% (dict "about.content") %>
 
 ############################# Steps ############################
 steps:
@@ -59,7 +59,7 @@ steps:
           <dependencies>
             <dependency>
               <groupId>com.groupdocs</groupId>
-              <artifactId>groupdocs-watermark</artifactId>
+              <artifactId>groupdocs-metadata</artifactId>
               <version>{0}</version>
             </dependency>
           </dependencies>
@@ -84,22 +84,57 @@ steps:
       content: |
         ```java {style=abap}
         // <% "{examples.comment_1}" %>
-
-        // <% "{examples.comment_2}" %>
-        Watermarker watermarker = new Watermarker("input.<% get "fileformat" %>");
-        
-        // <% "{examples.comment_3}" %>
-        SearchCriteria searchCriteria = new ImageDctHashSearchCriteria("logo.png");
-        PossibleWatermarkCollection watermarks = watermarker.search(searchCriteria);
-
-        for (PossibleWatermark watermark : watermarks)
+        public class UpdatingMetadata
         {
-            // <% "{examples.comment_4}" %>
-            watermark.setImageData(imageData);
-        }
+          public static void run() 
+          {
+            Date threeDaysAgo = new Date(System.currentTimeMillis() - TimeUnit.DAYS.toMillis(3));
+            try (Metadata metadata = new Metadata("input.<% get "fileformat" %>"))
+            {
+                // <% "{examples.comment_2}" %>
+                int affected = metadata.updateProperties(new ContainsTagSpecification(Tags.getTime().getCreated()).and(
+                        new OfTypeSpecification(MetadataPropertyType.DateTime)).and(
+                        new UpdatingMetadata().new DateBeforeSpecification(threeDaysAgo)), new PropertyValue(new Date()));
 
-        // <% "{examples.comment_5}" %>
-        watermarker.save("output.<% get "fileformat" %>");
+                // <% "{examples.comment_4}" %>
+                System.out.println(String.format("Affected properties: %s", affected));
+
+                // <% "{examples.comment_5}" %>
+                metadata.save("output.<% get "fileformat" %>");
+            }
+          }
+
+          // <% "{examples.comment_3}" %>
+          public class DateBeforeSpecification extends Specification
+          {
+            public DateBeforeSpecification(Date date)
+            {
+              setValue(date);
+            }
+
+            public final Date getValue()
+            {
+              return auto_Value;
+            }
+
+            private void setValue(Date value)
+            {
+              auto_Value = value;
+            }
+
+            private Date auto_Value;
+
+            public boolean isSatisfiedBy(MetadataProperty candidate)
+            {
+              Date date = candidate.getValue().toClass(Date.class);
+              if (date != null)
+              {
+                return date.before(getValue());
+              }
+              return false;
+            }
+          }
+        }
         
         ```
         
@@ -132,28 +167,25 @@ more_features:
         ```java {style=abap}
         
         //  <% "{more_features.code_1.comment_1}" %>
-        SpreadsheetLoadOptions loadOptions = new SpreadsheetLoadOptions();
-        Watermarker watermarker = new Watermarker("source.xlsx", loadOptions);
+        try (Metadata metadata = new Metadata("input.mp3")) {
+            MP3RootPackage root = metadata.getRootPackageGeneric();
 
-        //  <% "{more_features.code_1.comment_2}" %>
-        File file = new File("new_watermark.png");
-        byte[] imageBytes = new byte[(int) file.length()];
-        FileInputStream inputStream = new FileInputStream(file);
-        inputStream.read(imageBytes);
-        inputStream.close();
-
-        //  <% "{more_features.code_1.comment_3}" %>
-        for (SpreadsheetShape shape : content.getWorksheets().get_Item(0).getShapes())
-        {
-            if (shape.getImage() != null)
-            {
-                shape.setImage(new SpreadsheetWatermarkableImage(imageBytes));
+            if (root.getLyrics3V2() == null) {
+                root.setLyrics3V2(new LyricsTag());
             }
-        }
 
-        //  <% "{more_features.code_1.comment_4}" %>
-        watermarker.save("result.xlsx");
-        watermarker.close();
+            //  <% "{more_features.code_1.comment_2}" %>
+            root.getLyrics3V2().setLyrics("[00:01]Test lyrics");
+            root.getLyrics3V2().setArtist("test artist");
+            root.getLyrics3V2().setAlbum("test album");
+            root.getLyrics3V2().setTrack("test track");
+
+            // <% "{more_features.code_1.comment_3}" %>
+            root.getLyrics3V2().set(new LyricsField("ABC", "custom value"));
+
+            // <% "{more_features.code_1.comment_4}" %>
+            metadata.save("output.mp3");
+        }
         ```
         {{< /landing/code >}}
 
@@ -178,9 +210,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "<% (dict "{fileformat}.formats.title") %>"
+    title: "<% (dict "formats.title") %>"
     exclude: "<% get "FileFormatUp" %>"
-    description: "<% (dict "{fileformat}.formats.description") %>"
+    description: "<% (dict "formats.description") %>"
 <% include "..\\data\\format_others.md" %>
 
 ---
