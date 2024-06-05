@@ -1,62 +1,62 @@
 {
   "head": {
-    "title": "Edit Metadata to {{FileFormatUp}} Files in {{EnvName}} Applications",
-    "description": "{{EnvName}} metadata processing API to edit metadata information to {{FileFormatUp}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+    "title": "Edit Metadata in {{FileFormatUp}} Files with {{EnvName}} Applications",
+    "description": "Use {{EnvName}} metadata API to edit metadata in {{FileFormatUp}} files. Supports XMP, EXIF, IPTC, ID3, and more."
   },
   "header": {
-    "title": "Update Metadata From {{FileformatCap}} File In {{ProgLang}}",
-    "description": "Metadata Editor for {{ProgLang}} applications – Change metadata fields from all popular documents, images and multimedia file formats using metadata editor API for {{ProgLang}}.",
+    "title": "Update Metadata in {{FileformatCap}} Files Using {{ProgLang}}",
+    "description": "Metadata Editor for {{ProgLang}} – Edit metadata fields in documents, images, and multimedia files with our API.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Download Free Trial"
   },
   "about": {
     "title": "About {{ProdFullName}} API",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) is an advanced metadata fields manipulation solution to easily read, add, modify, delete, search, compare, replace and export metadata information from images and document formats without using any external software. Edit metadata details from Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features."
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is an advanced solution for reading, adding, modifying, deleting, searching, comparing, replacing, and exporting metadata from images and documents. Edit metadata in Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, PDF, AutoCAD, ZIP, audio, and video files, along with many other features."
   },
   "formats": {
-    "title": "Changing Metadata Of Other File Formats",
-    "description": "Multi format documents and images metadata editing API for {{EnvName}}. Retrieve metadata of some of the popular file formats as stated below"
+    "title": "Edit Metadata in Various File Formats",
+    "description": "Multi-format documents and images metadata editing API for {{EnvName}}. Retrieve and edit metadata for popular file formats"
   },
   "examples": {
-    "comment_1": "Update the file last printing date/time metadata after successful printing",
-    "comment_2": "Load file to {{TextMetadata}} class constructor",
-    "comment_3": "Only existing metadata packages will be affected. No new packages are added during this operation",
+    "comment_1": "Update the file's last print date/time metadata after printing",
+    "comment_2": "Load file into {{TextMetadata}} class constructor",
+    "comment_3": "Only existing metadata packages are affected. No new packages are added.",
     "comment_4": "Processing result",
     "comment_5": "Save updated file"
   },
   "steps": {
-    "title": "Steps for Updating Metadata to {{FileformatCap}} in {{EnvName}}",
+    "title": "Steps to Update Metadata in {{FileformatCap}} Using {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** makes it easy for {{EnvName}} developers to edit metadata details to {{FileformatCap}} files from within their applications by implementing a few easy steps.",
-      "step_1": "Load the {{FileformatCap}} file to be updated",
-      "step_2": "Specify a predicate that will be used to filter desired metadata properties.",
-      "step_3": "Pass the predicate and the new value to the UpdateProperties method.",
+      "title": "**[{{ProdFullName}}]({{ProductUrl}})** allows {{EnvName}} developers to edit metadata in {{FileformatCap}} files with a few easy steps.",
+      "step_1": "Load the {{FileformatCap}} file to be updated.",
+      "step_2": "Specify a predicate to filter desired metadata properties.",
+      "step_3": "Pass the predicate and new value to the UpdateProperties method.",
       "step_4": "Save the changes."
     }
   },
   "more_features": {
-    "title": "Manipulate {{FileFormatUp}} Metadata for {{EnvName}} Apps",
-    "description": "The {{ProdShortName}} API lets developers easily update hidden metadata in various document formats in their {{EnvName}} applications. Apply, edit, search for, and remove metadata programmatically.",
+    "title": "Edit {{FileFormatUp}} Metadata for {{EnvName}} Apps",
+    "description": "The {{ProdShortName}} API allows developers to update hidden metadata in various document formats within {{EnvName}} applications. Apply, edit, search for, and remove metadata programmatically.",
     "image_description": "Metadata Configuration",
     "feature_1": {
-      "title": "Simple Metadata Integration",
-      "content": "{{ProdShortName}} simplifies adding different metadata to documents and files within your {{EnvName}} apps. Developers can effortlessly apply, update, or remove metadata."
+      "title": "Easy Metadata Integration",
+      "content": "{{ProdShortName}} simplifies adding and editing metadata in documents and files within your {{EnvName}} apps. Developers can easily apply, update, or remove metadata."
     },
     "feature_2": {
-      "title": "Detailed Metadata Control",
-      "content": "The API offers extensive options for customizing metadata. It is easy to find metadata in files using special requests and remove or update them."
+      "title": "Comprehensive Metadata Control",
+      "content": "The API provides extensive options for customizing metadata. Easily find, remove, or update metadata in files using specialized queries."
     },
     "feature_3": {
-      "title": "Utilizing Native {{FileFormatUp}} Features",
-      "content": "Depending on the document format, developers can leverage built-in metadata like EXIF for images. This might include information about photo like camera model and number, resolution, creation date and other."
+      "title": "Use Native {{FileFormatUp}} Features",
+      "content": "Leverage built-in metadata features like EXIF for images, which can include camera model, resolution, creation date, and more."
     },
     "code_1": {
-      "title": "Update the Lyrics tag in an MP3 file (Example)",
-      "content": "This example demonstrates updating hidden metadata in MP# media-file.",
-      "comment_1": "Load file to {{TextMetadata}} class constructor",
+      "title": "Update the Lyrics Tag in an MP3 File (Example)",
+      "content": "This example shows how to update hidden metadata in an MP3 file.",
+      "comment_1": "Load file into {{TextMetadata}} class constructor",
       "comment_2": "Update lyrics data",
-      "comment_3": "You can add a fully custom field to the tag",
-      "comment_4": "Save result"
+      "comment_3": "Add a custom field to the tag",
+      "comment_4": "Save the result"
     }
   }
 }

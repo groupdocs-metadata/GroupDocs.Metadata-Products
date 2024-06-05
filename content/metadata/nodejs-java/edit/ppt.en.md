@@ -3,7 +3,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-05T12:44:21
+date:  2024-06-05T14:08:25
 draft: false
 lang: en
 format: Ppt
@@ -13,12 +13,12 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Edit Metadata to PPT Files in Node.js via Java Applications"
-head_description: "Node.js via Java metadata processing API to edit metadata information to PPT files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+head_title: "Edit Metadata in PPT Files with Node.js via Java Applications"
+head_description: "Use Node.js via Java metadata API to edit metadata in PPT files. Supports XMP, EXIF, IPTC, ID3, and more."
 
 ############################# Header ############################
-title: "Update Metadata From Ppt File In JavaScript" 
-description: "Metadata Editor for JavaScript applications – Change metadata fields from all popular documents, images and multimedia file formats using metadata editor API for JavaScript."
+title: "Update Metadata in Ppt Files Using JavaScript" 
+description: "Metadata Editor for JavaScript – Edit metadata fields in documents, images, and multimedia files with our API."
 subtitle: "GroupDocs.Metadata for Node.js via Java" 
 
 header_actions:
@@ -36,18 +36,18 @@ about:
     link_title: "Learn more"
     picture: "about_metadata.svg" # 480 X 400
     content: |
-       [GroupDocs.Metadata for Node.js via Java](/metadata/nodejs-java/) is an advanced metadata fields manipulation solution to easily read, add, modify, delete, search, compare, replace and export metadata information from images and document formats without using any external software. Edit metadata details from Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
+       [GroupDocs.Metadata for Node.js via Java](/metadata/nodejs-java/) is an advanced solution for reading, adding, modifying, deleting, searching, comparing, replacing, and exporting metadata from images and documents. Edit metadata in Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, PDF, AutoCAD, ZIP, audio, and video files, along with many other features.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps for Updating Metadata to Ppt in Node.js via Java"
+    title: "Steps to Update Metadata in Ppt Using Node.js via Java"
     content: |
-      **[GroupDocs.Metadata for Node.js via Java](https://products.groupdocs.com/metadata/nodejs-java/)** makes it easy for Node.js via Java developers to edit metadata details to Ppt files from within their applications by implementing a few easy steps.
+      **[GroupDocs.Metadata for Node.js via Java](https://products.groupdocs.com/metadata/nodejs-java/)** allows Node.js via Java developers to edit metadata in Ppt files with a few easy steps.
       
-      1. Load the Ppt file to be updated
-      2. Specify a predicate that will be used to filter desired metadata properties.
-      3. Pass the predicate and the new value to the UpdateProperties method.
+      1. Load the Ppt file to be updated.
+      2. Specify a predicate to filter desired metadata properties.
+      3. Pass the predicate and new value to the UpdateProperties method.
       4. Save the changes.
    
     code:
@@ -68,12 +68,12 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Update the file last printing date/time metadata after successful printing
+        // Update the file's last print date/time metadata after printing
 
-        // Load file to Metadata class constructor
+        // Load file into Metadata class constructor
         var metadata = new groupdocs.metadata.Metadata('input.ppt');
         
-        // Only existing metadata packages will be affected. No new packages are added during this operation
+        // Only existing metadata packages are affected. No new packages are added.
         var affected = metadata.updateProperties(
             new groupdocs.metadata.ContainsTagSpecification(
                 groupdocs.metadata.Tags.getTime().getPrinted()), 
@@ -90,32 +90,32 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Manipulate PPT Metadata for Node.js via Java Apps"
-  description: "The GroupDocs.Metadata API lets developers easily update hidden metadata in various document formats in their Node.js via Java applications. Apply, edit, search for, and remove metadata programmatically."
+  title: "Edit PPT Metadata for Node.js via Java Apps"
+  description: "The GroupDocs.Metadata API allows developers to update hidden metadata in various document formats within Node.js via Java applications. Apply, edit, search for, and remove metadata programmatically."
   image: "/img/metadata/features_edit.webp" # 500x500 px
   image_description: "Metadata Configuration"
   features:
     # feature loop
-    - title: "Simple Metadata Integration"
-      content: "GroupDocs.Metadata simplifies adding different metadata to documents and files within your Node.js via Java apps. Developers can effortlessly apply, update, or remove metadata."
+    - title: "Easy Metadata Integration"
+      content: "GroupDocs.Metadata simplifies adding and editing metadata in documents and files within your Node.js via Java apps. Developers can easily apply, update, or remove metadata."
 
     # feature loop
-    - title: "Detailed Metadata Control"
-      content: "The API offers extensive options for customizing metadata. It is easy to find metadata in files using special requests and remove or update them."
+    - title: "Comprehensive Metadata Control"
+      content: "The API provides extensive options for customizing metadata. Easily find, remove, or update metadata in files using specialized queries."
 
     # feature loop
-    - title: "Utilizing Native PPT Features"
-      content: "Depending on the document format, developers can leverage built-in metadata like EXIF for images. This might include information about photo like camera model and number, resolution, creation date and other."
+    - title: "Use Native PPT Features"
+      content: "Leverage built-in metadata features like EXIF for images, which can include camera model, resolution, creation date, and more."
       
   code_samples:
     # code sample loop
-    - title: "Update the Lyrics tag in an MP3 file (Example)"
+    - title: "Update the Lyrics Tag in an MP3 File (Example)"
       content: |
-        This example demonstrates updating hidden metadata in MP# media-file.
+        This example shows how to update hidden metadata in an MP3 file.
         {{< landing/code title="TypeScript">}}
         ```javascript {style=abap}
         
-            //  Load file to Metadata class constructor
+            //  Load file into Metadata class constructor
             var metadata = new groupdocs.metadata.Metadata('input.mp3');
             var root = metadata.getRootPackageGeneric();
 
@@ -129,10 +129,10 @@ more_features:
             root.getLyrics3V2().setAlbum("test album");
             root.getLyrics3V2().setTrack("test track");
 
-            // You can add a fully custom field to the tag
+            // Add a custom field to the tag
             root.getLyrics3V2().set(new LyricsField("ABC", "custom value"));
 
-            // Save result
+            // Save the result
             metadata.save('output.mp3');
 
         ```
@@ -159,9 +159,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Changing Metadata Of Other File Formats"
+    title: "Edit Metadata in Various File Formats"
     exclude: "PPT"
-    description: "Multi format documents and images metadata editing API for Node.js via Java. Retrieve metadata of some of the popular file formats as stated below"
+    description: "Multi-format documents and images metadata editing API for Node.js via Java. Retrieve and edit metadata for popular file formats"
     items: 
         # format loop 1
         - name: "Add Metadata to AVI"
