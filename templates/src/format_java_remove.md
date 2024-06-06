@@ -59,7 +59,7 @@ steps:
           <dependencies>
             <dependency>
               <groupId>com.groupdocs</groupId>
-              <artifactId>groupdocs-watermark</artifactId>
+              <artifactId>groupdocs-metadata</artifactId>
               <version>{0}</version>
             </dependency>
           </dependencies>
@@ -84,16 +84,19 @@ steps:
       content: |
         ```java {style=abap}
         // <% "{examples.comment_1}" %>
-
-        // <% "{examples.comment_2}" %>
-        Watermarker watermarker = new Watermarker("input.<% get "fileformat" %>");
-        
-        // <% "{examples.comment_3}" %>
-        PossibleWatermarkCollection possibleWatermarks = watermarker.search();
-        possibleWatermarks.removeAt(0);
-
-        // <% "{examples.comment_4}" %>
-        watermarker.save("output.<% get "fileformat" %>");
+        try (Metadata metadata = new Metadata("input.<% get "fileformat" %>");
+        {
+            // <% "{examples.comment_2}" %>
+            // <% "{examples.comment_3}" %>
+            int affected = metadata.removeProperties(
+                new FallsIntoCategorySpecification(Tags.getPerson()).
+                or(new WithNameSpecification("CustomProperty")));
+            
+            System.out.println(String.format("Affected properties: %s", affected));
+            
+            // <% "{examples.comment_4}" %>
+            metadata.save("output.bmp");
+        }
         
         ```        
         
@@ -102,7 +105,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/watermark/features_remove.webp" # 500x500 px
+  image: "/img/metadata/features_remove.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -126,21 +129,17 @@ more_features:
         ```java {style=abap}
         
         //  <% "{more_features.code_1.comment_1}" %>
-        WordProcessingLoadOptions loadOptions = new WordProcessingLoadOptions();
-        Watermarker watermarker = new Watermarker("source.docx", loadOptions);
+        try (Metadata metadata = new Metadata("input.zip")) {
 
-        WordProcessingContent content = watermarker.getContent(WordProcessingContent.class);
+            //  <% "{more_features.code_1.comment_2}" %>
+            ZipRootPackage root = metadata.getRootPackageGeneric();
 
-        //  <% "{more_features.code_1.comment_2}" %>
-        content.getSections().get_Item(0).getShapes().removeAt(0);
+            //  <% "{more_features.code_1.comment_3}" %>
+            root.getZipPackage().setComment(null);
 
-        //  <% "{more_features.code_1.comment_3}" %>
-        content.getSections().get_Item(0).getShapes().
-            remove(content.getSections().get_Item(0).getShapes().get_Item(0));
-
-        //  <% "{more_features.code_1.comment_4}" %>
-        watermarker.save("result.docx");
-        watermarker.close();
+            //  <% "{more_features.code_1.comment_4}" %>
+            metadata.save("output.zip");
+        }
         ```
         {{< /landing/code >}}
 

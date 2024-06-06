@@ -1,9 +1,11 @@
 
 
+
+
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-05T15:07:44
+date:  2024-06-06T14:32:05
 draft: false
 lang: en
 format: Vss
@@ -13,42 +15,42 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Java API for VSS Watermark Removal"
-head_description: "Remove watermarks from VSS files seamlessly with our Java API, ensuring document clarity and professionalism."
+head_title: "Remove Metadata Properties of VSS Files in Java"
+head_description: "Cross platform Java metadata API to hide and remove metadata fields of VSS files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
 ############################# Header ############################
-title: "Java API for Managing VSS Watermarks" 
-description: "Implement the GroupDocs.Metadata for Java API to efficiently clear watermarks from VSS documents, ideal for maintaining pristine text and formatting."
+title: "Remove VSS Metadata In Java" 
+description: "Remove metadata properties from VSS and many other popular documents, images and multimedia file formats using GroupDocs.Metadata for Java API"
 subtitle: "GroupDocs.Metadata for Java API" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Free Maven download"
+    - title: "Download Free Trial"
       link: "https://releases.groupdocs.com/metadata/java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Metadata for Java library"
+    title: "About GroupDocs.Metadata for Java API"
     link: "/metadata/java/"
     link_title: "Learn more"
     picture: "about_metadata.svg" # 480 X 400
     content: |
-       The GroupDocs.Metadata for Java Java library provides comprehensive tools for managing watermarks in VSS files. It supports operations such as removing, adjusting, and searching for watermarks, ensuring the integrity and readability of your documents. This tool is perfect for environments requiring high standards of document presentation, such as legal, educational, and corporate sectors.
+       [GroupDocs.Metadata for Java](/metadata/java/) is an advanced metadata fields manipulation solution to easily read, add, update, delete, find, compare, exchange and export metadata information from images and document formats without using any external software. Remove metadata details from Word documents, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, PDF, AutoCAD, ZIp, Audio and Video file formats along with the support for working with many other metadata processing features.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Clear Watermarks from Vss Documents using Java"
+    title: "Steps for Removing Metadata to VSS in Java"
     content: |
-      **[GroupDocs.Metadata](https://products.groupdocs.com/metadata/java/)** simplifies the process of clearing watermarks from your business documents within Java applications. Integrate our library and follow these steps:
+      [GroupDocs.Metadata](https://products.groupdocs.com/metadata/java/) makes it easy for Java developers to delete metadata information from VSS files from within their applications by implementing a few easy steps.
       
-      1. Begin by initializing the {{TextWatermarkerBold}} class with your Vss document. The API accepts the document either as a stream or a local file path for processing.
-      2. Leverage the {{TextSearchCriteriaBold}} object to refine the set of watermarks for clearing. You can utilize an image as a search parameter alongside text or formatting attributes. The more specific your search criteria, the more precise the results will be.
-      3. Following the search, you'll receive a list of identified watermarks. Proceed by clearing these watermarks from the document.
-      4. Once the watermarks are cleared, save the final document using a local file path or a stream object.
+      1. Load the VSS file to be updated.
+      2. Pass a search predicate to the RemoveProperties method.
+      3. Check the number of properties that were actually removed.
+      4. Save the changes.
    
     code:
       platform: "net"
@@ -58,7 +60,7 @@ steps:
           <dependencies>
             <dependency>
               <groupId>com.groupdocs</groupId>
-              <artifactId>groupdocs-watermark</artifactId>
+              <artifactId>groupdocs-metadata</artifactId>
               <version>{0}</version>
             </dependency>
           </dependencies>
@@ -82,64 +84,63 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Clear image watermark VSS document
-
-        // Pass VSS document path to {{TextWatermarker}} constructor
-        Watermarker watermarker = new Watermarker("input.vss");
-        
-        // Clear the document by deleting a watermark
-        PossibleWatermarkCollection possibleWatermarks = watermarker.search();
-        possibleWatermarks.removeAt(0);
-
-        // Save cleared file
-        watermarker.save("output.vss");
+        // Clear VSS document metadata
+        try (Metadata metadata = new Metadata("input.vss");
+        {
+            // Remove all mentions of any people contributed in file creation
+            // Remove a custom property with the specified name
+            int affected = metadata.removeProperties(
+                new FallsIntoCategorySpecification(Tags.getPerson()).
+                or(new WithNameSpecification("CustomProperty")));
+            
+            System.out.println(String.format("Affected properties: %s", affected));
+            
+            // Save the cleared file
+            metadata.save("output.bmp");
+        }
         
         ```        
         
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Optimize Documents with Java API for Watermark Removal"
-  description: "Enhance document clarity by seamlessly integrating watermark removal capabilities into your Java applications. Our Java API supports removing watermarks from various document types such as PDFs and Office docs, ensuring pristine document presentation."
-  image: "/img/watermark/features_remove.webp" # 500x500 px
-  image_description: "Remove Watermark"
+  title: "Manage Document Metadata with Ease"
+  description: "Our solution simplifies managing your document metadata. Easily access, edit, and update various document properties to keep your files organized and searchable."
+  image: "/img/metadata/features_remove.webp" # 500x500 px
+  image_description: "Protect Documents Metadata"
   features:
     # feature loop
-    - title: "Java-Based Watermark Removal"
-      content: "Empower your Java applications with the ability to remove watermarks accurately. Whether it's official documentation or sensitive content, maintain the integrity and clarity of your documents effortlessly."
+    - title: "Effortless Metadata Control"
+      content: "Quickly get and process a document's metadata. Gain valuable insights like author, creation date, and more."
 
     # feature loop
-    - title: "Efficient Bulk Deletion in Java"
-      content: "Streamline the process of watermark removal across multiple documents with our Java API. This feature is especially useful for enterprises dealing with large volumes of files, enhancing productivity and document security."
+    - title: "Simple Metadata Updation"
+      content: "Directly edit document metadata. Update properties for better organization, searchability, and accurate information."
 
     # feature loop
-    - title: "Advanced Watermark Editing and Removal"
-      content: "Our Java API not only removes watermarks but also offers advanced editing options to fine-tune or completely erase watermark elements. Tailor your documents to meet exact business specifications with precision and flexibility."
+    - title: "Powerful Metadata Management"
+      content: "Perform advanced operations on document metadata. Easily handle tasks like adding custom properties, removing unnecessary data, and ensuring data consistency."
       
   code_samples:
     # code sample loop
-    - title: "Clear DOCX of shape watermark"
+    - title: "Clear ZIP archive metadata"
       content: |
-        This example shows how to clear Word document of a particular shape.
+        The following code snippet shows how to remove the user comment from a ZIP archive
         {{< landing/code title="Java">}}
         ```java {style=abap}
         
-        //  Load Word document
-        WordProcessingLoadOptions loadOptions = new WordProcessingLoadOptions();
-        Watermarker watermarker = new Watermarker("source.docx", loadOptions);
+        //  Load archive file for further processing
+        try (Metadata metadata = new Metadata("input.zip")) {
 
-        WordProcessingContent content = watermarker.getContent(WordProcessingContent.class);
+            //  Get main metadata package
+            ZipRootPackage root = metadata.getRootPackageGeneric();
 
-        //  Remove shape by index
-        content.getSections().get_Item(0).getShapes().removeAt(0);
+            //  Remove archive comments
+            root.getZipPackage().setComment(null);
 
-        //  Remove shape by reference
-        content.getSections().get_Item(0).getShapes().
-            remove(content.getSections().get_Item(0).getShapes().get_Item(0));
-
-        //  Save the DOCX
-        watermarker.save("result.docx");
-        watermarker.close();
+            //  Save cleaned file
+            metadata.save("output.zip");
+        }
         ```
         {{< /landing/code >}}
 
@@ -164,9 +165,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Enhancing VSS Files with Java"
+    title: "Removing Metadata Of Other File Formats"
     exclude: "VSS"
-    description: "Learn how to use the GroupDocs.Metadata for Java API to effectively manage and remove watermarks from VSS files, enhancing document security and visual clarity."
+    description: "Multi format documents and images metadata removing API for Java. Retrieve metadata of some of the popular file formats as stated below."
     items: 
         # format loop 1
         - name: "Add Metadata to AVI"

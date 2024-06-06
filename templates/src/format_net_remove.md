@@ -35,7 +35,7 @@ about:
     title: "<% (dict "about.title") %>"
     link: "/metadata/<% get "ProdCode" %>/"
     link_title: "<% "{common-content.texts.learn_more}" %>"
-    picture: "aboutmetadata.svg" # 480 X 400
+    picture: "about_metadata.svg" # 480 X 400
     content: |
        <% (dict "about.content") %>
 
@@ -56,7 +56,7 @@ steps:
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       install:
         command: |
-        command: "dotnet add package GroupDocs.Watermark"
+        command: "dotnet add package GroupDocs.Metadata"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -70,17 +70,18 @@ steps:
       content: |
         ```csharp {style=abap}
         // <% "{examples.comment_1}" %>
-
-        // <% "{examples.comment_2}" %>
-        using (Watermarker watermarker = new Watermarker("input.<% get "fileformat" %>"))
+        using (var metadata = new GroupDocs.Metadata.Metadata("input.bmp"))
         {
+            // <% "{examples.comment_2}" %>
             // <% "{examples.comment_3}" %>
-            SearchCriteria searchCriteria = new ImageDctHashSearchCriteria(logo.png);
-            PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
-            possibleWatermarks.Remove(watermarks[0]);
+            var affected = metadata.RemoveProperties(
+                p => p.Tags.Any(t => t.Category == Tags.Person) 
+                || p.Name == "CustomProperty");
+                        
+            Console.WriteLine("Affected properties: {0}", affected);
 
             // <% "{examples.comment_4}" %>
-            watermarker.Save("output.<% get "fileformat" %>");
+            metadata.Save("output.bmp");
         }
         
         ```  
@@ -90,7 +91,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/watermark/features_remove.webp" # 500x500 px
+  image: "/img/metadata/features_remove.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -114,17 +115,16 @@ more_features:
         ```csharp {style=abap}
         
             //  <% "{more_features.code_1.comment_1}" %>
-            var loadOptions = new PresentationLoadOptions();
-            using (Watermarker watermarker = new Watermarker("source.pptx", loadOptions))
+            using (Metadata metadata = new Metadata("input.zip"))
             {
                 //  <% "{more_features.code_1.comment_2}" %>
-                PresentationContent content = watermarker.GetContent<PresentationContent>();
+                var root = metadata.GetRootPackage<ZipRootPackage>();
 
                 //  <% "{more_features.code_1.comment_3}" %>
-                content.Slides[0].ImageFillFormat.BackgroundImage = null;
+                root.ZipPackage.Comment = null;
 
                 //  <% "{more_features.code_1.comment_4}" %>
-                watermarker.save("result.pptx");
+                metadata.Save("output.zip");
             }
 
         ```

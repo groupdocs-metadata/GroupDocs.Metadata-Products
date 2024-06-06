@@ -1,9 +1,11 @@
 
 
+
+
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-05T15:07:45
+date:  2024-06-06T14:32:06
 draft: false
 lang: en
 format: Otc
@@ -13,49 +15,49 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Advanced OTC Watermark Removal with C# .NET"
-head_description: "Clear watermarks from OTC documents seamlessly using our C# .NET API, ensuring clean and professional-looking files."
+head_title: "Remove Metadata to OTC Files in C# Applications"
+head_description: "C# metadata processing API to remove metadata information to OTC files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
 ############################# Header ############################
-title: "C# .NET for OTC Watermark Deletion" 
-description: "Utilize the GroupDocs.Metadata for .NET C# API to effectively delete or edit out watermarks in OTC files, ideal for maintaining pristine document formatting."
-subtitle: "GroupDocs.Metadata for .NET C# API" 
+title: "Remove Metadata From OTC File In C#" 
+description: "Remove metadata information from a variety of documents, images, audio & video file formats using GroupDocs.Metadata for .NET API"
+subtitle: "GroupDocs.Metadata for .NET API" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Free Nuget download"
+    - title: "Download Free Trial"
       link: "https://releases.groupdocs.com/metadata/net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Metadata for .NET C# library"
+    title: "About GroupDocs.Metadata for .NET API"
     link: "/metadata/net/"
     link_title: "Learn more"
-    picture: "aboutmetadata.svg" # 480 X 400
+    picture: "about_metadata.svg" # 480 X 400
     content: |
-       The GroupDocs.Metadata for .NET C# library offers robust tools for managing watermarks in OTC documents. From simple removals to complex edits, this API enables developers to maintain document aesthetics and integrity, catering to business, legal, and academic needs.
+       [GroupDocs.Metadata for .NET](/metadata/net/) offers an advanced set of metadata manipulation features, allowing developers to easily read, edit, remove, search, compare, replace and export metadata information from images and document formats without using any external software. Use metadata management API to delete metadata details from PDF, Microsoft Office Word, Excel spreadsheets, PowerPoint presentations, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats along with many other metadata processing features.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Programmatically Remove Watermarks from Otc Documents using .NET"
+    title: "Steps for Removing OTC Metadata in C#"
     content: |
-      **[GroupDocs.Metadata](https://products.groupdocs.com/metadata/net/)** empowers .NET developers to programmatically remove watermarks from various Otc documents. This guide outlines the process:
+      [GroupDocs.Metadata](https://products.groupdocs.com/metadata/net/) makes it easy for .NET developers to remove metadata details to OTC files from within their applications by implementing a few easy steps.
       
-      1. Initiate the workflow by supplying your Otc file as an argument to the {{TextWatermarkerBold}} class constructor. The file can be provided as either a byte stream, a file stream, or a reference to a local disk location.
-      2. Leverage the power of the {{TextSearchCriteriaBold}} object to identify the specific watermarks requiring removal. This object enables the filtering of watermarks based on properties previously embedded within the document. You can utilize an image as a search parameter alongside text or formatting attributes for a highly granular search.
-      3. Following a successful search, you'll receive a collection of relevant watermarks. These watermarks offer granular control, allowing you to perform the removal operation.
-      4. Upon completion of watermark removal, persist the modified document. The API facilitates storage using either a local file path or a stream object.
+      1. Load OTC with an instance of Metadata class.
+      2. Use a predicate to find desired metadata properties.
+      3. Use Metadata.RemoveProperties method to remove the properties.
+      4. Save the changes back in OTC format.
    
     code:
       platform: "net"
       copy_title: "Copy"
       install:
         command: |
-        command: "dotnet add package GroupDocs.Watermark"
+        command: "dotnet add package GroupDocs.Metadata"
         copy_tip: "click to copy"
         copy_done: "copied"
       links:
@@ -68,18 +70,19 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Remove image watermark in OTC document
-
-        // Instantiate {{TextWatermarker}} passing OTC document
-        using (Watermarker watermarker = new Watermarker("input.otc"))
+        // Remove OTC file metadata
+        using (var metadata = new GroupDocs.Metadata.Metadata("input.bmp"))
         {
-            // Remove watermarks which were found in the document
-            SearchCriteria searchCriteria = new ImageDctHashSearchCriteria(logo.png);
-            PossibleWatermarkCollection watermarks = watermarker.Search(searchCriteria);
-            possibleWatermarks.Remove(watermarks[0]);
+            // Remove all mentions of any people contributed in file creation
+            // Remove all properties with the specified name
+            var affected = metadata.RemoveProperties(
+                p => p.Tags.Any(t => t.Category == Tags.Person) 
+                || p.Name == "CustomProperty");
+                        
+            Console.WriteLine("Affected properties: {0}", affected);
 
-            // Save the document
-            watermarker.Save("output.otc");
+            // Save result
+            metadata.Save("output.bmp");
         }
         
         ```  
@@ -87,43 +90,42 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Advanced Watermark Removal with C# .NET API | GroupDocs.Metadata"
-  description: "Unlock advanced watermark removal capabilities with our C# .NET API. Designed for seamless integration with .NET applications, this API facilitates the removal of watermarks from PDFs and Office documents, ensuring high-quality, unmarked outputs for professional use."
-  image: "/img/watermark/features_remove.webp" # 500x500 px
-  image_description: "Remove Watermark"
+  title: "Manage Document Metadata Easily"
+  description: "Keep your files organized and searchable with our easy-to-use document metadata management. Access, edit, and update various details to find what you need quickly."
+  image: "/img/metadata/features_remove.webp" # 500x500 px
+  image_description: "Effortless Document Metadata Management"
   features:
     # feature loop
-    - title: "Precision Watermark Removal in .NET"
-      content: "Our C# API is engineered to provide precise watermark removal, ensuring that your documents retain their original quality and format. Ideal for legal, educational, and professional documents where clarity and authenticity are crucial."
+    - title: "See Document Metadata Quickly"
+      content: "Get all the important information about a document instantly, like author, creation date, and more."
 
     # feature loop
-    - title: "Automate Watermark Deletion by C#"
-      content: "Enhance your application's efficiency with automated watermark deletion capabilities. Our API allows for the processing of extensive document batches, facilitating large-scale operations without compromising performance."
+    - title: "Edit Document Metadata Easily"
+      content: "Update metadata directly in your documents for better organization, searchability, and accuracy."
 
     # feature loop
-    - title: "Edit and Clear Watermarks Dynamically"
-      content: "Gain the flexibility to dynamically edit or completely remove watermarks as per your application's needs. This feature supports various customization options, enabling .NET developers to maintain document aesthetics and integrity under varying requirements."
+    - title: "Powerful Document Metadata Management"
+      content: "Do more with your document metadata! Add custom information, remove unnecessary data, and ensure everything stays consistent."
       
   code_samples:
     # code sample loop
-    - title: "Presentation background watermark remove"
+    - title: "Clear ZIP archive metadata"
       content: |
-        This example shows how to remove the background image of a particular slide.
+        The following code snippet shows how to remove the user comment from a ZIP archive
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
         
-            //  Load presentation
-            var loadOptions = new PresentationLoadOptions();
-            using (Watermarker watermarker = new Watermarker("source.pptx", loadOptions))
+            //  Load archive file for further processing
+            using (Metadata metadata = new Metadata("input.zip"))
             {
-                //  Get presentation content
-                PresentationContent content = watermarker.GetContent<PresentationContent>();
+                //  Get main metadata package
+                var root = metadata.GetRootPackage<ZipRootPackage>();
 
-                //  Remove slide background watermark
-                content.Slides[0].ImageFillFormat.BackgroundImage = null;
+                //  Remove archive comments
+                root.ZipPackage.Comment = null;
 
-                //  Save document
-                watermarker.save("result.pptx");
+                //  Save cleaned file
+                metadata.Save("output.zip");
             }
 
         ```
@@ -150,9 +152,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Mastering OTC File Watermark Removal with .NET"
+    title: "Deleting Metadata Properties From Other File Formats"
     exclude: "OTC"
-    description: "Discover the capabilities of the GroupDocs.Metadata for .NET C# API to manage and remove watermarks from OTC files, enhancing document security and presentation without compromising on quality."
+    description: "Multi format documents and images metadata deletion API for .NET. Retrieve metadata of some of the popular file formats as stated below."
     items: 
         # format loop 1
         - name: "Add Metadata to AVI"

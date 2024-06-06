@@ -23,4 +23,9 @@
 <% set "ReleaseDownloads" (dict "products.{product}.release_downloads") %>
 <% set "TextMetadata" (dict "products.textMetadata") %>
 <% set "TextMetadataAddProperties" (dict "products.textMetadataAddProperties") %>
+<% set "TextUpdateProperties" (dict "products.textUpdateProperties") %>
+<% set "TextRemoveProperties" (dict "products.textRemoveProperties") %>
+<% set "TextMetadataRemoveProperties" (dict "products.textMetadataRemoveProperties") %>
+
+
 

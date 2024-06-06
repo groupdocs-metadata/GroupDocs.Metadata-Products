@@ -27,10 +27,10 @@
   "steps": {
     "title": "Steps to Update Metadata in {{FileformatCap}} Using {{EnvName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** allows {{EnvName}} developers to edit metadata in {{FileformatCap}} files with a few easy steps.",
+      "title": "[{{ProdFullName}}]({{ProductUrl}}) allows {{EnvName}} developers to edit metadata in {{FileformatCap}} files with a few easy steps.",
       "step_1": "Load the {{FileformatCap}} file to be updated.",
       "step_2": "Specify a predicate to filter desired metadata properties.",
-      "step_3": "Pass the predicate and new value to the UpdateProperties method.",
+      "step_3": "Pass the predicate and new value to the {{TextUpdateProperties}} method.",
       "step_4": "Save the changes."
     }
   },

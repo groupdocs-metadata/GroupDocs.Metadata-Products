@@ -1,9 +1,11 @@
 
 
+
+
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-05T15:07:46
+date:  2024-06-06T14:32:07
 draft: false
 lang: en
 format: Pptm
@@ -13,48 +15,48 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Node.js via Java PPTM Watermark Cleanup"
-head_description: "Effortlessly remove watermarks from PPTM documents using our Node.js via Java API, ensuring polished and professional-looking files."
+head_title: "Remove Metadata from PPTM Files in Node.js via Java"
+head_description: "Cross-platform Node.js via Java metadata API to hide and remove metadata fields from PPTM files. Supports XMP, EXIF, IPTC, ID3, and more."
 
 ############################# Header ############################
-title: "Node.js via Java for PPTM Watermark Management" 
-description: "Leverage the GroupDocs.Metadata for Node.js via Java API to effectively delete or edit out watermarks in PPTM files, ideal for maintaining pristine document formatting."
+title: "Remove PPTM Metadata in Node.js via Java" 
+description: "Remove metadata properties from PPTM and other popular document, image, and multimedia file formats using GroupDocs.Metadata for Node.js via Java API."
 subtitle: "GroupDocs.Metadata for Node.js via Java API" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: "Free download at NPM"
+    - title: "Download Free Trial"
       link: "https://releases.groupdocs.com/metadata/nodejs-java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: "GroupDocs.Metadata for Node.js via Java library"
+    title: "About GroupDocs.Metadata for Node.js via Java API"
     link: "/metadata/nodejs-java/"
     link_title: "Learn more"
     picture: "about_metadata.svg" # 480 X 400
     content: |
-       The GroupDocs.Metadata for Node.js via Java Node.js via Java library offers powerful tools for managing watermarks in PPTM documents. From simple removals to complex edits, this API enables developers to maintain document aesthetics and integrity, catering to business, legal, and academic needs.
+       [GroupDocs.Metadata for Node.js via Java](/metadata/nodejs-java/) is an advanced solution for managing metadata fields. Easily read, add, update, delete, find, compare, exchange, and export metadata from images and documents without using any external software. Remove metadata from Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, PDF, AutoCAD, ZIP, audio, and video files, along with many other features.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Effortlessly Delete Watermarks from Pptm by Node.js via Java"
+    title: "Steps for Removing Metadata from PPTM in Node.js via Java"
     content: |
-      **[GroupDocs.Metadata](https://products.groupdocs.com/metadata/nodejs-java/)** streamlines the process of removing watermarks from business documents. Elevate your Node.js via Java application by seamlessly integrating our library and following these straightforward steps:
+      [GroupDocs.Metadata](https://products.groupdocs.com/metadata/nodejs-java/) makes it easy for Node.js via Java developers to delete metadata from PPTM files in a few simple steps.
       
-      1. Initiate the process by instantiating the core class, {{TextWatermarkerBold}}, with the Pptm document. Our versatile API seamlessly processes documents, whether provided as a stream or a local path.
-      2. Leverage {{TextSearchCriteriaBold}} to precisely pinpoint the watermarks to be addressed. Utilize various parameters such as images, text, or formatting features to refine your search. The more detailed your criteria, the more accurate your results.
-      3. Execute the removal process on the list of document watermarks retrieved through your search. Effortlessly delete them from the document.
-      4. Upon successfully deleting the watermarks, securely save the resulting document as a local file or a byte stream, preserving its integrity.
+      1. Load the PPTM file to be updated.
+      2. Pass a search predicate to the RemoveProperties method.
+      3. Check the number of properties that were removed.
+      4. Save the changes.
    
     code:
       platform: "net"
       copy_title: "Copy"
       install:
-        command: "npm i @groupdocs/groupdocs.watermark"
+        command: "npm i @groupdocs/groupdocs.metadata"
         copy_tip: "click to copy"
         copy_done: "copied"
       links:
@@ -68,70 +70,61 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Delete image watermark in PPTM document
+        // Clear PPTM document metadata
+        const metadata = new groupdocs.metadata.Metadata("input.pptm");
 
-        // Get {{TextWatermarker}} passing PPTM path as an argument
-        const watermarker = new groupdocs.watermark.Watermarker("input.pptm");
-        
-        // Clear image watermarks by search criteria
-        const searchCriteria = 
-            new groupdocs.watermark.ImageDctHashSearchCriteria("logo.png");
-        const watermarks = watermarker.search(searchCriteria);
-        watermarks.clear();
-
-        // Save processed file
-        watermarker.save("output.pptm");
+        // Remove all mentions of contributors
+        // Remove a custom property by name
+        let affected = metadata.removeProperties(
+            new FallsIntoCategorySpecification(groupdocs.metadata.Tags.getPerson()).
+            or(new groupdocs.metadata.WithNameSpecification('CustomProperty')));
+            
+        console.log('Affected properties: ${affected}');
+            
+        // Save the cleaned file
+        metadata.save("output.bmp");
         
         ```            
 
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Node.js via Java API for Watermark Removal | GroupDocs.Metadata"
-  description: "Integrate our Node.js via Java API to effortlessly remove watermarks from documents, enhancing document clarity and aesthetics. Tailored for Node.js via Java environments, this API is perfect for applications needing to process and present clean documents free of watermarks."
-  image: "/img/watermark/features_remove.webp" # 500x500 px
-  image_description: "Remove Watermark"
+  title: "Manage Document Metadata with Ease"
+  description: "Our solution simplifies metadata management. Easily access, edit, and update document properties to keep files organized and searchable."
+  image: "/img/metadata/features_remove.webp" # 500x500 px
+  image_description: "Protect Documents Metadata"
   features:
     # feature loop
-    - title: "Streamlined Watermark Removal for Node.js via Java"
-      content: "Our API offers streamlined watermark removal tools designed specifically for Node.js via Java applications, enabling developers to enhance document readability and professional appearance without complex coding."
+    - title: "Effortless Metadata Control"
+      content: "Quickly retrieve and process document metadata. Gain insights into properties like author, creation date, and more."
 
     # feature loop
-    - title: "Node.js via Java Batch Watermark Cleanup"
-      content: "Capitalize on the ability to clear watermarks from multiple documents in one go with our batch processing feature. This is especially useful for applications that need to handle large document flows quickly and efficiently."
+    - title: "Simple Metadata Editing"
+      content: "Directly edit document metadata. Update properties for better organization, searchability, and accuracy."
 
     # feature loop
-    - title: "Flexible Watermark Editing via Node.js via Java"
-      content: "Adjust, modify, or completely remove watermarks using our flexible editing tools. This feature allows Node.js via Java developers to tailor document processing to specific business needs or client requests, ensuring optimal outcomes."
+    - title: "Powerful Metadata Management"
+      content: "Perform advanced operations on document metadata. Easily add custom properties, remove unnecessary data, and ensure consistency."
       
   code_samples:
     # code sample loop
-    - title: "Delete spreadsheet header watermarks"
+    - title: "Clear ZIP Archive Metadata"
       content: |
-        This example shows how to delete watermarks which were put into XLSX headers
+        This code snippet shows how to remove user comments from a ZIP archive.
         {{< landing/code title="TypeScript">}}
         ```javascript {style=abap}
         
-            const groupdocsWatermark = require('@groupdocs/groupdocs.watermark')
+            //  Load the archive file for processing
+            const metadata = new groupdocs.metadata.Metadata('input.zip');
 
-            //  Load Spreadsheet workbook
-            const loadOptions = new groupdocsWatermark.SpreadsheetLoadOptions();
-            const watermarker = new groupdocsWatermark.Watermarker("source.xlsx", loadOptions);
+            //  Get the main metadata package
+            vat root = metadata.getRootPackageGeneric();
 
-            //  Get list of header sections
-            const content = watermarker.getContent(groupdocsWatermark.SpreadsheetContent.class);
-            const sections = content.getWorksheets().get_Item(0).getHeadersFooters()
-                .getByOfficeHeaderFooterType(groupdocsWatermark.OfficeHeaderFooterType.HeaderPrimary).getSections();
-  
-            //  Delete watermarks from headers
-            for (const section of sections.getInnerList().toArray()) {
-                section.setScript(null);
-                section.setImage(null);
-            }
+            //  Remove archive comments
+            root.getZipPackage().setComment(null);
 
-            //  Save cleared workbook
-            watermarker.save("result.xlsx");
-            watermarker.close();
+            //  Save the cleaned file
+            metadata.save('output.zip');
 
         ```
         {{< /landing/code >}}
@@ -157,9 +150,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Refining PPTM Files with Node.js via Java"
+    title: "Removing Metadata from Other File Formats"
     exclude: "PPTM"
-    description: "Discover the capabilities of the GroupDocs.Metadata for Node.js via Java API to manage and remove watermarks from PPTM files, enhancing document security and presentation without compromising on quality."
+    description: "Multi-format document and image metadata removal API for Node.js via Java. Retrieve and remove metadata from popular file formats."
     items: 
         # format loop 1
         - name: "Add Metadata to AVI"

@@ -55,7 +55,7 @@ steps:
       platform: "net"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       install:
-        command: "npm i @groupdocs/groupdocs.watermark"
+        command: "npm i @groupdocs/groupdocs.metadata"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -70,18 +70,18 @@ steps:
         ```javascript {style=abap}
 
         // <% "{examples.comment_1}" %>
+        const metadata = new groupdocs.metadata.Metadata("input.<% get "fileformat" %>");
 
         // <% "{examples.comment_2}" %>
-        const watermarker = new groupdocs.watermark.Watermarker("input.<% get "fileformat" %>");
-        
         // <% "{examples.comment_3}" %>
-        const searchCriteria = 
-            new groupdocs.watermark.ImageDctHashSearchCriteria("logo.png");
-        const watermarks = watermarker.search(searchCriteria);
-        watermarks.clear();
-
+        let affected = metadata.removeProperties(
+            new FallsIntoCategorySpecification(groupdocs.metadata.Tags.getPerson()).
+            or(new groupdocs.metadata.WithNameSpecification('CustomProperty')));
+            
+        console.log('Affected properties: ${affected}');
+            
         // <% "{examples.comment_4}" %>
-        watermarker.save("output.<% get "fileformat" %>");
+        metadata.save("output.bmp");
         
         ```            
 
@@ -90,7 +90,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/watermark/features_remove.webp" # 500x500 px
+  image: "/img/metadata/features_remove.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -113,26 +113,17 @@ more_features:
         {{< landing/code title="TypeScript">}}
         ```javascript {style=abap}
         
-            const groupdocsWatermark = require('@groupdocs/groupdocs.watermark')
-
             //  <% "{more_features.code_1.comment_1}" %>
-            const loadOptions = new groupdocsWatermark.SpreadsheetLoadOptions();
-            const watermarker = new groupdocsWatermark.Watermarker("source.xlsx", loadOptions);
+            const metadata = new groupdocs.metadata.Metadata('input.zip');
 
             //  <% "{more_features.code_1.comment_2}" %>
-            const content = watermarker.getContent(groupdocsWatermark.SpreadsheetContent.class);
-            const sections = content.getWorksheets().get_Item(0).getHeadersFooters()
-                .getByOfficeHeaderFooterType(groupdocsWatermark.OfficeHeaderFooterType.HeaderPrimary).getSections();
-  
+            vat root = metadata.getRootPackageGeneric();
+
             //  <% "{more_features.code_1.comment_3}" %>
-            for (const section of sections.getInnerList().toArray()) {
-                section.setScript(null);
-                section.setImage(null);
-            }
+            root.getZipPackage().setComment(null);
 
             //  <% "{more_features.code_1.comment_4}" %>
-            watermarker.save("result.xlsx");
-            watermarker.close();
+            metadata.save('output.zip');
 
         ```
         {{< /landing/code >}}

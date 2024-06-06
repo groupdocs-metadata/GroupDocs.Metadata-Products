@@ -1,61 +1,61 @@
 {
   "head": {
-    "title": "{{EnvName}} {{FileFormatUp}} Watermark Cleanup",
-    "description": "Effortlessly remove watermarks from {{FileFormatUp}} documents using our {{EnvName}} API, ensuring polished and professional-looking files."
+    "title": "Remove Metadata from {{FileFormatUp}} Files in {{EnvName}}",
+    "description": "Cross-platform {{EnvName}} metadata API to hide and remove metadata fields from {{FileFormatUp}} files. Supports XMP, EXIF, IPTC, ID3, and more."
   },
   "header": {
-    "title": "{{EnvName}} for {{FileFormatUp}} Watermark Management",
-    "description": "Leverage the {{ProdFullName}} API to effectively delete or edit out watermarks in {{FileFormatUp}} files, ideal for maintaining pristine document formatting.",
+    "title": "Remove {{FileFormatUp}} Metadata in {{EnvName}}",
+    "description": "Remove metadata properties from {{FileFormatUp}} and other popular document, image, and multimedia file formats using {{ProdFullName}} API.",
     "subtitle": "{{ProdFullName}} API",
-    "action_title": "Free download at {{PackageStoreName}}"
+    "action_title": "Download Free Trial"
   },
   "about": {
-    "title": "{{ProdFullName}} library",
-    "content": "The {{ProdFullName}} {{EnvName}} library offers powerful tools for managing watermarks in {{FileFormatUp}} documents. From simple removals to complex edits, this API enables developers to maintain document aesthetics and integrity, catering to business, legal, and academic needs."
+    "title": "About {{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) is an advanced solution for managing metadata fields. Easily read, add, update, delete, find, compare, exchange, and export metadata from images and documents without using any external software. Remove metadata from Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, PDF, AutoCAD, ZIP, audio, and video files, along with many other features."
   },
   "formats": {
-    "title": "Refining {{FileFormatUp}} Files with {{EnvName}}",
-    "description": "Discover the capabilities of the {{ProdFullName}} API to manage and remove watermarks from {{FileFormatUp}} files, enhancing document security and presentation without compromising on quality."
+    "title": "Removing Metadata from Other File Formats",
+    "description": "Multi-format document and image metadata removal API for {{EnvName}}. Retrieve and remove metadata from popular file formats."
   },
   "examples": {
-    "comment_1": "Delete image watermark in {{FileFormatUp}} document",
-    "comment_2": "Get {{TextWatermarker}} passing {{FileFormatUp}} path as an argument",
-    "comment_3": "Clear image watermarks by search criteria",
-    "comment_4": "Save processed file"
+    "comment_1": "Clear {{FileFormatUp}} document metadata",
+    "comment_2": "Remove all mentions of contributors",
+    "comment_3": "Remove a custom property by name",
+    "comment_4": "Save the cleaned file"
   },
   "steps": {
-    "title": "Effortlessly Delete Watermarks from {{FileformatCap}} by {{EnvName}}",
+    "title": "Steps for Removing Metadata from {{FileFormatUp}} in {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** streamlines the process of removing watermarks from business documents. Elevate your {{EnvName}} application by seamlessly integrating our library and following these straightforward steps:",
-      "step_1": "Initiate the process by instantiating the core class, {{TextWatermarkerBold}}, with the {{FileformatCap}} document. Our versatile API seamlessly processes documents, whether provided as a stream or a local path.",
-      "step_2": "Leverage {{TextSearchCriteriaBold}} to precisely pinpoint the watermarks to be addressed. Utilize various parameters such as images, text, or formatting features to refine your search. The more detailed your criteria, the more accurate your results.",
-      "step_3": "Execute the removal process on the list of document watermarks retrieved through your search. Effortlessly delete them from the document.",
-      "step_4": "Upon successfully deleting the watermarks, securely save the resulting document as a local file or a byte stream, preserving its integrity."
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) makes it easy for {{EnvName}} developers to delete metadata from {{FileFormatUp}} files in a few simple steps.",
+      "step_1": "Load the {{FileFormatUp}} file to be updated.",
+      "step_2": "Pass a search predicate to the {{TextRemoveProperties}} method.",
+      "step_3": "Check the number of properties that were removed.",
+      "step_4": "Save the changes."
     }
   },
   "more_features": {
-    "title": "{{EnvName}} API for Watermark Removal | {{ProdShortName}}",
-    "description": "Integrate our {{EnvName}} API to effortlessly remove watermarks from documents, enhancing document clarity and aesthetics. Tailored for {{EnvName}} environments, this API is perfect for applications needing to process and present clean documents free of watermarks.",
-    "image_description": "Remove Watermark",
+    "title": "Manage Document Metadata with Ease",
+    "description": "Our solution simplifies metadata management. Easily access, edit, and update document properties to keep files organized and searchable.",
+    "image_description": "Protect Documents Metadata",
     "feature_1": {
-      "title": "Streamlined Watermark Removal for {{EnvName}}",
-      "content": "Our API offers streamlined watermark removal tools designed specifically for {{EnvName}} applications, enabling developers to enhance document readability and professional appearance without complex coding."
+      "title": "Effortless Metadata Control",
+      "content": "Quickly retrieve and process document metadata. Gain insights into properties like author, creation date, and more."
     },
     "feature_2": {
-      "title": "{{EnvName}} Batch Watermark Cleanup",
-      "content": "Capitalize on the ability to clear watermarks from multiple documents in one go with our batch processing feature. This is especially useful for applications that need to handle large document flows quickly and efficiently."
+      "title": "Simple Metadata Editing",
+      "content": "Directly edit document metadata. Update properties for better organization, searchability, and accuracy."
     },
     "feature_3": {
-      "title": "Flexible Watermark Editing via {{EnvName}}",
-      "content": "Adjust, modify, or completely remove watermarks using our flexible editing tools. This feature allows {{EnvName}} developers to tailor document processing to specific business needs or client requests, ensuring optimal outcomes."
+      "title": "Powerful Metadata Management",
+      "content": "Perform advanced operations on document metadata. Easily add custom properties, remove unnecessary data, and ensure consistency."
     },
     "code_1": {
-      "title": "Delete spreadsheet header watermarks",
-      "content": "This example shows how to delete watermarks which were put into XLSX headers",
-      "comment_1": "Load Spreadsheet workbook",
-      "comment_2": "Get list of header sections",
-      "comment_3": "Delete watermarks from headers",
-      "comment_4": "Save cleared workbook"
+      "title": "Clear ZIP Archive Metadata",
+      "content": "This code snippet shows how to remove user comments from a ZIP archive.",
+      "comment_1": "Load the archive file for processing",
+      "comment_2": "Get the main metadata package",
+      "comment_3": "Remove archive comments",
+      "comment_4": "Save the cleaned file"
     }
   }
 }
