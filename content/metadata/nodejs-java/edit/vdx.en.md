@@ -1,9 +1,11 @@
 
 
+
+
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-05T14:08:25
+date:  2024-06-07T15:08:43
 draft: false
 lang: en
 format: Vdx
@@ -43,7 +45,7 @@ steps:
     enable: true
     title: "Steps to Update Metadata in Vdx Using Node.js via Java"
     content: |
-      **[GroupDocs.Metadata for Node.js via Java](https://products.groupdocs.com/metadata/nodejs-java/)** allows Node.js via Java developers to edit metadata in Vdx files with a few easy steps.
+      [GroupDocs.Metadata for Node.js via Java](https://products.groupdocs.com/metadata/nodejs-java/) allows Node.js via Java developers to edit metadata in Vdx files with a few easy steps.
       
       1. Load the Vdx file to be updated.
       2. Specify a predicate to filter desired metadata properties.

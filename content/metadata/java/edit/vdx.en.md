@@ -1,9 +1,11 @@
 
 
+
+
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-05T12:44:19
+date:  2024-06-07T15:08:40
 draft: false
 lang: en
 format: Vdx
@@ -43,7 +45,7 @@ steps:
     enable: true
     title: "Steps for Updating Metadata to Vdx in Java"
     content: |
-      **[GroupDocs.Metadata for Java](https://products.groupdocs.com/metadata/java/)** makes it easy for Java developers to edit metadata details to Vdx files from within their applications by implementing a few easy steps.
+      [GroupDocs.Metadata for Java](https://products.groupdocs.com/metadata/java/) makes it easy for Java developers to edit metadata details to Vdx files from within their applications by implementing a few easy steps.
       
       1. Load the Vdx file to be updated
       2. Specify a predicate that will be used to filter desired metadata properties.
@@ -142,7 +144,7 @@ more_features:
   enable: true
   title: "Manipulate VDX Metadata for Java Apps"
   description: "The GroupDocs.Metadata API lets developers easily update hidden metadata in various document formats in their Java applications. Apply, edit, search for, and remove metadata programmatically."
-  image: "/img/watermark/features_edit.webp" # 500x500 px
+  image: "/img/metadata/features_edit.webp" # 500x500 px
   image_description: "Metadata Configuration"
   features:
     # feature loop

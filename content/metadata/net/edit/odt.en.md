@@ -1,9 +1,11 @@
 
 
+
+
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-05T12:44:20
+date:  2024-06-07T15:08:41
 draft: false
 lang: en
 format: Odt
@@ -43,7 +45,7 @@ steps:
     enable: true
     title: "Steps for Updating Metadata to ODT in C#"
     content: |
-      **[GroupDocs.Metadata for .NET](https://products.groupdocs.com/metadata/net/)** makes it easy for .NET developers to edit metadata information to ODT files from within their applications by implementing a few easy steps.
+      [GroupDocs.Metadata for .NET](https://products.groupdocs.com/metadata/net/) makes it easy for .NET developers to edit metadata information to ODT files from within their applications by implementing a few easy steps.
       
       1. Load ODT file via an instance of Metadata class.
       2. Specify a predicate that will be used to filter desired metadata properties.
@@ -93,7 +95,7 @@ more_features:
   enable: true
   title: "Manage ODT Inner Metadata Properties for .NET Apps"
   description: "The GroupDocs.Metadata API lets developers easily edit document details (metadata) in various formats using their .NET applications. Programmatically add, update, search for, and remove document properties."
-  image: "/img/watermark/features_edit.webp" # 500x500 px
+  image: "/img/metadata/features_edit.webp" # 500x500 px
   image_description: "Document Metadata Property Management"
   features:
     # feature loop

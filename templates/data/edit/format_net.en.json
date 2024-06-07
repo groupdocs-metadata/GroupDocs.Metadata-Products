@@ -25,7 +25,7 @@
     "comment_5": "Save result {{FileFormatUp}}"
   },
   "steps": {
-    "title": "Steps for Updating Metadata to {{FileFormatUp}} in C#",
+    "title": "Steps for Updating Metadata to {{FileFormatUp}} in {{ProgLang}}",
     "content": {
       "title": "[{{ProdFullName}}]({{ProductUrl}}) makes it easy for {{EnvName}} developers to edit metadata information to {{FileFormatUp}} files from within their applications by implementing a few easy steps.",
       "step_1": "Load {{FileFormatUp}} file via an instance of {{TextMetadata}} class.",

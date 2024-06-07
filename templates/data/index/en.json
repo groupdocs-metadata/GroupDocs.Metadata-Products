@@ -82,7 +82,7 @@
       },
       "item_2": {
         "title": "NuGet downloads",
-        "description": "{{ProdShortName}} for .NET NuGet package was downloaded more than 700,000 times."
+        "description": "{{ProdFullName}} NuGet package was downloaded more than 700,000 times."
       },
       "item_3": {
         "title": "Maven downloads",
@@ -161,7 +161,7 @@
   },
   "index-content-net": {
     "head_title": "{{EnvNameShort}} Metadata Reader, Viewer, Extractor, Remover & Exporter API",
-    "head_description": "C# {{EnvNameShort}} metadata API to read, write, edit, analyze, search, extract, remove, compare & export metadata of PDF Word Excel PPTX Outlook Audio Video & Images.",
+    "head_description": "{{ProgLang}} {{EnvNameShort}} metadata API to read, write, edit, analyze, search, extract, remove, compare & export metadata of PDF Word Excel PPTX Outlook Audio Video & Images.",
     "title": "{{EnvNameShort}} API to Manage & Manipulate Metadata",
     "description": "Build {{EnvNameShort}} Applications to Read, Edit, Remove, Retrieve, Search, Compare, Replace and Export Metadata Information of all Popular Documents & Image File Formats.",
     "actions_main": "Free NuGet Download",
@@ -199,7 +199,7 @@
       },
       "feature_4": {
         "title": "Photo Location",
-        "content": "Import image metadata properties and remove location info from photos",
+        "content": "Import image metadata properties and remove location info from photos"
       },
       "feature_5": {
         "title": "Metadata Search",
@@ -223,7 +223,7 @@
       },
       "feature_10": {
         "title": "Run-time Recognition of Document File Type",
-        "content": "Our solution provides the ability to detect file or stream type before metadata processing",
+        "content": "Our solution provides the ability to detect file or stream type before metadata processing"
       },
       "feature_11": {
         "title": "Analyze Metadata Distinctions",
