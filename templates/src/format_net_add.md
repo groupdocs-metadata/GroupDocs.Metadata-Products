@@ -70,7 +70,7 @@ steps:
       content: |
         ```csharp {style=abap}
         // <% "{examples.comment_1}" %>
-        using (var metadata = new GroupDocs.Metadata.Metadata("input.zip"))
+        using (var metadata = new GroupDocs.Metadata.Metadata("input.<% get "fileformat" %>"))
         {
             // <% "{examples.comment_2}" %>
             var affected = metadata.AddProperties(p => p.Tags.Contains(
@@ -81,7 +81,7 @@ steps:
             Console.WriteLine("Affected properties: {0}", affected);
             
             // <% "{examples.comment_4}" %>
-            metadata.Save("output.zip");
+            metadata.Save("output.<% get "fileformat" %>");
         }
         
         ```  
@@ -114,7 +114,7 @@ more_features:
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
         
-            using (Metadata metadata = new Metadata("Constants."TiffWithExif))
+            using (Metadata metadata = new Metadata("input.tiff"))
             {
                 IExif root = metadata.GetRootPackage() as IExif;
                 if (root != null)
@@ -132,7 +132,7 @@ more_features:
                     //  <% "{more_features.code_1.comment_4}" %>
                     root.ExifPackage.Set(new TiffAsciiTag((TiffTagID)65523, "custom"));
 
-                    metadata.Save(Constants.OutputTiff);
+                    metadata.Save("output.tiff");
                 }
             }
 

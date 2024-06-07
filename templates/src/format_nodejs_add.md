@@ -69,8 +69,6 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        try 
-        {
             // <% "{examples.comment_1}" %>
             const metadata = new groupdocs.metadata.Metadata('input.<% get "fileformat" %>');
 
@@ -84,7 +82,6 @@ steps:
 
             // <% "{examples.comment_4}" %>
             metadata.save('output.<% get "fileformat" %>');
-        }
         
         ```            
 

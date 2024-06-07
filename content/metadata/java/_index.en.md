@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-06-03T15:37:48
+date: 2024-06-07T16:45:45
 draft: false
 
 lang: en
@@ -162,7 +162,7 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Metadata for Java : Features"
+  title: "GroupDocs.Metadata for Java Features"
   description: "Protect your PDF, Office documents, and images metadata"
 
   items:
@@ -313,11 +313,12 @@ code_samples:
         Utilize GroupDocs.Metadata for Java to control inner document content. Learn more: [document metadata search](https://docs.groupdocs.com/metadata/java/find-metadata-properties/):
         {{< landing/code title="How to get specific document metadata">}}
         ```java {style=abap}
+
         // Load source document to Metadata constructor
         try (Metadata metadata = new Metadata("source.pptx")){
+
             // Get all the properties that contains the name of the last document editor
             // or the date/time the document was last modified
-
             IReadOnlyList<MetadataProperty> properties = metadata.findProperties(
                 new ContainsTagSpecification(Tags.getPerson().getEditor()).
                 or(new ContainsTagSpecification(Tags.getTime().getModified())));

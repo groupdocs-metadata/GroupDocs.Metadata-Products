@@ -5,6 +5,7 @@
 <% set "FileFormatUp" (upper (get "fileformat")) %>
 <% set "FileformatCap" (capitalize (get "fileformat")) %>
 <% set "EnvName" (dict "products.{product}.environmentName") %>
+<% set "EnvNameShort" (dict "products.{product}.environmentNameShort") %>
 <% set "ProdCode" (dict "products.{product}.productCode") %>
 <% set "PlatformLink" (dict "products.{product}.productPlatformLink") %>
 <% set "NameProduct" (dict "products.nameProduct") %>
@@ -23,4 +24,9 @@
 <% set "ReleaseDownloads" (dict "products.{product}.release_downloads") %>
 <% set "TextMetadata" (dict "products.textMetadata") %>
 <% set "TextMetadataAddProperties" (dict "products.textMetadataAddProperties") %>
+<% set "TextUpdateProperties" (dict "products.textUpdateProperties") %>
+<% set "TextRemoveProperties" (dict "products.textRemoveProperties") %>
+<% set "TextMetadataRemoveProperties" (dict "products.textMetadataRemoveProperties") %>
+<% set "TextFindProperties" (dict "products.textFindProperties") %>
+
 

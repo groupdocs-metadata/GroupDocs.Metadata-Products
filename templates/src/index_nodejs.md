@@ -65,10 +65,10 @@ code:
     if (metadata.getFileFormat() != gMeta.FileFormat.Unknown) {
         // <% "{index-content-nodejs-java.code_comment_3}" %>
         var info = metadata.getDocumentInfo();
-        console.log(`File format: 
-            ${info.getFileType().getFileFormat()}`);
-        console.log(`MIME Type: 
-            ${info.getFileType().getMimeType()}`);
+        console.log('File format: 
+            ${info.getFileType().getFileFormat()}');
+        console.log('MIME Type: 
+            ${info.getFileType().getMimeType()}');
     }
     ```
 
@@ -350,7 +350,7 @@ code_samples:
         {{< landing/code title="<% "{index-content.code_samples.sample_2.code_title}" %>">}}
         ```javascript {style=abap}   
         // <% "{index-content.code_samples.sample_2.comment_1}" %>
-        var metadata = new groupdocs.metadata.Metadata("document.pdf");
+        var metadata = new groupdocs.metadata.Metadata("input.pdf");
         if (metadata.getFileFormat() != groupdocs.metadata.FileFormat.Unknown 
             && !metadata.getDocumentInfo().isEncrypted()) {
 
@@ -363,6 +363,8 @@ code_samples:
 
             // <% "{index-content.code_samples.sample_2.comment_4}" %>
             console.log("Affected properties: ${affected}");
+
+            metadata.save("output.pdf");
         }
 
         ```

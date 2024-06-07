@@ -25,12 +25,12 @@
     "comment_5": "Save result {{FileFormatUp}}"
   },
   "steps": {
-    "title": "Steps for Updating Metadata to {{FileFormatUp}} in C#",
+    "title": "Steps for Updating Metadata to {{FileFormatUp}} in {{ProgLang}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** makes it easy for {{EnvName}} developers to edit metadata information to {{FileFormatUp}} files from within their applications by implementing a few easy steps.",
-      "step_1": "Load {{FileFormatUp}} file via an instance of Metadata class.",
+      "title": "[{{ProdFullName}}]({{ProductUrl}}) makes it easy for {{EnvName}} developers to edit metadata information to {{FileFormatUp}} files from within their applications by implementing a few easy steps.",
+      "step_1": "Load {{FileFormatUp}} file via an instance of {{TextMetadata}} class.",
       "step_2": "Specify a predicate that will be used to filter desired metadata properties.",
-      "step_3": "Pass the predicate and the new value to the UpdateProperties method.",
+      "step_3": "Pass the predicate and the new value to the {{TextUpdateProperties}} method.",
       "step_4": "Save the changes to disc in {{FileFormatUp}} format."
     }
   },

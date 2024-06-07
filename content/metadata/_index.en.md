@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-06-03T15:37:48
+date:  2024-06-07T16:45:45
 draft: false
 
 product: "Metadata"
@@ -11,7 +11,7 @@ lang: en
 
 ############################# Head ############################
 head_title: ".NET, Java, Node.js APIs & Online Metadata Manipulation Apps by GroupDocs"
-head_description: "Control PDF, images and documents metadata. GroupDocs.Metadata for Microsoft Office, PDF, OpenDocument, Images and etc."
+head_description: "Document Metadata APIs native to C# .NET & Java. Read, write, edit & compare meta information of all popular formats. Analyze & export metadata."
 
 ############################# Header ############################
 title: "Document Metadata Management Solution"
@@ -165,16 +165,16 @@ code_samples:
 
                         using (Metadata metadata = new Metadata("source.docx"))
                         {
-                          // Remove document properties connected to creator and editor
-                          var affected = metadata.RemoveProperties(
-                              p => p.Tags.Contains(Tags.Person.Creator) ||
-                                   p.Tags.Contains(Tags.Person.Editor);
+                            // Remove document properties connected to creator and editor
+                            var affected = metadata.RemoveProperties(
+                                p => p.Tags.Contains(Tags.Person.Creator) ||
+                                    p.Tags.Contains(Tags.Person.Editor);
 
-                          // Process result of metadata removing
-                          Console.WriteLine("Properties removed: {0}", affected);
+                            // Process result of metadata removing
+                            Console.WriteLine("Properties removed: {0}", affected);
 
-                          // Save cleaned document
-                          metadata.Save("result.docx");
+                            // Save cleaned document
+                            metadata.Save("result.docx");
                         }                    
                     </code>
 
@@ -220,7 +220,7 @@ code_samples:
                         console.log('Properties removed: ${affected}');
 
                         // Save cleaned document
-                        metadata.save(Constants.OutputDocx);                        
+                        metadata.save("result.docx");                        
 
                     </code>
 

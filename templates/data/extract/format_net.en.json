@@ -1,203 +1,64 @@
 {
+  "head": {
+    "title": "Read & Extract Metadata of {{FileFormatUp}} Files in {{ProgLang}} Applications",
+    "description": "Cross platform {{ProgLang}} metadata management API to read and extract metadata information of {{FileFormatUp}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+  },
+  "header": {
+    "title": "Extract Metadata From {{FileFormatUp}} File In {{ProgLang}}",
+    "description": "Read & Extract metadata information from a wide range of documents, images, audio & video formats using GroupDocs.Metadata for {{EnvName}}",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download Free Trial"
+  },
+  "about": {
+    "title": "About{{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offers an advanced set of metadata management and manipulation features, allowing developers to easily read, edit, remove, search, compare, replace and export metadata information from images and document formats without using any external software. Extract metadata details from PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats, and perform supported metadata operations with true flexibility."
+  },
+  "formats": {
+    "title": "Updating Metadata Properties From Other File Formats",
+    "description": "Multi format documents and images metadata editing API for {{EnvName}}. Retrieve metadata of some of the popular file formats as stated below."
+  },
   "examples": {
-    "comment_1": "Find image watermarks placed in {{FileFormatUp}}",
-    "comment_2": "Construct {{TextWatermarker}} passing {{FileFormatUp}} path",
-    "comment_3": "Find watermarks using search options",
-    "comment_4": "Process watermarks info"
+    "comment_1": "Extract {{FileFormatUp}} metadata properties by various criteria",
+    "comment_2": "Construct {{TextMetadata}} passing {{FileFormatUp}} path",
+    "comment_3": "extract all metadata properties that fall into a particular category",
+    "comment_4": "iterate over all properties and display",
+    "comment_5": "extract all properties having a specific type and value",
+    "comment_6": "display all datetime properties with the year value equal to the current year",
+    "comment_7": "extract all properties having names matching the specified regex",
+    "comment_8": "display properties whose names match the following pattern"
   },
   "steps": {
-    "title": "Efficiently Find {{FileformatCap}} Watermarks with {{EnvName}}",
+    "title": "Steps for {{FileFormatUp}} Metadata Extraction in {{EnvName}}",
     "content": {
-      "title": "**[{{ProdShortName}}]({{ProductUrl}})** offers a robust solution for programmatically finding watermarks within various business document formats. Integrate our package into your {{EnvName}} applications to empower them with watermark finding capabilities.",
-      "step_1": "To exploit the functionalities of our library, instantiate the {{TextWatermarkerBold}} class and provide the {{FileformatCap}} file path, file stream, or byte stream as input. This action loads the document for watermark analysis.",
-      "step_2": "For targeted watermark identification, leverage the {{TextSearchCriteriaBold}} object. Specify an image for locating similar image watermarks. Alternatively, for textual watermarks, define the text content, font properties, color attributes, and other pertinent parameters to refine the search criteria.",
-      "step_3": "Employ the {{TextSearchBold}} method of the {{TextWatermarkerBold}} object to initiate the watermark detection process within the loaded document. This function returns a collection of objects representing potential watermarks, enabling further processing.",
-      "step_4": "The retrieved collection of watermark objects grants you precise control. You can programmatically remove unwanted watermarks or dynamically modify their properties, such as adjusting their size or text content, to suit your specific requirements."
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) makes it easy for {{EnvName}} developers to extract to read and extract metadata information from {{FileFormatUp}} files from within their applications by implementing a few easy steps.",
+      "step_1": "Load the {{FileFormatUp}} with an instance of {{EnvName}} class.",
+      "step_2": "Make up a predicate to examine all metadata properties.",
+      "step_3": "Pass the predicate to the {{TextFindProperties}} method.",
+      "step_4": "Iterate through the found properties."
     }
   },
   "more_features": {
-    "title": "Advanced Watermark Search Techniques Using C# with {{ProdShortName}}",
-    "description": "Delve into powerful watermark searching capabilities using the {{ProdShortName}} C# API, tailored for developers within the {{EnvName}} platform.",
-    "image_description": "C# Watermark Search",
+    "title": "Search Files Metadata with {{ProdShortName}}",
+    "description": "Securely manage hidden metadata within sensitive documents using {{EnvName}} applications powered by the {{ProdShortName}} library.",
+    "image_description": "Search for Metadata in {{EnvName}} Files",
     "feature_1": {
-      "title": "Streamlined Watermark Detection in C#",
-      "content": "Utilize {{ProdShortName}} to implement streamlined watermark detection within your C# applications. Benefit from advanced search functions to locate watermarks quickly and accurately."
+      "title": "{{EnvName}} Tools for Comprehensive Metadata Search",
+      "content": "Streamline your document processing in {{EnvName}} with {{ProdShortName}}. Our software offers powerful tools to search for and manage hidden metadata efficiently."
     },
     "feature_2": {
-      "title": "Precise Watermark Search with C#",
-      "content": "Enhance your document security protocols by precisely searching for watermarks in C#. Configure {{ProdShortName}} to find watermarks based on specific characteristics such as size, color, and placement."
+      "title": "Precise Metadata Targeting",
+      "content": "Target specific metadata with pinpoint accuracy. Configure your search with various filters like text, date, or regular expressions to find exactly the metadata you need."
     },
     "feature_3": {
-      "title": "C# Integration for Effective Watermark Management",
-      "content": "Integrate {{ProdShortName}} into your C# projects to effectively manage document watermarks. Our API provides powerful tools to search, analyze, and report on watermark usage, ensuring compliance and brand consistency."
+      "title": "Effortless Metadata Management",
+      "content": "Leverage {{EnvName}} to process the values of discovered metadata entries. {{ProdShortName}} empowers you to add, update, or remove metadata effectively within supported file formats."
     },
     "code_1": {
-      "title": "C# Example: Comprehensive Watermark Search",
-      "content": "Explore this detailed example of how to use C# with {{ProdShortName}} for comprehensive watermark search capabilities, including handling multiple document types and complex search criteria.",
-      "comment_1": "Initialize the C# application and prepare the document loading mechanism",
-      "comment_2": "Set search parameters to target specific watermark attributes",
-      "comment_3": "Perform the search across documents and gather watermark details",
-      "comment_4": "Analyze and process watermark data for further administrative or compliance actions"
-    }
-  },
-  "doc": {
-    "head": {
-      "title": "Unveil Secret Watermarks in {{FileFormatUp}} documents",
-      "description": "Discover hidden watermarks in documents effortlessly with {{ProdFullName}}."
-    },
-    "header": {
-      "title": "Find Hidden Watermarks Effortlessly in {{FileFormatUp}} documents",
-      "description": "Quickly uncover and manage hidden watermarks with {{ProdFullName}}.",
-      "subtitle": "{{ProdFullName}}",
-      "action_title": "Download {{PackageStoreName}} package"
-    },
-    "about": {
-      "title": "Get info {{ProdFullName}}",
-      "content": "{{ProdFullName}} is a powerful solution for managing watermarks using {{EnvName}}. Easily generate, edit, find, and remove watermarks from various document formats such as PDF, Microsoft Word, Excel, and more. Easily involve watermark management into your applications with {{ProdFullName}}."
-    },
-    "formats": {
-      "title": "Explore Supported Formats for Watermark Finding",
-      "description": "Effortlessly search for and identify watermarks in various supported file formats."
-    }
-  },
-  "docx": {
-    "head": {
-      "title": "Discover Hidden Watermarks in {{FileFormatUp}} documents",
-      "description": "Effortlessly discover hidden watermarks in documents with {{ProdFullName}}."
-    },
-    "header": {
-      "title": "Effortlessly Locate Hidden Watermarks in {{FileFormatUp}} documents",
-      "description": "Quickly locate and manage hidden watermarks with {{ProdFullName}}.",
-      "subtitle": "{{ProdFullName}}",
-      "action_title": "Free {{PackageStoreName}} Download"
-    },
-    "about": {
-      "title": "Learn more about {{ProdFullName}}",
-      "content": "{{ProdFullName}} offers a comprehensive solution for managing watermarks using {{EnvName}}. Easily generate, edit, find, and remove watermarks from a variety of document formats including PDF, Microsoft Word, Excel, and more. Seamlessly integrate watermark management into your applications with {{ProdFullName}}."
-    },
-    "formats": {
-      "title": "Discover Watermarks in Multiple File Formats",
-      "description": "Effortlessly identify and manage watermarks in multiple supported file formats."
-    }
-  },
-  "pdf": {
-    "head": {
-      "title": "Uncover {{FileFormatUp}} Documents Hidden Watermarks",
-      "description": "Effortlessly uncover hidden watermarks within documents with {{ProdFullName}}."
-    },
-    "header": {
-      "title": "Uncover {{FileFormatUp}} Documents Hidden Watermarks Instantly",
-      "description": "Quickly unveil and manage hidden watermarks with {{ProdFullName}}.",
-      "subtitle": "{{ProdFullName}}",
-      "action_title": "{{PackageStoreName}} package for free"
-    },
-    "about": {
-      "title": "About {{ProdFullName}}",
-      "content": "{{ProdFullName}} provides a comprehensive solution for managing watermarks using {{EnvName}}. Easily generate, edit, find, and remove watermarks from various document formats such as PDF, Microsoft Word, Excel, and more. Integrate watermark search into your applications by {{ProdFullName}}."
-    },
-    "formats": {
-      "title": "Uncover Watermarks Across Supported Formats",
-      "description": "Effortlessly search for and identify watermarks in various supported file formats."
-    }
-  },
-  "ppt": {
-    "head": {
-      "title": "Explore {{FileFormatUp}} Presentations Hidden Watermarks",
-      "description": "Explore hidden watermarks within documents effortlessly with {{ProdFullName}}."
-    },
-    "header": {
-      "title": "Effortlessly Explore {{FileFormatUp}} Presentations Hidden Watermarks",
-      "description": "Quickly explore and manage hidden watermarks with {{ProdFullName}}.",
-      "subtitle": "{{ProdFullName}}",
-      "action_title": "Download at {{PackageStoreName}} for free"
-    },
-    "about": {
-      "title": "{{ProdFullName}} Base Information",
-      "content": "{{ProdFullName}} offers a robust solution for managing watermarks using {{EnvName}}. Easily generate, edit, find, and remove watermarks from various document formats such as PDF, Microsoft Word, Excel, and more. {{ProdFullName}} provides watermark management for your applications."
-    },
-    "formats": {
-      "title": "Explore Watermarks Across Multiple Formats",
-      "description": "Effortlessly identify and manage watermarks across a wide range of supported file formats."
-    }
-  },
-  "pptx": {
-    "head": {
-      "title": "Reveal Concealed Watermarks in {{FileFormatUp}} Presentations",
-      "description": "Reveal concealed watermarks within documents effortlessly with {{ProdFullName}}."
-    },
-    "header": {
-      "title": "Reveal Hidden Watermarks Instantly in {{FileFormatUp}} Presentations",
-      "description": "Quickly reveal and manage concealed watermarks with {{ProdFullName}}.",
-      "subtitle": "{{ProdFullName}}",
-      "action_title": "Get from {{PackageStoreName}}"
-    },
-    "about": {
-      "title": "{{ProdFullName}}",
-      "content": "{{ProdFullName}} provides a comprehensive solution for managing watermarks using {{EnvName}}. Easily generate, edit, find, and remove watermarks from various document formats such as PDF, Microsoft Word, Excel, and more. Involve watermark search into your applications using {{ProdFullName}}."
-    },
-    "formats": {
-      "title": "Reveal Watermarks Across Supported Formats",
-      "description": "Effortlessly search for and identify watermarks in various supported file formats."
-    }
-  },
-  "rtf": {
-    "head": {
-      "title": "Detect Hidden Watermarks in {{FileFormatUp}} Documents",
-      "description": "Detect hidden watermarks within documents effortlessly with {{ProdFullName}}."
-    },
-    "header": {
-      "title": "Detect and Manage Hidden Watermarks in {{FileFormatUp}} Documents",
-      "description": "Quickly detect and manage hidden watermarks with {{ProdFullName}}.",
-      "subtitle": "{{ProdFullName}}",
-      "action_title": "Download {{PackageStoreName}} package"
-    },
-    "about": {
-      "title": "{{ProdFullName}} Information",
-      "content": "{{ProdFullName}} offers a robust solution for managing watermarks using {{EnvName}}. Easily generate, edit, find, and remove watermarks from various document formats such as PDF, Microsoft Word, Excel, and more. Integrate watermark management into your applications via {{ProdFullName}} easily."
-    },
-    "formats": {
-      "title": "Detect Watermarks Across Multiple Formats",
-      "description": "Effortlessly identify and manage watermarks across a wide range of supported file formats."
-    }
-  },
-  "xls": {
-    "head": {
-      "title": "Spot Hidden {{FileFormatUp}} Spreadsheets Watermarks",
-      "description": "Spot hidden watermarks within documents effortlessly with {{ProdFullName}}."
-    },
-    "header": {
-      "title": "Spot and Manage Hidden Watermarks in {{FileFormatUp}} Spreadsheets",
-      "description": "Quickly spot and manage hidden watermarks with {{ProdFullName}}.",
-      "subtitle": "{{ProdFullName}}",
-      "action_title": "Free {{PackageStoreName}} Download"
-    },
-    "about": {
-      "title": "Get info {{ProdFullName}}",
-      "content": "{{ProdFullName}} provides a comprehensive solution for managing watermarks using {{EnvName}}. Easily generate, edit, find, and remove watermarks from various document formats such as PDF, Microsoft Word, Excel, and more. Add watermark search abilities into your applications using {{ProdFullName}}."
-    },
-    "formats": {
-      "title": "Spot Watermarks Across Supported Formats",
-      "description": "Effortlessly search for and identify watermarks in various supported file formats."
-    }
-  },
-  "xlsx": {
-    "head": {
-      "title": "Unmask Hidden {{FileFormatUp}} Spreadsheets Watermarks",
-      "description": "Unmask hidden watermarks within documents effortlessly with {{ProdFullName}}."
-    },
-    "header": {
-      "title": "Unmask Hidden {{FileFormatUp}} Spreadsheets Watermarks Instantly",
-      "description": "Quickly unmask and manage hidden watermarks with {{ProdFullName}}.",
-      "subtitle": "{{ProdFullName}}",
-      "action_title": "{{PackageStoreName}} package for free"
-    },
-    "about": {
-      "title": "Learn more about {{ProdFullName}}",
-      "content": "{{ProdFullName}} provides a comprehensive solution for managing watermarks using {{EnvName}}. Easily generate, edit, find, and remove watermarks from various document formats such as PDF, Microsoft Word, Excel, and more. Use {{ProdFullName}} to integrate watermark management into your applications."
-    },
-    "formats": {
-      "title": "Unmask Watermarks Across Supported Formats",
-      "description": "Effortlessly search for and identify watermarks in various supported file formats."
+      "title": "Read E-Book Metadata in {{ProgLang}}",
+      "content": "This code example demonstrates how to access metadata properties specific to EPUB e-books",
+      "comment_1": "Load the EPUB file into the {{TextMetadata}} object",
+      "comment_2": "Retrieve all the built-in metadata",
+      "comment_3": "Use the retrieved data for your application's needs"
     }
   }
 }
