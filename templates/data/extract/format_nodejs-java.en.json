@@ -1,61 +1,58 @@
 {
+  "head": {
+    "title": "Read Metadata from {{FileFormatUp}} Files in {{EnvName}} Apps",
+    "description": "Easily access and extract metadata from {{FileFormatUp}} files across {{EnvName}}. Works with common formats like XMP, EXIF, IPTC, ID3."
+  },
+  "header": {
+    "title": "Extract Metadata from {{FileFormatUp}} Files",
+    "description": "Extract metadata from a wide range of documents, images, audio & video formats using {{ProdFullName}}."
+  },
+  "about": {
+    "title": "What is {{ProdFullName}} API?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) lets you easily view, edit, add, remove, find, and manage metadata from images and documents. No external software needed! Extract details from various formats like PDFs, Word documents, Excel sheets, and more. Plus, it offers advanced features for working with metadata."
+  },
+  "formats": {
+    "title": "Reading Details from Other File Types",
+    "description": "Extract metadata from various documents and images in {{EnvName}}. This API supports popular formats like..."
+  },
   "examples": {
-    "comment_1": "Get image watermarks placed in {{FileFormatUp}}",
-    "comment_2": "Create {{TextWatermarker}} object with source path",
-    "comment_3": "Get watermarks by similar image hash",
-    "comment_4": "Process watermarks as you wish"
+    "comment_1": "Extract all details from a {{FileFormatUp}} file",
+    "comment_2": "Compose {{TextMetadata}} passing {{FileFormatUp}} to constructor",
+    "comment_3": "Extract all details from a file",
+    "comment_4": "Use the extracted metadata for your application"
   },
   "steps": {
-    "title": "Get Watermarks from {{FileformatCap}} Files Using {{ProdShortName}}",
+    "title": "How to Extract Metadata from {{FileFormatUp}} Files in {{EnvName}} with {{ProdShortName}}",
     "content": {
-      "title": "**[{{ProdFullName}}]({{ProductUrl}})** offers a comprehensive solution for getting watermarks placed in popular business document formats. By integrating our library into your {{EnvName}} applications, you can equip them with powerful watermark searching capabilities.",
-      "step_1": "To access the functionalities provided by {{ProdShortName}}, instantiate the {{TextWatermarkerBold}} class and provide the {{FileformatCap}} file path. Also you can use file saved as byte stream. This action essentially loads the target document for comprehensive watermark analysis.",
-      "step_2": "To achieve targeted watermark identification, create the {{TextSearchCriteriaBold}} object. You can specify an image for locating similar image watermarks. Alternatively, for textual watermarks, define the text content, font properties, color attributes, and other relevant parameters to refine the search criteria and achieve more precise results.",
-      "step_3": "Call the {{TextSearchBold}} method (or a similar naming convention) of the {{TextWatermarkerBold}} object to start the watermark getting process within the loaded document. This function returns a collection of objects representing potential watermarks, facilitating further processing based on your specific requirements.",
-      "step_4": "The result collection of watermarks allows you to control over the watermarks identified within the document. You can remove unwanted watermarks or dynamically modify their properties, such as adjusting their size, position, or text content, to suit your needs."
+      "title": "Easily extract metadata from {{FileFormatUp}} files within your {{EnvName}} applications using [{{ProdShortName}}]({{ProductUrl}}). Here's how:",
+      "step_1": "Load the {{FileFormatUp}} file you want to extract metadata from.",
+      "step_2": "Use a filter to specify which details you want to extract.",
+      "step_3": "Start the extraction process using the {{TextFindProperties}}.",
+      "step_4": "Access the extracted details for your application's needs."
     }
   },
   "more_features": {
-    "title": "Leverage Node.js for Watermark Searching with {{ProdShortName}}",
-    "description": "Implement dynamic and efficient watermark search functionalities in your Node.js applications using {{ProdShortName}} within the {{EnvName}} platform.",
-    "image_description": "Node.js Watermark Search",
+    "title": "Find Hidden Metadata in Business Files with {{ProdShortName}}",
+    "description": "Easily search for and manage hidden details (metadata) in sensitive documents with {{EnvName}} applications using the {{ProdShortName}} library.",
+    "image_description": "Search Metadata in {{EnvName}} Files",
     "feature_1": {
-      "title": "Node.js API for Flexible Watermark Search",
-      "content": "Harness the flexibility of Node.js with {{ProdShortName}} to search for watermarks across multiple document formats. Easily configure searches to match specific requirements like size, type, or content."
+      "title": "Powerful Metadata Search for {{EnvName}}",
+      "content": "Boost your document processing in {{EnvName}} with {{ProdShortName}}. Find hidden details quickly and easily using our search tools."
     },
     "feature_2": {
-      "title": "Enhanced Watermark Identification with Node.js",
-      "content": "Improve your document processing by identifying watermarks accurately using Node.js. Utilize {{ProdShortName}}'s API to detect watermarks even within complex document structures."
+      "title": "Precise Metadata Filtering",
+      "content": "Target specific data you need. Search by text, date, or use special patterns to find exactly what you're looking for."
     },
     "feature_3": {
-      "title": "Scalable Watermark Search Solutions",
-      "content": "Scale your document security solutions with Node.js. {{ProdShortName}} allows for efficient processing of large document batches, making it ideal for enterprise-level applications."
+      "title": "Efficient Metadata Management",
+      "content": "Use {{ProdShortName}} to manage the details (metadata) you find in {{EnvName}} files. Add, update, or remove details as needed, all within supported file formats."
     },
     "code_1": {
-      "title": "Node.js Example: Search and Retrieve Watermarks",
-      "content": "This Node.js example showcases how to use {{ProdShortName}} for searching and retrieving watermarks, demonstrating efficient and scalable search operations.",
-      "comment_1": "Set up the Node.js environment and load the necessary documents",
-      "comment_2": "Configure your search to identify watermarks based on varied criteria",
-      "comment_3": "Execute the watermark search and collect data on identified watermarks",
-      "comment_4": "Process the results to modify or remove watermarks as required by business needs"
-    },
-    "head": {
-      "title": "Retrieve {{FileFormatUp}} Documents Watermarks Effortlessly",
-      "description": "Effortlessly retrieve watermarks from documents with {{ProdShortName}}."
-    },
-    "header": {
-      "title": "Get Watermark from {{FileFormatUp}} Documents",
-      "description": "Retrieve watermarks effortlessly using {{ProdFullName}}.",
-      "subtitle": "{{ProdFullName}}",
-      "action_title": "Download at {{PackageStoreName}} for free"
-    },
-    "about": {
-      "title": "Learn more about {{ProdFullName}}",
-      "content": "Effortlessly manage watermarks across {{EnvName}} with the powerful capabilities of {{ProdFullName}}. Simplify watermark operations such as generate, update, get, and delete across various file formats."
-    },
-    "formats": {
-      "title": "Simplify Watermark Retrieval",
-      "description": "Simplify watermark retrieval across different file formats with {{ProdFullName}}."
+      "title": "Read E-Book Details ({{EnvName}} Example)",
+      "content": "This code example shows how to access details specific to EPUB e-books.",
+      "comment_1": "Load the EPUB file into the {{TextMetadata}} object.",
+      "comment_2": "Retrieve all the built-in details from the EPUB file.",
+      "comment_3": "Use the retrieved data for your application's needs."
     }
   }
 }

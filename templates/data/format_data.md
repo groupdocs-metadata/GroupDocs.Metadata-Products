@@ -26,6 +26,9 @@
 <% set "TextUpdateProperties" (dict "products.textUpdateProperties") %>
 <% set "TextRemoveProperties" (dict "products.textRemoveProperties") %>
 <% set "TextMetadataRemoveProperties" (dict "products.textMetadataRemoveProperties") %>
+<% set "TextFindProperties" (dict "products.textFindProperties") %>
+<% set "TextLiveDemos" (dict "products.textLiveDemos") %>
+<% set "LinkLiveDemos" (dict "products.linkLiveDemos") %>
 
 
 

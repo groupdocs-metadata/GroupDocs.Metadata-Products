@@ -33,9 +33,9 @@ header_actions:
 about:
     enable: true
     title: "<% (dict "about.title") %>"
-    link: "/watermark/<% get "ProdCode" %>/"
+    link: "/metadata/<% get "ProdCode" %>/"
     link_title: "<% "{common-content.texts.learn_more}" %>"
-    picture: "about_watermark.svg" # 480 X 400
+    picture: "about_metadata.svg" # 480 X 400
     content: |
        <% (dict "about.content") %>
 
@@ -55,7 +55,7 @@ steps:
       platform: "net"
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       install:
-        command: "npm i @groupdocs/groupdocs.watermark"
+        command: "npm i @groupdocs/groupdocs.metadata"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -72,16 +72,19 @@ steps:
         // <% "{examples.comment_1}" %>
 
         // <% "{examples.comment_2}" %>
-        const watermarker = new groupdocs.watermark.Watermarker("input.<% get "fileformat" %>");
-        
+        const metadata = new groupdocs.metadata.Metadata('input.<% get "fileformat" %>');
+
         // <% "{examples.comment_3}" %>
-        const imageSearchCriteria = 
-            new groupdocs.watermark.ImageDctHashSearchCriteria("watermark.jpg");
-        imageSearchCriteria.setMaxDifference(0.9);
-        const possibleWatermarks = watermarker.search(imageSearchCriteria);
+        var searchSpecification = new groupdocs.metadata.
+            FallsIntoCategorySpecification(groupdocs.metadata.Tags.getContent());
+
+        var properties = metadata.findProperties(searchSpecification);
 
         // <% "{examples.comment_4}" %>
-        console.log(`Found ${possibleWatermarks.getCount()} possible watermark(s).`);
+        for (var i =0; i< properties.getCount(); i++) {
+            console.log('Property name: ${properties.get_Item(i).getName()}, 
+                         Property value: ${properties.get_Item(i).getValue()}');
+        }
         
         ```            
 
@@ -90,7 +93,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/watermark/features_search.webp" # 500x500 px
+  image: "/img/metadata/features_search.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -113,37 +116,17 @@ more_features:
         {{< landing/code title="TypeScript">}}
         ```javascript {style=abap}
         
-            const groupdocsWatermark = require('@groupdocs/groupdocs.watermark')
+            //  <% "{more_features.code_1.comment_1}" %>
+            const metadata = new groupdocs.metadata.Metadata('input.epub');
 
-            const files = ["source.docx", "source.xlsx", "source.pptx", "source.vsdx"];
-            for (const file of files) {
-                //  <% "{more_features.code_1.comment_1}" %>
-                const settings = new groupdocsWatermark.WatermarkerSettings();
-                settings.setSearchableObjects(new groupdocsWatermark.SearchableObjects());
-                settings.getSearchableObjects().setWordProcessingSearchableObjects(
-                    groupdocsWatermark.WordProcessingSearchableObjects.Hyperlinks | 
-                    groupdocsWatermark.WordProcessingSearchableObjects.Text
-                );
-                settings.getSearchableObjects().setSpreadsheetSearchableObjects(
-                    groupdocsWatermark.SpreadsheetSearchableObjects.HeadersFooters
-                );
-                settings.getSearchableObjects().setPresentationSearchableObjects(
-                    groupdocsWatermark.PresentationSearchableObjects.SlidesBackgrounds |
-                    groupdocsWatermark.PresentationSearchableObjects.Shapes
-                );
-                settings.getSearchableObjects().setDiagramSearchableObjects(groupdocsWatermark.DiagramSearchableObjects.None);
-                settings.getSearchableObjects().setPdfSearchableObjects(groupdocsWatermark.PdfSearchableObjects.All);
+            //  <% "{more_features.code_1.comment_2}" %>
+            var root = metadata.getRootPackageGeneric();
 
-                //  <% "{more_features.code_1.comment_2}" %>
-                const watermarker = new groupdocsWatermark.Watermarker(file, settings);
-
-                //  <% "{more_features.code_1.comment_3}" %>
-                const watermarks = watermarker.search();
-
-                //  <% "{more_features.code_1.comment_4}" %>
-                console.log(`In ${documentPath} found ${watermarks.getCount()} possible watermark(s).`);
-                watermarker.close();
-            }
+            //  <% "{more_features.code_1.comment_3}" %>
+            console.log(root.getEpubPackage().getVersion());
+            console.log(root.getEpubPackage().getUniqueIdentifier());
+            console.log(root.getEpubPackage().getImageCover() != null 
+                ? root.getEpubPackage().getImageCover().length : 0);
 
         ```
         {{< /landing/code >}}

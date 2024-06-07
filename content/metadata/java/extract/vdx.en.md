@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-06T19:17:23
+date:  2024-06-07T15:08:40
 draft: false
 lang: en
 format: Vdx
@@ -15,42 +15,42 @@ platform: "Java"
 platform_tag: "java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Read & Extract Metadata of VDX Files in Java Applications"
+head_description: "Cross platform Java metadata management API to read and extract metadata information of VDX files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Extract Metadata From VDX File In Java" 
+description: "Read & Extract metadata information from a wide range of documents, images, audio & video formats using GroupDocs.Metadata for Java"
+subtitle: "GroupDocs.Metadata for Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Download Free Trial"
       link: "https://releases.groupdocs.com/metadata/java/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
-    link: "/watermark/java/"
+    title: "About GroupDocs.Metadata for Java API"
+    link: "/metadata/java/"
     link_title: "Learn more"
-    picture: "about_watermark.svg" # 480 X 400
+    picture: "about_metadata.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Metadata for Java](/metadata/java/) offers an advanced set of metadata management and manipulation features, allowing developers to easily read, edit, remove, search, compare, replace and export metadata information from images and document formats without using any external software. Extract metadata details from PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats, and perform supported metadata operations with true flexibility.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Vdx Watermarks Search via Java"
+    title: "Steps for VDX Metadata Extraction in Java"
     content: |
-      **[GroupDocs.Metadata](https://products.groupdocs.com/metadata/java/)** simplifies the process of locating watermarks within business documents. Install our package into your Java applications to take advantage of its benefits.
+      [GroupDocs.Metadata](https://products.groupdocs.com/metadata/java/) makes it easy for Java developers to extract to read and extract metadata information from VDX files from within their applications by implementing a few easy steps.
       
-      1. To utilize our library features, load the Vdx file into an instance of the {{TextWatermarkerBold}} class. You can provide a file path, file stream, or byte stream.
-      2. To narrow down the list of potential watermarks, utilize the {{TextSearchCriteriaBold}} object. For example, provide an image to search for similar image watermarks. If searching for textual watermarks, provide text, font, color, and other relevant options.
-      3. Retrieve watermarks placed within the document using the {{TextSearchBold}} method of the {{TextWatermarkerBold}} object. You will receive a collection of objects representing potential watermarks for further processing.
-      4. Finally, you have the freedom to manipulate the search results as needed. You can delete found watermarks or edit their properties, such as changing size or text.
+      1. Load the VDX with an instance of Java class.
+      2. Make up a predicate to examine all metadata properties.
+      3. Pass the predicate to the FindProperties method.
+      4. Iterate through the found properties.
    
     code:
       platform: "net"
@@ -60,7 +60,7 @@ steps:
           <dependencies>
             <dependency>
               <groupId>com.groupdocs</groupId>
-              <artifactId>groupdocs-watermark</artifactId>
+              <artifactId>groupdocs-metadata</artifactId>
               <version>{0}</version>
             </dependency>
           </dependencies>
@@ -84,62 +84,67 @@ steps:
           
       content: |
         ```java {style=abap}
-        // Search image watermarks in VDX document
+        // Search image metadata in VDX document
 
-        // Compose {{TextWatermarker}} passing VDX document
-        Watermarker watermarker = new Watermarker("input.vdx");
-        
-        // Search watermarks by image hash
-        ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria("watermark.jpeg");
-        imageSearchCriteria.setMaxDifference(0.9);
-        PossibleWatermarkCollection possibleWatermarks = watermarker.search(imageSearchCriteria);
+        // Compose Metadata passing VDX to constructor
+        try (Metadata metadata = new Metadata("input.vdx"))
+        {
+            // Fetch all metadata properties that fall into a particular category
+            IReadOnlyList properties = metadata.findProperties(
+                new FallsIntoCategorySpecification(Tags.getContent()));
 
-        // Process found watermarks
-        System.out.println("Found " + possibleWatermarks.getCount() + " possible watermark(s).");
+            // Process found metadata entries
+            System.out.println("The metadata properties describing some characteristics of 
+                the file content: title, keywords, language, etc.");
+            for (MetadataProperty property : properties) 
+            {
+                System.out.println(String.format("Property name: %s, Property value: %s", 
+                    property.getName(), property.getValue()));
+            }
+        }
         
         ```          
         
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Optimize Watermark Search in Documents with GroupDocs.Metadata API"
-  description: "Master the art of watermark search in any document using Java with the powerful GroupDocs.Metadata API in the Java environment."
-  image: "/img/watermark/features_search.webp" # 500x500 px
-  image_description: "Java Watermark Search"
+  title: "Metadata Search in Business Files with GroupDocs.Metadata"
+  description: "Control hidden data in sensitive files and documents using Java applications powered by GroupDocs.Metadata library."
+  image: "/img/metadata/features_search.webp" # 500x500 px
+  image_description: "Java Metadata Search"
   features:
     # feature loop
-    - title: "Java Tools for Robust Watermark Search"
-      content: "Enhance your document processing capabilities in Java with GroupDocs.Metadata. Our API provides extensive tools to search and identify watermarks based on multiple parameters."
+    - title: "Java Tools for Detailed Metadata Search"
+      content: "Enhance your document processing capabilities in Java with GroupDocs.Metadata. Our software provides effective tools to search and process hidden metadata."
 
     # feature loop
-    - title: "Pinpoint Watermark Retrieval with Java"
-      content: "Target specific watermarks with precision in Java. Configure your search to filter by characteristics like size, date, and content, ensuring you find exactly what you need."
+    - title: "Metadata Retrieval Customization"
+      content: "Target specific metadata with precision. Configure your search to filter by many parameters like text, date, regular expressions, etc., ensuring you get exactly what you need."
 
     # feature loop
-    - title: "Comprehensive Watermark Analysis"
-      content: "Leverage Java to conduct thorough analyses of found watermarks. Use GroupDocs.Metadata to assess and manage watermarks effectively, enhancing security and compliance measures in your documents."
+    - title: "Efficient Metadata Processing"
+      content: "Leverage Java to process values of found metadata entries. Use GroupDocs.Metadata to manipulate metadata effectively. You are free to add, update or clear any metadata in supported formats."
       
   code_samples:
     # code sample loop
-    - title: "Java Example: Dynamic Watermark Search"
+    - title: "Java Example: Electronic Book Metadata"
       content: |
-        This example demonstrates the use of Java with GroupDocs.Metadata to dynamically search for watermarks in documents, illustrating how to handle search results programmatically.
+        This code sample shows how to read EPUB format-specific metadata properties
         {{< landing/code title="Java">}}
         ```java {style=abap}
         
-        //  Initialize Java environment and prepare document loading
-        PdfLoadOptions loadOptions = new PdfLoadOptions();
-        Watermarker watermarker = new Watermarker("source.pdf", loadOptions);
+        //  Pass EPUB electronic book to Metadata object
+        try (Metadata metadata = new Metadata("input.epub")) {
 
-        //  Configure search filters based on dynamic user-defined criteria
-        watermarker.getSearchableObjects().setPdfSearchableObjects(PdfSearchableObjects.AttachedImages);
+            //  Get all built-in metadata
+            EpubRootPackage root = metadata.getRootPackageGeneric();
 
-        //  Execute the watermark search using the Java API
-        WatermarkableImageCollection possibleWatermarks = watermarker.getImages();
-
-        //  Handle and process the search outcomes, preparing for further actions or reporting
-        System.out.println("Found " + possibleWatermarks.getCount() + " image(s).");
-        watermarker.close();
+            //  Process retrieved data
+            System.out.println(root.getEpubPackage().getVersion());
+            System.out.println(root.getEpubPackage().getUniqueIdentifier());
+            System.out.println(root.getEpubPackage().getImageCover() != null ? 
+                root.getEpubPackage().getImageCover().length : 0);
+        }
 
         ```
         {{< /landing/code >}}
@@ -165,9 +170,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: ""
+    title: "Reading & Extracting Other File Formats"
     exclude: "VDX"
-    description: ""
+    description: "Multi format documents and images metadata extraction API for Java. Retrieve metadata of some of the popular file formats as stated below."
     items: 
         # format loop 1
         - name: "Add Metadata to AVI"

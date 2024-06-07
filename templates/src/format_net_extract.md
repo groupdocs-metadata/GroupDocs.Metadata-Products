@@ -33,9 +33,9 @@ header_actions:
 about:
     enable: true
     title: "<% (dict "about.title") %>"
-    link: "/watermark/<% get "ProdCode" %>/"
+    link: "/metadata/<% get "ProdCode" %>/"
     link_title: "<% "{common-content.texts.learn_more}" %>"
-    picture: "about_watermark.svg" # 480 X 400
+    picture: "about_metadata.svg" # 480 X 400
     content: |
        <% (dict "about.content") %>
 
@@ -56,7 +56,7 @@ steps:
       copy_title: "<% "{common-content.format-code.copy_title}" %>"
       install:
         command: |
-        command: "dotnet add package GroupDocs.Watermark"
+        command: "dotnet add package GroupDocs.Metadata"
         copy_tip: "<% "{common-content.format-code.copy_tip}" %>"
         copy_done: "<% "{common-content.format-code.copy_done}" %>"
       links:
@@ -72,15 +72,40 @@ steps:
         // <% "{examples.comment_1}" %>
 
         // <% "{examples.comment_2}" %>
-        using (Watermarker watermarker = new Watermarker("input.<% get "fileformat" %>"))
+        using (var metadata = new GroupDocs.Metadata.Metadata("input.<% get "fileformat" %>"))
         {
             // <% "{examples.comment_3}" %>
-            ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria("watermark.jpeg");
-            imageSearchCriteria.MaxDifference = 0.9;
-            PossibleWatermarkCollection possibleWatermarks = watermarker.Search(imageSearchCriteria);
-
+            var properties = metadata.FindProperties(
+              p => p.Tags.Any(t => t.Category == GroupDocs.Metadata.Tagging.Tags.Content));
             // <% "{examples.comment_4}" %>
-            Console.WriteLine("Found {0} possible watermark(s).", possibleWatermarks.Count);
+            foreach (var property in properties)
+            {
+                Console.WriteLine("{0} = {1}", property.Name, property.Value);
+            }
+
+            // <% "{examples.comment_5}" %>
+            var year = DateTime.Today.Year;
+            properties = metadata.FindProperties(
+              p => p.Value.Type == GroupDocs.Metadata.Common.MetadataPropertyType.DateTime && 
+              p.Value.ToStruct(DateTime.MinValue).Year == year);
+
+            // <% "{examples.comment_6}" %>
+            foreach (var property in properties)
+            {
+                Console.WriteLine("{0} = {1}", property.Name, property.Value);
+            }
+
+            // <% "{examples.comment_7}" %>
+            const string pattern = "^author|company|(.+date.*)$";
+            var regex = new System.Text.RegularExpressions.Regex(pattern, 
+              System.Text.RegularExpressions.RegexOptions.IgnoreCase);
+            properties = metadata.FindProperties(p => regex.IsMatch(p.Name));
+
+            // <% "{examples.comment_8}" %>
+            foreach (var property in properties)
+            {
+                Console.WriteLine("{0} = {1}", property.Name, property.Value);
+            }
         }
         
         ```  
@@ -90,7 +115,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/watermark/features_search.webp" # 500x500 px
+  image: "/img/metadata/features_search.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -114,21 +139,18 @@ more_features:
         ```csharp {style=abap}
         
             //  <% "{more_features.code_1.comment_1}" %>
-            var loadOptions = new SpreadsheetLoadOptions();
-            using (Watermarker watermarker = new Watermarker("source.xlsx", loadOptions))
+            using (Metadata metadata = new Metadata("input.epub"))
             {
                 //  <% "{more_features.code_1.comment_2}" %>
-                ImageSearchCriteria criteria = new ImageDctHashSearchCriteria("watermark.png");
-                PossibleWatermarkCollection possibleWatermarks = watermarker.Search(criteria);
+                var root = metadata.GetRootPackage<EpubRootPackage>();
 
                 //  <% "{more_features.code_1.comment_3}" %>
-                foreach (PossibleWatermark watermark in watermarks)
-                {
-                    //...
-                }
-
-                //  <% "{more_features.code_1.comment_4}" %>
-                watermarker.save("result.xlsx");
+                Console.WriteLine(root.EpubPackage.Version);
+                Console.WriteLine(root.EpubPackage.UniqueIdentifier);
+                Console.WriteLine(root.EpubPackage.ImageCover != null ? 
+                    root.EpubPackage.ImageCover.Length : 0);
+                Console.WriteLine(root.EpubPackage.Description);
+                Console.WriteLine(root.EpubPackage.Title);
             }
 
         ```

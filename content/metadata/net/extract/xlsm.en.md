@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-06T19:17:25
+date:  2024-06-07T15:08:42
 draft: false
 lang: en
 format: Xlsm
@@ -15,49 +15,49 @@ platform: ".NET"
 platform_tag: "net"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Read & Extract Metadata of XLSM Files in C# Applications"
+head_description: "Cross platform C# metadata management API to read and extract metadata information of XLSM files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
 
 ############################# Header ############################
-title: "" 
-description: ""
-subtitle: "" 
+title: "Extract Metadata From XLSM File In C#" 
+description: "Read & Extract metadata information from a wide range of documents, images, audio & video formats using GroupDocs.Metadata for .NET"
+subtitle: "GroupDocs.Metadata for .NET" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Download Free Trial"
       link: "https://releases.groupdocs.com/metadata/net/"
       
 ############################# About ############################
 about:
     enable: true
-    title: ""
-    link: "/watermark/net/"
+    title: "AboutGroupDocs.Metadata for .NET API"
+    link: "/metadata/net/"
     link_title: "Learn more"
-    picture: "about_watermark.svg" # 480 X 400
+    picture: "about_metadata.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Metadata for .NET](/metadata/net/) offers an advanced set of metadata management and manipulation features, allowing developers to easily read, edit, remove, search, compare, replace and export metadata information from images and document formats without using any external software. Extract metadata details from PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats, and perform supported metadata operations with true flexibility.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Efficiently Find Xlsm Watermarks with .NET"
+    title: "Steps for XLSM Metadata Extraction in .NET"
     content: |
-      **[GroupDocs.Metadata](https://products.groupdocs.com/metadata/net/)** offers a robust solution for programmatically finding watermarks within various business document formats. Integrate our package into your .NET applications to empower them with watermark finding capabilities.
+      [GroupDocs.Metadata](https://products.groupdocs.com/metadata/net/) makes it easy for .NET developers to extract to read and extract metadata information from XLSM files from within their applications by implementing a few easy steps.
       
-      1. To exploit the functionalities of our library, instantiate the {{TextWatermarkerBold}} class and provide the Xlsm file path, file stream, or byte stream as input. This action loads the document for watermark analysis.
-      2. For targeted watermark identification, leverage the {{TextSearchCriteriaBold}} object. Specify an image for locating similar image watermarks. Alternatively, for textual watermarks, define the text content, font properties, color attributes, and other pertinent parameters to refine the search criteria.
-      3. Employ the {{TextSearchBold}} method of the {{TextWatermarkerBold}} object to initiate the watermark detection process within the loaded document. This function returns a collection of objects representing potential watermarks, enabling further processing.
-      4. The retrieved collection of watermark objects grants you precise control. You can programmatically remove unwanted watermarks or dynamically modify their properties, such as adjusting their size or text content, to suit your specific requirements.
+      1. Load the XLSM with an instance of .NET class.
+      2. Make up a predicate to examine all metadata properties.
+      3. Pass the predicate to the FindProperties method.
+      4. Iterate through the found properties.
    
     code:
       platform: "net"
       copy_title: "Copy"
       install:
         command: |
-        command: "dotnet add package GroupDocs.Watermark"
+        command: "dotnet add package GroupDocs.Metadata"
         copy_tip: "click to copy"
         copy_done: "copied"
       links:
@@ -70,18 +70,43 @@ steps:
           
       content: |
         ```csharp {style=abap}
-        // Find image watermarks placed in XLSM
+        // Extract XLSM metadata properties by various criteria
 
-        // Construct {{TextWatermarker}} passing XLSM path
-        using (Watermarker watermarker = new Watermarker("input.xlsm"))
+        // Construct Metadata passing XLSM path
+        using (var metadata = new GroupDocs.Metadata.Metadata("input.xlsm"))
         {
-            // Find watermarks using search options
-            ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria("watermark.jpeg");
-            imageSearchCriteria.MaxDifference = 0.9;
-            PossibleWatermarkCollection possibleWatermarks = watermarker.Search(imageSearchCriteria);
+            // extract all metadata properties that fall into a particular category
+            var properties = metadata.FindProperties(
+              p => p.Tags.Any(t => t.Category == GroupDocs.Metadata.Tagging.Tags.Content));
+            // iterate over all properties and display
+            foreach (var property in properties)
+            {
+                Console.WriteLine("{0} = {1}", property.Name, property.Value);
+            }
 
-            // Process watermarks info
-            Console.WriteLine("Found {0} possible watermark(s).", possibleWatermarks.Count);
+            // extract all properties having a specific type and value
+            var year = DateTime.Today.Year;
+            properties = metadata.FindProperties(
+              p => p.Value.Type == GroupDocs.Metadata.Common.MetadataPropertyType.DateTime && 
+              p.Value.ToStruct(DateTime.MinValue).Year == year);
+
+            // display all datetime properties with the year value equal to the current year
+            foreach (var property in properties)
+            {
+                Console.WriteLine("{0} = {1}", property.Name, property.Value);
+            }
+
+            // extract all properties having names matching the specified regex
+            const string pattern = "^author|company|(.+date.*)$";
+            var regex = new System.Text.RegularExpressions.Regex(pattern, 
+              System.Text.RegularExpressions.RegexOptions.IgnoreCase);
+            properties = metadata.FindProperties(p => regex.IsMatch(p.Name));
+
+            // display properties whose names match the following pattern
+            foreach (var property in properties)
+            {
+                Console.WriteLine("{0} = {1}", property.Name, property.Value);
+            }
         }
         
         ```  
@@ -89,47 +114,44 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Advanced Watermark Search Techniques Using C# with GroupDocs.Metadata"
-  description: "Delve into powerful watermark searching capabilities using the GroupDocs.Metadata C# API, tailored for developers within the .NET platform."
-  image: "/img/watermark/features_search.webp" # 500x500 px
-  image_description: "C# Watermark Search"
+  title: "Search Files Metadata with GroupDocs.Metadata"
+  description: "Securely manage hidden metadata within sensitive documents using .NET applications powered by the GroupDocs.Metadata library."
+  image: "/img/metadata/features_search.webp" # 500x500 px
+  image_description: "Search for Metadata in .NET Files"
   features:
     # feature loop
-    - title: "Streamlined Watermark Detection in C#"
-      content: "Utilize GroupDocs.Metadata to implement streamlined watermark detection within your C# applications. Benefit from advanced search functions to locate watermarks quickly and accurately."
+    - title: ".NET Tools for Comprehensive Metadata Search"
+      content: "Streamline your document processing in .NET with GroupDocs.Metadata. Our software offers powerful tools to search for and manage hidden metadata efficiently."
 
     # feature loop
-    - title: "Precise Watermark Search with C#"
-      content: "Enhance your document security protocols by precisely searching for watermarks in C#. Configure GroupDocs.Metadata to find watermarks based on specific characteristics such as size, color, and placement."
+    - title: "Precise Metadata Targeting"
+      content: "Target specific metadata with pinpoint accuracy. Configure your search with various filters like text, date, or regular expressions to find exactly the metadata you need."
 
     # feature loop
-    - title: "C# Integration for Effective Watermark Management"
-      content: "Integrate GroupDocs.Metadata into your C# projects to effectively manage document watermarks. Our API provides powerful tools to search, analyze, and report on watermark usage, ensuring compliance and brand consistency."
+    - title: "Effortless Metadata Management"
+      content: "Leverage .NET to process the values of discovered metadata entries. GroupDocs.Metadata empowers you to add, update, or remove metadata effectively within supported file formats."
       
   code_samples:
     # code sample loop
-    - title: "C# Example: Comprehensive Watermark Search"
+    - title: "Read E-Book Metadata in C#"
       content: |
-        Explore this detailed example of how to use C# with GroupDocs.Metadata for comprehensive watermark search capabilities, including handling multiple document types and complex search criteria.
+        This code example demonstrates how to access metadata properties specific to EPUB e-books
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
         
-            //  Initialize the C# application and prepare the document loading mechanism
-            var loadOptions = new SpreadsheetLoadOptions();
-            using (Watermarker watermarker = new Watermarker("source.xlsx", loadOptions))
+            //  Load the EPUB file into the Metadata object
+            using (Metadata metadata = new Metadata("input.epub"))
             {
-                //  Set search parameters to target specific watermark attributes
-                ImageSearchCriteria criteria = new ImageDctHashSearchCriteria("watermark.png");
-                PossibleWatermarkCollection possibleWatermarks = watermarker.Search(criteria);
+                //  Retrieve all the built-in metadata
+                var root = metadata.GetRootPackage<EpubRootPackage>();
 
-                //  Perform the search across documents and gather watermark details
-                foreach (PossibleWatermark watermark in watermarks)
-                {
-                    //...
-                }
-
-                //  Analyze and process watermark data for further administrative or compliance actions
-                watermarker.save("result.xlsx");
+                //  Use the retrieved data for your application's needs
+                Console.WriteLine(root.EpubPackage.Version);
+                Console.WriteLine(root.EpubPackage.UniqueIdentifier);
+                Console.WriteLine(root.EpubPackage.ImageCover != null ? 
+                    root.EpubPackage.ImageCover.Length : 0);
+                Console.WriteLine(root.EpubPackage.Description);
+                Console.WriteLine(root.EpubPackage.Title);
             }
 
         ```
@@ -156,9 +178,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: ""
+    title: "Metadata Extraction Live Demos"
     exclude: "XLSM"
-    description: ""
+    description: "Retrieve metadata information of XLSM file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website. The live demo has the following benefits."
     items: 
         # format loop 1
         - name: "Add Metadata to AVI"

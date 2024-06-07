@@ -33,9 +33,9 @@ header_actions:
 about:
     enable: true
     title: "<% (dict "about.title") %>"
-    link: "/watermark/<% get "ProdCode" %>/"
+    link: "/metadata/<% get "ProdCode" %>/"
     link_title: "<% "{common-content.texts.learn_more}" %>"
-    picture: "about_watermark.svg" # 480 X 400
+    picture: "about_metadata.svg" # 480 X 400
     content: |
        <% (dict "about.content") %>
 
@@ -59,7 +59,7 @@ steps:
           <dependencies>
             <dependency>
               <groupId>com.groupdocs</groupId>
-              <artifactId>groupdocs-watermark</artifactId>
+              <artifactId>groupdocs-metadata</artifactId>
               <version>{0}</version>
             </dependency>
           </dependencies>
@@ -86,15 +86,21 @@ steps:
         // <% "{examples.comment_1}" %>
 
         // <% "{examples.comment_2}" %>
-        Watermarker watermarker = new Watermarker("input.<% get "fileformat" %>");
-        
-        // <% "{examples.comment_3}" %>
-        ImageSearchCriteria imageSearchCriteria = new ImageDctHashSearchCriteria("watermark.jpeg");
-        imageSearchCriteria.setMaxDifference(0.9);
-        PossibleWatermarkCollection possibleWatermarks = watermarker.search(imageSearchCriteria);
+        try (Metadata metadata = new Metadata("input.<% get "fileformat" %>"))
+        {
+            // <% "{examples.comment_3}" %>
+            IReadOnlyList properties = metadata.findProperties(
+                new FallsIntoCategorySpecification(Tags.getContent()));
 
-        // <% "{examples.comment_4}" %>
-        System.out.println("Found " + possibleWatermarks.getCount() + " possible watermark(s).");
+            // <% "{examples.comment_4}" %>
+            System.out.println("The metadata properties describing some characteristics of 
+                the file content: title, keywords, language, etc.");
+            for (MetadataProperty property : properties) 
+            {
+                System.out.println(String.format("Property name: %s, Property value: %s", 
+                    property.getName(), property.getValue()));
+            }
+        }
         
         ```          
         
@@ -103,7 +109,7 @@ more_features:
   enable: true
   title: "<% "{more_features.title}" %>"
   description: "<% "{more_features.description}" %>"
-  image: "/img/watermark/features_search.webp" # 500x500 px
+  image: "/img/metadata/features_search.webp" # 500x500 px
   image_description: "<% "{more_features.image_description}" %>"
   features:
     # feature loop
@@ -127,18 +133,17 @@ more_features:
         ```java {style=abap}
         
         //  <% "{more_features.code_1.comment_1}" %>
-        PdfLoadOptions loadOptions = new PdfLoadOptions();
-        Watermarker watermarker = new Watermarker("source.pdf", loadOptions);
+        try (Metadata metadata = new Metadata("input.epub")) {
 
-        //  <% "{more_features.code_1.comment_2}" %>
-        watermarker.getSearchableObjects().setPdfSearchableObjects(PdfSearchableObjects.AttachedImages);
+            //  <% "{more_features.code_1.comment_2}" %>
+            EpubRootPackage root = metadata.getRootPackageGeneric();
 
-        //  <% "{more_features.code_1.comment_3}" %>
-        WatermarkableImageCollection possibleWatermarks = watermarker.getImages();
-
-        //  <% "{more_features.code_1.comment_4}" %>
-        System.out.println("Found " + possibleWatermarks.getCount() + " image(s).");
-        watermarker.close();
+            //  <% "{more_features.code_1.comment_3}" %>
+            System.out.println(root.getEpubPackage().getVersion());
+            System.out.println(root.getEpubPackage().getUniqueIdentifier());
+            System.out.println(root.getEpubPackage().getImageCover() != null ? 
+                root.getEpubPackage().getImageCover().length : 0);
+        }
 
         ```
         {{< /landing/code >}}

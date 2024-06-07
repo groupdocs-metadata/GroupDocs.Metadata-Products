@@ -5,7 +5,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-06T19:17:27
+date:  2024-06-07T15:08:43
 draft: false
 lang: en
 format: Mkv
@@ -15,12 +15,12 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: ""
-head_description: ""
+head_title: "Read Metadata from MKV Files in Node.js via Java Apps"
+head_description: "Easily access and extract metadata from MKV files across Node.js via Java. Works with common formats like XMP, EXIF, IPTC, ID3."
 
 ############################# Header ############################
-title: "" 
-description: ""
+title: "Extract Metadata from MKV Files" 
+description: "Extract metadata from a wide range of documents, images, audio & video formats using GroupDocs.Metadata for Node.js via Java."
 subtitle: "" 
 
 header_actions:
@@ -33,30 +33,30 @@ header_actions:
 ############################# About ############################
 about:
     enable: true
-    title: ""
-    link: "/watermark/nodejs-java/"
+    title: "What is GroupDocs.Metadata for Node.js via Java API?"
+    link: "/metadata/nodejs-java/"
     link_title: "Learn more"
-    picture: "about_watermark.svg" # 480 X 400
+    picture: "about_metadata.svg" # 480 X 400
     content: |
-       
+       [GroupDocs.Metadata for Node.js via Java](/metadata/nodejs-java/) lets you easily view, edit, add, remove, find, and manage metadata from images and documents. No external software needed! Extract details from various formats like PDFs, Word documents, Excel sheets, and more. Plus, it offers advanced features for working with metadata.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Get Watermarks from Mkv Files Using GroupDocs.Metadata"
+    title: "How to Extract Metadata from MKV Files in Node.js via Java with GroupDocs.Metadata"
     content: |
-      **[GroupDocs.Metadata for Node.js via Java](https://products.groupdocs.com/metadata/nodejs-java/)** offers a comprehensive solution for getting watermarks placed in popular business document formats. By integrating our library into your Node.js via Java applications, you can equip them with powerful watermark searching capabilities.
+      Easily extract metadata from MKV files within your Node.js via Java applications using [GroupDocs.Metadata](https://products.groupdocs.com/metadata/nodejs-java/). Here's how:
       
-      1. To access the functionalities provided by GroupDocs.Metadata, instantiate the {{TextWatermarkerBold}} class and provide the Mkv file path. Also you can use file saved as byte stream. This action essentially loads the target document for comprehensive watermark analysis.
-      2. To achieve targeted watermark identification, create the {{TextSearchCriteriaBold}} object. You can specify an image for locating similar image watermarks. Alternatively, for textual watermarks, define the text content, font properties, color attributes, and other relevant parameters to refine the search criteria and achieve more precise results.
-      3. Call the {{TextSearchBold}} method (or a similar naming convention) of the {{TextWatermarkerBold}} object to start the watermark getting process within the loaded document. This function returns a collection of objects representing potential watermarks, facilitating further processing based on your specific requirements.
-      4. The result collection of watermarks allows you to control over the watermarks identified within the document. You can remove unwanted watermarks or dynamically modify their properties, such as adjusting their size, position, or text content, to suit your needs.
+      1. Load the MKV file you want to extract metadata from.
+      2. Use a filter to specify which details you want to extract.
+      3. Start the extraction process using the FindProperties.
+      4. Access the extracted details for your application's needs.
    
     code:
       platform: "net"
       copy_title: "Copy"
       install:
-        command: "npm i @groupdocs/groupdocs.watermark"
+        command: "npm i @groupdocs/groupdocs.metadata"
         copy_tip: "click to copy"
         copy_done: "copied"
       links:
@@ -70,81 +70,64 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        // Get image watermarks placed in MKV
+        // Extract all details from a MKV file
 
-        // Create {{TextWatermarker}} object with source path
-        const watermarker = new groupdocs.watermark.Watermarker("input.mkv");
-        
-        // Get watermarks by similar image hash
-        const imageSearchCriteria = 
-            new groupdocs.watermark.ImageDctHashSearchCriteria("watermark.jpg");
-        imageSearchCriteria.setMaxDifference(0.9);
-        const possibleWatermarks = watermarker.search(imageSearchCriteria);
+        // Compose Metadata passing MKV to constructor
+        const metadata = new groupdocs.metadata.Metadata('input.mkv');
 
-        // Process watermarks as you wish
-        console.log(`Found ${possibleWatermarks.getCount()} possible watermark(s).`);
+        // Extract all details from a file
+        var searchSpecification = new groupdocs.metadata.
+            FallsIntoCategorySpecification(groupdocs.metadata.Tags.getContent());
+
+        var properties = metadata.findProperties(searchSpecification);
+
+        // Use the extracted metadata for your application
+        for (var i =0; i< properties.getCount(); i++) {
+            console.log('Property name: ${properties.get_Item(i).getName()}, 
+                         Property value: ${properties.get_Item(i).getValue()}');
+        }
         
         ```            
 
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Leverage Node.js for Watermark Searching with GroupDocs.Metadata"
-  description: "Implement dynamic and efficient watermark search functionalities in your Node.js applications using GroupDocs.Metadata within the Node.js via Java platform."
-  image: "/img/watermark/features_search.webp" # 500x500 px
-  image_description: "Node.js Watermark Search"
+  title: "Find Hidden Metadata in Business Files with GroupDocs.Metadata"
+  description: "Easily search for and manage hidden details (metadata) in sensitive documents with Node.js via Java applications using the GroupDocs.Metadata library."
+  image: "/img/metadata/features_search.webp" # 500x500 px
+  image_description: "Search Metadata in Node.js via Java Files"
   features:
     # feature loop
-    - title: "Node.js API for Flexible Watermark Search"
-      content: "Harness the flexibility of Node.js with GroupDocs.Metadata to search for watermarks across multiple document formats. Easily configure searches to match specific requirements like size, type, or content."
+    - title: "Powerful Metadata Search for Node.js via Java"
+      content: "Boost your document processing in Node.js via Java with GroupDocs.Metadata. Find hidden details quickly and easily using our search tools."
 
     # feature loop
-    - title: "Enhanced Watermark Identification with Node.js"
-      content: "Improve your document processing by identifying watermarks accurately using Node.js. Utilize GroupDocs.Metadata's API to detect watermarks even within complex document structures."
+    - title: "Precise Metadata Filtering"
+      content: "Target specific data you need. Search by text, date, or use special patterns to find exactly what you're looking for."
 
     # feature loop
-    - title: "Scalable Watermark Search Solutions"
-      content: "Scale your document security solutions with Node.js. GroupDocs.Metadata allows for efficient processing of large document batches, making it ideal for enterprise-level applications."
+    - title: "Efficient Metadata Management"
+      content: "Use GroupDocs.Metadata to manage the details (metadata) you find in Node.js via Java files. Add, update, or remove details as needed, all within supported file formats."
       
   code_samples:
     # code sample loop
-    - title: "Node.js Example: Search and Retrieve Watermarks"
+    - title: "Read E-Book Details (Node.js via Java Example)"
       content: |
-        This Node.js example showcases how to use GroupDocs.Metadata for searching and retrieving watermarks, demonstrating efficient and scalable search operations.
+        This code example shows how to access details specific to EPUB e-books.
         {{< landing/code title="TypeScript">}}
         ```javascript {style=abap}
         
-            const groupdocsWatermark = require('@groupdocs/groupdocs.watermark')
+            //  Load the EPUB file into the Metadata object.
+            const metadata = new groupdocs.metadata.Metadata('input.epub');
 
-            const files = ["source.docx", "source.xlsx", "source.pptx", "source.vsdx"];
-            for (const file of files) {
-                //  Set up the Node.js environment and load the necessary documents
-                const settings = new groupdocsWatermark.WatermarkerSettings();
-                settings.setSearchableObjects(new groupdocsWatermark.SearchableObjects());
-                settings.getSearchableObjects().setWordProcessingSearchableObjects(
-                    groupdocsWatermark.WordProcessingSearchableObjects.Hyperlinks | 
-                    groupdocsWatermark.WordProcessingSearchableObjects.Text
-                );
-                settings.getSearchableObjects().setSpreadsheetSearchableObjects(
-                    groupdocsWatermark.SpreadsheetSearchableObjects.HeadersFooters
-                );
-                settings.getSearchableObjects().setPresentationSearchableObjects(
-                    groupdocsWatermark.PresentationSearchableObjects.SlidesBackgrounds |
-                    groupdocsWatermark.PresentationSearchableObjects.Shapes
-                );
-                settings.getSearchableObjects().setDiagramSearchableObjects(groupdocsWatermark.DiagramSearchableObjects.None);
-                settings.getSearchableObjects().setPdfSearchableObjects(groupdocsWatermark.PdfSearchableObjects.All);
+            //  Retrieve all the built-in details from the EPUB file.
+            var root = metadata.getRootPackageGeneric();
 
-                //  Configure your search to identify watermarks based on varied criteria
-                const watermarker = new groupdocsWatermark.Watermarker(file, settings);
-
-                //  Execute the watermark search and collect data on identified watermarks
-                const watermarks = watermarker.search();
-
-                //  Process the results to modify or remove watermarks as required by business needs
-                console.log(`In ${documentPath} found ${watermarks.getCount()} possible watermark(s).`);
-                watermarker.close();
-            }
+            //  Use the retrieved data for your application's needs.
+            console.log(root.getEpubPackage().getVersion());
+            console.log(root.getEpubPackage().getUniqueIdentifier());
+            console.log(root.getEpubPackage().getImageCover() != null 
+                ? root.getEpubPackage().getImageCover().length : 0);
 
         ```
         {{< /landing/code >}}
@@ -170,9 +153,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: ""
+    title: "Reading Details from Other File Types"
     exclude: "MKV"
-    description: ""
+    description: "Extract metadata from various documents and images in Node.js via Java. This API supports popular formats like..."
     items: 
         # format loop 1
         - name: "Add Metadata to AVI"
