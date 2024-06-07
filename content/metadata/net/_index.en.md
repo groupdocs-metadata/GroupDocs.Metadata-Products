@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-06-04T13:15:33
+date: 2024-06-07T16:45:45
 draft: false
 
 lang: en
@@ -159,7 +159,7 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Metadata features"
+  title: "GroupDocs.Metadata for .NET features"
   description: "Use Metadata to Protect PDF, Office, Images and other formats"
 
   items:
@@ -290,7 +290,7 @@ code_samples:
   description: "Some use cases of typical GroupDocs.Metadata for .NET operations"
   items:
     # code sample loop
-    - title: "Hidden metadata control"
+    - title: "Find hidden metadata"
       content: |
         To control inner document content you may find and process [document metadata](https://docs.groupdocs.com/metadata/net/find-metadata-properties/):
         {{< landing/code title="How to get specific document metadata">}}

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-06-04T13:15:33
+date: 2024-06-07T16:45:46
 draft: false
 
 lang: en
@@ -63,10 +63,10 @@ code:
     if (metadata.getFileFormat() != gMeta.FileFormat.Unknown) {
         // Analyze inner document metadata
         var info = metadata.getDocumentInfo();
-        console.log(`File format: 
-            ${info.getFileType().getFileFormat()}`);
-        console.log(`MIME Type: 
-            ${info.getFileType().getMimeType()}`);
+        console.log('File format: 
+            ${info.getFileType().getFileFormat()}');
+        console.log('MIME Type: 
+            ${info.getFileType().getMimeType()}');
     }
     ```
 
@@ -171,7 +171,7 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Metadata for Node.js via Java: Feature Set"
+  title: "GroupDocs.Metadata for Node.js via Java Features"
   description: "Empower robust document security through metadata processing."
 
   items:
@@ -348,7 +348,7 @@ code_samples:
         {{< landing/code title="How to add some missing metadata properties to a file regardless of its format.">}}
         ```javascript {style=abap}   
         // Load source document
-        var metadata = new groupdocs.metadata.Metadata("document.pdf");
+        var metadata = new groupdocs.metadata.Metadata("input.pdf");
         if (metadata.getFileFormat() != groupdocs.metadata.FileFormat.Unknown 
             && !metadata.getDocumentInfo().isEncrypted()) {
 
@@ -361,6 +361,8 @@ code_samples:
 
             // Save modified document to a specified path
             console.log("Affected properties: ${affected}");
+
+            metadata.save("output.pdf");
         }
 
         ```

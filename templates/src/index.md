@@ -167,16 +167,16 @@ code_samples:
 
                         using (Metadata metadata = new Metadata("source.docx"))
                         {
-                          // <% "{index-content.code_samples.sample_index.comment_2}" %>
-                          var affected = metadata.RemoveProperties(
-                              p => p.Tags.Contains(Tags.Person.Creator) ||
-                                   p.Tags.Contains(Tags.Person.Editor);
+                            // <% "{index-content.code_samples.sample_index.comment_2}" %>
+                            var affected = metadata.RemoveProperties(
+                                p => p.Tags.Contains(Tags.Person.Creator) ||
+                                    p.Tags.Contains(Tags.Person.Editor);
 
-                          // <% "{index-content.code_samples.sample_index.comment_3}" %>
-                          Console.WriteLine("Properties removed: {0}", affected);
+                            // <% "{index-content.code_samples.sample_index.comment_3}" %>
+                            Console.WriteLine("Properties removed: {0}", affected);
 
-                          // <% "{index-content.code_samples.sample_index.comment_4}" %>
-                          metadata.Save("result.docx");
+                            // <% "{index-content.code_samples.sample_index.comment_4}" %>
+                            metadata.Save("result.docx");
                         }                    
                     </code>
 
@@ -222,7 +222,7 @@ code_samples:
                         console.log('Properties removed: ${affected}');
 
                         // <% "{index-content.code_samples.sample_index.comment_4}" %>
-                        metadata.save(Constants.OutputDocx);                        
+                        metadata.save("result.docx");                        
 
                     </code>
 

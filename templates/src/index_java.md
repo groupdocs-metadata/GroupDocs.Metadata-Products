@@ -315,11 +315,12 @@ code_samples:
         <% "{index-content-java.code_samples_sample_1_content}" %>
         {{< landing/code title="<% "{index-content.code_samples.sample_1.code_title}" %>">}}
         ```java {style=abap}
+
         // <% "{index-content.code_samples.sample_1.comment_1}" %>
         try (Metadata metadata = new Metadata("source.pptx")){
+
             // <% "{index-content.code_samples.sample_1.comment_2}" %>
             // <% "{index-content.code_samples.sample_1.comment_3}" %>
-
             IReadOnlyList<MetadataProperty> properties = metadata.findProperties(
                 new ContainsTagSpecification(Tags.getPerson().getEditor()).
                 or(new ContainsTagSpecification(Tags.getTime().getModified())));

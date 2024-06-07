@@ -1,7 +1,7 @@
 {
   "index-content": {
     "head_title": ".NET, Java, Node.js APIs & Online Metadata Manipulation Apps by {{NameCompany}}",
-    "head_description": "Control PDF, images and documents metadata. {{ProdShortName}} for Microsoft Office, PDF, OpenDocument, Images and etc.",
+    "head_description": "Document Metadata APIs native to C# .NET & Java. Read, write, edit & compare meta information of all popular formats. Analyze & export metadata.",
     "title": "Document Metadata Management Solution",
     "description_0": "APIs and apps to read, edit, replace and remove metadata of documents, images and other file formats on popular platforms.",
     "description_1": "Add hidden metadata information to your business files and documents.",
@@ -285,7 +285,7 @@
     "platforms_description": "{{ProdFullName}} supports following Operating Systems, Frameworks & Package Managers:",
     "formats_description": "{{ProdFullName}} supports following [document file formats]({{SupportedFormatsUrl}}).",
     "code_samples_description": "Some use cases of typical {{ProdFullName}} operations",
-    "code_title_sample_1": "Hidden metadata control",
+    "code_title_sample_1": "Find hidden metadata",
     "code_samples_sample_1_content": "To control inner document content you may find and process [document metadata]({{Sample1Url}}):",
     "code_title_sample_2": "Secure documents content",
     "code_samples_sample_2_content": "Add [hidden metadata]({{Sample2Url}}) to your business files in order to protect its content:"
@@ -313,7 +313,7 @@
       "description": "{{ProdFullName}} is compatible with all {{EnvNameShort}} versions and supports popular operating systems (Windows, Linux, MacOS) that are capable to run {{EnvNameShort}} runtime."
     },
     "features": {
-      "title": "{{ProdFullName}} : Features",
+      "title": "{{ProdFullName}} Features",
       "description": "Protect your PDF, Office documents, and images metadata",
       "feature_1": {
         "title": "EXIF Images Metadata",
@@ -456,7 +456,7 @@
       "description": "{{ProdFullName}} is compatible with all {{EnvNameShort}} versions and runs seamlessly on popular operating systems (Windows, Linux, macOS) that support {{EnvNameShort}} runtime."
     },
     "features": {
-      "title": "{{ProdFullName}}: Feature Set",
+      "title": "{{ProdFullName}} Features",
       "description": "Empower robust document security through metadata processing.",
       "feature_1": {
         "title": "Clear Business Files",
