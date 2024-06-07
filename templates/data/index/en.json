@@ -82,7 +82,7 @@
       },
       "item_2": {
         "title": "NuGet downloads",
-        "description": "{{ProdFullName}} NuGet package was downloaded more than 700,000 times."
+        "description": "{{ProdShortName}} for .NET NuGet package was downloaded more than 700,000 times."
       },
       "item_3": {
         "title": "Maven downloads",
@@ -183,7 +183,7 @@
       "description": "{{ProdFullName}} can be used to develop applications in any development environment that targets {{EnvNameShort}} platform. It is compatible with all {{EnvNameShort}} based languages and supports popular operating systems (Windows, Linux, MacOS) where {{Mono}} or {{EnvNameShort}} frameworks (including {{CoreNet}}) can be installed."
     },
     "features": {
-      "title": "{{ProdShortName}} features",
+      "title": "{{ProdFullName}} features",
       "description": "Use Metadata to Protect PDF, Office, Images and other formats",
       "feature_1": {
         "title": "Identify Built-in & Custom Metadata",

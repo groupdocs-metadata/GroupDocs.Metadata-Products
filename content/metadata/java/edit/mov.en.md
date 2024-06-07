@@ -1,11 +1,10 @@
 
 
 
-
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-07T15:08:39
+date:  2024-06-07T21:09:28
 draft: false
 lang: en
 format: Mov

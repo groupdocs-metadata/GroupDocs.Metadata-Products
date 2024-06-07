@@ -1,11 +1,10 @@
 
 
 
-
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-06T14:32:05
+date:  2024-06-07T21:09:28
 draft: false
 lang: en
 format: Epub
@@ -96,7 +95,7 @@ steps:
             System.out.println(String.format("Affected properties: %s", affected));
             
             // Save the cleared file
-            metadata.save("output.bmp");
+            metadata.save("output.epub");
         }
         
         ```        

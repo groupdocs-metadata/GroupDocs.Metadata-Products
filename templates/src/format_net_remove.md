@@ -70,7 +70,7 @@ steps:
       content: |
         ```csharp {style=abap}
         // <% "{examples.comment_1}" %>
-        using (var metadata = new GroupDocs.Metadata.Metadata("input.bmp"))
+        using (var metadata = new GroupDocs.Metadata.Metadata("input.<% get "fileformat" %>"))
         {
             // <% "{examples.comment_2}" %>
             // <% "{examples.comment_3}" %>
@@ -81,7 +81,7 @@ steps:
             Console.WriteLine("Affected properties: {0}", affected);
 
             // <% "{examples.comment_4}" %>
-            metadata.Save("output.bmp");
+            metadata.Save("output.<% get "fileformat" %>");
         }
         
         ```  

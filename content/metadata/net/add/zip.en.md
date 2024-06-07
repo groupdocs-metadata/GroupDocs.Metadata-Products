@@ -1,9 +1,10 @@
 
 
+
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-31T14:53:04
+date:  2024-06-07T21:09:29
 draft: false
 lang: en
 format: Zip
@@ -113,7 +114,7 @@ more_features:
         {{< landing/code title="C#">}}
         ```csharp {style=abap}
         
-            using (Metadata metadata = new Metadata("Constants."TiffWithExif))
+            using (Metadata metadata = new Metadata("input.tiff"))
             {
                 IExif root = metadata.GetRootPackage() as IExif;
                 if (root != null)
@@ -131,7 +132,7 @@ more_features:
                     //  Be aware that the chosen ID may conflict with IDs used by some third-party tools.
                     root.ExifPackage.Set(new TiffAsciiTag((TiffTagID)65523, "custom"));
 
-                    metadata.Save(Constants.OutputTiff);
+                    metadata.Save("output.tiff");
                 }
             }
 

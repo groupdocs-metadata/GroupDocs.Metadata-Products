@@ -1,11 +1,10 @@
 
 
 
-
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-07T15:08:41
+date:  2024-06-07T21:09:30
 draft: false
 lang: en
 format: Ods
@@ -178,9 +177,9 @@ actions:
 ############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Metadata Extraction Live Demos"
+    title: "Updating Metadata Properties From Other File Formats"
     exclude: "ODS"
-    description: "Retrieve metadata information of ODS file right now by visiting [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family) website. The live demo has the following benefits."
+    description: "Multi format documents and images metadata editing API for .NET. Retrieve metadata of some of the popular file formats as stated below."
     items: 
         # format loop 1
         - name: "Add Metadata to AVI"

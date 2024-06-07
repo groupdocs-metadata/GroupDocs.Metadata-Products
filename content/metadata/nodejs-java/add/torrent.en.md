@@ -1,9 +1,10 @@
 
 
+
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-05-31T15:38:02
+date:  2024-06-07T21:09:31
 draft: false
 lang: en
 format: Torrent
@@ -68,8 +69,6 @@ steps:
       content: |
         ```javascript {style=abap}
 
-        try 
-        {
             // load the file in an instance of Metadata class
             const metadata = new groupdocs.metadata.Metadata('input.torrent');
 
@@ -83,7 +82,6 @@ steps:
 
             // save the file with updated metadata
             metadata.save('output.torrent');
-        }
         
         ```            
 

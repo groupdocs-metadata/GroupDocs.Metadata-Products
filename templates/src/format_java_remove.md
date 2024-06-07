@@ -95,7 +95,7 @@ steps:
             System.out.println(String.format("Affected properties: %s", affected));
             
             // <% "{examples.comment_4}" %>
-            metadata.save("output.bmp");
+            metadata.save("output.<% get "fileformat" %>");
         }
         
         ```        

@@ -1,11 +1,10 @@
 
 
 
-
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-07T15:08:43
+date:  2024-06-07T21:09:32
 draft: false
 lang: en
 format: Potm
@@ -15,19 +14,19 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Read Metadata from POTM Files in Node.js via Java Apps"
-head_description: "Easily access and extract metadata from POTM files across Node.js via Java. Works with common formats like XMP, EXIF, IPTC, ID3."
+head_title: "Read Metadata from POTM Files in Node.js Apps"
+head_description: "Easily access and extract metadata from POTM files across Node.js. Works with common formats like XMP, EXIF, IPTC, ID3."
 
 ############################# Header ############################
 title: "Extract Metadata from POTM Files" 
 description: "Extract metadata from a wide range of documents, images, audio & video formats using GroupDocs.Metadata for Node.js via Java."
-subtitle: "" 
+subtitle: "GroupDocs.Metadata for Node.js via Java" 
 
 header_actions:
   enable: true
   items:
     #  loop
-    - title: ""
+    - title: "Download Free Trial"
       link: "https://releases.groupdocs.com/metadata/nodejs-java/"
       
 ############################# About ############################
@@ -43,7 +42,7 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "How to Extract Metadata from POTM Files in Node.js via Java with GroupDocs.Metadata"
+    title: "How to Extract Metadata from POTM Files in Node.js with GroupDocs.Metadata"
     content: |
       Easily extract metadata from POTM files within your Node.js via Java applications using [GroupDocs.Metadata](https://products.groupdocs.com/metadata/nodejs-java/). Here's how:
       
@@ -95,10 +94,10 @@ more_features:
   title: "Find Hidden Metadata in Business Files with GroupDocs.Metadata"
   description: "Easily search for and manage hidden details (metadata) in sensitive documents with Node.js via Java applications using the GroupDocs.Metadata library."
   image: "/img/metadata/features_search.webp" # 500x500 px
-  image_description: "Search Metadata in Node.js via Java Files"
+  image_description: "Search Metadata in Node.js Files"
   features:
     # feature loop
-    - title: "Powerful Metadata Search for Node.js via Java"
+    - title: "Powerful Metadata Search for Node.js"
       content: "Boost your document processing in Node.js via Java with GroupDocs.Metadata. Find hidden details quickly and easily using our search tools."
 
     # feature loop

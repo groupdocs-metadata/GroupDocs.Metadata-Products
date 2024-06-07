@@ -1,11 +1,10 @@
 
 
 
-
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-06T14:32:06
+date:  2024-06-07T21:09:30
 draft: false
 lang: en
 format: Bmp

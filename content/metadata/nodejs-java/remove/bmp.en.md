@@ -1,11 +1,10 @@
 
 
 
-
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-06T14:32:07
+date:  2024-06-07T21:09:32
 draft: false
 lang: en
 format: Bmp
@@ -75,7 +74,7 @@ steps:
 
         // Remove all mentions of contributors
         // Remove a custom property by name
-        let affected = metadata.removeProperties(
+        var affected = metadata.removeProperties(
             new FallsIntoCategorySpecification(groupdocs.metadata.Tags.getPerson()).
             or(new groupdocs.metadata.WithNameSpecification('CustomProperty')));
             
@@ -118,7 +117,7 @@ more_features:
             const metadata = new groupdocs.metadata.Metadata('input.zip');
 
             //  Get the main metadata package
-            vat root = metadata.getRootPackageGeneric();
+            var root = metadata.getRootPackageGeneric();
 
             //  Remove archive comments
             root.getZipPackage().setComment(null);

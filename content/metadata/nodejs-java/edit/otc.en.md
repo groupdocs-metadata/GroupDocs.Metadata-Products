@@ -1,11 +1,10 @@
 
 
 
-
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-07T15:08:43
+date:  2024-06-07T21:09:31
 draft: false
 lang: en
 format: Otc
@@ -15,8 +14,8 @@ platform: "Node.js via Java"
 platform_tag: "nodejs-java"
 
 ############################# Head ############################
-head_title: "Edit Metadata in OTC Files with Node.js via Java Applications"
-head_description: "Use Node.js via Java metadata API to edit metadata in OTC files. Supports XMP, EXIF, IPTC, ID3, and more."
+head_title: "Edit Metadata in OTC Files with Node.js Applications"
+head_description: "Use Node.js metadata API to edit metadata in OTC files. Supports XMP, EXIF, IPTC, ID3, and more."
 
 ############################# Header ############################
 title: "Update Metadata in Otc Files Using JavaScript" 
@@ -43,9 +42,9 @@ about:
 ############################# Steps ############################
 steps:
     enable: true
-    title: "Steps to Update Metadata in Otc Using Node.js via Java"
+    title: "Steps to Update Metadata in Otc Using Node.js"
     content: |
-      [GroupDocs.Metadata for Node.js via Java](https://products.groupdocs.com/metadata/nodejs-java/) allows Node.js via Java developers to edit metadata in Otc files with a few easy steps.
+      [GroupDocs.Metadata for Node.js via Java](https://products.groupdocs.com/metadata/nodejs-java/) allows to edit metadata in Otc files with a few easy steps.
       
       1. Load the Otc file to be updated.
       2. Specify a predicate to filter desired metadata properties.
@@ -92,7 +91,7 @@ steps:
 ############################# More features ############################
 more_features:
   enable: true
-  title: "Edit OTC Metadata for Node.js via Java Apps"
+  title: "Edit OTC Metadata for Node.js Apps"
   description: "The GroupDocs.Metadata API allows developers to update hidden metadata in various document formats within Node.js via Java applications. Apply, edit, search for, and remove metadata programmatically."
   image: "/img/metadata/features_edit.webp" # 500x500 px
   image_description: "Metadata Configuration"
@@ -163,7 +162,7 @@ more_formats:
     enable: true
     title: "Edit Metadata in Various File Formats"
     exclude: "OTC"
-    description: "Multi-format documents and images metadata editing API for Node.js via Java. Retrieve and edit metadata for popular file formats"
+    description: "Multi-format documents and images metadata editing API for Node.js. Retrieve and edit metadata for popular file formats"
     items: 
         # format loop 1
         - name: "Add Metadata to AVI"

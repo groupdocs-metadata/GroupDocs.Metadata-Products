@@ -1,11 +1,10 @@
 
 
 
-
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-06T14:32:06
+date:  2024-06-07T21:09:31
 draft: false
 lang: en
 format: Ttc
@@ -71,7 +70,7 @@ steps:
       content: |
         ```csharp {style=abap}
         // Remove TTC file metadata
-        using (var metadata = new GroupDocs.Metadata.Metadata("input.bmp"))
+        using (var metadata = new GroupDocs.Metadata.Metadata("input.ttc"))
         {
             // Remove all mentions of any people contributed in file creation
             // Remove all properties with the specified name
@@ -82,7 +81,7 @@ steps:
             Console.WriteLine("Affected properties: {0}", affected);
 
             // Save result
-            metadata.Save("output.bmp");
+            metadata.Save("output.ttc");
         }
         
         ```  

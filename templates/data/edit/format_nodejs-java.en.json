@@ -1,7 +1,7 @@
 {
   "head": {
-    "title": "Edit Metadata in {{FileFormatUp}} Files with {{EnvName}} Applications",
-    "description": "Use {{EnvName}} metadata API to edit metadata in {{FileFormatUp}} files. Supports XMP, EXIF, IPTC, ID3, and more."
+    "title": "Edit Metadata in {{FileFormatUp}} Files with {{EnvNameShort}} Applications",
+    "description": "Use {{EnvNameShort}} metadata API to edit metadata in {{FileFormatUp}} files. Supports XMP, EXIF, IPTC, ID3, and more."
   },
   "header": {
     "title": "Update Metadata in {{FileformatCap}} Files Using {{ProgLang}}",
@@ -15,7 +15,7 @@
   },
   "formats": {
     "title": "Edit Metadata in Various File Formats",
-    "description": "Multi-format documents and images metadata editing API for {{EnvName}}. Retrieve and edit metadata for popular file formats"
+    "description": "Multi-format documents and images metadata editing API for {{EnvNameShort}}. Retrieve and edit metadata for popular file formats"
   },
   "examples": {
     "comment_1": "Update the file's last print date/time metadata after printing",
@@ -25,9 +25,9 @@
     "comment_5": "Save updated file"
   },
   "steps": {
-    "title": "Steps to Update Metadata in {{FileformatCap}} Using {{EnvName}}",
+    "title": "Steps to Update Metadata in {{FileformatCap}} Using {{EnvNameShort}}",
     "content": {
-      "title": "[{{ProdFullName}}]({{ProductUrl}}) allows {{EnvName}} developers to edit metadata in {{FileformatCap}} files with a few easy steps.",
+      "title": "[{{ProdFullName}}]({{ProductUrl}}) allows to edit metadata in {{FileformatCap}} files with a few easy steps.",
       "step_1": "Load the {{FileformatCap}} file to be updated.",
       "step_2": "Specify a predicate to filter desired metadata properties.",
       "step_3": "Pass the predicate and new value to the {{TextUpdateProperties}} method.",
@@ -35,7 +35,7 @@
     }
   },
   "more_features": {
-    "title": "Edit {{FileFormatUp}} Metadata for {{EnvName}} Apps",
+    "title": "Edit {{FileFormatUp}} Metadata for {{EnvNameShort}} Apps",
     "description": "The {{ProdShortName}} API allows developers to update hidden metadata in various document formats within {{EnvName}} applications. Apply, edit, search for, and remove metadata programmatically.",
     "image_description": "Metadata Configuration",
     "feature_1": {

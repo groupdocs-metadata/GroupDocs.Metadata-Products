@@ -1,11 +1,10 @@
 
 
 
-
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-07T15:08:41
+date:  2024-06-07T21:09:29
 draft: false
 lang: en
 format: Xlsb

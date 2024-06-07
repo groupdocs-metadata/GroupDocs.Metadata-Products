@@ -11,8 +11,6 @@
     "textRemoveProperties": "RemoveProperties",
     "textMetadataRemoveProperties": "Metadata.RemoveProperties",
     "textFindProperties": "FindProperties",
-    "textLiveDemos": "GroupDocs.Metadata Live Demos",
-    "linkLiveDemos": "https://products.groupdocs.app/metadata/family",
     "aspNet": "ASP.NET",
     "coreNet": ".NET Core",
     "mono": "Mono",

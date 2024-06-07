@@ -1,11 +1,13 @@
 {
   "head": {
-    "title": "Read Metadata from {{FileFormatUp}} Files in {{EnvName}} Apps",
-    "description": "Easily access and extract metadata from {{FileFormatUp}} files across {{EnvName}}. Works with common formats like XMP, EXIF, IPTC, ID3."
+    "title": "Read Metadata from {{FileFormatUp}} Files in {{EnvNameShort}} Apps",
+    "description": "Easily access and extract metadata from {{FileFormatUp}} files across {{EnvNameShort}}. Works with common formats like XMP, EXIF, IPTC, ID3."
   },
   "header": {
     "title": "Extract Metadata from {{FileFormatUp}} Files",
-    "description": "Extract metadata from a wide range of documents, images, audio & video formats using {{ProdFullName}}."
+    "description": "Extract metadata from a wide range of documents, images, audio & video formats using {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download Free Trial"
   },
   "about": {
     "title": "What is {{ProdFullName}} API?",
@@ -22,7 +24,7 @@
     "comment_4": "Use the extracted metadata for your application"
   },
   "steps": {
-    "title": "How to Extract Metadata from {{FileFormatUp}} Files in {{EnvName}} with {{ProdShortName}}",
+    "title": "How to Extract Metadata from {{FileFormatUp}} Files in {{EnvNameShort}} with {{ProdShortName}}",
     "content": {
       "title": "Easily extract metadata from {{FileFormatUp}} files within your {{EnvName}} applications using [{{ProdShortName}}]({{ProductUrl}}). Here's how:",
       "step_1": "Load the {{FileFormatUp}} file you want to extract metadata from.",
@@ -34,9 +36,9 @@
   "more_features": {
     "title": "Find Hidden Metadata in Business Files with {{ProdShortName}}",
     "description": "Easily search for and manage hidden details (metadata) in sensitive documents with {{EnvName}} applications using the {{ProdShortName}} library.",
-    "image_description": "Search Metadata in {{EnvName}} Files",
+    "image_description": "Search Metadata in {{EnvNameShort}} Files",
     "feature_1": {
-      "title": "Powerful Metadata Search for {{EnvName}}",
+      "title": "Powerful Metadata Search for {{EnvNameShort}}",
       "content": "Boost your document processing in {{EnvName}} with {{ProdShortName}}. Find hidden details quickly and easily using our search tools."
     },
     "feature_2": {

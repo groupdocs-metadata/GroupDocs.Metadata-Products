@@ -74,14 +74,14 @@ steps:
 
         // <% "{examples.comment_2}" %>
         // <% "{examples.comment_3}" %>
-        let affected = metadata.removeProperties(
+        var affected = metadata.removeProperties(
             new FallsIntoCategorySpecification(groupdocs.metadata.Tags.getPerson()).
             or(new groupdocs.metadata.WithNameSpecification('CustomProperty')));
             
         console.log('Affected properties: ${affected}');
             
         // <% "{examples.comment_4}" %>
-        metadata.save("output.bmp");
+        metadata.save("output.<% get "fileformat" %>");
         
         ```            
 
@@ -117,7 +117,7 @@ more_features:
             const metadata = new groupdocs.metadata.Metadata('input.zip');
 
             //  <% "{more_features.code_1.comment_2}" %>
-            vat root = metadata.getRootPackageGeneric();
+            var root = metadata.getRootPackageGeneric();
 
             //  <% "{more_features.code_1.comment_3}" %>
             root.getZipPackage().setComment(null);
