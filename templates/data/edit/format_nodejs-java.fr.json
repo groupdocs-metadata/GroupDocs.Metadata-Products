@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Modifier les métadonnées dans les fichiers {{FileFormatUp}} avec les applications {{EnvNameShort}}",
+    "description": "Utilisez l'API de métadonnées {{EnvNameShort}} pour modifier les métadonnées dans les fichiers {{FileFormatUp}}. Prend en charge XMP, EXIF, IPTC, ID3 et plus encore."
+  },
+  "header": {
+    "title": "Mettre à jour les métadonnées dans les fichiers {{FileformatCap}} à l'aide de {{ProgLang}}",
+    "description": "Éditeur de métadonnées pour {{ProgLang}} – Modifiez les champs de métadonnées dans les documents, images et fichiers multimédias avec notre API.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger l'essai gratuit"
+  },
+  "about": {
+    "title": "À propos de l'API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est une solution avancée pour lire, ajouter, modifier, supprimer, rechercher, comparer, remplacer et exporter des métadonnées à partir d'images et de documents. Modifiez les métadonnées dans des fichiers Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, PDF, AutoCAD, ZIP, audio et vidéo, ainsi que de nombreuses autres fonctionnalités."
+  },
+  "formats": {
+    "title": "Modifier les métadonnées dans différents formats de fichiers",
+    "description": "API d'édition de métadonnées de documents et d'images multiformats pour {{EnvNameShort}}. Récupérez et modifiez les métadonnées des formats de fichiers courants"
+  },
+  "examples": {
+    "comment_1": "Mettre à jour les métadonnées de date/heure de la dernière impression du fichier après l'impression",
+    "comment_2": "Charger le fichier dans le constructeur de classe {{TextMetadata}}",
+    "comment_3": "Seuls les packages de métadonnées existants sont concernés. Aucun nouveau package n'est ajouté.",
+    "comment_4": "Résultat du traitement",
+    "comment_5": "Enregistrer le fichier mis à jour"
+  },
+  "steps": {
+    "title": "Étapes pour mettre à jour les métadonnées dans {{FileformatCap}} à l'aide de {{EnvNameShort}}",
+    "content": {
+      "title": "[{{ProdFullName}}]({{ProductUrl}}) permet de modifier les métadonnées dans les fichiers {{FileformatCap}} en quelques étapes simples.",
+      "step_1": "Chargez le fichier {{FileformatCap}} à mettre à jour.",
+      "step_2": "Spécifiez un prédicat pour filtrer les propriétés de métadonnées souhaitées.",
+      "step_3": "Transmettez le prédicat et la nouvelle valeur à la méthode {{TextUpdateProperties}}.",
+      "step_4": "Enregistrez les modifications."
+    }
+  },
+  "more_features": {
+    "title": "Modifier les métadonnées {{FileFormatUp}} pour les applications {{EnvNameShort}}",
+    "description": "L'API {{ProdShortName}} permet aux développeurs de mettre à jour les métadonnées masquées dans divers formats de documents au sein des applications {{EnvName}}. Appliquez, modifiez, recherchez et supprimez des métadonnées par programmation.",
+    "image_description": "Configuration des métadonnées",
+    "feature_1": {
+      "title": "Intégration facile des métadonnées",
+      "content": "{{ProdShortName}} simplifie l'ajout et la modification de métadonnées dans les documents et fichiers de vos applications {{EnvName}}. Les développeurs peuvent facilement appliquer, mettre à jour ou supprimer des métadonnées."
+    },
+    "feature_2": {
+      "title": "Contrôle complet des métadonnées",
+      "content": "L'API fournit de nombreuses options pour personnaliser les métadonnées. Recherchez, supprimez ou mettez à jour facilement les métadonnées des fichiers à l'aide de requêtes spécialisées."
+    },
+    "feature_3": {
+      "title": "Utiliser les fonctionnalités natives {{FileFormatUp}}",
+      "content": "Tirez parti des fonctionnalités de métadonnées intégrées telles que EXIF ​​pour les images, qui peuvent inclure le modèle d'appareil photo, la résolution, la date de création, etc."
+    },
+    "code_1": {
+      "title": "Mettre à jour la balise des paroles dans un fichier MP3 (exemple)",
+      "content": "Cet exemple montre comment mettre à jour les métadonnées cachées dans un fichier MP3.",
+      "comment_1": "Charger le fichier dans le constructeur de classe {{TextMetadata}}",
+      "comment_2": "Mettre à jour les données des paroles",
+      "comment_3": "Ajouter un champ personnalisé à la balise",
+      "comment_4": "Enregistrez le résultat"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "将元数据添加到 {{ProgLang}} 应用程序中的 {{FileFormatUp}} 文件",
+    "description": "{{ProgLang}} 元数据处理 API，用于将元数据信息添加到 {{FileFormatUp}} 文件。使用元数据标准 XMP、EXIF、IPTC、ID3 等"
+  },
+  "header": {
+    "title": "将元数据添加到 {{ProgLang}} 中的 {{FileFormatUp}}",
+    "description": "使用 {{ProdFullName}} API 将自定义元数据属性添加到各种业务文档、图像、音频和视频文件格式",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "下载免费试用版"
+  },
+  "about": {
+    "title": "关于 {{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 提供一组高级元数据管理和操作功能，允许 {{EnvName}} 程序员轻松查看、编辑、删除、查找、比较、交换和导出元数据信息图像和文档格式，无需使用任何外部软件。将元数据详细信息添加到 PDF、Microsoft Word、Excel、PowerPoint、Outlook、OneNote、Visio、Project、AutoCAD、Archive 和多媒体文件格式，并提供额外支持，以真正的灵活性在任何基于 {{ProdShortName}} 的应用程序上执行元数据操作"
+  },
+  "formats": {
+    "title": "将元数据属性添加到其他文件格式",
+    "description": "{{ProdShortName}} 的多格式文档和图像元数据添加 API。检索一些流行文件格式的元数据，如下所述。"
+  },
+  "examples": {
+    "comment_1": "在 {{TextMetadata}} 类的实例中加载文件",
+    "comment_2": "添加包含内容作者的属性",
+    "comment_3": "流程运行结果",
+    "comment_4": "使用更新的元数据保存文件"
+  },
+  "steps": {
+    "title": "将元数据添加到 {{ProgLang}} 中的 {{FileformatCap}} 的步骤",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) 使 {{EnvName}} 开发人员可以通过执行几个简单的步骤，轻松地从其应用程序内向 {{FileFormatUp}} 文件添加元数据详细信息。",
+      "step_1": "加载要更新的 {{FileFormatUp}} 文件。",
+      "step_2": "指定将用于添加元数据属性的谓词。",
+      "step_3": "将谓词传递给 {{TextMetadataAddProperties}} 方法。",
+      "step_4": "保存更改。"
+    }
+  },
+  "more_features": {
+    "title": "文档元数据管理",
+    "description": "我们强大的 API 简化了文档元数据的管理。无缝访问、编辑和操作各种文档属性，以增强组织和可搜索性。",
+    "image_description": "元数据操作功能",
+    "feature_1": {
+      "title": "元数据控制",
+      "content": "轻松检索和处理文档中的元数据。获得有关作者、创建日期等属性的宝贵见解。"
+    },
+    "feature_2": {
+      "title": "元数据编辑",
+      "content": "直接修改文档元数据。更新属性以改进组织、提高可搜索性并确保信息准确。"
+    },
+    "feature_3": {
+      "title": "高级元数据管理",
+      "content": "对文档元数据执行复杂的操作。高效添加自定义属性、删除不必要的数据并保持数据一致性。"
+    },
+    "code_1": {
+      "title": "如何将自定义元数据添加到 TIFF 图像",
+      "content": "此示例演示如何将自定义标签插入 EXIF 包中。",
+      "comment_1": "如果 EXIF 包丢失，请指定该包。",
+      "comment_2": "插入已识别的属性。",
+      "comment_3": "包含不属于 EXIF 规范的完全自定义属性。",
+      "comment_4": "请注意，所选的 ID 可能与某些第三方工具使用的 ID 冲突。"
+    }
+  }
+}

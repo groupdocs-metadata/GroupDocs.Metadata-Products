@@ -1,123 +1,298 @@
+
+
+
 ---
 ############################# Static ############################
-layout: "auto-gen-metadata"
-date: 2024-03-10T13:38:31
+layout: "format"
+date:  2024-06-11T15:17:09
 draft: false
-otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
+lang: ru
+format: Ttf
+product: "Metadata"
+product_tag: "metadata"
+platform: ".NET"
+platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Редактирование метаданных в TTF файлах в C# приложениях"
-head_description: "API обработки метаданных C# для редактирования метаданных в файлы TTF. Работайте со стандартами метаданных XMP, EXIF, IPTC, ID3 и т. д."
+head_title: "Редактировать метаданные в файлы Ttf в приложениях C#."
+head_description: "API обработки метаданных C# для редактирования информации метаданных в файлах Ttf. Работа со стандартами метаданных XMP, EXIF, IPTC, ID3 и др."
 
 ############################# Header ############################
-title: "Обновить метаданные файла TTF в C#"
-description: "Обновляйте метаданные из всех популярных документов, изображений и форматов мультимедийных файлов с поддержкой выполнения всех наиболее необходимых операций обработки метаданных."
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Загрузить бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/metadata/net"
+title: "Обновить метаданные файла Ttf в C#" 
+description: "Обновляйте информацию метаданных из всех популярных форматов документов, изображений и мультимедийных файлов с поддержкой выполнения всех наиболее необходимых операций по обработке метаданных."
+subtitle: "GroupDocs.Metadata for .NET" 
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
-    left:
-        img_alt: "GroupDocs.Metadata for .NET"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-metadata-net.png"
-        product: "GroupDocs.Metadata"
-        platform: ".NET"
-
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/metadata/net"
-              text: "{submenu.content_middle.button_text_1}"
-
-            # button loop
-            - link: "https://github.com/groupdocs-metadata"
-              text: "{submenu.content_middle.button_text_2}"
-
-            # button loop
-            - link: "https://products.groupdocs.app/metadata/family"
-              text: "{submenu.content_middle.button_text_3}"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/metadata/net"
-              text: "{submenu.content_middle.button_text_4}"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/metadata"
-        link_learn: "https://docs.groupdocs.com/metadata/net"
-        link_buy: "https://purchase.groupdocs.com"
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Скачать бесплатную пробную версию"
+      link: "https://releases.groupdocs.com/metadata/net/"
+      
 ############################# About ############################
 about:
     enable: true
     title: "Об API GroupDocs.Metadata for .NET"
+    link: "/metadata/net/"
+    link_title: "Узнать больше"
+    picture: "about_metadata.svg" # 480 X 400
     content: |
-        [GroupDocs.Metadata for .NET](/ru/metadata/net/) предлагает расширенный набор функций управления метаданными, позволяющий разработчикам легко читать, документировать, удалять, находить, сравнивать, заменять и экспортировать метаданные из изображений и форматов документов без использования внешнего программного обеспечения. Используйте API управления метаданными для редактирования сведений о метаданных из электронных таблиц PDF, Microsoft Office Word, Excel презентаций, Outlook электронных писем, OneNote, Visio, Project, AutoCAD, форматов архивных и мультимедийных файлов, а также для поддержки работы со многими другими функциями обработки метаданных.
+       [GroupDocs.Metadata for .NET](/metadata/net/) предлагает расширенный набор функций управления метаданными, позволяющий разработчикам легко читать, документировать, удалять, находить, сравнивать, заменять и экспортировать информацию метаданных из изображений и форматов документов без использования каких-либо внешнее программное обеспечение. Используйте API манипуляции метаданными для редактирования деталей метаданных из форматов файлов PDF, Microsoft Office Word, Excel, презентаций PowerPoint, электронных писем Outlook, OneNote, Visio, Project, AutoCAD, архивов и мультимедиа, а также поддержки работы со многими другими функциями обработки метаданных.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Этапы обновления метаданных до TTF в C#"
-    content_left: |
-        [GroupDocs.Metadata for .NET](/ru/metadata/net/) позволяет разработчикам .NET легко редактировать метаданные в файлы TTF из своих приложений, выполнив несколько простых шагов.
-        
-        * Загрузите файл TTF через экземпляр класса Metadata.
-        * Укажите предикат, который будет использоваться для фильтрации желаемых свойств метаданных.
-        * Передайте предикат и новое значение методу updateProperties.
-        * Сохраните изменения на диске в формате TTF.
+    title: "Действия по обновлению метаданных в TTF в C#"
+    content: |
+      [GroupDocs.Metadata for .NET](https://products.groupdocs.com/metadata/net/) позволяет разработчикам .NET легко редактировать метаданные в файлах TTF из своих приложений, выполнив несколько простых шагов.
+      
+      1. Загрузите файл TTF через экземпляр класса Metadata.
+      2. Укажите предикат, который будет использоваться для фильтрации желаемых свойств метаданных.
+      3. Передайте предикат и новое значение методу UpdateProperties.
+      4. Сохраните изменения на диске в формате TTF.
+   
+    code:
+      platform: "net"
+      copy_title: "Копировать"
+      install:
+        command: |
+        command: "dotnet add package GroupDocs.Metadata"
+        copy_tip: "нажмите, чтобы скопировать"
+        copy_done: "скопирован"
+      links:
+        #  loop
+        - title: "Больше примеров"
+          link: "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-.NET/"
+        #  loop
+        - title: "Документация"
+          link: "https://docs.groupdocs.com/metadata/net/"
+          
+      content: |
+        ```csharp {style=abap}
+        // Изменить дату создания TTF
 
-    title_right: "Системные требования"
-    content_right: |
-        GroupDocs.Metadata for .NET API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные условия.
-
-        * Операционные системы: ОС Microsoft Windows, Linux, Mac
-        * Среды разработки: Visual Studio, Xamarin, MonoDevelop
-        * Каркасы: .NET Framework, .NET Standard, .NET Core, Mono
-        * Загрузите последнюю версию GroupDocs.Metadata for .NET с сайта [NuGet](https://www.nuget.org/packages/groupdocs.metadata)
-         
-    code: |
-        ```csharp    
         using (var metadata = new GroupDocs.Metadata.Metadata("input.ttf"))
         {
-            // задайте значение каждого свойства, удовлетворяющего предикату:
-            // свойство содержит дату и время создания документа
-            // обновите дату/время создания файла, если существующее значение старше 3 дней
+            // установите значение каждого свойства, удовлетворяющего предикату::
+            // свойство содержит дату/время создания документа
+            // обновить дату/время создания файла, если существующее значение старше 3 дней
             var affected = metadata.UpdateProperties(
               p => p.Tags.Contains(GroupDocs.Metadata.Tagging.Tags.Time.Created) &&
               p.Value.Type == GroupDocs.Metadata.Common.MetadataPropertyType.DateTime &&
               p.Value.ToStruct() < DateTime.Today.AddDays(-3), new GroupDocs.Metadata.Common.PropertyValue(DateTime.Today));
+
             Console.WriteLine("Properties set: {0}", affected);
+
+            // Сохранить результат TTF
             metadata.Save("output.ttf");
         }
-        ```
-
-############################# Demos ############################
-demos:
-    enable: true
-    title: "Демонстрации в реальном времени для обновления метаданных"
-    content: |
-       Обновите метаданные до файла TTF прямо сейчас, посетив веб-сайт [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family).
-       Живая демонстрация имеет следующие преимущества.
         
-############################# About Formats ############################
-about_formats:
-    enable: true
+        ```     
 
-############################# More Formats ############################
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Управление свойствами внутренних метаданных TTF для приложений .NET"
+  description: "API GroupDocs.Metadata позволяет разработчикам легко редактировать детали документа (метаданные) в различных форматах с помощью своих приложений .NET. Программно добавляйте, обновляйте, ищите и удаляйте свойства документа."
+  image: "/img/metadata/features_edit.webp" # 500x500 px
+  image_description: "Управление свойствами метаданных документа"
+  features:
+    # feature loop
+    - title: "Эффективная интеграция метаданных"
+      content: "GroupDocs.Metadata упрощает добавление различных свойств к документам и файлам в ваших приложениях .NET. Разработчики могут легко применять, обновлять или удалять свойства документа программным способом."
+
+    # feature loop
+    - title: "Точный контроль метаданных"
+      content: "API предлагает обширные возможности для управления свойствами документа. Разработчики могут эффективно находить и обрабатывать любые скрытые данные, размещенные в бизнес-файлах."
+
+    # feature loop
+    - title: "Использование встроенных свойств TTF"
+      content: "В зависимости от формата документа разработчики могут использовать существующие свойства, такие как данные EXIF ​​для изображений. Сюда может входить такая информация, как сведения о камере, разрешение, дата создания и т. д."
+      
+  code_samples:
+    # code sample loop
+    - title: "Обновление метаданных текста песни в файле MP3 (пример)"
+      content: |
+        В этом примере показано обновление скрытой информации (метаданных) в аудиофайлах MP3.
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}
+        
+            //  Загрузите файл, используя класс Metadata.
+            using (Metadata metadata = new Metadata("input.mp3"))
+            {
+                var root = metadata.GetRootPackage<MP3RootPackage>();
+
+                if (root.Lyrics3V2 == null)
+                {
+                    root.Lyrics3V2 = new LyricsTag();
+                }
+
+                // Обновить данные о текстах песен
+                root.Lyrics3V2.Lyrics = "[00:01]Test lyrics";
+                root.Lyrics3V2.Artist = "test artist";
+                root.Lyrics3V2.Album = "test album";
+                root.Lyrics3V2.Track = "test track";
+
+                // {emore_features.code_1.comment_3}
+                root.Lyrics3V2.Set(new LyricsField("ABC", "custom value"));
+
+                // Сохранить обновленный файл
+                metadata.Save("output.mp3");
+            }
+
+        ```
+        {{< /landing/code >}}
+
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Готовы начать?"
+  description: "Попробуйте функции GroupDocs.Metadata бесплатно или запросите лицензию."
+  items:
+    #  loop
+    - title: "Загрузка Nuget"
+      link: "https://releases.groupdocs.com/metadata/net/"
+      color: "red"
+        #  loop
+    - title: "Лицензирование"
+      link: "https://purchase.groupdocs.com/pricing/metadata/net/"
+      color: "light"
+
+
+############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Обновление свойств метаданных из других форматов файлов"
-    content: |
-        API редактирования метаданных многоформатных документов и изображений для .NET. Извлеките метаданные некоторых популярных форматов файлов, как указано ниже.
+    title: "Обновление свойств метаданных из файлов других форматов"
+    exclude: "TTF"
+    description: "API редактирования метаданных многоформатных документов и изображений для .NET. Получите метаданные некоторых популярных форматов файлов, как указано ниже."
+    items: 
+        # format loop 1
+        - name: "Добавить метаданные в AVI"
+          format: "AVI"
+          link: "/metadata/net/edit/avi/"
+          description: "(Файл чередования аудио-видео)"
+          
+        # format loop 2
+        - name: "Добавить метаданные в DJVU"
+          format: "DJVU"
+          link: "/metadata/net/edit/djvu/"
+          description: "(Формат графического файла)"
+          
+        # format loop 3
+        - name: "Добавить метаданные в DOCX"
+          format: "DOCX"
+          link: "/metadata/net/edit/docx/"
+          description: "(Документ Office 2007+ Word)"
+          
+        # format loop 4
+        - name: "Добавить метаданные в EPUB"
+          format: "EPUB"
+          link: "/metadata/net/edit/epub/"
+          description: "(Открыть файл электронной книги)"
+          
+        # format loop 5
+        - name: "Добавить метаданные в HEIC"
+          format: "HEIC"
+          link: "/metadata/net/edit/heic/"
+          description: "(Высокоэффективный формат изображения)"
+          
+        # format loop 6
+        - name: "Добавить метаданные в JPEG"
+          format: "JPEG"
+          link: "/metadata/net/edit/jpeg/"
+          description: "(Изображение Объединенной экспертной группы по фотографии)"
+          
+        # format loop 7
+        - name: "Добавить метаданные в MOV"
+          format: "MOV"
+          link: "/metadata/net/edit/mov/"
+          description: "(Фильм Apple QuickTime)"
+          
+        # format loop 8
+        - name: "Добавить метаданные в MP3"
+          format: "MP3"
+          link: "/metadata/net/edit/mp3/"
+          description: "(Аудиофайл MP3)"
+          
+        # format loop 9
+        - name: "Добавить метаданные в MSG"
+          format: "MSG"
+          link: "/metadata/net/edit/msg/"
+          description: "(Файл элемента сообщения Outlook)"
+          
+        # format loop 10
+        - name: "Добавить метаданные в ODS"
+          format: "ODS"
+          link: "/metadata/net/edit/ods/"
+          description: "(таблица OpenDocument)"
+          
+        # format loop 11
+        - name: "Добавить метаданные в ODT"
+          format: "ODT"
+          link: "/metadata/net/edit/odt/"
+          description: "(Формат текстового файла OpenDocument)"
+          
+        # format loop 12
+        - name: "Добавить метаданные в PDF"
+          format: "PDF"
+          link: "/metadata/net/edit/pdf/"
+          description: "(Портативный формат документа)"
+          
+        # format loop 13
+        - name: "Добавить метаданные в PNG"
+          format: "PNG"
+          link: "/metadata/net/edit/png/"
+          description: "(Портативная сетевая графика)"
+          
+        # format loop 14
+        - name: "Добавить метаданные в PPTX"
+          format: "PPTX"
+          link: "/metadata/net/edit/pptx/"
+          description: "(Открытый формат презентации XML)"
+          
+        # format loop 15
+        - name: "Добавить метаданные в TIFF"
+          format: "TIFF"
+          link: "/metadata/net/edit/tiff/"
+          description: "(Формат файла изображения с тегами)"
+          
+        # format loop 16
+        - name: "Добавить метаданные в TORRENT"
+          format: "TORRENT"
+          link: "/metadata/net/edit/torrent/"
+          description: "(ссылка на торрент)"
+          
+        # format loop 17
+        - name: "Добавить метаданные в VSDX"
+          format: "VSDX"
+          link: "/metadata/net/edit/vsdx/"
+          description: "(Рисунок Visio)"
+          
+        # format loop 18
+        - name: "Добавить метаданные в WAV"
+          format: "WAV"
+          link: "/metadata/net/edit/wav/"
+          description: "(Аудиофайл WAVE)"
+          
+        # format loop 19
+        - name: "Добавить метаданные в WEBP"
+          format: "WEBP"
+          link: "/metadata/net/edit/webp/"
+          description: "(Формат растрового веб-изображения)"
+          
+        # format loop 20
+        - name: "Добавить метаданные в XLSX"
+          format: "XLSX"
+          link: "/metadata/net/edit/xlsx/"
+          description: "(Открытая книга XML)"
+          
+        # format loop 21
+        - name: "Добавить метаданные в ZIP"
+          format: "ZIP"
+          link: "/metadata/net/edit/zip/"
+          description: "(Заархивированный файл)"
+          
 
-############################# Back to top ###############################
-back_to_top:
-    enable: true
 ---

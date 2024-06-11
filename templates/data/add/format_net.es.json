@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "Agregar metadatos a archivos {{FileFormatUp}} en aplicaciones {{ProgLang}}",
+    "description": "{{ProgLang}} API de procesamiento de metadatos para agregar información de metadatos a archivos {{FileFormatUp}}. Trabajar con estándares de metadatos XMP, EXIF, IPTC, ID3, etc."
+  },
+  "header": {
+    "title": "Agregar metadatos a {{FileFormatUp}} en {{ProgLang}}",
+    "description": "Agregue propiedades de metadatos personalizados a una amplia gama de formatos de archivos de audio y video, imágenes y documentos comerciales usando la API {{ProdFullName}}",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descargue prueba gratis"
+  },
+  "about": {
+    "title": "Acerca de la API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ofrece un conjunto avanzado de funciones de manipulación y gestión de metadatos, lo que permite a los programadores de {{EnvName}} ver, editar, eliminar, buscar, comparar, intercambiar y exportar fácilmente información de metadatos desde imágenes y formatos de documentos sin utilizar ningún software externo. Agregue detalles de metadatos a formatos de archivos PDF, Microsoft Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive y Multimedia con soporte adicional para realizar operaciones de metadatos en cualquier aplicación basada en {{ProdShortName}} con verdadera flexibilidad."
+  },
+  "formats": {
+    "title": "Agregar propiedades de metadatos a otros formatos de archivo",
+    "description": "API de adición de metadatos de imágenes y documentos multiformato para {{ProdShortName}}. Recupere metadatos de algunos de los formatos de archivo populares como se indica a continuación."
+  },
+  "examples": {
+    "comment_1": "cargar el archivo en una instancia de la clase {{TextMetadata}}",
+    "comment_2": "agregar una propiedad que contenga el autor del contenido",
+    "comment_3": "resultados de la operación del proceso",
+    "comment_4": "guarde el archivo con metadatos actualizados"
+  },
+  "steps": {
+    "title": "Pasos para agregar metadatos a {{FileformatCap}} en {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) facilita a los desarrolladores de {{EnvName}} agregar detalles de metadatos a archivos {{FileFormatUp}} desde sus aplicaciones mediante la implementación de unos sencillos pasos.",
+      "step_1": "Cargue el archivo {{FileFormatUp}} para actualizarlo.",
+      "step_2": "Especifique un predicado que se utilizará para agregar propiedades de metadatos.",
+      "step_3": "Pase el predicado al método {{TextMetadataAddProperties}}.",
+      "step_4": "Guarde los cambios."
+    }
+  },
+  "more_features": {
+    "title": "Gestión de metadatos de documentos",
+    "description": "Nuestra sólida API simplifica la gestión de metadatos de documentos. Acceda, edite y manipule sin problemas una variedad de propiedades de documentos para mejorar la organización y la capacidad de búsqueda.",
+    "image_description": "Funciones de manipulación de metadatos",
+    "feature_1": {
+      "title": "Control de metadatos",
+      "content": "Recupere y procese fácilmente metadatos de documentos. Obtenga información valiosa sobre propiedades como el autor, la fecha de creación y más."
+    },
+    "feature_2": {
+      "title": "Edición de metadatos",
+      "content": "Modifique directamente los metadatos del documento. Actualice propiedades para mejorar la organización, aumentar la capacidad de búsqueda y garantizar información precisa."
+    },
+    "feature_3": {
+      "title": "Gestión avanzada de metadatos",
+      "content": "Ejecute operaciones complejas en metadatos de documentos. Agregue propiedades personalizadas de manera eficiente, elimine datos innecesarios y mantenga la coherencia de los datos."
+    },
+    "code_1": {
+      "title": "Cómo agregar metadatos personalizados a una imagen TIFF",
+      "content": "Este ejemplo demuestra cómo insertar una etiqueta personalizada en un paquete EXIF.",
+      "comment_1": "Asigne el paquete EXIF ​​si falta.",
+      "comment_2": "Insertar una propiedad reconocida.",
+      "comment_3": "Incluya una propiedad totalmente personalizada que no forme parte de la especificación EXIF.",
+      "comment_4": "Tenga en cuenta que la ID elegida puede entrar en conflicto con las ID utilizadas por algunas herramientas de terceros."
+    }
+  }
+}

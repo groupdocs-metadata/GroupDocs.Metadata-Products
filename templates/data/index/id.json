@@ -1,0 +1,578 @@
+{
+  "index-content": {
+    "head_title": ".NET, Java, Node.js API & Aplikasi Manipulasi Metadata Online oleh {{NameCompany}}",
+    "head_description": "API Metadata Dokumen asli C# .NET & Java. Membaca, menulis, mengedit & membandingkan informasi meta dari semua format populer. Analisis & ekspor metadata.",
+    "title": "Solusi Manajemen Metadata Dokumen",
+    "description_0": "API dan aplikasi untuk membaca, mengedit, mengganti, dan menghapus metadata dokumen, gambar, dan format file lainnya di platform populer.",
+    "description_1": "Tambahkan informasi metadata tersembunyi ke file dan dokumen bisnis Anda.",
+    "description_2": "Ubah atau hapus metadata yang sudah ada di dokumen Anda.",
+    "description_3": "Kumpulkan dan analisis informasi tentang metadata dokumen & file.",
+    "words_for": "untuk",
+    "release_title": "Versi {0} dirilis",
+    "release_notes": "Lihat apa yang baru",
+    "release_downloads": "Unduhan",
+    "code_more": "Lebih banyak contoh",
+    "overview_title": "{{ProdShortName}} sekilas",
+    "formats_title": "Format file yang didukung",
+    "platforms": {
+      "title": "Kemandirian Platform",
+      "head_title": "Pilih platform Anda",
+      "description": "{{ProdShortName}} kompatibel dengan berbagai sistem operasi dan kerangka kerja:",
+      "learn_more": "Belajarlah lagi",
+      "any_other_text_editor": "Editor teks lainnya"
+    },
+    "features": {
+      "title": "Ulasan fitur {{ProdShortName}}",
+      "description": "Solusi kami dirancang untuk memanipulasi metadata dalam banyak format file populer termasuk gambar dan dokumen kantor.",
+      "feature_1": {
+        "title": "Lindungi informasi bisnis",
+        "content": "Tambahkan metadata tersembunyi ke file dan dokumen sensitif Anda."
+      },
+      "feature_2": {
+        "title": "Kontrol metadata dokumen",
+        "content": "Kumpulkan informasi terperinci tentang metadata yang terkandung dalam dokumen."
+      },
+      "feature_3": {
+        "title": "Memanipulasi informasi metadata",
+        "content": "Ubah konten atau hapus metadata dalam banyak format file yang didukung."
+      },
+      "feature_4": {
+        "title": "Berbagai fitur tambahan",
+        "content": "Dapatkan pratinjau dokumen, ekstrak paket metadata, dll."
+      }
+    },
+    "formats": {
+      "title": "Lebih dari 70 format didukung",
+      "description": "{{ProdShortName}} membantu mengontrol metadata dalam format dokumen dan file populer."
+    },
+    "code_samples": {
+      "title": "Contoh kode",
+      "index_title": "Lindungi dokumen menggunakan metadata",
+      "index_description": "{{ProdShortName}} contoh kode operasi umum.",
+      "more_examples": "Lebih banyak contoh",
+      "sample_index": {
+        "title": "Hapus metadata yang tidak perlu dari gambar dan dokumen",
+        "content": "{{ProdShortName}} membantu Anda dengan mudah menghapus informasi tersembunyi dari file dan dokumen Anda. Anda dapat dengan cepat menghapus detail seperti kapan dan di mana gambar diambil, atau menghapus info penulis dan editor dari dokumen Office.",
+        "comment_1": "Berikan jalur ke dokumen ke konstruktor {{TextMetadata}}",
+        "comment_2": "Hapus properti dokumen yang terhubung ke pembuat dan editor",
+        "comment_3": "Hasil proses penghapusan metadata",
+        "comment_4": "Simpan dokumen yang sudah dibersihkan"
+      },
+      "sample_1": {
+        "code_title": "Cara mendapatkan metadata dokumen tertentu",
+        "comment_1": "Muat dokumen sumber ke konstruktor Metadata",
+        "comment_2": "Dapatkan semua properti yang berisi nama editor dokumen terakhir",
+        "comment_3": "atau tanggal/waktu dokumen terakhir diubah",
+        "comment_4": "Memproses entri metadata yang diambil"
+      },
+      "sample_2": {
+        "code_title": "Cara menambahkan beberapa properti metadata yang hilang ke file apa pun formatnya.",
+        "comment_1": "Muat dokumen sumber",
+        "comment_2": "Tambahkan properti yang berisi tanggal pencetakan terakhir file jika tidak ada",
+        "comment_3": "Properti akan ditambahkan jika dokumen mendukung jenis metadata tersebut",
+        "comment_4": "Simpan dokumen yang dimodifikasi ke jalur tertentu"
+      }
+    },
+    "metrics": {
+      "title": "{{ProdShortName}} pencapaian",
+      "description": "Temukan Metrik Utama Pencapaian Perpustakaan Kami",
+      "item_1": {
+        "title": "Format yang didukung",
+        "description": "{{ProdShortName}} mendukung manipulasi metadata untuk lebih dari 70 format file populer."
+      },
+      "item_2": {
+        "title": "Unduhan NuGet",
+        "description": "{{ProdShortName}} untuk paket .NET NuGet telah diunduh lebih dari 700.000 kali."
+      },
+      "item_3": {
+        "title": "Unduhan Maven",
+        "description": "{{ProdShortName}} memiliki 15.000 unduhan di Maven. Manajemen Metadata Java yang Kuat."
+      },
+      "item_4": {
+        "title": "Pelanggan yang senang",
+        "description": "Baik perusahaan terkenal maupun pengembang individu lebih memilih produk {{NameCompany}} untuk membangun solusi inovatif."
+      }
+    },
+    "customers": {
+      "title": "Pelanggan kami yang bahagia",
+      "description": "Produk {{NameCompany}} dipercaya oleh banyak pelanggan secara global dan digunakan dalam banyak solusi bisnis kompetitif di seluruh dunia."
+    },
+    "actions": {
+      "alt": "Perizinan",
+      "title": "Siap untuk mulai?",
+      "description": "Coba fitur {{ProdShortName}} secara gratis atau minta lisensi",
+      "description_index": "Coba fitur {{ProdShortName}} secara gratis di aplikasi Anda"
+    },
+    "faq": {
+      "title": "Pertanyaan yang sering diajukan",
+      "description": "Ada pertanyaan tentang produk kami? Kami punya jawabannya!",
+      "item_1": {
+        "question": "Apakah {{ProdShortName}} memerlukan perangkat lunak pihak ketiga untuk pemrosesan metadata dokumen?",
+        "answer": "{{ProdShortName}} beroperasi secara independen; tidak diperlukan perpustakaan eksternal seperti Microsoft Office atau Adobe Acrobat."
+      },
+      "item_2": {
+        "question": "Bisakah saya mencoba fitur {{ProdShortName}} sebelum membeli?",
+        "answer": "Sangat! {{ProdShortName}} menawarkan uji coba gratis. Instal dan jelajahi kemampuannya. Namun, harap diperhatikan bahwa versi uji coba menambahkan 'lencana uji coba' ke dokumen Anda, dan hanya memproses 3 halaman pertama. Untuk pengalaman lengkap, dapatkan lisensi sementara gratis selama 30 hari untuk fungsionalitas penuh. Lihat detailnya [di sini]({{LicensingUrl}})."
+      },
+      "item_3": {
+        "question": "Jenis lisensi apa yang tersedia?",
+        "answer": "Mencari lisensi {{ProdShortName}}? Kami menyediakan berbagai opsi untuk Anda. Pilih dari lisensi yang disesuaikan dengan kebutuhan Anda, berdasarkan faktor-faktor seperti jumlah pengembang di tim Anda, lokasi penerapan (misalnya, satu kantor atau tempat kerja jarak jauh), dan apakah distribusi pelanggan akhir memerlukan berbagi SDK/API dengan klien. Alternatifnya, pilihlah lisensi penggunaan bulanan, di mana Anda membayar berdasarkan penggunaan Anda dengan paket terukur. Jelajahi lebih jauh dan temukan yang paling cocok [di sini]({{PricingUrl}})."
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} Termasuk API Kode Rendah",
+      "description": "Kelola metadata sensitif dalam file bisnis dalam aplikasi Anda menggunakan REST API kami yang berbasis cloud.",
+      "item_1": {
+        "content": "Bekerja dengan API manipulasi metadata CURL RESTful untuk mengelola informasi metadata PDF, Word, Excel, Presentasi, gambar, dan file multimedia di aplikasi Anda."
+      },
+      "item_2": {
+        "content": "Gunakan metadata REST API dengan .NET SDK untuk menambah, mengedit, mengekstrak, mencari, dan menghapus metadata dari format dokumen dalam aplikasi .NET."
+      },
+      "item_3": {
+        "content": "Sempurnakan aplikasi Java Anda dengan fitur manajemen metadata yang canggih menggunakan Metadata SDK untuk Java."
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} Tidak Termasuk Aplikasi Kode",
+      "description": "Akses aplikasi web {{NameCompany}} untuk mengelola metadata dokumen. Proses lebih dari 70 format file populer di browser favorit Anda GRATIS.",
+      "item_1": {
+        "content": "Aplikasi gratis untuk melihat & mengedit metadata Word, Excel, PDF, PowerPoint, dan lebih dari 70 jenis dokumen."
+      },
+      "item_2": {
+        "content": "Penampil & editor metadata online gratis untuk dokumen MS Word."
+      },
+      "item_3": {
+        "content": "Lihat atau edit informasi Metadata dokumen PDF online."
+      }
+    },
+    "formats_groups": {
+      "title_1": "Format kantor",
+      "title_2": "Media & Grafik",
+      "title_3": "Lainnya",
+      "format_portable": "Portabel",
+      "format_video": "Video",
+      "format_audio": "Audio",
+      "format_fonts": "font",
+      "format_project": "Proyek",
+      "format_others": "Yang lain",
+      "format_popular_images": "Format gambar populer",
+      "format_multi_images": "Gambar multi-halaman"
+    }
+  },
+  "index-content-net": {
+    "head_title": "{{EnvNameShort}} Pembaca Metadata, Penampil, Ekstraktor, Penghapus & API Eksportir",
+    "head_description": "{{ProgLang}} {{EnvNameShort}} API metadata untuk membaca, menulis, mengedit, menganalisis, mencari, mengekstrak, menghapus, membandingkan & mengekspor metadata PDF Word Excel PPTX Outlook Audio Video & Gambar.",
+    "title": "{{EnvNameShort}} API untuk Mengelola & Memanipulasi Metadata",
+    "description": "Bangun Aplikasi {{EnvNameShort}} untuk Membaca, Mengedit, Menghapus, Mengambil, Mencari, Membandingkan, Mengganti dan Mengekspor Informasi Metadata dari semua Format File Dokumen & Gambar Populer.",
+    "actions_main": "Unduh NuGet Gratis",
+    "code_title": "Mengambil Properti Metadata dengan Cepat",
+    "code_comment_1": "Lewati gambar Jpeg ke Metadata",
+    "code_comment_2": "Hapus paket metadata utama",
+    "code_comment_3": "Simpan gambar yang sudah dibersihkan",
+    "overview_description": "Berikut ini ikhtisar {{ProdFullName}}",
+    "overview_feature_1": {
+      "title": "Integrasi aplikasi {{ProgLang}}",
+      "description": "{{ProdFullName}} API mudah diintegrasikan dengan {{ProgLang}}, {{AspNet}} dan aplikasi berbasis {{EnvNameShort}} lainnya untuk membantu pengguna akhir Anda memanipulasi metadata dari berbagai gambar, dokumen, dan file media lainnya format tanpa menginstal perangkat lunak eksternal apa pun. Pustaka metadata {{EnvNameShort}} mendukung alat pembuatan untuk dengan cepat menambahkan fungsi penampil metadata, editor, penghapus, ekstraktor, perbandingan dan pengekspor dalam sejumlah format dokumen standar industri seperti PDF, Microsoft Office Word, spreadsheet Excel, presentasi PowerPoint, Outlook email, Proyek, diagram Visio, OneNote, gambar, AutoCAD, Photoshop, audio, video, dan metafile."
+    },
+    "overview_feature_2": {
+      "title": "Berbagai jenis metadata",
+      "description": "Metadata API sangat fleksibel dan mudah dioperasikan. Ia mendapat file dokumen sebagai masukan, menganalisis informasi metadata, memungkinkan untuk melakukan operasi meta data yang didukung dan menyimpan file yang dimodifikasi untuk diakses dengan cepat di penggunaan masa depan. Ia bekerja dengan sebagian besar standar metadata terkenal seperti bawaan, XMP, EXIF, IPTC, Blok Sumber Daya Gambar, ID3, dan properti metadata khusus. Melalui API {{ProdFullName}}, Anda juga dapat membandingkan dua dokumen untuk mengidentifikasi perbedaan dan persamaan yang ada pada properti metadatanya. Anda juga dapat mengekspor metadata dokumen yang diperlukan ke Excel, CSV, atau DataSet."
+    },
+    "overview_feature_3": {
+      "title": "Semua lingkungan populer didukung",
+      "description": "{{ProdFullName}} dapat digunakan untuk mengembangkan aplikasi di lingkungan pengembangan apa pun yang menargetkan platform {{EnvNameShort}}. Ini kompatibel dengan semua bahasa berbasis {{EnvNameShort}} dan mendukung sistem operasi populer (Windows, Linux, MacOS) di mana kerangka kerja {{Mono}} atau {{EnvNameShort}} (termasuk {{CoreNet}}) dapat diinstal."
+    },
+    "features": {
+      "title": "Fitur {{ProdFullName}}",
+      "description": "Gunakan Metadata untuk Melindungi PDF, Office, Gambar, dan format lainnya",
+      "feature_1": {
+        "title": "Identifikasi Metadata Bawaan & Kustom",
+        "content": "Banyak format file memiliki metadata wajib. Memanipulasinya serta metadata khusus untuk tujuan Anda sendiri"
+      },
+      "feature_2": {
+        "title": "Temukan Foto yang Dibuat dengan Kamera Tertentu",
+        "content": "Dapatkan info tentang foto yang disimpan dalam metadata, termasuk produsen kamera, model, resolusi, dll"
+      },
+      "feature_3": {
+        "title": "Kemampuan untuk Mendeteksi/Menghapus Tanda Tangan Digital",
+        "content": "Temukan semua metadata digital di file bisnis Anda dan hapus yang Anda perlukan"
+      },
+      "feature_4": {
+        "title": "Lokasi Foto",
+        "content": "Impor properti metadata gambar dan hapus info lokasi dari foto"
+      },
+      "feature_5": {
+        "title": "Pencarian Metadata",
+        "content": "Cari properti metadata file dan sebutkan semua jenis metadata"
+      },
+      "feature_6": {
+        "title": "Data Bisnis Bersih",
+        "content": "Hapus metadata dan komentar dari laporan dan dokumen"
+      },
+      "feature_7": {
+        "title": "Pratinjau Dokumen",
+        "content": "Hasilkan pratinjau gambar untuk file EPUB, CAD, EML, dan MSG"
+      },
+      "feature_8": {
+        "title": "Dukungan Multimedia Matroska",
+        "content": "Baca subtitle Matroska dan ambil metadata file audio dan video"
+      },
+      "feature_9": {
+        "title": "Dapatkan Metadata Format Arsip & Torrent",
+        "content": "Memanipulasi metadata file arsip seperti .ZIP dan file dengan data torrent"
+      },
+      "feature_10": {
+        "title": "Pengenalan Jenis File Dokumen Run-time",
+        "content": "Solusi kami memberikan kemampuan untuk mendeteksi jenis file atau aliran sebelum pemrosesan metadata"
+      },
+      "feature_11": {
+        "title": "Analisis Perbedaan Metadata",
+        "content": "Bandingkan properti metadata dari format yang didukung dan identifikasi perbedaan atau persamaan"
+      },
+      "feature_12": {
+        "title": "Mengurangi Konsumsi Memori Dokumen & Gambar",
+        "content": "Bersihkan dokumen dan gambar dari data tambahan yang tersembunyi"
+      },
+      "feature_13": {
+        "title": "Kontrol Dokumen Kantor",
+        "content": "Ambil dan hapus data tersembunyi di file Microsoft Word, Excel, PowerPoint, dan PDF"
+      },
+      "feature_14": {
+        "title": "Ganti Properti Metadata dari Format File yang Didukung",
+        "content": "Sangat mungkin untuk mendapatkan daftar metadata dokumen yang sesuai dan mengganti konten setiap entri"
+      },
+      "feature_15": {
+        "title": "Dukungan Gambar TIFF",
+        "content": "Tambahkan, perbarui, dan hapus paket metadata IPTC dalam gambar TIFF"
+      },
+      "feature_16": {
+        "title": "Dukungan Microsoft Excel",
+        "content": "Ekstrak metadata dari file Microsoft Excel mulai dari Excel 95"
+      },
+      "feature_17": {
+        "title": "Dukungan Gambar PNG",
+        "content": "Ekstrak metadata teks dari file gambar PNG"
+      },
+      "feature_18": {
+        "title": "Deteksi Jenis MIME",
+        "content": "Deteksi jenis MIME dari file atau aliran file tertentu"
+      },
+      "feature_19": {
+        "title": "Pratinjau Gambar",
+        "content": "Ambil thumbnail dan render pratinjau gambar untuk format yang didukung"
+      },
+      "feature_20": {
+        "title": "Keamanan Multimedia Matroska",
+        "content": "Identifikasi perlindungan kata sandi dan dukungan untuk wadah multimedia Matroska"
+      },
+      "feature_21": {
+        "title": "Dukungan Metadata Bawaan",
+        "content": "Gunakan kunci yang ditentukan untuk membaca properti metadata dari format yang didukung"
+      },
+      "feature_22": {
+        "title": "Metadata Gambar EXIF",
+        "content": "Perbarui properti metadata EXIF ​​di file WEBP, PNG, dan PSD"
+      },
+      "feature_23": {
+        "title": "Dukungan Email & Font",
+        "content": "Membaca metadata pesan email dan mengurai file font OpenType"
+      },
+      "feature_24": {
+        "title": "Pemrosesan File Multimedia",
+        "content": "Ekstrak properti metadata XMP dalam file MOV, MP3, dan WEBP"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} mendukung Sistem Operasi, Kerangka Kerja & Manajer Paket berikut:",
+    "formats_description": "{{ProdFullName}} mendukung berikut ini [format file dokumen]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Beberapa kasus penggunaan operasi {{ProdFullName}} yang umum",
+    "code_title_sample_1": "Temukan metadata tersembunyi",
+    "code_samples_sample_1_content": "Untuk mengontrol konten dalam dokumen, Anda dapat menemukan dan memproses [metadata dokumen]({{Sample1Url}}):",
+    "code_title_sample_2": "Amankan konten dokumen",
+    "code_samples_sample_2_content": "Tambahkan [metadata tersembunyi]({{Sample2Url}}) ke file bisnis Anda untuk melindungi kontennya:"
+  },
+  "index-content-java": {
+    "head_title": "{{EnvNameShort}} Metadata API – Lihat, Baca, Ekspor, Edit, Hapus Metadata Dokumen",
+    "head_description": "{{EnvNameShort}} API metadata untuk melihat, membaca, mengedit, menganalisis, menemukan, menghapus, membandingkan & mengekspor metadata dokumen PDF Word Excel PPTX Outlook Visio Audio Video & Gambar.",
+    "title": "API Manipulasi Metadata untuk {{EnvNameShort}}",
+    "description": "Kembangkan Aplikasi {{EnvNameShort}} untuk Membuat, Melihat, Mengakses, Memperbarui, Menghapus, Mencari, Membandingkan, Mengganti & Mengekspor Metadata Dokumen & Format Gambar Populer.",
+    "actions_main": "Unduh Gratis dari Maven",
+    "code_title": "Ambil Properti Metadata Secara Efisien",
+    "code_comment_1": "Menyediakan jalur MP3 ke konstruktor Metadata",
+    "code_comment_2": "Memproses metadata MP3 bawaan",
+    "overview_description": "Perpustakaan dirancang untuk manipulasi metadata melalui {{EnvNameShort}}",
+    "overview_feature_1": {
+      "title": "Kontrol metadata file & dokumen",
+      "description": "{{ProdFullName}} adalah API manajemen metadata tingkat lanjut untuk memanipulasi informasi metadata dokumen, gambar, arsip, torrent, dan berbagai format file lainnya. Pengembang kini dapat meningkatkan fungsionalitas aplikasi {{EnvNameShort}} mereka dengan dengan mudah menggabungkan fitur tampilan metadata, memodifikasi, menghapus, mengekstraksi, mencari, membandingkan, mengganti, dan mengekspor dalam semua format dokumen bisnis populer seperti PDF, Microsoft Office Word, spreadsheet Excel , Presentasi & slide PowerPoint, email Outlook, Proyek, diagram Visio, OneNote, gambar, AutoCAD, Photoshop, audio, video, font dan metafile OpenType."
+    },
+    "overview_feature_2": {
+      "title": "Memanipulasi metadata bawaan",
+      "description": "Pustaka metadata {{EnvNameShort}} menawarkan fitur seperti pencarian metadata, penggantian properti metadata, membandingkan metadata format file yang didukung untuk mengidentifikasi persamaan dan perbedaan. Anda juga dapat mengedit atau mengubah metadata untuk pengelolaan informasi yang lebih baik dan mengekspor informasi metadata yang diambil ke file Excel, file CSV, dan DataSet. API ini menawarkan dukungan komprehensif untuk bekerja dengan semua standar metadata yang umum digunakan seperti properti metadata bawaan, XMP, EXIF, dan kustom dalam format dokumen yang didukung."
+    },
+    "overview_feature_3": {
+      "title": "Dukungan Platform Luas",
+      "description": "{{ProdFullName}} kompatibel dengan semua versi {{EnvNameShort}} dan mendukung sistem operasi populer (Windows, Linux, MacOS) yang mampu menjalankan runtime {{EnvNameShort}}."
+    },
+    "features": {
+      "title": "{{ProdFullName}} Fitur",
+      "description": "Lindungi PDF, dokumen Office, dan metadata gambar Anda",
+      "feature_1": {
+        "title": "Metadata Gambar EXIF",
+        "content": "Perbarui properti metadata EXIF ​​di file WEBP, PNG, dan PSD"
+      },
+      "feature_2": {
+        "title": "Dapatkan Metadata File",
+        "content": "Cari properti metadata dokumen, EXIF, dan XMP"
+      },
+      "feature_3": {
+        "title": "Bersihkan Format Office",
+        "content": "Akses dan hapus data tersembunyi di file Microsoft Word, Excel, PowerPoint, dan PDF"
+      },
+      "feature_4": {
+        "title": "Ekspor Metadata",
+        "content": "Ekspor metadata format file yang didukung ke Excel, CSV, atau DataSet"
+      },
+      "feature_5": {
+        "title": "Dukungan Gambar PNG",
+        "content": "Ekstrak metadata teks dari file gambar PNG"
+      },
+      "feature_6": {
+        "title": "Hapus Tanda Tangan Digital",
+        "content": "Identifikasi dan hapus tanda tangan digital di file Word, Excel, dan PDF"
+      },
+      "feature_7": {
+        "title": "Dukungan Metadata Bawaan",
+        "content": "Baca properti metadata menggunakan kunci yang ditentukan untuk format apa pun yang didukung"
+      },
+      "feature_8": {
+        "title": "Pratinjau Gambar",
+        "content": "Hasilkan pratinjau gambar untuk file EPUB, CAD, EML, dan MSG"
+      },
+      "feature_9": {
+        "title": "Optimasi Konten File",
+        "content": "Kurangi konsumsi memori format PDF, Excel, dan gambar"
+      },
+      "feature_10": {
+        "title": "Dukungan Multimedia Matroska",
+        "content": "Baca subtitle Matroska dan ambil metadata file audio dan video"
+      },
+      "feature_11": {
+        "title": "Ganti Konten Metadata",
+        "content": "Ganti properti metadata file Word, Excel, PowerPoint, dan PDF"
+      },
+      "feature_12": {
+        "title": "Data Bisnis Bersih",
+        "content": "Hapus metadata dan komentar dari laporan dan dokumen"
+      },
+      "feature_13": {
+        "title": "Lokasi Foto",
+        "content": "Memanipulasi properti metadata gambar dan menghapus informasi lokasi foto"
+      },
+      "feature_14": {
+        "title": "Analisis Perbedaan Metadata",
+        "content": "Identifikasi perbedaan atau persamaan dalam metadata format yang didukung dengan perbandingan"
+      },
+      "feature_15": {
+        "title": "Perlindungan Kata Sandi",
+        "content": "Deteksi perlindungan kata sandi dokumen di file Word, Excel, PowerPoint, dan PDF"
+      },
+      "feature_16": {
+        "title": "Dukungan Arsip & Torrent",
+        "content": "Memanipulasi metadata bawaan dan khusus serta mengambil metadata torrent dan format arsip"
+      },
+      "feature_17": {
+        "title": "Metadata Gambar EXIF",
+        "content": "Tambahkan atau perbarui properti metadata XMP dan EXIF ​​dari tipe arbitrer menggunakan Search API"
+      },
+      "feature_18": {
+        "title": "Deteksi Jenis File Dokumen pada Run-time",
+        "content": "Solusi kami memberikan kemampuan untuk mendeteksi jenis file atau aliran sebelum pemrosesan metadata"
+      },
+      "feature_19": {
+        "title": "Dukungan Metadata Font",
+        "content": "Mendukung enumerasi jenis metadata apa pun dan membaca metadata file font OpenType"
+      },
+      "feature_20": {
+        "title": "Dukungan Metadata Email",
+        "content": "Dapatkan dan hapus metadata pesan email dan hapus lampiran"
+      },
+      "feature_21": {
+        "title": "Dukungan Microsoft Excel",
+        "content": "Ekstraksi metadata dari file Microsoft Excel dimulai dari Excel 95"
+      },
+      "feature_22": {
+        "title": "Pratinjau Multimedia Matroska",
+        "content": "Ambil thumbnail dan pratinjau gambar dari format yang didukung dengan dukungan wadah multimedia Matroska"
+      },
+      "feature_23": {
+        "title": "Dukungan Proyek Microsoft",
+        "content": "Membaca metadata dari file Microsoft Project terenkripsi"
+      },
+      "feature_24": {
+        "title": "Dukungan TIFF",
+        "content": "Tambahkan, perbarui, dan hapus paket metadata IPTC dalam gambar TIFF"
+      },
+      "feature_25": {
+        "title": "Dukungan JPEG",
+        "content": "Tambahkan, perbarui, dan hapus paket metadata EXIF ​​dalam gambar JPEG2000"
+      },
+      "feature_26": {
+        "title": "Dukungan File Multimedia",
+        "content": "Ekstrak properti metadata XMP dalam file MOV, MP3, dan WEBP"
+      },
+      "feature_27": {
+        "title": "Dukungan Media HEIC",
+        "content": "Baca tag EXIF ​​dan properti metadata XMP dari format gambar HEIC/HEIF"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} mendukung berbagai sistem operasi dan pengelola paket.",
+    "formats_description": "{{ProdFullName}} memungkinkan pemrosesan berbagai format file. [Lihat daftar lengkapnya]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Jelajahi contoh kode yang mengilustrasikan fungsi umum {{ProdFullName}}",
+    "code_title_sample_1": "Tinjau Metadata Dokumen",
+    "code_samples_sample_1_content": "Gunakan {{ProdFullName}} untuk mengontrol konten dokumen bagian dalam. Pelajari lebih lanjut: [penelusuran metadata dokumen]({{Sample1Url}}):",
+    "code_title_sample_2": "Tambahkan metadata ke dokumen",
+    "code_samples_sample_2_content": "{{ProdFullName}} memberdayakan Anda untuk menambahkan [entri tersembunyi]({{Sample2Url}}) ke data bisnis Anda:"
+  },
+  "index-content-nodejs-java": {
+    "head_title": "Perpustakaan {{EnvNameShort}} untuk Memanipulasi Metadata File",
+    "head_description": "Sempurnakan aplikasi {{EnvNameShort}} dengan menganalisis, membandingkan, mengedit, menghapus, dan mengekspor metadata format file populer, seperti PDF, Word, Excel, dll.",
+    "title": "Pengelolaan Metadata Dokumen {{EnvNameShort}}",
+    "description": "Kelola metadata dalam format dokumen dan gambar populer menggunakan {{EnvNameShort}}.",
+    "actions_main": "Gunakan NPM untuk mengunduh secara gratis",
+    "code_title": "Manipulasi Metadata yang Efisien di {{EnvNameShort}}",
+    "code_comment_1": "Meneruskan Spreadsheet ke Metadata",
+    "code_comment_2": "Periksa format file",
+    "code_comment_3": "Analisis metadata dokumen bagian dalam",
+    "overview_description": "Pustaka TypeScript Node.js untuk mengontrol metadata",
+    "overview_feature_1": {
+      "title": "Fitur utama",
+      "description": "{{ProdFullName}} adalah perpustakaan tingkat lanjut yang memberdayakan Anda untuk mengelola metadata dalam berbagai format file. Integrasikan fungsi melihat, mengedit, menghapus, mencari, membandingkan, mengganti, dan mengekspor metadata ke dalam aplikasi {{EnvNameShort}} Anda. Format yang didukung mencakup dokumen bisnis populer seperti PDF, Microsoft Office (Word, Excel, PowerPoint), email Outlook, Project, diagram Visio, OneNote, gambar (termasuk PSD, CAD), audio, video, font OpenType, dan metafile."
+    },
+    "overview_feature_2": {
+      "title": "Memanipulasi metadata dengan mudah",
+      "description": "Perpustakaan ini menawarkan fitur lengkap seperti pencarian metadata, penggantian, perbandingan properti, dan ekstraksi informasi. Anda dapat mengekspor metadata yang diambil ke format Excel, CSV, atau DataSet. Ini mendukung standar metadata yang umum digunakan seperti bawaan, XMP, EXIF, dan properti khusus dalam format dokumen yang didukung."
+    },
+    "overview_feature_3": {
+      "title": "Dukungan Platform Populer",
+      "description": "{{ProdFullName}} kompatibel dengan semua versi {{EnvNameShort}} dan berjalan lancar di sistem operasi populer (Windows, Linux, macOS) yang mendukung runtime {{EnvNameShort}}."
+    },
+    "features": {
+      "title": "{{ProdFullName}} Fitur",
+      "description": "Berdayakan keamanan dokumen yang kuat melalui pemrosesan metadata.",
+      "feature_1": {
+        "title": "Hapus File Bisnis",
+        "content": "Hapus laporan bisnis dan dokumen dari metadata dan komentar apa pun"
+      },
+      "feature_2": {
+        "title": "Lokasi Foto",
+        "content": "Kontrol metadata dalam gambar, termasuk informasi lokasi foto"
+      },
+      "feature_3": {
+        "title": "Kontrol Dokumen Kantor",
+        "content": "Memanipulasi metadata dalam PDF, Word, Excel, PowerPoint, dan format lainnya"
+      },
+      "feature_4": {
+        "title": "Analisis Perbedaan Metadata",
+        "content": "Bandingkan dan analisis perubahan metadata dalam format file yang didukung"
+      },
+      "feature_5": {
+        "title": "Dukungan Metadata Bawaan",
+        "content": "Manfaatkan kemampuan ekstensif untuk memanipulasi metadata bawaan dan kustom"
+      },
+      "feature_6": {
+        "title": "Kontrol Metadata Gambar",
+        "content": "Kumpulkan properti metadata dokumen seperti EXIF ​​atau XMP"
+      },
+      "feature_7": {
+        "title": "Dukungan Metadata Email",
+        "content": "Memanipulasi metadata dan lampiran dalam pesan email"
+      },
+      "feature_8": {
+        "title": "Metadata Gambar EXIF",
+        "content": "Perbaiki konten metadata EXIF ​​dalam file WEBP, PNG, atau PSD"
+      },
+      "feature_9": {
+        "title": "Optimasi Konten File",
+        "content": "Kurangi konsumsi memori format PDF, Excel, dan gambar"
+      },
+      "feature_10": {
+        "title": "Dukungan Multimedia Matroska",
+        "content": "Akses subtitle dan metadata Matroska dalam file audio dan video"
+      },
+      "feature_11": {
+        "title": "Pratinjau Gambar",
+        "content": "Hasilkan pratinjau gambar untuk file MSG, CAD, EML, atau EPUB"
+      },
+      "feature_12": {
+        "title": "Dukungan Multimedia",
+        "content": "Dapatkan node metadata XMP dari file MOV, MP3, dan WEBP"
+      },
+      "feature_13": {
+        "title": "Deteksi/Hapus Tanda Tangan Digital",
+        "content": "Identifikasi dan hapus tanda tangan digital di PDF dan dokumen Office"
+      },
+      "feature_14": {
+        "title": "Ekspor Metadata",
+        "content": "Simpan metadata dari file yang didukung ke output Excel, CSV, atau DataSet"
+      },
+      "feature_15": {
+        "title": "Kontrol Metadata Bawaan",
+        "content": "Analisis properti metadata tertentu menggunakan kunci yang ditentukan untuk format apa pun yang didukung"
+      },
+      "feature_16": {
+        "title": "Perlindungan Kata Sandi",
+        "content": "Deteksi perlindungan kata sandi yang diterapkan pada dokumen PDF dan MS Word, Excel, dan PowerPoint"
+      },
+      "feature_17": {
+        "title": "Ganti Konten Metadata",
+        "content": "Ganti properti metadata file Word, Excel, PowerPoint, dan PDF"
+      },
+      "feature_18": {
+        "title": "Ekspor Metadata PNG",
+        "content": "Ekstrak metadata teks langsung dari file gambar PNG menggunakan Node.js"
+      },
+      "feature_19": {
+        "title": "Perbarui Metadata Gambar",
+        "content": "Gunakan Search API untuk menambah atau memperbarui properti metadata XMP dan EXIF"
+      },
+      "feature_20": {
+        "title": "Kontrol File Office",
+        "content": "Dapatkan akses ke dan hapus data tersembunyi yang tertanam dalam file PDF, MS Word, Excel, dan PowerPoint"
+      },
+      "feature_21": {
+        "title": "Deteksi Jenis File",
+        "content": "Deteksi jenis file secara dinamis saat runtime menggunakan Node.js"
+      },
+      "feature_22": {
+        "title": "Pratinjau Multimedia Matroska",
+        "content": "Ambil thumbnail dan pratinjau gambar untuk format file yang didukung dengan dukungan wadah multimedia Matroska"
+      },
+      "feature_23": {
+        "title": "Dukungan TIFF",
+        "content": "Memanipulasi paket metadata IPTC dalam gambar TIFF"
+      },
+      "feature_24": {
+        "title": "Dukungan Media HEIC",
+        "content": "Kontrol tag EXIF ​​dan metadata XMP untuk gambar HEIC/HEIF"
+      },
+      "feature_25": {
+        "title": "Dukungan Metadata Font",
+        "content": "Menghitung semua jenis metadata dan mengontrol metadata file font OpenType"
+      },
+      "feature_26": {
+        "title": "Dukungan Proyek Microsoft",
+        "content": "Sembunyikan semua metadata dalam file Microsoft Project terenkripsi"
+      },
+      "feature_27": {
+        "title": "Dukungan JPEG",
+        "content": "Tambahkan, perbarui, atau hapus data EXIF ​​dalam gambar JPEG2000"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} mudah terintegrasi dengan berbagai sistem operasi dan manajer paket.",
+    "formats_description": "{{ProdFullName}} memberdayakan Anda untuk memproses beragam format file. [Jelajahi daftar lengkapnya]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Pelajari contoh kode yang menampilkan fungsi umum {{ProdFullName}}",
+    "code_title_sample_1": "Diberitahu tentang konten dalam dokumen",
+    "code_samples_sample_1_content": "Untuk mendapatkan informasi tentang [metadata dokumen]({{Sample1Url}}) bagian dalam, gunakan API {{ProdFullName}}:",
+    "code_title_sample_2": "Sembunyikan info bisnis di dokumen",
+    "code_samples_sample_2_content": "Ubah dokumen Anda dengan [menambahkan metadata]({{Sample2Url}}) menggunakan Solusi kami:"
+  }
+}

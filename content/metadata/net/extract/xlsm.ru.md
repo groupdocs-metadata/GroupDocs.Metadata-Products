@@ -1,107 +1,95 @@
+
+
+
 ---
 ############################# Static ############################
-layout: "auto-gen-metadata"
-date: 2024-03-10T13:38:35
+layout: "format"
+date:  2024-06-11T15:17:16
 draft: false
-otherformats: zip xltx xltm xlt xlsx xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
+lang: ru
+format: Xlsm
+product: "Metadata"
+product_tag: "metadata"
+platform: ".NET"
+platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Чтение и извлечение метаданных XLSM файлов в C# приложениях"
-head_description: "Кроссплатформенный API управления метаданными C# для чтения и извлечения метаданных из файлов XLSM. Работайте со стандартами метаданных XMP, EXIF, IPTC, ID3 и т. д."
+head_title: "Чтение и извлечение метаданных файлов XLSM в приложениях C#"
+head_description: "Межплатформенный API управления метаданными C# для чтения и извлечения информации метаданных из файлов XLSM. Работа со стандартами метаданных XMP, EXIF, IPTC, ID3 и др."
 
 ############################# Header ############################
-title: "Извлечение метаданных из файла XLSM в C#"
-description: "Чтение и извлечение метаданных из широкого спектра документов, изображений, аудио- и видеоформатов с помощью GroupDocs.Metadata for .NET"
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Загрузить бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/metadata/net"
+title: "Извлечь метаданные из файла XLSM в C#" 
+description: "Чтение и извлечение информации метаданных из широкого спектра документов, изображений, аудио и видеоформатов с помощью GroupDocs.Metadata для .NET"
+subtitle: "GroupDocs.Metadata for .NET" 
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
-    left:
-        img_alt: "GroupDocs.Metadata for .NET"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-metadata-net.png"
-        product: "GroupDocs.Metadata"
-        platform: ".NET"
-
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/metadata/net"
-              text: "{submenu.content_middle.button_text_1}"
-
-            # button loop
-            - link: "https://github.com/groupdocs-metadata"
-              text: "{submenu.content_middle.button_text_2}"
-
-            # button loop
-            - link: "https://products.groupdocs.app/metadata/family"
-              text: "{submenu.content_middle.button_text_3}"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/metadata/net"
-              text: "{submenu.content_middle.button_text_4}"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/metadata"
-        link_learn: "https://docs.groupdocs.com/metadata/net"
-        link_buy: "https://purchase.groupdocs.com"
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Скачать бесплатную пробную версию"
+      link: "https://releases.groupdocs.com/metadata/net/"
+      
 ############################# About ############################
 about:
     enable: true
     title: "Об API GroupDocs.Metadata for .NET"
+    link: "/metadata/net/"
+    link_title: "Узнать больше"
+    picture: "about_metadata.svg" # 480 X 400
     content: |
-        [GroupDocs.Metadata for .NET](/ru/metadata/net/) предлагает расширенный набор функций управления метаданными и манипулирования ими, позволяющий разработчикам легко читать, редактировать, удалять, искать, сравнивать, заменять и экспортировать метаданные из изображений и форматов документов без использования внешнего программного обеспечения. Извлекайте метаданные из форматов PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, архивных и мультимедийных файлов и выполняйте поддерживаемые операции с метаданными с максимальной гибкостью.
+       [GroupDocs.Metadata for .NET](/metadata/net/) предлагает расширенный набор функций управления и манипулирования метаданными, позволяющий разработчикам легко читать, редактировать, удалять, искать, сравнивать, заменять и экспортировать информацию метаданных из изображений и форматов документов без с помощью любого внешнего программного обеспечения. Извлекайте детали метаданных из форматов файлов PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, архивов и мультимедиа и выполняйте поддерживаемые операции с метаданными с истинной гибкостью.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Этапы извлечения метаданных XLSM в C#"
-    content_left: |
-        [GroupDocs.Metadata for .NET](/ru/metadata/net/) позволяет разработчикам .NET легко извлекать, читать и извлекать метаданные из XLSM файлов из своих приложений, выполнив несколько простых шагов.
-        
-        * Загрузите XLSM с экземпляром класса Metadata.
-        * Создайте предикат для проверки всех свойств метаданных.
-        * Передайте предикат методу findProperties.
-        * Просмотрите найденные свойства.
+    title: "Шаги по извлечению метаданных XLSM в .NET"
+    content: |
+      [GroupDocs.Metadata](https://products.groupdocs.com/metadata/net/) позволяет разработчикам .NET легко извлекать и читать метаданные из файлов XLSM из своих приложений, выполнив несколько простых шагов.
+      
+      1. Загрузите XLSM с экземпляром класса .NET.
+      2. Создайте предикат для проверки всех свойств метаданных.
+      3. Передайте предикат методу FindProperties.
+      4. Перебрать найденные свойства.
+   
+    code:
+      platform: "net"
+      copy_title: "Копировать"
+      install:
+        command: |
+        command: "dotnet add package GroupDocs.Metadata"
+        copy_tip: "нажмите, чтобы скопировать"
+        copy_done: "скопирован"
+      links:
+        #  loop
+        - title: "Больше примеров"
+          link: "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-.NET/"
+        #  loop
+        - title: "Документация"
+          link: "https://docs.groupdocs.com/metadata/net/"
+          
+      content: |
+        ```csharp {style=abap}
+        // Извлечение свойств метаданных XLSM по различным критериям.
 
-    title_right: "Системные требования"
-    content_right: |
-        GroupDocs.Metadata for .NET API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные условия.
-
-        * Операционные системы: ОС Microsoft Windows, Linux, Mac
-        * Среды разработки: Visual Studio, Xamarin, MonoDevelop
-        * Каркасы: .NET Framework, .NET Standard, .NET Core, Mono
-        * Загрузите последнюю версию GroupDocs.Metadata for .NET с сайта [NuGet](https://www.nuget.org/packages/groupdocs.metadata)
-         
-    code: |
-        ```csharp    
+        // Создайте Metadata, передав путь XLSM.
         using (var metadata = new GroupDocs.Metadata.Metadata("input.xlsm"))
         {
-            // извлеките все свойства метаданных, которые попадают в определенную категорию
+            // извлечь все свойства метаданных, которые попадают в определенную категорию
             var properties = metadata.FindProperties(
               p => p.Tags.Any(t => t.Category == GroupDocs.Metadata.Tagging.Tags.Content));
-            // итерация по всем свойствам и отображению
+            // перебрать все свойства и отобразить
             foreach (var property in properties)
             {
                 Console.WriteLine("{0} = {1}", property.Name, property.Value);
             }
 
-            // извлеките все свойства, имеющие определенный тип и значение
+            // извлечь все свойства, имеющие определенный тип и значение
             var year = DateTime.Today.Year;
             properties = metadata.FindProperties(
               p => p.Value.Type == GroupDocs.Metadata.Common.MetadataPropertyType.DateTime && 
               p.Value.ToStruct(DateTime.MinValue).Year == year);
 
-            // отображать все свойства даты и времени со значением года, равным текущему году
+            // отобразить все свойства даты и времени со значением года, равным текущему году
             foreach (var property in properties)
             {
                 Console.WriteLine("{0} = {1}", property.Name, property.Value);
@@ -113,34 +101,211 @@ steps:
               System.Text.RegularExpressions.RegexOptions.IgnoreCase);
             properties = metadata.FindProperties(p => regex.IsMatch(p.Name));
 
-            // свойства отображения, имена которых соответствуют следующему шаблону
+            // отображать свойства, имена которых соответствуют следующему шаблону
             foreach (var property in properties)
             {
                 Console.WriteLine("{0} = {1}", property.Name, property.Value);
             }
         }
-        ```
-
-############################# Demos ############################
-demos:
-    enable: true
-    title: "Живые демоверсии извлечения метаданных"
-    content: |
-       Получите метаданные файла XLSM прямо сейчас, посетив веб-сайт [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family).
-       Живая демонстрация имеет следующие преимущества.
         
-############################# About Formats ############################
-about_formats:
-    enable: true
+        ```  
 
-############################# More Formats ############################
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Поиск метаданных файлов с помощью GroupDocs.Metadata"
+  description: "Безопасно управляйте скрытыми метаданными в конфиденциальных документах с помощью приложений .NET на базе библиотеки GroupDocs.Metadata."
+  image: "/img/metadata/features_search.webp" # 500x500 px
+  image_description: "Поиск метаданных в файлах .NET"
+  features:
+    # feature loop
+    - title: "Инструменты .NET для комплексного поиска метаданных"
+      content: "Оптимизируйте обработку документов в .NET с помощью GroupDocs.Metadata. Наше программное обеспечение предлагает мощные инструменты для эффективного поиска и управления скрытыми метаданными."
+
+    # feature loop
+    - title: "Точный таргетинг метаданных"
+      content: "Ориентируйтесь на конкретные метаданные с высочайшей точностью. Настройте свой поиск с помощью различных фильтров, таких как текст, дата или регулярные выражения, чтобы найти именно те метаданные, которые вам нужны."
+
+    # feature loop
+    - title: "Простое управление метаданными"
+      content: "Используйте .NET для обработки значений обнаруженных записей метаданных. GroupDocs.Metadata позволяет вам эффективно добавлять, обновлять или удалять метаданные в поддерживаемых форматах файлов."
+      
+  code_samples:
+    # code sample loop
+    - title: "Чтение метаданных электронной книги в C#"
+      content: |
+        В этом примере кода показано, как получить доступ к свойствам метаданных, специфичным для электронных книг EPUB.
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}
+        
+            //  Загрузите файл EPUB в объект Metadata.
+            using (Metadata metadata = new Metadata("input.epub"))
+            {
+                //  Получить все встроенные метаданные
+                var root = metadata.GetRootPackage<EpubRootPackage>();
+
+                //  Используйте полученные данные для нужд вашего приложения.
+                Console.WriteLine(root.EpubPackage.Version);
+                Console.WriteLine(root.EpubPackage.UniqueIdentifier);
+                Console.WriteLine(root.EpubPackage.ImageCover != null ? 
+                    root.EpubPackage.ImageCover.Length : 0);
+                Console.WriteLine(root.EpubPackage.Description);
+                Console.WriteLine(root.EpubPackage.Title);
+            }
+
+        ```
+        {{< /landing/code >}}
+
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Готовы начать?"
+  description: "Попробуйте функции GroupDocs.Metadata бесплатно или запросите лицензию."
+  items:
+    #  loop
+    - title: "Загрузка Nuget"
+      link: "https://releases.groupdocs.com/metadata/net/"
+      color: "red"
+        #  loop
+    - title: "Лицензирование"
+      link: "https://purchase.groupdocs.com/pricing/metadata/net/"
+      color: "light"
+
+
+############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Чтение и извлечение файлов других форматов"
-    content: |
-        API извлечения метаданных многоформатных документов и изображений для .NET. Извлеките метаданные некоторых популярных форматов файлов, как указано ниже.
+    title: "Обновление свойств метаданных из файлов других форматов"
+    exclude: "XLSM"
+    description: "API редактирования метаданных многоформатных документов и изображений для .NET. Получите метаданные некоторых популярных форматов файлов, как указано ниже."
+    items: 
+        # format loop 1
+        - name: "Добавить метаданные в AVI"
+          format: "AVI"
+          link: "/metadata/net/extract/avi/"
+          description: "(Файл чередования аудио-видео)"
+          
+        # format loop 2
+        - name: "Добавить метаданные в DJVU"
+          format: "DJVU"
+          link: "/metadata/net/extract/djvu/"
+          description: "(Формат графического файла)"
+          
+        # format loop 3
+        - name: "Добавить метаданные в DOCX"
+          format: "DOCX"
+          link: "/metadata/net/extract/docx/"
+          description: "(Документ Office 2007+ Word)"
+          
+        # format loop 4
+        - name: "Добавить метаданные в EPUB"
+          format: "EPUB"
+          link: "/metadata/net/extract/epub/"
+          description: "(Открыть файл электронной книги)"
+          
+        # format loop 5
+        - name: "Добавить метаданные в HEIC"
+          format: "HEIC"
+          link: "/metadata/net/extract/heic/"
+          description: "(Высокоэффективный формат изображения)"
+          
+        # format loop 6
+        - name: "Добавить метаданные в JPEG"
+          format: "JPEG"
+          link: "/metadata/net/extract/jpeg/"
+          description: "(Изображение Объединенной экспертной группы по фотографии)"
+          
+        # format loop 7
+        - name: "Добавить метаданные в MOV"
+          format: "MOV"
+          link: "/metadata/net/extract/mov/"
+          description: "(Фильм Apple QuickTime)"
+          
+        # format loop 8
+        - name: "Добавить метаданные в MP3"
+          format: "MP3"
+          link: "/metadata/net/extract/mp3/"
+          description: "(Аудиофайл MP3)"
+          
+        # format loop 9
+        - name: "Добавить метаданные в MSG"
+          format: "MSG"
+          link: "/metadata/net/extract/msg/"
+          description: "(Файл элемента сообщения Outlook)"
+          
+        # format loop 10
+        - name: "Добавить метаданные в ODS"
+          format: "ODS"
+          link: "/metadata/net/extract/ods/"
+          description: "(таблица OpenDocument)"
+          
+        # format loop 11
+        - name: "Добавить метаданные в ODT"
+          format: "ODT"
+          link: "/metadata/net/extract/odt/"
+          description: "(Формат текстового файла OpenDocument)"
+          
+        # format loop 12
+        - name: "Добавить метаданные в PDF"
+          format: "PDF"
+          link: "/metadata/net/extract/pdf/"
+          description: "(Портативный формат документа)"
+          
+        # format loop 13
+        - name: "Добавить метаданные в PNG"
+          format: "PNG"
+          link: "/metadata/net/extract/png/"
+          description: "(Портативная сетевая графика)"
+          
+        # format loop 14
+        - name: "Добавить метаданные в PPTX"
+          format: "PPTX"
+          link: "/metadata/net/extract/pptx/"
+          description: "(Открытый формат презентации XML)"
+          
+        # format loop 15
+        - name: "Добавить метаданные в TIFF"
+          format: "TIFF"
+          link: "/metadata/net/extract/tiff/"
+          description: "(Формат файла изображения с тегами)"
+          
+        # format loop 16
+        - name: "Добавить метаданные в TORRENT"
+          format: "TORRENT"
+          link: "/metadata/net/extract/torrent/"
+          description: "(ссылка на торрент)"
+          
+        # format loop 17
+        - name: "Добавить метаданные в VSDX"
+          format: "VSDX"
+          link: "/metadata/net/extract/vsdx/"
+          description: "(Рисунок Visio)"
+          
+        # format loop 18
+        - name: "Добавить метаданные в WAV"
+          format: "WAV"
+          link: "/metadata/net/extract/wav/"
+          description: "(Аудиофайл WAVE)"
+          
+        # format loop 19
+        - name: "Добавить метаданные в WEBP"
+          format: "WEBP"
+          link: "/metadata/net/extract/webp/"
+          description: "(Формат растрового веб-изображения)"
+          
+        # format loop 20
+        - name: "Добавить метаданные в XLSX"
+          format: "XLSX"
+          link: "/metadata/net/extract/xlsx/"
+          description: "(Открытая книга XML)"
+          
+        # format loop 21
+        - name: "Добавить метаданные в ZIP"
+          format: "ZIP"
+          link: "/metadata/net/extract/zip/"
+          description: "(Заархивированный файл)"
+          
 
-############################# Back to top ###############################
-back_to_top:
-    enable: true
 ---

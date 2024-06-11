@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "{{ProgLang}} 애플리케이션의 {{FileFormatUp}} 파일에 대한 메타데이터 제거",
+    "description": "{{ProgLang}} 메타데이터 처리 API를 사용하여 {{FileFormatUp}} 파일에 대한 메타데이터 정보를 제거합니다. 메타데이터 표준 XMP, EXIF, IPTC, ID3 등으로 작업합니다."
+  },
+  "header": {
+    "title": "{{ProgLang}}의 {{FileFormatUp}} 파일에서 메타데이터 제거",
+    "description": "{{ProdFullName}} API를 사용하여 다양한 문서, 이미지, 오디오 및 비디오 파일 형식에서 메타데이터 정보를 제거합니다.",
+    "subtitle": "{{ProdFullName}} API",
+    "action_title": "무료 평가판 다운로드"
+  },
+  "about": {
+    "title": "{{ProdFullName}} API 정보",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})는 고급 메타데이터 조작 기능 세트를 제공하므로 개발자는 별도의 도구를 사용하지 않고도 이미지 및 문서 형식의 메타데이터 정보를 쉽게 읽고, 편집, 제거, 검색, 비교, 교체 및 내보낼 수 있습니다. 외부 소프트웨어. 메타데이터 관리 API를 사용하면 PDF, Microsoft Office Word, Excel 스프레드시트, PowerPoint 프레젠테이션, Outlook, OneNote, Visio, Project, AutoCAD, 아카이브 및 멀티미디어 파일 형식과 기타 다양한 메타데이터 처리 기능에서 메타데이터 세부 정보를 삭제할 수 있습니다."
+  },
+  "formats": {
+    "title": "다른 파일 형식에서 메타데이터 속성 삭제",
+    "description": "{{EnvName}}용 다중 형식 문서 및 이미지 메타데이터 삭제 API입니다. 아래에 설명된 대로 일부 널리 사용되는 파일 형식의 메타데이터를 검색합니다."
+  },
+  "examples": {
+    "comment_1": "{{FileFormatUp}} 파일 메타데이터 제거",
+    "comment_2": "파일 생성에 기여한 모든 사람에 대한 언급을 모두 제거합니다.",
+    "comment_3": "지정된 이름을 가진 모든 속성을 제거합니다.",
+    "comment_4": "결과 저장"
+  },
+  "steps": {
+    "title": "{{ProgLang}}에서 {{FileFormatUp}} 메타데이터를 제거하는 단계",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}})를 사용하면 {{EnvName}} 개발자가 몇 가지 간단한 단계를 구현하여 애플리케이션 내에서 {{FileFormatUp}} 파일에 대한 메타데이터 세부정보를 쉽게 제거할 수 있습니다.",
+      "step_1": "{{TextMetadata}} 클래스의 인스턴스로 {{FileFormatUp}}을 로드합니다.",
+      "step_2": "조건자를 사용하여 원하는 메타데이터 속성을 찾습니다.",
+      "step_3": "속성을 제거하려면 {{TextMetadataRemoveProperties}} 메서드를 사용하세요.",
+      "step_4": "변경 사항을 {{FileFormatUp}} 형식으로 다시 저장합니다."
+    }
+  },
+  "more_features": {
+    "title": "문서 메타데이터를 쉽게 관리",
+    "description": "사용하기 쉬운 문서 메타데이터 관리 기능을 통해 파일을 정리하고 검색 가능하게 유지하세요. 다양한 세부 정보에 액세스하고, 편집하고, 업데이트하여 필요한 정보를 빠르게 찾으세요.",
+    "image_description": "간편한 문서 메타데이터 관리",
+    "feature_1": {
+      "title": "문서 메타데이터를 빠르게 확인하세요",
+      "content": "작성자, 작성 날짜 등과 같은 문서에 대한 모든 중요한 정보를 즉시 확인하세요."
+    },
+    "feature_2": {
+      "title": "문서 메타데이터를 쉽게 편집",
+      "content": "더 나은 구성, 검색 가능성 및 정확성을 위해 문서에서 직접 메타데이터를 업데이트하세요."
+    },
+    "feature_3": {
+      "title": "강력한 문서 메타데이터 관리",
+      "content": "문서 메타데이터로 더 많은 작업을 수행해 보세요! 사용자 정의 정보를 추가하고, 불필요한 데이터를 제거하고, 모든 것이 일관성을 유지하도록 하세요."
+    },
+    "code_1": {
+      "title": "ZIP 아카이브 메타데이터 지우기",
+      "content": "다음 코드 조각은 ZIP 아카이브에서 사용자 댓글을 제거하는 방법을 보여줍니다.",
+      "comment_1": "추가 처리를 위해 아카이브 파일 로드",
+      "comment_2": "기본 메타데이터 패키지 가져오기",
+      "comment_3": "보관 댓글 삭제",
+      "comment_4": "치료된 파일 저장"
+    }
+  }
+}

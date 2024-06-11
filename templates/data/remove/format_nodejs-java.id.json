@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "Hapus Metadata dari File {{FileFormatUp}} di {{EnvName}}",
+    "description": "API metadata {{EnvName}} lintas platform untuk menyembunyikan dan menghapus bidang metadata dari file {{FileFormatUp}}. Mendukung XMP, EXIF, IPTC, ID3, dan lainnya."
+  },
+  "header": {
+    "title": "Hapus Metadata {{FileFormatUp}} di {{EnvName}}",
+    "description": "Hapus properti metadata dari {{FileFormatUp}} dan format file dokumen, gambar, dan multimedia populer lainnya menggunakan API {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}} API",
+    "action_title": "Unduh Uji Coba Gratis"
+  },
+  "about": {
+    "title": "Tentang API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah solusi tingkat lanjut untuk mengelola bidang metadata. Membaca, menambah, memperbarui, menghapus, menemukan, membandingkan, menukar, dan mengekspor metadata dari gambar dan dokumen dengan mudah tanpa menggunakan perangkat lunak eksternal apa pun. Hapus metadata dari file Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, PDF, AutoCAD, ZIP, audio, dan video, serta banyak fitur lainnya."
+  },
+  "formats": {
+    "title": "Menghapus Metadata dari Format File Lain",
+    "description": "API penghapusan metadata dokumen dan gambar multi-format untuk {{EnvName}}. Ambil dan hapus metadata dari format file populer."
+  },
+  "examples": {
+    "comment_1": "Hapus metadata dokumen {{FileFormatUp}}",
+    "comment_2": "Hapus semua penyebutan kontributor",
+    "comment_3": "Hapus properti khusus berdasarkan nama",
+    "comment_4": "Simpan file yang sudah dibersihkan"
+  },
+  "steps": {
+    "title": "Langkah-langkah Menghapus Metadata dari {{FileFormatUp}} di {{EnvName}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) memudahkan pengembang {{EnvName}} menghapus metadata dari file {{FileFormatUp}} dalam beberapa langkah sederhana.",
+      "step_1": "Muat file {{FileFormatUp}} yang akan diperbarui.",
+      "step_2": "Berikan predikat pencarian ke metode {{TextRemoveProperties}}.",
+      "step_3": "Periksa jumlah properti yang dihapus.",
+      "step_4": "Simpan perubahannya."
+    }
+  },
+  "more_features": {
+    "title": "Kelola Metadata Dokumen dengan Mudah",
+    "description": "Solusi kami menyederhanakan manajemen metadata. Akses, edit, dan perbarui properti dokumen dengan mudah agar file tetap teratur dan dapat dicari.",
+    "image_description": "Lindungi Metadata Dokumen",
+    "feature_1": {
+      "title": "Kontrol Metadata yang Mudah",
+      "content": "Ambil dan proses metadata dokumen dengan cepat. Dapatkan wawasan tentang properti seperti penulis, tanggal pembuatan, dan banyak lagi."
+    },
+    "feature_2": {
+      "title": "Pengeditan Metadata Sederhana",
+      "content": "Edit metadata dokumen secara langsung. Perbarui properti untuk pengorganisasian, kemudahan penelusuran, dan akurasi yang lebih baik."
+    },
+    "feature_3": {
+      "title": "Manajemen Metadata yang Kuat",
+      "content": "Lakukan operasi lanjutan pada metadata dokumen. Tambahkan properti khusus dengan mudah, hapus data yang tidak perlu, dan pastikan konsistensi."
+    },
+    "code_1": {
+      "title": "Hapus Metadata Arsip ZIP",
+      "content": "Cuplikan kode ini menunjukkan cara menghapus komentar pengguna dari arsip ZIP.",
+      "comment_1": "Muat file arsip untuk diproses",
+      "comment_2": "Dapatkan paket metadata utama",
+      "comment_3": "Hapus komentar arsip",
+      "comment_4": "Simpan file yang sudah dibersihkan"
+    }
+  }
+}

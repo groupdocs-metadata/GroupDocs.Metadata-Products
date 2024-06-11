@@ -1,0 +1,578 @@
+{
+  "index-content": {
+    "head_title": "API .NET, Java, Node.js e app di manipolazione dei metadati online di {{NameCompany}}",
+    "head_description": "API dei metadati dei documenti native di C# .NET e Java. Leggi, scrivi, modifica e confronta metainformazioni di tutti i formati più diffusi. Analizza ed esporta metadati.",
+    "title": "Soluzione per la gestione dei metadati dei documenti",
+    "description_0": "API e app per leggere, modificare, sostituire e rimuovere metadati di documenti, immagini e altri formati di file sulle piattaforme più diffuse.",
+    "description_1": "Aggiungi informazioni sui metadati nascosti ai tuoi file e documenti aziendali.",
+    "description_2": "Modifica o rimuovi i metadati già presentati nei tuoi documenti.",
+    "description_3": "Raccogli e analizza informazioni su documenti e metadati di file.",
+    "words_for": "per",
+    "release_title": "Versione {0} rilasciata",
+    "release_notes": "Scopri le novità",
+    "release_downloads": "Download",
+    "code_more": "Altri esempi",
+    "overview_title": "{{ProdShortName}} in breve",
+    "formats_title": "Formati di file supportati",
+    "platforms": {
+      "title": "Indipendenza dalla piattaforma",
+      "head_title": "Scegli la tua piattaforma",
+      "description": "{{ProdShortName}} è compatibile con l'ampia gamma di sistemi operativi e framework:",
+      "learn_more": "Saperne di più",
+      "any_other_text_editor": "Qualsiasi altro editor di testo"
+    },
+    "features": {
+      "title": "Revisione delle funzionalità di {{ProdShortName}}",
+      "description": "La nostra soluzione è progettata per manipolare i metadati in molti formati di file popolari, inclusi immagini e documenti Office.",
+      "feature_1": {
+        "title": "Proteggi le informazioni aziendali",
+        "content": "Aggiungi metadati nascosti ai tuoi file e documenti sensibili."
+      },
+      "feature_2": {
+        "title": "Controllare i metadati del documento",
+        "content": "Raccogliere informazioni dettagliate sui metadati contenuti nei documenti."
+      },
+      "feature_3": {
+        "title": "Manipolare le informazioni sui metadati",
+        "content": "Modifica il contenuto o elimina i metadati in molti formati di file supportati."
+      },
+      "feature_4": {
+        "title": "Varie funzionalità aggiuntive",
+        "content": "Ottieni l'anteprima del documento, estrai pacchetti di metadati, ecc."
+      }
+    },
+    "formats": {
+      "title": "Sono supportati più di 70 formati",
+      "description": "{{ProdShortName}} aiuta a controllare i metadati nei formati di file e documenti più diffusi."
+    },
+    "code_samples": {
+      "title": "Esempi di codici",
+      "index_title": "Proteggi i documenti utilizzando i metadati",
+      "index_description": "{{ProdShortName}} esempi di codici operativi tipici.",
+      "more_examples": "Altri esempi",
+      "sample_index": {
+        "title": "Rimuovi i metadati non necessari da immagini e documenti",
+        "content": "{{ProdShortName}} ti aiuta a rimuovere facilmente le informazioni nascoste dai tuoi file e documenti. Puoi eliminare rapidamente dettagli come quando e dove è stata scattata un'immagine o rimuovere le informazioni sull'autore e sull'editor dai documenti di Office.",
+        "comment_1": "Passa il percorso di un documento al costruttore {{TextMetadata}}",
+        "comment_2": "Rimuovi le proprietà del documento collegate al creatore e all'editor",
+        "comment_3": "Risultato del processo di rimozione dei metadati",
+        "comment_4": "Salva il documento pulito"
+      },
+      "sample_1": {
+        "code_title": "Come ottenere metadati di documenti specifici",
+        "comment_1": "Carica il documento sorgente nel costruttore di metadati",
+        "comment_2": "Ottieni tutte le proprietà che contengono il nome dell'ultimo editor di documenti",
+        "comment_3": "o la data/ora dell'ultima modifica del documento",
+        "comment_4": "Elabora le voci di metadati recuperate"
+      },
+      "sample_2": {
+        "code_title": "Come aggiungere alcune proprietà dei metadati mancanti a un file indipendentemente dal suo formato.",
+        "comment_1": "Carica documento di origine",
+        "comment_2": "Aggiungi una proprietà contenente la data dell'ultima stampa del file, se manca",
+        "comment_3": "La proprietà verrà aggiunta se il documento supporta questo tipo di metadati",
+        "comment_4": "Salva il documento modificato in un percorso specificato"
+      }
+    },
+    "metrics": {
+      "title": "Risultati di {{ProdShortName}}",
+      "description": "Scopri le metriche chiave dei risultati della nostra biblioteca",
+      "item_1": {
+        "title": "Formati supportati",
+        "description": "{{ProdShortName}} supporta la manipolazione dei metadati per più di 70 formati di file popolari."
+      },
+      "item_2": {
+        "title": "Download di NuGet",
+        "description": "Il pacchetto {{ProdShortName}} per .NET NuGet è stato scaricato più di 700.000 volte."
+      },
+      "item_3": {
+        "title": "Download di Maven",
+        "description": "{{ProdShortName}} ha 15.000 download su Maven. Potente gestione dei metadati Java."
+      },
+      "item_4": {
+        "title": "Clienti felici",
+        "description": "Sia le aziende famose che i singoli sviluppatori preferiscono i prodotti {{NameCompany}} per creare soluzioni innovative."
+      }
+    },
+    "customers": {
+      "title": "I nostri clienti felici",
+      "description": "Prodotti {{NameCompany}} considerati affidabili da molti clienti in tutto il mondo e utilizzati in molte soluzioni aziendali competitive in tutto il mondo."
+    },
+    "actions": {
+      "alt": "Licenza",
+      "title": "Pronto per iniziare?",
+      "description": "Prova gratuitamente le funzionalità di {{ProdShortName}} o richiedi una licenza",
+      "description_index": "Prova gratuitamente le funzionalità di {{ProdShortName}} nelle tue applicazioni"
+    },
+    "faq": {
+      "title": "Domande frequenti",
+      "description": "Hai domande sul nostro prodotto? Abbiamo risposte!",
+      "item_1": {
+        "question": "{{ProdShortName}} richiede software di terze parti per l'elaborazione dei metadati dei documenti?",
+        "answer": "{{ProdShortName}} opera in modo indipendente; non sono necessarie librerie esterne come Microsoft Office o Adobe Acrobat."
+      },
+      "item_2": {
+        "question": "Posso provare le funzionalità di {{ProdShortName}} prima dell'acquisto?",
+        "answer": "Assolutamente! {{ProdShortName}} offre una prova gratuita. Installalo ed esplora le sue capacità. Tuttavia, tieni presente che le versioni di prova aggiungono 'badge di prova' ai tuoi documenti ed elaborano solo le prime 3 pagine. Per un'esperienza completa, ottieni una licenza temporanea gratuita di 30 giorni per la piena funzionalità. Controlla i dettagli [qui]({{LicensingUrl}})."
+      },
+      "item_3": {
+        "question": "Quali tipi di licenze sono disponibili?",
+        "answer": "Cerchi una licenza {{ProdShortName}}? Ti offriamo varie opzioni. Scegli tra licenze personalizzate in base alle tue esigenze, in base a fattori quali il numero di sviluppatori nel tuo team, le posizioni di distribuzione (ad esempio, un singolo ufficio o luoghi di lavoro remoti) e se la distribuzione al cliente finale richiede la condivisione dell'SDK/API con i clienti. In alternativa, opta per una licenza d'uso mensile, in cui paghi in base all'utilizzo con piani a consumo. Esplora ulteriormente e trova la soluzione perfetta [qui]({{PricingUrl}})."
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} API a basso codice includono",
+      "description": "Gestisci i metadati sensibili nei file aziendali all'interno della tua applicazione utilizzando la nostra API REST basata su cloud.",
+      "item_1": {
+        "content": "Lavora con le API di manipolazione dei metadati RESTful di cURL per gestire le informazioni sui metadati di PDF, Word, Excel, presentazioni, immagini e file multimediali nelle tue applicazioni."
+      },
+      "item_2": {
+        "content": "Utilizza l'API REST dei metadati con .NET SDK per aggiungere, modificare, estrarre, cercare ed eliminare metadati dai formati di documenti all'interno delle applicazioni .NET."
+      },
+      "item_3": {
+        "content": "Migliora le tue applicazioni Java con potenti funzionalità di gestione dei metadati utilizzando Metadata SDK per Java."
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} Nessuna app di codice inclusa",
+      "description": "Accedi all'applicazione web di {{NameCompany}} per la gestione dei metadati dei documenti. Elabora GRATUITAMENTE oltre 70 formati di file popolari nel tuo browser preferito.",
+      "item_1": {
+        "content": "App gratuita per visualizzare e modificare metadati di Word, Excel, PDF, PowerPoint e oltre 70 tipi di documenti."
+      },
+      "item_2": {
+        "content": "Visualizzatore ed editor di metadati online gratuito per documenti MS Word."
+      },
+      "item_3": {
+        "content": "Visualizza o modifica le informazioni sui metadati dei documenti PDF online."
+      }
+    },
+    "formats_groups": {
+      "title_1": "Formati d'ufficio",
+      "title_2": "Media e grafica",
+      "title_3": "Altro",
+      "format_portable": "Portatile",
+      "format_video": "video",
+      "format_audio": "Audio",
+      "format_fonts": "Caratteri",
+      "format_project": "Progetto",
+      "format_others": "Altri",
+      "format_popular_images": "Formati di immagine più diffusi",
+      "format_multi_images": "Immagini multipagina"
+    }
+  },
+  "index-content-net": {
+    "head_title": "{{EnvNameShort}} API per lettore, visualizzatore, estrattore, dispositivo di rimozione ed esportazione di metadati",
+    "head_description": "API di metadati {{ProgLang}} {{EnvNameShort}} per leggere, scrivere, modificare, analizzare, cercare, estrarre, rimuovere, confrontare ed esportare metadati di PDF Word Excel PPTX Outlook Audio Video e immagini.",
+    "title": "API {{EnvNameShort}} per gestire e manipolare i metadati",
+    "description": "Crea applicazioni {{EnvNameShort}} per leggere, modificare, rimuovere, recuperare, cercare, confrontare, sostituire ed esportare informazioni sui metadati di tutti i documenti e formati di file immagine più diffusi.",
+    "actions_main": "Download gratuito di NuGet",
+    "code_title": "Recupero rapido delle proprietà dei metadati",
+    "code_comment_1": "Passa l'immagine Jpeg ai metadati",
+    "code_comment_2": "Rimuovi il pacchetto di metadati principale",
+    "code_comment_3": "Salva l'immagine cancellata",
+    "overview_description": "Di seguito è riportata una panoramica di {{ProdFullName}}",
+    "overview_feature_1": {
+      "title": "Integrazione delle applicazioni {{ProgLang}}",
+      "description": "L'API {{ProdFullName}} è facile da integrare con {{ProgLang}}, {{AspNet}} e altre applicazioni basate su {{EnvNameShort}} per aiutare gli utenti finali a manipolare i metadati da una gamma di immagini, documenti e altri file multimediali formati senza installare alcun software esterno. La libreria di metadati {{EnvNameShort}} supporta la creazione di strumenti per aggiungere rapidamente funzionalità di visualizzazione, modifica, rimozione, estrazione, confronto ed esportazione di metadati all'interno di una serie di formati di documenti standard del settore come PDF, Microsoft Office Word, fogli di calcolo Excel, presentazioni PowerPoint, Outlook e-mail, progetto, diagrammi di Visio, OneNote, immagini, AutoCAD, Photoshop, audio, video e metafile."
+    },
+    "overview_feature_2": {
+      "title": "Vari tipi di metadati",
+      "description": "L'API dei metadati è molto flessibile e facile da utilizzare. Ottiene il file del documento come input, analizza le informazioni sui metadati, consente di eseguire operazioni sui metadati supportate e salvare il file modificato per accedervi rapidamente in un utilizzo futuro. Funziona con gli standard di metadati più importanti come built-in, XMP, EXIF, IPTC, Image Resource Blocks, ID3 e proprietà di metadati personalizzate. Tramite l'API {{ProdFullName}}, puoi anche confrontare due documenti per identificare differenze e somiglianze presenti nelle relative proprietà dei metadati. Puoi anche esportare i metadati dei documenti richiesti in Excel, CSV o DataSet."
+    },
+    "overview_feature_3": {
+      "title": "Sono supportati tutti gli ambienti più diffusi",
+      "description": "{{ProdFullName}} può essere utilizzato per sviluppare applicazioni in qualsiasi ambiente di sviluppo destinato alla piattaforma {{EnvNameShort}}. È compatibile con tutti i linguaggi basati su {{EnvNameShort}} e supporta i sistemi operativi più diffusi (Windows, Linux, MacOS) su cui è possibile installare i framework {{Mono}} o {{EnvNameShort}} (incluso {{CoreNet}})."
+    },
+    "features": {
+      "title": "Funzionalità di {{ProdFullName}}",
+      "description": "Utilizza i metadati per proteggere PDF, Office, immagini e altri formati",
+      "feature_1": {
+        "title": "Identifica metadati incorporati e personalizzati",
+        "content": "Molti formati di file hanno metadati obbligatori. Manipolali e metadati personalizzati per i tuoi scopi"
+      },
+      "feature_2": {
+        "title": "Trova le foto realizzate con una fotocamera specifica",
+        "content": "Ottieni informazioni sulle foto archiviate nei metadati, inclusi produttore della fotocamera, modello, risoluzione, ecc"
+      },
+      "feature_3": {
+        "title": "Capacità di rilevare/rimuovere firme digitali",
+        "content": "Trova tutti i metadati digitali nei tuoi file aziendali e rimuovi ciò di cui hai bisogno"
+      },
+      "feature_4": {
+        "title": "Posizione della foto",
+        "content": "Importa le proprietà dei metadati delle immagini e rimuovi le informazioni sulla posizione dalle foto"
+      },
+      "feature_5": {
+        "title": "Ricerca di metadati",
+        "content": "Cerca le proprietà dei metadati dei file ed enumera qualsiasi tipo di metadati"
+      },
+      "feature_6": {
+        "title": "Pulisci i dati aziendali",
+        "content": "Rimuovi metadati e commenti da report e documenti"
+      },
+      "feature_7": {
+        "title": "Anteprime dei documenti",
+        "content": "Genera anteprime di immagini per file EPUB, CAD, EML e MSG"
+      },
+      "feature_8": {
+        "title": "Supporto multimediale Matroska",
+        "content": "Leggi i sottotitoli Matroska e recupera metadati di file audio e video"
+      },
+      "feature_9": {
+        "title": "Ottieni metadati di formati di archivio e torrent",
+        "content": "Manipola i metadati dei file di archivio come .ZIP e file con dati torrent"
+      },
+      "feature_10": {
+        "title": "Riconoscimento in fase di esecuzione del tipo di file di documento",
+        "content": "La nostra soluzione offre la possibilità di rilevare il tipo di file o flusso prima dell'elaborazione dei metadati"
+      },
+      "feature_11": {
+        "title": "Analizzare le distinzioni dei metadati",
+        "content": "Confronta le proprietà dei metadati dei formati supportati e identifica differenze o somiglianze"
+      },
+      "feature_12": {
+        "title": "Riduzione del consumo di memoria di documenti e immagini",
+        "content": "Pulisci documenti e immagini da dati extra nascosti"
+      },
+      "feature_13": {
+        "title": "Documenti dell'ufficio di controllo",
+        "content": "Recupera e rimuovi i dati nascosti nei file Microsoft Word, Excel, PowerPoint e PDF"
+      },
+      "feature_14": {
+        "title": "Sostituisci le proprietà dei metadati dei formati di file supportati",
+        "content": "È completamente possibile ottenere un elenco di metadati di documenti idonei e sostituire il contenuto di ciascuna voce"
+      },
+      "feature_15": {
+        "title": "Supporto immagini TIFF",
+        "content": "Aggiungi, aggiorna ed elimina pacchetti di metadati IPTC nelle immagini TIFF"
+      },
+      "feature_16": {
+        "title": "Supporto per Microsoft Excel",
+        "content": "Estrai metadati da file Microsoft Excel a partire da Excel 95"
+      },
+      "feature_17": {
+        "title": "Supporto per immagini PNG",
+        "content": "Estrai metadati di testo da file di immagine PNG"
+      },
+      "feature_18": {
+        "title": "Rilevamento del tipo MIME",
+        "content": "Rileva il tipo MIME di un file o flusso di file specifico"
+      },
+      "feature_19": {
+        "title": "Anteprime delle immagini",
+        "content": "Recupera miniature ed esegui il rendering delle anteprime delle immagini per i formati supportati"
+      },
+      "feature_20": {
+        "title": "Sicurezza multimediale Matroska",
+        "content": "Identificare la protezione tramite password e il supporto per il contenitore multimediale Matroska"
+      },
+      "feature_21": {
+        "title": "Supporto metadati integrato",
+        "content": "Utilizza una chiave definita per leggere le proprietà dei metadati dei formati supportati"
+      },
+      "feature_22": {
+        "title": "Metadati immagine EXIF",
+        "content": "Aggiorna le proprietà dei metadati EXIF ​​nei file WEBP, PNG e PSD"
+      },
+      "feature_23": {
+        "title": "Supporto per email e caratteri",
+        "content": "Leggere i metadati dei messaggi e-mail e analizzare i file dei caratteri OpenType"
+      },
+      "feature_24": {
+        "title": "Elaborazione di file multimediali",
+        "content": "Estrai le proprietà dei metadati XMP nei file MOV, MP3 e WEBP"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} supporta i seguenti sistemi operativi, framework e gestori di pacchetti:",
+    "formats_description": "{{ProdFullName}} supporta i seguenti [formati di file di documento]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Alcuni casi d'uso di operazioni tipiche di {{ProdFullName}}",
+    "code_title_sample_1": "Trova metadati nascosti",
+    "code_samples_sample_1_content": "Per controllare il contenuto del documento interno potresti trovare ed elaborare [metadati del documento]({{Sample1Url}}):",
+    "code_title_sample_2": "Proteggi il contenuto dei documenti",
+    "code_samples_sample_2_content": "Aggiungi [metadati nascosti]({{Sample2Url}}) ai tuoi file aziendali per proteggerne il contenuto:"
+  },
+  "index-content-java": {
+    "head_title": "API dei metadati {{EnvNameShort}}: visualizza, leggi, esporta, modifica, rimuovi i metadati del documento",
+    "head_description": "API di metadati {{EnvNameShort}} per visualizzare, leggere, modificare, analizzare, trovare, eliminare, confrontare ed esportare metadati di documenti PDF Word Excel PPTX Outlook Visio Audio Video e documenti di immagini.",
+    "title": "API di manipolazione dei metadati per {{EnvNameShort}}",
+    "description": "Sviluppa applicazioni {{EnvNameShort}} per creare, visualizzare, accedere, aggiornare, eliminare, cercare, confrontare, sostituire ed esportare metadati di documenti e formati di immagine più diffusi.",
+    "actions_main": "Download gratuito da Maven",
+    "code_title": "Recupera in modo efficiente le proprietà dei metadati",
+    "code_comment_1": "Fornire il percorso MP3 al costruttore di metadati",
+    "code_comment_2": "Elabora i metadati MP3 integrati",
+    "overview_description": "Libreria progettata per la manipolazione dei metadati tramite {{EnvNameShort}}",
+    "overview_feature_1": {
+      "title": "Controlla i metadati di file e documenti",
+      "description": "{{ProdFullName}} è un'API avanzata di gestione dei metadati per manipolare le informazioni sui metadati di documenti, immagini, archivi, torrent e vari altri formati di file. Gli sviluppatori possono ora migliorare la funzionalità delle loro applicazioni {{EnvNameShort}} incorporando facilmente funzionalità di visualizzazione, modifica, eliminazione, estrazione, ricerca, confronto, sostituzione ed esportazione dei metadati in tutti i formati di documenti aziendali più diffusi come PDF, Microsoft Office Word, fogli di calcolo Excel , presentazioni e diapositive PowerPoint, e-mail di Outlook, Project, diagrammi di Visio, OneNote, immagini, AutoCAD, Photoshop, audio, video, caratteri OpenType e metafile."
+    },
+    "overview_feature_2": {
+      "title": "Manipolare i metadati integrati",
+      "description": "La libreria di metadati {{EnvNameShort}} offre funzionalità come la ricerca di metadati, la sostituzione delle proprietà dei metadati, il confronto dei metadati dei formati di file supportati per identificare somiglianze e differenze. È inoltre possibile modificare o modificare i metadati per una migliore gestione delle informazioni ed esportare le informazioni sui metadati recuperati in file Excel, file CSV e DataSet. L'API offre un supporto completo per lavorare con tutti gli standard di metadati comunemente utilizzati come proprietà di metadati integrate, XMP, EXIF ​​e personalizzate all'interno dei formati di documenti supportati."
+    },
+    "overview_feature_3": {
+      "title": "Ampio supporto della piattaforma",
+      "description": "{{ProdFullName}} è compatibile con tutte le versioni di {{EnvNameShort}} e supporta i sistemi operativi più diffusi (Windows, Linux, MacOS) in grado di eseguire il runtime di {{EnvNameShort}}."
+    },
+    "features": {
+      "title": "Funzionalità di {{ProdFullName}}",
+      "description": "Proteggi i tuoi metadati PDF, documenti Office e immagini",
+      "feature_1": {
+        "title": "Metadati delle immagini EXIF",
+        "content": "Aggiorna le proprietà dei metadati EXIF ​​nei file WEBP, PNG e PSD"
+      },
+      "feature_2": {
+        "title": "Ottieni metadati del file",
+        "content": "Cerca le proprietà dei metadati di documenti, EXIF ​​e XMP"
+      },
+      "feature_3": {
+        "title": "Formati Office puliti",
+        "content": "Accedi ed elimina i dati nascosti nei file Microsoft Word, Excel, PowerPoint e PDF"
+      },
+      "feature_4": {
+        "title": "Esportazione dei metadati",
+        "content": "Esporta i metadati dei formati di file supportati in Excel, CSV o DataSet"
+      },
+      "feature_5": {
+        "title": "Supporto per immagini PNG",
+        "content": "Estrai metadati di testo da file di immagine PNG"
+      },
+      "feature_6": {
+        "title": "Rimuovi le firme digitali",
+        "content": "Identifica ed elimina le firme digitali nei file Word, Excel e PDF"
+      },
+      "feature_7": {
+        "title": "Supporto metadati integrato",
+        "content": "Leggi la proprietà dei metadati utilizzando una chiave definita per qualsiasi formato supportato"
+      },
+      "feature_8": {
+        "title": "Anteprime delle immagini",
+        "content": "Genera anteprime di immagini per file EPUB, CAD, EML e MSG"
+      },
+      "feature_9": {
+        "title": "Ottimizzazione del contenuto dei file",
+        "content": "Riduci il consumo di memoria dei formati PDF, Excel e immagine"
+      },
+      "feature_10": {
+        "title": "Supporto multimediale Matroska",
+        "content": "Leggi i sottotitoli Matroska e recupera metadati di file audio e video"
+      },
+      "feature_11": {
+        "title": "Sostituisci il contenuto dei metadati",
+        "content": "Sostituisci le proprietà dei metadati di file Word, Excel, PowerPoint e PDF"
+      },
+      "feature_12": {
+        "title": "Pulisci i dati aziendali",
+        "content": "Elimina metadati e commenti da report e documenti"
+      },
+      "feature_13": {
+        "title": "Posizione della foto",
+        "content": "Manipola le proprietà dei metadati delle immagini ed elimina le informazioni sulla posizione delle foto"
+      },
+      "feature_14": {
+        "title": "Analizzare le distinzioni dei metadati",
+        "content": "Identificare differenze o somiglianze nei metadati dei formati supportati mediante confronto"
+      },
+      "feature_15": {
+        "title": "Protezione della password",
+        "content": "Rileva la protezione tramite password dei documenti nei file Word, Excel, PowerPoint e PDF"
+      },
+      "feature_16": {
+        "title": "Supporto per archivi e torrent",
+        "content": "Manipola metadati integrati e personalizzati e recupera metadati di torrent e formati di archivio"
+      },
+      "feature_17": {
+        "title": "Metadati immagine EXIF",
+        "content": "Aggiungi o aggiorna le proprietà dei metadati XMP ed EXIF ​​di tipi arbitrari utilizzando l'API di ricerca"
+      },
+      "feature_18": {
+        "title": "Rileva il tipo di file del documento in fase di esecuzione",
+        "content": "La nostra soluzione offre la possibilità di rilevare il tipo di file o flusso prima dell'elaborazione dei metadati"
+      },
+      "feature_19": {
+        "title": "Supporto metadati dei caratteri",
+        "content": "Supporta l'enumerazione di qualsiasi tipo di metadati e legge i metadati dei file di caratteri OpenType"
+      },
+      "feature_20": {
+        "title": "Supporto metadati e-mail",
+        "content": "Ottieni ed elimina i metadati dei messaggi e-mail e rimuovi gli allegati"
+      },
+      "feature_21": {
+        "title": "Supporto per Microsoft Excel",
+        "content": "Estrazione di metadati da file Microsoft Excel a partire da Excel 95"
+      },
+      "feature_22": {
+        "title": "Anteprime multimediali di Matroska",
+        "content": "Recupera miniature e anteprime di immagini dei formati supportati con il supporto del contenitore multimediale Matroska"
+      },
+      "feature_23": {
+        "title": "Supporto per Microsoft Project",
+        "content": "Leggi i metadati da file Microsoft Project crittografati"
+      },
+      "feature_24": {
+        "title": "Supporto TIFF",
+        "content": "Aggiungi, aggiorna ed elimina pacchetti di metadati IPTC nelle immagini TIFF"
+      },
+      "feature_25": {
+        "title": "Supporto JPEG",
+        "content": "Aggiungi, aggiorna e rimuovi pacchetti di metadati EXIF ​​nelle immagini JPEG2000"
+      },
+      "feature_26": {
+        "title": "Supporto per file multimediali",
+        "content": "Estrai le proprietà dei metadati XMP nei file MOV, MP3 e WEBP"
+      },
+      "feature_27": {
+        "title": "Supporto multimediale HEIC",
+        "content": "Leggi i tag EXIF ​​e le proprietà dei metadati XMP dai formati immagine HEIC/HEIF"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} supporta vari sistemi operativi e gestori di pacchetti.",
+    "formats_description": "{{ProdFullName}} consente l'elaborazione di un'ampia gamma di formati di file. [Vedi l'elenco completo]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Esplora esempi di codice che illustrano le funzionalità tipiche di {{ProdFullName}}",
+    "code_title_sample_1": "Revisione dei metadati del documento",
+    "code_samples_sample_1_content": "Utilizza {{ProdFullName}} per controllare il contenuto del documento interno. Ulteriori informazioni: [ricerca metadati documento]({{Sample1Url}}):",
+    "code_title_sample_2": "Aggiungi metadati ai documenti",
+    "code_samples_sample_2_content": "{{ProdFullName}} ti consente di aggiungere [voci nascoste]({{Sample2Url}}) ai tuoi dati aziendali:"
+  },
+  "index-content-nodejs-java": {
+    "head_title": "Libreria {{EnvNameShort}} per manipolare i metadati dei file",
+    "head_description": "Migliora le applicazioni {{EnvNameShort}} analizzando, confrontando, modificando, rimuovendo ed esportando metadati dei formati di file più diffusi, come PDF, Word, Excel ecc.",
+    "title": "Gestione dei metadati dei documenti {{EnvNameShort}}",
+    "description": "Gestisci i metadati nei formati di documenti e immagini più diffusi utilizzando {{EnvNameShort}}.",
+    "actions_main": "Utilizza NPM per scaricare gratuitamente",
+    "code_title": "Manipolazione efficiente dei metadati in {{EnvNameShort}}",
+    "code_comment_1": "Passa il foglio di calcolo ai metadati",
+    "code_comment_2": "Controlla il formato del file",
+    "code_comment_3": "Analizzare i metadati interni del documento",
+    "overview_description": "Libreria Node.js TypeScript per controllare i metadati",
+    "overview_feature_1": {
+      "title": "Caratteristiche principali",
+      "description": "{{ProdFullName}} è una libreria avanzata che ti consente di gestire i metadati in vari formati di file. Integra funzionalità di visualizzazione, modifica, eliminazione, ricerca, confronto, sostituzione ed esportazione dei metadati nelle tue applicazioni {{EnvNameShort}}. I formati supportati includono documenti aziendali popolari come PDF, Microsoft Office (Word, Excel, PowerPoint), e-mail di Outlook, Project, diagrammi di Visio, OneNote, immagini (inclusi PSD, CAD), audio, video, caratteri OpenType e metafile."
+    },
+    "overview_feature_2": {
+      "title": "Manipola facilmente i metadati",
+      "description": "Questa libreria offre funzionalità complete come la ricerca, la sostituzione, il confronto delle proprietà e l'estrazione delle informazioni dei metadati. È possibile esportare i metadati recuperati nei formati Excel, CSV o DataSet. Supporta gli standard di metadati di uso comune come proprietà integrate, XMP, EXIF ​​e personalizzate all'interno dei formati di documenti supportati."
+    },
+    "overview_feature_3": {
+      "title": "Supporto per piattaforme popolari",
+      "description": "{{ProdFullName}} è compatibile con tutte le versioni di {{EnvNameShort}} e funziona perfettamente sui sistemi operativi più diffusi (Windows, Linux, macOS) che supportano il runtime di {{EnvNameShort}}."
+    },
+    "features": {
+      "title": "Funzionalità di {{ProdFullName}}",
+      "description": "Rafforza la sicurezza dei documenti attraverso l'elaborazione dei metadati.",
+      "feature_1": {
+        "title": "Cancella file aziendali",
+        "content": "Cancella report e documenti aziendali da eventuali metadati e commenti"
+      },
+      "feature_2": {
+        "title": "Posizione della foto",
+        "content": "Controlla i metadati nelle immagini, comprese le informazioni sulla posizione delle foto"
+      },
+      "feature_3": {
+        "title": "Documenti dell'ufficio di controllo",
+        "content": "Manipola i metadati in PDF, Word, Excel, PowerPoint e altri formati"
+      },
+      "feature_4": {
+        "title": "Analizzare le distinzioni dei metadati",
+        "content": "Confronta e analizza le alterazioni dei metadati nei formati di file supportati"
+      },
+      "feature_5": {
+        "title": "Supporto metadati integrato",
+        "content": "Sfrutta funzionalità estese per manipolare metadati integrati e personalizzati"
+      },
+      "feature_6": {
+        "title": "Controlla i metadati dell'immagine",
+        "content": "Raccogli le proprietà dei metadati del documento come EXIF ​​o XMP"
+      },
+      "feature_7": {
+        "title": "Supporto metadati e-mail",
+        "content": "Manipolare metadati e allegati nei messaggi di posta elettronica"
+      },
+      "feature_8": {
+        "title": "Metadati immagine EXIF",
+        "content": "Correggere il contenuto dei metadati EXIF ​​nei file WEBP, PNG o PSD"
+      },
+      "feature_9": {
+        "title": "Ottimizzazione del contenuto dei file",
+        "content": "Riduci il consumo di memoria dei formati PDF, Excel e immagine"
+      },
+      "feature_10": {
+        "title": "Supporto multimediale Matroska",
+        "content": "Accedi ai sottotitoli e ai metadati Matroska nei file audio e video"
+      },
+      "feature_11": {
+        "title": "Anteprime delle immagini",
+        "content": "Genera anteprime di immagini per file MSG, CAD, EML o EPUB"
+      },
+      "feature_12": {
+        "title": "Supporto multimediale",
+        "content": "Ottieni nodi di metadati XMP da file MOV, MP3 e WEBP"
+      },
+      "feature_13": {
+        "title": "Rileva/Rimuovi firme digitali",
+        "content": "Identifica e rimuovi le firme digitali nei PDF e nei documenti Office"
+      },
+      "feature_14": {
+        "title": "Esportazione dei metadati",
+        "content": "Salva i metadati dai file supportati nell'output Excel, CSV o DataSet"
+      },
+      "feature_15": {
+        "title": "Controllo dei metadati integrato",
+        "content": "Analizza proprietà di metadati specifiche utilizzando chiavi definite per qualsiasi formato supportato"
+      },
+      "feature_16": {
+        "title": "Protezione della password",
+        "content": "Rileva la protezione tramite password applicata a documenti PDF e MS Word, Excel e PowerPoint"
+      },
+      "feature_17": {
+        "title": "Sostituisci il contenuto dei metadati",
+        "content": "Sostituisci le proprietà dei metadati di file Word, Excel, PowerPoint e PDF"
+      },
+      "feature_18": {
+        "title": "Esportazione metadati PNG",
+        "content": "Estrai metadati di testo direttamente dai file immagine PNG utilizzando Node.js"
+      },
+      "feature_19": {
+        "title": "Aggiorna metadati immagine",
+        "content": "Utilizza l'API di ricerca per aggiungere o aggiornare le proprietà dei metadati XMP ed EXIF"
+      },
+      "feature_20": {
+        "title": "Controllare i file di Office",
+        "content": "Ottieni l'accesso ed elimina i dati nascosti incorporati nei file PDF, MS Word, Excel e PowerPoint"
+      },
+      "feature_21": {
+        "title": "Rilevamento del tipo di file",
+        "content": "Rileva dinamicamente il tipo di file in fase di runtime utilizzando Node.js"
+      },
+      "feature_22": {
+        "title": "Anteprima multimediale Matroska",
+        "content": "Recupera miniature e anteprime di immagini per i formati di file supportati con il supporto del contenitore multimediale Matroska"
+      },
+      "feature_23": {
+        "title": "Supporto TIFF",
+        "content": "Manipola i pacchetti di metadati IPTC nelle immagini TIFF"
+      },
+      "feature_24": {
+        "title": "Supporto multimediale HEIC",
+        "content": "Controlla i tag EXIF ​​e i metadati XMP per le immagini HEIC/HEIF"
+      },
+      "feature_25": {
+        "title": "Supporto metadati dei caratteri",
+        "content": "Enumerare qualsiasi tipo di metadati e controllare i metadati dei file di font OpenType"
+      },
+      "feature_26": {
+        "title": "Supporto per Microsoft Project",
+        "content": "Ottieni tutti i metadati nascosti nei file Microsoft Project crittografati"
+      },
+      "feature_27": {
+        "title": "Supporto JPEG",
+        "content": "Aggiungi, aggiorna o rimuovi dati EXIF ​​nelle immagini JPEG2000"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} si integra facilmente con vari sistemi operativi e gestori di pacchetti.",
+    "formats_description": "{{ProdFullName}} ti consente di elaborare una vasta gamma di formati di file. [Esplora l'elenco completo]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Immergiti negli esempi di codice che mostrano le funzionalità comuni di {{ProdFullName}}",
+    "code_title_sample_1": "Essere informati sul contenuto interno dei documenti",
+    "code_samples_sample_1_content": "Per ottenere informazioni sui [metadati del documento]({{Sample1Url}}) interni, utilizza l'API {{ProdFullName}}:",
+    "code_title_sample_2": "Nascondi le informazioni aziendali nei documenti",
+    "code_samples_sample_2_content": "Modifica i tuoi documenti [aggiungendo metadati]({{Sample2Url}}) utilizzando la nostra soluzione:"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "{{EnvNameShort}} 애플리케이션을 사용하여 {{FileFormatUp}} 파일의 메타데이터 편집",
+    "description": "{{FileFormatUp}} 파일의 메타데이터를 편집하려면 {{EnvNameShort}} 메타데이터 API를 사용하세요. XMP, EXIF, IPTC, ID3 등을 지원합니다."
+  },
+  "header": {
+    "title": "{{ProgLang}}을 사용하여 {{FileformatCap}} 파일의 메타데이터 업데이트",
+    "description": "{{ProgLang}}용 메타데이터 편집기 – API를 사용하여 문서, 이미지 및 멀티미디어 파일의 메타데이터 필드를 편집합니다.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "무료 평가판 다운로드"
+  },
+  "about": {
+    "title": "{{ProdFullName}} API 정보",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})는 이미지와 문서에서 메타데이터를 읽고, 추가하고, 수정하고, 삭제하고, 검색하고, 비교하고, 바꾸고, 내보내는 고급 솔루션입니다. 기타 다양한 기능과 함께 Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, PDF, AutoCAD, ZIP, 오디오 및 비디오 파일의 메타데이터를 편집합니다."
+  },
+  "formats": {
+    "title": "다양한 파일 형식의 메타데이터 편집",
+    "description": "{{EnvNameShort}}용 다중 형식 문서 및 이미지 메타데이터 편집 API입니다. 널리 사용되는 파일 형식에 대한 메타데이터 검색 및 편집"
+  },
+  "examples": {
+    "comment_1": "인쇄 후 파일의 마지막 인쇄 날짜/시간 메타데이터 업데이트",
+    "comment_2": "{{TextMetadata}} 클래스 생성자에 파일 로드",
+    "comment_3": "기존 메타데이터 패키지만 영향을 받습니다. 새로운 패키지가 추가되지 않습니다.",
+    "comment_4": "처리결과",
+    "comment_5": "업데이트된 파일 저장"
+  },
+  "steps": {
+    "title": "{{EnvNameShort}}를 사용하여 {{FileformatCap}}에서 메타데이터를 업데이트하는 단계",
+    "content": {
+      "title": "[{{ProdFullName}}]({{ProductUrl}})를 사용하면 몇 가지 간단한 단계를 통해 {{FileformatCap}} 파일의 메타데이터를 편집할 수 있습니다.",
+      "step_1": "업데이트할 {{FileformatCap}} 파일을 로드합니다.",
+      "step_2": "원하는 메타데이터 속성을 필터링하려면 조건자를 지정하세요.",
+      "step_3": "조건자와 새 값을 {{TextUpdateProperties}} 메서드에 전달합니다.",
+      "step_4": "변경 사항을 저장합니다."
+    }
+  },
+  "more_features": {
+    "title": "{{EnvNameShort}} 앱의 {{FileFormatUp}} 메타데이터 편집",
+    "description": "{{ProdShortName}} API를 사용하면 개발자가 {{EnvName}} 애플리케이션 내에서 다양한 문서 형식의 숨겨진 메타데이터를 업데이트할 수 있습니다. 프로그래밍 방식으로 메타데이터를 적용, 편집, 검색 및 제거합니다.",
+    "image_description": "메타데이터 구성",
+    "feature_1": {
+      "title": "쉬운 메타데이터 통합",
+      "content": "{{ProdShortName}}은(는) {{EnvName}} 앱 내 문서 및 파일의 메타데이터 추가 및 편집을 단순화합니다. 개발자는 메타데이터를 쉽게 적용, 업데이트 또는 제거할 수 있습니다."
+    },
+    "feature_2": {
+      "title": "포괄적인 메타데이터 제어",
+      "content": "API는 메타데이터를 사용자 정의하기 위한 광범위한 옵션을 제공합니다. 특수 쿼리를 사용하여 파일에서 메타데이터를 쉽게 찾고, 제거하고, 업데이트할 수 있습니다."
+    },
+    "feature_3": {
+      "title": "기본 {{FileFormatUp}} 기능 사용",
+      "content": "카메라 모델, 해상도, 생성 날짜 등을 포함할 수 있는 이미지용 EXIF와 같은 내장 메타데이터 기능을 활용하세요."
+    },
+    "code_1": {
+      "title": "MP3 파일의 가사 태그 업데이트(예)",
+      "content": "이 예에서는 MP3 파일의 숨겨진 메타데이터를 업데이트하는 방법을 보여줍니다.",
+      "comment_1": "{{TextMetadata}} 클래스 생성자에 파일 로드",
+      "comment_2": "가사 데이터 업데이트",
+      "comment_3": "태그에 사용자 정의 필드 추가",
+      "comment_4": "결과 저장"
+    }
+  }
+}

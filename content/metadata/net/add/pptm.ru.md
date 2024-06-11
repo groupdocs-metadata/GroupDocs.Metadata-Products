@@ -1,120 +1,294 @@
+
+
+
 ---
 ############################# Static ############################
-layout: "auto-gen-metadata"
-date: 2024-03-10T13:38:26
+layout: "format"
+date:  2024-06-11T15:17:02
 draft: false
-otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
+lang: ru
+format: Pptm
+product: "Metadata"
+product_tag: "metadata"
+platform: ".NET"
+platform_tag: "net"
 
 ############################# Head ############################
-head_title: "Добавьте метаданные к файлам PPTM в приложениях C#"
-head_description: "C# API обработки метаданных для добавления информации о метаданных в файлы PPTM. Работа со стандартами метаданных XMP, EXIF, IPTC, ID3 и т. д."
+head_title: "Добавить метаданные в файлы PPTM в приложениях C#"
+head_description: "API обработки метаданных C# для добавления информации метаданных в файлы PPTM. Работа со стандартами метаданных XMP, EXIF, IPTC, ID3 и т. д."
 
 ############################# Header ############################
-title: "Добавление метаданных в PPTM в C#"
-description: "Добавляйте собственные свойства метаданных к широкому спектру бизнес-документов, изображений, аудио- и видеофайлов с помощью API GroupDocs.Metadata for .NET."
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Загрузить бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/metadata/net"
+title: "Добавление метаданных в PPTM в C#" 
+description: "Добавляйте пользовательские свойства метаданных к широкому спектру деловых документов, изображений, форматов аудио и видео файлов с помощью API GroupDocs.Metadata for .NET."
+subtitle: "GroupDocs.Metadata for .NET" 
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
-    left:
-        img_alt: "GroupDocs.Metadata for .NET"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-metadata-net.png"
-        product: "GroupDocs.Metadata"
-        platform: ".NET"
-
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/metadata/net"
-              text: "{submenu.content_middle.button_text_1}"
-
-            # button loop
-            - link: "https://github.com/groupdocs-metadata"
-              text: "{submenu.content_middle.button_text_2}"
-
-            # button loop
-            - link: "https://products.groupdocs.app/metadata/family"
-              text: "{submenu.content_middle.button_text_3}"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/metadata/net"
-              text: "{submenu.content_middle.button_text_4}"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/metadata"
-        link_learn: "https://docs.groupdocs.com/metadata/net"
-        link_buy: "https://purchase.groupdocs.com"
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Скачать бесплатную пробную версию"
+      link: "https://releases.groupdocs.com/metadata/net/"
+      
 ############################# About ############################
 about:
     enable: true
     title: "Об API GroupDocs.Metadata for .NET"
+    link: "/metadata/net/"
+    link_title: "Узнать больше"
+    picture: "about_metadata.svg" # 480 X 400
     content: |
-        [GroupDocs.Metadata for .NET](/ru/metadata/net/) предлагает расширенный набор функций управления метаданными и обработки метаданных, позволяющий программистам .NET легко просматривать, редактировать, удалять, находить, сравнивать, заменять и экспортировать метаданные из изображений и форматов документов без использования внешнего программного обеспечения. Добавляйте сведения о метаданных в форматы файлов PDF, Microsoft Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, архивные и мультимедийные файлы с дополнительной поддержкой для выполнения операций с метаданными в любых приложениях на базе .NET с максимальной гибкостью.
+       [GroupDocs.Metadata for .NET](/metadata/net/) предлагает расширенный набор функций управления и манипулирования метаданными, позволяющий программистам .NET легко просматривать, редактировать, удалять, находить, сравнивать, заменять и экспортировать информацию о метаданных из изображений и форматов документов без использования какого-либо внешнего программного обеспечения. Добавляйте детали метаданных в форматы файлов PDF, Microsoft Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive и Multimedia с дополнительной поддержкой для выполнения операций с метаданными в любых приложениях на основе GroupDocs.Metadata с истинной гибкостью.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Шаги по добавлению метаданных в PPTM в C#"
-    content_left: |
-        [GroupDocs.Metadata for .NET](/ru/metadata/net/) позволяет разработчикам .NET легко добавлять сведения о метаданных в PPTM файлы прямо из своих приложений, выполнив несколько простых шагов.
-        
-        * Загрузите файл PPTM для обновления.
-        * Укажите предикат, который будет использоваться для добавления свойств метаданных.
-        * Передайте предикат методу addProperties.
-        * Сохраните изменения.
-
-    title_right: "Системные требования"
-    content_right: |
-        GroupDocs.Metadata for .NET API-интерфейсы поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные требования.
-
-        * Операционные системы: ОС Microsoft Windows, Linux, Mac
-        * Среды разработки: Visual Studio, Xamarin, MonoDevelop
-        * Рамки: .NET Framework, .NET Standard, .NET Core, Mono
-        * Загрузите последнюю версию GroupDocs.Metadata for .NET из [NuGet](https://www.nuget.org/packages/groupdocs.metadata)
-         
-    code: |
-        ```csharp    
-        // загрузить файл в экземпляр класса Metadata
+    title: "Шаги по добавлению метаданных в Pptm в C#"
+    content: |
+      [GroupDocs.Metadata](/metadata/net/) позволяет разработчикам .NET легко добавлять детали метаданных в файлы PPTM из своих приложений, выполнив несколько простых шагов.
+      
+      1. Загрузите файл PPTM для обновления.
+      2. Укажите предикат, который будет использоваться для добавления свойств метаданных.
+      3. Передайте предикат методу Metadata.AddProperties.
+      4. Сохраните изменения.
+   
+    code:
+      platform: "net"
+      copy_title: "Копировать"
+      install:
+        command: |
+        command: "dotnet add package GroupDocs.Metadata"
+        copy_tip: "нажмите, чтобы скопировать"
+        copy_done: "скопирован"
+      links:
+        #  loop
+        - title: "Больше примеров"
+          link: "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-.NET/"
+        #  loop
+        - title: "Документация"
+          link: "https://docs.groupdocs.com/metadata/net/"
+          
+      content: |
+        ```csharp {style=abap}
+        // загрузите файл в экземпляр класса Metadata
         using (var metadata = new GroupDocs.Metadata.Metadata("input.pptm"))
         {
             // добавить свойство, содержащее автора контента
             var affected = metadata.AddProperties(p => p.Tags.Contains(
-              GroupDocs.Metadata.Tagging.Tags.Person.Creator), new GroupDocs.Metadata.Common.PropertyValue("test content author"));
+              GroupDocs.Metadata.Tagging.Tags.Person.Creator), 
+              new GroupDocs.Metadata.Common.PropertyValue("test content author"));
+            
+            // результаты операций процесса
             Console.WriteLine("Affected properties: {0}", affected);
+            
+            // сохраните файл с обновленными метаданными
             metadata.Save("output.pptm");
         }
-        ```
-
-############################# Demos ############################
-demos:
-    enable: true
-    title: "Живые демонстрации для добавления метаданных"
-    content: |
-       Добавьте метаданные в файл PPTM прямо сейчас, посетив веб-сайт [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family).
-       Живая демонстрация имеет следующие преимущества.
         
-############################# About Formats ############################
-about_formats:
-    enable: true
+        ```  
 
-############################# More Formats ############################
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Управление метаданными документа"
+  description: "Наш надежный API упрощает управление метаданными документов. Беспрепятственный доступ, редактирование и манипулирование различными свойствами документа для улучшения организации и удобства поиска."
+  image: "/img/metadata/features_add.webp" # 500x500 px
+  image_description: "Возможности манипулирования метаданными"
+  features:
+    # feature loop
+    - title: "Управление метаданными"
+      content: "Легко извлекайте и обрабатывайте метаданные из документов. Получите ценную информацию о таких свойствах, как автор, дата создания и т. д."
+
+    # feature loop
+    - title: "Редактирование метаданных"
+      content: "Непосредственное изменение метаданных документа. Обновите свойства, чтобы улучшить организацию, улучшить возможности поиска и обеспечить точность информации."
+
+    # feature loop
+    - title: "Расширенное управление метаданными"
+      content: "Выполнение сложных операций с метаданными документа. Эффективно добавляйте пользовательские свойства, удаляйте ненужные данные и обеспечивайте согласованность данных."
+      
+  code_samples:
+    # code sample loop
+    - title: "Как добавить пользовательские метаданные в изображение TIFF"
+      content: |
+        В этом примере показано, как вставить пользовательский тег в пакет EXIF.
+        {{< landing/code title="C#">}}
+        ```csharp {style=abap}
+        
+            using (Metadata metadata = new Metadata("input.tiff"))
+            {
+                IExif root = metadata.GetRootPackage() as IExif;
+                if (root != null)
+                {
+                    //  Назначьте пакет EXIF, если он отсутствует.
+                    if (root.ExifPackage == null)
+                    {
+                        root.ExifPackage = new ExifPackage();
+                    }
+
+                    //  Вставьте признанное свойство.
+                    root.ExifPackage.Set(new TiffAsciiTag(TiffTagID.Artist, "test artist"));
+
+                    //  Включите полностью настраиваемое свойство, которое не является частью спецификации EXIF.
+                    //  Имейте в виду, что выбранный идентификатор может конфликтовать с идентификаторами, используемыми некоторыми сторонними инструментами.
+                    root.ExifPackage.Set(new TiffAsciiTag((TiffTagID)65523, "custom"));
+
+                    metadata.Save("output.tiff");
+                }
+            }
+
+        ```
+        {{< /landing/code >}}
+
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Готовы начать?"
+  description: "Попробуйте функции GroupDocs.Metadata бесплатно или запросите лицензию."
+  items:
+    #  loop
+    - title: "Загрузка Nuget"
+      link: "https://releases.groupdocs.com/metadata/net/"
+      color: "red"
+        #  loop
+    - title: "Лицензирование"
+      link: "https://purchase.groupdocs.com/pricing/metadata/net/"
+      color: "light"
+
+
+############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Добавление свойств метаданных к другим форматам файлов"
-    content: |
-        API добавления метаданных многоформатных документов и изображений для .NET. Извлеките метаданные некоторых популярных форматов файлов, как указано ниже.
+    title: "Добавление свойств метаданных в другие форматы файлов"
+    exclude: "PPTM"
+    description: "API добавления метаданных многоформатных документов и изображений для GroupDocs.Metadata. Получите метаданные некоторых популярных форматов файлов, как указано ниже."
+    items: 
+        # format loop 1
+        - name: "Добавить метаданные в AVI"
+          format: "AVI"
+          link: "/metadata/net/add/avi/"
+          description: "(Файл чередования аудио-видео)"
+          
+        # format loop 2
+        - name: "Добавить метаданные в DJVU"
+          format: "DJVU"
+          link: "/metadata/net/add/djvu/"
+          description: "(Формат графического файла)"
+          
+        # format loop 3
+        - name: "Добавить метаданные в DOCX"
+          format: "DOCX"
+          link: "/metadata/net/add/docx/"
+          description: "(Документ Office 2007+ Word)"
+          
+        # format loop 4
+        - name: "Добавить метаданные в EPUB"
+          format: "EPUB"
+          link: "/metadata/net/add/epub/"
+          description: "(Открыть файл электронной книги)"
+          
+        # format loop 5
+        - name: "Добавить метаданные в HEIC"
+          format: "HEIC"
+          link: "/metadata/net/add/heic/"
+          description: "(Высокоэффективный формат изображения)"
+          
+        # format loop 6
+        - name: "Добавить метаданные в JPEG"
+          format: "JPEG"
+          link: "/metadata/net/add/jpeg/"
+          description: "(Изображение Объединенной экспертной группы по фотографии)"
+          
+        # format loop 7
+        - name: "Добавить метаданные в MOV"
+          format: "MOV"
+          link: "/metadata/net/add/mov/"
+          description: "(Фильм Apple QuickTime)"
+          
+        # format loop 8
+        - name: "Добавить метаданные в MP3"
+          format: "MP3"
+          link: "/metadata/net/add/mp3/"
+          description: "(Аудиофайл MP3)"
+          
+        # format loop 9
+        - name: "Добавить метаданные в MSG"
+          format: "MSG"
+          link: "/metadata/net/add/msg/"
+          description: "(Файл элемента сообщения Outlook)"
+          
+        # format loop 10
+        - name: "Добавить метаданные в ODS"
+          format: "ODS"
+          link: "/metadata/net/add/ods/"
+          description: "(таблица OpenDocument)"
+          
+        # format loop 11
+        - name: "Добавить метаданные в ODT"
+          format: "ODT"
+          link: "/metadata/net/add/odt/"
+          description: "(Формат текстового файла OpenDocument)"
+          
+        # format loop 12
+        - name: "Добавить метаданные в PDF"
+          format: "PDF"
+          link: "/metadata/net/add/pdf/"
+          description: "(Портативный формат документа)"
+          
+        # format loop 13
+        - name: "Добавить метаданные в PNG"
+          format: "PNG"
+          link: "/metadata/net/add/png/"
+          description: "(Портативная сетевая графика)"
+          
+        # format loop 14
+        - name: "Добавить метаданные в PPTX"
+          format: "PPTX"
+          link: "/metadata/net/add/pptx/"
+          description: "(Открытый формат презентации XML)"
+          
+        # format loop 15
+        - name: "Добавить метаданные в TIFF"
+          format: "TIFF"
+          link: "/metadata/net/add/tiff/"
+          description: "(Формат файла изображения с тегами)"
+          
+        # format loop 16
+        - name: "Добавить метаданные в TORRENT"
+          format: "TORRENT"
+          link: "/metadata/net/add/torrent/"
+          description: "(ссылка на торрент)"
+          
+        # format loop 17
+        - name: "Добавить метаданные в VSDX"
+          format: "VSDX"
+          link: "/metadata/net/add/vsdx/"
+          description: "(Рисунок Visio)"
+          
+        # format loop 18
+        - name: "Добавить метаданные в WAV"
+          format: "WAV"
+          link: "/metadata/net/add/wav/"
+          description: "(Аудиофайл WAVE)"
+          
+        # format loop 19
+        - name: "Добавить метаданные в WEBP"
+          format: "WEBP"
+          link: "/metadata/net/add/webp/"
+          description: "(Формат растрового веб-изображения)"
+          
+        # format loop 20
+        - name: "Добавить метаданные в XLSX"
+          format: "XLSX"
+          link: "/metadata/net/add/xlsx/"
+          description: "(Открытая книга XML)"
+          
+        # format loop 21
+        - name: "Добавить метаданные в ZIP"
+          format: "ZIP"
+          link: "/metadata/net/add/zip/"
+          description: "(Заархивированный файл)"
+          
 
-############################# Back to top ###############################
-back_to_top:
-    enable: true
 ---

@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "在 {{EnvName}} 应用程序中编辑元数据到 {{FileFormatUp}} 文件",
+    "description": "{{EnvName}} 元数据处理 API，用于编辑 {{FileFormatUp}} 文件的元数据信息。使用元数据标准 XMP、EXIF、IPTC、ID3 等。"
+  },
+  "header": {
+    "title": "更新 {{ProgLang}} 中的 {{FileformatCap}} 文件的元数据",
+    "description": "适用于 {{ProgLang}} 应用程序的元数据编辑器 – 使用适用于 {{ProgLang}} 的元数据编辑器 API 更改所有流行文档、图像和多媒体文件格式的元数据字段。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "下载免费试用版"
+  },
+  "about": {
+    "title": "关于 {{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 是一种先进的元数据字段操作解决方案，无需使用任何外部软件即可轻松读取、添加、修改、删除、搜索、比较、替换和导出图像和文档格式的元数据信息。编辑 Word 文档、Excel 电子表格、PowerPoint 演示文稿、Outlook 电子邮件、OneNote、Visio、Project、PDF、AutoCAD、ZIp、音频和视频文件格式的元数据详细信息，并支持使用许多其他元数据处理功能。"
+  },
+  "formats": {
+    "title": "更改其他文件格式的元数据",
+    "description": "适用于 {{EnvName}} 的多格式文档和图像元数据编辑 API。检索一些流行文件格式的元数据，如下所述"
+  },
+  "examples": {
+    "comment_1": "编辑 {{FileFormatUp}} 创建日期元数据",
+    "comment_2": "如果现有值早于 3 天，则更新文件创建日期/时间",
+    "comment_3": "定义您自己的规范来过滤元数据属性",
+    "comment_4": "处理更新结果",
+    "comment_5": "保存编辑的文件"
+  },
+  "steps": {
+    "title": "将元数据更新为 {{EnvName}} 中的 {{FileformatCap}} 的步骤",
+    "content": {
+      "title": "[{{ProdFullName}}]({{ProductUrl}}) 使 {{EnvName}} 开发人员可以通过执行几个简单的步骤，轻松地从其应用程序内编辑 {{FileformatCap}} 文件的元数据详细信息。",
+      "step_1": "加载要更新的 {{FileformatCap}} 文件",
+      "step_2": "指定将用于过滤所需元数据属性的谓词。",
+      "step_3": "将谓词和新值传递给 {{TextUpdateProperties}} 方法。",
+      "step_4": "保存更改。"
+    }
+  },
+  "more_features": {
+    "title": "操作 {{EnvName}} 应用的 {{FileFormatUp}} 元数据",
+    "description": "{{ProdShortName}} API 可让开发人员轻松更新其 {{EnvName}} 应用程序中各种文档格式的隐藏元数据。以编程方式应用、编辑、搜索和删除元数据。",
+    "image_description": "元数据配置",
+    "feature_1": {
+      "title": "简单的元数据集成",
+      "content": "{{ProdShortName}} 简化了向 {{EnvName}} 应用内的文档和文件添加不同元数据的过程。开发人员可以轻松应用、更新或删除元数据。"
+    },
+    "feature_2": {
+      "title": "详细的元数据控制",
+      "content": "该 API 提供了广泛的自定义元数据选项。使用特殊请求可以轻松地在文件中查找元数据并删除或更新它们。"
+    },
+    "feature_3": {
+      "title": "利用本机 {{FileFormatUp}} 功能",
+      "content": "根据文档格式，开发人员可以利用内置元数据，例如图像的 EXIF。这可能包括有关照片的信息，例如相机型号和编号、分辨率、创建日期等。"
+    },
+    "code_1": {
+      "title": "更新 MP3 文件中的歌词标签（示例）",
+      "content": "此示例演示更新 MP# 媒体文件中的隐藏元数据。",
+      "comment_1": "将文件加载到 {{TextMetadata}} 类构造函数",
+      "comment_2": "更新歌词数据",
+      "comment_3": "您可以向标签添加完全自定义字段",
+      "comment_4": "保存结果"
+    }
+  }
+}

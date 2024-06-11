@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-07T21:09:27
+date:  2024-06-11T15:16:29
 draft: false
 lang: en
 format: Xlsx
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Steps for adding Metadata to XLSX in Java"
     content: |
-      [GroupDocs.Metadata for Java](/metadata/java/) makes it easy for Java developers to add metadata details to XLSX files from within their applications by implementing a few easy steps.
+      [GroupDocs.Metadata](/metadata/java/) makes it easy for Java developers to add metadata details to XLSX files from within their applications by implementing a few easy steps.
       
       1. Load XLSX with an instance of Metadata class.
       2. Use Metadata.AddProperties method to add the properties.

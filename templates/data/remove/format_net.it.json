@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "Rimuovi i metadati dai file {{FileFormatUp}} nelle applicazioni {{ProgLang}}",
+    "description": "API di elaborazione dei metadati {{ProgLang}} per rimuovere le informazioni sui metadati nei file {{FileFormatUp}}. Funziona con gli standard di metadati XMP, EXIF, IPTC, ID3 ecc."
+  },
+  "header": {
+    "title": "Rimuovi metadati dal file {{FileFormatUp}} in {{ProgLang}}",
+    "description": "Rimuovi le informazioni sui metadati da una varietà di documenti, immagini, formati di file audio e video utilizzando l'API {{ProdFullName}}",
+    "subtitle": "API {{ProdFullName}}",
+    "action_title": "Scarica la prova gratuita"
+  },
+  "about": {
+    "title": "Informazioni sull'API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offre una serie avanzata di funzionalità di manipolazione dei metadati, consentendo agli sviluppatori di leggere, modificare, rimuovere, cercare, confrontare, sostituire ed esportare facilmente le informazioni sui metadati da immagini e formati di documenti senza utilizzare alcun software esterno. Utilizza l'API di gestione dei metadati per eliminare i dettagli dei metadati da PDF, Microsoft Office Word, fogli di calcolo Excel, presentazioni PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, archivi e formati di file multimediali insieme a molte altre funzionalità di elaborazione dei metadati."
+  },
+  "formats": {
+    "title": "Eliminazione delle proprietà dei metadati da altri formati di file",
+    "description": "API per l'eliminazione dei metadati di documenti e immagini multiformato per {{EnvName}}. Recupera i metadati di alcuni dei formati di file più diffusi come indicato di seguito."
+  },
+  "examples": {
+    "comment_1": "Rimuovi i metadati del file {{FileFormatUp}}",
+    "comment_2": "Rimuovi tutte le menzioni delle persone che hanno contribuito alla creazione del file",
+    "comment_3": "Rimuovi tutte le proprietà con il nome specificato",
+    "comment_4": "Salva risultato"
+  },
+  "steps": {
+    "title": "Passaggi per rimuovere i metadati di {{FileFormatUp}} in {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) semplifica agli sviluppatori di {{EnvName}} la rimozione dei dettagli dei metadati nei file {{FileFormatUp}} dalle loro applicazioni implementando alcuni semplici passaggi.",
+      "step_1": "Carica {{FileFormatUp}} con un'istanza della classe {{TextMetadata}}.",
+      "step_2": "Utilizza un predicato per trovare le proprietà dei metadati desiderate.",
+      "step_3": "Utilizza il metodo {{TextMetadataRemoveProperties}} per rimuovere le proprietà.",
+      "step_4": "Salva nuovamente le modifiche nel formato {{FileFormatUp}}."
+    }
+  },
+  "more_features": {
+    "title": "Gestisci facilmente i metadati dei documenti",
+    "description": "Mantieni i tuoi file organizzati e ricercabili con la nostra gestione dei metadati dei documenti facile da usare. Accedi, modifica e aggiorna vari dettagli per trovare rapidamente ciò di cui hai bisogno.",
+    "image_description": "Gestione semplice dei metadati dei documenti",
+    "feature_1": {
+      "title": "Consulta rapidamente i metadati del documento",
+      "content": "Ottieni istantaneamente tutte le informazioni importanti su un documento, come autore, data di creazione e altro ancora."
+    },
+    "feature_2": {
+      "title": "Modifica facilmente i metadati del documento",
+      "content": "Aggiorna i metadati direttamente nei tuoi documenti per una migliore organizzazione, ricercabilità e precisione."
+    },
+    "feature_3": {
+      "title": "Potente gestione dei metadati dei documenti",
+      "content": "Fai di più con i metadati del tuo documento! Aggiungi informazioni personalizzate, rimuovi i dati non necessari e assicurati che tutto rimanga coerente."
+    },
+    "code_1": {
+      "title": "Cancella i metadati dell'archivio ZIP",
+      "content": "Il seguente frammento di codice mostra come rimuovere il commento dell'utente da un archivio ZIP",
+      "comment_1": "Carica il file di archivio per ulteriori elaborazioni",
+      "comment_2": "Ottieni il pacchetto di metadati principale",
+      "comment_3": "Rimuovi i commenti dall'archivio",
+      "comment_4": "Salva il file pulito"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "将元数据添加到 {{ProgLang}} 应用程序中的 {{FileFormatUp}} 文件",
+    "description": "{{ProgLang}} 元数据处理 API，用于将元数据信息添加到 {{FileFormatUp}} 文件。使用元数据标准 XMP、EXIF、IPTC、ID3 等。"
+  },
+  "header": {
+    "title": "将元数据添加到 {{ProgLang}} 中的 {{FileFormatUp}}",
+    "description": "使用 {{ProdFullName}} 将自定义元数据属性添加到各种业务文档、图像、音频和视频文件格式。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "下载免费试用版"
+  },
+  "about": {
+    "title": "关于 {{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 是一种先进的元数据字段管理和操作解决方案，无需使用任何外部软件即可轻松查看、更新、删除、查找、比较、交换和导出图像和文档格式的元数据信息。将元数据详细信息添加到 Word 文档、Excel 电子表格、PowerPoint 演示文稿、Outlook 电子邮件、OneNote、Visio、Project、PDF、AutoCAD、ZIp、音频和视频文件格式，并支持使用许多其他元数据处理功能。"
+  },
+  "formats": {
+    "title": "将元数据属性添加到其他文件格式",
+    "description": "{{EnvName}} 的多格式文档和图像元数据添加 API。检索一些流行文件格式的元数据，如下所述。"
+  },
+  "examples": {
+    "comment_1": "在 {{TextMetadata}} 类的实例中加载文件",
+    "comment_2": "添加包含内容作者的属性",
+    "comment_3": "流程运行结果",
+    "comment_4": "使用更新的元数据保存文件"
+  },
+  "steps": {
+    "title": "将元数据添加到 {{ProgLang}} 中的 {{FileFormatUp}} 的步骤",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) 使 {{EnvName}} 开发人员可以通过执行几个简单的步骤，轻松地从其应用程序内向 {{FileFormatUp}} 文件添加元数据详细信息。",
+      "step_1": "使用 {{TextMetadata}} 类的实例加载 {{FileFormatUp}}。",
+      "step_2": "使用 {{TextMetadataAddProperties}} 方法添加属性。",
+      "step_3": "使用谓词查找所需的元数据属性。",
+      "step_4": "以 {{FileFormatUp}} 格式保存更改。"
+    }
+  },
+  "more_features": {
+    "title": "文档元数据管理",
+    "description": "我们全面的 API 简化了文档元数据的管理。访问、编辑和操作各种文档属性，以改进组织和可搜索性。",
+    "image_description": "元数据功能",
+    "feature_1": {
+      "title": "元数据访问",
+      "content": "轻松检索和处理文档的元数据。深入了解作者、创建日期等属性。"
+    },
+    "feature_2": {
+      "title": "元数据编辑",
+      "content": "直接修改文档元数据。更新属性以实现更好的组织、可搜索性和信息准确性。"
+    },
+    "feature_3": {
+      "title": "高级元数据管理",
+      "content": "对文档元数据执行复杂的操作。高效处理添加自定义属性、删除不相关数据、确保数据一致性等任务。"
+    },
+    "code_1": {
+      "title": "如何从不需要的元数据中清除图像",
+      "content": "此代码示例演示如何从文件中删除 EXIF 元数据",
+      "comment_1": "将图像传递给 {{TextMetadata}} 类构造函数",
+      "comment_2": "访问EXIF根包",
+      "comment_3": "删除元数据",
+      "comment_4": "保存清除的文件"
+    }
+  }
+}

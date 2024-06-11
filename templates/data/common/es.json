@@ -1,0 +1,108 @@
+{
+  "common-content": {
+    "format-formats": {
+      "avi": {
+        "name": "Agregar metadatos a AVI",
+        "description": "(Archivo intercalado de audio y vídeo)"
+      },
+      "djvu": {
+        "name": "Agregar metadatos a DJVU",
+        "description": "(Formato de archivo de gráficos)"
+      },
+      "docx": {
+        "name": "Agregar metadatos a DOCX",
+        "description": "(Documento de Word de Office 2007+)"
+      },
+      "epub": {
+        "name": "Agregar metadatos a EPUB",
+        "description": "(Abrir archivo de libro electrónico)"
+      },
+      "heic": {
+        "name": "Agregar metadatos a HEIC",
+        "description": "(Formato de imagen de alta eficiencia)"
+      },
+      "jpeg": {
+        "name": "Agregar metadatos a JPEG",
+        "description": "(Imagen del grupo conjunto de expertos fotográficos)"
+      },
+      "mov": {
+        "name": "Agregar metadatos a MOV",
+        "description": "(Película QuickTime de Apple)"
+      },
+      "mp3": {
+        "name": "Agregar metadatos a MP3",
+        "description": "(Archivo de audio MP3)"
+      },
+      "msg": {
+        "name": "Agregar metadatos a MSG",
+        "description": "(Archivo de elemento de mensaje de Outlook)"
+      },
+      "ods": {
+        "name": "Agregar metadatos a ODS",
+        "description": "(Hoja de cálculo de OpenDocument)"
+      },
+      "odt": {
+        "name": "Agregar metadatos a ODT",
+        "description": "(Formato de archivo de texto OpenDocument)"
+      },
+      "pdf": {
+        "name": "Agregar metadatos a PDF",
+        "description": "(Formato de Documento Portable)"
+      },
+      "png": {
+        "name": "Agregar metadatos a PNG",
+        "description": "(Gráfico de red portátil)"
+      },
+      "pptx": {
+        "name": "Agregar metadatos a PPTX",
+        "description": "(Formato de presentación XML abierto)"
+      },
+      "tiff": {
+        "name": "Agregar metadatos a TIFF",
+        "description": "(Formato de archivo de imagen etiquetado)"
+      },
+      "torrent": {
+        "name": "Agregar metadatos a TORRENT",
+        "description": "(Enlace torrente)"
+      },
+      "vsdx": {
+        "name": "Agregar metadatos a VSDX",
+        "description": "(Dibujo de Visio)"
+      },
+      "wav": {
+        "name": "Agregar metadatos a WAV",
+        "description": "(Archivo de audio WAVE)"
+      },
+      "webp": {
+        "name": "Agregar metadatos a WEBP",
+        "description": "(Formato de imagen web rasterizada)"
+      },
+      "xlsx": {
+        "name": "Agregar metadatos a XLSX",
+        "description": "(Libro de trabajo XML abierto)"
+      },
+      "zip": {
+        "name": "Agregar metadatos a ZIP",
+        "description": "(Archivo comprimido)"
+      }
+    },
+    "format-code": {
+      "copy_title": "Copiar",
+      "copy_tip": "haga clic para copiar",
+      "copy_done": "copiado",
+      "links": {
+        "title_1": "Más ejemplos",
+        "title_2": "Documentación"
+      }
+    },
+    "format-actions": {
+      "title": "¿Listo para comenzar?",
+      "description": "Pruebe las funciones de {{ProdShortName}} gratis o solicite una licencia",
+      "comment_1": "Descarga de {{PackageStoreName}}",
+      "comment_2": "Licencia"
+    },
+    "texts": {
+      "learn_more": "Aprende más"
+    }
+  }
+}

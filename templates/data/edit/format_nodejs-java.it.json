@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Modifica i metadati nei file {{FileFormatUp}} con le applicazioni {{EnvNameShort}}",
+    "description": "Utilizza l'API dei metadati {{EnvNameShort}} per modificare i metadati nei file {{FileFormatUp}}. Supporta XMP, EXIF, IPTC, ID3 e altro."
+  },
+  "header": {
+    "title": "Aggiorna i metadati nei file {{FileformatCap}} utilizzando {{ProgLang}}",
+    "description": "Editor di metadati per {{ProgLang}} – Modifica i campi di metadati in documenti, immagini e file multimediali con la nostra API.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Scarica la prova gratuita"
+  },
+  "about": {
+    "title": "Informazioni sull'API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) è una soluzione avanzata per leggere, aggiungere, modificare, eliminare, cercare, confrontare, sostituire ed esportare metadati da immagini e documenti. Modifica i metadati in Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, PDF, AutoCAD, ZIP, file audio e video, insieme a molte altre funzionalità."
+  },
+  "formats": {
+    "title": "Modifica metadati in vari formati di file",
+    "description": "API di modifica dei metadati di documenti e immagini multiformato per {{EnvNameShort}}. Recupera e modifica i metadati per i formati di file più diffusi"
+  },
+  "examples": {
+    "comment_1": "Aggiorna i metadati di data/ora dell'ultima stampa del file dopo la stampa",
+    "comment_2": "Carica il file nel costruttore della classe {{TextMetadata}}",
+    "comment_3": "Sono interessati solo i pacchetti di metadati esistenti. Non vengono aggiunti nuovi pacchetti.",
+    "comment_4": "Risultato dell'elaborazione",
+    "comment_5": "Salva file aggiornato"
+  },
+  "steps": {
+    "title": "Passaggi per aggiornare i metadati in {{FileformatCap}} utilizzando {{EnvNameShort}}",
+    "content": {
+      "title": "[{{ProdFullName}}]({{ProductUrl}}) consente di modificare i metadati nei file {{FileformatCap}} con pochi semplici passaggi.",
+      "step_1": "Carica il file {{FileformatCap}} da aggiornare.",
+      "step_2": "Specificare un predicato per filtrare le proprietà dei metadati desiderate.",
+      "step_3": "Passa il predicato e il nuovo valore al metodo {{TextUpdateProperties}}.",
+      "step_4": "Salva le modifiche."
+    }
+  },
+  "more_features": {
+    "title": "Modifica i metadati {{FileFormatUp}} per le app {{EnvNameShort}}",
+    "description": "L'API {{ProdShortName}} consente agli sviluppatori di aggiornare i metadati nascosti in vari formati di documenti all'interno delle applicazioni {{EnvName}}. Applica, modifica, cerca e rimuovi i metadati a livello di codice.",
+    "image_description": "Configurazione dei metadati",
+    "feature_1": {
+      "title": "Facile integrazione dei metadati",
+      "content": "{{ProdShortName}} semplifica l'aggiunta e la modifica dei metadati in documenti e file all'interno delle tue app {{EnvName}}. Gli sviluppatori possono applicare, aggiornare o rimuovere facilmente i metadati."
+    },
+    "feature_2": {
+      "title": "Controllo completo dei metadati",
+      "content": "L'API fornisce ampie opzioni per la personalizzazione dei metadati. Trova, rimuovi o aggiorna facilmente i metadati nei file utilizzando query specializzate."
+    },
+    "feature_3": {
+      "title": "Utilizza le funzionalità native di {{FileFormatUp}}",
+      "content": "Sfrutta le funzionalità di metadati integrate come EXIF ​​per le immagini, che possono includere modello di fotocamera, risoluzione, data di creazione e altro ancora."
+    },
+    "code_1": {
+      "title": "Aggiorna il tag del testo in un file MP3 (esempio)",
+      "content": "Questo esempio mostra come aggiornare i metadati nascosti in un file MP3.",
+      "comment_1": "Carica il file nel costruttore della classe {{TextMetadata}}",
+      "comment_2": "Aggiorna i dati dei testi",
+      "comment_3": "Aggiungi un campo personalizzato al tag",
+      "comment_4": "Salva il risultato"
+    }
+  }
+}

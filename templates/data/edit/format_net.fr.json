@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Modifier les métadonnées dans les fichiers {{FileformatCap}} dans les applications {{ProgLang}}",
+    "description": "{{ProgLang}} API de traitement des métadonnées pour modifier les informations de métadonnées dans les fichiers {{FileformatCap}}. Travaillez avec les normes de métadonnées XMP, EXIF, IPTC, ID3, etc."
+  },
+  "header": {
+    "title": "Mettre à jour les métadonnées du fichier {{FileformatCap}} dans {{ProgLang}}",
+    "description": "Mettez à jour les informations de métadonnées de tous les formats de documents, d'images et de fichiers multimédias populaires avec la prise en charge de l'exécution de toutes les opérations de traitement de métadonnées les plus nécessaires.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger l'essai gratuit"
+  },
+  "about": {
+    "title": "À propos de l'API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offre un ensemble avancé de fonctionnalités de gestion des métadonnées, permettant aux développeurs de lire, documenter, supprimer, rechercher, comparer, remplacer et exporter facilement les informations de métadonnées à partir d'images et de formats de documents sans utiliser aucun logiciel externe. Utilisez l'API de manipulation des métadonnées pour modifier les détails des métadonnées à partir des formats de fichiers PDF, Microsoft Office Word, Excel, présentations PowerPoint, e-mails Outlook, OneNote, Visio, Project, AutoCAD, Archive et Multimédia, ainsi que la prise en charge de nombreuses autres fonctionnalités de traitement des métadonnées."
+  },
+  "formats": {
+    "title": "Mise à jour des propriétés des métadonnées à partir d'autres formats de fichiers",
+    "description": "API d'édition de métadonnées de documents et d'images multiformats pour {{EnvName}}. Récupérez les métadonnées de certains des formats de fichiers populaires comme indiqué ci-dessous"
+  },
+  "examples": {
+    "comment_1": "Modifier la date de création de {{FileFormatUp}}",
+    "comment_2": "définissez la valeur de chaque propriété qui satisfait le prédicat :",
+    "comment_3": "la propriété contient la date/heure de création du document",
+    "comment_4": "mettre à jour la date/heure de création du fichier si la valeur existante est antérieure à 3 jours",
+    "comment_5": "Enregistrer le résultat {{FileFormatUp}}"
+  },
+  "steps": {
+    "title": "Étapes de mise à jour des métadonnées vers {{FileFormatUp}} dans {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdFullName}}]({{ProductUrl}}) permet aux développeurs {{EnvName}} de modifier facilement les informations de métadonnées dans les fichiers {{FileFormatUp}} à partir de leurs applications en mettant en œuvre quelques étapes simples.",
+      "step_1": "Chargez le fichier {{FileFormatUp}} via une instance de la classe {{TextMetadata}}.",
+      "step_2": "Spécifiez un prédicat qui sera utilisé pour filtrer les propriétés de métadonnées souhaitées.",
+      "step_3": "Transmettez le prédicat et la nouvelle valeur à la méthode {{TextUpdateProperties}}.",
+      "step_4": "Enregistrez les modifications sur le disque au format {{FileFormatUp}}."
+    }
+  },
+  "more_features": {
+    "title": "Gérer les {{FileFormatUp}} propriétés de métadonnées internes pour les applications {{EnvName}}",
+    "description": "L'API {{ProdShortName}} permet aux développeurs de modifier facilement les détails du document (métadonnées) dans différents formats à l'aide de leurs applications {{EnvName}}. Ajoutez, mettez à jour, recherchez et supprimez par programme des propriétés de document.",
+    "image_description": "Gestion des propriétés des métadonnées des documents",
+    "feature_1": {
+      "title": "Intégration efficace des métadonnées",
+      "content": "{{ProdShortName}} simplifie l'ajout de différentes propriétés aux documents et fichiers au sein de vos applications {{EnvName}}. Les développeurs peuvent facilement appliquer, mettre à jour ou supprimer les propriétés du document par programmation."
+    },
+    "feature_2": {
+      "title": "Contrôle précis des métadonnées",
+      "content": "L'API offre des options étendues pour gérer les propriétés des documents. Les développeurs peuvent trouver et traiter efficacement toutes les données cachées placées dans les fichiers professionnels."
+    },
+    "feature_3": {
+      "title": "Tirer parti des propriétés {{FileFormatUp}} intégrées",
+      "content": "En fonction du format du document, les développeurs peuvent utiliser les propriétés existantes telles que les données EXIF ​​​​pour les images. Cela peut inclure des informations telles que les détails de la caméra, la résolution, la date de création, etc."
+    },
+    "code_1": {
+      "title": "Mettre à jour les métadonnées des paroles dans un fichier MP3 (exemple)",
+      "content": "Cet exemple montre la mise à jour des informations cachées (métadonnées) dans les fichiers audio MP3.",
+      "comment_1": "Charger le fichier à l'aide de la classe {{TextMetadata}}",
+      "comment_2": "Mettre à jour les données des paroles",
+      "comment_3": "Vous pouvez ajouter des champs personnalisés aux métadonnées",
+      "comment_4": "Enregistrer le fichier mis à jour"
+    }
+  }
+}

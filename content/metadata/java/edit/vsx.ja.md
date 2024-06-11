@@ -1,89 +1,89 @@
+
+
+
 ---
 ############################# Static ############################
-layout: "auto-gen-metadata"
-date: 2024-03-10T13:38:33
+layout: "format"
+date:  2024-06-11T15:16:38
 draft: false
-otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
+lang: ja
+format: Vsx
+product: "Metadata"
+product_tag: "metadata"
+platform: "Java"
+platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Java アプリケーションの VSX ファイルへのメタデータの編集"
-head_description: "Java メタデータ処理APIを使用してメタデータ情報を VSX ファイルに編集します。メタデータ規格 XMP、EXIF、IPTC、ID3 などと連携してください。"
+head_title: "Java アプリケーションの VSX ファイルのメタデータを編集する"
+head_description: "Java メタデータ処理 API を使用して、VSX ファイルのメタデータ情報を編集します。メタデータ標準 XMP、EXIF、IPTC、ID3 などを使用します。"
 
 ############################# Header ############################
-title: "Java 内の VSX ファイルからメタデータを更新"
-description: "Java アプリケーション用のメタデータエディター — Java のメタデータエディター API を使用して、すべての一般的なドキュメント、画像、マルチメディアファイル形式のメタデータフィールドを変更します。"
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "無料試用版をダウンロード"
-    link: "https://downloads.groupdocs.com/metadata/java"
+title: "Java の Vsx ファイルからメタデータを更新する" 
+description: "Java アプリケーション用のメタデータ エディター – Java 用のメタデータ エディター API を使用して、すべての一般的なドキュメント、画像、マルチメディア ファイル形式のメタデータ フィールドを変更します。"
+subtitle: "GroupDocs.Metadata for Java" 
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
-    left:
-        img_alt: "GroupDocs.Metadata for Java"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-metadata-java.png"
-        product: "GroupDocs.Metadata"
-        platform: "Java"
-
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/metadata/java"
-              text: "{submenu.content_middle.button_text_1}"
-
-            # button loop
-            - link: "https://github.com/groupdocs-metadata"
-              text: "{submenu.content_middle.button_text_2}"
-
-            # button loop
-            - link: "https://products.groupdocs.app/metadata/family"
-              text: "{submenu.content_middle.button_text_3}"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/metadata/java"
-              text: "{submenu.content_middle.button_text_4}"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/metadata"
-        link_learn: "https://docs.groupdocs.com/metadata/java"
-        link_buy: "https://purchase.groupdocs.com"
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "無料トライアルをダウンロード"
+      link: "https://releases.groupdocs.com/metadata/java/"
+      
 ############################# About ############################
 about:
     enable: true
     title: "GroupDocs.Metadata for Java API について"
+    link: "/metadata/java/"
+    link_title: "もっと詳しく知る"
+    picture: "about_metadata.svg" # 480 X 400
     content: |
-        [GroupDocs.Metadata for Java](/ja/metadata/java/) は、外部ソフトウェアを使用せずに、画像やドキュメント形式からメタデータ情報を簡単に読み取り、追加、変更、削除、検索、比較、置換、エクスポートできる高度なメタデータフィールド操作ソリューションです。Word ドキュメント、Excel スプレッドシート、PowerPoint プレゼンテーション、Outlook 電子メール、OneNote、Visio、Project、PDF、AutoCAD、Zip、Audio、Video ファイル形式のメタデータの詳細を編集できます。また、他の多くのメタデータ処理機能との連携もサポートされています。
+       [GroupDocs.Metadata for Java](/metadata/java/) は、外部ソフトウェアを使用せずに、画像やドキュメント形式からメタデータ情報を簡単に読み取り、追加、変更、削除、検索、比較、置換、エクスポートできる高度なメタデータ フィールド操作ソリューションです。 。 Word 文書、Excel スプレッドシート、PowerPoint プレゼンテーション、Outlook 電子メール、OneNote、Visio、Project、PDF、AutoCAD、ZIp、オーディオおよびビデオのファイル形式からメタデータの詳細を編集できるほか、他の多くのメタデータ処理機能との連携もサポートされています。
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Java のメタデータを VSX に更新する手順"
-    content_left: |
-        [GroupDocs.Metadata for Java](/ja/metadata/java/) を使用すると、Java 開発者は、いくつかの簡単な手順を実行することで、アプリケーション内からメタデータの詳細を VSX ファイルに簡単に編集できます。
-        
-        * 更新する VSX ファイルをロードしてください
-        * 必要なメタデータプロパティをフィルタリングするために使用する述語を指定します。
-        * 述語と新しい値を updateProperties メソッドに渡します。
-        * 変更を保存します。
+    title: "Java の Vsx にメタデータを更新する手順"
+    content: |
+      [GroupDocs.Metadata for Java](https://products.groupdocs.com/metadata/java/) を使用すると、Java の開発者は、いくつかの簡単な手順を実装することで、アプリケーション内から Vsx ファイルのメタデータの詳細を簡単に編集できます。
+      
+      1. 更新する Vsx ファイルをロードします
+      2. 必要なメタデータ プロパティをフィルターするために使用される述語を指定します。
+      3. 述語と新しい値を UpdateProperties メソッドに渡します。
+      4. 変更を保存します。
+   
+    code:
+      platform: "net"
+      copy_title: "コピー"
+      install:
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-metadata</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
 
-    title_right: "システム要件"
-    content_right: |
-        GroupDocs.Metadata for Java 個のAPIは、すべての主要なプラットフォームとオペレーティングシステムでサポートされています。以下のコードを実行する前に、以下の前提条件がシステムにインストールされていることを確認してください。
-
-        * オペレーティングシステム:マイクロソフト Windows、Linux、Mac OS
-        * 開発環境:NetBeans, IntelliJ IDEA, Eclipse
-        * Java ランタイム環境: J2SE 6.0 and above
-        * [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata) から GroupDocs.Metadata for Java の最新バージョンを入手してください
-         
-    code: |
-        ```java    
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
+        copy_tip: "クリックしてコピーします"
+        copy_done: "コピーされました"
+      links:
+        #  loop
+        - title: "他の例"
+          link: "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java/"
+        #  loop
+        - title: "ドキュメンテーション"
+          link: "https://docs.groupdocs.com/metadata/java/"
+          
+      content: |
+        ```java {style=abap}
+        // VSX の作成日メタデータを編集する
         public class UpdatingMetadata
         {
           public static void run() 
@@ -91,18 +91,20 @@ steps:
             Date threeDaysAgo = new Date(System.currentTimeMillis() - TimeUnit.DAYS.toMillis(3));
             try (Metadata metadata = new Metadata("input.vsx"))
             {
-                // 既存の値が 3 日より古い場合は、ファイルの作成日時を更新してください
+                // 既存の値が 3 日より古い場合は、ファイルの作成日時を更新します
                 int affected = metadata.updateProperties(new ContainsTagSpecification(Tags.getTime().getCreated()).and(
                         new OfTypeSpecification(MetadataPropertyType.DateTime)).and(
                         new UpdatingMetadata().new DateBeforeSpecification(threeDaysAgo)), new PropertyValue(new Date()));
 
+                // プロセス更新結果
                 System.out.println(String.format("Affected properties: %s", affected));
 
+                // 編集したファイルを保存する
                 metadata.save("output.vsx");
             }
           }
 
-          // 独自の仕様を定義してメタデータのプロパティをフィルタリングする
+          // 独自の仕様を定義してメタデータ プロパティをフィルタリングする
           public class DateBeforeSpecification extends Specification
           {
             public DateBeforeSpecification(Date date)
@@ -133,28 +135,210 @@ steps:
             }
           }
         }
-        ```
-
-############################# Demos ############################
-demos:
-    enable: true
-    title: "メタデータ編集のライブデモ"
-    content: |
-       [GroupDocs.Metadata ライブデモ](https://products.groupdocs.app/metadata/family) ウェブサイトにアクセスして、メタデータ情報を VSX ファイルに今すぐ更新してください。
-       ライブデモには次の利点があります。
         
-############################# About Formats ############################
-about_formats:
-    enable: true
+        ```
+        
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Java アプリの VSX メタデータを操作する"
+  description: "GroupDocs.Metadata API を使用すると、開発者は、Java アプリケーションでさまざまなドキュメント形式の非表示のメタデータを簡単に更新できます。メタデータをプログラムで適用、編集、検索、削除します。"
+  image: "/img/metadata/features_edit.webp" # 500x500 px
+  image_description: "メタデータの構成"
+  features:
+    # feature loop
+    - title: "シンプルなメタデータ統合"
+      content: "GroupDocs.Metadata を使用すると、Java アプリ内のドキュメントやファイルにさまざまなメタデータを簡単に追加できます。開発者はメタデータを簡単に適用、更新、削除できます。"
 
-############################# More Formats ############################
+    # feature loop
+    - title: "詳細なメタデータ制御"
+      content: "API は、メタデータをカスタマイズするための広範なオプションを提供します。特別なリクエストを使用してファイル内のメタデータを検索し、それらを削除または更新するのは簡単です。"
+
+    # feature loop
+    - title: "ネイティブの VSX 機能の利用"
+      content: "ドキュメント形式に応じて、開発者は画像の EXIF などの組み込みメタデータを活用できます。これには、カメラのモデルと番号、解像度、作成日などの写真に関する情報が含まれる場合があります。"
+      
+  code_samples:
+    # code sample loop
+    - title: "MP3ファイルのLyricsタグを更新する（例）"
+      content: |
+        この例では、MP# メディア ファイル内の非表示のメタデータを更新する方法を示します。
+        {{< landing/code title="Java">}}
+        ```java {style=abap}
+        
+        //  ファイルを Metadata クラス コンストラクターにロードします
+        try (Metadata metadata = new Metadata("input.mp3")) {
+            MP3RootPackage root = metadata.getRootPackageGeneric();
+
+            if (root.getLyrics3V2() == null) {
+                root.setLyrics3V2(new LyricsTag());
+            }
+
+            //  歌詞データを更新する
+            root.getLyrics3V2().setLyrics("[00:01]Test lyrics");
+            root.getLyrics3V2().setArtist("test artist");
+            root.getLyrics3V2().setAlbum("test album");
+            root.getLyrics3V2().setTrack("test track");
+
+            // 完全なカスタムフィールドをタグに追加できます
+            root.getLyrics3V2().set(new LyricsField("ABC", "custom value"));
+
+            // 結果を保存する
+            metadata.save("output.mp3");
+        }
+        ```
+        {{< /landing/code >}}
+
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "始める準備はできていますか?"
+  description: "GroupDocs.Metadata の機能を無料で試すか、ライセンスをリクエストしてください"
+  items:
+    #  loop
+    - title: "{{パッケージストア名}}のダウンロード"
+      link: "https://releases.groupdocs.com/metadata/java/"
+      color: "red"
+        #  loop
+    - title: "ライセンス"
+      link: "https://purchase.groupdocs.com/pricing/metadata/java/"
+      color: "light"
+
+
+############################# More Formats #####################
 more_formats:
     enable: true
     title: "他のファイル形式のメタデータの変更"
-    content: |
-        Java 用のマルチフォーマット文書および画像メタデータ編集 API。以下に示すように、一般的なファイル形式のメタデータを取得します。
+    exclude: "VSX"
+    description: "Java 用のマルチフォーマットのドキュメントと画像のメタデータ編集 API。以下に示すように、いくつかの一般的なファイル形式のメタデータを取得します。"
+    items: 
+        # format loop 1
+        - name: "AVI にメタデータを追加する"
+          format: "AVI"
+          link: "/metadata/java/edit/avi/"
+          description: "(オーディオビデオインターリーブファイル)"
+          
+        # format loop 2
+        - name: "Add Metadata to DJVU"
+          format: "DJVU"
+          link: "/metadata/java/edit/djvu/"
+          description: "(グラフィックファイル形式)"
+          
+        # format loop 3
+        - name: "メタデータをDOCXに追加する"
+          format: "DOCX"
+          link: "/metadata/java/edit/docx/"
+          description: "(Office 2007+ Word ドキュメント)"
+          
+        # format loop 4
+        - name: "EPUB にメタデータを追加する"
+          format: "EPUB"
+          link: "/metadata/java/edit/epub/"
+          description: "(電子書籍ファイルを開く)"
+          
+        # format loop 5
+        - name: "HEIC にメタデータを追加する"
+          format: "HEIC"
+          link: "/metadata/java/edit/heic/"
+          description: "(高効率画像フォーマット)"
+          
+        # format loop 6
+        - name: "JPEGにメタデータを追加する"
+          format: "JPEG"
+          link: "/metadata/java/edit/jpeg/"
+          description: "(写真専門家グループ共同画像)"
+          
+        # format loop 7
+        - name: "MOV にメタデータを追加する"
+          format: "MOV"
+          link: "/metadata/java/edit/mov/"
+          description: "(Apple QuickTime ムービー)"
+          
+        # format loop 8
+        - name: "MP3 にメタデータを追加する"
+          format: "MP3"
+          link: "/metadata/java/edit/mp3/"
+          description: "(MP3音声ファイル)"
+          
+        # format loop 9
+        - name: "MSG にメタデータを追加する"
+          format: "MSG"
+          link: "/metadata/java/edit/msg/"
+          description: "(Outlook メッセージ アイテム ファイル)"
+          
+        # format loop 10
+        - name: "ODS にメタデータを追加する"
+          format: "ODS"
+          link: "/metadata/java/edit/ods/"
+          description: "(OpenDocument スプレッドシート)"
+          
+        # format loop 11
+        - name: "ODT にメタデータを追加する"
+          format: "ODT"
+          link: "/metadata/java/edit/odt/"
+          description: "(OpenDocument テキスト ファイル形式)"
+          
+        # format loop 12
+        - name: "PDF にメタデータを追加する"
+          format: "PDF"
+          link: "/metadata/java/edit/pdf/"
+          description: "（ポータブルドキュメントフォーマット）"
+          
+        # format loop 13
+        - name: "PNG にメタデータを追加する"
+          format: "PNG"
+          link: "/metadata/java/edit/png/"
+          description: "(ポータブルネットワークグラフィックス)"
+          
+        # format loop 14
+        - name: "PPTX にメタデータを追加する"
+          format: "PPTX"
+          link: "/metadata/java/edit/pptx/"
+          description: "(オープンXMLプレゼンテーション形式)"
+          
+        # format loop 15
+        - name: "TIFF にメタデータを追加する"
+          format: "TIFF"
+          link: "/metadata/java/edit/tiff/"
+          description: "(タグ付き画像ファイル形式)"
+          
+        # format loop 16
+        - name: "TORRENTにメタデータを追加する"
+          format: "TORRENT"
+          link: "/metadata/java/edit/torrent/"
+          description: "(トレントリンク)"
+          
+        # format loop 17
+        - name: "VSDX にメタデータを追加する"
+          format: "VSDX"
+          link: "/metadata/java/edit/vsdx/"
+          description: "(Visio 描画)"
+          
+        # format loop 18
+        - name: "WAV にメタデータを追加する"
+          format: "WAV"
+          link: "/metadata/java/edit/wav/"
+          description: "(WAVE音声ファイル)"
+          
+        # format loop 19
+        - name: "WEBP にメタデータを追加する"
+          format: "WEBP"
+          link: "/metadata/java/edit/webp/"
+          description: "(ラスターWeb画像形式)"
+          
+        # format loop 20
+        - name: "XLSX にメタデータを追加する"
+          format: "XLSX"
+          link: "/metadata/java/edit/xlsx/"
+          description: "(オープン XML ワークブック)"
+          
+        # format loop 21
+        - name: "ZIPにメタデータを追加"
+          format: "ZIP"
+          link: "/metadata/java/edit/zip/"
+          description: "(圧縮ファイル)"
+          
 
-############################# Back to top ###############################
-back_to_top:
-    enable: true
 ---

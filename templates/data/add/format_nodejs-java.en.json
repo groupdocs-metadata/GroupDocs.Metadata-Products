@@ -26,7 +26,7 @@
   "steps": {
     "title": "Steps for adding Metadata to {{FileFormatUp}} in {{ProgLang}}",
     "content": {
-      "title": "[{{ProdFullName}}]({{PlatformLink}}) makes it easy for {{EnvName}} developers to add metadata details to {{FileFormatUp}} files from within their applications by implementing a few easy steps.",
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) makes it easy for {{EnvName}} developers to add metadata details to {{FileFormatUp}} files from within their applications by implementing a few easy steps.",
       "step_1": "Load {{FileFormatUp}} with an instance of {{TextMetadata}} class.",
       "step_2": "Use {{TextMetadataAddProperties}} method to add the properties.",
       "step_3": "Use a predicate to find desired metadata properties.",

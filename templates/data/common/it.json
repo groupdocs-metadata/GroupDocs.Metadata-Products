@@ -1,0 +1,108 @@
+{
+  "common-content": {
+    "format-formats": {
+      "avi": {
+        "name": "Aggiungi metadati ad AVI",
+        "description": "(File di intercalare audio video)"
+      },
+      "djvu": {
+        "name": "Aggiungi metadati a DJVU",
+        "description": "(Formato file grafico)"
+      },
+      "docx": {
+        "name": "Aggiungi metadati a DOCX",
+        "description": "(Documento Word di Office 2007+)"
+      },
+      "epub": {
+        "name": "Aggiungi metadati a EPUB",
+        "description": "(Apri file eBook)"
+      },
+      "heic": {
+        "name": "Aggiungi metadati a HEIC",
+        "description": "(Formato immagine ad alta efficienza)"
+      },
+      "jpeg": {
+        "name": "Aggiungi metadati a JPEG",
+        "description": "(Immagine del gruppo congiunto di esperti fotografici)"
+      },
+      "mov": {
+        "name": "Aggiungi metadati a MOV",
+        "description": "(Filmato Apple QuickTime)"
+      },
+      "mp3": {
+        "name": "Aggiungi metadati a MP3",
+        "description": "(File audio MP3)"
+      },
+      "msg": {
+        "name": "Aggiungi metadati a MSG",
+        "description": "(File degli elementi del messaggio di Outlook)"
+      },
+      "ods": {
+        "name": "Aggiungi metadati a ODS",
+        "description": "(Foglio di calcolo OpenDocument)"
+      },
+      "odt": {
+        "name": "Aggiungi metadati a ODT",
+        "description": "(Formato file di testo OpenDocument)"
+      },
+      "pdf": {
+        "name": "Aggiungi metadati al PDF",
+        "description": "(Formato documento portatile)"
+      },
+      "png": {
+        "name": "Aggiungi metadati a PNG",
+        "description": "(Grafica di rete portatile)"
+      },
+      "pptx": {
+        "name": "Aggiungi metadati a PPTX",
+        "description": "(Formato di presentazione Open XML)"
+      },
+      "tiff": {
+        "name": "Aggiungi metadati a TIFF",
+        "description": "(Formato file immagine con tag)"
+      },
+      "torrent": {
+        "name": "Aggiungi metadati a TORRENT",
+        "description": "(Collegamento torrent)"
+      },
+      "vsdx": {
+        "name": "Aggiungi metadati a VSDX",
+        "description": "(Disegno Visio)"
+      },
+      "wav": {
+        "name": "Aggiungi metadati a WAV",
+        "description": "(File audio ONDA)"
+      },
+      "webp": {
+        "name": "Aggiungi metadati a WEBP",
+        "description": "(Formato immagine Web raster)"
+      },
+      "xlsx": {
+        "name": "Aggiungi metadati a XLSX",
+        "description": "(Apri cartella di lavoro XML)"
+      },
+      "zip": {
+        "name": "Aggiungi metadati a ZIP",
+        "description": "(File compresso)"
+      }
+    },
+    "format-code": {
+      "copy_title": "copia",
+      "copy_tip": "fare clic per copiare",
+      "copy_done": "copiato",
+      "links": {
+        "title_1": "Altri esempi",
+        "title_2": "Documentazione"
+      }
+    },
+    "format-actions": {
+      "title": "Pronti per iniziare?",
+      "description": "Prova gratuitamente le funzionalità di {{ProdShortName}} o richiedi una licenza",
+      "comment_1": "Download di {{PackageStoreName}}",
+      "comment_2": "Licenza"
+    },
+    "texts": {
+      "learn_more": "Saperne di più"
+    }
+  }
+}

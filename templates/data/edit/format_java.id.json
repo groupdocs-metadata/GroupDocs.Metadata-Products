@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Edit Metadata ke File {{FileFormatUp}} di Aplikasi {{EnvName}}",
+    "description": "{{EnvName}} API pemrosesan metadata untuk mengedit informasi metadata ke file {{FileFormatUp}}. Bekerja dengan standar metadata XMP, EXIF, IPTC, ID3 dll."
+  },
+  "header": {
+    "title": "Perbarui Metadata Dari File {{FileformatCap}} Di {{ProgLang}}",
+    "description": "Editor Metadata untuk aplikasi {{ProgLang}} – Ubah bidang metadata dari semua format file dokumen, gambar, dan multimedia populer menggunakan API editor metadata untuk {{ProgLang}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh Uji Coba Gratis"
+  },
+  "about": {
+    "title": "Tentang API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah solusi manipulasi bidang metadata tingkat lanjut untuk membaca, menambah, memodifikasi, menghapus, mencari, membandingkan, mengganti, dan mengekspor informasi metadata dari gambar dan format dokumen dengan mudah tanpa menggunakan perangkat lunak eksternal apa pun . Edit detail metadata dari dokumen Word, spreadsheet Excel, presentasi PowerPoint, email Outlook, OneNote, Visio, Project, PDF, AutoCAD, ZIp, format file Audio dan Video serta dukungan untuk bekerja dengan banyak fitur pemrosesan metadata lainnya."
+  },
+  "formats": {
+    "title": "Mengubah Metadata Format File Lainnya",
+    "description": "API pengeditan metadata dokumen multi format dan gambar untuk {{EnvName}}. Ambil metadata dari beberapa format file populer seperti yang dinyatakan di bawah ini"
+  },
+  "examples": {
+    "comment_1": "Edit metadata tanggal pembuatan {{FileFormatUp}}",
+    "comment_2": "Perbarui tanggal/waktu pembuatan file jika nilai yang ada lebih lama dari 3 hari",
+    "comment_3": "Tentukan spesifikasi Anda sendiri untuk memfilter properti metadata",
+    "comment_4": "Hasil pembaruan proses",
+    "comment_5": "Simpan file yang diedit"
+  },
+  "steps": {
+    "title": "Langkah-langkah Update Metadata ke {{FileformatCap}} di {{EnvName}}",
+    "content": {
+      "title": "[{{ProdFullName}}]({{ProductUrl}}) memudahkan pengembang {{EnvName}} mengedit detail metadata ke file {{FileformatCap}} dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.",
+      "step_1": "Muat file {{FileformatCap}} yang akan diperbarui",
+      "step_2": "Tentukan predikat yang akan digunakan untuk memfilter properti metadata yang diinginkan.",
+      "step_3": "Teruskan predikat dan nilai baru ke metode {{TextUpdateProperties}}.",
+      "step_4": "Simpan perubahannya."
+    }
+  },
+  "more_features": {
+    "title": "Memanipulasi Metadata {{FileFormatUp}} untuk Aplikasi {{EnvName}}",
+    "description": "API {{ProdShortName}} memungkinkan pengembang dengan mudah memperbarui metadata tersembunyi dalam berbagai format dokumen di aplikasi {{EnvName}} mereka. Menerapkan, mengedit, mencari, dan menghapus metadata secara terprogram.",
+    "image_description": "Konfigurasi Metadata",
+    "feature_1": {
+      "title": "Integrasi Metadata Sederhana",
+      "content": "{{ProdShortName}} menyederhanakan penambahan metadata yang berbeda ke dokumen dan file dalam aplikasi {{EnvName}} Anda. Pengembang dapat dengan mudah menerapkan, memperbarui, atau menghapus metadata."
+    },
+    "feature_2": {
+      "title": "Kontrol Metadata Terperinci",
+      "content": "API ini menawarkan opsi ekstensif untuk menyesuaikan metadata. Sangat mudah untuk menemukan metadata dalam file menggunakan permintaan khusus dan menghapus atau memperbaruinya."
+    },
+    "feature_3": {
+      "title": "Memanfaatkan Fitur Asli {{FileFormatUp}}",
+      "content": "Bergantung pada format dokumen, pengembang dapat memanfaatkan metadata bawaan seperti EXIF ​​untuk gambar. Ini mungkin termasuk informasi tentang foto seperti model dan nomor kamera, resolusi, tanggal pembuatan dan lainnya."
+    },
+    "code_1": {
+      "title": "Perbarui tag Lirik dalam file MP3 (Contoh)",
+      "content": "Contoh ini menunjukkan pembaruan metadata tersembunyi di file media MP#.",
+      "comment_1": "Muat file ke konstruktor kelas {{TextMetadata}}",
+      "comment_2": "Perbarui data lirik",
+      "comment_3": "Anda dapat menambahkan bidang khusus sepenuhnya ke tag",
+      "comment_4": "Simpan hasil"
+    }
+  }
+}

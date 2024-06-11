@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Modifier les métadonnées dans les fichiers {{FileFormatUp}} dans les applications {{EnvName}}",
+    "description": "API de traitement des métadonnées {{EnvName}} pour modifier les informations de métadonnées dans les fichiers {{FileFormatUp}}. Travaillez avec les normes de métadonnées XMP, EXIF, IPTC, ID3, etc."
+  },
+  "header": {
+    "title": "Mettre à jour les métadonnées du fichier {{FileformatCap}} dans {{ProgLang}}",
+    "description": "Éditeur de métadonnées pour les applications {{ProgLang}} – Modifiez les champs de métadonnées de tous les formats de documents, d'images et de fichiers multimédias populaires à l'aide de l'API de l'éditeur de métadonnées pour {{ProgLang}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger l'essai gratuit"
+  },
+  "about": {
+    "title": "À propos de l'API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est une solution avancée de manipulation de champs de métadonnées permettant de lire, ajouter, modifier, supprimer, rechercher, comparer, remplacer et exporter facilement des informations de métadonnées à partir d'images et de formats de documents sans utiliser de logiciel externe. . Modifiez les détails des métadonnées à partir de documents Word, de feuilles de calcul Excel, de présentations PowerPoint, d'e-mails Outlook, OneNote, Visio, Project, PDF, AutoCAD, ZIp, formats de fichiers audio et vidéo, ainsi que la prise en charge de nombreuses autres fonctionnalités de traitement de métadonnées."
+  },
+  "formats": {
+    "title": "Modification des métadonnées d'autres formats de fichiers",
+    "description": "API d'édition de métadonnées de documents et d'images multiformats pour {{EnvName}}. Récupérez les métadonnées de certains des formats de fichiers populaires comme indiqué ci-dessous"
+  },
+  "examples": {
+    "comment_1": "Modifier les métadonnées de la date de création de {{FileFormatUp}}",
+    "comment_2": "Mettez à jour la date/heure de création du fichier si la valeur existante est antérieure à 3 jours",
+    "comment_3": "Définissez vos propres spécifications pour filtrer les propriétés des métadonnées",
+    "comment_4": "Résultat de la mise à jour du processus",
+    "comment_5": "Enregistrer le fichier modifié"
+  },
+  "steps": {
+    "title": "Étapes de mise à jour des métadonnées vers {{FileformatCap}} dans {{EnvName}}",
+    "content": {
+      "title": "[{{ProdFullName}}]({{ProductUrl}}) permet aux développeurs {{EnvName}} de modifier facilement les détails des métadonnées dans les fichiers {{FileformatCap}} à partir de leurs applications en mettant en œuvre quelques étapes simples.",
+      "step_1": "Chargez le fichier {{FileformatCap}} à mettre à jour",
+      "step_2": "Spécifiez un prédicat qui sera utilisé pour filtrer les propriétés de métadonnées souhaitées.",
+      "step_3": "Transmettez le prédicat et la nouvelle valeur à la méthode {{TextUpdateProperties}}.",
+      "step_4": "Enregistrez les modifications."
+    }
+  },
+  "more_features": {
+    "title": "Manipuler les métadonnées {{FileFormatUp}} pour les applications {{EnvName}}",
+    "description": "L'API {{ProdShortName}} permet aux développeurs de mettre facilement à jour les métadonnées cachées dans différents formats de documents dans leurs applications {{EnvName}}. Appliquez, modifiez, recherchez et supprimez des métadonnées par programmation.",
+    "image_description": "Configuration des métadonnées",
+    "feature_1": {
+      "title": "Intégration simple des métadonnées",
+      "content": "{{ProdShortName}} simplifie l'ajout de différentes métadonnées aux documents et fichiers au sein de vos applications {{EnvName}}. Les développeurs peuvent facilement appliquer, mettre à jour ou supprimer des métadonnées."
+    },
+    "feature_2": {
+      "title": "Contrôle détaillé des métadonnées",
+      "content": "L'API offre de nombreuses options pour personnaliser les métadonnées. Il est facile de trouver des métadonnées dans des fichiers à l'aide de requêtes spéciales et de les supprimer ou de les mettre à jour."
+    },
+    "feature_3": {
+      "title": "Utilisation des fonctionnalités natives {{FileFormatUp}}",
+      "content": "En fonction du format du document, les développeurs peuvent exploiter les métadonnées intégrées telles que EXIF ​​pour les images. Cela peut inclure des informations sur la photo, telles que le modèle et le numéro de l'appareil photo, la résolution, la date de création, etc."
+    },
+    "code_1": {
+      "title": "Mettre à jour la balise Paroles dans un fichier MP3 (exemple)",
+      "content": "Cet exemple montre la mise à jour des métadonnées cachées dans le fichier multimédia MP#.",
+      "comment_1": "Charger le fichier dans le constructeur de classe {{TextMetadata}}",
+      "comment_2": "Mettre à jour les données des paroles",
+      "comment_3": "Vous pouvez ajouter un champ entièrement personnalisé à la balise",
+      "comment_4": "Enregistrer le résultat"
+    }
+  }
+}

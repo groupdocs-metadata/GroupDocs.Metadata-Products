@@ -1,0 +1,108 @@
+{
+  "common-content": {
+    "format-formats": {
+      "avi": {
+        "name": "Fügen Sie Metadaten zu AVI hinzu",
+        "description": "(Audio-Video-Interleave-Datei)"
+      },
+      "djvu": {
+        "name": "Metadaten zu DJVU hinzufügen",
+        "description": "(Grafikdateiformat)"
+      },
+      "docx": {
+        "name": "Fügen Sie Metadaten zu DOCX hinzu",
+        "description": "(Office 2007+ Word-Dokument)"
+      },
+      "epub": {
+        "name": "Metadaten zu EPUB hinzufügen",
+        "description": "(E-Book-Datei öffnen)"
+      },
+      "heic": {
+        "name": "Metadaten zu HEIC hinzufügen",
+        "description": "(Hocheffizientes Bildformat)"
+      },
+      "jpeg": {
+        "name": "Fügen Sie Metadaten zu JPEG hinzu",
+        "description": "(Gemeinsame fotografische Expertengruppe Bild)"
+      },
+      "mov": {
+        "name": "Metadaten zu MOV hinzufügen",
+        "description": "(Apple QuickTime-Film)"
+      },
+      "mp3": {
+        "name": "Fügen Sie Metadaten zu MP3 hinzu",
+        "description": "(MP3-Audiodatei)"
+      },
+      "msg": {
+        "name": "Fügen Sie Metadaten zu MSG hinzu",
+        "description": "(Outlook-Nachrichtenelementdatei)"
+      },
+      "ods": {
+        "name": "Fügen Sie Metadaten zu ODS hinzu",
+        "description": "(OpenDocument-Tabelle)"
+      },
+      "odt": {
+        "name": "Fügen Sie Metadaten zu ODT hinzu",
+        "description": "(OpenDocument-Textdateiformat)"
+      },
+      "pdf": {
+        "name": "Fügen Sie Metadaten zu PDF hinzu",
+        "description": "(Portable Document Format)"
+      },
+      "png": {
+        "name": "Metadaten zu PNG hinzufügen",
+        "description": "(Portable Netzwerkgrafik)"
+      },
+      "pptx": {
+        "name": "Metadaten zu PPTX hinzufügen",
+        "description": "(Offenes XML-Präsentationsformat)"
+      },
+      "tiff": {
+        "name": "Fügen Sie Metadaten zu TIFF hinzu",
+        "description": "(Tagged Image File Format)"
+      },
+      "torrent": {
+        "name": "Metadaten zu TORRENT hinzufügen",
+        "description": "(Torrent-Link)"
+      },
+      "vsdx": {
+        "name": "Metadaten zu VSDX hinzufügen",
+        "description": "(Visio-Zeichnung)"
+      },
+      "wav": {
+        "name": "Fügen Sie Metadaten zu WAV hinzu",
+        "description": "(WAVE-Audiodatei)"
+      },
+      "webp": {
+        "name": "Fügen Sie Metadaten zu WEBP hinzu",
+        "description": "(Raster-Webbildformat)"
+      },
+      "xlsx": {
+        "name": "Metadaten zu XLSX hinzufügen",
+        "description": "(XML-Arbeitsmappe öffnen)"
+      },
+      "zip": {
+        "name": "Fügen Sie Metadaten zu ZIP hinzu",
+        "description": "(Zippte Datei)"
+      }
+    },
+    "format-code": {
+      "copy_title": "Kopieren",
+      "copy_tip": "Klicken Sie zum Kopieren",
+      "copy_done": "kopiert",
+      "links": {
+        "title_1": "Mehr Beispiele",
+        "title_2": "Dokumentation"
+      }
+    },
+    "format-actions": {
+      "title": "Bereit anzufangen?",
+      "description": "Testen Sie die Funktionen von {{ProdShortName}} kostenlos oder fordern Sie eine Lizenz an",
+      "comment_1": "{{PackageStoreName}} herunterladen",
+      "comment_2": "Lizenzierung"
+    },
+    "texts": {
+      "learn_more": "Erfahren Sie mehr"
+    }
+  }
+}

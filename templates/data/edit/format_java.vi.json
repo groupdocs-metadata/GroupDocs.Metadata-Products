@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Chỉnh sửa siêu dữ liệu thành tệp {{FileFormatUp}} trong ứng dụng {{EnvName}}",
+    "description": "API xử lý siêu dữ liệu {{EnvName}} để chỉnh sửa thông tin siêu dữ liệu thành tệp {{FileFormatUp}}. Làm việc với các tiêu chuẩn siêu dữ liệu XMP, EXIF, IPTC, ID3, v.v."
+  },
+  "header": {
+    "title": "Cập nhật siêu dữ liệu từ tệp {{FileformatCap}} trong {{ProgLang}}",
+    "description": "Trình chỉnh sửa siêu dữ liệu cho ứng dụng {{ProgLang}} – Thay đổi trường siêu dữ liệu từ tất cả các định dạng tài liệu, hình ảnh và tệp đa phương tiện phổ biến bằng cách sử dụng API trình chỉnh sửa siêu dữ liệu cho {{ProgLang}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải về dùng thử miễn phí"
+  },
+  "about": {
+    "title": "Giới thiệu về API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là giải pháp thao tác trường siêu dữ liệu nâng cao để dễ dàng đọc, thêm, sửa đổi, xóa, tìm kiếm, so sánh, thay thế và xuất thông tin siêu dữ liệu từ các định dạng hình ảnh và tài liệu mà không cần sử dụng bất kỳ phần mềm bên ngoài nào . Chỉnh sửa chi tiết siêu dữ liệu từ tài liệu Word, bảng tính Excel, bản trình bày PowerPoint, email Outlook, OneNote, Visio, Project, PDF, AutoCAD, ZIP, Audio và Video cùng với sự hỗ trợ để làm việc với nhiều tính năng xử lý siêu dữ liệu khác."
+  },
+  "formats": {
+    "title": "Thay đổi siêu dữ liệu của các định dạng tệp khác",
+    "description": "API chỉnh sửa siêu dữ liệu hình ảnh và tài liệu đa định dạng cho {{EnvName}}. Truy xuất siêu dữ liệu của một số định dạng tệp phổ biến như được nêu bên dưới"
+  },
+  "examples": {
+    "comment_1": "Chỉnh sửa siêu dữ liệu ngày tạo {{FileFormatUp}}",
+    "comment_2": "Cập nhật ngày/giờ tạo tệp nếu giá trị hiện tại cũ hơn 3 ngày",
+    "comment_3": "Xác định thông số kỹ thuật của riêng bạn để lọc thuộc tính siêu dữ liệu",
+    "comment_4": "Kết quả cập nhật quy trình",
+    "comment_5": "Lưu tập tin đã chỉnh sửa"
+  },
+  "steps": {
+    "title": "Các bước để cập nhật siêu dữ liệu lên {{FileformatCap}} trong {{EnvName}}",
+    "content": {
+      "title": "[{{ProdFullName}}]({{ProductUrl}}) giúp nhà phát triển {{EnvName}} dễ dàng chỉnh sửa chi tiết siêu dữ liệu cho các tệp {{FileformatCap}} từ trong ứng dụng của họ bằng cách thực hiện một vài bước đơn giản.",
+      "step_1": "Tải tệp {{FileformatCap}} cần cập nhật",
+      "step_2": "Chỉ định một vị từ sẽ được sử dụng để lọc các thuộc tính siêu dữ liệu mong muốn.",
+      "step_3": "Chuyển vị từ và giá trị mới cho phương thức {{TextUpdateProperties}}.",
+      "step_4": "Lưu các thay đổi."
+    }
+  },
+  "more_features": {
+    "title": "Thao tác siêu dữ liệu {{FileFormatUp}} cho ứng dụng {{EnvName}}",
+    "description": "API {{ProdShortName}} cho phép nhà phát triển dễ dàng cập nhật siêu dữ liệu ẩn ở nhiều định dạng tài liệu khác nhau trong ứng dụng {{EnvName}} của họ. Áp dụng, chỉnh sửa, tìm kiếm và xóa siêu dữ liệu theo chương trình.",
+    "image_description": "Cấu hình siêu dữ liệu",
+    "feature_1": {
+      "title": "Tích hợp siêu dữ liệu đơn giản",
+      "content": "{{ProdShortName}} đơn giản hóa việc thêm các siêu dữ liệu khác nhau vào tài liệu và tệp trong ứng dụng {{EnvName}} của bạn. Nhà phát triển có thể dễ dàng áp dụng, cập nhật hoặc xóa siêu dữ liệu."
+    },
+    "feature_2": {
+      "title": "Kiểm soát siêu dữ liệu chi tiết",
+      "content": "API cung cấp các tùy chọn mở rộng để tùy chỉnh siêu dữ liệu. Thật dễ dàng tìm thấy siêu dữ liệu trong các tệp bằng các yêu cầu đặc biệt và xóa hoặc cập nhật chúng."
+    },
+    "feature_3": {
+      "title": "Sử dụng các tính năng gốc của {{FileFormatUp}}",
+      "content": "Tùy thuộc vào định dạng tài liệu, nhà phát triển có thể tận dụng siêu dữ liệu tích hợp sẵn như EXIF ​​​​cho hình ảnh. Điều này có thể bao gồm thông tin về ảnh như kiểu và số máy ảnh, độ phân giải, ngày tạo, v.v."
+    },
+    "code_1": {
+      "title": "Cập nhật thẻ Lời bài hát trong tệp MP3 (Ví dụ)",
+      "content": "Ví dụ này minh họa việc cập nhật siêu dữ liệu ẩn trong tệp phương tiện MP#.",
+      "comment_1": "Tải tệp vào hàm tạo của lớp {{TextMetadata}}",
+      "comment_2": "Cập nhật dữ liệu lời bài hát",
+      "comment_3": "Bạn có thể thêm trường tùy chỉnh hoàn toàn vào thẻ",
+      "comment_4": "Lưu kết quả"
+    }
+  }
+}

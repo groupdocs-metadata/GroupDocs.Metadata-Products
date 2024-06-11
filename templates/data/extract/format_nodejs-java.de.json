@@ -1,0 +1,60 @@
+{
+  "head": {
+    "title": "Lesen Sie Metadaten aus {{FileFormatUp}}-Dateien in {{EnvNameShort}}-Apps",
+    "description": "Greifen Sie einfach auf Metadaten aus {{FileFormatUp}}-Dateien in {{EnvNameShort}} zu und extrahieren Sie diese. Funktioniert mit gängigen Formaten wie XMP, EXIF, IPTC, ID3."
+  },
+  "header": {
+    "title": "Extrahieren Sie Metadaten aus {{FileFormatUp}}-Dateien",
+    "description": "Extrahieren Sie Metadaten aus einer Vielzahl von Dokumenten, Bildern, Audio- und Videoformaten mit {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download kostenlose Testversion"
+  },
+  "about": {
+    "title": "Was ist die {{ProdFullName}}-API?",
+    "content": "Mit [{{ProdFullName}}]({{PlatformLink}}) können Sie Metadaten aus Bildern und Dokumenten einfach anzeigen, bearbeiten, hinzufügen, entfernen, suchen und verwalten. Keine externe Software erforderlich! Extrahieren Sie Details aus verschiedenen Formaten wie PDFs, Word-Dokumenten, Excel-Tabellen und mehr. Darüber hinaus bietet es erweiterte Funktionen für die Arbeit mit Metadaten."
+  },
+  "formats": {
+    "title": "Details aus anderen Dateitypen lesen",
+    "description": "Extrahieren Sie Metadaten aus verschiedenen Dokumenten und Bildern in {{EnvName}}. Diese API unterstützt beliebte Formate wie..."
+  },
+  "examples": {
+    "comment_1": "Extrahieren Sie alle Details aus einer {{FileFormatUp}}-Datei",
+    "comment_2": "Verfassen Sie {{TextMetadata}} und übergeben Sie {{FileFormatUp}} an den Konstruktor",
+    "comment_3": "Extrahieren Sie alle Details aus einer Datei",
+    "comment_4": "Verwenden Sie die extrahierten Metadaten für Ihre Anwendung"
+  },
+  "steps": {
+    "title": "So extrahieren Sie Metadaten aus {{FileFormatUp}}-Dateien in {{EnvNameShort}} mit {{ProdShortName}}",
+    "content": {
+      "title": "Extrahieren Sie ganz einfach Metadaten aus {{FileFormatUp}}-Dateien in Ihren {{EnvName}}-Anwendungen mit [{{ProdShortName}}]({{ProductUrl}}). Hier ist wie:",
+      "step_1": "Laden Sie die Datei {{FileFormatUp}}, aus der Sie Metadaten extrahieren möchten.",
+      "step_2": "Verwenden Sie einen Filter, um anzugeben, welche Details Sie extrahieren möchten.",
+      "step_3": "Starten Sie den Extraktionsprozess mit {{TextFindProperties}}.",
+      "step_4": "Greifen Sie auf die extrahierten Details für die Anforderungen Ihrer Anwendung zu."
+    }
+  },
+  "more_features": {
+    "title": "Finden Sie versteckte Metadaten in Geschäftsdateien mit {{ProdShortName}}",
+    "description": "Suchen und verwalten Sie ganz einfach versteckte Details (Metadaten) in vertraulichen Dokumenten mit {{EnvName}}-Anwendungen mithilfe der {{ProdShortName}}-Bibliothek.",
+    "image_description": "Durchsuchen Sie Metadaten in {{EnvNameShort}}-Dateien",
+    "feature_1": {
+      "title": "Leistungsstarke Metadatensuche für {{EnvNameShort}}",
+      "content": "Steigern Sie Ihre Dokumentenverarbeitung in {{EnvName}} mit {{ProdShortName}}. Finden Sie versteckte Details schnell und einfach mit unseren Suchfunktionen."
+    },
+    "feature_2": {
+      "title": "Präzise Metadatenfilterung",
+      "content": "Richten Sie gezielt die Daten aus, die Sie benötigen. Suchen Sie nach Text, Datum oder verwenden Sie spezielle Muster, um genau das zu finden, was Sie suchen."
+    },
+    "feature_3": {
+      "title": "Effizientes Metadatenmanagement",
+      "content": "Verwenden Sie {{ProdShortName}}, um die Details (Metadaten) zu verwalten, die Sie in {{EnvName}}-Dateien finden. Fügen Sie nach Bedarf Details hinzu, aktualisieren oder entfernen Sie sie, alles innerhalb der unterstützten Dateiformate."
+    },
+    "code_1": {
+      "title": "E-Book-Details lesen ({{EnvName}} Beispiel)",
+      "content": "Dieses Codebeispiel zeigt, wie Sie auf spezifische Details für EPUB-E-Books zugreifen.",
+      "comment_1": "Laden Sie die EPUB-Datei in das {{TextMetadata}}-Objekt.",
+      "comment_2": "Rufen Sie alle integrierten Details aus der EPUB-Datei ab.",
+      "comment_3": "Nutzen Sie die abgerufenen Daten für die Anforderungen Ihrer Anwendung."
+    }
+  }
+}

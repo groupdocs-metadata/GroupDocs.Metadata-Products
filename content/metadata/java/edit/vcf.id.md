@@ -1,89 +1,89 @@
+
+
+
 ---
 ############################# Static ############################
-layout: "auto-gen-metadata"
-date: 2024-03-10T13:38:32
+layout: "format"
+date:  2024-06-11T15:16:38
 draft: false
-otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
+lang: id
+format: Vcf
+product: "Metadata"
+product_tag: "metadata"
+platform: "Java"
+platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Edit Metadata ke VCF File di Java Aplikasi"
+head_title: "Edit Metadata ke File VCF di Aplikasi Java"
 head_description: "Java API pemrosesan metadata untuk mengedit informasi metadata ke file VCF. Bekerja dengan standar metadata XMP, EXIF, IPTC, ID3 dll."
 
 ############################# Header ############################
-title: "Perbarui Metadata Dari File VCF Di Java"
-description: "Editor Metadata untuk aplikasi Java — Ubah bidang metadata dari semua dokumen populer, gambar, dan format file multimedia menggunakan API editor metadata untuk Java."
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Unduh Uji Coba Gratis"
-    link: "https://downloads.groupdocs.com/metadata/java"
+title: "Perbarui Metadata Dari File Vcf Di Java" 
+description: "Editor Metadata untuk aplikasi Java – Ubah bidang metadata dari semua format file dokumen, gambar, dan multimedia populer menggunakan API editor metadata untuk Java."
+subtitle: "GroupDocs.Metadata for Java" 
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
-    left:
-        img_alt: "GroupDocs.Metadata for Java"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-metadata-java.png"
-        product: "GroupDocs.Metadata"
-        platform: "Java"
-
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/metadata/java"
-              text: "{submenu.content_middle.button_text_1}"
-
-            # button loop
-            - link: "https://github.com/groupdocs-metadata"
-              text: "{submenu.content_middle.button_text_2}"
-
-            # button loop
-            - link: "https://products.groupdocs.app/metadata/family"
-              text: "{submenu.content_middle.button_text_3}"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/metadata/java"
-              text: "{submenu.content_middle.button_text_4}"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/metadata"
-        link_learn: "https://docs.groupdocs.com/metadata/java"
-        link_buy: "https://purchase.groupdocs.com"
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Unduh Uji Coba Gratis"
+      link: "https://releases.groupdocs.com/metadata/java/"
+      
 ############################# About ############################
 about:
     enable: true
-    title: "Tentang GroupDocs.Metadata for Java API"
+    title: "Tentang API GroupDocs.Metadata for Java"
+    link: "/metadata/java/"
+    link_title: "Belajarlah lagi"
+    picture: "about_metadata.svg" # 480 X 400
     content: |
-        [GroupDocs.Metadata for Java](/id/metadata/java/) adalah solusi manipulasi bidang metadata lanjutan untuk dengan mudah membaca, menambah, memodifikasi, menghapus, mencari, membandingkan, mengganti, dan mengekspor informasi metadata dari gambar dan format dokumen tanpa menggunakan perangkat lunak eksternal apa pun. Edit detail metadata dari Word dokumen, Excel spreadsheet, PowerPoint presentasi, Outlook email, OneNote, Visio, Project, PDF, AutoCAD, Zip, Audio dan Video format file bersama dengan dukungan untuk bekerja dengan banyak fitur pemrosesan metadata lainnya.
+       [GroupDocs.Metadata for Java](/metadata/java/) adalah solusi manipulasi bidang metadata tingkat lanjut untuk membaca, menambah, memodifikasi, menghapus, mencari, membandingkan, mengganti, dan mengekspor informasi metadata dari gambar dan format dokumen dengan mudah tanpa menggunakan perangkat lunak eksternal apa pun . Edit detail metadata dari dokumen Word, spreadsheet Excel, presentasi PowerPoint, email Outlook, OneNote, Visio, Project, PDF, AutoCAD, ZIp, format file Audio dan Video serta dukungan untuk bekerja dengan banyak fitur pemrosesan metadata lainnya.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Langkah-langkah untuk Memperbarui Metadata ke VCF di Java"
-    content_left: |
-        [GroupDocs.Metadata for Java](/id/metadata/java/) memudahkan pengembang Java untuk mengedit detail metadata ke file VCF dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
-        
-        * Muat file VCF yang akan diperbarui
-        * Tentukan predikat yang akan digunakan untuk memfilter properti metadata yang diinginkan.
-        * Meneruskan predikat dan nilai baru ke metode updateProperties.
-        * Simpan perubahan.
+    title: "Langkah-langkah Update Metadata ke Vcf di Java"
+    content: |
+      [GroupDocs.Metadata for Java](https://products.groupdocs.com/metadata/java/) memudahkan pengembang Java mengedit detail metadata ke file Vcf dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
+      
+      1. Muat file Vcf yang akan diperbarui
+      2. Tentukan predikat yang akan digunakan untuk memfilter properti metadata yang diinginkan.
+      3. Teruskan predikat dan nilai baru ke metode UpdateProperties.
+      4. Simpan perubahannya.
+   
+    code:
+      platform: "net"
+      copy_title: "Menyalin"
+      install:
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-metadata</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
 
-    title_right: "Persyaratan Sistem"
-    content_right: |
-        GroupDocs.Metadata for Java API didukung di semua platform utama dan sistem operasi. Sebelum menjalankan kode di bawah ini, pastikan bahwa Anda memiliki prasyarat berikut diinstal pada sistem Anda.
-
-        * Sistem Operasi: Microsoft Windows, Linux, Mac OS
-        * Lingkungan Pengembangan: NetBeans, IntelliJ IDEA, Eclipse
-        * Java Lingkungan Runtime: J2SE 6.0 and above
-        * Dapatkan versi terbaru GroupDocs.Metadata for Java dari [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
-         
-    code: |
-        ```java    
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
+        copy_tip: "klik untuk menyalin"
+        copy_done: "disalin"
+      links:
+        #  loop
+        - title: "Lebih banyak contoh"
+          link: "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java/"
+        #  loop
+        - title: "Dokumentasi"
+          link: "https://docs.groupdocs.com/metadata/java/"
+          
+      content: |
+        ```java {style=abap}
+        // Edit metadata tanggal pembuatan VCF
         public class UpdatingMetadata
         {
           public static void run() 
@@ -91,13 +91,15 @@ steps:
             Date threeDaysAgo = new Date(System.currentTimeMillis() - TimeUnit.DAYS.toMillis(3));
             try (Metadata metadata = new Metadata("input.vcf"))
             {
-                // Perbarui tanggal/waktu pembuatan file jika nilai yang ada lebih tua dari 3 hari
+                // Perbarui tanggal/waktu pembuatan file jika nilai yang ada lebih lama dari 3 hari
                 int affected = metadata.updateProperties(new ContainsTagSpecification(Tags.getTime().getCreated()).and(
                         new OfTypeSpecification(MetadataPropertyType.DateTime)).and(
                         new UpdatingMetadata().new DateBeforeSpecification(threeDaysAgo)), new PropertyValue(new Date()));
 
+                // Hasil pembaruan proses
                 System.out.println(String.format("Affected properties: %s", affected));
 
+                // Simpan file yang diedit
                 metadata.save("output.vcf");
             }
           }
@@ -133,28 +135,210 @@ steps:
             }
           }
         }
-        ```
-
-############################# Demos ############################
-demos:
-    enable: true
-    title: "Demo Langsung Pengeditan Metadata"
-    content: |
-       Perbarui informasi metadata ke file VCF sekarang dengan mengunjungi situs web [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family).
-       Demo langsung memiliki manfaat sebagai berikut.
         
-############################# About Formats ############################
-about_formats:
-    enable: true
+        ```
+        
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Memanipulasi Metadata VCF untuk Aplikasi Java"
+  description: "API GroupDocs.Metadata memungkinkan pengembang dengan mudah memperbarui metadata tersembunyi dalam berbagai format dokumen di aplikasi Java mereka. Menerapkan, mengedit, mencari, dan menghapus metadata secara terprogram."
+  image: "/img/metadata/features_edit.webp" # 500x500 px
+  image_description: "Konfigurasi Metadata"
+  features:
+    # feature loop
+    - title: "Integrasi Metadata Sederhana"
+      content: "GroupDocs.Metadata menyederhanakan penambahan metadata yang berbeda ke dokumen dan file dalam aplikasi Java Anda. Pengembang dapat dengan mudah menerapkan, memperbarui, atau menghapus metadata."
 
-############################# More Formats ############################
+    # feature loop
+    - title: "Kontrol Metadata Terperinci"
+      content: "API ini menawarkan opsi ekstensif untuk menyesuaikan metadata. Sangat mudah untuk menemukan metadata dalam file menggunakan permintaan khusus dan menghapus atau memperbaruinya."
+
+    # feature loop
+    - title: "Memanfaatkan Fitur Asli VCF"
+      content: "Bergantung pada format dokumen, pengembang dapat memanfaatkan metadata bawaan seperti EXIF ​​untuk gambar. Ini mungkin termasuk informasi tentang foto seperti model dan nomor kamera, resolusi, tanggal pembuatan dan lainnya."
+      
+  code_samples:
+    # code sample loop
+    - title: "Perbarui tag Lirik dalam file MP3 (Contoh)"
+      content: |
+        Contoh ini menunjukkan pembaruan metadata tersembunyi di file media MP#.
+        {{< landing/code title="Java">}}
+        ```java {style=abap}
+        
+        //  Muat file ke konstruktor kelas Metadata
+        try (Metadata metadata = new Metadata("input.mp3")) {
+            MP3RootPackage root = metadata.getRootPackageGeneric();
+
+            if (root.getLyrics3V2() == null) {
+                root.setLyrics3V2(new LyricsTag());
+            }
+
+            //  Perbarui data lirik
+            root.getLyrics3V2().setLyrics("[00:01]Test lyrics");
+            root.getLyrics3V2().setArtist("test artist");
+            root.getLyrics3V2().setAlbum("test album");
+            root.getLyrics3V2().setTrack("test track");
+
+            // Anda dapat menambahkan bidang khusus sepenuhnya ke tag
+            root.getLyrics3V2().set(new LyricsField("ABC", "custom value"));
+
+            // Simpan hasil
+            metadata.save("output.mp3");
+        }
+        ```
+        {{< /landing/code >}}
+
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Siap untuk memulai?"
+  description: "Coba fitur GroupDocs.Metadata secara gratis atau minta lisensi"
+  items:
+    #  loop
+    - title: "Maven unduh"
+      link: "https://releases.groupdocs.com/metadata/java/"
+      color: "red"
+        #  loop
+    - title: "Perizinan"
+      link: "https://purchase.groupdocs.com/pricing/metadata/java/"
+      color: "light"
+
+
+############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Mengubah Metadata Format File Lain"
-    content: |
-        Dokumen multi format dan API pengeditan metadata gambar untuk Java. Ambil metadata dari beberapa format file populer seperti yang dinyatakan di bawah ini.
+    title: "Mengubah Metadata Format File Lainnya"
+    exclude: "VCF"
+    description: "API pengeditan metadata dokumen multi format dan gambar untuk Java. Ambil metadata dari beberapa format file populer seperti yang dinyatakan di bawah ini"
+    items: 
+        # format loop 1
+        - name: "Tambahkan Metadata ke AVI"
+          format: "AVI"
+          link: "/metadata/java/edit/avi/"
+          description: "(File Interleave Audio Video)"
+          
+        # format loop 2
+        - name: "Tambahkan Metadata ke DJVU"
+          format: "DJVU"
+          link: "/metadata/java/edit/djvu/"
+          description: "(Format File Grafik)"
+          
+        # format loop 3
+        - name: "Tambahkan Metadata ke DOCX"
+          format: "DOCX"
+          link: "/metadata/java/edit/docx/"
+          description: "(Dokumen Office 2007+ Word)"
+          
+        # format loop 4
+        - name: "Tambahkan Metadata ke EPUB"
+          format: "EPUB"
+          link: "/metadata/java/edit/epub/"
+          description: "(Buka File eBuku)"
+          
+        # format loop 5
+        - name: "Tambahkan Metadata ke HEIC"
+          format: "HEIC"
+          link: "/metadata/java/edit/heic/"
+          description: "(Format Gambar Efisiensi Tinggi)"
+          
+        # format loop 6
+        - name: "Tambahkan Metadata ke JPEG"
+          format: "JPEG"
+          link: "/metadata/java/edit/jpeg/"
+          description: "(Gambar Kelompok Pakar Fotografi Bersama)"
+          
+        # format loop 7
+        - name: "Tambahkan Metadata ke MOV"
+          format: "MOV"
+          link: "/metadata/java/edit/mov/"
+          description: "(Film Apple QuickTime)"
+          
+        # format loop 8
+        - name: "Tambahkan Metadata ke MP3"
+          format: "MP3"
+          link: "/metadata/java/edit/mp3/"
+          description: "(Berkas Audio MP3)"
+          
+        # format loop 9
+        - name: "Tambahkan Metadata ke MSG"
+          format: "MSG"
+          link: "/metadata/java/edit/msg/"
+          description: "(File Item Pesan Outlook)"
+          
+        # format loop 10
+        - name: "Tambahkan Metadata ke ODS"
+          format: "ODS"
+          link: "/metadata/java/edit/ods/"
+          description: "(Lembar Bentang Dokumen Terbuka)"
+          
+        # format loop 11
+        - name: "Tambahkan Metadata ke ODT"
+          format: "ODT"
+          link: "/metadata/java/edit/odt/"
+          description: "(Format File Teks OpenDocument)"
+          
+        # format loop 12
+        - name: "Tambahkan Metadata ke PDF"
+          format: "PDF"
+          link: "/metadata/java/edit/pdf/"
+          description: "(Format Dokumen Portabel)"
+          
+        # format loop 13
+        - name: "Tambahkan Metadata ke PNG"
+          format: "PNG"
+          link: "/metadata/java/edit/png/"
+          description: "(Grafik Jaringan Portabel)"
+          
+        # format loop 14
+        - name: "Tambahkan Metadata ke PPTX"
+          format: "PPTX"
+          link: "/metadata/java/edit/pptx/"
+          description: "(Buka Format presentasi XML)"
+          
+        # format loop 15
+        - name: "Tambahkan Metadata ke TIFF"
+          format: "TIFF"
+          link: "/metadata/java/edit/tiff/"
+          description: "(Format File Gambar yang Ditandai)"
+          
+        # format loop 16
+        - name: "Tambahkan Metadata ke TORRENT"
+          format: "TORRENT"
+          link: "/metadata/java/edit/torrent/"
+          description: "(Tautan torrent)"
+          
+        # format loop 17
+        - name: "Tambahkan Metadata ke VSDX"
+          format: "VSDX"
+          link: "/metadata/java/edit/vsdx/"
+          description: "(Gambar Visio)"
+          
+        # format loop 18
+        - name: "Tambahkan Metadata ke WAV"
+          format: "WAV"
+          link: "/metadata/java/edit/wav/"
+          description: "(File Audio GELOMBANG)"
+          
+        # format loop 19
+        - name: "Tambahkan Metadata ke WEBP"
+          format: "WEBP"
+          link: "/metadata/java/edit/webp/"
+          description: "(Format Gambar Web Raster)"
+          
+        # format loop 20
+        - name: "Tambahkan Metadata ke XLSX"
+          format: "XLSX"
+          link: "/metadata/java/edit/xlsx/"
+          description: "(Buka Buku Kerja XML)"
+          
+        # format loop 21
+        - name: "Tambahkan Metadata ke ZIP"
+          format: "ZIP"
+          link: "/metadata/java/edit/zip/"
+          description: "(File Zip)"
+          
 
-############################# Back to top ###############################
-back_to_top:
-    enable: true
 ---

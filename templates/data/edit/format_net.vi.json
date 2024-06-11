@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Chỉnh sửa siêu dữ liệu thành tệp {{FileformatCap}} trong ứng dụng {{ProgLang}}",
+    "description": "API xử lý siêu dữ liệu {{ProgLang}} để chỉnh sửa thông tin siêu dữ liệu thành tệp {{FileformatCap}}. Làm việc với các tiêu chuẩn siêu dữ liệu XMP, EXIF, IPTC, ID3, v.v."
+  },
+  "header": {
+    "title": "Cập nhật siêu dữ liệu của tệp {{FileformatCap}} trong {{ProgLang}}",
+    "description": "Cập nhật thông tin siêu dữ liệu từ tất cả các tài liệu, hình ảnh và định dạng tệp đa phương tiện phổ biến với sự hỗ trợ thực hiện tất cả các hoạt động xử lý siêu dữ liệu cần thiết nhất.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải về dùng thử miễn phí"
+  },
+  "about": {
+    "title": "Giới thiệu về API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) cung cấp một bộ tính năng quản lý siêu dữ liệu nâng cao, cho phép nhà phát triển dễ dàng đọc, ghi tài liệu, xóa, tìm, so sánh, thay thế và xuất thông tin siêu dữ liệu từ các định dạng hình ảnh và tài liệu mà không cần sử dụng bất kỳ định dạng nào phần mềm bên ngoài. Sử dụng API thao tác siêu dữ liệu để chỉnh sửa chi tiết siêu dữ liệu từ các định dạng tệp PDF, Microsoft Office Word, Excel, bản trình bày PowerPoint, email Outlook, OneNote, Visio, Project, AutoCAD, Archive và Đa phương tiện cùng với việc hỗ trợ làm việc với nhiều tính năng xử lý siêu dữ liệu khác."
+  },
+  "formats": {
+    "title": "Cập nhật thuộc tính siêu dữ liệu từ các định dạng tệp khác",
+    "description": "API chỉnh sửa siêu dữ liệu hình ảnh và tài liệu đa định dạng cho {{EnvName}}. Truy xuất siêu dữ liệu của một số định dạng tệp phổ biến như được nêu bên dưới"
+  },
+  "examples": {
+    "comment_1": "Chỉnh sửa ngày tạo {{FileFormatUp}}",
+    "comment_2": "đặt giá trị của từng thuộc tính thỏa mãn vị ngữ:",
+    "comment_3": "thuộc tính chứa ngày/giờ tài liệu được tạo",
+    "comment_4": "cập nhật ngày/giờ tạo tệp nếu giá trị hiện tại cũ hơn 3 ngày",
+    "comment_5": "Lưu kết quả {{FileFormatUp}}"
+  },
+  "steps": {
+    "title": "Các bước để cập nhật siêu dữ liệu lên {{FileFormatUp}} trong {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdFullName}}]({{ProductUrl}}) giúp nhà phát triển {{EnvName}} dễ dàng chỉnh sửa thông tin siêu dữ liệu thành tệp {{FileFormatUp}} từ bên trong ứng dụng của họ bằng cách thực hiện một vài bước đơn giản.",
+      "step_1": "Tải tệp {{FileFormatUp}} thông qua một phiên bản của lớp {{TextMetadata}}.",
+      "step_2": "Chỉ định một vị từ sẽ được sử dụng để lọc các thuộc tính siêu dữ liệu mong muốn.",
+      "step_3": "Chuyển vị từ và giá trị mới cho phương thức {{TextUpdateProperties}}.",
+      "step_4": "Lưu các thay đổi vào đĩa ở định dạng {{FileFormatUp}}."
+    }
+  },
+  "more_features": {
+    "title": "Quản lý thuộc tính siêu dữ liệu bên trong {{FileFormatUp}} cho ứng dụng {{EnvName}}",
+    "description": "API {{ProdShortName}} cho phép nhà phát triển dễ dàng chỉnh sửa chi tiết tài liệu (siêu dữ liệu) ở nhiều định dạng khác nhau bằng ứng dụng {{EnvName}} của họ. Lập trình thêm, cập nhật, tìm kiếm và xóa thuộc tính tài liệu.",
+    "image_description": "Quản lý thuộc tính siêu dữ liệu tài liệu",
+    "feature_1": {
+      "title": "Tích hợp siêu dữ liệu hiệu quả",
+      "content": "{{ProdShortName}} đơn giản hóa việc thêm các thuộc tính khác nhau vào tài liệu và tệp trong ứng dụng {{EnvName}} của bạn. Nhà phát triển có thể dễ dàng áp dụng, cập nhật hoặc xóa thuộc tính tài liệu theo chương trình."
+    },
+    "feature_2": {
+      "title": "Kiểm soát siêu dữ liệu chính xác",
+      "content": "API cung cấp các tùy chọn mở rộng để quản lý thuộc tính tài liệu. Các nhà phát triển có thể tìm và xử lý hiệu quả mọi dữ liệu ẩn được đặt trong các tệp doanh nghiệp."
+    },
+    "feature_3": {
+      "title": "Tận dụng các thuộc tính {{FileFormatUp}} tích hợp sẵn",
+      "content": "Tùy thuộc vào định dạng tài liệu, nhà phát triển có thể sử dụng các thuộc tính hiện có như dữ liệu EXIF ​​​​cho hình ảnh. Điều này có thể bao gồm thông tin như chi tiết máy ảnh, độ phân giải, ngày tạo, v.v."
+    },
+    "code_1": {
+      "title": "Cập nhật siêu dữ liệu lời bài hát trong tệp MP3 (Ví dụ)",
+      "content": "Ví dụ này minh họa việc cập nhật thông tin ẩn (siêu dữ liệu) trong tệp âm thanh MP3.",
+      "comment_1": "Tải tệp bằng lớp {{TextMetadata}}",
+      "comment_2": "Cập nhật dữ liệu lời bài hát",
+      "comment_3": "Bạn có thể thêm các trường tùy chỉnh vào siêu dữ liệu",
+      "comment_4": "Lưu tập tin cập nhật"
+    }
+  }
+}

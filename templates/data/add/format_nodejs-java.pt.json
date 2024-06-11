@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "Adicionar metadados a arquivos {{FileFormatUp}} em aplicativos {{ProgLang}}",
+    "description": "API de processamento de metadados {{ProgLang}} para adicionar informações de metadados a arquivos {{FileFormatUp}}. Trabalhe com padrões de metadados XMP, EXIF, IPTC, ID3 etc."
+  },
+  "header": {
+    "title": "Adicionando metadados a {{FileFormatUp}} em {{ProgLang}}",
+    "description": "Adicione propriedades de metadados personalizados a uma ampla variedade de documentos comerciais, imagens, formatos de arquivos de áudio e vídeo usando {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixe a avaliação gratuita"
+  },
+  "about": {
+    "title": "Sobre a API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) é uma solução avançada de gerenciamento e manipulação de campos de metadados para visualizar, atualizar, remover, encontrar, comparar, trocar e exportar facilmente informações de metadados de imagens e formatos de documentos sem usar qualquer software externo . Adicione detalhes de metadados a documentos do Word, planilhas do Excel, apresentações do PowerPoint, e-mails do Outlook, OneNote, Visio, Project, PDF, AutoCAD, ZIp, formatos de arquivo de áudio e vídeo, juntamente com o suporte para trabalhar com muitos outros recursos de processamento de metadados."
+  },
+  "formats": {
+    "title": "Adicionando propriedades de metadados a outros formatos de arquivo",
+    "description": "API de adição de metadados de documentos e imagens multiformato para {{EnvName}}. Recupere metadados de alguns dos formatos de arquivo populares conforme indicado abaixo."
+  },
+  "examples": {
+    "comment_1": "carregue o arquivo em uma instância da classe {{TextMetadata}}",
+    "comment_2": "adicione uma propriedade contendo o autor do conteúdo",
+    "comment_3": "resultados da operação do processo",
+    "comment_4": "salve o arquivo com metadados atualizados"
+  },
+  "steps": {
+    "title": "Etapas para adicionar metadados a {{FileFormatUp}} em {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) torna mais fácil para os desenvolvedores de {{EnvName}} adicionar detalhes de metadados a arquivos {{FileFormatUp}} de dentro de seus aplicativos, implementando algumas etapas fáceis.",
+      "step_1": "Carregue {{FileFormatUp}} com uma instância da classe {{TextMetadata}}.",
+      "step_2": "Use o método {{TextMetadataAddProperties}} para adicionar as propriedades.",
+      "step_3": "Use um predicado para localizar as propriedades de metadados desejadas.",
+      "step_4": "Salve as alterações no formato {{FileFormatUp}}."
+    }
+  },
+  "more_features": {
+    "title": "Gerenciamento de metadados de documentos",
+    "description": "Nossa API abrangente simplifica o gerenciamento de metadados de documentos. Acesse, edite e manipule diversas propriedades de documentos para melhorar a organização e a capacidade de pesquisa.",
+    "image_description": "Funcionalidade de metadados",
+    "feature_1": {
+      "title": "Acesso a metadados",
+      "content": "Recupere e processe facilmente os metadados de um documento. Obtenha insights sobre propriedades como autor, data de criação e muitas outras."
+    },
+    "feature_2": {
+      "title": "Edição de metadados",
+      "content": "Modifique os metadados do documento diretamente. Atualize as propriedades para melhor organização, capacidade de pesquisa e precisão das informações."
+    },
+    "feature_3": {
+      "title": "Gerenciamento avançado de metadados",
+      "content": "Execute operações complexas em metadados de documentos. Lide com eficiência com tarefas como adicionar propriedades personalizadas, excluir dados irrelevantes e garantir a consistência dos dados."
+    },
+    "code_1": {
+      "title": "Como limpar a imagem de metadados indesejáveis",
+      "content": "Este exemplo de código mostra como remover metadados EXIF ​​de um arquivo",
+      "comment_1": "passe a imagem para o construtor da classe {{TextMetadata}}",
+      "comment_2": "acessar o pacote raiz EXIF",
+      "comment_3": "remover metadados",
+      "comment_4": "salvar arquivo limpo"
+    }
+  }
+}

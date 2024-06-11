@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "Remover propriedades de metadados de arquivos {{FileFormatUp}} em {{EnvName}}",
+    "description": "API de metadados {{EnvName}} de plataforma cruzada para ocultar e remover campos de metadados de arquivos {{FileFormatUp}}. Trabalhe com padrões de metadados XMP, EXIF, IPTC, ID3 etc."
+  },
+  "header": {
+    "title": "Remover metadados {{FileFormatUp}} em {{EnvName}}",
+    "description": "Remova propriedades de metadados de {{FileFormatUp}} e muitos outros documentos populares, imagens e formatos de arquivos multimídia usando a API {{ProdFullName}}",
+    "subtitle": "API {{ProdFullName}}",
+    "action_title": "Baixe a avaliação gratuita"
+  },
+  "about": {
+    "title": "Sobre a API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) é uma solução avançada de manipulação de campos de metadados para ler, adicionar, atualizar, excluir, encontrar, comparar, trocar e exportar facilmente informações de metadados de imagens e formatos de documentos sem usar nenhum software externo . Remova detalhes de metadados de documentos do Word, planilhas do Excel, apresentações do PowerPoint, e-mails do Outlook, OneNote, Visio, Project, PDF, AutoCAD, ZIp, formatos de arquivo de áudio e vídeo, juntamente com o suporte para trabalhar com muitos outros recursos de processamento de metadados."
+  },
+  "formats": {
+    "title": "Removendo metadados de outros formatos de arquivo",
+    "description": "Documentos multiformatos e metadados de imagens removendo API para {{EnvName}}. Recupere metadados de alguns dos formatos de arquivo populares conforme indicado abaixo."
+  },
+  "examples": {
+    "comment_1": "Limpar metadados do documento {{FileFormatUp}}",
+    "comment_2": "Remova todas as menções de qualquer pessoa que contribuiu na criação do arquivo",
+    "comment_3": "Remover uma propriedade customizada com o nome especificado",
+    "comment_4": "Salve o arquivo limpo"
+  },
+  "steps": {
+    "title": "Etapas para remover metadados de {{FileFormatUp}} em {{EnvName}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) torna mais fácil para os desenvolvedores de {{EnvName}} excluir informações de metadados de arquivos {{FileFormatUp}} de seus aplicativos, implementando algumas etapas fáceis.",
+      "step_1": "Carregue o arquivo {{FileFormatUp}} a ser atualizado.",
+      "step_2": "Passe um predicado de pesquisa para o método {{TextRemoveProperties}}.",
+      "step_3": "Verifique a quantidade de imóveis que foram efetivamente removidos.",
+      "step_4": "Salve as alterações."
+    }
+  },
+  "more_features": {
+    "title": "Gerencie metadados de documentos com facilidade",
+    "description": "Nossa solução simplifica o gerenciamento dos metadados de seus documentos. Acesse, edite e atualize facilmente várias propriedades de documentos para manter seus arquivos organizados e pesquisáveis.",
+    "image_description": "Proteja metadados de documentos",
+    "feature_1": {
+      "title": "Controle de metadados sem esforço",
+      "content": "Obtenha e processe rapidamente os metadados de um documento. Obtenha informações valiosas como autor, data de criação e muito mais."
+    },
+    "feature_2": {
+      "title": "Atualização simples de metadados",
+      "content": "Edite diretamente os metadados do documento. Atualize as propriedades para melhor organização, capacidade de pesquisa e informações precisas."
+    },
+    "feature_3": {
+      "title": "Gerenciamento poderoso de metadados",
+      "content": "Execute operações avançadas em metadados de documentos. Lide facilmente com tarefas como adicionar propriedades personalizadas, remover dados desnecessários e garantir a consistência dos dados."
+    },
+    "code_1": {
+      "title": "Limpar metadados do arquivo ZIP",
+      "content": "O trecho de código a seguir mostra como remover o comentário do usuário de um arquivo ZIP",
+      "comment_1": "Carregar arquivo para processamento posterior",
+      "comment_2": "Obtenha o pacote principal de metadados",
+      "comment_3": "Remover comentários arquivados",
+      "comment_4": "Salvar arquivo limpo"
+    }
+  }
+}

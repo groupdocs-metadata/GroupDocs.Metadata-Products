@@ -1,0 +1,578 @@
+{
+  "index-content": {
+    "head_title": ".NET-, Java-, Node.js-APIs und Online-Metadaten-Manipulations-Apps von {{NameCompany}}",
+    "head_description": "Dokumentmetadaten-APIs, nativ für C#, .NET und Java. Lesen, schreiben, bearbeiten und vergleichen Sie Metainformationen aller gängigen Formate. Metadaten analysieren und exportieren.",
+    "title": "Lösung zur Verwaltung von Dokumentenmetadaten",
+    "description_0": "APIs und Apps zum Lesen, Bearbeiten, Ersetzen und Entfernen von Metadaten von Dokumenten, Bildern und anderen Dateiformaten auf gängigen Plattformen.",
+    "description_1": "Fügen Sie versteckte Metadateninformationen zu Ihren Geschäftsdateien und Dokumenten hinzu.",
+    "description_2": "Ändern oder entfernen Sie Metadaten, die bereits in Ihren Dokumenten enthalten sind.",
+    "description_3": "Sammeln und analysieren Sie Informationen über Dokumenten- und Dateimetadaten.",
+    "words_for": "für",
+    "release_title": "Version {0} veröffentlicht",
+    "release_notes": "Schau was neu ist",
+    "release_downloads": "Downloads",
+    "code_more": "Mehr Beispiele",
+    "overview_title": "{{ProdShortName}} auf einen Blick",
+    "formats_title": "Unterstützte Dateiformate",
+    "platforms": {
+      "title": "Plattformunabhängigkeit",
+      "head_title": "Wählen Sie Ihre Plattform",
+      "description": "{{ProdShortName}} ist mit einer Vielzahl von Betriebssystemen und Frameworks kompatibel:",
+      "learn_more": "Erfahren Sie mehr",
+      "any_other_text_editor": "Jeder andere Texteditor"
+    },
+    "features": {
+      "title": "Überprüfung der Funktionen von {{ProdShortName}}",
+      "description": "Unsere Lösung ist darauf ausgelegt, Metadaten in vielen gängigen Dateiformaten zu bearbeiten, darunter Bilder und Office-Dokumente.",
+      "feature_1": {
+        "title": "Schützen Sie Geschäftsinformationen",
+        "content": "Fügen Sie versteckte Metadaten zu Ihren sensiblen Dateien und Dokumenten hinzu."
+      },
+      "feature_2": {
+        "title": "Kontrollieren Sie die Metadaten des Dokuments",
+        "content": "Sammeln Sie detaillierte Informationen zu den in Dokumenten enthaltenen Metadaten."
+      },
+      "feature_3": {
+        "title": "Metadateninformationen bearbeiten",
+        "content": "Ändern Sie Inhalte oder löschen Sie Metadaten in vielen unterstützten Dateiformaten."
+      },
+      "feature_4": {
+        "title": "Diverse Zusatzfunktionen",
+        "content": "Erhalten Sie eine Dokumentvorschau, extrahieren Sie Metadatenpakete usw."
+      }
+    },
+    "formats": {
+      "title": "Mehr als 70 Formate werden unterstützt",
+      "description": "{{ProdShortName}} hilft bei der Kontrolle von Metadaten in gängigen Dokument- und Dateiformaten."
+    },
+    "code_samples": {
+      "title": "Codebeispiele",
+      "index_title": "Schützen Sie Dokumente mithilfe von Metadaten",
+      "index_description": "{{ProdShortName}} typische Codebeispiele für Vorgänge.",
+      "more_examples": "Mehr Beispiele",
+      "sample_index": {
+        "title": "Entfernen Sie unnötige Metadaten aus Bildern und Dokumenten",
+        "content": "{{ProdShortName}} hilft Ihnen, versteckte Informationen ganz einfach aus Ihren Dateien und Dokumenten zu entfernen. Sie können schnell Details löschen, etwa wann und wo ein Bild aufgenommen wurde, oder Autoren- und Herausgeberinformationen aus Office-Dokumenten entfernen.",
+        "comment_1": "Übergeben Sie den Pfad zu einem Dokument an den Konstruktor {{TextMetadata}}",
+        "comment_2": "Entfernen Sie Dokumenteigenschaften, die mit dem Ersteller und Editor verbunden sind",
+        "comment_3": "Prozessergebnis der Metadatenentfernung",
+        "comment_4": "Bereinigtes Dokument speichern"
+      },
+      "sample_1": {
+        "code_title": "So erhalten Sie spezifische Dokumentmetadaten",
+        "comment_1": "Laden Sie das Quelldokument in den Metadatenkonstruktor",
+        "comment_2": "Rufen Sie alle Eigenschaften ab, die den Namen des letzten Dokumenteditors enthalten",
+        "comment_3": "oder das Datum/die Uhrzeit der letzten Änderung des Dokuments",
+        "comment_4": "Abgerufene Metadateneinträge verarbeiten"
+      },
+      "sample_2": {
+        "code_title": "So fügen Sie einer Datei unabhängig von ihrem Format einige fehlende Metadateneigenschaften hinzu.",
+        "comment_1": "Quelldokument laden",
+        "comment_2": "Fügen Sie eine Eigenschaft hinzu, die das Datum des letzten Drucks der Datei enthält, falls diese fehlt",
+        "comment_3": "Die Eigenschaft wird hinzugefügt, wenn das Dokument diese Art von Metadaten unterstützt",
+        "comment_4": "Speichern Sie das geänderte Dokument in einem angegebenen Pfad"
+      }
+    },
+    "metrics": {
+      "title": "{{ProdShortName}} Erfolge",
+      "description": "Entdecken Sie die wichtigsten Kennzahlen der Leistungen unserer Bibliothek",
+      "item_1": {
+        "title": "Unterstützte Formate",
+        "description": "{{ProdShortName}} unterstützt die Metadatenbearbeitung für mehr als 70 gängige Dateiformate."
+      },
+      "item_2": {
+        "title": "NuGet-Downloads",
+        "description": "Das Paket „{{ProdShortName}} für .NET NuGet“ wurde mehr als 700.000 Mal heruntergeladen."
+      },
+      "item_3": {
+        "title": "Maven-Downloads",
+        "description": "{{ProdShortName}} hat 15.000 Downloads auf Maven. Leistungsstarkes Java-Metadatenmanagement."
+      },
+      "item_4": {
+        "title": "Zufriedene Kunden",
+        "description": "Sowohl berühmte Unternehmen als auch einzelne Entwickler bevorzugen {{NameCompany}}-Produkte, um innovative Lösungen zu entwickeln."
+      }
+    },
+    "customers": {
+      "title": "Unsere zufriedenen Kunden",
+      "description": "{{NameCompany}}-Produkte vertrauen vielen Kunden auf der ganzen Welt und werden in vielen wettbewerbsfähigen Geschäftslösungen weltweit eingesetzt."
+    },
+    "actions": {
+      "alt": "Lizenzierung",
+      "title": "Bereit zum Start?",
+      "description": "Testen Sie die Funktionen von {{ProdShortName}} kostenlos oder fordern Sie eine Lizenz an",
+      "description_index": "Testen Sie die Funktionen von {{ProdShortName}} kostenlos in Ihren Anwendungen"
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "description": "Haben Sie Fragen zu unserem Produkt? Wir haben Antworten!",
+      "item_1": {
+        "question": "Benötigt {{ProdShortName}} Software von Drittanbietern für die Verarbeitung von Dokumentmetadaten?",
+        "answer": "{{ProdShortName}} arbeitet unabhängig; Es sind keine externen Bibliotheken wie Microsoft Office oder Adobe Acrobat erforderlich."
+      },
+      "item_2": {
+        "question": "Kann ich die Funktionen von {{ProdShortName}} vor dem Kauf ausprobieren?",
+        "answer": "Absolut! {{ProdShortName}} bietet eine kostenlose Testversion an. Installieren Sie es und erkunden Sie seine Funktionen. Bitte beachten Sie jedoch, dass Testversionen Ihren Dokumenten „Testabzeichen“ hinzufügen und nur die ersten drei Seiten verarbeiten. Für das komplette Erlebnis erhalten Sie eine kostenlose 30-tägige temporäre Lizenz mit vollem Funktionsumfang. Schauen Sie sich die Details [hier]({{LicensingUrl}}) an."
+      },
+      "item_3": {
+        "question": "Welche Arten von Lizenzen sind verfügbar?",
+        "answer": "Suchen Sie nach einer {{ProdShortName}}-Lizenz? Wir bieten Ihnen verschiedene Optionen. Wählen Sie aus Lizenzen, die auf Ihre Bedürfnisse zugeschnitten sind, basierend auf Faktoren wie der Anzahl der Entwickler in Ihrem Team, Bereitstellungsstandorten (z. B. Einzelbüro oder Remote-Arbeitsplätze) und ob die Endkundenverteilung die gemeinsame Nutzung des SDK/der API mit Kunden erfordert. Alternativ können Sie sich für eine monatliche Nutzungslizenz entscheiden, bei der Sie mit getakteten Tarifen auf Basis Ihrer Nutzung bezahlen. Entdecken Sie weiter und finden Sie die perfekte Lösung [hier]({{PricingUrl}})."
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} Low-Code-APIs enthalten",
+      "description": "Verwalten Sie vertrauliche Metadaten in Geschäftsdateien innerhalb Ihrer Anwendung mithilfe unserer cloudbasierten REST-API.",
+      "item_1": {
+        "content": "Arbeiten Sie mit cURL RESTful-Metadatenbearbeitungs-APIs, um Metadateninformationen von PDF-, Word-, Excel-, Präsentations-, Bild- und Multimediadateien in Ihren Anwendungen zu verwalten."
+      },
+      "item_2": {
+        "content": "Verwenden Sie die Metadaten-REST-API mit dem .NET SDK, um Metadaten aus Dokumentformaten in .NET-Anwendungen hinzuzufügen, zu bearbeiten, zu extrahieren, zu suchen und zu löschen."
+      },
+      "item_3": {
+        "content": "Erweitern Sie Ihre Java-Anwendungen mit leistungsstarken Metadatenverwaltungsfunktionen mithilfe des Metadata SDK für Java."
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} Keine Code-Apps enthalten",
+      "description": "Greifen Sie auf die Webanwendung {{NameCompany}} zum Verwalten von Dokumentmetadaten zu. Verarbeiten Sie KOSTENLOS über 70 gängige Dateiformate in Ihrem Lieblingsbrowser.",
+      "item_1": {
+        "content": "Kostenlose App zum Anzeigen und Bearbeiten von Metadaten von Word, Excel, PDF, PowerPoint und mehr als 70 Dokumenttypen."
+      },
+      "item_2": {
+        "content": "Kostenloser Online-Metadaten-Viewer und -Editor für MS Word-Dokumente."
+      },
+      "item_3": {
+        "content": "Metadateninformationen von PDF-Dokumenten online anzeigen oder bearbeiten."
+      }
+    },
+    "formats_groups": {
+      "title_1": "Office-Formate",
+      "title_2": "Medien & Grafiken",
+      "title_3": "Andere",
+      "format_portable": "tragbar",
+      "format_video": "Video",
+      "format_audio": "Audio",
+      "format_fonts": "Schriftarten",
+      "format_project": "Projekt",
+      "format_others": "Andere",
+      "format_popular_images": "Beliebte Bildformate",
+      "format_multi_images": "Mehrseitige Bilder"
+    }
+  },
+  "index-content-net": {
+    "head_title": "{{EnvNameShort}} Metadaten-Reader, Viewer, Extractor, Remover & Exporter API",
+    "head_description": "{{ProgLang}} {{EnvNameShort}} Metadaten-API zum Lesen, Schreiben, Bearbeiten, Analysieren, Suchen, Extrahieren, Entfernen, Vergleichen und Exportieren von Metadaten von PDF, Word, Excel, PPTX, Outlook, Audio, Videos und Bildern.",
+    "title": "{{EnvNameShort}} API zum Verwalten und Bearbeiten von Metadaten",
+    "description": "Erstellen Sie {{EnvNameShort}}-Anwendungen zum Lesen, Bearbeiten, Entfernen, Abrufen, Suchen, Vergleichen, Ersetzen und Exportieren von Metadateninformationen aller gängigen Dokument- und Bilddateiformate.",
+    "actions_main": "Kostenloser NuGet-Download",
+    "code_title": "Metadateneigenschaften schnell abrufen",
+    "code_comment_1": "Übergeben Sie das JPEG-Bild an Metadaten",
+    "code_comment_2": "Entfernen Sie das Hauptmetadatenpaket",
+    "code_comment_3": "Gelöschtes Bild speichern",
+    "overview_description": "Nachfolgend finden Sie eine Übersicht über {{ProdFullName}}",
+    "overview_feature_1": {
+      "title": "{{ProgLang}} Anwendungsintegration",
+      "description": "Die {{ProdFullName}}-API lässt sich einfach in {{ProgLang}}, {{AspNet}} und andere {{EnvNameShort}}-basierte Anwendungen integrieren, um Ihren Endbenutzern die Bearbeitung von Metadaten aus einer Reihe von Bildern, Dokumenten und anderen Mediendateien zu erleichtern Formate ohne Installation externer Software. Die {{EnvNameShort}}-Metadatenbibliothek unterstützt die Erstellung von Tools zum schnellen Hinzufügen von Funktionen zum Anzeigen, Bearbeiten, Entfernen, Extrahieren, Vergleichen und Exportieren von Metadaten in einer Reihe branchenüblicher Dokumentformate wie PDF, Microsoft Office Word, Excel-Tabellen, PowerPoint-Präsentationen und Outlook E-Mails, Projekte, Visio-Diagramme, OneNote, Bilder, AutoCAD, Photoshop, Audio, Video und Metadateien."
+    },
+    "overview_feature_2": {
+      "title": "Verschiedene Metadatentypen",
+      "description": "Die Metadaten-API ist sehr flexibel und einfach zu bedienen. Es erhält die Dokumentdatei als Eingabe, analysiert die Metadateninformationen, ermöglicht die Durchführung unterstützter Metadatenoperationen und speichert die geänderte Datei, um bei späterer Verwendung schnell darauf zugreifen zu können. Es funktioniert mit den wichtigsten Metadatenstandards wie integrierten, XMP, EXIF, IPTC, Image Resource Blocks, ID3 und benutzerdefinierten Metadateneigenschaften. Über die {{ProdFullName}}-API können Sie auch zwei Dokumente vergleichen, um Unterschiede und Ähnlichkeiten in ihren Metadateneigenschaften zu identifizieren. Sie können auch Metadaten erforderlicher Dokumente nach Excel, CSV oder DataSet exportieren."
+    },
+    "overview_feature_3": {
+      "title": "Alle gängigen Umgebungen werden unterstützt",
+      "description": "{{ProdFullName}} kann zum Entwickeln von Anwendungen in jeder Entwicklungsumgebung verwendet werden, die auf die Plattform {{EnvNameShort}} abzielt. Es ist mit allen {{EnvNameShort}}-basierten Sprachen kompatibel und unterstützt gängige Betriebssysteme (Windows, Linux, MacOS), auf denen {{Mono}}- oder {{EnvNameShort}}-Frameworks (einschließlich {{CoreNet}}) installiert werden können."
+    },
+    "features": {
+      "title": "{{ProdFullName}}-Funktionen",
+      "description": "Verwenden Sie Metadaten, um PDF-, Office-, Bild- und andere Formate zu schützen",
+      "feature_1": {
+        "title": "Identifizieren Sie integrierte und benutzerdefinierte Metadaten",
+        "content": "Viele Dateiformate verfügen über obligatorische Metadaten. Bearbeiten Sie diese sowie benutzerdefinierte Metadaten für Ihre eigenen Ziele"
+      },
+      "feature_2": {
+        "title": "Finden Sie Fotos, die mit einer bestimmten Kamera aufgenommen wurden",
+        "content": "Erhalten Sie Informationen zu in Metadaten gespeicherten Fotos, einschließlich Kamerahersteller, Modell, Auflösung usw"
+      },
+      "feature_3": {
+        "title": "Möglichkeit zur Erkennung/Entfernung digitaler Signaturen",
+        "content": "Finden Sie alle digitalen Metadaten in Ihren Geschäftsdateien und entfernen Sie, was Sie benötigen"
+      },
+      "feature_4": {
+        "title": "Fotostandort",
+        "content": "Importieren Sie Bildmetadateneigenschaften und entfernen Sie Standortinformationen aus Fotos"
+      },
+      "feature_5": {
+        "title": "Metadatensuche",
+        "content": "Durchsuchen Sie die Metadateneigenschaften von Dateien und zählen Sie alle Arten von Metadaten auf"
+      },
+      "feature_6": {
+        "title": "Saubere Geschäftsdaten",
+        "content": "Entfernen Sie Metadaten und Kommentare aus Berichten und Dokumenten"
+      },
+      "feature_7": {
+        "title": "Dokumentvorschauen",
+        "content": "Generieren Sie Bildvorschauen für EPUB-, CAD-, EML- und MSG-Dateien"
+      },
+      "feature_8": {
+        "title": "Matroska Multimedia-Unterstützung",
+        "content": "Lesen Sie Matroska-Untertitel und rufen Sie Metadaten von Audio- und Videodateien ab"
+      },
+      "feature_9": {
+        "title": "Erhalten Sie Metadaten von Archivformaten und Torrents",
+        "content": "Bearbeiten Sie Metadaten von Archivdateien wie .ZIP und Dateien mit Torrent-Daten"
+      },
+      "feature_10": {
+        "title": "Laufzeiterkennung des Dokumentdateityps",
+        "content": "Unsere Lösung bietet die Möglichkeit, den Datei- oder Streamtyp vor der Metadatenverarbeitung zu erkennen"
+      },
+      "feature_11": {
+        "title": "Analysieren Sie Metadatenunterschiede",
+        "content": "Vergleichen Sie Metadateneigenschaften unterstützter Formate und identifizieren Sie Unterschiede oder Ähnlichkeiten"
+      },
+      "feature_12": {
+        "title": "Reduzierung des Speicherverbrauchs von Dokumenten und Bildern",
+        "content": "Bereinigen Sie Dokumente und Bilder von zusätzlichen versteckten Daten"
+      },
+      "feature_13": {
+        "title": "Kontrollbürodokumente",
+        "content": "Rufen Sie versteckte Daten in Microsoft Word-, Excel-, PowerPoint- und PDF-Dateien ab und entfernen Sie sie"
+      },
+      "feature_14": {
+        "title": "Ersetzen Sie Metadateneigenschaften unterstützter Dateiformate",
+        "content": "Es ist durchaus möglich, eine Liste geeigneter Dokumentmetadaten zu erhalten und den Inhalt jedes Eintrags zu ersetzen"
+      },
+      "feature_15": {
+        "title": "TIFF-Bildunterstützung",
+        "content": "IPTC-Metadatenpakete in TIFF-Bildern hinzufügen, aktualisieren und löschen"
+      },
+      "feature_16": {
+        "title": "Microsoft Excel-Unterstützung",
+        "content": "Extrahieren Sie Metadaten aus Microsoft Excel-Dateien ab Excel 95"
+      },
+      "feature_17": {
+        "title": "Unterstützung für PNG-Bilder",
+        "content": "Extrahieren Sie Textmetadaten aus PNG-Bilddateien"
+      },
+      "feature_18": {
+        "title": "Erkennung des MIME-Typs",
+        "content": "Ermitteln Sie den MIME-Typ einer bestimmten Datei oder eines bestimmten Dateistreams"
+      },
+      "feature_19": {
+        "title": "Bildvorschauen",
+        "content": "Rufen Sie Miniaturansichten ab und rendern Sie Bildvorschauen für unterstützte Formate"
+      },
+      "feature_20": {
+        "title": "Matroska Multimedia-Sicherheit",
+        "content": "Identifizieren Sie den Passwortschutz und die Unterstützung für den Matroska-Multimedia-Container"
+      },
+      "feature_21": {
+        "title": "Integrierte Metadatenunterstützung",
+        "content": "Verwenden Sie einen definierten Schlüssel, um Metadateneigenschaften unterstützter Formate zu lesen"
+      },
+      "feature_22": {
+        "title": "EXIF-Bildmetadaten",
+        "content": "Aktualisieren Sie EXIF-Metadateneigenschaften in WEBP-, PNG- und PSD-Dateien"
+      },
+      "feature_23": {
+        "title": "Unterstützung für E-Mails und Schriftarten",
+        "content": "Lesen Sie Metadaten von E-Mail-Nachrichten und analysieren Sie OpenType-Schriftartendateien"
+      },
+      "feature_24": {
+        "title": "Verarbeitung von Multimediadateien",
+        "content": "Extrahieren Sie XMP-Metadateneigenschaften in MOV-, MP3- und WEBP-Dateien"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} unterstützt folgende Betriebssysteme, Frameworks und Paketmanager:",
+    "formats_description": "{{ProdFullName}} unterstützt die folgenden [Dokumentdateiformate]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Einige Anwendungsfälle typischer {{ProdFullName}}-Vorgänge",
+    "code_title_sample_1": "Finden Sie versteckte Metadaten",
+    "code_samples_sample_1_content": "Um den inneren Dokumentinhalt zu kontrollieren, können Sie [Dokumentmetadaten]({{Sample1Url}}) finden und verarbeiten:",
+    "code_title_sample_2": "Sicherer Dokumenteninhalt",
+    "code_samples_sample_2_content": "Fügen Sie [versteckte Metadaten]({{Sample2Url}}) zu Ihren Geschäftsdateien hinzu, um deren Inhalt zu schützen:"
+  },
+  "index-content-java": {
+    "head_title": "{{EnvNameShort}} Metadaten-API – Dokumentmetadaten anzeigen, lesen, exportieren, bearbeiten und entfernen",
+    "head_description": "{{EnvNameShort}} Metadaten-API zum Anzeigen, Lesen, Bearbeiten, Analysieren, Suchen, Löschen, Vergleichen und Exportieren von Metadaten von PDF Word Excel PPTX Outlook Visio Audio-, Video- und Bilddokumenten.",
+    "title": "Metadaten-Manipulations-API für {{EnvNameShort}}",
+    "description": "Entwickeln Sie {{EnvNameShort}}-Anwendungen zum Erstellen, Anzeigen, Zugreifen, Aktualisieren, Löschen, Suchen, Vergleichen, Ersetzen und Exportieren von Metadaten gängiger Dokumente und Bildformate.",
+    "actions_main": "Kostenloser Download von Maven",
+    "code_title": "Metadateneigenschaften effizient abrufen",
+    "code_comment_1": "Geben Sie den MP3-Pfad zum Metadatenkonstruktor an",
+    "code_comment_2": "Verarbeiten Sie integrierte MP3-Metadaten",
+    "overview_description": "Bibliothek zur Metadatenbearbeitung über {{EnvNameShort}}",
+    "overview_feature_1": {
+      "title": "Kontrollieren Sie die Metadaten von Dateien und Dokumenten",
+      "description": "{{ProdFullName}} ist eine erweiterte Metadatenverwaltungs-API zur Bearbeitung von Metadateninformationen von Dokumenten, Bildern, Archiven, Torrents und verschiedenen anderen Dateiformaten. Entwickler können jetzt die Funktionalität ihrer {{EnvNameShort}}-Anwendungen erweitern, indem sie ganz einfach Funktionen zum Anzeigen, Ändern, Löschen, Extrahieren, Suchen, Vergleichen, Ersetzen und Exportieren von Metadaten in alle gängigen Geschäftsdokumentformate wie PDF, Microsoft Office Word und Excel-Tabellen integrieren , PowerPoint-Präsentationen und -Folien, Outlook-E-Mails, Projekte, Visio-Diagramme, OneNote, Bilder, AutoCAD, Photoshop, Audio, Video, OpenType-Schriftarten und Metadateien."
+    },
+    "overview_feature_2": {
+      "title": "Bearbeiten Sie integrierte Metadaten",
+      "description": "Die {{EnvNameShort}}-Metadatenbibliothek bietet Ihnen Funktionen wie die Metadatensuche, das Ersetzen von Metadateneigenschaften und den Vergleich von Metadaten unterstützter Dateiformate, um sowohl Ähnlichkeiten als auch Unterschiede zu identifizieren. Sie können Metadaten auch für eine bessere Informationsverwaltung bearbeiten oder ändern und abgerufene Metadateninformationen in eine Excel-Datei, eine CSV-Datei und ein DataSet exportieren. Die API bietet umfassende Unterstützung für die Arbeit mit allen gängigen Metadatenstandards wie integrierten, XMP-, EXIF- und benutzerdefinierten Metadateneigenschaften in unterstützten Dokumentformaten."
+    },
+    "overview_feature_3": {
+      "title": "Breite Plattformunterstützung",
+      "description": "{{ProdFullName}} ist mit allen {{EnvNameShort}}-Versionen kompatibel und unterstützt gängige Betriebssysteme (Windows, Linux, MacOS), die die Laufzeit von {{EnvNameShort}} ausführen können."
+    },
+    "features": {
+      "title": "{{ProdFullName}} Funktionen",
+      "description": "Schützen Sie Ihre PDF-, Office-Dokumente und Bildmetadaten",
+      "feature_1": {
+        "title": "Metadaten von EXIF-Bildern",
+        "content": "Aktualisieren Sie EXIF-Metadateneigenschaften in WEBP-, PNG- und PSD-Dateien"
+      },
+      "feature_2": {
+        "title": "Dateimetadaten abrufen",
+        "content": "Durchsuchen Sie die Eigenschaften von Dokument-, EXIF- und XMP-Metadaten"
+      },
+      "feature_3": {
+        "title": "Saubere Office-Formate",
+        "content": "Greifen Sie auf versteckte Daten in Microsoft Word-, Excel-, PowerPoint- und PDF-Dateien zu und löschen Sie sie"
+      },
+      "feature_4": {
+        "title": "Metadatenexport",
+        "content": "Exportieren Sie Metadaten unterstützter Dateiformate nach Excel, CSV oder DataSet"
+      },
+      "feature_5": {
+        "title": "Unterstützung für PNG-Bilder",
+        "content": "Extrahieren Sie Textmetadaten aus PNG-Bilddateien"
+      },
+      "feature_6": {
+        "title": "Entfernen Sie digitale Signaturen",
+        "content": "Identifizieren und löschen Sie digitale Signaturen in Word-, Excel- und PDF-Dateien"
+      },
+      "feature_7": {
+        "title": "Integrierte Metadatenunterstützung",
+        "content": "Lesen Sie die Metadateneigenschaft mithilfe eines definierten Schlüssels für jedes unterstützte Format"
+      },
+      "feature_8": {
+        "title": "Bildvorschauen",
+        "content": "Generieren Sie Bildvorschauen für EPUB-, CAD-, EML- und MSG-Dateien"
+      },
+      "feature_9": {
+        "title": "Optimierung des Dateiinhalts",
+        "content": "Reduzieren Sie den Speicherverbrauch von PDF-, Excel- und Bildformaten"
+      },
+      "feature_10": {
+        "title": "Matroska Multimedia-Unterstützung",
+        "content": "Lesen Sie Matroska-Untertitel und rufen Sie Metadaten von Audio- und Videodateien ab"
+      },
+      "feature_11": {
+        "title": "Ersetzen Sie Metadateninhalte",
+        "content": "Ersetzen Sie Metadateneigenschaften von Word-, Excel-, PowerPoint- und PDF-Dateien"
+      },
+      "feature_12": {
+        "title": "Saubere Geschäftsdaten",
+        "content": "Löschen Sie Metadaten und Kommentare aus Berichten und Dokumenten"
+      },
+      "feature_13": {
+        "title": "Fotostandort",
+        "content": "Bearbeiten Sie die Metadateneigenschaften von Bildern und löschen Sie Informationen zum Fotostandort"
+      },
+      "feature_14": {
+        "title": "Analysieren Sie Metadatenunterschiede",
+        "content": "Identifizieren Sie Unterschiede oder Ähnlichkeiten in den Metadaten unterstützter Formate durch Vergleich"
+      },
+      "feature_15": {
+        "title": "Passwortschutz",
+        "content": "Erkennen Sie den Kennwortschutz für Dokumente in Word-, Excel-, PowerPoint- und PDF-Dateien"
+      },
+      "feature_16": {
+        "title": "Unterstützung für Archive und Torrents",
+        "content": "Bearbeiten Sie integrierte und benutzerdefinierte Metadaten und rufen Sie Metadaten von Torrents und Archivformaten ab"
+      },
+      "feature_17": {
+        "title": "EXIF-Bildmetadaten",
+        "content": "Fügen Sie mithilfe der Such-API XMP- und EXIF-Metadateneigenschaften beliebiger Typen hinzu oder aktualisieren Sie sie"
+      },
+      "feature_18": {
+        "title": "Dokumentdateityp zur Laufzeit erkennen",
+        "content": "Unsere Lösung bietet die Möglichkeit, den Datei- oder Streamtyp vor der Metadatenverarbeitung zu erkennen"
+      },
+      "feature_19": {
+        "title": "Unterstützung für Schriftart-Metadaten",
+        "content": "Unterstützt die Aufzählung aller Metadatentypen und liest Metadaten von OpenType-Schriftartendateien"
+      },
+      "feature_20": {
+        "title": "Unterstützung für E-Mail-Metadaten",
+        "content": "Metadaten von E-Mail-Nachrichten abrufen und löschen und Anhänge entfernen"
+      },
+      "feature_21": {
+        "title": "Microsoft Excel-Unterstützung",
+        "content": "Metadatenextraktion aus Microsoft Excel-Dateien ab Excel 95"
+      },
+      "feature_22": {
+        "title": "Matroska Multimedia-Vorschauen",
+        "content": "Rufen Sie Miniaturansichten und Bildvorschauen unterstützter Formate mit Matroska-Multimedia-Container-Unterstützung ab"
+      },
+      "feature_23": {
+        "title": "Microsoft Project-Unterstützung",
+        "content": "Lesen Sie Metadaten aus verschlüsselten Microsoft Project-Dateien"
+      },
+      "feature_24": {
+        "title": "TIFF-Unterstützung",
+        "content": "IPTC-Metadatenpakete in TIFF-Bildern hinzufügen, aktualisieren und löschen"
+      },
+      "feature_25": {
+        "title": "JPEG-Unterstützung",
+        "content": "EXIF-Metadatenpakete in JPEG2000-Bildern hinzufügen, aktualisieren und entfernen"
+      },
+      "feature_26": {
+        "title": "Unterstützung für Multimediadateien",
+        "content": "Extrahieren Sie XMP-Metadateneigenschaften in MOV-, MP3- und WEBP-Dateien"
+      },
+      "feature_27": {
+        "title": "HEIC-Medienunterstützung",
+        "content": "Lesen Sie EXIF-Tags und XMP-Metadateneigenschaften aus HEIC/HEIF-Bildformaten"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} unterstützt verschiedene Betriebssysteme und Paketmanager.",
+    "formats_description": "{{ProdFullName}} ermöglicht die Verarbeitung einer Vielzahl von Dateiformaten. [Siehe die vollständige Liste]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Entdecken Sie Codebeispiele, die typische {{ProdFullName}}-Funktionen veranschaulichen",
+    "code_title_sample_1": "Überprüfen Sie die Metadaten des Dokuments",
+    "code_samples_sample_1_content": "Verwenden Sie {{ProdFullName}}, um den Inhalt des inneren Dokuments zu steuern. Erfahren Sie mehr: [Dokument-Metadatensuche]({{Sample1Url}}):",
+    "code_title_sample_2": "Fügen Sie Metadaten zu Dokumenten hinzu",
+    "code_samples_sample_2_content": "{{ProdFullName}} ermöglicht Ihnen das Hinzufügen von [versteckten Einträgen]({{Sample2Url}}) zu Ihren Geschäftsdaten:"
+  },
+  "index-content-nodejs-java": {
+    "head_title": "{{EnvNameShort}} Bibliothek zum Bearbeiten von Dateimetadaten",
+    "head_description": "Verbessern Sie {{EnvNameShort}}-Anwendungen durch Analysieren, Vergleichen, Bearbeiten, Entfernen und Exportieren von Metadaten gängiger Dateiformate wie PDF, Word, Excel usw.",
+    "title": "Dokumentenmetadatenverwaltung {{EnvNameShort}}",
+    "description": "Verwalten Sie Metadaten in gängigen Dokument- und Bildformaten mit {{EnvNameShort}}.",
+    "actions_main": "Verwenden Sie NPM zum kostenlosen Download",
+    "code_title": "Effiziente Metadatenmanipulation in {{EnvNameShort}}",
+    "code_comment_1": "Tabellenkalkulation an Metadaten übergeben",
+    "code_comment_2": "Dateiformat prüfen",
+    "code_comment_3": "Analysieren Sie die Metadaten des inneren Dokuments",
+    "overview_description": "Node.js TypeScript-Bibliothek zur Steuerung von Metadaten",
+    "overview_feature_1": {
+      "title": "Haupteigenschaften",
+      "description": "{{ProdFullName}} ist eine erweiterte Bibliothek, die Ihnen die Verwaltung von Metadaten in verschiedenen Dateiformaten ermöglicht. Integrieren Sie Funktionen zum Anzeigen, Bearbeiten, Löschen, Suchen, Vergleichen, Ersetzen und Exportieren von Metadaten in Ihre {{EnvNameShort}}-Anwendungen. Zu den unterstützten Formaten gehören beliebte Geschäftsdokumente wie PDF, Microsoft Office (Word, Excel, PowerPoint), Outlook-E-Mails, Project, Visio-Diagramme, OneNote, Bilder (einschließlich PSD, CAD), Audio, Video, OpenType-Schriftarten und Metadateien."
+    },
+    "overview_feature_2": {
+      "title": "Bearbeiten Sie Metadaten einfach",
+      "description": "Diese Bibliothek bietet umfassende Funktionen wie Metadatensuche, Ersatz, Eigenschaftsvergleich und Informationsextraktion. Sie können abgerufene Metadaten in die Formate Excel, CSV oder DataSet exportieren. Es unterstützt häufig verwendete Metadatenstandards wie integrierte, XMP, EXIF ​​und benutzerdefinierte Eigenschaften in unterstützten Dokumentformaten."
+    },
+    "overview_feature_3": {
+      "title": "Unterstützung beliebter Plattformen",
+      "description": "{{ProdFullName}} ist mit allen {{EnvNameShort}}-Versionen kompatibel und läuft nahtlos auf gängigen Betriebssystemen (Windows, Linux, macOS), die die {{EnvNameShort}}-Laufzeit unterstützen."
+    },
+    "features": {
+      "title": "{{ProdFullName}} Funktionen",
+      "description": "Ermöglichen Sie robuste Dokumentensicherheit durch Metadatenverarbeitung.",
+      "feature_1": {
+        "title": "Geschäftsdateien löschen",
+        "content": "Befreien Sie Geschäftsberichte und Dokumente von Metadaten und Kommentaren"
+      },
+      "feature_2": {
+        "title": "Fotostandort",
+        "content": "Kontrollieren Sie Metadaten in Bildern, einschließlich Informationen zum Fotostandort"
+      },
+      "feature_3": {
+        "title": "Kontrollbürodokumente",
+        "content": "Bearbeiten Sie Metadaten in PDF, Word, Excel, PowerPoint und anderen Formaten"
+      },
+      "feature_4": {
+        "title": "Analysieren Sie Metadatenunterschiede",
+        "content": "Vergleichen und analysieren Sie Änderungen in Metadaten in unterstützten Dateiformaten"
+      },
+      "feature_5": {
+        "title": "Integrierte Metadatenunterstützung",
+        "content": "Nutzen Sie umfangreiche Funktionen zur Bearbeitung integrierter und benutzerdefinierter Metadaten"
+      },
+      "feature_6": {
+        "title": "Bildmetadaten steuern",
+        "content": "Sammeln Sie Dokumentmetadateneigenschaften wie EXIF ​​oder XMP"
+      },
+      "feature_7": {
+        "title": "Unterstützung für E-Mail-Metadaten",
+        "content": "Bearbeiten Sie Metadaten und Anhänge in E-Mail-Nachrichten"
+      },
+      "feature_8": {
+        "title": "EXIF-Bildmetadaten",
+        "content": "Korrigieren Sie EXIF-Metadateninhalte in WEBP-, PNG- oder PSD-Dateien"
+      },
+      "feature_9": {
+        "title": "Optimierung des Dateiinhalts",
+        "content": "Reduzieren Sie den Speicherverbrauch von PDF-, Excel- und Bildformaten"
+      },
+      "feature_10": {
+        "title": "Matroska Multimedia-Unterstützung",
+        "content": "Greifen Sie auf Matroska-Untertitel und Metadaten in Audio- und Videodateien zu"
+      },
+      "feature_11": {
+        "title": "Bildvorschauen",
+        "content": "Generieren Sie Bildvorschauen für MSG-, CAD-, EML- oder EPUB-Dateien"
+      },
+      "feature_12": {
+        "title": "Multimedia-Unterstützung",
+        "content": "Erhalten Sie XMP-Metadatenknoten aus MOV-, MP3- und WEBP-Dateien"
+      },
+      "feature_13": {
+        "title": "Digitale Signaturen erkennen/entfernen",
+        "content": "Identifizieren und entfernen Sie digitale Signaturen in PDFs und Office-Dokumenten"
+      },
+      "feature_14": {
+        "title": "Metadatenexport",
+        "content": "Speichern Sie Metadaten aus unterstützten Dateien in der Excel-, CSV- oder DataSet-Ausgabe"
+      },
+      "feature_15": {
+        "title": "Integrierte Metadatenkontrolle",
+        "content": "Analysieren Sie bestimmte Metadateneigenschaften mithilfe definierter Schlüssel für jedes unterstützte Format"
+      },
+      "feature_16": {
+        "title": "Passwortschutz",
+        "content": "Erkennen Sie den Kennwortschutz, der auf PDF- und MS Word-, Excel- und PowerPoint-Dokumente angewendet wird"
+      },
+      "feature_17": {
+        "title": "Ersetzen Sie Metadateninhalte",
+        "content": "Ersetzen Sie Metadateneigenschaften von Word-, Excel-, PowerPoint- und PDF-Dateien"
+      },
+      "feature_18": {
+        "title": "PNG-Metadaten-Export",
+        "content": "Extrahieren Sie Textmetadaten mit Node.js direkt aus PNG-Bilddateien"
+      },
+      "feature_19": {
+        "title": "Bildmetadaten aktualisieren",
+        "content": "Verwenden Sie die Such-API, um XMP- und EXIF-Metadateneigenschaften hinzuzufügen oder zu aktualisieren"
+      },
+      "feature_20": {
+        "title": "Steuern Sie Office-Dateien",
+        "content": "Erhalten Sie Zugriff auf versteckte Daten, die in PDF-, MS Word-, Excel- und PowerPoint-Dateien eingebettet sind, und löschen Sie diese"
+      },
+      "feature_21": {
+        "title": "Dateityperkennung",
+        "content": "Erkennen Sie den Dateityp zur Laufzeit dynamisch mit Node.js"
+      },
+      "feature_22": {
+        "title": "Matroska Multimedia-Vorschau",
+        "content": "Rufen Sie Miniaturansichten und Bildvorschauen für unterstützte Dateiformate mit Matroska-Multimedia-Container-Unterstützung ab"
+      },
+      "feature_23": {
+        "title": "TIFF-Unterstützung",
+        "content": "Bearbeiten Sie IPTC-Metadatenpakete in TIFF-Bildern"
+      },
+      "feature_24": {
+        "title": "HEIC-Medienunterstützung",
+        "content": "Steuern Sie EXIF-Tags und XMP-Metadaten für HEIC/HEIF-Bilder"
+      },
+      "feature_25": {
+        "title": "Unterstützung für Schriftart-Metadaten",
+        "content": "Zählen Sie alle Metadatentypen auf und steuern Sie die Metadaten von OpenType-Schriftartendateien"
+      },
+      "feature_26": {
+        "title": "Microsoft Project-Unterstützung",
+        "content": "Holen Sie sich alle Metadaten, die in verschlüsselten Microsoft Project-Dateien verborgen sind"
+      },
+      "feature_27": {
+        "title": "JPEG-Unterstützung",
+        "content": "EXIF-Daten in JPEG2000-Bildern hinzufügen, aktualisieren oder entfernen"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} lässt sich problemlos in verschiedene Betriebssysteme und Paketmanager integrieren.",
+    "formats_description": "{{ProdFullName}} ermöglicht Ihnen die Verarbeitung einer Vielzahl von Dateiformaten. [Erkunden Sie die vollständige Liste]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Tauchen Sie ein in Codebeispiele, die gängige {{ProdFullName}}-Funktionen veranschaulichen",
+    "code_title_sample_1": "Seien Sie über den inneren Inhalt von Dokumenten informiert",
+    "code_samples_sample_1_content": "Um Informationen über innere [Dokumentmetadaten]({{Sample1Url}}) zu erhalten, verwenden Sie die {{ProdFullName}}-API:",
+    "code_title_sample_2": "Geschäftsinformationen in Dokumenten ausblenden",
+    "code_samples_sample_2_content": "Ändern Sie Ihre Dokumente durch [Hinzufügen von Metadaten]({{Sample2Url}}) mit unserer Lösung:"
+  }
+}

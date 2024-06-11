@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "{{EnvName}} 애플리케이션의 {{FileFormatUp}} 파일에 대한 메타데이터 편집",
+    "description": "{{FileFormatUp}} 파일의 메타데이터 정보를 편집하기 위한 {{EnvName}} 메타데이터 처리 API. 메타데이터 표준 XMP, EXIF, IPTC, ID3 등으로 작업합니다."
+  },
+  "header": {
+    "title": "{{ProgLang}}의 {{FileformatCap}} 파일에서 메타데이터 업데이트",
+    "description": "{{ProgLang}} 애플리케이션용 메타데이터 편집기 – {{ProgLang}}용 메타데이터 편집기 API를 사용하여 널리 사용되는 모든 문서, 이미지 및 멀티미디어 파일 형식의 메타데이터 필드를 변경합니다.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "무료 평가판 다운로드"
+  },
+  "about": {
+    "title": "{{ProdFullName}} API 정보",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})는 외부 소프트웨어를 사용하지 않고도 이미지 및 문서 형식의 메타데이터 정보를 쉽게 읽고, 추가, 수정, 삭제, 검색, 비교, 교체 및 내보낼 수 있는 고급 메타데이터 필드 조작 솔루션입니다. . 기타 다양한 메타데이터 처리 기능에 대한 지원과 함께 Word 문서, Excel 스프레드시트, PowerPoint 프레젠테이션, Outlook 이메일, OneNote, Visio, Project, PDF, AutoCAD, ZIp, 오디오 및 비디오 파일 형식의 메타데이터 세부 정보를 편집합니다."
+  },
+  "formats": {
+    "title": "다른 파일 형식의 메타데이터 변경",
+    "description": "{{EnvName}}용 다중 형식 문서 및 이미지 메타데이터 편집 API입니다. 아래에 설명된 대로 일부 널리 사용되는 파일 형식의 메타데이터를 검색합니다."
+  },
+  "examples": {
+    "comment_1": "{{FileFormatUp}} 생성 날짜 메타데이터 편집",
+    "comment_2": "기존 값이 3일보다 오래된 경우 파일 생성 날짜/시간을 업데이트하세요.",
+    "comment_3": "메타데이터 속성을 필터링하기 위한 자체 사양 정의",
+    "comment_4": "프로세스 업데이트 결과",
+    "comment_5": "편집된 파일 저장"
+  },
+  "steps": {
+    "title": "{{EnvName}}에서 메타데이터를 {{FileformatCap}}으로 업데이트하는 단계",
+    "content": {
+      "title": "[{{ProdFullName}}]({{ProductUrl}})를 사용하면 {{EnvName}} 개발자가 몇 가지 간단한 단계를 구현하여 애플리케이션 내에서 {{FileformatCap}} 파일에 대한 메타데이터 세부정보를 쉽게 편집할 수 있습니다.",
+      "step_1": "업데이트할 {{FileformatCap}} 파일을 로드합니다.",
+      "step_2": "원하는 메타데이터 속성을 필터링하는 데 사용할 조건자를 지정합니다.",
+      "step_3": "조건자와 새 값을 {{TextUpdateProperties}} 메서드에 전달합니다.",
+      "step_4": "변경 사항을 저장합니다."
+    }
+  },
+  "more_features": {
+    "title": "{{EnvName}} 앱에 대한 {{FileFormatUp}} 메타데이터 조작",
+    "description": "{{ProdShortName}} API를 사용하면 개발자가 {{EnvName}} 애플리케이션에서 다양한 문서 형식의 숨겨진 메타데이터를 쉽게 업데이트할 수 있습니다. 프로그래밍 방식으로 메타데이터를 적용, 편집, 검색 및 제거합니다.",
+    "image_description": "메타데이터 구성",
+    "feature_1": {
+      "title": "간단한 메타데이터 통합",
+      "content": "{{ProdShortName}}은(는) {{EnvName}} 앱 내의 문서와 파일에 다양한 메타데이터를 추가하는 작업을 단순화합니다. 개발자는 메타데이터를 손쉽게 적용, 업데이트 또는 제거할 수 있습니다."
+    },
+    "feature_2": {
+      "title": "상세한 메타데이터 제어",
+      "content": "API는 메타데이터를 사용자 정의하기 위한 광범위한 옵션을 제공합니다. 특별한 요청을 사용하여 파일에서 메타데이터를 쉽게 찾고 제거하거나 업데이트할 수 있습니다."
+    },
+    "feature_3": {
+      "title": "기본 {{FileFormatUp}} 기능 활용",
+      "content": "문서 형식에 따라 개발자는 이미지용 EXIF와 같은 내장 메타데이터를 활용할 수 있습니다. 여기에는 카메라 모델 및 번호, 해상도, 생성 날짜 등과 같은 사진에 대한 정보가 포함될 수 있습니다."
+    },
+    "code_1": {
+      "title": "MP3 파일의 가사 태그 업데이트(예)",
+      "content": "이 예에서는 MP# 미디어 파일의 숨겨진 메타데이터를 업데이트하는 방법을 보여줍니다.",
+      "comment_1": "{{TextMetadata}} 클래스 생성자에 파일 로드",
+      "comment_2": "가사 데이터 업데이트",
+      "comment_3": "태그에 완전히 사용자 정의된 필드를 추가할 수 있습니다.",
+      "comment_4": "결과 저장"
+    }
+  }
+}

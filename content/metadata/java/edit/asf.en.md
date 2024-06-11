@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-07T21:09:27
+date:  2024-06-11T15:16:35
 draft: false
 lang: en
 format: Asf

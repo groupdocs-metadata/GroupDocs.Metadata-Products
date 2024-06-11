@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "{{ProgLang}} 애플리케이션에서 메타데이터를 {{FileformatCap}} 파일로 편집",
+    "description": "{{ProgLang}} 메타데이터 처리 API는 {{FileformatCap}} 파일의 메타데이터 정보를 편집합니다. 메타데이터 표준 XMP, EXIF, IPTC, ID3 등으로 작업합니다."
+  },
+  "header": {
+    "title": "{{ProgLang}}에서 {{FileformatCap}} 파일의 메타데이터 업데이트",
+    "description": "가장 필요한 모든 메타데이터 처리 작업을 수행할 수 있도록 지원하여 널리 사용되는 모든 문서, 이미지 및 멀티미디어 파일 형식의 메타데이터 정보를 업데이트합니다.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "무료 평가판 다운로드"
+  },
+  "about": {
+    "title": "{{ProdFullName}} API 정보",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})는 고급 메타데이터 관리 기능 세트를 제공하므로 개발자는 별도의 도구를 사용하지 않고도 이미지 및 문서 형식의 메타데이터 정보를 쉽게 읽고, 문서화하고, 삭제하고, 찾고, 비교하고, 바꾸고, 내보낼 수 있습니다. 외부 소프트웨어. 메타데이터 조작 API를 사용하여 PDF, Microsoft Office Word, Excel 스프레드시트, PowerPoint 프리젠테이션, Outlook 이메일, OneNote, Visio, Project, AutoCAD, 아카이브 및 멀티미디어 파일 형식의 메타데이터 세부 정보를 편집하고 기타 다양한 메타데이터 처리 기능에 대한 지원도 제공합니다."
+  },
+  "formats": {
+    "title": "다른 파일 형식에서 메타데이터 속성 업데이트",
+    "description": "{{EnvName}}용 다중 형식 문서 및 이미지 메타데이터 편집 API입니다. 아래에 설명된 대로 일부 널리 사용되는 파일 형식의 메타데이터를 검색합니다."
+  },
+  "examples": {
+    "comment_1": "{{FileFormatUp}} 생성 날짜 수정",
+    "comment_2": "조건자를 충족하는 각 속성의 값을 설정합니다.",
+    "comment_3": "속성에는 문서가 생성된 날짜/시간이 포함됩니다.",
+    "comment_4": "기존 값이 3일보다 오래된 경우 파일 생성 날짜/시간을 업데이트합니다.",
+    "comment_5": "결과 저장 {{FileFormatUp}}"
+  },
+  "steps": {
+    "title": "{{ProgLang}}에서 메타데이터를 {{FileFormatUp}}으로 업데이트하는 단계",
+    "content": {
+      "title": "[{{ProdFullName}}]({{ProductUrl}})를 사용하면 {{EnvName}} 개발자가 몇 가지 간단한 단계를 구현하여 애플리케이션 내에서 {{FileFormatUp}} 파일에 대한 메타데이터 정보를 쉽게 편집할 수 있습니다.",
+      "step_1": "{{TextMetadata}} 클래스의 인스턴스를 통해 {{FileFormatUp}} 파일을 로드합니다.",
+      "step_2": "원하는 메타데이터 속성을 필터링하는 데 사용할 조건자를 지정합니다.",
+      "step_3": "조건자와 새 값을 {{TextUpdateProperties}} 메서드에 전달합니다.",
+      "step_4": "변경 사항을 {{FileFormatUp}} 형식으로 디스크에 저장합니다."
+    }
+  },
+  "more_features": {
+    "title": "{{EnvName}} 앱의 {{FileFormatUp}} 내부 메타데이터 속성 관리",
+    "description": "{{ProdShortName}} API를 사용하면 개발자가 {{EnvName}} 애플리케이션을 사용하여 다양한 형식의 문서 세부정보(메타데이터)를 쉽게 편집할 수 있습니다. 프로그래밍 방식으로 문서 속성을 추가, 업데이트, 검색 및 제거합니다.",
+    "image_description": "문서 메타데이터 속성 관리",
+    "feature_1": {
+      "title": "효과적인 메타데이터 통합",
+      "content": "{{ProdShortName}}은(는) {{EnvName}} 앱 내의 문서와 파일에 다양한 속성을 추가하는 작업을 단순화합니다. 개발자는 프로그래밍 방식으로 문서 속성을 쉽게 적용, 업데이트 또는 제거할 수 있습니다."
+    },
+    "feature_2": {
+      "title": "정확한 메타데이터 제어",
+      "content": "API는 문서 속성 관리를 위한 광범위한 옵션을 제공합니다. 개발자는 비즈니스 파일에 숨겨진 데이터를 효율적으로 찾고 처리할 수 있습니다."
+    },
+    "feature_3": {
+      "title": "내장된 {{FileFormatUp}} 속성 활용",
+      "content": "문서 형식에 따라 개발자는 이미지의 EXIF ​​데이터와 같은 기존 속성을 활용할 수 있습니다. 여기에는 카메라 세부정보, 해상도, 생성 날짜 등과 같은 정보가 포함될 수 있습니다."
+    },
+    "code_1": {
+      "title": "MP3 파일의 가사 메타데이터 업데이트(예)",
+      "content": "이 예에서는 MP3 오디오 파일의 숨겨진 정보(메타데이터)를 업데이트하는 방법을 보여줍니다.",
+      "comment_1": "{{TextMetadata}} 클래스를 사용하여 파일 로드",
+      "comment_2": "가사 데이터 업데이트",
+      "comment_3": "메타데이터에 사용자 정의 필드를 추가할 수 있습니다.",
+      "comment_4": "업데이트된 파일 저장"
+    }
+  }
+}

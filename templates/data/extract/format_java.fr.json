@@ -1,0 +1,60 @@
+{
+  "head": {
+    "title": "Lire et extraire les métadonnées des fichiers {{FileFormatUp}} dans les applications {{EnvName}}",
+    "description": "API de gestion des métadonnées multiplateforme {{EnvName}} pour lire et extraire les informations de métadonnées des fichiers {{FileFormatUp}}. Travaillez avec les normes de métadonnées XMP, EXIF, IPTC, ID3, etc."
+  },
+  "header": {
+    "title": "Extraire les métadonnées du fichier {{FileFormatUp}} dans {{EnvName}}",
+    "description": "Lisez et extrayez des informations de métadonnées à partir d'un large éventail de documents, d'images, de formats audio et vidéo à l'aide de {{ProdFullName}}",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger l'essai gratuit"
+  },
+  "about": {
+    "title": "À propos de l'API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offre un ensemble avancé de fonctionnalités de gestion et de manipulation des métadonnées, permettant aux développeurs de lire, modifier, supprimer, rechercher, comparer, remplacer et exporter facilement les informations de métadonnées à partir d'images et de formats de documents sans en utilisant n’importe quel logiciel externe. Extrayez les détails des métadonnées des formats de fichiers PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive et Multimédia, et effectuez les opérations de métadonnées prises en charge avec une véritable flexibilité."
+  },
+  "formats": {
+    "title": "Lecture et extraction d'autres formats de fichiers",
+    "description": "API d'extraction de métadonnées de documents et d'images multiformats pour {{EnvName}}. Récupérez les métadonnées de certains des formats de fichiers populaires, comme indiqué ci-dessous."
+  },
+  "examples": {
+    "comment_1": "Rechercher des métadonnées d'image dans le document {{FileFormatUp}}",
+    "comment_2": "Composez {{TextMetadata}} en passant {{FileFormatUp}} au constructeur",
+    "comment_3": "Récupère toutes les propriétés de métadonnées qui entrent dans une catégorie particulière",
+    "comment_4": "Traiter les entrées de métadonnées trouvées"
+  },
+  "steps": {
+    "title": "Étapes pour l'extraction de métadonnées {{FileFormatUp}} dans {{EnvName}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) permet aux développeurs {{EnvName}} d'extraire, de lire et d'extraire facilement les informations de métadonnées des fichiers {{FileFormatUp}} à partir de leurs applications en mettant en œuvre quelques étapes simples.",
+      "step_1": "Chargez le {{FileFormatUp}} avec une instance de la classe {{EnvName}}.",
+      "step_2": "Créez un prédicat pour examiner toutes les propriétés des métadonnées.",
+      "step_3": "Transmettez le prédicat à la méthode {{TextFindProperties}}.",
+      "step_4": "Parcourez les propriétés trouvées."
+    }
+  },
+  "more_features": {
+    "title": "Recherche de métadonnées dans les fichiers professionnels avec {{ProdShortName}}",
+    "description": "Contrôlez les données cachées dans les fichiers et documents sensibles à l'aide des applications {{EnvName}} optimisées par la bibliothèque {{ProdShortName}}.",
+    "image_description": "{{EnvName}} Recherche de métadonnées",
+    "feature_1": {
+      "title": "{{EnvName}} Outils pour la recherche détaillée de métadonnées",
+      "content": "Améliorez vos capacités de traitement de documents dans {{EnvName}} avec {{ProdShortName}}. Notre logiciel fournit des outils efficaces pour rechercher et traiter les métadonnées cachées."
+    },
+    "feature_2": {
+      "title": "Personnalisation de la récupération des métadonnées",
+      "content": "Ciblez des métadonnées spécifiques avec précision. Configurez votre recherche pour filtrer selon de nombreux paramètres tels que le texte, la date, les expressions régulières, etc., afin d'obtenir exactement ce dont vous avez besoin."
+    },
+    "feature_3": {
+      "title": "Traitement efficace des métadonnées",
+      "content": "Tirez parti de {{EnvName}} pour traiter les valeurs des entrées de métadonnées trouvées. Utilisez {{ProdShortName}} pour manipuler efficacement les métadonnées. Vous êtes libre d'ajouter, de mettre à jour ou de supprimer toutes les métadonnées dans les formats pris en charge."
+    },
+    "code_1": {
+      "title": "{{EnvName}} Exemple : métadonnées de livres électroniques",
+      "content": "Cet exemple de code montre comment lire les propriétés de métadonnées spécifiques au format EPUB.",
+      "comment_1": "Transmettre le livre électronique EPUB à l'objet {{TextMetadata}}",
+      "comment_2": "Obtenez toutes les métadonnées intégrées",
+      "comment_3": "Traiter les données récupérées"
+    }
+  }
+}

@@ -1,0 +1,578 @@
+{
+  "index-content": {
+    "head_title": "API .NET, Java, Node.js et applications de manipulation de métadonnées en ligne par {{NameCompany}}",
+    "head_description": "API de métadonnées de documents natives de C# .NET et Java. Lisez, écrivez, modifiez et comparez les méta-informations de tous les formats populaires. Analysez et exportez les métadonnées.",
+    "title": "Solution de gestion des métadonnées documentaires",
+    "description_0": "API et applications pour lire, modifier, remplacer et supprimer les métadonnées de documents, d'images et d'autres formats de fichiers sur les plateformes populaires.",
+    "description_1": "Ajoutez des informations de métadonnées cachées à vos fichiers et documents professionnels.",
+    "description_2": "Modifiez ou supprimez les métadonnées déjà présentées dans vos documents.",
+    "description_3": "Collectez et analysez des informations sur les métadonnées des documents et des fichiers.",
+    "words_for": "pour",
+    "release_title": "Version {0} publiée",
+    "release_notes": "Regardez ce qu'il y a de nouveau",
+    "release_downloads": "Téléchargements",
+    "code_more": "Plus d'exemples",
+    "overview_title": "{{ProdShortName}} en un coup d'oeil",
+    "formats_title": "Formats de fichiers pris en charge",
+    "platforms": {
+      "title": "Indépendance de la plateforme",
+      "head_title": "Choisissez votre plateforme",
+      "description": "{{ProdShortName}} est compatible avec une large gamme de systèmes d'exploitation et de frameworks :",
+      "learn_more": "Apprendre encore plus",
+      "any_other_text_editor": "Tout autre éditeur de texte"
+    },
+    "features": {
+      "title": "Examen des fonctionnalités de {{ProdShortName}}",
+      "description": "Notre solution est conçue pour manipuler les métadonnées dans de nombreux formats de fichiers courants, notamment les images et les documents bureautiques.",
+      "feature_1": {
+        "title": "Protéger les informations professionnelles",
+        "content": "Ajoutez des métadonnées cachées à vos fichiers et documents sensibles."
+      },
+      "feature_2": {
+        "title": "Contrôler les métadonnées du document",
+        "content": "Collectez des informations détaillées sur les métadonnées contenues dans les documents."
+      },
+      "feature_3": {
+        "title": "Manipuler les informations de métadonnées",
+        "content": "Modifiez le contenu ou supprimez les métadonnées dans de nombreux formats de fichiers pris en charge."
+      },
+      "feature_4": {
+        "title": "Diverses fonctionnalités supplémentaires",
+        "content": "Obtenez un aperçu du document, extrayez les packages de métadonnées, etc."
+      }
+    },
+    "formats": {
+      "title": "Plus de 70 formats sont pris en charge",
+      "description": "{{ProdShortName}} permet de contrôler les métadonnées dans les formats de documents et de fichiers courants."
+    },
+    "code_samples": {
+      "title": "Exemples de codes",
+      "index_title": "Protéger les documents à l'aide de métadonnées",
+      "index_description": "{{ProdShortName}} exemples de code d'opérations typiques.",
+      "more_examples": "Plus d'exemples",
+      "sample_index": {
+        "title": "Supprimez les métadonnées inutiles des images et des documents",
+        "content": "{{ProdShortName}} vous aide à supprimer facilement les informations masquées de vos fichiers et documents. Vous pouvez rapidement supprimer des détails tels que le moment et l'endroit où une image a été prise, ou supprimer les informations sur l'auteur et l'éditeur des documents Office.",
+        "comment_1": "Transmettre le chemin d'accès à un document au constructeur {{TextMetadata}}",
+        "comment_2": "Supprimer les propriétés du document connectées au créateur et à l'éditeur",
+        "comment_3": "Résultat du processus de suppression des métadonnées",
+        "comment_4": "Enregistrer le document nettoyé"
+      },
+      "sample_1": {
+        "code_title": "Comment obtenir des métadonnées de document spécifiques",
+        "comment_1": "Charger le document source dans le constructeur de métadonnées",
+        "comment_2": "Récupère toutes les propriétés contenant le nom du dernier éditeur de document",
+        "comment_3": "ou la date/heure à laquelle le document a été modifié pour la dernière fois",
+        "comment_4": "Traiter les entrées de métadonnées récupérées"
+      },
+      "sample_2": {
+        "code_title": "Comment ajouter des propriétés de métadonnées manquantes à un fichier quel que soit son format.",
+        "comment_1": "Charger le document source",
+        "comment_2": "Ajouter une propriété contenant la date de dernière impression du fichier si elle est manquante",
+        "comment_3": "La propriété sera ajoutée si le document prend en charge ce type de métadonnées",
+        "comment_4": "Enregistrer le document modifié dans un chemin spécifié"
+      }
+    },
+    "metrics": {
+      "title": "{{ProdShortName}} réalisations",
+      "description": "Découvrez les indicateurs clés des réalisations de notre bibliothèque",
+      "item_1": {
+        "title": "Formats pris en charge",
+        "description": "{{ProdShortName}} prend en charge la manipulation des métadonnées pour plus de 70 formats de fichiers courants."
+      },
+      "item_2": {
+        "title": "Téléchargements NuGet",
+        "description": "{{ProdShortName}} pour le package .NET NuGet a été téléchargé plus de 700 000 fois."
+      },
+      "item_3": {
+        "title": "Téléchargements Maven",
+        "description": "{{ProdShortName}} compte 15 000 téléchargements sur Maven. Gestion puissante des métadonnées Java."
+      },
+      "item_4": {
+        "title": "Clients satisfaits",
+        "description": "Des entreprises aussi célèbres que des développeurs individuels préfèrent les produits {{NameCompany}} pour créer des solutions innovantes."
+      }
+    },
+    "customers": {
+      "title": "Nos clients satisfaits",
+      "description": "Produits {{NameCompany}} approuvés par de nombreux clients dans le monde et utilisés dans de nombreuses solutions commerciales concurrentes à travers le monde."
+    },
+    "actions": {
+      "alt": "Licence",
+      "title": "Prêt à commencer?",
+      "description": "Essayez {{ProdShortName}} fonctionnalités gratuitement ou demandez une licence",
+      "description_index": "Essayez gratuitement les fonctionnalités de {{ProdShortName}} dans vos applications"
+    },
+    "faq": {
+      "title": "Questions fréquemment posées",
+      "description": "Vous avez des questions sur notre produit ? Nous avons des réponses !",
+      "item_1": {
+        "question": "{{ProdShortName}} nécessite-t-il un logiciel tiers pour le traitement des métadonnées des documents ?",
+        "answer": "{{ProdShortName}} fonctionne de manière indépendante ; aucune bibliothèque externe comme Microsoft Office ou Adobe Acrobat n'est nécessaire."
+      },
+      "item_2": {
+        "question": "Puis-je essayer les fonctionnalités de {{ProdShortName}} avant d'acheter ?",
+        "answer": "Absolument! {{ProdShortName}} propose un essai gratuit. Installez-le et explorez ses capacités. Cependant, veuillez noter que les versions d'essai ajoutent des « badges d'essai » à vos documents et ne traitent que les 3 premières pages. Pour une expérience complète, obtenez une licence temporaire gratuite de 30 jours pour bénéficier de toutes les fonctionnalités. Consultez les détails [ici]({{LicensingUrl}})."
+      },
+      "item_3": {
+        "question": "Quels types de licences sont disponibles ?",
+        "answer": "Vous recherchez une licence {{ProdShortName}} ? Nous vous proposons diverses options. Choisissez parmi des licences adaptées à vos besoins, en fonction de facteurs tels que le nombre de développeurs dans votre équipe, les emplacements de déploiement (par exemple, un bureau unique ou des lieux de travail distants) et si la distribution au client final nécessite le partage du SDK/API avec les clients. Vous pouvez également opter pour une licence d'utilisation mensuelle, où vous payez en fonction de votre utilisation avec des forfaits payants. Explorez plus loin et trouvez la solution idéale [ici]({{PricingUrl}})."
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} Les API Low Code incluent",
+      "description": "Gérez les métadonnées sensibles dans les fichiers professionnels de votre application à l'aide de notre API REST basée sur le cloud.",
+      "item_1": {
+        "content": "Travaillez avec les API de manipulation de métadonnées cURL RESTful pour gérer les informations de métadonnées des PDF, Word, Excel, présentations, images et fichiers multimédia dans vos applications."
+      },
+      "item_2": {
+        "content": "Utilisez l'API REST de métadonnées avec le SDK .NET pour ajouter, modifier, extraire, rechercher et supprimer des métadonnées des formats de documents dans les applications .NET."
+      },
+      "item_3": {
+        "content": "Améliorez vos applications Java avec de puissantes fonctionnalités de gestion des métadonnées à l'aide du SDK Metadata pour Java."
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} Applications sans code incluses",
+      "description": "Accédez à l'application Web {{NameCompany}} pour gérer les métadonnées des documents. Traitez GRATUITEMENT plus de 70 formats de fichiers populaires dans votre navigateur préféré.",
+      "item_1": {
+        "content": "Application gratuite pour afficher et modifier les métadonnées de Word, Excel, PDF, PowerPoint et plus de 70 types de documents."
+      },
+      "item_2": {
+        "content": "Visionneuse et éditeur de métadonnées en ligne gratuits pour les documents MS Word."
+      },
+      "item_3": {
+        "content": "Affichez ou modifiez les informations de métadonnées des documents PDF en ligne."
+      }
+    },
+    "formats_groups": {
+      "title_1": "Formats de bureau",
+      "title_2": "Médias et graphiques",
+      "title_3": "Autre",
+      "format_portable": "Portable",
+      "format_video": "Vidéo",
+      "format_audio": "l'audio",
+      "format_fonts": "Polices",
+      "format_project": "Projet",
+      "format_others": "Autres",
+      "format_popular_images": "Formats d'images populaires",
+      "format_multi_images": "Images multipages"
+    }
+  },
+  "index-content-net": {
+    "head_title": "{{EnvNameShort}} API de lecteur, de visionneuse, d'extracteur, de suppression et d'exportation de métadonnées",
+    "head_description": "{{ProgLang}} {{EnvNameShort}} API de métadonnées pour lire, écrire, modifier, analyser, rechercher, extraire, supprimer, comparer et exporter les métadonnées de PDF Word Excel PPTX Outlook Audio Vidéo et images.",
+    "title": "{{EnvNameShort}} API pour gérer et manipuler les métadonnées",
+    "description": "Créez des applications {{EnvNameShort}} pour lire, modifier, supprimer, récupérer, rechercher, comparer, remplacer et exporter les informations de métadonnées de tous les documents et formats de fichiers image populaires.",
+    "actions_main": "Téléchargement gratuit de NuGet",
+    "code_title": "Récupération rapide des propriétés des métadonnées",
+    "code_comment_1": "Passer l'image Jpeg aux métadonnées",
+    "code_comment_2": "Supprimer le package de métadonnées principal",
+    "code_comment_3": "Enregistrer l'image effacée",
+    "overview_description": "Voici un aperçu de {{ProdFullName}}",
+    "overview_feature_1": {
+      "title": "Intégration d'applications {{ProgLang}}",
+      "description": "L'API {{ProdFullName}} est facile à intégrer avec {{ProgLang}}, {{AspNet}} et d'autres applications basées sur {{EnvNameShort}} pour aider vos utilisateurs finaux à manipuler les métadonnées d'une gamme d'images, de documents et d'autres fichiers multimédias. formats sans installer de logiciel externe. La bibliothèque de métadonnées {{EnvNameShort}} prend en charge la création d'outils permettant d'ajouter rapidement des fonctionnalités de visualisation, d'édition, de suppression, d'extraction, de comparaison et d'exportation de métadonnées dans un certain nombre de formats de documents standard de l'industrie tels que PDF, Microsoft Office Word, feuilles de calcul Excel, présentations PowerPoint, Outlook. e-mails, projet, diagrammes Visio, OneNote, images, AutoCAD, Photoshop, audio, vidéo et métafichiers."
+    },
+    "overview_feature_2": {
+      "title": "Différents types de métadonnées",
+      "description": "L'API de métadonnées est très flexible et facile à utiliser. Il obtient le fichier de document en entrée, analyse les informations de métadonnées, permet d'effectuer des opérations de métadonnées prises en charge et enregistre le fichier modifié pour y accéder rapidement lors d'une utilisation future. Il fonctionne avec les normes de métadonnées les plus notables telles que les propriétés intégrées, XMP, EXIF, IPTC, Image Resource Blocks, ID3 et les métadonnées personnalisées. Grâce à l'API {{ProdFullName}}, vous pouvez également comparer deux documents pour identifier les différences et les similitudes présentes dans leurs propriétés de métadonnées. Vous pouvez également exporter les métadonnées des documents requis vers Excel, CSV ou DataSet."
+    },
+    "overview_feature_3": {
+      "title": "Tous les environnements populaires sont pris en charge",
+      "description": "{{ProdFullName}} peut être utilisé pour développer des applications dans n'importe quel environnement de développement ciblant la plateforme {{EnvNameShort}}. Il est compatible avec tous les langages basés sur {{EnvNameShort}} et prend en charge les systèmes d'exploitation populaires (Windows, Linux, MacOS) sur lesquels les frameworks {{Mono}} ou {{EnvNameShort}} (y ​​compris {{CoreNet}}) peuvent être installés."
+    },
+    "features": {
+      "title": "{{ProdFullName}} fonctionnalités",
+      "description": "Utilisez les métadonnées pour protéger les PDF, Office, les images et d'autres formats",
+      "feature_1": {
+        "title": "Identifiez les métadonnées intégrées et personnalisées",
+        "content": "De nombreux formats de fichiers comportent des métadonnées obligatoires. Manipulez-les ainsi que les métadonnées personnalisées pour vos propres objectifs"
+      },
+      "feature_2": {
+        "title": "Rechercher des photos prises sur un appareil photo spécifique",
+        "content": "Obtenez des informations sur les photos stockées dans les métadonnées, notamment le fabricant de l'appareil photo, le modèle, la résolution, etc."
+      },
+      "feature_3": {
+        "title": "Possibilité de détecter/supprimer les signatures numériques",
+        "content": "Trouvez toutes les métadonnées numériques dans vos fichiers professionnels et supprimez ce dont vous avez besoin"
+      },
+      "feature_4": {
+        "title": "Emplacement des photos",
+        "content": "Importez les propriétés des métadonnées de l'image et supprimez les informations de localisation des photos"
+      },
+      "feature_5": {
+        "title": "Recherche de métadonnées",
+        "content": "Rechercher les propriétés des métadonnées des fichiers et énumérer tout type de métadonnées"
+      },
+      "feature_6": {
+        "title": "Nettoyer les données commerciales",
+        "content": "Supprimer les métadonnées et les commentaires des rapports et documents"
+      },
+      "feature_7": {
+        "title": "Aperçus des documents",
+        "content": "Générez des aperçus d'images pour les fichiers EPUB, CAD, EML et MSG"
+      },
+      "feature_8": {
+        "title": "Support multimédia Matroska",
+        "content": "Lisez les sous-titres de Matroska et récupérez les métadonnées des fichiers audio et vidéo"
+      },
+      "feature_9": {
+        "title": "Obtenez les métadonnées des formats d'archives et des torrents",
+        "content": "Manipulez les métadonnées des fichiers d'archives tels que .ZIP et des fichiers contenant des données torrent"
+      },
+      "feature_10": {
+        "title": "Reconnaissance à l'exécution du type de fichier de document",
+        "content": "Notre solution offre la possibilité de détecter le type de fichier ou de flux avant le traitement des métadonnées"
+      },
+      "feature_11": {
+        "title": "Analyser les distinctions des métadonnées",
+        "content": "Comparez les propriétés des métadonnées des formats pris en charge et identifiez les différences ou les similitudes"
+      },
+      "feature_12": {
+        "title": "Réduire la consommation de mémoire des documents et des images",
+        "content": "Nettoyer les documents et les images des données cachées supplémentaires"
+      },
+      "feature_13": {
+        "title": "Documents du bureau de contrôle",
+        "content": "Récupérez et supprimez les données cachées dans les fichiers Microsoft Word, Excel, PowerPoint et PDF"
+      },
+      "feature_14": {
+        "title": "Remplacer les propriétés des métadonnées des formats de fichiers pris en charge",
+        "content": "Il est tout à fait possible d'obtenir une liste de métadonnées de document appropriées et de remplacer le contenu de chaque entrée"
+      },
+      "feature_15": {
+        "title": "Prise en charge des images TIFF",
+        "content": "Ajouter, mettre à jour et supprimer des packages de métadonnées IPTC dans les images TIFF"
+      },
+      "feature_16": {
+        "title": "Prise en charge de Microsoft Excel",
+        "content": "Extraire les métadonnées des fichiers Microsoft Excel à partir d'Excel 95"
+      },
+      "feature_17": {
+        "title": "Prise en charge des images PNG",
+        "content": "Extraire les métadonnées de texte des fichiers image PNG"
+      },
+      "feature_18": {
+        "title": "Détection de type MIME",
+        "content": "Détecter le type MIME d'un fichier ou d'un flux de fichiers spécifique"
+      },
+      "feature_19": {
+        "title": "Aperçus d'images",
+        "content": "Récupérez des vignettes et affichez des aperçus d'images pour les formats pris en charge"
+      },
+      "feature_20": {
+        "title": "Sécurité multimédia Matroska",
+        "content": "Identifiez la protection par mot de passe et la prise en charge du conteneur multimédia Matroska"
+      },
+      "feature_21": {
+        "title": "Prise en charge des métadonnées intégrées",
+        "content": "Utiliser une clé définie pour lire les propriétés des métadonnées des formats pris en charge"
+      },
+      "feature_22": {
+        "title": "Métadonnées d'image EXIF",
+        "content": "Mettre à jour les propriétés des métadonnées EXIF ​​dans les fichiers WEBP, PNG et PSD"
+      },
+      "feature_23": {
+        "title": "Prise en charge des e-mails et des polices",
+        "content": "Lire les métadonnées des e-mails et analyser les fichiers de polices OpenType"
+      },
+      "feature_24": {
+        "title": "Traitement des fichiers multimédia",
+        "content": "Extraire les propriétés des métadonnées XMP dans les fichiers MOV, MP3 et WEBP"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} prend en charge les systèmes d'exploitation, les frameworks et les gestionnaires de packages suivants :",
+    "formats_description": "{{ProdFullName}} prend en charge les [formats de fichiers de documents]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Quelques cas d'utilisation d'opérations {{ProdFullName}} typiques",
+    "code_title_sample_1": "Trouver des métadonnées cachées",
+    "code_samples_sample_1_content": "Pour contrôler le contenu interne du document, vous pouvez rechercher et traiter les [métadonnées du document]({{Sample1Url}}) :",
+    "code_title_sample_2": "Contenu des documents sécurisés",
+    "code_samples_sample_2_content": "Ajoutez des [métadonnées cachées]({{Sample2Url}}) à vos fichiers professionnels afin de protéger leur contenu :"
+  },
+  "index-content-java": {
+    "head_title": "{{EnvNameShort}} API de métadonnées – Afficher, lire, exporter, modifier, supprimer les métadonnées du document",
+    "head_description": "{{EnvNameShort}} API de métadonnées pour afficher, lire, modifier, analyser, rechercher, supprimer, comparer et exporter les métadonnées des documents PDF Word Excel PPTX Outlook Visio Audio Vidéo et Image.",
+    "title": "API de manipulation de métadonnées pour {{EnvNameShort}}",
+    "description": "Développez des applications {{EnvNameShort}} pour créer, afficher, accéder, mettre à jour, supprimer, rechercher, comparer, remplacer et exporter des métadonnées de documents et de formats d'image populaires.",
+    "actions_main": "Téléchargement gratuit depuis Maven",
+    "code_title": "Récupérer efficacement les propriétés des métadonnées",
+    "code_comment_1": "Fournir le chemin MP3 au constructeur de métadonnées",
+    "code_comment_2": "Traiter les métadonnées MP3 intégrées",
+    "overview_description": "Bibliothèque conçue pour la manipulation des métadonnées via {{EnvNameShort}}",
+    "overview_feature_1": {
+      "title": "Contrôler les métadonnées des fichiers et des documents",
+      "description": "{{ProdFullName}} est une API avancée de gestion des métadonnées permettant de manipuler les informations de métadonnées des documents, images, archives, torrents et divers autres formats de fichiers. Les développeurs peuvent désormais améliorer les fonctionnalités de leurs applications {{EnvNameShort}} en intégrant facilement des fonctionnalités d'affichage, de modification, de suppression, d'extraction, de recherche, de comparaison, de remplacement et d'exportation de métadonnées dans tous les formats de documents commerciaux courants tels que PDF, Microsoft Office Word et les feuilles de calcul Excel. , présentations et diapositives PowerPoint, e-mails Outlook, projet, diagrammes Visio, OneNote, images, AutoCAD, Photoshop, audio, vidéo, polices OpenType et métafichiers."
+    },
+    "overview_feature_2": {
+      "title": "Manipuler les métadonnées intégrées",
+      "description": "La bibliothèque de métadonnées {{EnvNameShort}} vous offre des fonctionnalités telles que la recherche de métadonnées, le remplacement des propriétés des métadonnées, la comparaison des métadonnées des formats de fichiers pris en charge pour identifier les similitudes ainsi que les différences. Vous pouvez également éditer ou modifier les métadonnées pour une meilleure gestion des informations et exporter les informations de métadonnées récupérées vers un fichier Excel, un fichier CSV et DataSet. L'API offre une prise en charge complète pour fonctionner avec toutes les normes de métadonnées couramment utilisées, telles que les propriétés de métadonnées intégrées, XMP, EXIF ​​et personnalisées dans les formats de document pris en charge."
+    },
+    "overview_feature_3": {
+      "title": "Prise en charge d'une large plateforme",
+      "description": "{{ProdFullName}} est compatible avec toutes les versions de {{EnvNameShort}} et prend en charge les systèmes d'exploitation courants (Windows, Linux, MacOS) capables d'exécuter le runtime {{EnvNameShort}}."
+    },
+    "features": {
+      "title": "{{ProdFullName}} Fonctionnalités",
+      "description": "Protégez vos métadonnées PDF, documents Office et images",
+      "feature_1": {
+        "title": "Métadonnées des images EXIF",
+        "content": "Mettre à jour les propriétés des métadonnées EXIF ​​dans les fichiers WEBP, PNG et PSD"
+      },
+      "feature_2": {
+        "title": "Obtenir les métadonnées du fichier",
+        "content": "Propriétés de recherche des métadonnées du document, EXIF ​​et XMP"
+      },
+      "feature_3": {
+        "title": "Formats Office propres",
+        "content": "Accédez et supprimez les données cachées dans les fichiers Microsoft Word, Excel, PowerPoint et PDF"
+      },
+      "feature_4": {
+        "title": "Exportation de métadonnées",
+        "content": "Exportez les métadonnées des formats de fichiers pris en charge vers Excel, CSV ou DataSet"
+      },
+      "feature_5": {
+        "title": "Prise en charge des images PNG",
+        "content": "Extraire les métadonnées de texte des fichiers image PNG"
+      },
+      "feature_6": {
+        "title": "Supprimer les signatures numériques",
+        "content": "Identifiez et supprimez les signatures numériques dans les fichiers Word, Excel et PDF"
+      },
+      "feature_7": {
+        "title": "Prise en charge des métadonnées intégrées",
+        "content": "Lire la propriété de métadonnées à l'aide d'une clé définie pour tout format pris en charge"
+      },
+      "feature_8": {
+        "title": "Aperçus d'images",
+        "content": "Générez des aperçus d'images pour les fichiers EPUB, CAD, EML et MSG"
+      },
+      "feature_9": {
+        "title": "Optimisation du contenu des fichiers",
+        "content": "Réduisez la consommation de mémoire des formats PDF, Excel et image"
+      },
+      "feature_10": {
+        "title": "Support multimédia Matroska",
+        "content": "Lisez les sous-titres de Matroska et récupérez les métadonnées des fichiers audio et vidéo"
+      },
+      "feature_11": {
+        "title": "Remplacer le contenu des métadonnées",
+        "content": "Remplacez les propriétés des métadonnées des fichiers Word, Excel, PowerPoint et PDF"
+      },
+      "feature_12": {
+        "title": "Nettoyer les données commerciales",
+        "content": "Supprimer les métadonnées et les commentaires des rapports et documents"
+      },
+      "feature_13": {
+        "title": "Emplacement des photos",
+        "content": "Manipuler les propriétés des métadonnées de l'image et supprimer les informations de localisation des photos"
+      },
+      "feature_14": {
+        "title": "Analyser les distinctions des métadonnées",
+        "content": "Identifier les différences ou les similitudes dans les métadonnées des formats pris en charge par comparaison"
+      },
+      "feature_15": {
+        "title": "Mot de passe de protection",
+        "content": "Détecter la protection par mot de passe des documents dans les fichiers Word, Excel, PowerPoint et PDF"
+      },
+      "feature_16": {
+        "title": "Prise en charge des archives et des torrents",
+        "content": "Manipulez les métadonnées intégrées et personnalisées et récupérez les métadonnées des torrents et des formats d'archives"
+      },
+      "feature_17": {
+        "title": "Métadonnées d'image EXIF",
+        "content": "Ajoutez ou mettez à jour les propriétés de métadonnées XMP et EXIF ​​de types arbitraires à l'aide de l'API de recherche"
+      },
+      "feature_18": {
+        "title": "Détecter le type de fichier de document au moment de l'exécution",
+        "content": "Notre solution offre la possibilité de détecter le type de fichier ou de flux avant le traitement des métadonnées"
+      },
+      "feature_19": {
+        "title": "Prise en charge des métadonnées de police",
+        "content": "Prend en charge l'énumération de tout type de métadonnées et lit les métadonnées des fichiers de polices OpenType"
+      },
+      "feature_20": {
+        "title": "Prise en charge des métadonnées de courrier électronique",
+        "content": "Obtenez et supprimez les métadonnées des messages électroniques et supprimez les pièces jointes"
+      },
+      "feature_21": {
+        "title": "Prise en charge de Microsoft Excel",
+        "content": "Extraction de métadonnées à partir de fichiers Microsoft Excel à partir d'Excel 95"
+      },
+      "feature_22": {
+        "title": "Avant-premières multimédia de Matroska",
+        "content": "Récupérez des vignettes et des aperçus d'images des formats pris en charge avec la prise en charge des conteneurs multimédia Matroska"
+      },
+      "feature_23": {
+        "title": "Prise en charge des projets Microsoft",
+        "content": "Lire les métadonnées des fichiers Microsoft Project cryptés"
+      },
+      "feature_24": {
+        "title": "Prise en charge des fichiers TIFF",
+        "content": "Ajouter, mettre à jour et supprimer des packages de métadonnées IPTC dans les images TIFF"
+      },
+      "feature_25": {
+        "title": "Prise en charge JPEG",
+        "content": "Ajouter, mettre à jour et supprimer des packages de métadonnées EXIF ​​dans les images JPEG2000"
+      },
+      "feature_26": {
+        "title": "Prise en charge des fichiers multimédias",
+        "content": "Extraire les propriétés des métadonnées XMP dans les fichiers MOV, MP3 et WEBP"
+      },
+      "feature_27": {
+        "title": "Assistance média HEIC",
+        "content": "Lire les balises EXIF ​​et les propriétés des métadonnées XMP à partir des formats d'image HEIC/HEIF"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} prend en charge divers systèmes d'exploitation et gestionnaires de packages.",
+    "formats_description": "{{ProdFullName}} permet le traitement d'un large éventail de formats de fichiers. [Voir la liste complète]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Explorez des exemples de code illustrant les fonctionnalités typiques de {{ProdFullName}}",
+    "code_title_sample_1": "Examiner les métadonnées du document",
+    "code_samples_sample_1_content": "Utilisez {{ProdFullName}} pour contrôler le contenu interne du document. En savoir plus : [recherche de métadonnées de document]({{Sample1Url}}) :",
+    "code_title_sample_2": "Ajouter des métadonnées aux documents",
+    "code_samples_sample_2_content": "{{ProdFullName}} vous permet d'ajouter des [entrées masquées]({{Sample2Url}}) à vos données d'entreprise :"
+  },
+  "index-content-nodejs-java": {
+    "head_title": "{{EnvNameShort}} Bibliothèque pour manipuler les métadonnées des fichiers",
+    "head_description": "Améliorez les applications {{EnvNameShort}} en analysant, comparant, modifiant, supprimant et exportant les métadonnées de formats de fichiers courants, tels que PDF, Word, Excel, etc.",
+    "title": "Gestion des métadonnées des documents {{EnvNameShort}}",
+    "description": "Gérez les métadonnées dans les formats de documents et d'images populaires à l'aide de {{EnvNameShort}}.",
+    "actions_main": "Utilisez NPM pour télécharger gratuitement",
+    "code_title": "Manipulation efficace des métadonnées dans {{EnvNameShort}}",
+    "code_comment_1": "Transmettre la feuille de calcul aux métadonnées",
+    "code_comment_2": "Vérifier le format du fichier",
+    "code_comment_3": "Analyser les métadonnées du document interne",
+    "overview_description": "Bibliothèque Node.js TypeScript pour contrôler les métadonnées",
+    "overview_feature_1": {
+      "title": "Caractéristiques principales",
+      "description": "{{ProdFullName}} est une bibliothèque avancée qui vous permet de gérer les métadonnées dans différents formats de fichiers. Intégrez les fonctionnalités d'affichage, d'édition, de suppression, de recherche, de comparaison, de remplacement et d'exportation de métadonnées dans vos applications {{EnvNameShort}}. Les formats pris en charge incluent les documents professionnels courants tels que PDF, Microsoft Office (Word, Excel, PowerPoint), les e-mails Outlook, Project, les diagrammes Visio, OneNote, les images (y compris PSD, CAO), l'audio, la vidéo, les polices OpenType et les métafichiers."
+    },
+    "overview_feature_2": {
+      "title": "Manipulez facilement les métadonnées",
+      "description": "Cette bibliothèque offre des fonctionnalités complètes telles que la recherche de métadonnées, le remplacement, la comparaison de propriétés et l'extraction d'informations. Vous pouvez exporter les métadonnées récupérées aux formats Excel, CSV ou DataSet. Il prend en charge les normes de métadonnées couramment utilisées telles que les propriétés intégrées, XMP, EXIF ​​et personnalisées dans les formats de document pris en charge."
+    },
+    "overview_feature_3": {
+      "title": "Prise en charge des plateformes populaires",
+      "description": "{{ProdFullName}} est compatible avec toutes les versions de {{EnvNameShort}} et fonctionne de manière transparente sur les systèmes d'exploitation courants (Windows, Linux, macOS) qui prennent en charge le runtime {{EnvNameShort}}."
+    },
+    "features": {
+      "title": "{{ProdFullName}} Fonctionnalités",
+      "description": "Renforcez la sécurité des documents grâce au traitement des métadonnées.",
+      "feature_1": {
+        "title": "Effacer les fichiers professionnels",
+        "content": "Effacer les rapports commerciaux et les documents de toutes métadonnées et commentaires"
+      },
+      "feature_2": {
+        "title": "Emplacement des photos",
+        "content": "Contrôler les métadonnées des images, y compris les informations de localisation des photos"
+      },
+      "feature_3": {
+        "title": "Documents du bureau de contrôle",
+        "content": "Manipulez les métadonnées au format PDF, Word, Excel, PowerPoint et autres formats"
+      },
+      "feature_4": {
+        "title": "Analyser les distinctions des métadonnées",
+        "content": "Comparez et analysez les modifications des métadonnées dans les formats de fichiers pris en charge"
+      },
+      "feature_5": {
+        "title": "Prise en charge des métadonnées intégrées",
+        "content": "Tirez parti de fonctionnalités étendues pour manipuler les métadonnées intégrées et personnalisées"
+      },
+      "feature_6": {
+        "title": "Métadonnées de l’image de contrôle",
+        "content": "Collectez les propriétés des métadonnées du document comme EXIF ​​ou XMP"
+      },
+      "feature_7": {
+        "title": "Prise en charge des métadonnées de courrier électronique",
+        "content": "Manipuler les métadonnées et les pièces jointes dans les messages électroniques"
+      },
+      "feature_8": {
+        "title": "Métadonnées d'image EXIF",
+        "content": "Corriger le contenu des métadonnées EXIF ​​dans les fichiers WEBP, PNG ou PSD"
+      },
+      "feature_9": {
+        "title": "Optimisation du contenu des fichiers",
+        "content": "Réduisez la consommation de mémoire des formats PDF, Excel et image"
+      },
+      "feature_10": {
+        "title": "Support multimédia Matroska",
+        "content": "Accédez aux sous-titres et aux métadonnées de Matroska dans les fichiers audio et vidéo"
+      },
+      "feature_11": {
+        "title": "Aperçus d'images",
+        "content": "Générez des aperçus d'images pour les fichiers MSG, CAD, EML ou EPUB"
+      },
+      "feature_12": {
+        "title": "Prise en charge multimédia",
+        "content": "Obtenez des nœuds de métadonnées XMP à partir de fichiers MOV, MP3 et WEBP"
+      },
+      "feature_13": {
+        "title": "Détecter/supprimer les signatures numériques",
+        "content": "Identifiez et supprimez les signatures numériques dans les PDF et les documents Office"
+      },
+      "feature_14": {
+        "title": "Exportation de métadonnées",
+        "content": "Enregistrez les métadonnées des fichiers pris en charge dans la sortie Excel, CSV ou DataSet"
+      },
+      "feature_15": {
+        "title": "Contrôle des métadonnées intégré",
+        "content": "Analysez les propriétés de métadonnées spécifiques à l'aide de clés définies pour tout format pris en charge"
+      },
+      "feature_16": {
+        "title": "Mot de passe de protection",
+        "content": "Détecter la protection par mot de passe appliquée aux documents PDF et MS Word, Excel et PowerPoint"
+      },
+      "feature_17": {
+        "title": "Remplacer le contenu des métadonnées",
+        "content": "Remplacez les propriétés des métadonnées des fichiers Word, Excel, PowerPoint et PDF"
+      },
+      "feature_18": {
+        "title": "Exportation de métadonnées PNG",
+        "content": "Extrayez les métadonnées de texte directement à partir de fichiers image PNG à l'aide de Node.js"
+      },
+      "feature_19": {
+        "title": "Mettre à jour les métadonnées de l'image",
+        "content": "Utilisez l'API de recherche pour ajouter ou mettre à jour les propriétés des métadonnées XMP et EXIF."
+      },
+      "feature_20": {
+        "title": "Contrôler les fichiers Office",
+        "content": "Accédez et supprimez les données cachées intégrées dans les fichiers PDF, MS Word, Excel et PowerPoint"
+      },
+      "feature_21": {
+        "title": "Détection du type de fichier",
+        "content": "Détecter dynamiquement le type de fichier au moment de l'exécution à l'aide de Node.js"
+      },
+      "feature_22": {
+        "title": "Aperçu multimédia de Matroska",
+        "content": "Récupérez des vignettes et des aperçus d'images pour les formats de fichiers pris en charge avec la prise en charge des conteneurs multimédia Matroska"
+      },
+      "feature_23": {
+        "title": "Prise en charge des fichiers TIFF",
+        "content": "Manipuler les packages de métadonnées IPTC dans les images TIFF"
+      },
+      "feature_24": {
+        "title": "Assistance média HEIC",
+        "content": "Contrôlez les balises EXIF ​​et les métadonnées XMP pour les images HEIC/HEIF"
+      },
+      "feature_25": {
+        "title": "Prise en charge des métadonnées de police",
+        "content": "Énumérer tout type de métadonnées et contrôler les métadonnées des fichiers de polices OpenType"
+      },
+      "feature_26": {
+        "title": "Prise en charge des projets Microsoft",
+        "content": "Obtenez toutes les métadonnées cachées dans les fichiers Microsoft Project cryptés"
+      },
+      "feature_27": {
+        "title": "Prise en charge JPEG",
+        "content": "Ajouter, mettre à jour ou supprimer des données EXIF ​​dans les images JPEG2000"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} s'intègre facilement à divers systèmes d'exploitation et gestionnaires de packages.",
+    "formats_description": "{{ProdFullName}} vous permet de traiter une large gamme de formats de fichiers. [Explorez la liste complète]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Découvrez des exemples de code présentant les fonctionnalités courantes de {{ProdFullName}}",
+    "code_title_sample_1": "Être informé du contenu interne des documents",
+    "code_samples_sample_1_content": "Pour obtenir des informations sur les [métadonnées du document]({{Sample1Url}}) internes , utilisez l'API {{ProdFullName}} :",
+    "code_title_sample_2": "Masquer les informations commerciales dans les documents",
+    "code_samples_sample_2_content": "Modifiez vos documents en [ajoutant des métadonnées]({{Sample2Url}}) à l'aide de notre solution :"
+  }
+}

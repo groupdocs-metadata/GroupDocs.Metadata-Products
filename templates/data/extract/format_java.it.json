@@ -1,0 +1,60 @@
+{
+  "head": {
+    "title": "Leggi ed estrai metadati di file {{FileFormatUp}} nelle applicazioni {{EnvName}}",
+    "description": "API di gestione dei metadati {{EnvName}} multipiattaforma per leggere ed estrarre le informazioni sui metadati dei file {{FileFormatUp}}. Funziona con gli standard di metadati XMP, EXIF, IPTC, ID3 ecc."
+  },
+  "header": {
+    "title": "Estrai metadati dal file {{FileFormatUp}} in {{EnvName}}",
+    "description": "Leggi ed estrai informazioni sui metadati da un'ampia gamma di documenti, immagini, formati audio e video utilizzando {{ProdFullName}}",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Scarica la prova gratuita"
+  },
+  "about": {
+    "title": "Informazioni sull'API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offre un set avanzato di funzionalità di gestione e manipolazione dei metadati, consentendo agli sviluppatori di leggere, modificare, rimuovere, cercare, confrontare, sostituire ed esportare facilmente le informazioni sui metadati da immagini e formati di documenti senza utilizzando qualsiasi software esterno. Estrai i dettagli dei metadati dai formati di file PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive e Multimedia ed esegui operazioni sui metadati supportate con vera flessibilità."
+  },
+  "formats": {
+    "title": "Lettura ed estrazione di altri formati di file",
+    "description": "API per l'estrazione di metadati di documenti e immagini multiformato per {{EnvName}}. Recupera i metadati di alcuni dei formati di file più diffusi come indicato di seguito."
+  },
+  "examples": {
+    "comment_1": "Cerca i metadati dell'immagine nel documento {{FileFormatUp}}",
+    "comment_2": "Componi {{TextMetadata}} passando {{FileFormatUp}} al costruttore",
+    "comment_3": "Recupera tutte le proprietà dei metadati che rientrano in una particolare categoria",
+    "comment_4": "Elabora le voci di metadati trovate"
+  },
+  "steps": {
+    "title": "Passaggi per l'estrazione dei metadati {{FileFormatUp}} in {{EnvName}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) semplifica l'estrazione per gli sviluppatori di {{EnvName}}, la lettura e l'estrazione delle informazioni sui metadati dai file {{FileFormatUp}} dalle loro applicazioni implementando alcuni semplici passaggi.",
+      "step_1": "Carica {{FileFormatUp}} con un'istanza della classe {{EnvName}}.",
+      "step_2": "Crea un predicato per esaminare tutte le proprietà dei metadati.",
+      "step_3": "Passa il predicato al metodo {{TextFindProperties}}.",
+      "step_4": "Scorrere le proprietà trovate."
+    }
+  },
+  "more_features": {
+    "title": "Ricerca di metadati nei file aziendali con {{ProdShortName}}",
+    "description": "Controlla i dati nascosti in file e documenti sensibili utilizzando le applicazioni {{EnvName}} basate sulla libreria {{ProdShortName}}.",
+    "image_description": "Ricerca metadati {{EnvName}}",
+    "feature_1": {
+      "title": "{{EnvName}} Strumenti per la ricerca dettagliata dei metadati",
+      "content": "Migliora le tue capacità di elaborazione dei documenti in {{EnvName}} con {{ProdShortName}}. Il nostro software fornisce strumenti efficaci per cercare ed elaborare metadati nascosti."
+    },
+    "feature_2": {
+      "title": "Personalizzazione del recupero dei metadati",
+      "content": "Scegli come target metadati specifici con precisione. Configura la tua ricerca per filtrare in base a molti parametri come testo, data, espressioni regolari, ecc., assicurandoti di ottenere esattamente ciò di cui hai bisogno."
+    },
+    "feature_3": {
+      "title": "Elaborazione efficiente dei metadati",
+      "content": "Sfrutta {{EnvName}} per elaborare i valori delle voci di metadati trovate. Utilizza {{ProdShortName}} per manipolare i metadati in modo efficace. Sei libero di aggiungere, aggiornare o cancellare qualsiasi metadato nei formati supportati."
+    },
+    "code_1": {
+      "title": "{{EnvName}} Esempio: metadati del libro elettronico",
+      "content": "Questo esempio di codice mostra come leggere le proprietà dei metadati specifiche del formato EPUB",
+      "comment_1": "Passa il libro elettronico EPUB all'oggetto {{TextMetadata}}",
+      "comment_2": "Ottieni tutti i metadati integrati",
+      "comment_3": "Elaborare i dati recuperati"
+    }
+  }
+}

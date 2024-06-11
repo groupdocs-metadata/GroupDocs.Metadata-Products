@@ -1,0 +1,60 @@
+{
+  "head": {
+    "title": "Đọc siêu dữ liệu từ tệp {{FileFormatUp}} trong ứng dụng {{EnvNameShort}}",
+    "description": "Dễ dàng truy cập và trích xuất siêu dữ liệu từ các tệp {{FileFormatUp}} trên {{EnvNameShort}}. Hoạt động với các định dạng phổ biến như XMP, EXIF, IPTC, ID3."
+  },
+  "header": {
+    "title": "Trích xuất siêu dữ liệu từ tệp {{FileFormatUp}}",
+    "description": "Trích xuất siêu dữ liệu từ nhiều định dạng tài liệu, hình ảnh, âm thanh và video bằng cách sử dụng {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải về dùng thử miễn phí"
+  },
+  "about": {
+    "title": "API {{ProdFullName}} là gì?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) cho phép bạn dễ dàng xem, chỉnh sửa, thêm, xóa, tìm và quản lý siêu dữ liệu khỏi hình ảnh và tài liệu. Không cần phần mềm bên ngoài! Trích xuất chi tiết từ nhiều định dạng khác nhau như PDF, tài liệu Word, trang tính Excel, v.v. Ngoài ra, nó còn cung cấp các tính năng nâng cao để làm việc với siêu dữ liệu."
+  },
+  "formats": {
+    "title": "Đọc chi tiết từ các loại tệp khác",
+    "description": "Trích xuất siêu dữ liệu từ nhiều tài liệu và hình ảnh khác nhau trong {{EnvName}}. API này hỗ trợ các định dạng phổ biến như..."
+  },
+  "examples": {
+    "comment_1": "Trích xuất tất cả chi tiết từ tệp {{FileFormatUp}}",
+    "comment_2": "Soạn {{TextMetadata}} chuyển {{FileFormatUp}} tới hàm tạo",
+    "comment_3": "Trích xuất tất cả các chi tiết từ một tập tin",
+    "comment_4": "Sử dụng siêu dữ liệu được trích xuất cho ứng dụng của bạn"
+  },
+  "steps": {
+    "title": "Cách trích xuất siêu dữ liệu từ tệp {{FileFormatUp}} trong {{EnvNameShort}} bằng {{ProdShortName}}",
+    "content": {
+      "title": "Dễ dàng trích xuất siêu dữ liệu từ các tệp {{FileFormatUp}} trong ứng dụng {{EnvName}} của bạn bằng cách sử dụng [{{ProdShortName}}]({{ProductUrl}}). Đây là cách thực hiện:",
+      "step_1": "Tải tệp {{FileFormatUp}} mà bạn muốn trích xuất siêu dữ liệu từ đó.",
+      "step_2": "Sử dụng bộ lọc để chỉ định chi tiết nào bạn muốn trích xuất.",
+      "step_3": "Bắt đầu quá trình trích xuất bằng cách sử dụng {{TextFindProperties}}.",
+      "step_4": "Truy cập các chi tiết được trích xuất cho nhu cầu ứng dụng của bạn."
+    }
+  },
+  "more_features": {
+    "title": "Tìm siêu dữ liệu ẩn trong tệp doanh nghiệp bằng {{ProdShortName}}",
+    "description": "Dễ dàng tìm kiếm và quản lý các chi tiết ẩn (siêu dữ liệu) trong các tài liệu nhạy cảm bằng ứng dụng {{EnvName}} bằng thư viện {{ProdShortName}}.",
+    "image_description": "Tìm kiếm siêu dữ liệu trong tệp {{EnvNameShort}}",
+    "feature_1": {
+      "title": "Tìm kiếm siêu dữ liệu mạnh mẽ cho {{EnvNameShort}}",
+      "content": "Tăng cường xử lý tài liệu của bạn trong {{EnvName}} với {{ProdShortName}}. Tìm chi tiết ẩn một cách nhanh chóng và dễ dàng bằng cách sử dụng các công cụ tìm kiếm của chúng tôi."
+    },
+    "feature_2": {
+      "title": "Lọc siêu dữ liệu chính xác",
+      "content": "Nhắm mục tiêu dữ liệu cụ thể mà bạn cần. Tìm kiếm theo văn bản, ngày tháng hoặc sử dụng các mẫu đặc biệt để tìm chính xác những gì bạn đang tìm kiếm."
+    },
+    "feature_3": {
+      "title": "Quản lý siêu dữ liệu hiệu quả",
+      "content": "Sử dụng {{ProdShortName}} để quản lý chi tiết (siêu dữ liệu) bạn tìm thấy trong tệp {{EnvName}}. Thêm, cập nhật hoặc xóa chi tiết nếu cần, tất cả đều ở định dạng tệp được hỗ trợ."
+    },
+    "code_1": {
+      "title": "Đọc chi tiết sách điện tử (Ví dụ về {{EnvName}})",
+      "content": "Ví dụ về mã này cho biết cách truy cập thông tin chi tiết dành riêng cho sách điện tử EPUB.",
+      "comment_1": "Tải tệp EPUB vào đối tượng {{TextMetadata}}.",
+      "comment_2": "Truy xuất tất cả các chi tiết tích hợp từ tệp EPUB.",
+      "comment_3": "Sử dụng dữ liệu được truy xuất cho nhu cầu của ứng dụng của bạn."
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "在 {{ProgLang}} 应用程序中删除 {{FileFormatUp}} 文件的元数据",
+    "description": "{{ProgLang}} 元数据处理 API，用于将元数据信息删除到 {{FileFormatUp}} 文件。使用元数据标准 XMP、EXIF、IPTC、ID3 等。"
+  },
+  "header": {
+    "title": "从 {{ProgLang}} 中的 {{FileFormatUp}} 文件中删除元数据",
+    "description": "使用 {{ProdFullName}} API 从各种文档、图像、音频和视频文件格式中删除元数据信息",
+    "subtitle": "{{ProdFullName}} API",
+    "action_title": "下载免费试用版"
+  },
+  "about": {
+    "title": "关于 {{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 提供了一组高级元数据操作功能，使开发人员能够轻松读取、编辑、删除、搜索、比较、替换和导出图像和文档格式中的元数据信息，而无需使用任何外部软件。使用元数据管理 API 从 PDF、Microsoft Office Word、Excel 电子表格、PowerPoint 演示文稿、Outlook、OneNote、Visio、Project、AutoCAD、Archive 和多媒体文件格式以及许多其他元数据处理功能中删除元数据详细信息。"
+  },
+  "formats": {
+    "title": "从其他文件格式中删除元数据属性",
+    "description": "{{EnvName}} 的多格式文档和图像元数据删除 API。检索一些流行文件格式的元数据，如下所述。"
+  },
+  "examples": {
+    "comment_1": "删除 {{FileFormatUp}} 文件元数据",
+    "comment_2": "删除所有提及参与文件创建的人员",
+    "comment_3": "删除具有指定名称的所有属性",
+    "comment_4": "保存结果"
+  },
+  "steps": {
+    "title": "删除 {{ProgLang}} 中的 {{FileFormatUp}} 元数据的步骤",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) 使 {{EnvName}} 开发人员可以通过实施几个简单的步骤，轻松地从其应用程序中删除元数据详细信息到 {{FileFormatUp}} 文件。",
+      "step_1": "使用 {{TextMetadata}} 类的实例加载 {{FileFormatUp}}。",
+      "step_2": "使用谓词查找所需的元数据属性。",
+      "step_3": "使用 {{TextMetadataRemoveProperties}} 方法删除属性。",
+      "step_4": "以 {{FileFormatUp}} 格式保存更改。"
+    }
+  },
+  "more_features": {
+    "title": "轻松管理文档元数据",
+    "description": "通过我们易于使用的文档元数据管理，让您的文件井井有条并可搜索。访问、编辑和更新各种详细信息以快速找到您需要的内容。",
+    "image_description": "轻松的文档元数据管理",
+    "feature_1": {
+      "title": "快速查看文档元数据",
+      "content": "立即获取有关文档的所有重要信息，例如作者、创建日期等。"
+    },
+    "feature_2": {
+      "title": "轻松编辑文档元数据",
+      "content": "直接更新文档中的元数据，以实现更好的组织、可搜索性和准确性。"
+    },
+    "feature_3": {
+      "title": "强大的文档元数据管理",
+      "content": "利用您的文档元数据做更多事情！添加自定义信息，删除不必要的数据，并确保一切保持一致。"
+    },
+    "code_1": {
+      "title": "清除 ZIP 存档元数据",
+      "content": "以下代码片段显示了如何从 ZIP 存档中删除用户评论",
+      "comment_1": "加载存档文件以进行进一步处理",
+      "comment_2": "获取主要元数据包",
+      "comment_3": "删除存档评论",
+      "comment_4": "保存清理后的文件"
+    }
+  }
+}

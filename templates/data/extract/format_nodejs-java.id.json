@@ -1,0 +1,60 @@
+{
+  "head": {
+    "title": "Membaca Metadata dari File {{FileFormatUp}} di Aplikasi {{EnvNameShort}}",
+    "description": "Akses dan ekstrak metadata dengan mudah dari file {{FileFormatUp}} di {{EnvNameShort}}. Bekerja dengan format umum seperti XMP, EXIF, IPTC, ID3."
+  },
+  "header": {
+    "title": "Ekstrak Metadata dari File {{FileFormatUp}}",
+    "description": "Ekstrak metadata dari berbagai format dokumen, gambar, audio & video menggunakan {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh Uji Coba Gratis"
+  },
+  "about": {
+    "title": "Apa itu API {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) memudahkan Anda melihat, mengedit, menambah, menghapus, menemukan, dan mengelola metadata dari gambar dan dokumen. Tidak diperlukan perangkat lunak eksternal! Ekstrak detail dari berbagai format seperti PDF, dokumen Word, lembar Excel, dan banyak lagi. Selain itu, ia menawarkan fitur-fitur canggih untuk bekerja dengan metadata."
+  },
+  "formats": {
+    "title": "Membaca Detail dari Jenis File Lain",
+    "description": "Ekstrak metadata dari berbagai dokumen dan gambar di {{EnvName}}. API ini mendukung format populer seperti..."
+  },
+  "examples": {
+    "comment_1": "Ekstrak semua detail dari file {{FileFormatUp}}",
+    "comment_2": "Tulis {{TextMetadata}} dengan meneruskan {{FileFormatUp}} ke konstruktor",
+    "comment_3": "Ekstrak semua detail dari file",
+    "comment_4": "Gunakan metadata yang diekstrak untuk aplikasi Anda"
+  },
+  "steps": {
+    "title": "Cara Mengekstrak Metadata dari File {{FileFormatUp}} di {{EnvNameShort}} dengan {{ProdShortName}}",
+    "content": {
+      "title": "Ekstrak metadata dengan mudah dari file {{FileFormatUp}} dalam aplikasi {{EnvName}} Anda menggunakan [{{ProdShortName}}]({{ProductUrl}}). Begini caranya:",
+      "step_1": "Muat file {{FileFormatUp}} yang metadatanya ingin Anda ekstrak.",
+      "step_2": "Gunakan filter untuk menentukan detail mana yang ingin Anda ekstrak.",
+      "step_3": "Mulai proses ekstraksi menggunakan {{TextFindProperties}}.",
+      "step_4": "Akses detail yang diekstrak untuk kebutuhan aplikasi Anda."
+    }
+  },
+  "more_features": {
+    "title": "Temukan Metadata Tersembunyi di File Bisnis dengan {{ProdShortName}}",
+    "description": "Telusuri dan kelola detail tersembunyi (metadata) dengan mudah di dokumen sensitif menggunakan aplikasi {{EnvName}} menggunakan pustaka {{ProdShortName}}.",
+    "image_description": "Telusuri Metadata di File {{EnvNameShort}}",
+    "feature_1": {
+      "title": "Pencarian Metadata yang Kuat untuk {{EnvNameShort}}",
+      "content": "Tingkatkan pemrosesan dokumen Anda di {{EnvName}} dengan {{ProdShortName}}. Temukan detail tersembunyi dengan cepat dan mudah menggunakan alat pencarian kami."
+    },
+    "feature_2": {
+      "title": "Pemfilteran Metadata yang Tepat",
+      "content": "Targetkan data spesifik yang Anda butuhkan. Telusuri berdasarkan teks, tanggal, atau gunakan pola khusus untuk menemukan apa yang Anda cari."
+    },
+    "feature_3": {
+      "title": "Manajemen Metadata yang Efisien",
+      "content": "Gunakan {{ProdShortName}} untuk mengelola detail (metadata) yang Anda temukan di file {{EnvName}}. Tambahkan, perbarui, atau hapus detail sesuai kebutuhan, semuanya dalam format file yang didukung."
+    },
+    "code_1": {
+      "title": "Baca Detail E-Book (Contoh {{EnvName}})",
+      "content": "Contoh kode ini menunjukkan cara mengakses detail khusus e-book EPUB.",
+      "comment_1": "Muat file EPUB ke dalam objek {{TextMetadata}}.",
+      "comment_2": "Ambil semua detail bawaan dari file EPUB.",
+      "comment_3": "Gunakan data yang diambil untuk kebutuhan aplikasi Anda."
+    }
+  }
+}

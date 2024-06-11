@@ -1,0 +1,108 @@
+{
+  "common-content": {
+    "format-formats": {
+      "avi": {
+        "name": "Додати метадані до AVI",
+        "description": "(Файл з перемежуванням аудіо-відео)"
+      },
+      "djvu": {
+        "name": "Додайте метадані до DJVU",
+        "description": "(Формат графічного файлу)"
+      },
+      "docx": {
+        "name": "Додайте метадані до DOCX",
+        "description": "(Office 2007+ документ Word)"
+      },
+      "epub": {
+        "name": "Додайте метадані до EPUB",
+        "description": "(Відкрити файл електронної книги)"
+      },
+      "heic": {
+        "name": "Додайте метадані до HEIC",
+        "description": "(Високоефективний формат зображення)"
+      },
+      "jpeg": {
+        "name": "Додайте метадані до JPEG",
+        "description": "(Зображення Joint Photographic Expert Group)"
+      },
+      "mov": {
+        "name": "Додайте метадані до MOV",
+        "description": "(фільм Apple QuickTime)"
+      },
+      "mp3": {
+        "name": "Додати метадані до MP3",
+        "description": "(Аудіофайл MP3)"
+      },
+      "msg": {
+        "name": "Додайте метадані до MSG",
+        "description": "(Файл повідомлень Outlook)"
+      },
+      "ods": {
+        "name": "Додати метадані до ODS",
+        "description": "(Електронна таблиця OpenDocument)"
+      },
+      "odt": {
+        "name": "Додайте метадані до ODT",
+        "description": "(Формат текстового файлу OpenDocument)"
+      },
+      "pdf": {
+        "name": "Додайте метадані до PDF",
+        "description": "(Формат портативного документа)"
+      },
+      "png": {
+        "name": "Додайте метадані до PNG",
+        "description": "(Портативна мережева графіка)"
+      },
+      "pptx": {
+        "name": "Додайте метадані до PPTX",
+        "description": "(Відкритий формат презентації XML)"
+      },
+      "tiff": {
+        "name": "Додайте метадані до TIFF",
+        "description": "(Формат файлу зображення з тегами)"
+      },
+      "torrent": {
+        "name": "Додайте метадані в ТОРРЕНТ",
+        "description": "(Торрент посилання)"
+      },
+      "vsdx": {
+        "name": "Додайте метадані до VSDX",
+        "description": "(Малюнок Visio)"
+      },
+      "wav": {
+        "name": "Додати метадані до WAV",
+        "description": "(Аудіофайл WAVE)"
+      },
+      "webp": {
+        "name": "Додайте метадані до WEBP",
+        "description": "(Растровий формат веб-зображення)"
+      },
+      "xlsx": {
+        "name": "Додайте метадані до XLSX",
+        "description": "(Відкрити книгу XML)"
+      },
+      "zip": {
+        "name": "Додайте метадані до ZIP",
+        "description": "(архівований файл)"
+      }
+    },
+    "format-code": {
+      "copy_title": "Копія",
+      "copy_tip": "натисніть, щоб скопіювати",
+      "copy_done": "скопійовано",
+      "links": {
+        "title_1": "Більше прикладів",
+        "title_2": "Документація"
+      }
+    },
+    "format-actions": {
+      "title": "Готові почати?",
+      "description": "Спробуйте функції {{ProdShortName}} безкоштовно або подайте запит на ліцензію",
+      "comment_1": "Завантажити {{PackageStoreName}}",
+      "comment_2": "Ліцензування"
+    },
+    "texts": {
+      "learn_more": "Вивчайте більше"
+    }
+  }
+}

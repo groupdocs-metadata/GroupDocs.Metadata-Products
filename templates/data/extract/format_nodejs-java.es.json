@@ -1,0 +1,60 @@
+{
+  "head": {
+    "title": "Leer metadatos de archivos {{FileFormatUp}} en aplicaciones {{EnvNameShort}}",
+    "description": "Acceda y extraiga fácilmente metadatos de archivos {{FileFormatUp}} en {{EnvNameShort}}. Funciona con formatos comunes como XMP, EXIF, IPTC, ID3."
+  },
+  "header": {
+    "title": "Extraer metadatos de archivos {{FileFormatUp}}",
+    "description": "Extraiga metadatos de una amplia gama de documentos, imágenes, formatos de audio y video usando {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descargue prueba gratis"
+  },
+  "about": {
+    "title": "¿Qué es la API {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) le permite ver, editar, agregar, eliminar, buscar y administrar fácilmente metadatos de imágenes y documentos. ¡No se necesita software externo! Extraiga detalles de varios formatos como PDF, documentos de Word, hojas de Excel y más. Además, ofrece funciones avanzadas para trabajar con metadatos."
+  },
+  "formats": {
+    "title": "Leer detalles de otros tipos de archivos",
+    "description": "Extraiga metadatos de varios documentos e imágenes en {{EnvName}}. Esta API admite formatos populares como..."
+  },
+  "examples": {
+    "comment_1": "Extraiga todos los detalles de un archivo {{FileFormatUp}}",
+    "comment_2": "Redacte {{TextMetadata}} pasando {{FileFormatUp}} al constructor",
+    "comment_3": "Extraer todos los detalles de un archivo",
+    "comment_4": "Utilice los metadatos extraídos para su aplicación"
+  },
+  "steps": {
+    "title": "Cómo extraer metadatos de archivos {{FileFormatUp}} en {{EnvNameShort}} con {{ProdShortName}}",
+    "content": {
+      "title": "Extraiga fácilmente metadatos de archivos {{FileFormatUp}} dentro de sus aplicaciones {{EnvName}} usando [{{ProdShortName}}]({{ProductUrl}}). Así es cómo:",
+      "step_1": "Cargue el archivo {{FileFormatUp}} del que desea extraer metadatos.",
+      "step_2": "Utilice un filtro para especificar qué detalles desea extraer.",
+      "step_3": "Inicie el proceso de extracción utilizando {{TextFindProperties}}.",
+      "step_4": "Acceda a los detalles extraídos para las necesidades de su aplicación."
+    }
+  },
+  "more_features": {
+    "title": "Encuentre metadatos ocultos en archivos comerciales con {{ProdShortName}}",
+    "description": "Busque y administre fácilmente detalles ocultos (metadatos) en documentos confidenciales con aplicaciones {{EnvName}} utilizando la biblioteca {{ProdShortName}}.",
+    "image_description": "Buscar metadatos en archivos {{EnvNameShort}}",
+    "feature_1": {
+      "title": "Potente búsqueda de metadatos para {{EnvNameShort}}",
+      "content": "Impulsa el procesamiento de tus documentos en {{EnvName}} con {{ProdShortName}}. Encuentre detalles ocultos de forma rápida y sencilla utilizando nuestras herramientas de búsqueda."
+    },
+    "feature_2": {
+      "title": "Filtrado preciso de metadatos",
+      "content": "Apunte a los datos específicos que necesita. Busque por texto, fecha o utilice patrones especiales para encontrar exactamente lo que busca."
+    },
+    "feature_3": {
+      "title": "Gestión eficiente de metadatos",
+      "content": "Utilice {{ProdShortName}} para administrar los detalles (metadatos) que encuentre en los archivos {{EnvName}}. Agregue, actualice o elimine detalles según sea necesario, todo dentro de los formatos de archivo compatibles."
+    },
+    "code_1": {
+      "title": "Leer detalles del libro electrónico (ejemplo de {{EnvName}})",
+      "content": "Este ejemplo de código muestra cómo acceder a detalles específicos de los libros electrónicos EPUB.",
+      "comment_1": "Cargue el archivo EPUB en el objeto {{TextMetadata}}.",
+      "comment_2": "Recupere todos los detalles integrados del archivo EPUB.",
+      "comment_3": "Utilice los datos recuperados para las necesidades de su aplicación."
+    }
+  }
+}

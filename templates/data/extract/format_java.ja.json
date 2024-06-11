@@ -1,0 +1,60 @@
+{
+  "head": {
+    "title": "{{EnvName}} アプリケーションの {{FileFormatUp}} ファイルのメタデータの読み取りと抽出",
+    "description": "{{FileFormatUp}} ファイルのメタデータ情報を読み取り、抽出するクロスプラットフォームの {{EnvName}} メタデータ管理 API。メタデータ標準 XMP、EXIF、IPTC、ID3 などを使用します。"
+  },
+  "header": {
+    "title": "{{EnvName}} の {{FileFormatUp}} ファイルからメタデータを抽出する",
+    "description": "{{ProdFullName}} を使用して、幅広いドキュメント、画像、オーディオ、ビデオ形式からメタデータ情報を読み取り、抽出します",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "無料トライアルをダウンロード"
+  },
+  "about": {
+    "title": "{{ProdFullName}} API について",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) は、メタデータ管理および操作機能の高度なセットを提供し、開発者が画像やドキュメント形式からメタデータ情報を簡単に読み取り、編集、削除、検索、比較、置換、エクスポートできるようにします。外部ソフトウェアを使用する。 PDF、Word、Excel、PowerPoint、Outlook、OneNote、Visio、Project、AutoCAD、アーカイブ、およびマルチメディア ファイル形式からメタデータの詳細を抽出し、サポートされているメタデータ操作を真の柔軟性で実行します。"
+  },
+  "formats": {
+    "title": "他のファイル形式の読み取りと抽出",
+    "description": "{{EnvName}} 用のマルチフォーマットのドキュメントと画像のメタデータ抽出 API。以下に示すように、いくつかの一般的なファイル形式のメタデータを取得します。"
+  },
+  "examples": {
+    "comment_1": "{{FileFormatUp}} ドキュメント内の画像メタデータを検索",
+    "comment_2": "{{FileFormatUp}} をコンストラクターに渡す {{TextMetadata}} を作成します",
+    "comment_3": "特定のカテゴリに分類されるすべてのメタデータ プロパティを取得します。",
+    "comment_4": "見つかったメタデータ エントリを処理する"
+  },
+  "steps": {
+    "title": "{{EnvName}} での {{FileFormatUp}} メタデータ抽出の手順",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) を使用すると、{{EnvName}} の開発者は、いくつかの簡単な手順を実装することで、アプリケーション内から {{FileFormatUp}} ファイルからメタデータ情報を簡単に読み取り、抽出できます。",
+      "step_1": "{{EnvName}} クラスのインスタンスを使用して {{FileFormatUp}} をロードします。",
+      "step_2": "すべてのメタデータ プロパティを検査するための述語を作成します。",
+      "step_3": "述語を {{TextFindProperties}} メソッドに渡します。",
+      "step_4": "見つかったプロパティを繰り返し処理します。"
+    }
+  },
+  "more_features": {
+    "title": "{{ProdShortName}} を使用したビジネス ファイルのメタデータ検索",
+    "description": "{{ProdShortName}} ライブラリを利用した {{EnvName}} アプリケーションを使用して、機密ファイルやドキュメント内の隠しデータを制御します。",
+    "image_description": "{{EnvName}} メタデータ検索",
+    "feature_1": {
+      "title": "詳細なメタデータ検索のための {{EnvName}} ツール",
+      "content": "{{ProdShortName}} を使用して、{{EnvName}} のドキュメント処理機能を強化します。当社のソフトウェアは、隠されたメタデータを検索および処理するための効果的なツールを提供します。"
+    },
+    "feature_2": {
+      "title": "メタデータ取得のカスタマイズ",
+      "content": "特定のメタデータを正確にターゲットにします。テキスト、日付、正規表現などの多くのパラメータでフィルタリングするように検索を構成し、必要なものを正確に取得できるようにします。"
+    },
+    "feature_3": {
+      "title": "効率的なメタデータ処理",
+      "content": "{{EnvName}} を利用して、見つかったメタデータ エントリの値を処理します。 {{ProdShortName}} を使用してメタデータを効果的に操作します。サポートされている形式のメタデータを自由に追加、更新、またはクリアできます。"
+    },
+    "code_1": {
+      "title": "{{EnvName}} 例: 電子書籍のメタデータ",
+      "content": "このコード サンプルは、EPUB 形式固有のメタデータ プロパティを読み取る方法を示しています。",
+      "comment_1": "EPUB 電子書籍を {{TextMetadata}} オブジェクトに渡します",
+      "comment_2": "すべての組み込みメタデータを取得する",
+      "comment_3": "取得したデータを処理する"
+    }
+  }
+}

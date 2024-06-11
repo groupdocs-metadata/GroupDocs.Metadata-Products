@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Bearbeiten Sie Metadaten in {{FileFormatUp}}-Dateien mit {{EnvNameShort}}-Anwendungen",
+    "description": "Verwenden Sie die {{EnvNameShort}}-Metadaten-API, um Metadaten in {{FileFormatUp}}-Dateien zu bearbeiten. Unterstützt XMP, EXIF, IPTC, ID3 und mehr."
+  },
+  "header": {
+    "title": "Metadaten in {{FileformatCap}}-Dateien mit {{ProgLang}} aktualisieren",
+    "description": "Metadaten-Editor für {{ProgLang}} – Bearbeiten Sie Metadatenfelder in Dokumenten, Bildern und Multimediadateien mit unserer API.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download kostenlose Testversion"
+  },
+  "about": {
+    "title": "Informationen zur {{ProdFullName}}-API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist eine erweiterte Lösung zum Lesen, Hinzufügen, Ändern, Löschen, Suchen, Vergleichen, Ersetzen und Exportieren von Metadaten aus Bildern und Dokumenten. Bearbeiten Sie Metadaten in Word-, Excel-, PowerPoint-, Outlook-, OneNote-, Visio-, Project-, PDF-, AutoCAD-, ZIP-, Audio- und Videodateien sowie viele andere Funktionen."
+  },
+  "formats": {
+    "title": "Bearbeiten Sie Metadaten in verschiedenen Dateiformaten",
+    "description": "API zur Bearbeitung von Metadaten für Dokumente und Bilder in mehreren Formaten für {{EnvNameShort}}. Metadaten für gängige Dateiformate abrufen und bearbeiten"
+  },
+  "examples": {
+    "comment_1": "Aktualisieren Sie die Metadaten für Datum und Uhrzeit des letzten Drucks der Datei nach dem Drucken",
+    "comment_2": "Datei in den Klassenkonstruktor {{TextMetadata}} laden",
+    "comment_3": "Betroffen sind nur vorhandene Metadatenpakete. Es werden keine neuen Pakete hinzugefügt.",
+    "comment_4": "Verarbeitungsergebnis",
+    "comment_5": "Aktualisierte Datei speichern"
+  },
+  "steps": {
+    "title": "Schritte zum Aktualisieren von Metadaten in {{FileformatCap}} mit {{EnvNameShort}}",
+    "content": {
+      "title": "[{{ProdFullName}}]({{ProductUrl}}) ermöglicht das Bearbeiten von Metadaten in {{FileformatCap}}-Dateien mit wenigen einfachen Schritten.",
+      "step_1": "Laden Sie die zu aktualisierende Datei {{FileformatCap}}.",
+      "step_2": "Geben Sie ein Prädikat an, um die gewünschten Metadateneigenschaften zu filtern.",
+      "step_3": "Übergeben Sie das Prädikat und den neuen Wert an die Methode {{TextUpdateProperties}}.",
+      "step_4": "Speichern Sie die Änderungen."
+    }
+  },
+  "more_features": {
+    "title": "Bearbeiten Sie {{FileFormatUp}}-Metadaten für {{EnvNameShort}}-Apps",
+    "description": "Mit der {{ProdShortName}}-API können Entwickler versteckte Metadaten in verschiedenen Dokumentformaten innerhalb von {{EnvName}}-Anwendungen aktualisieren. Anwenden, Bearbeiten, Suchen und Entfernen von Metadaten programmgesteuert.",
+    "image_description": "Metadatenkonfiguration",
+    "feature_1": {
+      "title": "Einfache Metadatenintegration",
+      "content": "{{ProdShortName}} vereinfacht das Hinzufügen und Bearbeiten von Metadaten in Dokumenten und Dateien in Ihren {{EnvName}}-Apps. Entwickler können Metadaten einfach anwenden, aktualisieren oder entfernen."
+    },
+    "feature_2": {
+      "title": "Umfassende Metadatenkontrolle",
+      "content": "Die API bietet umfangreiche Möglichkeiten zur Anpassung von Metadaten. Mithilfe spezieller Abfragen können Sie Metadaten in Dateien ganz einfach finden, entfernen oder aktualisieren."
+    },
+    "feature_3": {
+      "title": "Verwenden Sie native {{FileFormatUp}}-Funktionen",
+      "content": "Nutzen Sie integrierte Metadatenfunktionen wie EXIF ​​für Bilder, die Kameramodell, Auflösung, Erstellungsdatum und mehr umfassen können."
+    },
+    "code_1": {
+      "title": "Aktualisieren Sie das Liedtext-Tag in einer MP3-Datei (Beispiel)",
+      "content": "Dieses Beispiel zeigt, wie versteckte Metadaten in einer MP3-Datei aktualisiert werden.",
+      "comment_1": "Datei in den Klassenkonstruktor {{TextMetadata}} laden",
+      "comment_2": "Liedtextdaten aktualisieren",
+      "comment_3": "Fügen Sie dem Tag ein benutzerdefiniertes Feld hinzu",
+      "comment_4": "Speichern Sie das Ergebnis"
+    }
+  }
+}

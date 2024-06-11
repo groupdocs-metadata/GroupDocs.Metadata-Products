@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "Supprimer les propriétés de métadonnées des fichiers {{FileFormatUp}} dans {{EnvName}}",
+    "description": "API de métadonnées multiplateforme {{EnvName}} pour masquer et supprimer les champs de métadonnées des fichiers {{FileFormatUp}}. Travaillez avec les normes de métadonnées XMP, EXIF, IPTC, ID3, etc."
+  },
+  "header": {
+    "title": "Supprimer les métadonnées {{FileFormatUp}} dans {{EnvName}}",
+    "description": "Supprimez les propriétés de métadonnées de {{FileFormatUp}} et de nombreux autres formats de documents, d'images et de fichiers multimédias populaires à l'aide de l'API {{ProdFullName}}.",
+    "subtitle": "API {{ProdFullName}}",
+    "action_title": "Télécharger l'essai gratuit"
+  },
+  "about": {
+    "title": "À propos de l'API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est une solution avancée de manipulation de champs de métadonnées permettant de lire, ajouter, mettre à jour, supprimer, rechercher, comparer, échanger et exporter facilement des informations de métadonnées à partir d'images et de formats de documents sans utiliser de logiciel externe. . Supprimez les détails des métadonnées des documents Word, des feuilles de calcul Excel, des présentations PowerPoint, des e-mails Outlook, OneNote, Visio, Project, PDF, AutoCAD, ZIp, des formats de fichiers audio et vidéo ainsi que la prise en charge de nombreuses autres fonctionnalités de traitement des métadonnées."
+  },
+  "formats": {
+    "title": "Suppression des métadonnées d'autres formats de fichiers",
+    "description": "API de suppression de métadonnées de documents et d'images multiformats pour {{EnvName}}. Récupérez les métadonnées de certains des formats de fichiers populaires, comme indiqué ci-dessous."
+  },
+  "examples": {
+    "comment_1": "Effacer les métadonnées du document {{FileFormatUp}}",
+    "comment_2": "Supprimez toutes les mentions de toutes les personnes ayant contribué à la création du fichier",
+    "comment_3": "Supprimer une propriété personnalisée avec le nom spécifié",
+    "comment_4": "Enregistrez le fichier effacé"
+  },
+  "steps": {
+    "title": "Étapes pour supprimer les métadonnées de {{FileFormatUp}} dans {{EnvName}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) permet aux développeurs {{EnvName}} de supprimer facilement les informations de métadonnées des fichiers {{FileFormatUp}} depuis leurs applications en mettant en œuvre quelques étapes simples.",
+      "step_1": "Chargez le fichier {{FileFormatUp}} à mettre à jour.",
+      "step_2": "Transmettez un prédicat de recherche à la méthode {{TextRemoveProperties}}.",
+      "step_3": "Vérifiez le nombre de propriétés qui ont été réellement supprimées.",
+      "step_4": "Enregistrez les modifications."
+    }
+  },
+  "more_features": {
+    "title": "Gérez facilement les métadonnées des documents",
+    "description": "Notre solution simplifie la gestion des métadonnées de vos documents. Accédez, modifiez et mettez à jour facilement diverses propriétés de documents pour que vos fichiers restent organisés et consultables.",
+    "image_description": "Protéger les métadonnées des documents",
+    "feature_1": {
+      "title": "Contrôle des métadonnées sans effort",
+      "content": "Obtenez et traitez rapidement les métadonnées d’un document. Obtenez des informations précieuses telles que l’auteur, la date de création, etc."
+    },
+    "feature_2": {
+      "title": "Mise à jour simple des métadonnées",
+      "content": "Modifiez directement les métadonnées du document. Mettez à jour les propriétés pour une meilleure organisation, une meilleure recherche et des informations précises."
+    },
+    "feature_3": {
+      "title": "Gestion puissante des métadonnées",
+      "content": "Effectuez des opérations avancées sur les métadonnées des documents. Gérez facilement des tâches telles que l'ajout de propriétés personnalisées, la suppression des données inutiles et la garantie de la cohérence des données."
+    },
+    "code_1": {
+      "title": "Effacer les métadonnées de l'archive ZIP",
+      "content": "L'extrait de code suivant montre comment supprimer le commentaire utilisateur d'une archive ZIP",
+      "comment_1": "Charger le fichier d'archive pour un traitement ultérieur",
+      "comment_2": "Obtenir le package de métadonnées principal",
+      "comment_3": "Supprimer les commentaires d'archive",
+      "comment_4": "Enregistrer le fichier nettoyé"
+    }
+  }
+}
