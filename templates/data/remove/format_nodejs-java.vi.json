@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "Xóa siêu dữ liệu khỏi tệp {{FileFormatUp}} trong {{EnvName}}",
+    "description": "API siêu dữ liệu {{EnvName}} đa nền tảng để ẩn và xóa các trường siêu dữ liệu khỏi tệp {{FileFormatUp}}. Hỗ trợ XMP, EXIF, IPTC, ID3, v.v."
+  },
+  "header": {
+    "title": "Xóa siêu dữ liệu {{FileFormatUp}} trong {{EnvName}}",
+    "description": "Xóa thuộc tính siêu dữ liệu khỏi {{FileFormatUp}} và các định dạng tài liệu, hình ảnh và tệp đa phương tiện phổ biến khác bằng API {{ProdFullName}}.",
+    "subtitle": "API {{ProdFullName}}",
+    "action_title": "Tải về dùng thử miễn phí"
+  },
+  "about": {
+    "title": "Giới thiệu về API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) là giải pháp nâng cao để quản lý các trường siêu dữ liệu. Dễ dàng đọc, thêm, cập nhật, xóa, tìm, so sánh, trao đổi và xuất siêu dữ liệu từ hình ảnh và tài liệu mà không cần sử dụng bất kỳ phần mềm bên ngoài nào. Xóa siêu dữ liệu khỏi các tệp Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, PDF, AutoCAD, ZIP, âm thanh và video cùng với nhiều tính năng khác."
+  },
+  "formats": {
+    "title": "Xóa siêu dữ liệu khỏi các định dạng tệp khác",
+    "description": "API xóa siêu dữ liệu hình ảnh và tài liệu đa định dạng cho {{EnvName}}. Truy xuất và xóa siêu dữ liệu khỏi các định dạng tệp phổ biến."
+  },
+  "examples": {
+    "comment_1": "Xóa siêu dữ liệu tài liệu {{FileFormatUp}}",
+    "comment_2": "Xóa tất cả đề cập đến người đóng góp",
+    "comment_3": "Xóa thuộc tính tùy chỉnh theo tên",
+    "comment_4": "Lưu tập tin đã được làm sạch"
+  },
+  "steps": {
+    "title": "Các bước để xóa siêu dữ liệu khỏi {{FileFormatUp}} trong {{EnvName}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) giúp nhà phát triển {{EnvName}} dễ dàng xóa siêu dữ liệu khỏi tệp {{FileFormatUp}} chỉ bằng một vài bước đơn giản.",
+      "step_1": "Tải tệp {{FileFormatUp}} cần cập nhật.",
+      "step_2": "Chuyển vị từ tìm kiếm vào phương thức {{TextRemoveProperties}}.",
+      "step_3": "Kiểm tra số lượng thuộc tính đã bị xóa.",
+      "step_4": "Lưu các thay đổi."
+    }
+  },
+  "more_features": {
+    "title": "Quản lý siêu dữ liệu tài liệu một cách dễ dàng",
+    "description": "Giải pháp của chúng tôi đơn giản hóa việc quản lý siêu dữ liệu. Dễ dàng truy cập, chỉnh sửa và cập nhật các thuộc tính tài liệu để giữ cho các tệp được sắp xếp và có thể tìm kiếm được.",
+    "image_description": "Bảo vệ siêu dữ liệu tài liệu",
+    "feature_1": {
+      "title": "Kiểm soát siêu dữ liệu dễ dàng",
+      "content": "Nhanh chóng truy xuất và xử lý siêu dữ liệu tài liệu. Nhận thông tin chi tiết về các thuộc tính như tác giả, ngày tạo, v.v."
+    },
+    "feature_2": {
+      "title": "Chỉnh sửa siêu dữ liệu đơn giản",
+      "content": "Chỉnh sửa trực tiếp siêu dữ liệu tài liệu. Cập nhật các thuộc tính để tổ chức, khả năng tìm kiếm và độ chính xác tốt hơn."
+    },
+    "feature_3": {
+      "title": "Quản lý siêu dữ liệu mạnh mẽ",
+      "content": "Thực hiện các thao tác nâng cao trên siêu dữ liệu tài liệu. Dễ dàng thêm thuộc tính tùy chỉnh, xóa dữ liệu không cần thiết và đảm bảo tính nhất quán."
+    },
+    "code_1": {
+      "title": "Xóa siêu dữ liệu lưu trữ ZIP",
+      "content": "Đoạn mã này cho biết cách xóa nhận xét của người dùng khỏi kho lưu trữ ZIP.",
+      "comment_1": "Tải tập tin lưu trữ để xử lý",
+      "comment_2": "Nhận gói siêu dữ liệu chính",
+      "comment_3": "Xóa nhận xét lưu trữ",
+      "comment_4": "Lưu tập tin đã được làm sạch"
+    }
+  }
+}

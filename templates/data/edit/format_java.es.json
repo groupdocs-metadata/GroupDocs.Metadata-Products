@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Editar metadatos en archivos {{FileFormatUp}} en aplicaciones {{EnvName}}",
+    "description": "API de procesamiento de metadatos {{EnvName}} para editar información de metadatos en archivos {{FileFormatUp}}. Trabaje con estándares de metadatos XMP, EXIF, IPTC, ID3, etc."
+  },
+  "header": {
+    "title": "Actualizar metadatos del archivo {{FileformatCap}} en {{ProgLang}}",
+    "description": "Editor de metadatos para aplicaciones {{ProgLang}}: cambie los campos de metadatos de todos los documentos, imágenes y formatos de archivos multimedia populares utilizando la API del editor de metadatos para {{ProgLang}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descargue prueba gratis"
+  },
+  "about": {
+    "title": "Acerca de la API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) es una solución avanzada de manipulación de campos de metadatos para leer, agregar, modificar, eliminar, buscar, comparar, reemplazar y exportar fácilmente información de metadatos de imágenes y formatos de documentos sin utilizar ningún software externo. . Edite detalles de metadatos de documentos de Word, hojas de cálculo de Excel, presentaciones de PowerPoint, correos electrónicos de Outlook, OneNote, Visio, Project, PDF, AutoCAD, ZIP, formatos de archivos de audio y video junto con la compatibilidad para trabajar con muchas otras funciones de procesamiento de metadatos."
+  },
+  "formats": {
+    "title": "Cambiar metadatos de otros formatos de archivo",
+    "description": "API de edición de metadatos de imágenes y documentos multiformato para {{EnvName}}. Recupere metadatos de algunos de los formatos de archivo populares como se indica a continuación"
+  },
+  "examples": {
+    "comment_1": "Editar metadatos de la fecha de creación de {{FileFormatUp}}",
+    "comment_2": "Actualice la fecha/hora de creación del archivo si el valor existente tiene más de 3 días",
+    "comment_3": "Defina sus propias especificaciones para filtrar las propiedades de los metadatos.",
+    "comment_4": "Resultado de la actualización del proceso",
+    "comment_5": "Guardar archivo editado"
+  },
+  "steps": {
+    "title": "Pasos para actualizar metadatos a {{FileformatCap}} en {{EnvName}}",
+    "content": {
+      "title": "[{{ProdFullName}}]({{ProductUrl}}) facilita a los desarrolladores de {{EnvName}} editar detalles de metadatos en archivos {{FileformatCap}} desde sus aplicaciones mediante la implementación de unos sencillos pasos.",
+      "step_1": "Cargue el archivo {{FileformatCap}} para actualizarlo",
+      "step_2": "Especifique un predicado que se utilizará para filtrar las propiedades de metadatos deseadas.",
+      "step_3": "Pase el predicado y el nuevo valor al método {{TextUpdateProperties}}.",
+      "step_4": "Guarde los cambios."
+    }
+  },
+  "more_features": {
+    "title": "Manipular metadatos {{FileFormatUp}} para aplicaciones {{EnvName}}",
+    "description": "La API {{ProdShortName}} permite a los desarrolladores actualizar fácilmente metadatos ocultos en varios formatos de documentos en sus aplicaciones {{EnvName}}. Aplique, edite, busque y elimine metadatos mediante programación.",
+    "image_description": "Configuración de metadatos",
+    "feature_1": {
+      "title": "Integración sencilla de metadatos",
+      "content": "{{ProdShortName}} simplifica la adición de diferentes metadatos a documentos y archivos dentro de sus aplicaciones {{EnvName}}. Los desarrolladores pueden aplicar, actualizar o eliminar metadatos sin esfuerzo."
+    },
+    "feature_2": {
+      "title": "Control detallado de metadatos",
+      "content": "La API ofrece amplias opciones para personalizar metadatos. Es fácil encontrar metadatos en archivos mediante solicitudes especiales y eliminarlos o actualizarlos."
+    },
+    "feature_3": {
+      "title": "Utilizando funciones nativas {{FileFormatUp}}",
+      "content": "Dependiendo del formato del documento, los desarrolladores pueden aprovechar los metadatos integrados como EXIF ​​para imágenes. Esto podría incluir información sobre la fotografía, como el modelo y número de la cámara, la resolución, la fecha de creación y otros."
+    },
+    "code_1": {
+      "title": "Actualizar la etiqueta Letra en un archivo MP3 (Ejemplo)",
+      "content": "Este ejemplo demuestra la actualización de metadatos ocultos en el archivo multimedia MP#.",
+      "comment_1": "Cargar archivo en el constructor de clase {{TextMetadata}}",
+      "comment_2": "Actualizar datos de letras",
+      "comment_3": "Puede agregar un campo totalmente personalizado a la etiqueta",
+      "comment_4": "Guardar resultado"
+    }
+  }
+}

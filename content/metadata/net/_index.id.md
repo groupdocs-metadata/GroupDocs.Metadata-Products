@@ -1,330 +1,339 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2024-03-14T18:19:54
+layout: "landing"
+date: 2024-06-11T10:56:47
 draft: false
 
+lang: id
 product: "Metadata"
 product_tag: "metadata"
-platform: ".NET"
+platform: "Net"
 platform_tag: "net"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
+
 ############################# Head ############################
-head_title: ".NET Metadata Reader, Viewer, Extractor, Remover & Exporter API"
-head_description: "C# .NET metadata API untuk membaca, menulis, mengedit, menganalisis, mencari, mengekstrak, menghapus, membandingkan & mengekspor metadata dari PDF Word Excel PPTX Outlook Audio Video & Gambar."
+head_title: ".NET Pembaca Metadata, Penampil, Ekstraktor, Penghapus & API Eksportir"
+head_description: "C# .NET API metadata untuk membaca, menulis, mengedit, menganalisis, mencari, mengekstrak, menghapus, membandingkan & mengekspor metadata PDF Word Excel PPTX Outlook Audio Video & Gambar."
 
 ############################# Header ############################
 title: ".NET API untuk Mengelola & Memanipulasi Metadata"
-description: "Bangun Aplikasi .NET untuk Membaca, Mengedit, Menghapus, Mengambil, Mencari, Membandingkan, Mengganti, dan Mengekspor Informasi Metadata dari semua Format File Dokumen & Gambar Populer."
-button:
-    enable: true
+description: "Bangun Aplikasi .NET untuk Membaca, Mengedit, Menghapus, Mengambil, Mencari, Membandingkan, Mengganti dan Mengekspor Informasi Metadata dari semua Format File Dokumen & Gambar Populer."
+words:
+  for: "untuk"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Metadata for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-metadata-net.png"
-        product: "GroupDocs.Metadata"
-        platform: ".NET"
-        
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Ringkasan"
+actions:
+  main: "Unduh NuGet Gratis"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Metadata"
+  alt: "Perizinan"
+  alt_link: "https://purchase.groupdocs.com/pricing/metadata/net/"
+  title: "Siap untuk mulai?"
+  description: "Coba fitur GroupDocs.Metadata secara gratis atau minta lisensi"
 
-            # button loop
-            - link: "#features"
-              text: "Fitur"
+release:
+  title: "Versi {0} dirilis"
+  notes: "Lihat apa yang baru"
+  downloads: "Unduhan"
 
-            # button loop
-            - link: "#support"
-              text: "Mendukung"
+code:
+  title: "Mengambil Properti Metadata dengan Cepat"
+  more: "Lebih banyak contoh"
+  more_link: "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-.NET/"
+  install: "dotnet add package GroupDocs.Metadata"
+  content: |
+    ```csharp {style=abap}   
+    // Lewati gambar Jpeg ke Metadata
+    using (var metadata = new Metadata("sample.jpeg"))
+    {
+      // Hapus paket metadata utama
+      var root = metadata.GetRootPackage();
+      root.RemoveImageResourcePackage();
+      // Simpan gambar yang sudah dibersihkan
+      metadata.Save("output.jpeg");
+    }
 
-            # button loop
-            - link: "https://products.groupdocs.app/metadata"
-              text: "Demo Langsung"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/metadata/net"
-              text: "Harga"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/metadata"
-        link_learn: "https://docs.groupdocs.com/metadata/net/"
-        link_buy: "https://purchase.groupdocs.com"
+    ```
 
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      GroupDocs.Metadata untuk .NET API mudah diintegrasikan dengan C#, ASP.NET, dan aplikasi berbasis .NET lainnya untuk membantu pengguna akhir Anda memanipulasi metadata dari berbagai gambar, dokumen, dan format file media lainnya tanpa menginstal perangkat lunak eksternal apa pun. Pustaka metadata .NET mendukung alat pembuatan untuk menambahkan fungsionalitas penampil, editor, penghapus, ekstraktor, pembanding, dan pengekspor metadata dengan cepat dalam sejumlah format dokumen standar industri seperti PDF, Microsoft Office Word, spreadsheet Excel, presentasi PowerPoint, email Outlook, Proyek , diagram Visio, OneNote, gambar, AutoCAD, Photoshop, audio, video, dan metafile.  
+  enable: true
+  title: "GroupDocs.Metadata sekilas"
+  description: "Berikut ini ikhtisar GroupDocs.Metadata for .NET"
+  features:
+    # feature loop
+    - title: "Integrasi aplikasi C#"
+      content: "GroupDocs.Metadata for .NET API mudah diintegrasikan dengan C#, ASP.NET dan aplikasi berbasis .NET lainnya untuk membantu pengguna akhir Anda memanipulasi metadata dari berbagai gambar, dokumen, dan file media lainnya format tanpa menginstal perangkat lunak eksternal apa pun. Pustaka metadata .NET mendukung alat pembuatan untuk dengan cepat menambahkan fungsi penampil metadata, editor, penghapus, ekstraktor, perbandingan dan pengekspor dalam sejumlah format dokumen standar industri seperti PDF, Microsoft Office Word, spreadsheet Excel, presentasi PowerPoint, Outlook email, Proyek, diagram Visio, OneNote, gambar, AutoCAD, Photoshop, audio, video, dan metafile."
 
-      Metadata API sangat fleksibel dan mudah dioperasikan. Itu mendapatkan file dokumen sebagai input, menganalisis informasi metadata, memungkinkan untuk melakukan operasi data meta yang didukung dan menyimpan file yang dimodifikasi untuk diakses dengan cepat untuk digunakan di masa mendatang. Ini bekerja dengan sebagian besar standar metadata terkenal seperti bawaan, XMP, EXIF, IPTC, Blok Sumber Daya Gambar, ID3, dan properti metadata khusus. Melalui GroupDocs.Metadata untuk .NET API, Anda juga dapat membandingkan dua dokumen untuk mengidentifikasi perbedaan dan persamaan yang ada dalam properti metadatanya. Anda juga dapat mengekspor metadata dari dokumen yang diperlukan ke Excel, CSV, atau Kumpulan Data.
+    # feature loop
+    - title: "Berbagai jenis metadata"
+      content: "Metadata API sangat fleksibel dan mudah dioperasikan. Ia mendapat file dokumen sebagai masukan, menganalisis informasi metadata, memungkinkan untuk melakukan operasi meta data yang didukung dan menyimpan file yang dimodifikasi untuk diakses dengan cepat di penggunaan masa depan. Ia bekerja dengan sebagian besar standar metadata terkenal seperti bawaan, XMP, EXIF, IPTC, Blok Sumber Daya Gambar, ID3, dan properti metadata khusus. Melalui API GroupDocs.Metadata for .NET, Anda juga dapat membandingkan dua dokumen untuk mengidentifikasi perbedaan dan persamaan yang ada pada properti metadatanya. Anda juga dapat mengekspor metadata dokumen yang diperlukan ke Excel, CSV, atau DataSet."
 
-      GroupDocs.Metadata untuk .NET dapat digunakan untuk mengembangkan aplikasi di lingkungan pengembangan apa pun yang menargetkan platform .NET. Ini kompatibel dengan semua bahasa berbasis .NET dan mendukung sistem operasi populer (Windows, Linux, MacOS) di mana kerangka Mono atau .NET (termasuk .NET Core) dapat diinstal.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Berikut adalah ikhtisar GroupDocs.Metadata untuk .NET:
-      
-        left:
-          enable: true
-          icon: "fas fa-file-image"
-          title: "Bekerja dengan Gambar"
-          content: |
-            * Metadata XMP
-            * Metadata EXIF
-            * Metadata IPTC-IIM
-            * Metadata PSD
-            * Metadata CAD
-            * Parsing Tag IFD Tambahan
+    # feature loop
+    - title: "Semua lingkungan populer didukung"
+      content: "GroupDocs.Metadata for .NET dapat digunakan untuk mengembangkan aplikasi di lingkungan pengembangan apa pun yang menargetkan platform .NET. Ini kompatibel dengan semua bahasa berbasis .NET dan mendukung sistem operasi populer (Windows, Linux, MacOS) di mana kerangka kerja Mono atau .NET (termasuk .NET Core) dapat diinstal."
+
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Kemandirian Platform"
+  description: "GroupDocs.Metadata for .NET mendukung Sistem Operasi, Kerangka Kerja & Manajer Paket berikut:"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
+
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Format file yang didukung"
+  description: |
+    GroupDocs.Metadata for .NET mendukung [format file dokumen] berikut ini(https://docs.groupdocs.com/metadata/net/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Format kantor
+        * **Portabel:** PDF 
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+        * **OpenDocument:** ODT, ODS
+        * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
+    # group loop
+    - color: "blue"
+      content: |
+        ### Media & Grafik
+        * **Video:** AVI, MOV, QT, FLV
+        * **Format gambar populer:** JPG, JPEG, JPE, JP2, PNG, BMP
+        * **Gambar multi-halaman:** GIF, WEBP, TIFF, DJVU, DJV, DICOM
+        * **Audio:** MP3, WAV
+        * **Matroska Media Container:** MKV, MKA, MK3D, WEBM
+        * **AutoCAD:** DWG, DXF
+        * **Photoshop:** PSD
+      # group loop
+    - color: "red"
+      content: |
+        ### Lainnya
+        * **Outlook:** MSG, EML, EMLX, PST, OS
+        * **font:** OTF, OTC, TTF, TTC
+        * **Proyek:** MPP
+        * **Metafiles:** EMF, WMF
+        * **vCard:** VCF, VCR
+        * **OneNote:** ONE
+        * **Yang lain:** EPUB, ZIP, TORRENT, ASF
         
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Bekerja dengan Audio & Video"
-          content: |
-            * Deteksi Format MP3 Runtime
-            * Baca Lyrics3 Tag
-            * Baca Info Audio MPEG
-            * Baca Info Header AVI
-            * Baca subtitle Matroska
-            * Ekspor Data ke Excel atau CSV
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Metadata untuk .NET mendukung hal berikut [format file dokumen](https://docs.groupdocs.com/metadata/net/supported-document-formats/):
-
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-                * **Project:** MPP
-                * **Outlook:** MSG, EML, EMLX, PST, OST
-                * **OneNote:** ONE
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Format Lainnya"
-              content: |
-                * **OpenDocument**: ODT, ODS
-                * **Portable**: PDF
-                * **Photoshop**: PSD
-                * **AutoCAD**: DWG, DXF
-                * **Audio**:  MP3, WAV
-                * **Video**: AVI, MOV, QT, FLV
-                * **Metafiles**: EMF, WMF
-                * **vCard**: VCF, VCR
-                * **Gambar-gambar**: JPG, JPEG, JPE, JP2, PNG, GIF, TIFF, WebP, BMP, DJVU, DJV, DICOM
-                * **Matroska Media Container**: MKV, MKA, MK3D, WEBM
-                * **Font Tipe Terbuka**: OTF, OTC, TTF, TTC
-                * **Yang lain**: EPUB, ZIP, TORRENT, ASF
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Metadata untuk .NET mendukung Sistem Operasi, Kerangka Kerja & Manajer Paket berikut:
         
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Sistem operasi"
-              content: |
-                * Dekstop Windows
-                * Server Windows
-                * Windows Azure
-                * Linux
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Framework yang Didukung"
-              content: |
-                * .NET Framework 2.0 atau lebih tinggi
-                * Mono Framework 1.2 atau lebih tinggi
-                * .NET Standar 2.0
-                * .NET Inti 2.0
-                * .NET Inti 2.1
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Manajer Paket"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Lingkungan Pengembangan"
-              content: |
-                *Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Metadata untuk Fitur .NET"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Identifikasi Metadata Bawaan & Khusus"
-       
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Ambil & Hapus Data Tersembunyi di Microsoft Word, Excel, PowerPoint & PDF"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Pengenalan Jenis File Dokumen Run-time"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Kemampuan untuk Mendeteksi/Menghapus Tanda Tangan Digital"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Identifikasi Perlindungan & Dukungan Kata Sandi untuk Matroska Multimedia Container"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Ambil Thumbnail & Render Pratinjau Gambar untuk Format yang Didukung"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Deteksi Jenis MIME dari File atau Aliran File Tertentu"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Hasilkan Pratinjau Gambar untuk File EPUB, CAD, EML & MSG"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Gunakan Kunci Ditetapkan untuk Membaca Properti Metadata dari Format yang Didukung"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Baca Metadata Pesan Email & Parsing File Font OpenType"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Baca subtitle Matroska dan ambil Metadata File Audio & Video"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Dapatkan Metadata format Arsip & Torrent"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Bandingkan Properti Metadata dari Format yang Didukung & Perbedaan atau Kemiripan Identitas"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Cari Properti Metadata dari File dan Hitung semua Jenis Metadata"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Ganti Properti Metadata dari Format File yang Didukung"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Ekstrak Metadata dari File Microsoft Excel Mulai dari Excel 95"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Temukan Foto yang Dibuat di Kamera Tertentu"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Impor Properti Metadata Gambar & Hapus Info Lokasi dari Foto"
-
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Hapus Metadata & Komentar Dari Laporan dan Dokumen"
-        
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Ekstrak Metadata Teks dari file Gambar PNG"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Mengurangi Konsumsi Memori Dokumen & Gambar"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Perbarui Properti Metadata EXIF ​​di File WEBP, PNG & PSD"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Ekstrak Properti Metadata XMP dalam File MOV, MP3 & WEBP"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Tambah, Perbarui, dan Hapus Paket Metadata IPTC di Gambar TIFF"
-
-        
-    more_feature:
-      # more_feature_loop
-      - title: "Mengambil Properti Metadata dengan Cepat"
-        content: |
-          Menggunakan GroupDocs.Metadata untuk .NET API, memanipulasi segala jenis metadata untuk format file yang didukung adalah bisnis yang sangat mudah. Sepotong kode berikut menunjukkan betapa mudahnya menghapus metadata Photoshop dari file JPEG menggunakan C#:
-          ```cs
-          using (var metadata = new GroupDocs.Metadata.Metadata("sample.jpeg"))
-          {
-            var root = metadata.GetRootPackage();
-            root.RemoveImageResourcePackage();
-            metadata.Save("output.jpeg");
-          }
-          ```      
-      # more_feature_loop
-      - title: "Pengambilan dan Manipulasi Data Tersembunyi"
-        content: "GroupDocs.Metadata untuk .NET menyediakan mekanisme praktis untuk mengambil dan menghapus data tersembunyi di PDF serta dokumen Microsoft Word, Excel, dan PowerPoint. Anda dapat memanipulasi komentar, menggabungkan bidang, halaman tersembunyi, bidang formulir, anotasi, dan lainnya."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Metadata menawarkan API tampilan dokumen untuk lingkungan pengembangan populer lainnya"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Metadata for Java"
-          image: "/border/groupdocs-metadata-java.svg"
-          product: "GroupDocs.Metadata"
-          platform: "Java"
-          link: "/metadata/java/"
-
-        # solution loop
-        - img_alt: "GroupDocs.Metadata for Node.js"
-          image: "/border/groupdocs-metadata-nodejs-java.svg"
-          product: "GroupDocs.Metadata"
-          platform: "Node.js via Java"
-          link: "/metadata/nodejs-java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "Fitur GroupDocs.Metadata for .NET"
+  description: "Gunakan Metadata untuk Melindungi PDF, Office, Gambar, dan format lainnya"
+
+  items:
+    # feature loop
+    - icon: "metadata_style"
+      title: "Identifikasi Metadata Bawaan & Kustom"
+      content: "Banyak format file memiliki metadata wajib. Memanipulasinya serta metadata khusus untuk tujuan Anda sendiri"
+
+    # feature loop
+    - icon: "image_frame"
+      title: "Temukan Foto yang Dibuat dengan Kamera Tertentu"
+      content: "Dapatkan info tentang foto yang disimpan dalam metadata, termasuk produsen kamera, model, resolusi, dll"
+
+    # feature loop
+    - icon: "hidden_print"
+      title: "Kemampuan untuk Mendeteksi/Menghapus Tanda Tangan Digital"
+      content: "Temukan semua metadata digital di file bisnis Anda dan hapus yang Anda perlukan"
+
+    # feature loop
+    - icon: "image_frame"
+      title: "Lokasi Foto"
+      content: "Impor properti metadata gambar dan hapus info lokasi dari foto"
+
+    # feature loop
+    - icon: "detect"
+      title: "Pencarian Metadata"
+      content: "Cari properti metadata file dan sebutkan semua jenis metadata"
+
+    # feature loop
+    - icon: "remove"
+      title: "Data Bisnis Bersih"
+      content: "Hapus metadata dan komentar dari laporan dan dokumen"
+
+    # feature loop
+    - icon: "preview"
+      title: "Pratinjau Dokumen"
+      content: "Hasilkan pratinjau gambar untuk file EPUB, CAD, EML, dan MSG"
+
+    # feature loop
+    - icon: "metadata_text_search"
+      title: "Dukungan Multimedia Matroska"
+      content: "Baca subtitle Matroska dan ambil metadata file audio dan video"
+
+    # feature loop
+    - icon: "get"
+      title: "Dapatkan Metadata Format Arsip & Torrent"
+      content: "Memanipulasi metadata file arsip seperti .ZIP dan file dengan data torrent"
+
+    # feature loop
+    - icon: "compare"
+      title: "Pengenalan Jenis File Dokumen Run-time"
+      content: "Solusi kami memberikan kemampuan untuk mendeteksi jenis file atau aliran sebelum pemrosesan metadata"
+
+    # feature loop
+    - icon: "compare"
+      title: "Analisis Perbedaan Metadata"
+      content: "Bandingkan properti metadata dari format yang didukung dan identifikasi perbedaan atau persamaan"
+
+    # feature loop
+    - icon: "reduce"
+      title: "Mengurangi Konsumsi Memori Dokumen & Gambar"
+      content: "Bersihkan dokumen dan gambar dari data tambahan yang tersembunyi"
+
+    # feature loop
+    - icon: "remove"
+      title: "Kontrol Dokumen Kantor"
+      content: "Ambil dan hapus data tersembunyi di file Microsoft Word, Excel, PowerPoint, dan PDF"
+
+    # feature loop
+    - icon: "doc_background"
+      title: "Ganti Properti Metadata dari Format File yang Didukung"
+      content: "Sangat mungkin untuk mendapatkan daftar metadata dokumen yang sesuai dan mengganti konten setiap entri"
+
+    # feature loop
+    - icon: "image_frame"
+      title: "Dukungan Gambar TIFF"
+      content: "Tambahkan, perbarui, dan hapus paket metadata IPTC dalam gambar TIFF"
+
+    # feature loop
+    - icon: "export"
+      title: "Dukungan Microsoft Excel"
+      content: "Ekstrak metadata dari file Microsoft Excel mulai dari Excel 95"
+
+    # feature loop
+    - icon: "image_frame"
+      title: "Dukungan Gambar PNG"
+      content: "Ekstrak metadata teks dari file gambar PNG"
+
+    # feature loop
+    - icon: "detect"
+      title: "Deteksi Jenis MIME"
+      content: "Deteksi jenis MIME dari file atau aliran file tertentu"
+
+    # feature loop
+    - icon: "preview"
+      title: "Pratinjau Gambar"
+      content: "Ambil thumbnail dan render pratinjau gambar untuk format yang didukung"
+
+    # feature loop
+    - icon: "unreadable_characters"
+      title: "Keamanan Multimedia Matroska"
+      content: "Identifikasi perlindungan kata sandi dan dukungan untuk wadah multimedia Matroska"
+
+    # feature loop
+    - icon: "get"
+      title: "Dukungan Metadata Bawaan"
+      content: "Gunakan kunci yang ditentukan untuk membaca properti metadata dari format yang didukung"
+
+    # feature loop
+    - icon: "image_only"
+      title: "Metadata Gambar EXIF"
+      content: "Perbarui properti metadata EXIF ​​di file WEBP, PNG, dan PSD"
+
+    # feature loop
+    - icon: "email"
+      title: "Dukungan Email & Font"
+      content: "Membaca metadata pesan email dan mengurai file font OpenType"
+
+    # feature loop
+    - icon: "export"
+      title: "Pemrosesan File Multimedia"
+      content: "Ekstrak properti metadata XMP dalam file MOV, MP3, dan WEBP"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Contoh kode"
+  description: "Beberapa kasus penggunaan operasi GroupDocs.Metadata for .NET yang umum"
+  items:
+    # code sample loop
+    - title: "Temukan metadata tersembunyi"
+      content: |
+        Untuk mengontrol konten dalam dokumen, Anda dapat menemukan dan memproses [metadata dokumen](https://docs.groupdocs.com/metadata/net/find-metadata-properties/):
+        {{< landing/code title="Cara mendapatkan metadata dokumen tertentu">}}
+        ```csharp {style=abap}
+        // Muat dokumen sumber ke konstruktor Metadata
+        using (Metadata metadata = new Metadata("source.pptx"))
+        {
+            // Dapatkan semua properti yang berisi nama editor dokumen terakhir
+            // atau tanggal/waktu dokumen terakhir diubah
+            var properties = metadata.FindProperties(
+                p => p.Tags.Contains(Tags.Person.Editor) || 
+                p.Tags.Contains(Tags.Time.Modified));
+
+            // Memproses entri metadata yang diambil
+            foreach (var property in properties)
+            {
+                Console.WriteLine("Property name: {0}, Property value: {1}", property.Name, property.Value);
+            }
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Amankan konten dokumen"
+      content: |
+        Tambahkan [metadata tersembunyi](https://docs.groupdocs.com/metadata/net/adding-metadata/) ke file bisnis Anda untuk melindungi kontennya:
+        {{< landing/code title="Cara menambahkan beberapa properti metadata yang hilang ke file apa pun formatnya.">}}
+        ```csharp {style=abap}   
+        // Muat dokumen sumber
+        using (Metadata metadata = new Metadata("source.pdf"))
+        {
+            if (metadata.FileFormat != FileFormat.Unknown && !metadata.GetDocumentInfo().IsEncrypted)
+            {
+                // Tambahkan properti yang berisi tanggal pencetakan terakhir file jika tidak ada
+                // Properti akan ditambahkan jika dokumen mendukung jenis metadata tersebut
+                var affected = metadata.AddProperties(p => p.Tags.Contains(Tags.Time.Printed), new PropertyValue(DateTime.Now));
+                  
+                Console.WriteLine("Affected properties: {0}", affected);
+
+                // Simpan dokumen yang dimodifikasi ke jalur tertentu
+                metadata.Save("output.pdf");
+            }
+        }
+        ```
+        {{< /landing/code >}}
+
 ---

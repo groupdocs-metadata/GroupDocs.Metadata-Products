@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "Thêm siêu dữ liệu vào tệp {{FileFormatUp}} trong ứng dụng {{ProgLang}}",
+    "description": "API xử lý siêu dữ liệu {{ProgLang}} để thêm thông tin siêu dữ liệu vào tệp {{FileFormatUp}}. Làm việc với các tiêu chuẩn siêu dữ liệu XMP, EXIF, IPTC, ID3, v.v."
+  },
+  "header": {
+    "title": "Thêm siêu dữ liệu vào {{FileFormatUp}} trong {{ProgLang}}",
+    "description": "Thêm thuộc tính siêu dữ liệu tùy chỉnh vào nhiều định dạng tài liệu, hình ảnh, âm thanh và video kinh doanh bằng API {{ProdFullName}}",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải về dùng thử miễn phí"
+  },
+  "about": {
+    "title": "Giới thiệu về API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) cung cấp một bộ tính năng thao tác và quản lý siêu dữ liệu nâng cao, cho phép các lập trình viên của {{EnvName}} dễ dàng xem, chỉnh sửa, xóa, tìm, so sánh, hoán đổi và xuất thông tin siêu dữ liệu từ định dạng hình ảnh và tài liệu mà không cần sử dụng bất kỳ phần mềm bên ngoài nào. Thêm chi tiết siêu dữ liệu vào các định dạng tệp PDF, Microsoft Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive và Đa phương tiện với sự hỗ trợ bổ sung để thực hiện các thao tác siêu dữ liệu trên bất kỳ ứng dụng dựa trên {{ProdShortName}} nào với tính linh hoạt thực sự"
+  },
+  "formats": {
+    "title": "Thêm thuộc tính siêu dữ liệu vào các định dạng tệp khác",
+    "description": "API bổ sung siêu dữ liệu hình ảnh và tài liệu đa định dạng cho {{ProdShortName}}. Truy xuất siêu dữ liệu của một số định dạng tệp phổ biến như được nêu bên dưới."
+  },
+  "examples": {
+    "comment_1": "tải tệp trong phiên bản của lớp {{TextMetadata}}",
+    "comment_2": "thêm thuộc tính chứa tác giả nội dung",
+    "comment_3": "kết quả hoạt động của quá trình",
+    "comment_4": "lưu tệp với siêu dữ liệu được cập nhật"
+  },
+  "steps": {
+    "title": "Các bước để thêm Siêu dữ liệu vào {{FileformatCap}} trong {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdFullName}}]({{PlatformLink}}) giúp nhà phát triển {{EnvName}} dễ dàng thêm chi tiết siêu dữ liệu vào tệp {{FileFormatUp}} từ bên trong ứng dụng của họ bằng cách triển khai một vài bước đơn giản.",
+      "step_1": "Tải tệp {{FileFormatUp}} cần cập nhật.",
+      "step_2": "Chỉ định một vị từ sẽ được sử dụng để thêm thuộc tính siêu dữ liệu.",
+      "step_3": "Chuyển vị từ cho phương thức {{TextMetadataAddProperties}}.",
+      "step_4": "Lưu các thay đổi."
+    }
+  },
+  "more_features": {
+    "title": "Quản lý siêu dữ liệu tài liệu",
+    "description": "API mạnh mẽ của chúng tôi đơn giản hóa việc quản lý siêu dữ liệu tài liệu. Truy cập, chỉnh sửa và thao tác liền mạch nhiều thuộc tính tài liệu khác nhau để nâng cao khả năng tổ chức và tìm kiếm.",
+    "image_description": "Tính năng thao tác siêu dữ liệu",
+    "feature_1": {
+      "title": "Kiểm soát siêu dữ liệu",
+      "content": "Dễ dàng truy xuất và xử lý siêu dữ liệu từ tài liệu. Có được thông tin chi tiết có giá trị về các thuộc tính như tác giả, ngày tạo, v.v."
+    },
+    "feature_2": {
+      "title": "Chỉnh sửa siêu dữ liệu",
+      "content": "Trực tiếp sửa đổi siêu dữ liệu tài liệu. Cập nhật các thuộc tính để cải thiện tổ chức, tăng khả năng tìm kiếm và đảm bảo thông tin chính xác."
+    },
+    "feature_3": {
+      "title": "Quản lý siêu dữ liệu nâng cao",
+      "content": "Thực hiện các thao tác phức tạp trên siêu dữ liệu tài liệu. Thêm các thuộc tính tùy chỉnh một cách hiệu quả, xóa dữ liệu không cần thiết và duy trì tính nhất quán của dữ liệu."
+    },
+    "code_1": {
+      "title": "Cách thêm siêu dữ liệu tùy chỉnh vào hình ảnh TIFF",
+      "content": "Ví dụ này trình bày cách chèn thẻ tùy chỉnh vào gói EXIF.",
+      "comment_1": "Gán gói EXIF ​​​​nếu thiếu.",
+      "comment_2": "Chèn một thuộc tính được công nhận.",
+      "comment_3": "Bao gồm thuộc tính tùy chỉnh hoàn toàn không thuộc đặc tả EXIF.",
+      "comment_4": "Xin lưu ý rằng ID đã chọn có thể xung đột với ID được sử dụng bởi một số công cụ của bên thứ ba."
+    }
+  }
+}

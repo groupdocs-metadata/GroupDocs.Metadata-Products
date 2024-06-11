@@ -1,0 +1,108 @@
+{
+  "common-content": {
+    "format-formats": {
+      "avi": {
+        "name": "Thêm siêu dữ liệu vào AVI",
+        "description": "(Tệp xen kẽ video âm thanh)"
+      },
+      "djvu": {
+        "name": "Thêm siêu dữ liệu vào DJVU",
+        "description": "(Định dạng tệp đồ họa)"
+      },
+      "docx": {
+        "name": "Thêm siêu dữ liệu vào DOCX",
+        "description": "(Tài liệu Office 2007+ Word)"
+      },
+      "epub": {
+        "name": "Thêm siêu dữ liệu vào EPUB",
+        "description": "(Mở tệp sách điện tử)"
+      },
+      "heic": {
+        "name": "Thêm siêu dữ liệu vào HEIC",
+        "description": "(Định dạng hình ảnh hiệu quả cao)"
+      },
+      "jpeg": {
+        "name": "Thêm siêu dữ liệu vào JPEG",
+        "description": "(Hình ảnh nhóm chuyên gia chụp ảnh chung)"
+      },
+      "mov": {
+        "name": "Thêm siêu dữ liệu vào MOV",
+        "description": "(Phim Apple QuickTime)"
+      },
+      "mp3": {
+        "name": "Thêm siêu dữ liệu vào MP3",
+        "description": "(Tệp âm thanh MP3)"
+      },
+      "msg": {
+        "name": "Thêm siêu dữ liệu vào bột ngọt",
+        "description": "(Tệp mục tin nhắn Outlook)"
+      },
+      "ods": {
+        "name": "Thêm siêu dữ liệu vào ODS",
+        "description": "(Bảng tính tài liệu mở)"
+      },
+      "odt": {
+        "name": "Thêm siêu dữ liệu vào ODT",
+        "description": "(Định dạng tệp văn bản OpenDocument)"
+      },
+      "pdf": {
+        "name": "Thêm siêu dữ liệu vào PDF",
+        "description": "(Định dạng tài liệu di động)"
+      },
+      "png": {
+        "name": "Thêm siêu dữ liệu vào PNG",
+        "description": "(Đồ họa mạng di động)"
+      },
+      "pptx": {
+        "name": "Thêm siêu dữ liệu vào PPTX",
+        "description": "(Định dạng trình bày XML mở)"
+      },
+      "tiff": {
+        "name": "Thêm siêu dữ liệu vào TIFF",
+        "description": "(Định dạng tệp hình ảnh được gắn thẻ)"
+      },
+      "torrent": {
+        "name": "Thêm siêu dữ liệu vào TORRENT",
+        "description": "(Liên kết torrent)"
+      },
+      "vsdx": {
+        "name": "Thêm siêu dữ liệu vào VSDX",
+        "description": "(Bản vẽ Visio)"
+      },
+      "wav": {
+        "name": "Thêm siêu dữ liệu vào WAV",
+        "description": "(Tệp âm thanh WAVE)"
+      },
+      "webp": {
+        "name": "Thêm siêu dữ liệu vào WEBP",
+        "description": "(Định dạng hình ảnh web raster)"
+      },
+      "xlsx": {
+        "name": "Thêm siêu dữ liệu vào XLSX",
+        "description": "(Mở sổ làm việc XML)"
+      },
+      "zip": {
+        "name": "Thêm siêu dữ liệu vào ZIP",
+        "description": "(Tệp nén)"
+      }
+    },
+    "format-code": {
+      "copy_title": "Sao chép",
+      "copy_tip": "bấm vào để sao chép",
+      "copy_done": "sao chép",
+      "links": {
+        "title_1": "Thêm ví dụ",
+        "title_2": "Tài liệu"
+      }
+    },
+    "format-actions": {
+      "title": "Sẵn sàng để bắt đầu?",
+      "description": "Dùng thử miễn phí các tính năng của {{ProdShortName}} hoặc yêu cầu giấy phép",
+      "comment_1": "{{PackageStoreName}} tải xuống",
+      "comment_2": "Cấp phép"
+    },
+    "texts": {
+      "learn_more": "Tìm hiểu thêm"
+    }
+  }
+}

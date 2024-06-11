@@ -1,0 +1,64 @@
+{
+  "head": {
+    "title": "Baca & Ekstrak Metadata File {{FileFormatUp}} di Aplikasi {{ProgLang}}",
+    "description": "API manajemen metadata {{ProgLang}} lintas platform untuk membaca dan mengekstrak informasi metadata file {{FileFormatUp}}. Bekerja dengan standar metadata XMP, EXIF, IPTC, ID3 dll."
+  },
+  "header": {
+    "title": "Ekstrak Metadata Dari File {{FileFormatUp}} Di {{ProgLang}}",
+    "description": "Baca & Ekstrak informasi metadata dari berbagai format dokumen, gambar, audio & video menggunakan GroupDocs.Metadata untuk {{EnvName}}",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh Uji Coba Gratis"
+  },
+  "about": {
+    "title": "Tentang API{{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) menawarkan serangkaian fitur manajemen dan manipulasi metadata tingkat lanjut, memungkinkan pengembang dengan mudah membaca, mengedit, menghapus, mencari, membandingkan, mengganti, dan mengekspor informasi metadata dari gambar dan format dokumen tanpa menggunakan perangkat lunak eksternal apa pun. Ekstrak detail metadata dari format file PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive, dan Multimedia, dan lakukan operasi metadata yang didukung dengan fleksibilitas sejati."
+  },
+  "formats": {
+    "title": "Memperbarui Properti Metadata Dari Format File Lain",
+    "description": "API pengeditan metadata dokumen multi format dan gambar untuk {{EnvName}}. Ambil metadata dari beberapa format file populer seperti yang dinyatakan di bawah ini."
+  },
+  "examples": {
+    "comment_1": "Ekstrak properti metadata {{FileFormatUp}} dengan berbagai kriteria",
+    "comment_2": "Bangunlah {{TextMetadata}} dengan meneruskan jalur {{FileFormatUp}}",
+    "comment_3": "ekstrak semua properti metadata yang termasuk dalam kategori tertentu",
+    "comment_4": "ulangi semua properti dan tampilan",
+    "comment_5": "ekstrak semua properti yang memiliki tipe dan nilai tertentu",
+    "comment_6": "menampilkan semua properti datetime dengan nilai tahun sama dengan tahun berjalan",
+    "comment_7": "ekstrak semua properti yang memiliki nama yang cocok dengan ekspresi reguler yang ditentukan",
+    "comment_8": "tampilkan properti yang namanya cocok dengan pola berikut"
+  },
+  "steps": {
+    "title": "Langkah-langkah Ekstraksi Metadata {{FileFormatUp}} di {{EnvName}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) memudahkan pengembang {{EnvName}} mengekstrak untuk membaca dan mengekstrak informasi metadata dari file {{FileFormatUp}} dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.",
+      "step_1": "Muat {{FileFormatUp}} dengan instance kelas {{EnvName}}.",
+      "step_2": "Buatlah predikat untuk memeriksa semua properti metadata.",
+      "step_3": "Berikan predikat ke metode {{TextFindProperties}}.",
+      "step_4": "Iterasi melalui properti yang ditemukan."
+    }
+  },
+  "more_features": {
+    "title": "Cari File Metadata dengan {{ProdShortName}}",
+    "description": "Kelola metadata tersembunyi dalam dokumen sensitif dengan aman menggunakan aplikasi {{EnvName}} yang didukung oleh pustaka {{ProdShortName}}.",
+    "image_description": "Cari Metadata di File {{EnvName}}",
+    "feature_1": {
+      "title": "{{EnvName}} Alat untuk Pencarian Metadata Komprehensif",
+      "content": "Sederhanakan pemrosesan dokumen Anda di {{EnvName}} dengan {{ProdShortName}}. Perangkat lunak kami menawarkan alat canggih untuk mencari dan mengelola metadata tersembunyi secara efisien."
+    },
+    "feature_2": {
+      "title": "Penargetan Metadata yang Tepat",
+      "content": "Targetkan metadata tertentu dengan akurasi yang tepat. Konfigurasikan pencarian Anda dengan berbagai filter seperti teks, tanggal, atau ekspresi reguler untuk menemukan metadata yang Anda perlukan."
+    },
+    "feature_3": {
+      "title": "Manajemen Metadata yang Mudah",
+      "content": "Manfaatkan {{EnvName}} untuk memproses nilai entri metadata yang ditemukan. {{ProdShortName}} memberdayakan Anda untuk menambah, memperbarui, atau menghapus metadata secara efektif dalam format file yang didukung."
+    },
+    "code_1": {
+      "title": "Baca Metadata E-Book di {{ProgLang}}",
+      "content": "Contoh kode ini menunjukkan cara mengakses properti metadata khusus untuk e-book EPUB",
+      "comment_1": "Muat file EPUB ke dalam objek {{TextMetadata}}",
+      "comment_2": "Ambil semua metadata bawaan",
+      "comment_3": "Gunakan data yang diambil untuk kebutuhan aplikasi Anda"
+    }
+  }
+}

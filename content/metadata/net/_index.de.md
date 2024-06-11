@@ -1,330 +1,339 @@
 ---
 ############################# Static ############################
-layout: "product"
-date: 2024-03-14T18:19:54
+layout: "landing"
+date: 2024-06-11T10:56:47
 draft: false
 
+lang: de
 product: "Metadata"
 product_tag: "metadata"
-platform: ".NET"
+platform: "Net"
 platform_tag: "net"
 
+############################# Drop-down ############################
+supported_platforms:
+  items:
+    # supported_platforms loop
+    - title: ".NET"
+      tag: "net"
+    # supported_platforms loop
+    - title: "Java"
+      tag: "java"
+    # supported_platforms loop
+    - title: "Node.js"
+      tag: "nodejs-java"
+
 ############################# Head ############################
-head_title: ".NET API zum Lesen, Anzeigen, Extrahieren, Entfernen und Exportieren von Metadaten"
-head_description: "C# .NET Metadaten-API zum Lesen, Schreiben, Bearbeiten, Analysieren, Suchen, Extrahieren, Entfernen, Vergleichen und Exportieren von Metadaten von PDF Word Excel PPTX Outlook Audio Video und Bildern."
+head_title: ".NET Metadaten-Reader, Viewer, Extractor, Remover & Exporter API"
+head_description: "C# .NET Metadaten-API zum Lesen, Schreiben, Bearbeiten, Analysieren, Suchen, Extrahieren, Entfernen, Vergleichen und Exportieren von Metadaten von PDF, Word, Excel, PPTX, Outlook, Audio, Videos und Bildern."
 
 ############################# Header ############################
-title: ".NET API zur Verwaltung und Bearbeitung von Metadaten"
-description: "Erstellen Sie .NET Anwendungen zum Lesen, Bearbeiten, Entfernen, Abrufen, Suchen, Vergleichen, Ersetzen und Exportieren von Metadateninformationen aller gängigen Dokument- und Bilddateiformate."
-button:
-    enable: true
+title: ".NET API zum Verwalten und Bearbeiten von Metadaten"
+description: "Erstellen Sie .NET-Anwendungen zum Lesen, Bearbeiten, Entfernen, Abrufen, Suchen, Vergleichen, Ersetzen und Exportieren von Metadateninformationen aller gängigen Dokument- und Bilddateiformate."
+words:
+  for: "für"
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-    
-    left:
-        img_alt: "GroupDocs.Metadata for .NET"
-        image: "https://www.groupdocs.cloud/templates/groupdocs/images/product-logos/groupdocs-metadata-net.png"
-        product: "GroupDocs.Metadata"
-        platform: ".NET"
-        
-    middle:
-        button:
-            # button loop
-            - link: "#overview"
-              text: "Überblick"
+actions:
+  main: "Kostenloser NuGet-Download"
+  main_link: "https://www.nuget.org/packages/GroupDocs.Metadata"
+  alt: "Lizenzierung"
+  alt_link: "https://purchase.groupdocs.com/pricing/metadata/net/"
+  title: "Bereit zum Start?"
+  description: "Testen Sie die Funktionen von GroupDocs.Metadata kostenlos oder fordern Sie eine Lizenz an"
 
-            # button loop
-            - link: "#features"
-              text: "Funktionen"
+release:
+  title: "Version {0} veröffentlicht"
+  notes: "Schau was neu ist"
+  downloads: "Downloads"
 
-            # button loop
-            - link: "#support"
-              text: "Unterstützung"
+code:
+  title: "Metadateneigenschaften schnell abrufen"
+  more: "Mehr Beispiele"
+  more_link: "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-.NET/"
+  install: "dotnet add package GroupDocs.Metadata"
+  content: |
+    ```csharp {style=abap}   
+    // Übergeben Sie das JPEG-Bild an Metadaten
+    using (var metadata = new Metadata("sample.jpeg"))
+    {
+      // Entfernen Sie das Hauptmetadatenpaket
+      var root = metadata.GetRootPackage();
+      root.RemoveImageResourcePackage();
+      // Gelöschtes Bild speichern
+      metadata.Save("output.jpeg");
+    }
 
-            # button loop
-            - link: "https://products.groupdocs.app/metadata"
-              text: "Live-Demo"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/metadata/net"
-              text: "Preisgestaltung"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/metadata"
-        link_learn: "https://docs.groupdocs.com/metadata/net/"
-        link_buy: "https://purchase.groupdocs.com"
+    ```
 
 ############################# Overview ############################
 overview:
-    enable: true
-    content: |
-      Die GroupDocs.Metadata for .NET API lässt sich einfach in C#, ASP .NET und andere .NET -basierte Anwendungen integrieren, sodass Ihre Endbenutzer Metadaten aus einer Reihe von Bildern, Dokumenten und anderen Mediendateiformaten bearbeiten können, ohne externe Software installieren zu müssen. Die .NET Metadatenbibliothek unterstützt die Erstellung von Tools zum schnellen Hinzufügen von Funktionen zum Anzeigen, Bearbeiten, Entfernen, Extrahieren, Vergleichen und Exportieren von Metadaten zu einer Reihe von branchenüblichen Dokumentenformaten wie PDF, Microsoft Office Word, Excel Tabellenkalkulationen, PowerPoint Präsentationen, Outlook E-Mails, Project, Visio Diagrammen, OneNote, Bildern, AutoCAD, Photoshop, Audio-, Video- und Metadateien.  
+  enable: true
+  title: "GroupDocs.Metadata auf einen Blick"
+  description: "Nachfolgend finden Sie eine Übersicht über GroupDocs.Metadata for .NET"
+  features:
+    # feature loop
+    - title: "C# Anwendungsintegration"
+      content: "Die GroupDocs.Metadata for .NET-API lässt sich einfach in C#, ASP.NET und andere .NET-basierte Anwendungen integrieren, um Ihren Endbenutzern die Bearbeitung von Metadaten aus einer Reihe von Bildern, Dokumenten und anderen Mediendateien zu erleichtern Formate ohne Installation externer Software. Die .NET-Metadatenbibliothek unterstützt die Erstellung von Tools zum schnellen Hinzufügen von Funktionen zum Anzeigen, Bearbeiten, Entfernen, Extrahieren, Vergleichen und Exportieren von Metadaten in einer Reihe branchenüblicher Dokumentformate wie PDF, Microsoft Office Word, Excel-Tabellen, PowerPoint-Präsentationen und Outlook E-Mails, Projekte, Visio-Diagramme, OneNote, Bilder, AutoCAD, Photoshop, Audio, Video und Metadateien."
 
-      Die Metadaten-API ist sehr flexibel und einfach zu bedienen. Sie ruft die Dokumentdatei als Eingabe ab, analysiert die Metadateninformationen, ermöglicht die Ausführung unterstützter Metadatenoperationen und speichert die geänderte Datei, um bei zukünftiger Verwendung schnell darauf zugreifen zu können. Es funktioniert mit den wichtigsten Metadatenstandards wie integrierten, XMP, EXIF, IPTC, Image Resource Blocks, ID3 und benutzerdefinierten Metadateneigenschaften. Über die GroupDocs.Metadata for .NET -API können Sie auch zwei Dokumente vergleichen, um Unterschiede und Ähnlichkeiten in ihren Metadateneigenschaften zu ermitteln. Sie können auch Metadaten der erforderlichen Dokumente nach Excel, CSV oder DataSet exportieren.
+    # feature loop
+    - title: "Verschiedene Metadatentypen"
+      content: "Die Metadaten-API ist sehr flexibel und einfach zu bedienen. Es erhält die Dokumentdatei als Eingabe, analysiert die Metadateninformationen, ermöglicht die Durchführung unterstützter Metadatenoperationen und speichert die geänderte Datei, um bei späterer Verwendung schnell darauf zugreifen zu können. Es funktioniert mit den wichtigsten Metadatenstandards wie integrierten, XMP, EXIF, IPTC, Image Resource Blocks, ID3 und benutzerdefinierten Metadateneigenschaften. Über die GroupDocs.Metadata for .NET-API können Sie auch zwei Dokumente vergleichen, um Unterschiede und Ähnlichkeiten in ihren Metadateneigenschaften zu identifizieren. Sie können auch Metadaten erforderlicher Dokumente nach Excel, CSV oder DataSet exportieren."
 
-      GroupDocs.Metadata for .NET kann zur Entwicklung von Anwendungen in jeder Entwicklungsumgebung verwendet werden, die auf die .NET -Plattform abzielt. Es ist mit allen auf .NET basierenden Sprachen kompatibel und unterstützt gängige Betriebssysteme (Windows, Linux, Mac OS), auf denen Mono- oder .NET -Frameworks (einschließlich .NET Core) installiert werden können.
-    tabs:
-      enable: true
-      
-      ## TAB ONE ##
-      tab_one:
-        description: |
-          Im Folgenden finden Sie eine Übersicht über GroupDocs.Metadata for .NET:
-      
-        left:
-          enable: true
-          icon: "fas fa-file-image"
-          title: "Mit Bildern arbeiten"
-          content: |
-            * XMP Metadaten
-            * EXIF Metadaten
-            * IPTC-IIM Metadaten
-            * PSD Metadaten
-            * CAD Metadaten
-            * Zusätzliche IFD-Tags analysieren
+    # feature loop
+    - title: "Alle gängigen Umgebungen werden unterstützt"
+      content: "GroupDocs.Metadata for .NET kann zum Entwickeln von Anwendungen in jeder Entwicklungsumgebung verwendet werden, die auf die Plattform .NET abzielt. Es ist mit allen .NET-basierten Sprachen kompatibel und unterstützt gängige Betriebssysteme (Windows, Linux, MacOS), auf denen Mono- oder .NET-Frameworks (einschließlich .NET Core) installiert werden können."
+
+############################# Platforms ############################
+platforms:
+  enable: true
+  title: "Plattformunabhängigkeit"
+  description: "GroupDocs.Metadata for .NET unterstützt folgende Betriebssysteme, Frameworks und Paketmanager:"
+  items:
+    # platform loop
+    - title: "Amazon"
+      image: "amazon"
+    # platform loop
+    - title: "Docker"
+      image: "docker"
+    # platform loop
+    - title: "Azure"
+      image: "azure"
+    # platform loop
+    - title: "VS Code"
+      image: "vs_code"
+    # platform loop
+    - title: "ReSharper"
+      image: "resharper"
+    # platform loop
+    - title: "macOS"
+      image: "finder"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "NuGet"
+      image: "nuget"
+
+############################# File formats ############################
+formats:
+  enable: true
+  title: "Unterstützte Dateiformate"
+  description: |
+    GroupDocs.Metadata for .NET unterstützt die folgenden [Dokumentdateiformate](https://docs.groupdocs.com/metadata/net/supported-document-formats/).
+  groups:
+    # group loop
+    - color: "green"
+      content: |
+        ### Office-Formate
+        * **tragbar:** PDF 
+        * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
+        * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
+        * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
+        * **OpenDocument:** ODT, ODS
+        * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
+    # group loop
+    - color: "blue"
+      content: |
+        ### Medien & Grafiken
+        * **Video:** AVI, MOV, QT, FLV
+        * **Beliebte Bildformate:** JPG, JPEG, JPE, JP2, PNG, BMP
+        * **Mehrseitige Bilder:** GIF, WEBP, TIFF, DJVU, DJV, DICOM
+        * **Audio:** MP3, WAV
+        * **Matroska Media Container:** MKV, MKA, MK3D, WEBM
+        * **AutoCAD:** DWG, DXF
+        * **Photoshop:** PSD
+      # group loop
+    - color: "red"
+      content: |
+        ### Andere
+        * **Outlook:** MSG, EML, EMLX, PST, OS
+        * **Schriftarten:** OTF, OTC, TTF, TTC
+        * **Projekt:** MPP
+        * **Metafiles:** EMF, WMF
+        * **vCard:** VCF, VCR
+        * **OneNote:** ONE
+        * **Andere:** EPUB, ZIP, TORRENT, ASF
         
-        right:
-          enable: true
-          icon: "fab fa-html5"
-          title: "Arbeiten mit Audio & Video"
-          content: |
-            * Erkennung des Runtime-Formats MP3
-            * Lyrics3 Tag lesen
-            * MPEG Audio Informationen lesen
-            * AVI Header-Informationen lesen
-            * Matroska-Untertitel lesen
-            * Daten nach Excel oder CSV exportieren
-      
-      ## TAB TWO ##
-      tab_two:
-        description: |
-          GroupDocs.Metadata for .NET unterstützt Folgendes [Dateiformate für Dokumente](https://docs.groupdocs.com/metadata/net/supported-document-formats/):
-
-        left:
-          enable: true
-          table:
-            # table loop
-            - title: "Microsoft Office"
-              content: |
-                * **Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
-                * **Excel:** XLS, XLSX, XLSM, XLSB, XLTM, XLT, XLTM, XLTX, XLAM, SXC, SpreadsheetML
-                * **PowerPoint:** PPT, PPTX, PPS, PPSX, PPSM, POT, POTM, POTX, PPTM
-                * **Visio:** VSD, VDX, VSS, VSSX, VSX, VST, VSTX, VTX, VSDX, VDW, VSTM, VSSM, VSDM
-                * **Project:** MPP
-                * **Outlook:** MSG, EML, EMLX, PST, OST
-                * **OneNote:** ONE
-
-        right:
-          enable: true
-          table:
-            # table loop
-            - title: "Andere Formate"
-              content: |
-                * **OpenDocument**: ODT, ODS
-                * **Portable**: PDF
-                * **Photoshop**: PSD
-                * **AutoCAD**: DWG, DXF
-                * **Audio**:  MP3, WAV
-                * **Video**: AVI, MOV, QT, FLV
-                * **Metafiles**: EMF, WMF
-                * **vCard**: VCF, VCR
-                * **Bilder**: JPG, JPEG, JPE, JP2, PNG, GIF, TIFF, WebP, BMP, DJVU, DJV, DICOM
-                * **Matroska Media Container**: MKV, MKA, MK3D, WEBM
-                * **OpenType**: OTF, OTC, TTF, TTC
-                * **Andere**: EPUB, ZIP, TORRENT, ASF
-
-      ## TAB THREE ##
-      tab_three:
-        description: |
-          GroupDocs.Metadata for .NET unterstützt die folgenden Betriebssysteme, Frameworks und Paketmanager:
         
-        left:
-          enable: true
-          table:
-            # table loop
-            - icon: "fab fa-windows"
-              title: "Betriebssysteme"
-              content: |
-                * Windows Desktop
-                * Windows Server
-                * Windows Azure
-                * Linux
-
-            # table loop
-            - icon: "fas fa-code"
-              title: "Unterstützte Frameworks"
-              content: |
-                * .NET Framework 2.0 oder höher
-                * Mono Framework 1.2 oder höher
-                * .NET Standard 2.0
-                * .NET Core 2.0
-                * .NET Core 2.1
-        right:
-          enable: true
-          table:
-            # table loop
-            - icon: "fas fa-box"
-              title: "Paketmanager"
-              content: |
-                * NuGet
-
-            # table loop
-            - icon: "fas fa-tools"
-              title: "Entwicklungsumgebungen"
-              content: |
-                * Microsoft Visual Studio
-                * Xamarin.Android
-                * Xamarin.IOS
-                * Xamarin.Mac
-                * MonoDevelop
 
 ############################# Features ############################
 features:
-    enable: true
-    title: "GroupDocs.Metadata for .NET Funktionen"
-
-    feature:
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Identifizieren Sie integrierte und benutzerdefinierte Metadaten"
-       
-      # feature loop
-      - icon: "fas fa-eye"
-        content: "Versteckte Daten in Microsoft Word, Excel, PowerPoint & PDF abrufen und entfernen"
-
-      # feature loop
-      - icon: "fas fa-bolt"
-        content: "Laufzeiterkennung des Dokumentdateityps"
-      
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Fähigkeit, digitale Signaturen zu erkennen/zu entfernen"
-
-      # feature loop
-      - icon: "fas fa-code"
-        content: "Identify Passwortschutz und Support für den Matroska Multimedia Container"
-
-      # feature loop
-      - icon: "fas fa-cloud"
-        content: "Miniaturansichten abrufen und Bildvorschauen für unterstützte Formate rendern"
-
-      # feature loop
-      - icon: "fas fa-remove-format"
-        content: "Ermitteln Sie den MIME-Typ einer bestimmten Datei oder eines bestimmten Dateistreams"
-
-      # feature loop
-      - icon: "fas fa-comment-slash"
-        content: "Generieren Sie Bildvorschauen für EPUB, CAD, EML & MSG Dateien"
-
-      # feature loop
-      - icon: "fas fa-location-arrow"
-        content: "Verwenden Sie den definierten Schlüssel, um die Metadateneigenschaft unterstützter Formate zu lesen"
-
-      # feature loop
-      - icon: "fas fa-border-all"
-        content: "Metadaten von E-Mail-Nachrichten lesen und OpenType-Schriftdateien analysieren"
-
-      # feature loop
-      - icon: "fas fa-wrench"
-        content: "Matroska-Untertitel lesen und Metadaten von Audio und Video Dateien abrufen"
-
-      # feature loop
-      - icon: "fas fa-columns"
-        content: "Holen Sie sich Metadaten von Archivformaten und Torrents"
-
-      # feature loop
-      - icon: "fas fa-file-word"
-        content: "Vergleichen Sie die Metadateneigenschaften unterstützter Formate und Identitätsunterschiede oder Ähnlichkeiten"
-
-      # feature loop
-      - icon: "fas fa-envelope"
-        content: "Suchen Sie nach Metadateneigenschaften von Dateien und zählen Sie alle Arten von Metadaten auf"
-
-      # feature loop
-      - icon: "fas fa-print"
-        content: "Metadateneigenschaften unterstützter Dateiformate ersetzen"
-
-      # feature loop
-      - icon: "fas fa-file-archive"
-        content: "Extrahieren Sie Metadaten aus Microsoft Excel -Dateien ab Excel 95"
-
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "Finden Sie Fotos, die mit einer bestimmten Kamera aufgenommen wurden"
-
-      # feature loop
-      - icon: "fas fa-file-code"
-        content: "Importieren Sie Bilder, Metadateneigenschaften und entfernen Sie Standortinformationen aus Fotos"
-
-      # feature loop
-      - icon: "fas fa-fill-drip"
-        content: "Metadaten und Kommentare aus Berichten und Dokumenten entfernen"
-        
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Extrahieren Sie Textmetadaten aus PNG Bilddateien"
-
-      # feature loop
-      - icon: "fas fa-heading"
-        content: "Reduzierung des Speicherverbrauchs von Dokumenten und Bildern"
-
-      # feature loop
-      - icon: "fas fa-project-diagram"
-        content: "Aktualisieren Sie die Eigenschaften von EXIF Metadaten in WEBP-, PNG - und PSD -Dateien"
-
-      # feature loop
-      - icon: "fas fa-cube"
-        content: "Extrahieren Sie XMP Metadateneigenschaften in MOV, MP3 und WEBP-Dateien"
-
-      # feature loop
-      - icon: "fab fa-uncharted"
-        content: "Hinzufügen, Aktualisieren und Löschen von IPTC Metadatenpaketen in TIFF Bildern"
-
-        
-    more_feature:
-      # more_feature_loop
-      - title: "Schnelles Abrufen von Metadateneigenschaften"
-        content: |
-          Mit der GroupDocs.Metadata for .NET API ist das Manipulieren beliebiger Metadaten für unterstützte Dateiformate eine ziemlich einfache Angelegenheit. Der folgende Code zeigt, wie einfach es ist, Photoshop Metadaten mit C# aus einer JPEG -Datei zu entfernen:
-          ```cs
-          using (var metadata = new GroupDocs.Metadata.Metadata("sample.jpeg"))
-          {
-            var root = metadata.GetRootPackage();
-            root.RemoveImageResourcePackage();
-            metadata.Save("output.jpeg");
-          }
-          ```      
-      # more_feature_loop
-      - title: "Abrufen und Manipulieren von versteckten Daten"
-        content: "GroupDocs.Metadata for .NET bietet einen praktischen Mechanismus zum Abrufen und Entfernen versteckter Daten in PDF sowie Microsoft Word, Excel und PowerPoint Dokumenten. Sie können Kommentare bearbeiten, Felder, versteckte Seiten, Formularfelder, Anmerkungen und mehr zusammenführen."
-
-############################# Support ############################
-support:
-    enable: true
-
-############################# Solutions ############################
-solutions:
-    enable: true
-    title: "GroupDocs.Metadata bietet APIs zum Anzeigen von Dokumenten für andere beliebte Entwicklungsumgebungen"
-
-    solution:
-        # solution loop
-        - img_alt: "GroupDocs.Metadata for Java"
-          image: "/border/groupdocs-metadata-java.svg"
-          product: "GroupDocs.Metadata"
-          platform: "Java"
-          link: "/metadata/java/"
-
-        # solution loop
-        - img_alt: "GroupDocs.Metadata for Node.js"
-          image: "/border/groupdocs-metadata-nodejs-java.svg"
-          product: "GroupDocs.Metadata"
-          platform: "Node.js via Java"
-          link: "/metadata/nodejs-java/"
-
-############################# Back to top ###############################
-back_to_top:
   enable: true
+  title: "GroupDocs.Metadata for .NET-Funktionen"
+  description: "Verwenden Sie Metadaten, um PDF-, Office-, Bild- und andere Formate zu schützen"
+
+  items:
+    # feature loop
+    - icon: "metadata_style"
+      title: "Identifizieren Sie integrierte und benutzerdefinierte Metadaten"
+      content: "Viele Dateiformate verfügen über obligatorische Metadaten. Bearbeiten Sie diese sowie benutzerdefinierte Metadaten für Ihre eigenen Ziele"
+
+    # feature loop
+    - icon: "image_frame"
+      title: "Finden Sie Fotos, die mit einer bestimmten Kamera aufgenommen wurden"
+      content: "Erhalten Sie Informationen zu in Metadaten gespeicherten Fotos, einschließlich Kamerahersteller, Modell, Auflösung usw"
+
+    # feature loop
+    - icon: "hidden_print"
+      title: "Möglichkeit zur Erkennung/Entfernung digitaler Signaturen"
+      content: "Finden Sie alle digitalen Metadaten in Ihren Geschäftsdateien und entfernen Sie, was Sie benötigen"
+
+    # feature loop
+    - icon: "image_frame"
+      title: "Fotostandort"
+      content: "Importieren Sie Bildmetadateneigenschaften und entfernen Sie Standortinformationen aus Fotos"
+
+    # feature loop
+    - icon: "detect"
+      title: "Metadatensuche"
+      content: "Durchsuchen Sie die Metadateneigenschaften von Dateien und zählen Sie alle Arten von Metadaten auf"
+
+    # feature loop
+    - icon: "remove"
+      title: "Saubere Geschäftsdaten"
+      content: "Entfernen Sie Metadaten und Kommentare aus Berichten und Dokumenten"
+
+    # feature loop
+    - icon: "preview"
+      title: "Dokumentvorschauen"
+      content: "Generieren Sie Bildvorschauen für EPUB-, CAD-, EML- und MSG-Dateien"
+
+    # feature loop
+    - icon: "metadata_text_search"
+      title: "Matroska Multimedia-Unterstützung"
+      content: "Lesen Sie Matroska-Untertitel und rufen Sie Metadaten von Audio- und Videodateien ab"
+
+    # feature loop
+    - icon: "get"
+      title: "Erhalten Sie Metadaten von Archivformaten und Torrents"
+      content: "Bearbeiten Sie Metadaten von Archivdateien wie .ZIP und Dateien mit Torrent-Daten"
+
+    # feature loop
+    - icon: "compare"
+      title: "Laufzeiterkennung des Dokumentdateityps"
+      content: "Unsere Lösung bietet die Möglichkeit, den Datei- oder Streamtyp vor der Metadatenverarbeitung zu erkennen"
+
+    # feature loop
+    - icon: "compare"
+      title: "Analysieren Sie Metadatenunterschiede"
+      content: "Vergleichen Sie Metadateneigenschaften unterstützter Formate und identifizieren Sie Unterschiede oder Ähnlichkeiten"
+
+    # feature loop
+    - icon: "reduce"
+      title: "Reduzierung des Speicherverbrauchs von Dokumenten und Bildern"
+      content: "Bereinigen Sie Dokumente und Bilder von zusätzlichen versteckten Daten"
+
+    # feature loop
+    - icon: "remove"
+      title: "Kontrollbürodokumente"
+      content: "Rufen Sie versteckte Daten in Microsoft Word-, Excel-, PowerPoint- und PDF-Dateien ab und entfernen Sie sie"
+
+    # feature loop
+    - icon: "doc_background"
+      title: "Ersetzen Sie Metadateneigenschaften unterstützter Dateiformate"
+      content: "Es ist durchaus möglich, eine Liste geeigneter Dokumentmetadaten zu erhalten und den Inhalt jedes Eintrags zu ersetzen"
+
+    # feature loop
+    - icon: "image_frame"
+      title: "TIFF-Bildunterstützung"
+      content: "IPTC-Metadatenpakete in TIFF-Bildern hinzufügen, aktualisieren und löschen"
+
+    # feature loop
+    - icon: "export"
+      title: "Microsoft Excel-Unterstützung"
+      content: "Extrahieren Sie Metadaten aus Microsoft Excel-Dateien ab Excel 95"
+
+    # feature loop
+    - icon: "image_frame"
+      title: "Unterstützung für PNG-Bilder"
+      content: "Extrahieren Sie Textmetadaten aus PNG-Bilddateien"
+
+    # feature loop
+    - icon: "detect"
+      title: "Erkennung des MIME-Typs"
+      content: "Ermitteln Sie den MIME-Typ einer bestimmten Datei oder eines bestimmten Dateistreams"
+
+    # feature loop
+    - icon: "preview"
+      title: "Bildvorschauen"
+      content: "Rufen Sie Miniaturansichten ab und rendern Sie Bildvorschauen für unterstützte Formate"
+
+    # feature loop
+    - icon: "unreadable_characters"
+      title: "Matroska Multimedia-Sicherheit"
+      content: "Identifizieren Sie den Passwortschutz und die Unterstützung für den Matroska-Multimedia-Container"
+
+    # feature loop
+    - icon: "get"
+      title: "Integrierte Metadatenunterstützung"
+      content: "Verwenden Sie einen definierten Schlüssel, um Metadateneigenschaften unterstützter Formate zu lesen"
+
+    # feature loop
+    - icon: "image_only"
+      title: "EXIF-Bildmetadaten"
+      content: "Aktualisieren Sie EXIF-Metadateneigenschaften in WEBP-, PNG- und PSD-Dateien"
+
+    # feature loop
+    - icon: "email"
+      title: "Unterstützung für E-Mails und Schriftarten"
+      content: "Lesen Sie Metadaten von E-Mail-Nachrichten und analysieren Sie OpenType-Schriftartendateien"
+
+    # feature loop
+    - icon: "export"
+      title: "Verarbeitung von Multimediadateien"
+      content: "Extrahieren Sie XMP-Metadateneigenschaften in MOV-, MP3- und WEBP-Dateien"
+
+############################# Code samples ############################
+code_samples:
+  enable: true
+  title: "Codebeispiele"
+  description: "Einige Anwendungsfälle typischer GroupDocs.Metadata for .NET-Vorgänge"
+  items:
+    # code sample loop
+    - title: "Finden Sie versteckte Metadaten"
+      content: |
+        Um den inneren Dokumentinhalt zu kontrollieren, können Sie [Dokumentmetadaten](https://docs.groupdocs.com/metadata/net/find-metadata-properties/) finden und verarbeiten:
+        {{< landing/code title="So erhalten Sie spezifische Dokumentmetadaten">}}
+        ```csharp {style=abap}
+        // Laden Sie das Quelldokument in den Metadatenkonstruktor
+        using (Metadata metadata = new Metadata("source.pptx"))
+        {
+            // Rufen Sie alle Eigenschaften ab, die den Namen des letzten Dokumenteditors enthalten
+            // oder das Datum/die Uhrzeit der letzten Änderung des Dokuments
+            var properties = metadata.FindProperties(
+                p => p.Tags.Contains(Tags.Person.Editor) || 
+                p.Tags.Contains(Tags.Time.Modified));
+
+            // Abgerufene Metadateneinträge verarbeiten
+            foreach (var property in properties)
+            {
+                Console.WriteLine("Property name: {0}, Property value: {1}", property.Name, property.Value);
+            }
+        }
+        ```
+        {{< /landing/code >}}
+    # code sample loop
+    - title: "Sicherer Dokumenteninhalt"
+      content: |
+        Fügen Sie [versteckte Metadaten](https://docs.groupdocs.com/metadata/net/adding-metadata/) zu Ihren Geschäftsdateien hinzu, um deren Inhalt zu schützen:
+        {{< landing/code title="So fügen Sie einer Datei unabhängig von ihrem Format einige fehlende Metadateneigenschaften hinzu.">}}
+        ```csharp {style=abap}   
+        // Quelldokument laden
+        using (Metadata metadata = new Metadata("source.pdf"))
+        {
+            if (metadata.FileFormat != FileFormat.Unknown && !metadata.GetDocumentInfo().IsEncrypted)
+            {
+                // Fügen Sie eine Eigenschaft hinzu, die das Datum des letzten Drucks der Datei enthält, falls diese fehlt
+                // Die Eigenschaft wird hinzugefügt, wenn das Dokument diese Art von Metadaten unterstützt
+                var affected = metadata.AddProperties(p => p.Tags.Contains(Tags.Time.Printed), new PropertyValue(DateTime.Now));
+                  
+                Console.WriteLine("Affected properties: {0}", affected);
+
+                // Speichern Sie das geänderte Dokument in einem angegebenen Pfad
+                metadata.Save("output.pdf");
+            }
+        }
+        ```
+        {{< /landing/code >}}
+
 ---

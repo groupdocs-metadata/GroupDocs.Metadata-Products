@@ -1,0 +1,60 @@
+{
+  "head": {
+    "title": "Lire les métadonnées des fichiers {{FileFormatUp}} dans les applications {{EnvNameShort}}",
+    "description": "Accédez et extrayez facilement les métadonnées des fichiers {{FileFormatUp}} sur {{EnvNameShort}}. Fonctionne avec les formats courants tels que XMP, EXIF, IPTC, ID3."
+  },
+  "header": {
+    "title": "Extraire les métadonnées des fichiers {{FileFormatUp}}",
+    "description": "Extrayez les métadonnées d'un large éventail de documents, d'images, de formats audio et vidéo à l'aide de {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger l'essai gratuit"
+  },
+  "about": {
+    "title": "Qu'est-ce que l'API {{ProdFullName}} ?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) vous permet d'afficher, de modifier, d'ajouter, de supprimer, de rechercher et de gérer facilement les métadonnées des images et des documents. Aucun logiciel externe n'est nécessaire ! Extrayez les détails de divers formats tels que des PDF, des documents Word, des feuilles Excel, etc. De plus, il offre des fonctionnalités avancées pour travailler avec des métadonnées."
+  },
+  "formats": {
+    "title": "Lecture des détails d'autres types de fichiers",
+    "description": "Extrayez les métadonnées de divers documents et images dans {{EnvName}}. Cette API prend en charge les formats populaires tels que..."
+  },
+  "examples": {
+    "comment_1": "Extraire tous les détails d'un fichier {{FileFormatUp}}",
+    "comment_2": "Composez {{TextMetadata}} en passant {{FileFormatUp}} au constructeur",
+    "comment_3": "Extraire tous les détails d'un fichier",
+    "comment_4": "Utilisez les métadonnées extraites pour votre application"
+  },
+  "steps": {
+    "title": "Comment extraire les métadonnées des fichiers {{FileFormatUp}} dans {{EnvNameShort}} avec {{ProdShortName}}",
+    "content": {
+      "title": "Extrayez facilement les métadonnées des fichiers {{FileFormatUp}} dans vos applications {{EnvName}} à l'aide de [{{ProdShortName}}]({{ProductUrl}}). Voici comment:",
+      "step_1": "Chargez le fichier {{FileFormatUp}} dont vous souhaitez extraire les métadonnées.",
+      "step_2": "Utilisez un filtre pour spécifier les détails que vous souhaitez extraire.",
+      "step_3": "Démarrez le processus d'extraction à l'aide de {{TextFindProperties}}.",
+      "step_4": "Accédez aux détails extraits pour les besoins de votre application."
+    }
+  },
+  "more_features": {
+    "title": "Trouvez des métadonnées cachées dans des fichiers professionnels avec {{ProdShortName}}",
+    "description": "Recherchez et gérez facilement les détails cachés (métadonnées) dans les documents sensibles avec les applications {{EnvName}} à l'aide de la bibliothèque {{ProdShortName}}.",
+    "image_description": "Rechercher des métadonnées dans des fichiers {{EnvNameShort}}",
+    "feature_1": {
+      "title": "Recherche de métadonnées puissante pour {{EnvNameShort}}",
+      "content": "Boostez le traitement de vos documents dans {{EnvName}} avec {{ProdShortName}}. Trouvez des détails cachés rapidement et facilement à l'aide de nos outils de recherche."
+    },
+    "feature_2": {
+      "title": "Filtrage précis des métadonnées",
+      "content": "Ciblez les données spécifiques dont vous avez besoin. Recherchez par texte, par date ou utilisez des modèles spéciaux pour trouver exactement ce que vous recherchez."
+    },
+    "feature_3": {
+      "title": "Gestion efficace des métadonnées",
+      "content": "Utilisez {{ProdShortName}} pour gérer les détails (métadonnées) que vous trouvez dans les fichiers {{EnvName}}. Ajoutez, mettez à jour ou supprimez des détails selon vos besoins, le tout dans les formats de fichiers pris en charge."
+    },
+    "code_1": {
+      "title": "Lire les détails du livre électronique (exemple {{EnvName}})",
+      "content": "Cet exemple de code montre comment accéder aux détails spécifiques aux livres électroniques EPUB.",
+      "comment_1": "Chargez le fichier EPUB dans l'objet {{TextMetadata}}.",
+      "comment_2": "Récupérez tous les détails intégrés du fichier EPUB.",
+      "comment_3": "Utilisez les données récupérées pour les besoins de votre application."
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "common-content": {
+    "format-formats": {
+      "avi": {
+        "name": "Tambahkan Metadata ke AVI",
+        "description": "(File Interleave Audio Video)"
+      },
+      "djvu": {
+        "name": "Tambahkan Metadata ke DJVU",
+        "description": "(Format File Grafik)"
+      },
+      "docx": {
+        "name": "Tambahkan Metadata ke DOCX",
+        "description": "(Dokumen Office 2007+ Word)"
+      },
+      "epub": {
+        "name": "Tambahkan Metadata ke EPUB",
+        "description": "(Buka File eBuku)"
+      },
+      "heic": {
+        "name": "Tambahkan Metadata ke HEIC",
+        "description": "(Format Gambar Efisiensi Tinggi)"
+      },
+      "jpeg": {
+        "name": "Tambahkan Metadata ke JPEG",
+        "description": "(Gambar Kelompok Pakar Fotografi Bersama)"
+      },
+      "mov": {
+        "name": "Tambahkan Metadata ke MOV",
+        "description": "(Film Apple QuickTime)"
+      },
+      "mp3": {
+        "name": "Tambahkan Metadata ke MP3",
+        "description": "(Berkas Audio MP3)"
+      },
+      "msg": {
+        "name": "Tambahkan Metadata ke MSG",
+        "description": "(File Item Pesan Outlook)"
+      },
+      "ods": {
+        "name": "Tambahkan Metadata ke ODS",
+        "description": "(Lembar Bentang Dokumen Terbuka)"
+      },
+      "odt": {
+        "name": "Tambahkan Metadata ke ODT",
+        "description": "(Format File Teks OpenDocument)"
+      },
+      "pdf": {
+        "name": "Tambahkan Metadata ke PDF",
+        "description": "(Format Dokumen Portabel)"
+      },
+      "png": {
+        "name": "Tambahkan Metadata ke PNG",
+        "description": "(Grafik Jaringan Portabel)"
+      },
+      "pptx": {
+        "name": "Tambahkan Metadata ke PPTX",
+        "description": "(Buka Format presentasi XML)"
+      },
+      "tiff": {
+        "name": "Tambahkan Metadata ke TIFF",
+        "description": "(Format File Gambar yang Ditandai)"
+      },
+      "torrent": {
+        "name": "Tambahkan Metadata ke TORRENT",
+        "description": "(Tautan torrent)"
+      },
+      "vsdx": {
+        "name": "Tambahkan Metadata ke VSDX",
+        "description": "(Gambar Visio)"
+      },
+      "wav": {
+        "name": "Tambahkan Metadata ke WAV",
+        "description": "(File Audio GELOMBANG)"
+      },
+      "webp": {
+        "name": "Tambahkan Metadata ke WEBP",
+        "description": "(Format Gambar Web Raster)"
+      },
+      "xlsx": {
+        "name": "Tambahkan Metadata ke XLSX",
+        "description": "(Buka Buku Kerja XML)"
+      },
+      "zip": {
+        "name": "Tambahkan Metadata ke ZIP",
+        "description": "(File Zip)"
+      }
+    },
+    "format-code": {
+      "copy_title": "Menyalin",
+      "copy_tip": "klik untuk menyalin",
+      "copy_done": "disalin",
+      "links": {
+        "title_1": "Lebih banyak contoh",
+        "title_2": "Dokumentasi"
+      }
+    },
+    "format-actions": {
+      "title": "Siap untuk memulai?",
+      "description": "Coba fitur {{ProdShortName}} secara gratis atau minta lisensi",
+      "comment_1": "{{PackageStoreName}} unduh",
+      "comment_2": "Perizinan"
+    },
+    "texts": {
+      "learn_more": "Belajarlah lagi"
+    }
+  }
+}

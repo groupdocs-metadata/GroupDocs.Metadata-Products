@@ -1,0 +1,578 @@
+{
+  "index-content": {
+    "head_title": ".NET、Java、Node.js API 和 {{NameCompany}} 的在线元数据操作应用程序",
+    "head_description": "C# .NET 和 Java 原生的文档元数据 API。读取、写入、编辑和比较所有流行格式的元信息。分析和导出元数据。",
+    "title": "文档元数据管理解决方案",
+    "description_0": "用于读取、编辑、替换和删除流行平台上文档、图像和其他文件格式的元数据的 API 和应用程序。",
+    "description_1": "将隐藏的元数据信息添加到您的业务文件和文档中。",
+    "description_2": "修改或删除文档中已存在的元数据。",
+    "description_3": "收集和分析有关文档和文件元数据的信息。",
+    "words_for": "为了",
+    "release_title": "版本 {0} 已发布",
+    "release_notes": "看看有什么新鲜事",
+    "release_downloads": "下载",
+    "code_more": "更多示例",
+    "overview_title": "{{ProdShortName}} 概览",
+    "formats_title": "支持的文件格式",
+    "platforms": {
+      "title": "平台独立性",
+      "head_title": "选择您的平台",
+      "description": "{{ProdShortName}} 与多种操作系统和框架兼容：",
+      "learn_more": "了解更多",
+      "any_other_text_editor": "任何其他文本编辑器"
+    },
+    "features": {
+      "title": "{{ProdShortName}} 功能回顾",
+      "description": "我们的解决方案旨在操作许多流行文件格式的元数据，包括图像和办公文档。",
+      "feature_1": {
+        "title": "保护商业信息",
+        "content": "将隐藏元数据添加到敏感文件和文档中。"
+      },
+      "feature_2": {
+        "title": "控制文档元数据",
+        "content": "收集有关文档包含的元数据的详细信息。"
+      },
+      "feature_3": {
+        "title": "操纵元数据信息",
+        "content": "修改多种受支持文件格式的内容或删除元数据。"
+      },
+      "feature_4": {
+        "title": "各种附加功能",
+        "content": "获取文档预览、提取元数据包等。"
+      }
+    },
+    "formats": {
+      "title": "支持70多种格式",
+      "description": "{{ProdShortName}} 有助于控制流行文档和文件格式的元数据。"
+    },
+    "code_samples": {
+      "title": "代码示例",
+      "index_title": "使用元数据保护文档",
+      "index_description": "{{ProdShortName}}典型操作代码示例。",
+      "more_examples": "更多示例",
+      "sample_index": {
+        "title": "从图像和文档中删除不必要的元数据",
+        "content": "{{ProdShortName}} 可帮助您轻松删除文件和文档中的隐藏信息。您可以快速删除拍摄图像的时间和地点等详细信息，或从 Office 文档中删除作者和编辑者信息。",
+        "comment_1": "将文档路径传递给 {{TextMetadata}} 构造函数",
+        "comment_2": "删除连接到创建者和编辑者的文档属性",
+        "comment_3": "元数据删除处理结果",
+        "comment_4": "保存清理后的文档"
+      },
+      "sample_1": {
+        "code_title": "如何获取特定文档元数据",
+        "comment_1": "将源文档加载到元数据构造函数",
+        "comment_2": "获取包含最后一个文档编辑者名称的所有属性",
+        "comment_3": "或文档最后修改的日期/时间",
+        "comment_4": "处理检索到的元数据条目"
+      },
+      "sample_2": {
+        "code_title": "如何将一些缺失的元数据属性添加到文件中，无论其格式如何。",
+        "comment_1": "加载源文档",
+        "comment_2": "添加包含文件上次打印日期的属性（如果丢失）",
+        "comment_3": "如果文档支持此类元数据，将添加属性",
+        "comment_4": "将修改后的文档保存到指定路径"
+      }
+    },
+    "metrics": {
+      "title": "{{ProdShortName}} 成就",
+      "description": "了解我们图书馆成就的关键指标",
+      "item_1": {
+        "title": "支持的格式",
+        "description": "{{ProdShortName}} 支持 70 多种流行文件格式的元数据操作。"
+      },
+      "item_2": {
+        "title": "NuGet 下载",
+        "description": ".NET NuGet 包的 {{ProdShortName}} 下载次数超过 700,000 次。"
+      },
+      "item_3": {
+        "title": "Maven 下载",
+        "description": "{{ProdShortName}} 在 Maven 上有 15,000 次下载。强大的 Java 元数据管理。"
+      },
+      "item_4": {
+        "title": "快乐的顾客",
+        "description": "著名公司和个人开发者都喜欢使用 {{NameCompany}} 产品来构建创新解决方案。"
+      }
+    },
+    "customers": {
+      "title": "我们满意的客户",
+      "description": "{{NameCompany}} 产品受到全球许多客户的信赖，并在全球许多有竞争力的业务解决方案中使用。"
+    },
+    "actions": {
+      "alt": "许可",
+      "title": "准备开始？",
+      "description": "免费试用 {{ProdShortName}} 功能或申请许可证",
+      "description_index": "在您的应用程序中免费试用 {{ProdShortName}} 功能"
+    },
+    "faq": {
+      "title": "经常问的问题",
+      "description": "对我们的产品有疑问吗？我们有答案！",
+      "item_1": {
+        "question": "{{ProdShortName}} 是否需要第三方软件来处理文档元数据？",
+        "answer": "{{ProdShortName}} 独立运营；不需要 Microsoft Office 或 Adob​​e Acrobat 等外部库。"
+      },
+      "item_2": {
+        "question": "我可以在购买前试用 {{ProdShortName}} 功能吗？",
+        "answer": "绝对地！ {{ProdShortName}} 提供免费试用。安装它并探索它的功能。但是，请注意，试用版会在您的文档中添加“试用徽章”，并且仅处理前 3 页。为了获得完整的体验，请获取完整功能的免费 30 天临时许可证。查看详细信息[此处]({{LicensingUrl}})。"
+      },
+      "item_3": {
+        "question": "有哪些类型的许可证可用？",
+        "answer": "正在寻找 {{ProdShortName}} 许可证？我们为您提供了多种选择。根据您团队中的开发人员数量、部署位置（例如，单个办公室或远程工作场所）以及最终客户分发是否需要与客户共享 SDK/API 等因素，从适合您需求的许可证中进行选择。或者，选择按月使用许可证，您可以根据计量计划​​的使用情况付费。进一步探索并找到最合适的产品[此处]({{PricingUrl}})。"
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} 低代码 API 包括",
+      "description": "使用我们基于云的 REST API 管理应用程序内业务文件中的敏感元数据。",
+      "item_1": {
+        "content": "使用 cURL RESTful 元数据操作 API 来管理应用程序中 PDF、Word、Excel、演示文稿、图像和多媒体文件的元数据信息。"
+      },
+      "item_2": {
+        "content": "将元数据 REST API 与 .NET SDK 结合使用，在 .NET 应用程序内的文档格式中添加、编辑、提取、搜索和删除元数据。"
+      },
+      "item_3": {
+        "content": "使用 Metadata SDK for Java 通过强大的元数据管理功能增强您的 Java 应用程序。"
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} 没有代码应用程序包括",
+      "description": "访问 {{NameCompany}} Web 应用程序来管理文档元数据。在您喜爱的浏览器中免费处理 70 多种流行的文件格式。",
+      "item_1": {
+        "content": "免费应用程序可查看和编辑 Word、Excel、PDF、PowerPoint 和 70 多种文档类型的元数据。"
+      },
+      "item_2": {
+        "content": "MS Word 文档的免费在线元数据查看器和编辑器。"
+      },
+      "item_3": {
+        "content": "在线查看或编辑 PDF 文档的元数据信息。"
+      }
+    },
+    "formats_groups": {
+      "title_1": "办公格式",
+      "title_2": "媒体与图形",
+      "title_3": "其他",
+      "format_portable": "便携的",
+      "format_video": "视频",
+      "format_audio": "声音的",
+      "format_fonts": "字体",
+      "format_project": "项目",
+      "format_others": "其他的",
+      "format_popular_images": "流行的图像格式",
+      "format_multi_images": "多页图像"
+    }
+  },
+  "index-content-net": {
+    "head_title": "{{EnvNameShort}} 元数据读取器、查看器、提取器、删除器和导出器 API",
+    "head_description": "{{ProgLang}} {{EnvNameShort}} 元数据 API，用于读取、写入、编辑、分析、搜索、提取、删除、比较和导出 PDF、Word、Excel、PPTX、Outlook 音频、视频和图像的元数据。",
+    "title": "用于管理和操作元数据的 {{EnvNameShort}} API",
+    "description": "构建 {{EnvNameShort}} 应用程序来读取、编辑、删除、检索、搜索、比较、替换和导出所有流行文档和图像文件格式的元数据信息。",
+    "actions_main": "免费 NuGet 下载",
+    "code_title": "快速获取元数据属性",
+    "code_comment_1": "将 Jpeg 图像传递到元数据",
+    "code_comment_2": "删除主要元数据包",
+    "code_comment_3": "保存清除的图像",
+    "overview_description": "以下是 {{ProdFullName}} 的概述",
+    "overview_feature_1": {
+      "title": "{{ProgLang}} 应用程序集成",
+      "description": "{{ProdFullName}} API 可以轻松与 {{ProgLang}}、{{AspNet}} 和其他基于 {{EnvNameShort}} 的应用程序集成，帮助您的最终用户操作一系列图像、文档和其他媒体文件中的元数据格式，无需安装任何外部软件。 {{EnvNameShort}}元数据库支持构建工具，以在多种行业标准文档格式（例如 PDF、Microsoft Office Word、Excel 电子表格、PowerPoint 演示文稿、Outlook）中快速添加元数据查看器、编辑器、删除器、提取器、比较和导出器功能电子邮件、项目、Visio 图表、OneNote、图像、AutoCAD、Photoshop、音频、视频和图元文件。"
+    },
+    "overview_feature_2": {
+      "title": "各种元数据类型",
+      "description": "元数据 API 非常灵活且易于操作。它获取文档文件作为输入，分析元数据信息，允许执行支持的元数据操作并保存修改后的文件以便在将来使用时快速访问。它适用于最著名的元数据标准，例如内置、XMP、EXIF、IPTC、图像资源块、ID3 和自定义元数据属性。通过 {{ProdFullName}} API，您还可以比较两个文档以识别其元数据属性中存在的差异和相似之处。您还可以将所需文档的元数据导出到 Excel、CSV 或 DataSet。"
+    },
+    "overview_feature_3": {
+      "title": "支持所有流行环境",
+      "description": "{{ProdFullName}} 可用于在任何面向 {{EnvNameShort}} 平台的开发环境中开发应用程序。它与所有基于 {{EnvNameShort}} 的语言兼容，并支持可以安装 {{Mono}} 或 {{EnvNameShort}} 框架（包括 {{CoreNet}}）的流行操作系统（Windows、Linux、MacOS）。"
+    },
+    "features": {
+      "title": "{{ProdFullName}} 功能",
+      "description": "使用元数据保护 PDF、Office、图像和其他格式",
+      "feature_1": {
+        "title": "识别内置和自定义元数据",
+        "content": "许多文件格式都具有强制性元数据。为您自己的目标操作它们以及自定义元数据"
+      },
+      "feature_2": {
+        "title": "查找使用特定相机拍摄的照片",
+        "content": "获取有关存储在元数据中的照片的信息，包括相机制造商、型号、分辨率等"
+      },
+      "feature_3": {
+        "title": "检测/删除数字签名的能力",
+        "content": "查找业务文件中的所有数字元数据并删除您需要的内容"
+      },
+      "feature_4": {
+        "title": "照片地点",
+        "content": "导入图像元数据属性并从照片中删除位置信息"
+      },
+      "feature_5": {
+        "title": "元数据搜索",
+        "content": "搜索文件的元数据属性并枚举任何类型的元数据"
+      },
+      "feature_6": {
+        "title": "清洁业务数据",
+        "content": "从报告和文档中删除元数据和评论"
+      },
+      "feature_7": {
+        "title": "文档预览",
+        "content": "生成 EPUB、CAD、EML 和 MSG 文件的图像预览"
+      },
+      "feature_8": {
+        "title": "Matroska 多媒体支持",
+        "content": "读取 Matroska 字幕并检索音频和视频文件的元数据"
+      },
+      "feature_9": {
+        "title": "获取存档格式和种子的元数据",
+        "content": "操作 .ZIP 等存档文件和包含 torrent 数据的文件的元数据"
+      },
+      "feature_10": {
+        "title": "文档文件类型的运行时识别",
+        "content": "我们的解决方案提供了在元数据处理之前检测文件或流类型的能力"
+      },
+      "feature_11": {
+        "title": "分析元数据差异",
+        "content": "比较支持格式的元数据属性并识别差异或相似之处"
+      },
+      "feature_12": {
+        "title": "减少文档和图像的内存消耗",
+        "content": "清除文档和图像中额外的隐藏数据"
+      },
+      "feature_13": {
+        "title": "控制办公室文件",
+        "content": "检索并删除 Microsoft Word、Excel、PowerPoint 和 PDF 文件中的隐藏数据"
+      },
+      "feature_14": {
+        "title": "替换支持的文件格式的元数据属性",
+        "content": "完全可以获取合适的文档元数据列表并替换每个条目的内容"
+      },
+      "feature_15": {
+        "title": "TIFF 图像支持",
+        "content": "添加、更新和删除 TIFF 图像中的 IPTC 元数据包"
+      },
+      "feature_16": {
+        "title": "微软Excel支持",
+        "content": "从 Excel 95 开始从 Microsoft Excel 文件中提取元数据"
+      },
+      "feature_17": {
+        "title": "PNG 图像支持",
+        "content": "从 PNG 图像文件中提取文本元数据"
+      },
+      "feature_18": {
+        "title": "MIME 类型检测",
+        "content": "检测特定文件或文件流的MIME类型"
+      },
+      "feature_19": {
+        "title": "图像预览",
+        "content": "检索缩略图并渲染受支持格式的图像预览"
+      },
+      "feature_20": {
+        "title": "Matroska 多媒体安全",
+        "content": "确定对 Matroska 多媒体容器的密码保护和支持"
+      },
+      "feature_21": {
+        "title": "内置元数据支持",
+        "content": "使用定义的键读取支持格式的元数据属性"
+      },
+      "feature_22": {
+        "title": "EXIF 图像元数据",
+        "content": "更新 WEBP、PNG 和 PSD 文件中的 EXIF 元数据属性"
+      },
+      "feature_23": {
+        "title": "电子邮件和字体支持",
+        "content": "读取电子邮件的元数据并解析 OpenType 字体文件"
+      },
+      "feature_24": {
+        "title": "多媒体文件处理",
+        "content": "提取 MOV、MP3 和 WEBP 文件中的 XMP 元数据属性"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} 支持以下操作系统、框架和包管理器：",
+    "formats_description": "{{ProdFullName}} 支持以下[文档文件格式]({{SupportedFormatsUrl}})。",
+    "code_samples_description": "典型 {{ProdFullName}} 操作的一些用例",
+    "code_title_sample_1": "查找隐藏的元数据",
+    "code_samples_sample_1_content": "要控制内部文档内容，您可以查找并处理[文档元数据]({{Sample1Url}})：",
+    "code_title_sample_2": "保护文档内容",
+    "code_samples_sample_2_content": "将 [隐藏元数据]({{Sample2Url}}) 添加到您的业务文件以保护其内容："
+  },
+  "index-content-java": {
+    "head_title": "{{EnvNameShort}} 元数据 API – 查看、读取、导出、编辑、删除文档元数据",
+    "head_description": "{{EnvNameShort}} 元数据 API，用于查看、读取、编辑、分析、查找、删除、比较和导出 PDF Word Excel PPTX Outlook Visio 音频视频和图像文档的元数据。",
+    "title": "{{EnvNameShort}} 的元数据操作 API",
+    "description": "开发 {{EnvNameShort}} 应用程序来创建、查看、访问、更新、删除、搜索、比较、替换和导出流行文档和图像格式的元数据。",
+    "actions_main": "从 Maven 免费下载",
+    "code_title": "高效获取元数据属性",
+    "code_comment_1": "为元数据构造函数提供 MP3 路径",
+    "code_comment_2": "处理内置 MP3 元数据",
+    "overview_description": "专为通过 {{EnvNameShort}} 进行元数据操作而设计的库",
+    "overview_feature_1": {
+      "title": "控制文件和文档元数据",
+      "description": "{{ProdFullName}} 是一种高级元数据管理 API，用于操作文档、图像、档案、种子和各种其他文件格式的元数据信息。开发人员现在可以通过在所有流行的商业文档格式（例如 PDF、Microsoft Office Word、Excel 电子表格）中轻松整合元数据查看、修改、删除、提取、搜索、比较、替换和导出功能来增强其 {{EnvNameShort}} 应用程序的功能、PowerPoint 演示文稿和幻灯片、Outlook 电子邮件、Project、Visio 图表、OneNote、图像、AutoCAD、Photoshop、音频、视频、OpenType 字体和图元文件。"
+    },
+    "overview_feature_2": {
+      "title": "操作内置元数据",
+      "description": "{{EnvNameShort}} 元数据库为您提供元数据搜索、替换元数据属性、比较受支持文件格式的元数据以识别相似性和差异等功能。您还可以编辑或修改元数据以更好地进行信息管理，并将检索到的元数据信息导出到 Excel 文件、CSV 文件和 DataSet。该 API 提供全面的支持，可与所有常用的元数据标准（例如受支持的文档格式中的内置、XMP、EXIF 和自定义元数据属性）配合使用。"
+    },
+    "overview_feature_3": {
+      "title": "广泛的平台支持",
+      "description": "{{ProdFullName}} 与所有 {{EnvNameShort}} 版本兼容，并支持能够运行 {{EnvNameShort}} 运行时的流行操作系统（Windows、Linux、MacOS）。"
+    },
+    "features": {
+      "title": "{{ProdFullName}} 功能",
+      "description": "保护您的 PDF、Office 文档和图像元数据",
+      "feature_1": {
+        "title": "EXIF 图像元数据",
+        "content": "更新 WEBP、PNG 和 PSD 文件中的 EXIF 元数据属性"
+      },
+      "feature_2": {
+        "title": "获取文件元数据",
+        "content": "文档、EXIF 和 XMP 元数据的搜索属性"
+      },
+      "feature_3": {
+        "title": "干净的办公格式",
+        "content": "访问和删除 Microsoft Word、Excel、PowerPoint 和 PDF 文件中的隐藏数据"
+      },
+      "feature_4": {
+        "title": "元数据导出",
+        "content": "将支持的文件格式的元数据导出到 Excel、CSV 或 DataSet"
+      },
+      "feature_5": {
+        "title": "PNG 图像支持",
+        "content": "从 PNG 图像文件中提取文本元数据"
+      },
+      "feature_6": {
+        "title": "删除数字签名",
+        "content": "识别并删除 Word、Excel 和 PDF 文件中的数字签名"
+      },
+      "feature_7": {
+        "title": "内置元数据支持",
+        "content": "使用任何支持格式的定义键读取元数据属性"
+      },
+      "feature_8": {
+        "title": "图像预览",
+        "content": "生成 EPUB、CAD、EML 和 MSG 文件的图像预览"
+      },
+      "feature_9": {
+        "title": "文件内容优化",
+        "content": "减少 PDF、Excel 和图像格式的内存消耗"
+      },
+      "feature_10": {
+        "title": "Matroska 多媒体支持",
+        "content": "读取 Matroska 字幕并检索音频和视频文件的元数据"
+      },
+      "feature_11": {
+        "title": "替换元数据内容",
+        "content": "替换 Word、Excel、PowerPoint 和 PDF 文件的元数据属性"
+      },
+      "feature_12": {
+        "title": "清洁业务数据",
+        "content": "从报告和文档中删除元数据和评论"
+      },
+      "feature_13": {
+        "title": "照片地点",
+        "content": "操作图像元数据属性并删除照片位置信息"
+      },
+      "feature_14": {
+        "title": "分析元数据差异",
+        "content": "通过比较识别受支持格式的元数据的差异或相似之处"
+      },
+      "feature_15": {
+        "title": "密码保护",
+        "content": "检测 Word、Excel、PowerPoint 和 PDF 文件中的文档密码保护"
+      },
+      "feature_16": {
+        "title": "存档和种子支持",
+        "content": "操作内置和自定义元数据并获取种子和存档格式的元数据"
+      },
+      "feature_17": {
+        "title": "EXIF 图像元数据",
+        "content": "使用搜索 API 添加或更新任意类型的 XMP 和 EXIF 元数据属性"
+      },
+      "feature_18": {
+        "title": "在运行时检测文档文件类型",
+        "content": "我们的解决方案提供了在元数据处理之前检测文件或流类型的能力"
+      },
+      "feature_19": {
+        "title": "字体元数据支持",
+        "content": "支持任何元数据类型的枚举并读取OpenType字体文件的元数据"
+      },
+      "feature_20": {
+        "title": "电子邮件元数据支持",
+        "content": "获取和删除电子邮件的元数据并删除附件"
+      },
+      "feature_21": {
+        "title": "微软Excel支持",
+        "content": "从 Excel 95 开始从 Microsoft Excel 文件中提取元数据"
+      },
+      "feature_22": {
+        "title": "Matroska 多媒体预览",
+        "content": "通过 Matroska 多媒体容器支持获取支持格式的缩略图和图像预览"
+      },
+      "feature_23": {
+        "title": "微软项目支持",
+        "content": "从加密的 Microsoft Project 文件中读取元数据"
+      },
+      "feature_24": {
+        "title": "TIFF 支持",
+        "content": "添加、更新和删除 TIFF 图像中的 IPTC 元数据包"
+      },
+      "feature_25": {
+        "title": "支持JPEG",
+        "content": "添加、更新和删除 JPEG2000 图像中的 EXIF 元数据包"
+      },
+      "feature_26": {
+        "title": "多媒体文件支持",
+        "content": "提取 MOV、MP3 和 WEBP 文件中的 XMP 元数据属性"
+      },
+      "feature_27": {
+        "title": "HEIC 媒体支持",
+        "content": "从 HEIC/HEIF 图像格式读取 EXIF 标签和 XMP 元数据属性"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} 支持各种操作系统和包管理器。",
+    "formats_description": "{{ProdFullName}} 可以处理多种文件格式。 [查看完整列表]({{SupportedFormatsUrl}})。",
+    "code_samples_description": "探索说明典型 {{ProdFullName}} 功能的代码示例",
+    "code_title_sample_1": "查看文档元数据",
+    "code_samples_sample_1_content": "利用 {{ProdFullName}} 控制内部文档内容。了解更多信息：[文档元数据搜索]({{Sample1Url}})：",
+    "code_title_sample_2": "将元数据添加到文档",
+    "code_samples_sample_2_content": "{{ProdFullName}} 使您能够将[隐藏条目]({{Sample2Url}}) 添加到您的商家数据中："
+  },
+  "index-content-nodejs-java": {
+    "head_title": "用于操作文件元数据的 {{EnvNameShort}} 库",
+    "head_description": "通过分析、比较、编辑、删除和导出流行文件格式（如 PDF、Word、Excel 等）的元数据来增强 {{EnvNameShort}} 应用程序。",
+    "title": "文档元数据管理 {{EnvNameShort}}",
+    "description": "使用 {{EnvNameShort}} 管理流行文档和图像格式的元数据。",
+    "actions_main": "使用NPM免费下载",
+    "code_title": "{{EnvNameShort}} 中的高效元数据操作",
+    "code_comment_1": "将电子表格传递给元数据",
+    "code_comment_2": "检查文件格式",
+    "code_comment_3": "分析内部文档元数据",
+    "overview_description": "用于控制元数据的 Node.js TypeScript 库",
+    "overview_feature_1": {
+      "title": "主要特点",
+      "description": "{{ProdFullName}} 是一个高级库，使您能够管理各种文件格式的元数据。将元数据查看、编辑、删除、搜索、比较、替换和导出功能集成到您的 {{EnvNameShort}} 应用程序中。支持的格式包括流行的商业文档，如 PDF、Microsoft Office（Word、Excel、PowerPoint）、Outlook 电子邮件、Project、Visio 图表、OneNote、图像（包括 PSD、CAD）、音频、视频、OpenType 字体和图元文件。"
+    },
+    "overview_feature_2": {
+      "title": "轻松操作元数据",
+      "description": "该库提供元数据搜索、替换、属性比较和信息提取等全面的功能。您可以将检索到的元数据导出为 Excel、CSV 或 DataSet 格式。它支持常用的元数据标准，例如内置、XMP、EXIF 以及受支持文档格式中的自定义属性。"
+    },
+    "overview_feature_3": {
+      "title": "热门平台支持",
+      "description": "{{ProdFullName}} 与所有 {{EnvNameShort}} 版本兼容，并在支持 {{EnvNameShort}} 运行时的流行操作系统（Windows、Linux、macOS）上无缝运行。"
+    },
+    "features": {
+      "title": "{{ProdFullName}} 功能",
+      "description": "通过元数据处理实现强大的文档安全性。",
+      "feature_1": {
+        "title": "清除业务文件",
+        "content": "清晰的业务报告和文档中的任何元数据和评论"
+      },
+      "feature_2": {
+        "title": "照片地点",
+        "content": "控制图像中的元数据，包括照片位置信息"
+      },
+      "feature_3": {
+        "title": "控制办公室文件",
+        "content": "操作 PDF、Word、Excel、PowerPoint 和其他格式的元数据"
+      },
+      "feature_4": {
+        "title": "分析元数据差异",
+        "content": "比较和分析支持的文件格式中元数据的更改"
+      },
+      "feature_5": {
+        "title": "内置元数据支持",
+        "content": "利用广泛的功能来操作内置和自定义元数据"
+      },
+      "feature_6": {
+        "title": "控制图像元数据",
+        "content": "收集文档元数据属性，例如 EXIF 或 XMP"
+      },
+      "feature_7": {
+        "title": "电子邮件元数据支持",
+        "content": "操作电子邮件中的元数据和附件"
+      },
+      "feature_8": {
+        "title": "EXIF 图像元数据",
+        "content": "修正 WEBP、PNG 或 PSD 文件中的 EXIF 元数据内容"
+      },
+      "feature_9": {
+        "title": "文件内容优化",
+        "content": "减少 PDF、Excel 和图像格式的内存消耗"
+      },
+      "feature_10": {
+        "title": "Matroska 多媒体支持",
+        "content": "访问音频和视频文件中的 Matroska 字幕和元数据"
+      },
+      "feature_11": {
+        "title": "图像预览",
+        "content": "生成 MSG、CAD、EML 或 EPUB 文件的图像预览"
+      },
+      "feature_12": {
+        "title": "多媒体支持",
+        "content": "从 MOV、MP3 和 WEBP 文件获取 XMP 元数据节点"
+      },
+      "feature_13": {
+        "title": "检测/删除数字签名",
+        "content": "识别并删除 PDF 和 Office 文档中的数字签名"
+      },
+      "feature_14": {
+        "title": "元数据导出",
+        "content": "将支持的文件中的元数据保存到 Excel、CSV 或 DataSet 输出"
+      },
+      "feature_15": {
+        "title": "内置元数据控制",
+        "content": "使用任何支持格式的定义键分析特定元数据属性"
+      },
+      "feature_16": {
+        "title": "密码保护",
+        "content": "检测应用于 PDF 和 MS Word、Excel 和 PowerPoint 文档的密码保护"
+      },
+      "feature_17": {
+        "title": "替换元数据内容",
+        "content": "替换 Word、Excel、PowerPoint 和 PDF 文件的元数据属性"
+      },
+      "feature_18": {
+        "title": "PNG 元数据导出",
+        "content": "使用 Node.js 直接从 PNG 图像文件中提取文本元数据"
+      },
+      "feature_19": {
+        "title": "更新图像元数据",
+        "content": "使用搜索 API 添加或更新 XMP 和 EXIF 元数据属性"
+      },
+      "feature_20": {
+        "title": "控制办公文件",
+        "content": "访问和删除 PDF、MS Word、Excel 和 PowerPoint 文件中嵌入的隐藏数据"
+      },
+      "feature_21": {
+        "title": "文件类型检测",
+        "content": "使用 Node.js 在运行时动态检测文件类型"
+      },
+      "feature_22": {
+        "title": "Matroska 多媒体预览",
+        "content": "通过 Matroska 多媒体容器支持检索受支持文件格式的缩略图和图像预览"
+      },
+      "feature_23": {
+        "title": "TIFF 支持",
+        "content": "操作 TIFF 图像中的 IPTC 元数据包"
+      },
+      "feature_24": {
+        "title": "HEIC 媒体支持",
+        "content": "控制 HEIC/HEIF 图像的 EXIF 标签和 XMP 元数据"
+      },
+      "feature_25": {
+        "title": "字体元数据支持",
+        "content": "枚举 OpenType 字体文件的任何元数据类型并控制元数据"
+      },
+      "feature_26": {
+        "title": "微软项目支持",
+        "content": "获取隐藏在加密的 Microsoft Project 文件中的所有元数据"
+      },
+      "feature_27": {
+        "title": "支持JPEG",
+        "content": "添加、更新或删除 JPEG2000 图像中的 EXIF 数据"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} 可以轻松地与各种操作系统和包管理器集成。",
+    "formats_description": "{{ProdFullName}} 使您能够处理各种文件格式。 [探索完整列表]({{SupportedFormatsUrl}})。",
+    "code_samples_description": "深入研究展示常见 {{ProdFullName}} 功能的代码示例",
+    "code_title_sample_1": "了解文档内部内容",
+    "code_samples_sample_1_content": "要获取有关内部 [文档元数据]({{Sample1Url}}) 的信息，请使用 {{ProdFullName}} API：",
+    "code_title_sample_2": "隐藏文档中的业务信息",
+    "code_samples_sample_2_content": "使用我们的解决方案通过[添加元数据]({{Sample2Url}}) 修改您的文档："
+  }
+}

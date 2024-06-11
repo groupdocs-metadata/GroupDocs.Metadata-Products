@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "从 {{EnvName}} 中的 {{FileFormatUp}} 文件中删除元数据",
+    "description": "跨平台 {{EnvName}} 元数据 API，用于隐藏和删除 {{FileFormatUp}} 文件中的元数据字段。支持 XMP、EXIF、IPTC、ID3 等。"
+  },
+  "header": {
+    "title": "删除 {{EnvName}} 中的 {{FileFormatUp}} 元数据",
+    "description": "使用 {{ProdFullName}} API 从 {{FileFormatUp}} 和其他流行文档、图像和多媒体文件格式中删除元数据属性。",
+    "subtitle": "{{ProdFullName}} API",
+    "action_title": "下载免费试用版"
+  },
+  "about": {
+    "title": "关于 {{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 是用于管理元数据字段的高级解决方案。无需使用任何外部软件即可轻松读取、添加、更新、删除、查找、比较、交换和导出图像和文档中的元数据。从 Word、Excel、PowerPoint、Outlook、OneNote、Visio、Project、PDF、AutoCAD、ZIP、音频和视频文件以及许多其他功能中删除元数据。"
+  },
+  "formats": {
+    "title": "从其他文件格式中删除元数据",
+    "description": "适用于 {{EnvName}} 的多格式文档和图像元数据删除 API。从流行的文件格式中检索和删除元数据。"
+  },
+  "examples": {
+    "comment_1": "清除 {{FileFormatUp}} 文档元数据",
+    "comment_2": "删除所有提及贡献者的内容",
+    "comment_3": "按名称删除自定义属性",
+    "comment_4": "保存清理后的文件"
+  },
+  "steps": {
+    "title": "从 {{EnvName}} 中的 {{FileFormatUp}} 删除元数据的步骤",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) 让 {{EnvName}} 开发者只需几个简单的步骤即可轻松从 {{FileFormatUp}} 文件中删除元数据。",
+      "step_1": "加载要更新的 {{FileFormatUp}} 文件。",
+      "step_2": "将搜索谓词传递给 {{TextRemoveProperties}} 方法。",
+      "step_3": "检查已删除的属性的数量。",
+      "step_4": "保存更改。"
+    }
+  },
+  "more_features": {
+    "title": "轻松管理文档元数据",
+    "description": "我们的解决方案简化了元数据管理。轻松访问、编辑和更新文档属性，使文件井然有序且可搜索。",
+    "image_description": "保护文档元数据",
+    "feature_1": {
+      "title": "轻松的元数据控制",
+      "content": "快速检索和处理文档元数据。深入了解作者、创建日期等属性。"
+    },
+    "feature_2": {
+      "title": "简单的元数据编辑",
+      "content": "直接编辑文档元数据。更新属性以实现更好的组织、可搜索性和准确性。"
+    },
+    "feature_3": {
+      "title": "强大的元数据管理",
+      "content": "对文档元数据执行高级操作。轻松添加自定义属性、删除不必要的数据并确保一致性。"
+    },
+    "code_1": {
+      "title": "清除 ZIP 存档元数据",
+      "content": "此代码片段展示了如何从 ZIP 存档中删除用户评论。",
+      "comment_1": "加载存档文件进行处理",
+      "comment_2": "获取主要元数据包",
+      "comment_3": "删除存档评论",
+      "comment_4": "保存清理后的文件"
+    }
+  }
+}

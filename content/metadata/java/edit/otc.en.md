@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-07T21:09:28
+date:  2024-06-11T10:55:31
 draft: false
 lang: en
 format: Otc

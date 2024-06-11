@@ -1,0 +1,60 @@
+{
+  "head": {
+    "title": "读取并提取 {{EnvName}} 应用程序中 {{FileFormatUp}} 文件的元数据",
+    "description": "跨平台 {{EnvName}} 元数据管理 API，用于读取和提取 {{FileFormatUp}} 文件的元数据信息。使用元数据标准 XMP、EXIF、IPTC、ID3 等。"
+  },
+  "header": {
+    "title": "从 {{EnvName}} 中的 {{FileFormatUp}} 文件提取元数据",
+    "description": "使用 {{ProdFullName}} 从各种文档、图像、音频和视频格式中读取和提取元数据信息",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "下载免费试用版"
+  },
+  "about": {
+    "title": "关于 {{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 提供了一组先进的元数据管理和操作功能，使开发人员能够轻松读取、编辑、删除、搜索、比较、替换和导出图像和文档格式的元数据信息，而无需使用任何外部软件。从 PDF、Word、Excel、PowerPoint、Outlook、OneNote、Visio、Project、AutoCAD、Archive 和多媒体文件格式中提取元数据详细信息，并以真正的灵活性执行支持的元数据操作。"
+  },
+  "formats": {
+    "title": "读取和提取其他文件格式",
+    "description": "适用于 {{EnvName}} 的多格式文档和图像元数据提取 API。检索一些流行文件格式的元数据，如下所述。"
+  },
+  "examples": {
+    "comment_1": "在 {{FileFormatUp}} 文档中搜索图像元数据",
+    "comment_2": "编写 {{TextMetadata}} 将 {{FileFormatUp}} 传递给构造函数",
+    "comment_3": "获取属于特定类别的所有元数据属性",
+    "comment_4": "处理找到的元数据条目"
+  },
+  "steps": {
+    "title": "在 {{EnvName}} 中提取 {{FileFormatUp}} 元数据的步骤",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) 使 {{EnvName}} 开发人员可以通过实施几个简单的步骤，轻松地从应用程序内的 {{FileFormatUp}} 文件中读取和提取元数据信息。",
+      "step_1": "使用 {{EnvName}} 类的实例加载 {{FileFormatUp}}。",
+      "step_2": "组成一个谓词来检查所有元数据属性。",
+      "step_3": "将谓词传递给 {{TextFindProperties}} 方法。",
+      "step_4": "迭代找到的属性。"
+    }
+  },
+  "more_features": {
+    "title": "使用 {{ProdShortName}} 在业务文件中搜索元数据",
+    "description": "使用由 {{ProdShortName}} 库提供支持的 {{EnvName}} 应用程序控制敏感文件和文档中的隐藏数据。",
+    "image_description": "{{EnvName}} 元数据搜索",
+    "feature_1": {
+      "title": "用于详细元数据搜索的 {{EnvName}} 工具",
+      "content": "使用 {{ProdShortName}} 增强您在 {{EnvName}} 中的文档处理能力。我们的软件提供了有效的工具来搜索和处理隐藏的元数据。"
+    },
+    "feature_2": {
+      "title": "元数据检索定制",
+      "content": "精确定位特定元数据。配置您的搜索以按文本、日期、正则表达式等许多参数进行过滤，确保您获得所需的内容。"
+    },
+    "feature_3": {
+      "title": "高效的元数据处理",
+      "content": "利用 {{EnvName}} 处理找到的元数据条目的值。使用 {{ProdShortName}} 有效地​​操作元数据。您可以自由添加、更新或清除支持格式的任何元数据。"
+    },
+    "code_1": {
+      "title": "{{EnvName}} 示例：电子书元数据",
+      "content": "此代码示例演示如何读取 EPUB 格式特定的元数据属性",
+      "comment_1": "将 EPUB 电子书传递给 {{TextMetadata}} 对象",
+      "comment_2": "获取所有内置元数据",
+      "comment_3": "处理检索到的数据"
+    }
+  }
+}

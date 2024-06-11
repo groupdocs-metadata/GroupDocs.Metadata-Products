@@ -1,124 +1,303 @@
+
+
+
 ---
 ############################# Static ############################
-layout: "auto-gen-metadata"
-date: 2024-03-10T13:38:35
+layout: "format"
+date:  2024-06-11T10:55:43
 draft: false
-otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dxf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
+lang: ru
+format: Vsd
+product: "Metadata"
+product_tag: "metadata"
+platform: "Java"
+platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Чтение и извлечение метаданных VSD файлов в Java приложениях"
-head_description: "Кроссплатформенный API управления метаданными Java для чтения и извлечения метаданных из файлов VSD. Работайте со стандартами метаданных XMP, EXIF, IPTC, ID3 и т. д."
+head_title: "Чтение и извлечение метаданных файлов VSD в приложениях Java"
+head_description: "Межплатформенный API управления метаданными Java для чтения и извлечения информации метаданных из файлов VSD. Работа со стандартами метаданных XMP, EXIF, IPTC, ID3 и др."
 
 ############################# Header ############################
-title: "Извлечение метаданных из файла VSD в Java"
+title: "Извлечь метаданные из файла VSD в Java" 
 description: "Чтение и извлечение метаданных из широкого спектра документов, изображений, аудио- и видеоформатов с помощью GroupDocs.Metadata for Java"
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Загрузить бесплатную пробную версию"
-    link: "https://downloads.groupdocs.com/metadata/java"
+subtitle: "GroupDocs.Metadata for Java" 
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
-    left:
-        img_alt: "GroupDocs.Metadata for Java"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-metadata-java.png"
-        product: "GroupDocs.Metadata"
-        platform: "Java"
-
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/metadata/java"
-              text: "{submenu.content_middle.button_text_1}"
-
-            # button loop
-            - link: "https://github.com/groupdocs-metadata"
-              text: "{submenu.content_middle.button_text_2}"
-
-            # button loop
-            - link: "https://products.groupdocs.app/metadata/family"
-              text: "{submenu.content_middle.button_text_3}"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/metadata/java"
-              text: "{submenu.content_middle.button_text_4}"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/metadata"
-        link_learn: "https://docs.groupdocs.com/metadata/java"
-        link_buy: "https://purchase.groupdocs.com"
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Скачать бесплатную пробную версию"
+      link: "https://releases.groupdocs.com/metadata/java/"
+      
 ############################# About ############################
 about:
     enable: true
     title: "Об API GroupDocs.Metadata for Java"
+    link: "/metadata/java/"
+    link_title: "Узнать больше"
+    picture: "about_metadata.svg" # 480 X 400
     content: |
-        [GroupDocs.Metadata for Java](/ru/metadata/java/) предлагает расширенный набор функций управления метаданными и манипулирования ими, позволяющий разработчикам легко читать, редактировать, удалять, искать, сравнивать, заменять и экспортировать метаданные из изображений и форматов документов без использования внешнего программного обеспечения. Извлекайте метаданные из форматов PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, архивных и мультимедийных файлов и выполняйте поддерживаемые операции с метаданными с максимальной гибкостью.
+       [GroupDocs.Metadata for Java](/metadata/java/) предлагает расширенный набор функций управления и манипулирования метаданными, позволяющий разработчикам легко читать, редактировать, удалять, искать, сравнивать, заменять и экспортировать информацию метаданных из изображений и форматов документов без с помощью любого внешнего программного обеспечения. Извлекайте детали метаданных из форматов файлов PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, архивов и мультимедиа и выполняйте поддерживаемые операции с метаданными с истинной гибкостью.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Этапы извлечения метаданных VSD в Java"
-    content_left: |
-        [GroupDocs.Metadata for Java](/ru/metadata/java/) позволяет разработчикам Java легко извлекать, читать и извлекать метаданные из VSD файлов из своих приложений, выполнив несколько простых шагов.
-        
-        * Загрузите VSD с экземпляром класса Metadata.
-        * Создайте предикат для проверки всех свойств метаданных.
-        * Передайте предикат методу findProperties.
-        * Просмотрите найденные свойства.
+    title: "Шаги по извлечению метаданных VSD в Java"
+    content: |
+      [GroupDocs.Metadata](https://products.groupdocs.com/metadata/java/) позволяет разработчикам Java легко извлекать и читать метаданные из файлов VSD из своих приложений, выполнив несколько простых шагов.
+      
+      1. Загрузите VSD с экземпляром класса Java.
+      2. Создайте предикат для проверки всех свойств метаданных.
+      3. Передайте предикат методу FindProperties.
+      4. Перебрать найденные свойства.
+   
+    code:
+      platform: "net"
+      copy_title: "Копировать"
+      install:
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-metadata</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
 
-    title_right: "Системные требования"
-    content_right: |
-        GroupDocs.Metadata for Java API поддерживаются на всех основных платформах и операционных системах. Перед выполнением приведенного ниже кода убедитесь, что в вашей системе установлены следующие предварительные условия.
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
+        copy_tip: "нажмите, чтобы скопировать"
+        copy_done: "скопирован"
+      links:
+        #  loop
+        - title: "Больше примеров"
+          link: "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java/"
+        #  loop
+        - title: "Документация"
+          link: "https://docs.groupdocs.com/metadata/java/"
+          
+      content: |
+        ```java {style=abap}
+        // Поиск метаданных изображения в документе VSD
 
-        * Операционные системы: ОС Microsoft Windows, Linux, Mac
-        * Среды разработки: NetBeans, IntelliJ IDEA, Eclipse
-        * Java Среда выполнения: J2SE 6.0 and above
-        * Загрузите последнюю версию GroupDocs.Metadata for Java с сайта [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
-         
-    code: |
-        ```java    
-        try (Metadata metadata = new Metadata("input.asf"))
+        // Составьте Metadata, передав VSD в конструктор.
+        try (Metadata metadata = new Metadata("input.vsd"))
         {
-            if (metadata.getFileFormat() != FileFormat.Unknown && !metadata.getDocumentInfo().isEncrypted())
+            // Получить все свойства метаданных, которые попадают в определенную категорию.
+            IReadOnlyList properties = metadata.findProperties(
+                new FallsIntoCategorySpecification(Tags.getContent()));
+
+            // Обработка найденных записей метаданных
+            System.out.println("The metadata properties describing some characteristics of 
+                the file content: title, keywords, language, etc.");
+            for (MetadataProperty property : properties) 
             {
-                // Извлеките все свойства метаданных, которые относятся к определенной категории
-                IReadOnlyList properties = metadata.findProperties(new FallsIntoCategorySpecification(Tags.getContent()));
-                System.out.println("The metadata properties describing some characteristics of the file content: title, keywords, language, etc.");
-                for (MetadataProperty property : properties) 
-                {
-                    System.out.println(String.format("Property name: %s, Property value: %s", property.getName(), property.getValue()));
-                }
+                System.out.println(String.format("Property name: %s, Property value: %s", 
+                    property.getName(), property.getValue()));
             }
         }
-        ```
-
-############################# Demos ############################
-demos:
-    enable: true
-    title: "Живые демоверсии извлечения метаданных"
-    content: |
-       Получите метаданные файла VSD прямо сейчас, посетив веб-сайт [GroupDocs.Metadata Live Demos](https://products.groupdocs.app/metadata/family).
-       Живая демонстрация имеет следующие преимущества.
         
-############################# About Formats ############################
-about_formats:
-    enable: true
+        ```          
+        
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Поиск метаданных в бизнес-файлах с помощью GroupDocs.Metadata"
+  description: "Управляйте скрытыми данными в конфиденциальных файлах и документах с помощью приложений Java на базе библиотеки GroupDocs.Metadata."
+  image: "/img/metadata/features_search.webp" # 500x500 px
+  image_description: "Java Поиск метаданных"
+  features:
+    # feature loop
+    - title: "Инструменты Java для детального поиска метаданных"
+      content: "Расширьте свои возможности обработки документов в Java с помощью GroupDocs.Metadata. Наше программное обеспечение предоставляет эффективные инструменты для поиска и обработки скрытых метаданных."
 
-############################# More Formats ############################
+    # feature loop
+    - title: "Настройка получения метаданных"
+      content: "Точно ориентируйтесь на конкретные метаданные. Настройте поиск для фильтрации по множеству параметров, таких как текст, дата, регулярные выражения и т. д., чтобы вы получили именно то, что вам нужно."
+
+    # feature loop
+    - title: "Эффективная обработка метаданных"
+      content: "Используйте Java для обработки значений найденных записей метаданных. Используйте GroupDocs.Metadata для эффективного управления метаданными. Вы можете добавлять, обновлять или удалять любые метаданные в поддерживаемых форматах."
+      
+  code_samples:
+    # code sample loop
+    - title: "Java Пример: метаданные электронной книги"
+      content: |
+        В этом примере кода показано, как читать свойства метаданных, специфичные для формата EPUB.
+        {{< landing/code title="Java">}}
+        ```java {style=abap}
+        
+        //  Передать электронную книгу EPUB объекту Metadata
+        try (Metadata metadata = new Metadata("input.epub")) {
+
+            //  Получить все встроенные метаданные
+            EpubRootPackage root = metadata.getRootPackageGeneric();
+
+            //  Обработка полученных данных
+            System.out.println(root.getEpubPackage().getVersion());
+            System.out.println(root.getEpubPackage().getUniqueIdentifier());
+            System.out.println(root.getEpubPackage().getImageCover() != null ? 
+                root.getEpubPackage().getImageCover().length : 0);
+        }
+
+        ```
+        {{< /landing/code >}}
+
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Готовы начать?"
+  description: "Попробуйте функции GroupDocs.Metadata бесплатно или запросите лицензию."
+  items:
+    #  loop
+    - title: "Загрузка Maven"
+      link: "https://releases.groupdocs.com/metadata/java/"
+      color: "red"
+        #  loop
+    - title: "Лицензирование"
+      link: "https://purchase.groupdocs.com/pricing/metadata/java/"
+      color: "light"
+
+
+############################# More Formats #####################
 more_formats:
     enable: true
     title: "Чтение и извлечение файлов других форматов"
-    content: |
-        API извлечения метаданных многоформатных документов и изображений для Java. Извлеките метаданные некоторых популярных форматов файлов, как указано ниже.
+    exclude: "VSD"
+    description: "API извлечения метаданных многоформатных документов и изображений для Java. Получите метаданные некоторых популярных форматов файлов, как указано ниже."
+    items: 
+        # format loop 1
+        - name: "Добавить метаданные в AVI"
+          format: "AVI"
+          link: "/metadata/java/extract/avi/"
+          description: "(Файл чередования аудио-видео)"
+          
+        # format loop 2
+        - name: "Добавить метаданные в DJVU"
+          format: "DJVU"
+          link: "/metadata/java/extract/djvu/"
+          description: "(Формат графического файла)"
+          
+        # format loop 3
+        - name: "Добавить метаданные в DOCX"
+          format: "DOCX"
+          link: "/metadata/java/extract/docx/"
+          description: "(Документ Office 2007+ Word)"
+          
+        # format loop 4
+        - name: "Добавить метаданные в EPUB"
+          format: "EPUB"
+          link: "/metadata/java/extract/epub/"
+          description: "(Открыть файл электронной книги)"
+          
+        # format loop 5
+        - name: "Добавить метаданные в HEIC"
+          format: "HEIC"
+          link: "/metadata/java/extract/heic/"
+          description: "(Высокоэффективный формат изображения)"
+          
+        # format loop 6
+        - name: "Добавить метаданные в JPEG"
+          format: "JPEG"
+          link: "/metadata/java/extract/jpeg/"
+          description: "(Изображение Объединенной экспертной группы по фотографии)"
+          
+        # format loop 7
+        - name: "Добавить метаданные в MOV"
+          format: "MOV"
+          link: "/metadata/java/extract/mov/"
+          description: "(Фильм Apple QuickTime)"
+          
+        # format loop 8
+        - name: "Добавить метаданные в MP3"
+          format: "MP3"
+          link: "/metadata/java/extract/mp3/"
+          description: "(Аудиофайл MP3)"
+          
+        # format loop 9
+        - name: "Добавить метаданные в MSG"
+          format: "MSG"
+          link: "/metadata/java/extract/msg/"
+          description: "(Файл элемента сообщения Outlook)"
+          
+        # format loop 10
+        - name: "Добавить метаданные в ODS"
+          format: "ODS"
+          link: "/metadata/java/extract/ods/"
+          description: "(таблица OpenDocument)"
+          
+        # format loop 11
+        - name: "Добавить метаданные в ODT"
+          format: "ODT"
+          link: "/metadata/java/extract/odt/"
+          description: "(Формат текстового файла OpenDocument)"
+          
+        # format loop 12
+        - name: "Добавить метаданные в PDF"
+          format: "PDF"
+          link: "/metadata/java/extract/pdf/"
+          description: "(Портативный формат документа)"
+          
+        # format loop 13
+        - name: "Добавить метаданные в PNG"
+          format: "PNG"
+          link: "/metadata/java/extract/png/"
+          description: "(Портативная сетевая графика)"
+          
+        # format loop 14
+        - name: "Добавить метаданные в PPTX"
+          format: "PPTX"
+          link: "/metadata/java/extract/pptx/"
+          description: "(Открытый формат презентации XML)"
+          
+        # format loop 15
+        - name: "Добавить метаданные в TIFF"
+          format: "TIFF"
+          link: "/metadata/java/extract/tiff/"
+          description: "(Формат файла изображения с тегами)"
+          
+        # format loop 16
+        - name: "Добавить метаданные в TORRENT"
+          format: "TORRENT"
+          link: "/metadata/java/extract/torrent/"
+          description: "(ссылка на торрент)"
+          
+        # format loop 17
+        - name: "Добавить метаданные в VSDX"
+          format: "VSDX"
+          link: "/metadata/java/extract/vsdx/"
+          description: "(Рисунок Visio)"
+          
+        # format loop 18
+        - name: "Добавить метаданные в WAV"
+          format: "WAV"
+          link: "/metadata/java/extract/wav/"
+          description: "(Аудиофайл WAVE)"
+          
+        # format loop 19
+        - name: "Добавить метаданные в WEBP"
+          format: "WEBP"
+          link: "/metadata/java/extract/webp/"
+          description: "(Формат растрового веб-изображения)"
+          
+        # format loop 20
+        - name: "Добавить метаданные в XLSX"
+          format: "XLSX"
+          link: "/metadata/java/extract/xlsx/"
+          description: "(Открытая книга XML)"
+          
+        # format loop 21
+        - name: "Добавить метаданные в ZIP"
+          format: "ZIP"
+          link: "/metadata/java/extract/zip/"
+          description: "(Заархивированный файл)"
+          
 
-############################# Back to top ###############################
-back_to_top:
-    enable: true
 ---

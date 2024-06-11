@@ -1,0 +1,60 @@
+{
+  "head": {
+    "title": "{{EnvNameShort}} アプリの {{FileFormatUp}} ファイルからメタデータを読み取る",
+    "description": "{{EnvNameShort}} の {{FileFormatUp}} ファイルに簡単にアクセスしてメタデータを抽出します。 XMP、EXIF、IPTC、ID3 などの一般的な形式で動作します。"
+  },
+  "header": {
+    "title": "{{FileFormatUp}} ファイルからメタデータを抽出する",
+    "description": "{{ProdFullName}} を使用して、幅広いドキュメント、画像、オーディオ、ビデオ形式からメタデータを抽出します。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "無料トライアルをダウンロード"
+  },
+  "about": {
+    "title": "{{ProdFullName}} API とは何ですか?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) を使用すると、画像やドキュメントのメタデータを簡単に表示、編集、追加、削除、検索、管理できます。外部ソフトウェアは必要ありません。 PDF、Word ドキュメント、Excel シートなどのさまざまな形式から詳細を抽出します。さらに、メタデータを操作するための高度な機能も提供します。"
+  },
+  "formats": {
+    "title": "他のファイルタイプからの詳細の読み取り",
+    "description": "{{EnvName}} のさまざまなドキュメントや画像からメタデータを抽出します。この API は、次のような一般的な形式をサポートしています..."
+  },
+  "examples": {
+    "comment_1": "{{FileFormatUp}} ファイルからすべての詳細を抽出します",
+    "comment_2": "{{FileFormatUp}} をコンストラクターに渡す {{TextMetadata}} を作成します",
+    "comment_3": "ファイルからすべての詳細を抽出する",
+    "comment_4": "抽出したメタデータをアプリケーションに使用する"
+  },
+  "steps": {
+    "title": "{{ProdShortName}} を使用して {{EnvNameShort}} の {{FileFormatUp}} ファイルからメタデータを抽出する方法",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) を使用して、{{EnvName}} アプリケーション内の {{FileFormatUp}} ファイルからメタデータを簡単に抽出します。その方法は次のとおりです。",
+      "step_1": "メタデータを抽出する {{FileFormatUp}} ファイルをロードします。",
+      "step_2": "フィルターを使用して、抽出する詳細を指定します。",
+      "step_3": "{{TextFindProperties}} を使用して抽出プロセスを開始します。",
+      "step_4": "アプリケーションのニーズに応じて、抽出された詳細にアクセスします。"
+    }
+  },
+  "more_features": {
+    "title": "{{ProdShortName}} を使用してビジネス ファイル内の隠されたメタデータを見つける",
+    "description": "{{ProdShortName}} ライブラリを使用する {{EnvName}} アプリケーションで、機密文書内の非表示の詳細 (メタデータ) を簡単に検索して管理します。",
+    "image_description": "{{EnvNameShort}} ファイル内のメタデータを検索",
+    "feature_1": {
+      "title": "{{EnvNameShort}} の強力なメタデータ検索",
+      "content": "{{ProdShortName}} を使用して、{{EnvName}} でのドキュメント処理を強化します。検索ツールを使用して、隠れた詳細をすばやく簡単に見つけます。"
+    },
+    "feature_2": {
+      "title": "正確なメタデータフィルタリング",
+      "content": "必要な特定のデータをターゲットにします。テキスト、日付、または特別なパターンで検索して、探しているものを正確に見つけます。"
+    },
+    "feature_3": {
+      "title": "効率的なメタデータ管理",
+      "content": "{{ProdShortName}} を使用して、{{EnvName}} ファイル内の詳細 (メタデータ) を管理します。サポートされているファイル形式内で、必要に応じて詳細を追加、更新、または削除します。"
+    },
+    "code_1": {
+      "title": "電子書籍の詳細を読む ({{EnvName}} の例)",
+      "content": "このコード例は、EPUB 電子書籍に固有の詳細にアクセスする方法を示しています。",
+      "comment_1": "EPUB ファイルを {{TextMetadata}} オブジェクトに読み込みます。",
+      "comment_2": "EPUB ファイルからすべての組み込みの詳細を取得します。",
+      "comment_3": "取得したデータはアプリケーションのニーズに合わせて使用​​します。"
+    }
+  }
+}

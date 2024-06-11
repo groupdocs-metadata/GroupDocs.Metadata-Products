@@ -1,0 +1,578 @@
+{
+  "index-content": {
+    "head_title": "{{NameCompany}}의 .NET, Java, Node.js API 및 온라인 메타데이터 조작 앱",
+    "head_description": "C# .NET 및 Java에 기본으로 제공되는 문서 메타데이터 API입니다. 널리 사용되는 모든 형식의 메타 정보를 읽고, 쓰고, 편집하고 비교할 수 있습니다. 메타데이터를 분석하고 내보냅니다.",
+    "title": "문서메타데이터 관리 솔루션",
+    "description_0": "널리 사용되는 플랫폼에서 문서, 이미지 및 기타 파일 형식의 메타데이터를 읽고, 편집하고, 교체하고, 제거하는 API 및 앱입니다.",
+    "description_1": "비즈니스 파일과 문서에 숨겨진 메타데이터 정보를 추가하세요.",
+    "description_2": "문서에 이미 표시된 메타데이터를 수정하거나 제거합니다.",
+    "description_3": "문서 및 파일 메타데이터에 대한 정보를 수집하고 분석합니다.",
+    "words_for": "~을 위한",
+    "release_title": "버전 {0} 출시됨",
+    "release_notes": "새로운 소식 보기",
+    "release_downloads": "다운로드",
+    "code_more": "더 많은 예시",
+    "overview_title": "{{ProdShortName}} 개요",
+    "formats_title": "지원되는 파일 형식",
+    "platforms": {
+      "title": "플랫폼 독립성",
+      "head_title": "플랫폼을 선택하세요",
+      "description": "{{ProdShortName}}은(는) 다양한 운영 체제 및 프레임워크와 호환됩니다.",
+      "learn_more": "더 알아보기",
+      "any_other_text_editor": "다른 텍스트 편집기"
+    },
+    "features": {
+      "title": "{{ProdShortName}} 기능 검토",
+      "description": "당사의 솔루션은 이미지 및 사무실 문서를 포함하여 널리 사용되는 다양한 파일 형식의 메타데이터를 조작하도록 설계되었습니다.",
+      "feature_1": {
+        "title": "비즈니스 정보를 보호하세요",
+        "content": "민감한 파일과 문서에 숨겨진 메타데이터를 추가하세요."
+      },
+      "feature_2": {
+        "title": "제어 문서 메타데이터",
+        "content": "문서에 포함된 메타데이터에 대한 자세한 정보를 수집합니다."
+      },
+      "feature_3": {
+        "title": "메타데이터 정보 조작",
+        "content": "지원되는 다양한 파일 형식의 콘텐츠를 수정하거나 메타데이터를 삭제하세요."
+      },
+      "feature_4": {
+        "title": "다양한 추가 기능",
+        "content": "문서 미리보기, 메타데이터 패키지 추출 등"
+      }
+    },
+    "formats": {
+      "title": "70개 이상의 형식이 지원됩니다.",
+      "description": "{{ProdShortName}}은 널리 사용되는 문서 및 파일 형식의 메타데이터를 제어하는 ​​데 도움이 됩니다."
+    },
+    "code_samples": {
+      "title": "코드 샘플",
+      "index_title": "메타데이터를 사용하여 문서 보호",
+      "index_description": "{{ProdShortName}} 일반적인 작업 코드 예시입니다.",
+      "more_examples": "더 많은 예시",
+      "sample_index": {
+        "title": "이미지 및 문서에서 불필요한 메타데이터 제거",
+        "content": "{{ProdShortName}}을 사용하면 파일과 문서에서 숨겨진 정보를 쉽게 제거할 수 있습니다. 이미지를 촬영한 시기와 장소 등의 세부 정보를 빠르게 삭제하거나 Office 문서에서 작성자 및 편집자 정보를 제거할 수 있습니다.",
+        "comment_1": "문서 경로를 {{TextMetadata}} 생성자에 전달합니다.",
+        "comment_2": "작성자 및 편집자에 연결된 문서 속성 제거",
+        "comment_3": "메타데이터 제거 처리 결과",
+        "comment_4": "정리된 문서 저장"
+      },
+      "sample_1": {
+        "code_title": "특정 문서 메타데이터를 얻는 방법",
+        "comment_1": "소스 문서를 메타데이터 생성자에 로드",
+        "comment_2": "마지막 문서 편집자의 이름이 포함된 모든 속성을 가져옵니다.",
+        "comment_3": "또는 문서가 마지막으로 수정된 날짜/시간",
+        "comment_4": "검색된 메타데이터 항목 처리"
+      },
+      "sample_2": {
+        "code_title": "형식에 관계없이 일부 누락된 메타데이터 속성을 파일에 추가하는 방법.",
+        "comment_1": "소스 문서 로드",
+        "comment_2": "파일이 누락된 경우 마지막 인쇄 날짜를 포함하는 속성을 추가하세요.",
+        "comment_3": "문서가 이러한 유형의 메타데이터를 지원하는 경우 속성이 추가됩니다.",
+        "comment_4": "수정된 문서를 지정된 경로에 저장"
+      }
+    },
+    "metrics": {
+      "title": "{{ProdShortName}} 업적",
+      "description": "우리 도서관 성과의 주요 지표를 알아보세요",
+      "item_1": {
+        "title": "지원되는 형식",
+        "description": "{{ProdShortName}}은 70개 이상의 널리 사용되는 파일 형식에 대한 메타데이터 조작을 지원합니다."
+      },
+      "item_2": {
+        "title": "NuGet 다운로드",
+        "description": ".NET NuGet 패키지용 {{ProdShortName}}이(가) 700,000회 이상 다운로드되었습니다."
+      },
+      "item_3": {
+        "title": "메이븐 다운로드",
+        "description": "{{ProdShortName}}은 Maven에서 15,000회 다운로드되었습니다. 강력한 Java 메타데이터 관리."
+      },
+      "item_4": {
+        "title": "행복한 고객",
+        "description": "개인 개발자와 유명 기업은 혁신적인 솔루션을 구축하기 위해 {{NameCompany}} 제품을 선호합니다."
+      }
+    },
+    "customers": {
+      "title": "우리의 행복한 고객",
+      "description": "{{NameCompany}} 제품은 전 세계적으로 많은 고객들로부터 신뢰를 받고 있으며 전 세계적으로 경쟁력 있는 많은 비즈니스 솔루션에 사용됩니다."
+    },
+    "actions": {
+      "alt": "라이선스",
+      "title": "시작할 준비가 되셨나요?",
+      "description": "{{ProdShortName}} 기능을 무료로 사용해 보거나 라이선스를 요청하세요",
+      "description_index": "귀하의 애플리케이션에서 {{ProdShortName}} 기능을 무료로 사용해 보세요."
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "description": "우리 제품에 대해 질문이 있나요? 우리는 답을 가지고 있습니다!",
+      "item_1": {
+        "question": "{{ProdShortName}}에서는 문서 메타데이터 처리를 위해 타사 소프트웨어가 필요합니까?",
+        "answer": "{{ProdShortName}}은 독립적으로 작동합니다. Microsoft Office 또는 Adobe Acrobat과 같은 외부 라이브러리는 필요하지 않습니다."
+      },
+      "item_2": {
+        "question": "구매하기 전에 {{ProdShortName}} 기능을 사용해 볼 수 있나요?",
+        "answer": "전적으로! {{ProdShortName}}에서는 무료 평가판을 제공합니다. 설치하고 기능을 살펴보세요. 그러나 평가판 버전은 문서에 '평가판 배지'를 추가하고 처음 3페이지만 처리한다는 점에 유의하세요. 완전한 경험을 위해서는 전체 기능을 사용할 수 있는 30일 무료 임시 라이선스를 받으세요. 자세한 내용은 [여기]({{LicensingUrl}})에서 확인하세요."
+      },
+      "item_3": {
+        "question": "어떤 유형의 라이선스를 사용할 수 있나요?",
+        "answer": "{{ProdShortName}} 라이선스를 찾고 계십니까? 우리는 다양한 옵션을 제공합니다. 팀의 개발자 수, 배포 위치(예: 단일 사무실 또는 원격 작업장), 최종 고객 배포 시 SDK/API를 클라이언트와 공유해야 하는지 여부 등의 요소를 기반으로 요구 사항에 맞는 라이선스 중에서 선택하세요. 또는 계량 요금제를 통해 사용량에 따라 비용을 지불하는 월간 사용 라이선스를 선택하세요. [여기]({{PricingUrl}})에서 자세히 알아보고 꼭 맞는 제품을 찾아보세요."
+      }
+    },
+    "cloud_links": {
+      "title": "{{ProdShortName}} 로우 코드 API에는 다음이 포함됩니다.",
+      "description": "클라우드 기반 REST API를 사용하여 애플리케이션 내 비즈니스 파일의 민감한 메타데이터를 관리하세요.",
+      "item_1": {
+        "content": "cURL RESTful 메타데이터 조작 API를 사용하여 애플리케이션에서 PDF, Word, Excel, 프레젠테이션, 이미지 및 멀티미디어 파일의 메타데이터 정보를 관리하세요."
+      },
+      "item_2": {
+        "content": ".NET SDK와 함께 메타데이터 REST API를 사용하여 .NET 애플리케이션 내의 문서 형식에서 메타데이터를 추가, 편집, 추출, 검색 및 삭제합니다."
+      },
+      "item_3": {
+        "content": "Java용 Metadata SDK를 사용하여 강력한 메타데이터 관리 기능으로 Java 애플리케이션을 강화하세요."
+      }
+    },
+    "app_links": {
+      "title": "{{ProdShortName}} 코드 앱이 포함되지 않음",
+      "description": "문서 메타데이터 관리를 위해 {{NameCompany}} 웹 애플리케이션에 액세스하세요. 즐겨 사용하는 브라우저에서 70개 이상의 인기 파일 형식을 무료로 처리하세요.",
+      "item_1": {
+        "content": "Word, Excel, PDF, PowerPoint 및 70개 이상의 문서 유형의 메타데이터를 보고 편집할 수 있는 무료 앱입니다."
+      },
+      "item_2": {
+        "content": "MS Word 문서용 무료 온라인 메타데이터 뷰어 및 편집기."
+      },
+      "item_3": {
+        "content": "PDF 문서의 메타데이터 정보를 온라인으로 보거나 편집합니다."
+      }
+    },
+    "formats_groups": {
+      "title_1": "사무실 형식",
+      "title_2": "미디어 및 그래픽",
+      "title_3": "다른",
+      "format_portable": "가지고 다닐 수 있는",
+      "format_video": "동영상",
+      "format_audio": "오디오",
+      "format_fonts": "글꼴",
+      "format_project": "프로젝트",
+      "format_others": "기타",
+      "format_popular_images": "인기 있는 이미지 형식",
+      "format_multi_images": "다중 페이지 이미지"
+    }
+  },
+  "index-content-net": {
+    "head_title": "{{EnvNameShort}} 메타데이터 리더, 뷰어, 추출기, 제거기 및 내보내기 API",
+    "head_description": "PDF Word Excel PPTX Outlook 오디오 비디오 및 이미지의 메타데이터를 읽고, 쓰고, 편집, 분석, 검색, 추출, 제거, 비교 및 ​​내보내기 위한 {{ProgLang}} {{EnvNameShort}} 메타데이터 API입니다.",
+    "title": "메타데이터 관리 및 조작을 위한 {{EnvNameShort}} API",
+    "description": "모든 인기 문서 및 이미지 파일 형식의 메타데이터 정보를 읽고, 편집하고, 제거하고, 검색하고, 비교하고, 바꾸고, 내보낼 수 있는 {{EnvNameShort}} 애플리케이션을 구축하세요.",
+    "actions_main": "무료 NuGet 다운로드",
+    "code_title": "메타데이터 속성을 빠르게 가져오기",
+    "code_comment_1": "JPEG 이미지를 메타데이터에 전달",
+    "code_comment_2": "기본 메타데이터 패키지 제거",
+    "code_comment_3": "지워진 이미지 저장",
+    "overview_description": "다음은 {{ProdFullName}}의 개요입니다.",
+    "overview_feature_1": {
+      "title": "{{ProgLang}} 애플리케이션 통합",
+      "description": "{{ProdFullName}} API는 {{ProgLang}}, {{AspNet}} 및 기타 {{EnvNameShort}} 기반 애플리케이션과 쉽게 통합되어 최종 사용자가 다양한 이미지, 문서 및 기타 미디어 파일의 메타데이터를 조작하는 데 도움이 됩니다. 외부 소프트웨어를 설치하지 않고도 포맷할 수 있습니다. {{EnvNameShort}} 메타데이터 라이브러리는 PDF, Microsoft Office Word, Excel 스프레드시트, PowerPoint 프리젠테이션, Outlook과 같은 다양한 업계 표준 문서 형식 내에서 메타데이터 뷰어, 편집기, 제거기, 추출기, 비교 및 ​​내보내기 기능을 빠르게 추가하는 구축 도구를 지원합니다. 이메일, 프로젝트, Visio 다이어그램, OneNote, 이미지, AutoCAD, Photoshop, 오디오, 비디오 및 메타파일."
+    },
+    "overview_feature_2": {
+      "title": "다양한 메타데이터 유형",
+      "description": "Metadata API는 매우 유연하고 작동하기 쉽습니다. 문서 파일을 입력으로 가져오고, 메타데이터 정보를 분석하고, 지원되는 메타데이터 작업을 수행하고 수정된 파일을 저장하여 나중에 사용할 때 빠르게 액세스할 수 있습니다. 내장, XMP, EXIF, IPTC, 이미지 리소스 블록, ID3 및 사용자 정의 메타데이터 속성과 같은 가장 주목할만한 메타데이터 표준과 함께 작동합니다. {{ProdFullName}} API를 통해 두 문서를 비교하여 메타데이터 속성에 존재하는 차이점과 유사점을 식별할 수도 있습니다. 필요한 문서의 메타데이터를 Excel, CSV 또는 DataSet으로 내보낼 수도 있습니다."
+    },
+    "overview_feature_3": {
+      "title": "널리 사용되는 모든 환경이 지원됩니다.",
+      "description": "{{ProdFullName}}은(는) {{EnvNameShort}} 플랫폼을 대상으로 하는 모든 개발 환경에서 애플리케이션을 개발하는 데 사용할 수 있습니다. 모든 {{EnvNameShort}} 기반 언어와 호환되며 {{Mono}} 또는 {{EnvNameShort}} 프레임워크({{CoreNet}} 포함)를 설치할 수 있는 널리 사용되는 운영 체제(Windows, Linux, MacOS)를 지원합니다."
+    },
+    "features": {
+      "title": "{{ProdFullName}} 기능",
+      "description": "메타데이터를 사용하여 PDF, Office, 이미지 및 기타 형식 보호",
+      "feature_1": {
+        "title": "내장 및 사용자 정의 메타데이터 식별",
+        "content": "많은 파일 형식에는 필수 메타데이터가 있습니다. 자신의 목표에 맞게 사용자 정의 메타데이터와 함께 조작하십시오."
+      },
+      "feature_2": {
+        "title": "특정 카메라로 촬영한 사진 찾기",
+        "content": "카메라 제조업체, 모델, 해상도 등을 포함하여 메타데이터에 저장된 사진에 대한 정보를 얻습니다."
+      },
+      "feature_3": {
+        "title": "디지털 서명 감지/제거 기능",
+        "content": "비즈니스 파일에서 모든 디지털 메타데이터를 찾아 필요한 것을 제거하세요."
+      },
+      "feature_4": {
+        "title": "사진 위치",
+        "content": "이미지 메타데이터 속성 가져오기 및 사진에서 위치 정보 제거"
+      },
+      "feature_5": {
+        "title": "메타데이터 검색",
+        "content": "파일의 메타데이터 속성을 검색하고 모든 유형의 메타데이터를 열거합니다."
+      },
+      "feature_6": {
+        "title": "깨끗한 비즈니스 데이터",
+        "content": "보고서 및 문서에서 메타데이터 및 설명 제거"
+      },
+      "feature_7": {
+        "title": "문서 미리보기",
+        "content": "EPUB, CAD, EML 및 MSG 파일에 대한 이미지 미리보기 생성"
+      },
+      "feature_8": {
+        "title": "Matroska 멀티미디어 지원",
+        "content": "Matroska 자막을 읽고 오디오 및 비디오 파일의 메타데이터를 검색합니다."
+      },
+      "feature_9": {
+        "title": "아카이브 형식 및 급류의 메타데이터 가져오기",
+        "content": ".ZIP과 같은 아카이브 파일 및 토렌트 데이터가 포함된 파일의 메타데이터 조작"
+      },
+      "feature_10": {
+        "title": "문서 파일 형식의 런타임 인식",
+        "content": "우리 솔루션은 메타데이터 처리 전에 파일 또는 스트림 유형을 감지하는 기능을 제공합니다."
+      },
+      "feature_11": {
+        "title": "메타데이터 구별 분석",
+        "content": "지원되는 형식의 메타데이터 속성을 비교하고 차이점이나 유사점을 식별합니다."
+      },
+      "feature_12": {
+        "title": "문서 및 이미지의 메모리 소비 감소",
+        "content": "숨겨진 추가 데이터로부터 문서 및 이미지 정리"
+      },
+      "feature_13": {
+        "title": "Office 문서 제어",
+        "content": "Microsoft Word, Excel, PowerPoint 및 PDF 파일에서 숨겨진 데이터를 검색하고 제거합니다."
+      },
+      "feature_14": {
+        "title": "지원되는 파일 형식의 메타데이터 속성 바꾸기",
+        "content": "적합한 문서 메타데이터 목록을 가져오고 각 항목의 내용을 바꾸는 것이 완전히 가능합니다."
+      },
+      "feature_15": {
+        "title": "TIFF 이미지 지원",
+        "content": "TIFF 이미지의 IPTC 메타데이터 패키지 추가, 업데이트 및 삭제"
+      },
+      "feature_16": {
+        "title": "마이크로소프트 엑셀 지원",
+        "content": "Excel 95부터 Microsoft Excel 파일에서 메타데이터 추출"
+      },
+      "feature_17": {
+        "title": "PNG 이미지 지원",
+        "content": "PNG 이미지 파일에서 텍스트 메타데이터 추출"
+      },
+      "feature_18": {
+        "title": "MIME 유형 감지",
+        "content": "특정 파일 또는 파일 스트림의 MIME 유형 감지"
+      },
+      "feature_19": {
+        "title": "이미지 미리보기",
+        "content": "지원되는 형식에 대한 썸네일 검색 및 이미지 미리 보기 렌더링"
+      },
+      "feature_20": {
+        "title": "Matroska 멀티미디어 보안",
+        "content": "Matroska 멀티미디어 컨테이너에 대한 비밀번호 보호 및 지원을 식별합니다."
+      },
+      "feature_21": {
+        "title": "내장된 메타데이터 지원",
+        "content": "정의된 키를 사용하여 지원되는 형식의 메타데이터 속성을 읽습니다."
+      },
+      "feature_22": {
+        "title": "EXIF 이미지 메타데이터",
+        "content": "WEBP, PNG 및 PSD 파일의 EXIF ​​메타데이터 속성 업데이트"
+      },
+      "feature_23": {
+        "title": "이메일 및 글꼴 지원",
+        "content": "이메일 메시지의 메타데이터 읽기 및 OpenType 글꼴 파일 구문 분석"
+      },
+      "feature_24": {
+        "title": "멀티미디어 파일 처리",
+        "content": "MOV, MP3 및 WEBP 파일에서 XMP 메타데이터 속성 추출"
+      }
+    },
+    "platforms_description": "{{ProdFullName}}은(는) 다음 운영 체제, 프레임워크 및 패키지 관리자를 지원합니다.",
+    "formats_description": "{{ProdFullName}}은(는) 다음 [문서 파일 형식]({{SupportedFormatsUrl}})을 지원합니다.",
+    "code_samples_description": "일반적인 {{ProdFullName}} 작업의 일부 사용 사례",
+    "code_title_sample_1": "숨겨진 메타데이터 찾기",
+    "code_samples_sample_1_content": "내부 문서 콘텐츠를 제어하려면 [문서 메타데이터]({{Sample1Url}})를 찾아서 처리할 수 있습니다.",
+    "code_title_sample_2": "문서 내용 보안",
+    "code_samples_sample_2_content": "콘텐츠를 보호하려면 비즈니스 파일에 [숨겨진 메타데이터]({{Sample2Url}})를 추가하세요."
+  },
+  "index-content-java": {
+    "head_title": "{{EnvNameShort}} 메타데이터 API – 문서 메타데이터 보기, 읽기, 내보내기, 편집, 제거",
+    "head_description": "PDF Word Excel PPTX Outlook Visio 오디오 비디오 및 이미지 문서의 메타데이터 보기, 읽기, 편집, 분석, 찾기, 삭제, 비교 및 ​​내보내기를 위한 {{EnvNameShort}} 메타데이터 API입니다.",
+    "title": "{{EnvNameShort}}용 메타데이터 조작 API",
+    "description": "인기 있는 문서 및 이미지 형식의 메타데이터를 생성, 보기, 액세스, 업데이트, 삭제, 검색, 비교, 대체 및 내보내기 위한 {{EnvNameShort}} 애플리케이션을 개발합니다.",
+    "actions_main": "Maven에서 무료 다운로드",
+    "code_title": "메타데이터 속성을 효율적으로 가져오기",
+    "code_comment_1": "메타데이터 생성자에 MP3 경로 제공",
+    "code_comment_2": "내장된 MP3 메타데이터 처리",
+    "overview_description": "{{EnvNameShort}}를 통한 메타데이터 조작을 위해 설계된 라이브러리",
+    "overview_feature_1": {
+      "title": "파일 및 문서 메타데이터 제어",
+      "description": "{{ProdFullName}}은 문서, 이미지, 아카이브, 토렌트 및 기타 다양한 파일 형식의 메타데이터 정보를 조작하는 고급 메타데이터 관리 API입니다. 이제 개발자는 PDF, Microsoft Office Word, Excel 스프레드시트 등 널리 사용되는 모든 비즈니스 문서 형식 내에서 메타데이터 보기, 수정, 삭제, 추출, 검색, 비교, 대체 및 내보내기 기능을 쉽게 통합하여 {{EnvNameShort}} 애플리케이션의 기능을 향상시킬 수 있습니다. , PowerPoint 프레젠테이션 및 슬라이드, Outlook 이메일, Project, Visio 다이어그램, OneNote, 이미지, AutoCAD, Photoshop, 오디오, 비디오, OpenType 글꼴 및 메타파일."
+    },
+    "overview_feature_2": {
+      "title": "내장된 메타데이터 조작",
+      "description": "{{EnvNameShort}} 메타데이터 라이브러리는 메타데이터 검색, 메타데이터 속성 교체, 지원되는 파일 형식의 메타데이터 비교 등의 기능을 제공하여 유사점과 차이점을 식별합니다. 또한 더 나은 정보 관리를 위해 메타데이터를 편집하거나 수정할 수 있으며 검색된 메타데이터 정보를 Excel 파일, CSV 파일 및 DataSet으로 내보낼 수도 있습니다. API는 지원되는 문서 형식 내에서 기본 제공, XMP, EXIF ​​및 사용자 정의 메타데이터 속성과 같이 일반적으로 사용되는 모든 메타데이터 표준을 사용할 수 있도록 포괄적인 지원을 제공합니다."
+    },
+    "overview_feature_3": {
+      "title": "광범위한 플랫폼 지원",
+      "description": "{{ProdFullName}}은 모든 {{EnvNameShort}} 버전과 호환되며 {{EnvNameShort}} 런타임을 실행할 수 있는 널리 사용되는 운영 체제(Windows, Linux, MacOS)를 지원합니다."
+    },
+    "features": {
+      "title": "{{ProdFullName}} 기능",
+      "description": "PDF, Office 문서 및 이미지 메타데이터를 보호하세요.",
+      "feature_1": {
+        "title": "EXIF 이미지 메타데이터",
+        "content": "WEBP, PNG 및 PSD 파일의 EXIF ​​메타데이터 속성 업데이트"
+      },
+      "feature_2": {
+        "title": "파일 메타데이터 가져오기",
+        "content": "문서, EXIF ​​및 XMP 메타데이터의 검색 속성"
+      },
+      "feature_3": {
+        "title": "깔끔한 사무실 형식",
+        "content": "Microsoft Word, Excel, PowerPoint 및 PDF 파일의 숨겨진 데이터에 액세스하고 삭제합니다."
+      },
+      "feature_4": {
+        "title": "메타데이터 내보내기",
+        "content": "지원되는 파일 형식의 메타데이터를 Excel, CSV 또는 DataSet으로 내보내기"
+      },
+      "feature_5": {
+        "title": "PNG 이미지 지원",
+        "content": "PNG 이미지 파일에서 텍스트 메타데이터 추출"
+      },
+      "feature_6": {
+        "title": "디지털 서명 제거",
+        "content": "Word, Excel, PDF 파일의 디지털 서명 식별 및 삭제"
+      },
+      "feature_7": {
+        "title": "내장된 메타데이터 지원",
+        "content": "지원되는 모든 형식에 대해 정의된 키를 사용하여 메타데이터 속성 읽기"
+      },
+      "feature_8": {
+        "title": "이미지 미리보기",
+        "content": "EPUB, CAD, EML 및 MSG 파일에 대한 이미지 미리보기 생성"
+      },
+      "feature_9": {
+        "title": "파일 콘텐츠 최적화",
+        "content": "PDF, Excel 및 이미지 형식의 메모리 소비 감소"
+      },
+      "feature_10": {
+        "title": "Matroska 멀티미디어 지원",
+        "content": "Matroska 자막을 읽고 오디오 및 비디오 파일의 메타데이터를 검색합니다."
+      },
+      "feature_11": {
+        "title": "메타데이터 콘텐츠 바꾸기",
+        "content": "Word, Excel, PowerPoint 및 PDF 파일의 메타데이터 속성 바꾸기"
+      },
+      "feature_12": {
+        "title": "깨끗한 비즈니스 데이터",
+        "content": "보고서 및 문서에서 메타데이터 및 설명 삭제"
+      },
+      "feature_13": {
+        "title": "사진 위치",
+        "content": "이미지 메타데이터 속성 조작 및 사진 위치 정보 삭제"
+      },
+      "feature_14": {
+        "title": "메타데이터 구별 분석",
+        "content": "비교를 통해 지원되는 형식의 메타데이터의 차이점이나 유사점을 식별합니다."
+      },
+      "feature_15": {
+        "title": "비밀번호 보안",
+        "content": "Word, Excel, PowerPoint 및 PDF 파일에서 문서 비밀번호 보호 감지"
+      },
+      "feature_16": {
+        "title": "아카이브 및 급류 지원",
+        "content": "내장 및 사용자 정의 메타데이터를 조작하고 토렌트 및 아카이브 형식의 메타데이터를 가져옵니다."
+      },
+      "feature_17": {
+        "title": "EXIF 이미지 메타데이터",
+        "content": "Search API를 사용하여 임의 유형의 XMP 및 EXIF ​​메타데이터 속성을 추가하거나 업데이트합니다."
+      },
+      "feature_18": {
+        "title": "런타임 시 문서 파일 형식 감지",
+        "content": "우리 솔루션은 메타데이터 처리 전에 파일 또는 스트림 유형을 감지하는 기능을 제공합니다."
+      },
+      "feature_19": {
+        "title": "글꼴 메타데이터 지원",
+        "content": "모든 메타데이터 유형의 열거를 지원하고 OpenType 글꼴 파일의 메타데이터를 읽습니다."
+      },
+      "feature_20": {
+        "title": "이메일 메타데이터 지원",
+        "content": "이메일 메시지의 메타데이터를 가져오고 삭제하며 첨부 파일을 제거합니다."
+      },
+      "feature_21": {
+        "title": "마이크로소프트 엑셀 지원",
+        "content": "Excel 95부터 Microsoft Excel 파일에서 메타데이터 추출"
+      },
+      "feature_22": {
+        "title": "Matroska 멀티미디어 미리보기",
+        "content": "Matroska 멀티미디어 컨테이너 지원을 통해 지원되는 형식의 썸네일 및 이미지 미리 보기 가져오기"
+      },
+      "feature_23": {
+        "title": "마이크로소프트 프로젝트 지원",
+        "content": "암호화된 Microsoft Project 파일에서 메타데이터 읽기"
+      },
+      "feature_24": {
+        "title": "TIFF 지원",
+        "content": "TIFF 이미지의 IPTC 메타데이터 패키지 추가, 업데이트 및 삭제"
+      },
+      "feature_25": {
+        "title": "JPEG 지원",
+        "content": "JPEG2000 이미지의 EXIF ​​메타데이터 패키지 추가, 업데이트 및 제거"
+      },
+      "feature_26": {
+        "title": "멀티미디어 파일 지원",
+        "content": "MOV, MP3 및 WEBP 파일에서 XMP 메타데이터 속성 추출"
+      },
+      "feature_27": {
+        "title": "HEIC 미디어 지원",
+        "content": "HEIC/HEIF 이미지 형식에서 EXIF ​​태그 및 XMP 메타데이터 속성을 읽습니다."
+      }
+    },
+    "platforms_description": "{{ProdFullName}}은 다양한 운영 체제와 패키지 관리자를 지원합니다.",
+    "formats_description": "{{ProdFullName}}을(를) 사용하면 다양한 파일 형식을 처리할 수 있습니다. [전체 목록 보기]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "일반적인 {{ProdFullName}} 기능을 보여주는 코드 예를 살펴보세요.",
+    "code_title_sample_1": "문서 메타데이터 검토",
+    "code_samples_sample_1_content": "내부 문서 콘텐츠를 제어하려면 {{ProdFullName}}을 활용하세요. 자세히 알아보기: [문서 메타데이터 검색]({{Sample1Url}}):",
+    "code_title_sample_2": "문서에 메타데이터 추가",
+    "code_samples_sample_2_content": "{{ProdFullName}}을 사용하면 비즈니스 데이터에 [숨겨진 항목]({{Sample2Url}})을 추가할 수 있습니다."
+  },
+  "index-content-nodejs-java": {
+    "head_title": "파일 메타데이터를 조작하기 위한 {{EnvNameShort}} 라이브러리",
+    "head_description": "PDF, Word, Excel 등과 같은 널리 사용되는 파일 형식의 메타데이터를 분석, 비교, 편집, 제거 및 내보내기하여 {{EnvNameShort}} 애플리케이션을 향상하세요.",
+    "title": "문서 메타데이터 관리 {{EnvNameShort}}",
+    "description": "{{EnvNameShort}}를 사용하여 널리 사용되는 문서 및 이미지 형식의 메타데이터를 관리하세요.",
+    "actions_main": "NPM을 사용하여 무료로 다운로드하세요",
+    "code_title": "{{EnvNameShort}}에서 효율적인 메타데이터 조작",
+    "code_comment_1": "스프레드시트를 메타데이터로 전달",
+    "code_comment_2": "파일 형식 확인",
+    "code_comment_3": "내부 문서 메타데이터 분석",
+    "overview_description": "메타데이터 제어를 위한 Node.js TypeScript 라이브러리",
+    "overview_feature_1": {
+      "title": "주요 특징",
+      "description": "{{ProdFullName}}은 다양한 파일 형식 내에서 메타데이터를 관리할 수 있는 고급 라이브러리입니다. 메타데이터 보기, 편집, 삭제, 검색, 비교, 교체 및 내보내기 기능을 {{EnvNameShort}} 애플리케이션에 통합하세요. 지원되는 형식에는 PDF, Microsoft Office(Word, Excel, PowerPoint), Outlook 이메일, Project, Visio 다이어그램, OneNote, 이미지(PSD, CAD 포함), 오디오, 비디오, OpenType 글꼴 및 메타파일과 같은 널리 사용되는 비즈니스 문서가 포함됩니다."
+    },
+    "overview_feature_2": {
+      "title": "메타데이터를 쉽게 조작",
+      "description": "이 라이브러리는 메타데이터 검색, 교체, 속성 비교, 정보 추출과 같은 포괄적인 기능을 제공합니다. 검색된 메타데이터를 Excel, CSV 또는 DataSet 형식으로 내보낼 수 있습니다. 지원되는 문서 형식 내에서 내장, XMP, EXIF ​​및 사용자 정의 속성과 같이 일반적으로 사용되는 메타데이터 표준을 지원합니다."
+    },
+    "overview_feature_3": {
+      "title": "인기 있는 플랫폼 지원",
+      "description": "{{ProdFullName}}은 모든 {{EnvNameShort}} 버전과 호환되며 {{EnvNameShort}} 런타임을 지원하는 널리 사용되는 운영 체제(Windows, Linux, macOS)에서 원활하게 실행됩니다."
+    },
+    "features": {
+      "title": "{{ProdFullName}} 기능",
+      "description": "메타데이터 처리를 통해 강력한 문서 보안을 강화합니다.",
+      "feature_1": {
+        "title": "비즈니스 파일 지우기",
+        "content": "모든 메타데이터 및 의견이 포함된 명확한 비즈니스 보고서 및 문서"
+      },
+      "feature_2": {
+        "title": "사진 위치",
+        "content": "사진 위치 정보를 포함한 이미지의 메타데이터 제어"
+      },
+      "feature_3": {
+        "title": "Office 문서 제어",
+        "content": "PDF, Word, Excel, PowerPoint 및 기타 형식의 메타데이터 조작"
+      },
+      "feature_4": {
+        "title": "메타데이터 구별 분석",
+        "content": "지원되는 파일 형식의 메타데이터 변경 사항을 비교 및 ​​분석합니다."
+      },
+      "feature_5": {
+        "title": "내장된 메타데이터 지원",
+        "content": "광범위한 기능을 활용하여 내장 및 맞춤형 메타데이터 조작"
+      },
+      "feature_6": {
+        "title": "이미지 메타데이터 제어",
+        "content": "EXIF 또는 XMP와 같은 문서 메타데이터 속성 수집"
+      },
+      "feature_7": {
+        "title": "이메일 메타데이터 지원",
+        "content": "이메일 메시지의 메타데이터 및 첨부 파일 조작"
+      },
+      "feature_8": {
+        "title": "EXIF 이미지 메타데이터",
+        "content": "WEBP, PNG 또는 PSD 파일의 EXIF ​​메타데이터 콘텐츠 수정"
+      },
+      "feature_9": {
+        "title": "파일 콘텐츠 최적화",
+        "content": "PDF, Excel 및 이미지 형식의 메모리 소비 감소"
+      },
+      "feature_10": {
+        "title": "Matroska 멀티미디어 지원",
+        "content": "오디오 및 비디오 파일의 Matroska 자막과 메타데이터에 액세스하세요"
+      },
+      "feature_11": {
+        "title": "이미지 미리보기",
+        "content": "MSG, CAD, EML 또는 EPUB 파일에 대한 이미지 미리보기 생성"
+      },
+      "feature_12": {
+        "title": "멀티미디어 지원",
+        "content": "MOV, MP3 및 WEBP 파일에서 XMP 메타데이터 노드 가져오기"
+      },
+      "feature_13": {
+        "title": "디지털 서명 감지/제거",
+        "content": "PDF 및 Office 문서에서 디지털 서명 식별 및 제거"
+      },
+      "feature_14": {
+        "title": "메타데이터 내보내기",
+        "content": "지원되는 파일의 메타데이터를 Excel, CSV 또는 DataSet 출력으로 저장"
+      },
+      "feature_15": {
+        "title": "내장된 메타데이터 제어",
+        "content": "지원되는 모든 형식에 대해 정의된 키를 사용하여 특정 메타데이터 속성을 분석합니다."
+      },
+      "feature_16": {
+        "title": "비밀번호 보안",
+        "content": "PDF, MS Word, Excel, PowerPoint 문서에 적용된 비밀번호 보호 감지"
+      },
+      "feature_17": {
+        "title": "메타데이터 콘텐츠 바꾸기",
+        "content": "Word, Excel, PowerPoint 및 PDF 파일의 메타데이터 속성 바꾸기"
+      },
+      "feature_18": {
+        "title": "PNG 메타데이터 내보내기",
+        "content": "Node.js를 사용하여 PNG 이미지 파일에서 직접 텍스트 메타데이터를 추출합니다."
+      },
+      "feature_19": {
+        "title": "이미지 메타데이터 업데이트",
+        "content": "검색 API를 사용하여 XMP 및 EXIF ​​메타데이터 속성을 추가하거나 업데이트합니다."
+      },
+      "feature_20": {
+        "title": "Office 파일 제어",
+        "content": "PDF, MS Word, Excel 및 PowerPoint 파일에 포함된 숨겨진 데이터에 액세스하고 삭제합니다."
+      },
+      "feature_21": {
+        "title": "파일 유형 감지",
+        "content": "Node.js를 사용하여 런타임 시 파일 형식을 동적으로 감지합니다."
+      },
+      "feature_22": {
+        "title": "Matroska 멀티미디어 미리보기",
+        "content": "Matroska 멀티미디어 컨테이너 지원을 통해 지원되는 파일 형식에 대한 썸네일 및 이미지 미리보기 검색"
+      },
+      "feature_23": {
+        "title": "TIFF 지원",
+        "content": "TIFF 이미지에서 IPTC 메타데이터 패키지 조작"
+      },
+      "feature_24": {
+        "title": "HEIC 미디어 지원",
+        "content": "HEIC/HEIF 이미지에 대한 EXIF ​​태그 및 XMP 메타데이터 제어"
+      },
+      "feature_25": {
+        "title": "글꼴 메타데이터 지원",
+        "content": "메타데이터 유형을 열거하고 OpenType 글꼴 파일의 메타데이터를 제어합니다."
+      },
+      "feature_26": {
+        "title": "마이크로소프트 프로젝트 지원",
+        "content": "암호화된 Microsoft Project 파일에 숨겨진 모든 메타데이터 가져오기"
+      },
+      "feature_27": {
+        "title": "JPEG 지원",
+        "content": "JPEG2000 이미지의 EXIF ​​데이터 추가, 업데이트 또는 제거"
+      }
+    },
+    "platforms_description": "{{ProdFullName}}은 다양한 운영 체제 및 패키지 관리자와 쉽게 통합됩니다.",
+    "formats_description": "{{ProdFullName}}을(를) 사용하면 다양한 범위의 파일 형식을 처리할 수 있습니다. [전체 목록 살펴보기]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "일반적인 {{ProdFullName}} 기능을 보여주는 코드 예제를 살펴보세요.",
+    "code_title_sample_1": "문서 내부 내용에 대한 정보를 받습니다.",
+    "code_samples_sample_1_content": "내부 [문서 메타데이터]({{Sample1Url}})에 대한 정보를 얻으려면 {{ProdFullName}} API를 사용하세요.",
+    "code_title_sample_2": "문서에서 비즈니스 정보 숨기기",
+    "code_samples_sample_2_content": "다음 솔루션을 사용하여 [메타데이터를 추가]({{Sample2Url}})하여 문서를 수정하세요."
+  }
+}

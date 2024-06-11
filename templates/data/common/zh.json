@@ -1,0 +1,108 @@
+{
+  "common-content": {
+    "format-formats": {
+      "avi": {
+        "name": "将元数据添加到 AVI",
+        "description": "（音频视频交错文件）"
+      },
+      "djvu": {
+        "name": "将元数据添加到 DJVU",
+        "description": "（图形文件格式）"
+      },
+      "docx": {
+        "name": "将元数据添加到 DOCX",
+        "description": "（Office 2007+ Word 文档）"
+      },
+      "epub": {
+        "name": "将元数据添加到 EPUB",
+        "description": "（打开电子书文件）"
+      },
+      "heic": {
+        "name": "将元数据添加到 HEIC",
+        "description": "（高效图像格式）"
+      },
+      "jpeg": {
+        "name": "将元数据添加到 JPEG",
+        "description": "（联合摄影专家组图片）"
+      },
+      "mov": {
+        "name": "将元数据添加到 MOV",
+        "description": "（苹果 QuickTime 电影）"
+      },
+      "mp3": {
+        "name": "将元数据添加到 MP3",
+        "description": "（MP3 音频文件）"
+      },
+      "msg": {
+        "name": "将元数据添加到 MSG",
+        "description": "（Outlook 邮件项目文件）"
+      },
+      "ods": {
+        "name": "将元数据添加到 ODS",
+        "description": "（开放文档电子表格）"
+      },
+      "odt": {
+        "name": "将元数据添加到 ODT",
+        "description": "（OpenDocument 文本文件格式）"
+      },
+      "pdf": {
+        "name": "将元数据添加到 PDF",
+        "description": "（便携式文档格式）"
+      },
+      "png": {
+        "name": "将元数据添加到 PNG",
+        "description": "（便携网络图文）"
+      },
+      "pptx": {
+        "name": "将元数据添加到 PPTX",
+        "description": "（开放 XML 表示格式）"
+      },
+      "tiff": {
+        "name": "将元数据添加到 TIFF",
+        "description": "（标记图像文件格式）"
+      },
+      "torrent": {
+        "name": "将元数据添加到 TORRENT",
+        "description": "（种子链接）"
+      },
+      "vsdx": {
+        "name": "将元数据添加到 VSDX",
+        "description": "（Visio绘图）"
+      },
+      "wav": {
+        "name": "将元数据添加到 WAV",
+        "description": "（WAVE 音频文件）"
+      },
+      "webp": {
+        "name": "将元数据添加到 WEBP",
+        "description": "（光栅网络图像格式）"
+      },
+      "xlsx": {
+        "name": "将元数据添加到 XLSX",
+        "description": "（打开 XML 工作簿）"
+      },
+      "zip": {
+        "name": "将元数据添加到 ZIP",
+        "description": "（压缩文件）"
+      }
+    },
+    "format-code": {
+      "copy_title": "复制",
+      "copy_tip": "点击复制",
+      "copy_done": "复制的",
+      "links": {
+        "title_1": "更多示例",
+        "title_2": "文档"
+      }
+    },
+    "format-actions": {
+      "title": "准备好开始了吗？",
+      "description": "免费试用 {{ProdShortName}} 功能或申请许可证",
+      "comment_1": "{{PackageStoreName}}下载",
+      "comment_2": "许可"
+    },
+    "texts": {
+      "learn_more": "了解更多"
+    }
+  }
+}

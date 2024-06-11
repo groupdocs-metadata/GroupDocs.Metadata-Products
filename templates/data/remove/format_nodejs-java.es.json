@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "Eliminar metadatos de archivos {{FileFormatUp}} en {{EnvName}}",
+    "description": "API de metadatos {{EnvName}} multiplataforma para ocultar y eliminar campos de metadatos de archivos {{FileFormatUp}}. Admite XMP, EXIF, IPTC, ID3 y más."
+  },
+  "header": {
+    "title": "Eliminar metadatos de {{FileFormatUp}} en {{EnvName}}",
+    "description": "Elimine las propiedades de metadatos de {{FileFormatUp}} y otros formatos populares de documentos, imágenes y archivos multimedia utilizando la API {{ProdFullName}}.",
+    "subtitle": "API {{ProdFullName}}",
+    "action_title": "Descargue prueba gratis"
+  },
+  "about": {
+    "title": "Acerca de la API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) es una solución avanzada para gestionar campos de metadatos. Lea, agregue, actualice, elimine, busque, compare, intercambie y exporte fácilmente metadatos de imágenes y documentos sin utilizar ningún software externo. Elimine metadatos de archivos de Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, PDF, AutoCAD, ZIP, audio y video, junto con muchas otras funciones."
+  },
+  "formats": {
+    "title": "Eliminar metadatos de otros formatos de archivo",
+    "description": "API de eliminación de metadatos de imágenes y documentos multiformato para {{EnvName}}. Recupere y elimine metadatos de formatos de archivos populares."
+  },
+  "examples": {
+    "comment_1": "Borrar metadatos del documento {{FileFormatUp}}",
+    "comment_2": "Eliminar todas las menciones de contribuyentes.",
+    "comment_3": "Eliminar una propiedad personalizada por nombre",
+    "comment_4": "Guarde el archivo limpio"
+  },
+  "steps": {
+    "title": "Pasos para eliminar metadatos de {{FileFormatUp}} en {{EnvName}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) facilita a los desarrolladores de {{EnvName}} eliminar metadatos de archivos {{FileFormatUp}} en unos sencillos pasos.",
+      "step_1": "Cargue el archivo {{FileFormatUp}} para actualizarlo.",
+      "step_2": "Pase un predicado de búsqueda al método {{TextRemoveProperties}}.",
+      "step_3": "Verifique la cantidad de propiedades que se eliminaron.",
+      "step_4": "Guarde los cambios."
+    }
+  },
+  "more_features": {
+    "title": "Administre metadatos de documentos con facilidad",
+    "description": "Nuestra solución simplifica la gestión de metadatos. Acceda, edite y actualice fácilmente las propiedades de los documentos para mantener los archivos organizados y con capacidad de búsqueda.",
+    "image_description": "Proteger los metadatos de los documentos",
+    "feature_1": {
+      "title": "Control de metadatos sin esfuerzo",
+      "content": "Recupere y procese rápidamente metadatos de documentos. Obtenga información sobre propiedades como autor, fecha de creación y más."
+    },
+    "feature_2": {
+      "title": "Edición sencilla de metadatos",
+      "content": "Edite directamente los metadatos del documento. Actualice las propiedades para una mejor organización, capacidad de búsqueda y precisión."
+    },
+    "feature_3": {
+      "title": "Potente gestión de metadatos",
+      "content": "Realizar operaciones avanzadas sobre metadatos de documentos. Agregue fácilmente propiedades personalizadas, elimine datos innecesarios y garantice la coherencia."
+    },
+    "code_1": {
+      "title": "Borrar metadatos del archivo ZIP",
+      "content": "Este fragmento de código muestra cómo eliminar comentarios de usuarios de un archivo ZIP.",
+      "comment_1": "Cargue el archivo para su procesamiento",
+      "comment_2": "Obtenga el paquete de metadatos principal",
+      "comment_3": "Eliminar comentarios de archivo",
+      "comment_4": "Guarde el archivo limpio"
+    }
+  }
+}

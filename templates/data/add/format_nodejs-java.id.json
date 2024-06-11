@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "Tambahkan Metadata ke File {{FileFormatUp}} di Aplikasi {{ProgLang}}",
+    "description": "{{ProgLang}} API pemrosesan metadata untuk menambahkan informasi metadata ke file {{FileFormatUp}}. Bekerja dengan standar metadata XMP, EXIF, IPTC, ID3 dll."
+  },
+  "header": {
+    "title": "Menambahkan Metadata Ke {{FileFormatUp}} Di {{ProgLang}}",
+    "description": "Tambahkan properti metadata khusus ke berbagai format file dokumen, gambar, audio & video bisnis menggunakan {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh Uji Coba Gratis"
+  },
+  "about": {
+    "title": "Tentang API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah solusi pengelolaan dan manipulasi bidang metadata tingkat lanjut untuk melihat, memperbarui, menghapus, menemukan, membandingkan, menukar, dan mengekspor informasi metadata dari gambar dan format dokumen dengan mudah tanpa menggunakan perangkat lunak eksternal apa pun . Tambahkan detail metadata ke dokumen Word, spreadsheet Excel, presentasi PowerPoint, email Outlook, OneNote, Visio, Project, PDF, AutoCAD, ZIp, format file Audio dan Video serta dukungan untuk bekerja dengan banyak fitur pemrosesan metadata lainnya."
+  },
+  "formats": {
+    "title": "Menambahkan Properti Metadata Ke Format File Lain",
+    "description": "API penambahan metadata dokumen multi format dan gambar untuk {{EnvName}}. Ambil metadata dari beberapa format file populer seperti yang dinyatakan di bawah ini."
+  },
+  "examples": {
+    "comment_1": "memuat file dalam instance kelas {{TextMetadata}}",
+    "comment_2": "tambahkan properti yang berisi penulis konten",
+    "comment_3": "hasil operasi proses",
+    "comment_4": "simpan file dengan metadata yang diperbarui"
+  },
+  "steps": {
+    "title": "Langkah-langkah untuk menambahkan Metadata ke {{FileFormatUp}} di {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdFullName}}]({{PlatformLink}}) memudahkan pengembang {{EnvName}} untuk menambahkan detail metadata ke file {{FileFormatUp}} dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.",
+      "step_1": "Muat {{FileFormatUp}} dengan instance kelas {{TextMetadata}}.",
+      "step_2": "Gunakan metode {{TextMetadataAddProperties}} untuk menambahkan properti.",
+      "step_3": "Gunakan predikat untuk menemukan properti metadata yang diinginkan.",
+      "step_4": "Simpan kembali perubahan dalam format {{FileFormatUp}}."
+    }
+  },
+  "more_features": {
+    "title": "Manajemen Metadata Dokumen",
+    "description": "API komprehensif kami menyederhanakan pengelolaan metadata dokumen. Akses, edit, dan manipulasi berbagai properti dokumen untuk meningkatkan pengorganisasian dan kemampuan pencarian.",
+    "image_description": "Fungsi Metadata",
+    "feature_1": {
+      "title": "Akses Metadata",
+      "content": "Mengambil dan memproses metadata dokumen dengan mudah. Dapatkan wawasan tentang properti seperti penulis, tanggal pembuatan, dan banyak lainnya."
+    },
+    "feature_2": {
+      "title": "Pengeditan Metadata",
+      "content": "Ubah metadata dokumen secara langsung. Perbarui properti untuk pengorganisasian, kemudahan penelusuran, dan keakuratan informasi yang lebih baik."
+    },
+    "feature_3": {
+      "title": "Manajemen Metadata Tingkat Lanjut",
+      "content": "Lakukan operasi kompleks pada metadata dokumen. Tangani tugas-tugas seperti menambahkan properti khusus, menghapus data yang tidak relevan, dan memastikan konsistensi data secara efisien."
+    },
+    "code_1": {
+      "title": "Cara menghapus gambar dari metadata yang tidak diinginkan",
+      "content": "Contoh kode ini menunjukkan cara menghapus metadata EXIF ​​dari sebuah file",
+      "comment_1": "meneruskan gambar ke konstruktor kelas {{TextMetadata}}",
+      "comment_2": "mengakses paket root EXIF",
+      "comment_3": "menghapus metadata",
+      "comment_4": "simpan file yang sudah dibersihkan"
+    }
+  }
+}

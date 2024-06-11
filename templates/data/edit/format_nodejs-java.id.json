@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Edit Metadata di File {{FileFormatUp}} dengan Aplikasi {{EnvNameShort}}",
+    "description": "Gunakan API metadata {{EnvNameShort}} untuk mengedit metadata di file {{FileFormatUp}}. Mendukung XMP, EXIF, IPTC, ID3, dan lainnya."
+  },
+  "header": {
+    "title": "Perbarui Metadata di File {{FileformatCap}} Menggunakan {{ProgLang}}",
+    "description": "Editor Metadata untuk {{ProgLang}} – Edit bidang metadata dalam dokumen, gambar, dan file multimedia dengan API kami.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh Uji Coba Gratis"
+  },
+  "about": {
+    "title": "Tentang API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) adalah solusi lanjutan untuk membaca, menambah, memodifikasi, menghapus, mencari, membandingkan, mengganti, dan mengekspor metadata dari gambar dan dokumen. Edit metadata di file Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, PDF, AutoCAD, ZIP, audio, dan video, serta banyak fitur lainnya."
+  },
+  "formats": {
+    "title": "Edit Metadata dalam Berbagai Format File",
+    "description": "API pengeditan metadata dokumen dan gambar multi-format untuk {{EnvNameShort}}. Ambil dan edit metadata untuk format file populer"
+  },
+  "examples": {
+    "comment_1": "Perbarui metadata tanggal/waktu pencetakan terakhir file setelah pencetakan",
+    "comment_2": "Muat file ke konstruktor kelas {{TextMetadata}}",
+    "comment_3": "Hanya paket metadata yang ada yang terpengaruh. Tidak ada paket baru yang ditambahkan.",
+    "comment_4": "Hasil pemrosesan",
+    "comment_5": "Simpan file yang diperbarui"
+  },
+  "steps": {
+    "title": "Langkah-langkah Update Metadata di {{FileformatCap}} Menggunakan {{EnvNameShort}}",
+    "content": {
+      "title": "[{{ProdFullName}}]({{ProductUrl}}) memungkinkan pengeditan metadata dalam file {{FileformatCap}} dengan beberapa langkah mudah.",
+      "step_1": "Muat file {{FileformatCap}} yang akan diperbarui.",
+      "step_2": "Tentukan predikat untuk memfilter properti metadata yang diinginkan.",
+      "step_3": "Berikan predikat dan nilai baru ke metode {{TextUpdateProperties}}.",
+      "step_4": "Simpan perubahannya."
+    }
+  },
+  "more_features": {
+    "title": "Edit Metadata {{FileFormatUp}} untuk Aplikasi {{EnvNameShort}}",
+    "description": "API {{ProdShortName}} memungkinkan pengembang memperbarui metadata tersembunyi dalam berbagai format dokumen dalam aplikasi {{EnvName}}. Menerapkan, mengedit, mencari, dan menghapus metadata secara terprogram.",
+    "image_description": "Konfigurasi Metadata",
+    "feature_1": {
+      "title": "Integrasi Metadata yang Mudah",
+      "content": "{{ProdShortName}} menyederhanakan penambahan dan pengeditan metadata dalam dokumen dan file dalam aplikasi {{EnvName}} Anda. Pengembang dapat dengan mudah menerapkan, memperbarui, atau menghapus metadata."
+    },
+    "feature_2": {
+      "title": "Kontrol Metadata Komprehensif",
+      "content": "API menyediakan opsi ekstensif untuk menyesuaikan metadata. Temukan, hapus, atau perbarui metadata dalam file dengan mudah menggunakan kueri khusus."
+    },
+    "feature_3": {
+      "title": "Gunakan Fitur Asli {{FileFormatUp}}",
+      "content": "Manfaatkan fitur metadata bawaan seperti EXIF ​​untuk gambar, yang dapat mencakup model kamera, resolusi, tanggal pembuatan, dan banyak lagi."
+    },
+    "code_1": {
+      "title": "Perbarui Tag Lirik dalam File MP3 (Contoh)",
+      "content": "Contoh ini menunjukkan cara memperbarui metadata tersembunyi dalam file MP3.",
+      "comment_1": "Muat file ke konstruktor kelas {{TextMetadata}}",
+      "comment_2": "Perbarui data lirik",
+      "comment_3": "Tambahkan bidang khusus ke tag",
+      "comment_4": "Simpan hasilnya"
+    }
+  }
+}

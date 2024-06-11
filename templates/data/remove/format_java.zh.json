@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "删除 {{EnvName}} 中 {{FileFormatUp}} 文件的元数据属性",
+    "description": "跨平台 {{EnvName}} 元数据 API，用于隐藏和删除 {{FileFormatUp}} 文件的元数据字段。使用元数据标准 XMP、EXIF、IPTC、ID3 等。"
+  },
+  "header": {
+    "title": "删除 {{EnvName}} 中的 {{FileFormatUp}} 元数据",
+    "description": "使用 {{ProdFullName}} API 从 {{FileFormatUp}} 和许多其他流行文档、图像和多媒体文件格式中删除元数据属性",
+    "subtitle": "{{ProdFullName}} API",
+    "action_title": "下载免费试用版"
+  },
+  "about": {
+    "title": "关于 {{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 是一种先进的元数据字段操作解决方案，无需使用任何外部软件即可轻松读取、添加、更新、删除、查找、比较、交换和导出图像和文档格式的元数据信息。从 Word 文档、Excel 电子表格、PowerPoint 演示文稿、Outlook 电子邮件、OneNote、Visio、Project、PDF、AutoCAD、ZIp、音频和视频文件格式中删除元数据详细信息，并支持使用许多其他元数据处理功能。"
+  },
+  "formats": {
+    "title": "删除其他文件格式的元数据",
+    "description": "多格式文档和图像元数据删除 {{EnvName}} 的 API。检索一些流行文件格式的元数据，如下所述。"
+  },
+  "examples": {
+    "comment_1": "清除 {{FileFormatUp}} 文档元数据",
+    "comment_2": "删除所有提及参与文件创建的人员",
+    "comment_3": "删除具有指定名称的自定义属性",
+    "comment_4": "保存清除的文件"
+  },
+  "steps": {
+    "title": "将元数据删除到 {{EnvName}} 中的 {{FileFormatUp}} 的步骤",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) 使 {{EnvName}} 开发人员可以通过执行几个简单的步骤，轻松地从其应用程序内的 {{FileFormatUp}} 文件中删除元数据信息。",
+      "step_1": "加载要更新的 {{FileFormatUp}} 文件。",
+      "step_2": "将搜索谓词传递给 {{TextRemoveProperties}} 方法。",
+      "step_3": "检查实际删除的属性数量。",
+      "step_4": "保存更改。"
+    }
+  },
+  "more_features": {
+    "title": "轻松管理文档元数据",
+    "description": "我们的解决方案简化了您的文档元数据的管理。轻松访问、编辑和更新各种文档属性，使您的文件井然有序且可搜索。",
+    "image_description": "保护文档元数据",
+    "feature_1": {
+      "title": "轻松的元数据控制",
+      "content": "快速获取并处理文档的元数据。获得有价值的见解，例如作者、创建日期等。"
+    },
+    "feature_2": {
+      "title": "简单的元数据更新",
+      "content": "直接编辑文档元数据。更新属性以获得更好的组织、可搜索性和准确的信息。"
+    },
+    "feature_3": {
+      "title": "强大的元数据管理",
+      "content": "对文档元数据执行高级操作。轻松处理添加自定义属性、删除不必要的数据以及确保数据一致性等任务。"
+    },
+    "code_1": {
+      "title": "清除 ZIP 存档元数据",
+      "content": "以下代码片段显示了如何从 ZIP 存档中删除用户评论",
+      "comment_1": "加载存档文件以进行进一步处理",
+      "comment_2": "获取主要元数据包",
+      "comment_3": "删除存档评论",
+      "comment_4": "保存清理后的文件"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "{{EnvNameShort}} アプリケーションを使用して {{FileFormatUp}} ファイルのメタデータを編集する",
+    "description": "{{EnvNameShort}} メタデータ API を使用して、{{FileFormatUp}} ファイル内のメタデータを編集します。 XMP、EXIF、IPTC、ID3 などをサポートします。"
+  },
+  "header": {
+    "title": "{{ProgLang}} を使用して {{FileformatCap}} ファイルのメタデータを更新する",
+    "description": "{{ProgLang}} のメタデータ エディター – API を使用してドキュメント、画像、マルチメディア ファイルのメタデータ フィールドを編集します。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "無料トライアルをダウンロード"
+  },
+  "about": {
+    "title": "{{ProdFullName}} API について",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) は、画像やドキュメントのメタデータの読み取り、追加、変更、削除、検索、比較、置換、エクスポートを行うための高度なソリューションです。 Word、Excel、PowerPoint、Outlook、OneNote、Visio、Project、PDF、AutoCAD、ZIP、オーディオ、ビデオ ファイルのメタデータや、その他の多くの機能を編集します。"
+  },
+  "formats": {
+    "title": "さまざまなファイル形式でのメタデータの編集",
+    "description": "{{EnvNameShort}} 用のマルチフォーマットのドキュメントと画像のメタデータ編集 API。一般的なファイル形式のメタデータを取得および編集する"
+  },
+  "examples": {
+    "comment_1": "印刷後にファイルの最終印刷日時メタデータを更新する",
+    "comment_2": "ファイルを {{TextMetadata}} クラス コンストラクターにロードします",
+    "comment_3": "既存のメタデータ パッケージのみが影響を受けます。新しいパッケージは追加されません。",
+    "comment_4": "処理結果",
+    "comment_5": "更新されたファイルを保存する"
+  },
+  "steps": {
+    "title": "{{EnvNameShort}} を使用して {{FileformatCap}} のメタデータを更新する手順",
+    "content": {
+      "title": "[{{ProdFullName}}]({{ProductUrl}}) を使用すると、いくつかの簡単な手順で {{FileformatCap}} ファイル内のメタデータを編集できます。",
+      "step_1": "更新する {{FileformatCap}} ファイルをロードします。",
+      "step_2": "必要なメタデータ プロパティをフィルターするための述語を指定します。",
+      "step_3": "述語と新しい値を {{TextUpdateProperties}} メソッドに渡します。",
+      "step_4": "変更を保存します。"
+    }
+  },
+  "more_features": {
+    "title": "{{EnvNameShort}} アプリの {{FileFormatUp}} メタデータを編集する",
+    "description": "{{ProdShortName}} API を使用すると、開発者は {{EnvName}} アプリケーション内のさまざまなドキュメント形式の非表示のメタデータを更新できます。メタデータをプログラムで適用、編集、検索、削除します。",
+    "image_description": "メタデータの構成",
+    "feature_1": {
+      "title": "メタデータの簡単な統合",
+      "content": "{{ProdShortName}} を使用すると、{{EnvName}} アプリ内のドキュメントやファイルのメタデータの追加と編集が簡単になります。開発者はメタデータを簡単に適用、更新、削除できます。"
+    },
+    "feature_2": {
+      "title": "包括的なメタデータ制御",
+      "content": "API は、メタデータをカスタマイズするための広範なオプションを提供します。特殊なクエリを使用して、ファイル内のメタデータを簡単に検索、削除、更新します。"
+    },
+    "feature_3": {
+      "title": "ネイティブの {{FileFormatUp}} 機能を使用する",
+      "content": "画像の EXIF などの組み込みメタデータ機能を活用します。これには、カメラ モデル、解像度、作成日などが含まれます。"
+    },
+    "code_1": {
+      "title": "MP3 ファイルの歌詞タグを更新する (例)",
+      "content": "この例では、MP3 ファイル内の非表示のメタデータを更新する方法を示します。",
+      "comment_1": "ファイルを {{TextMetadata}} クラス コンストラクターにロードします",
+      "comment_2": "歌詞データを更新する",
+      "comment_3": "タグにカスタムフィールドを追加する",
+      "comment_4": "結果を保存する"
+    }
+  }
+}

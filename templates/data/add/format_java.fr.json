@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "Ajouter des métadonnées aux fichiers {{FileFormatUp}} dans les applications {{ProgLang}}",
+    "description": "{{ProgLang}} API de traitement des métadonnées pour ajouter des informations de métadonnées aux fichiers {{FileFormatUp}}. Travaillez avec les normes de métadonnées XMP, EXIF, IPTC, ID3, etc."
+  },
+  "header": {
+    "title": "Ajout de métadonnées à {{FileFormatUp}} dans {{ProgLang}}",
+    "description": "Ajoutez des propriétés de métadonnées personnalisées à un large éventail de documents professionnels, d'images, de formats de fichiers audio et vidéo à l'aide de {{ProdFullName}}.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger l'essai gratuit"
+  },
+  "about": {
+    "title": "À propos de l'API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) est une solution avancée de gestion et de manipulation des champs de métadonnées permettant d'afficher, de mettre à jour, de supprimer, de rechercher, de comparer, d'échanger et d'exporter facilement des informations de métadonnées à partir d'images et de formats de documents sans utiliser de logiciel externe. . Ajoutez des détails de métadonnées aux documents Word, feuilles de calcul Excel, présentations PowerPoint, e-mails Outlook, OneNote, Visio, Project, PDF, AutoCAD, ZIp, formats de fichiers audio et vidéo ainsi que la prise en charge de nombreuses autres fonctionnalités de traitement de métadonnées."
+  },
+  "formats": {
+    "title": "Ajout de propriétés de métadonnées à d'autres formats de fichiers",
+    "description": "API d'ajout de métadonnées de documents et d'images multiformats pour {{EnvName}}. Récupérez les métadonnées de certains des formats de fichiers populaires, comme indiqué ci-dessous."
+  },
+  "examples": {
+    "comment_1": "charger le fichier dans une instance de la classe {{TextMetadata}}",
+    "comment_2": "ajouter une propriété contenant l'auteur du contenu",
+    "comment_3": "résultats des opérations du processus",
+    "comment_4": "enregistrez le fichier avec les métadonnées mises à jour"
+  },
+  "steps": {
+    "title": "Étapes pour ajouter des métadonnées à {{FileFormatUp}} dans {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdFullName}}]({{PlatformLink}}) permet aux développeurs {{EnvName}} d'ajouter facilement des détails de métadonnées aux fichiers {{FileFormatUp}} à partir de leurs applications en mettant en œuvre quelques étapes simples.",
+      "step_1": "Chargez {{FileFormatUp}} avec une instance de la classe {{TextMetadata}}.",
+      "step_2": "Utilisez la méthode {{TextMetadataAddProperties}} pour ajouter les propriétés.",
+      "step_3": "Utilisez un prédicat pour rechercher les propriétés de métadonnées souhaitées.",
+      "step_4": "Enregistrez à nouveau les modifications au format {{FileFormatUp}}."
+    }
+  },
+  "more_features": {
+    "title": "Gestion des métadonnées des documents",
+    "description": "Notre API complète rationalise la gestion des métadonnées des documents. Accédez, modifiez et manipulez diverses propriétés de documents pour une organisation et une facilité de recherche améliorées.",
+    "image_description": "Fonctionnalité des métadonnées",
+    "feature_1": {
+      "title": "Accès aux métadonnées",
+      "content": "Récupérez et traitez sans effort les métadonnées d’un document. Obtenez des informations sur les propriétés telles que l'auteur, la date de création et bien d'autres."
+    },
+    "feature_2": {
+      "title": "Modification des métadonnées",
+      "content": "Modifiez directement les métadonnées du document. Mettez à jour les propriétés pour une meilleure organisation, une meilleure recherche et une meilleure précision des informations."
+    },
+    "feature_3": {
+      "title": "Gestion avancée des métadonnées",
+      "content": "Effectuez des opérations complexes sur les métadonnées des documents. Gérez efficacement des tâches telles que l'ajout de propriétés personnalisées, la suppression de données non pertinentes et la garantie de la cohérence des données."
+    },
+    "code_1": {
+      "title": "Comment ajouter des métadonnées personnalisées à une image TIFF",
+      "content": "Cet exemple de code montre comment ajouter une balise personnalisée à un package EXIF",
+      "comment_1": "Définissez le package EXIF ​​s'il est manquant",
+      "comment_2": "Ajouter une propriété connue",
+      "comment_3": "Ajoutez une propriété entièrement personnalisée (qui n'est pas décrite dans la spécification EXIF)",
+      "comment_4": "Veuillez noter que l'identifiant choisi peut croiser les identifiants utilisés par certains outils tiers."
+    }
+  }
+}

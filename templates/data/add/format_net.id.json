@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "Tambahkan Metadata ke File {{FileFormatUp}} di Aplikasi {{ProgLang}}",
+    "description": "{{ProgLang}} API pemrosesan metadata untuk menambahkan informasi metadata ke file {{FileFormatUp}}. Bekerja dengan standar metadata XMP, EXIF, IPTC, ID3 dll"
+  },
+  "header": {
+    "title": "Menambahkan Metadata Ke {{FileFormatUp}} Di {{ProgLang}}",
+    "description": "Tambahkan properti metadata khusus ke berbagai format file dokumen, gambar, audio & video bisnis menggunakan API {{ProdFullName}}",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh Uji Coba Gratis"
+  },
+  "about": {
+    "title": "Tentang API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) menawarkan serangkaian fitur manajemen dan manipulasi metadata tingkat lanjut, memungkinkan pemrogram {{EnvName}} dengan mudah melihat, mengedit, menghapus, menemukan, membandingkan, menukar, dan mengekspor informasi metadata dari gambar dan format dokumen tanpa menggunakan perangkat lunak eksternal apa pun. Tambahkan detail metadata ke format file PDF, Microsoft Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Arsip, dan Multimedia dengan dukungan tambahan untuk melakukan operasi metadata pada aplikasi berbasis {{ProdShortName}} dengan fleksibilitas sejati"
+  },
+  "formats": {
+    "title": "Menambahkan Properti Metadata Ke Format File Lain",
+    "description": "API penambahan metadata dokumen multi format dan gambar untuk {{ProdShortName}}. Ambil metadata dari beberapa format file populer seperti yang dinyatakan di bawah ini."
+  },
+  "examples": {
+    "comment_1": "memuat file dalam instance kelas {{TextMetadata}}",
+    "comment_2": "tambahkan properti yang berisi penulis konten",
+    "comment_3": "hasil operasi proses",
+    "comment_4": "simpan file dengan metadata yang diperbarui"
+  },
+  "steps": {
+    "title": "Langkah-langkah untuk menambahkan Metadata ke {{FileformatCap}} di {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdFullName}}]({{PlatformLink}}) memudahkan pengembang {{EnvName}} untuk menambahkan detail metadata ke file {{FileFormatUp}} dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.",
+      "step_1": "Muat file {{FileFormatUp}} yang akan diperbarui.",
+      "step_2": "Tentukan predikat yang akan digunakan untuk menambahkan properti metadata.",
+      "step_3": "Teruskan predikat ke metode {{TextMetadataAddProperties}}.",
+      "step_4": "Simpan perubahannya."
+    }
+  },
+  "more_features": {
+    "title": "Manajemen Metadata Dokumen",
+    "description": "API kami yang tangguh menyederhanakan pengelolaan metadata dokumen. Akses, edit, dan manipulasi berbagai properti dokumen dengan lancar untuk meningkatkan pengorganisasian dan kemampuan pencarian.",
+    "image_description": "Fitur Manipulasi Metadata",
+    "feature_1": {
+      "title": "Kontrol Metadata",
+      "content": "Mengambil dan memproses metadata dari dokumen dengan mudah. Dapatkan wawasan berharga tentang properti seperti penulis, tanggal pembuatan, dan banyak lagi."
+    },
+    "feature_2": {
+      "title": "Pengeditan Metadata",
+      "content": "Ubah metadata dokumen secara langsung. Perbarui properti untuk meningkatkan pengorganisasian, meningkatkan kemampuan pencarian, dan memastikan informasi yang akurat."
+    },
+    "feature_3": {
+      "title": "Manajemen Metadata Tingkat Lanjut",
+      "content": "Jalankan operasi kompleks pada metadata dokumen. Tambahkan properti khusus secara efisien, hapus data yang tidak perlu, dan pertahankan konsistensi data."
+    },
+    "code_1": {
+      "title": "Cara Menambahkan Metadata Khusus ke Gambar TIFF",
+      "content": "Contoh ini menunjukkan cara memasukkan tag khusus ke dalam paket EXIF.",
+      "comment_1": "Tetapkan paket EXIF ​​jika tidak ada.",
+      "comment_2": "Masukkan properti yang dikenali.",
+      "comment_3": "Sertakan properti khusus sepenuhnya yang bukan bagian dari spesifikasi EXIF.",
+      "comment_4": "Perlu diketahui bahwa ID yang dipilih mungkin bertentangan dengan ID yang digunakan oleh beberapa alat pihak ketiga."
+    }
+  }
+}

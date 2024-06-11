@@ -1,0 +1,60 @@
+{
+  "head": {
+    "title": "Baca & Ekstrak Metadata File {{FileFormatUp}} di Aplikasi {{EnvName}}",
+    "description": "API pengelolaan metadata {{EnvName}} lintas platform untuk membaca dan mengekstrak informasi metadata file {{FileFormatUp}}. Bekerja dengan standar metadata XMP, EXIF, IPTC, ID3 dll."
+  },
+  "header": {
+    "title": "Ekstrak Metadata Dari File {{FileFormatUp}} Di {{EnvName}}",
+    "description": "Baca & Ekstrak informasi metadata dari berbagai format dokumen, gambar, audio & video menggunakan {{ProdFullName}}",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh Uji Coba Gratis"
+  },
+  "about": {
+    "title": "Tentang API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) menawarkan serangkaian fitur manajemen dan manipulasi metadata tingkat lanjut, memungkinkan pengembang dengan mudah membaca, mengedit, menghapus, mencari, membandingkan, mengganti, dan mengekspor informasi metadata dari gambar dan format dokumen tanpa menggunakan perangkat lunak eksternal apa pun. Ekstrak detail metadata dari format file PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive, dan Multimedia, dan lakukan operasi metadata yang didukung dengan fleksibilitas sejati."
+  },
+  "formats": {
+    "title": "Membaca & Mengekstrak Format File Lainnya",
+    "description": "API ekstraksi metadata dokumen multi format dan gambar untuk {{EnvName}}. Ambil metadata dari beberapa format file populer seperti yang dinyatakan di bawah ini."
+  },
+  "examples": {
+    "comment_1": "Telusuri metadata gambar dalam dokumen {{FileFormatUp}}",
+    "comment_2": "Tulis {{TextMetadata}} dengan meneruskan {{FileFormatUp}} ke konstruktor",
+    "comment_3": "Ambil semua properti metadata yang termasuk dalam kategori tertentu",
+    "comment_4": "Memproses entri metadata yang ditemukan"
+  },
+  "steps": {
+    "title": "Langkah-langkah Ekstraksi Metadata {{FileFormatUp}} di {{EnvName}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) memudahkan pengembang {{EnvName}} mengekstrak untuk membaca dan mengekstrak informasi metadata dari file {{FileFormatUp}} dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.",
+      "step_1": "Muat {{FileFormatUp}} dengan instance kelas {{EnvName}}.",
+      "step_2": "Buatlah predikat untuk memeriksa semua properti metadata.",
+      "step_3": "Berikan predikat ke metode {{TextFindProperties}}.",
+      "step_4": "Iterasi melalui properti yang ditemukan."
+    }
+  },
+  "more_features": {
+    "title": "Pencarian Metadata di File Bisnis dengan {{ProdShortName}}",
+    "description": "Kontrol data tersembunyi di file dan dokumen sensitif menggunakan aplikasi {{EnvName}} yang didukung oleh pustaka {{ProdShortName}}.",
+    "image_description": "{{EnvName}} Pencarian Metadata",
+    "feature_1": {
+      "title": "{{EnvName}} Alat untuk Pencarian Metadata Terperinci",
+      "content": "Tingkatkan kemampuan pemrosesan dokumen Anda di {{EnvName}} dengan {{ProdShortName}}. Perangkat lunak kami menyediakan alat yang efektif untuk mencari dan memproses metadata tersembunyi."
+    },
+    "feature_2": {
+      "title": "Kustomisasi Pengambilan Metadata",
+      "content": "Targetkan metadata tertentu dengan presisi. Konfigurasikan pencarian Anda untuk memfilter berdasarkan banyak parameter seperti teks, tanggal, ekspresi reguler, dll., memastikan Anda mendapatkan apa yang Anda butuhkan."
+    },
+    "feature_3": {
+      "title": "Pemrosesan Metadata yang Efisien",
+      "content": "Manfaatkan {{EnvName}} untuk memproses nilai entri metadata yang ditemukan. Gunakan {{ProdShortName}} untuk memanipulasi metadata secara efektif. Anda bebas menambah, memperbarui, atau menghapus metadata apa pun dalam format yang didukung."
+    },
+    "code_1": {
+      "title": "{{EnvName}} Contoh: Metadata Buku Elektronik",
+      "content": "Contoh kode ini menunjukkan cara membaca properti metadata khusus format EPUB",
+      "comment_1": "Berikan buku elektronik EPUB ke objek {{TextMetadata}}",
+      "comment_2": "Dapatkan semua metadata bawaan",
+      "comment_3": "Memproses data yang diambil"
+    }
+  }
+}

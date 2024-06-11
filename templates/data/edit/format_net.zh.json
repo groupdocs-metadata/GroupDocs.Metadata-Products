@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "在 {{ProgLang}} 应用程序中将元数据编辑为 {{FileformatCap}} 文件",
+    "description": "{{ProgLang}} 元数据处理 API，用于将元数据信息编辑到 {{FileformatCap}} 文件。使用元数据标准 XMP、EXIF、IPTC、ID3 等。"
+  },
+  "header": {
+    "title": "更新 {{ProgLang}} 中 {{FileformatCap}} 文件的元数据",
+    "description": "在执行所有最需要的元数据处理操作的支持下，更新所有流行文档、图像和多媒体文件格式的元数据信息。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "下载免费试用版"
+  },
+  "about": {
+    "title": "关于 {{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 提供一组先进的元数据管理功能，使开发人员能够轻松读取、记录、删除、查找、比较、替换和导出图像和文档格式的元数据信息，而无需使用任何外部软件。使用元数据操作 API 编辑 PDF、Microsoft Office Word、Excel 电子表格、PowerPoint 演示文稿、Outlook 电子邮件、OneNote、Visio、Project、AutoCAD、Archive 和多媒体文件格式的元数据详细信息，并支持与许多其他元数据处理功能配合使用。"
+  },
+  "formats": {
+    "title": "从其他文件格式更新元数据属性",
+    "description": "适用于 {{EnvName}} 的多格式文档和图像元数据编辑 API。检索一些流行文件格式的元数据，如下所述"
+  },
+  "examples": {
+    "comment_1": "编辑 {{FileFormatUp}} 创建日期",
+    "comment_2": "设置满足谓词的每个属性的值：",
+    "comment_3": "属性包含文档创建的日期/时间",
+    "comment_4": "如果现有值早于 3 天，则更新文件创建日期/时间",
+    "comment_5": "保存结果{{FileFormatUp}}"
+  },
+  "steps": {
+    "title": "将元数据更新为 {{ProgLang}} 中的 {{FileFormatUp}} 的步骤",
+    "content": {
+      "title": "[{{ProdFullName}}]({{ProductUrl}}) 使 {{EnvName}} 开发人员可以通过执行几个简单的步骤，轻松地将元数据信息从其应用程序内编辑到 {{FileFormatUp}} 文件。",
+      "step_1": "通过 {{TextMetadata}} 类的实例加载 {{FileFormatUp}} 文件。",
+      "step_2": "指定将用于过滤所需元数据属性的谓词。",
+      "step_3": "将谓词和新值传递给 {{TextUpdateProperties}} 方法。",
+      "step_4": "以 {{FileFormatUp}} 格式将更改保存到光盘。"
+    }
+  },
+  "more_features": {
+    "title": "管理 {{EnvName}} 应用的 {{FileFormatUp}} 内部元数据属性",
+    "description": "{{ProdShortName}} API 允许开发人员使用其 {{EnvName}} 应用程序轻松编辑各种格式的文档详细信息（元数据）。以编程方式添加、更新、搜索和删除文档属性。",
+    "image_description": "文档元数据属性管理",
+    "feature_1": {
+      "title": "有效的元数据集成",
+      "content": "{{ProdShortName}} 简化了向 {{EnvName}} 应用内的文档和文件添加不同属性的过程。开发人员可以轻松地以编程方式应用、更新或删除文档属性。"
+    },
+    "feature_2": {
+      "title": "精确的元数据控制",
+      "content": "API 提供了用于管理文档属性的广泛选项。开发人员可以有效地查找和处理业务文件中的任何隐藏数据。"
+    },
+    "feature_3": {
+      "title": "利用内置的 {{FileFormatUp}} 属性",
+      "content": "根据文档格式，开发人员可以利用图像的 EXIF 数据等现有属性。这可能包括相机详细信息、分辨率、创建日期等信息。"
+    },
+    "code_1": {
+      "title": "更新 MP3 文件中的歌词元数据（示例）",
+      "content": "此示例演示更新 MP3 音频文件中的隐藏信息（元数据）。",
+      "comment_1": "使用 {{TextMetadata}} 类加载文件",
+      "comment_2": "更新歌词数据",
+      "comment_3": "您可以将自定义字段添加到元数据",
+      "comment_4": "保存更新的文件"
+    }
+  }
+}

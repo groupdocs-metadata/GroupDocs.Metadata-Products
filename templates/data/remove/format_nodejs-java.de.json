@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "Metadaten aus {{FileFormatUp}}-Dateien in {{EnvName}} entfernen",
+    "description": "Plattformübergreifende {{EnvName}}-Metadaten-API zum Ausblenden und Entfernen von Metadatenfeldern aus {{FileFormatUp}}-Dateien. Unterstützt XMP, EXIF, IPTC, ID3 und mehr."
+  },
+  "header": {
+    "title": "{{FileFormatUp}}-Metadaten in {{EnvName}} entfernen",
+    "description": "Entfernen Sie Metadateneigenschaften aus {{FileFormatUp}} und anderen gängigen Dokument-, Bild- und Multimediadateiformaten mithilfe der {{ProdFullName}}-API.",
+    "subtitle": "{{ProdFullName}}-API",
+    "action_title": "Download kostenlose Testversion"
+  },
+  "about": {
+    "title": "Informationen zur {{ProdFullName}}-API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ist eine erweiterte Lösung für die Verwaltung von Metadatenfeldern. Einfaches Lesen, Hinzufügen, Aktualisieren, Löschen, Suchen, Vergleichen, Austauschen und Exportieren von Metadaten aus Bildern und Dokumenten ohne Verwendung externer Software. Entfernen Sie Metadaten aus Word-, Excel-, PowerPoint-, Outlook-, OneNote-, Visio-, Project-, PDF-, AutoCAD-, ZIP-, Audio- und Videodateien sowie vielen anderen Funktionen."
+  },
+  "formats": {
+    "title": "Entfernen von Metadaten aus anderen Dateiformaten",
+    "description": "Multiformat-API zum Entfernen von Dokument- und Bildmetadaten für {{EnvName}}. Metadaten aus gängigen Dateiformaten abrufen und entfernen."
+  },
+  "examples": {
+    "comment_1": "Löschen Sie die Metadaten des Dokuments {{FileFormatUp}}",
+    "comment_2": "Entfernen Sie alle Erwähnungen von Mitwirkenden",
+    "comment_3": "Entfernen Sie eine benutzerdefinierte Eigenschaft nach Namen",
+    "comment_4": "Speichern Sie die bereinigte Datei"
+  },
+  "steps": {
+    "title": "Schritte zum Entfernen von Metadaten aus {{FileFormatUp}} in {{EnvName}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) erleichtert {{EnvName}}-Entwicklern das Löschen von Metadaten aus {{FileFormatUp}}-Dateien in wenigen einfachen Schritten.",
+      "step_1": "Laden Sie die zu aktualisierende Datei {{FileFormatUp}}.",
+      "step_2": "Übergeben Sie ein Suchprädikat an die Methode {{TextRemoveProperties}}.",
+      "step_3": "Überprüfen Sie die Anzahl der entfernten Eigenschaften.",
+      "step_4": "Speichern Sie die Änderungen."
+    }
+  },
+  "more_features": {
+    "title": "Verwalten Sie Dokumentmetadaten ganz einfach",
+    "description": "Unsere Lösung vereinfacht das Metadatenmanagement. Greifen Sie einfach auf Dokumenteigenschaften zu, bearbeiten und aktualisieren Sie sie, um die Dateien organisiert und durchsuchbar zu halten.",
+    "image_description": "Schützen Sie die Metadaten von Dokumenten",
+    "feature_1": {
+      "title": "Mühelose Metadatenkontrolle",
+      "content": "Dokumentmetadaten schnell abrufen und verarbeiten. Erhalten Sie Einblicke in Eigenschaften wie Autor, Erstellungsdatum und mehr."
+    },
+    "feature_2": {
+      "title": "Einfache Metadatenbearbeitung",
+      "content": "Bearbeiten Sie Dokumentmetadaten direkt. Aktualisieren Sie Eigenschaften für eine bessere Organisation, Durchsuchbarkeit und Genauigkeit."
+    },
+    "feature_3": {
+      "title": "Leistungsstarkes Metadatenmanagement",
+      "content": "Führen Sie erweiterte Vorgänge an Dokumentmetadaten durch. Fügen Sie ganz einfach benutzerdefinierte Eigenschaften hinzu, entfernen Sie unnötige Daten und stellen Sie Konsistenz sicher."
+    },
+    "code_1": {
+      "title": "Löschen Sie die Metadaten des ZIP-Archivs",
+      "content": "Dieser Codeausschnitt zeigt, wie Benutzerkommentare aus einem ZIP-Archiv entfernt werden.",
+      "comment_1": "Laden Sie die Archivdatei zur Verarbeitung",
+      "comment_2": "Holen Sie sich das Hauptmetadatenpaket",
+      "comment_3": "Archivkommentare entfernen",
+      "comment_4": "Speichern Sie die bereinigte Datei"
+    }
+  }
+}

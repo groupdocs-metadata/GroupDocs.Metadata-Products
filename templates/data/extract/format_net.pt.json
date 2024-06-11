@@ -1,0 +1,64 @@
+{
+  "head": {
+    "title": "Leia e extraia metadados de arquivos {{FileFormatUp}} em aplicativos {{ProgLang}}",
+    "description": "API de gerenciamento de metadados {{ProgLang}} de plataforma cruzada para ler e extrair informações de metadados de arquivos {{FileFormatUp}}. Trabalhe com padrões de metadados XMP, EXIF, IPTC, ID3 etc."
+  },
+  "header": {
+    "title": "Extraia metadados do arquivo {{FileFormatUp}} em {{ProgLang}}",
+    "description": "Leia e extraia informações de metadados de uma ampla variedade de documentos, imagens, formatos de áudio e vídeo usando GroupDocs.Metadata for {{EnvName}}",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixe a avaliação gratuita"
+  },
+  "about": {
+    "title": "Sobre a API{{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) oferece um conjunto avançado de recursos de gerenciamento e manipulação de metadados, permitindo que os desenvolvedores leiam, editem, removam, pesquisem, comparem, substituam e exportem facilmente informações de metadados de imagens e formatos de documentos sem usando qualquer software externo. Extraia detalhes de metadados de formatos de arquivo PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive e Multimídia e execute operações de metadados suportadas com verdadeira flexibilidade."
+  },
+  "formats": {
+    "title": "Atualizando propriedades de metadados de outros formatos de arquivo",
+    "description": "API de edição de metadados de documentos e imagens multiformato para {{EnvName}}. Recupere metadados de alguns dos formatos de arquivo populares conforme indicado abaixo."
+  },
+  "examples": {
+    "comment_1": "Extraia propriedades de metadados {{FileFormatUp}} por vários critérios",
+    "comment_2": "Construa {{TextMetadata}} passando o caminho {{FileFormatUp}}",
+    "comment_3": "extrair todas as propriedades de metadados que se enquadram em uma categoria específica",
+    "comment_4": "iterar sobre todas as propriedades e exibir",
+    "comment_5": "extrair todas as propriedades com um tipo e valor específicos",
+    "comment_6": "exibir todas as propriedades de data e hora com o valor do ano igual ao ano atual",
+    "comment_7": "extraia todas as propriedades com nomes que correspondam ao regex especificado",
+    "comment_8": "exibir propriedades cujos nomes correspondem ao seguinte padrão"
+  },
+  "steps": {
+    "title": "Etapas para extração de metadados {{FileFormatUp}} em {{EnvName}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) torna mais fácil para os desenvolvedores de {{EnvName}} extrair, ler e extrair informações de metadados de arquivos {{FileFormatUp}} de dentro de seus aplicativos, implementando algumas etapas fáceis.",
+      "step_1": "Carregue o {{FileFormatUp}} com uma instância da classe {{EnvName}}.",
+      "step_2": "Crie um predicado para examinar todas as propriedades de metadados.",
+      "step_3": "Passe o predicado para o método {{TextFindProperties}}.",
+      "step_4": "Itere pelas propriedades encontradas."
+    }
+  },
+  "more_features": {
+    "title": "Pesquise metadados de arquivos com {{ProdShortName}}",
+    "description": "Gerencie com segurança metadados ocultos em documentos confidenciais usando aplicativos {{EnvName}} desenvolvidos pela biblioteca {{ProdShortName}}.",
+    "image_description": "Pesquise metadados em arquivos {{EnvName}}",
+    "feature_1": {
+      "title": "{{EnvName}} Ferramentas para pesquisa abrangente de metadados",
+      "content": "Simplifique o processamento de seus documentos em {{EnvName}} com {{ProdShortName}}. Nosso software oferece ferramentas poderosas para pesquisar e gerenciar metadados ocultos com eficiência."
+    },
+    "feature_2": {
+      "title": "Segmentação precisa de metadados",
+      "content": "Segmente metadados específicos com extrema precisão. Configure sua pesquisa com vários filtros como texto, data ou expressões regulares para encontrar exatamente os metadados que você precisa."
+    },
+    "feature_3": {
+      "title": "Gerenciamento de metadados sem esforço",
+      "content": "Aproveite {{EnvName}} para processar os valores das entradas de metadados descobertas. {{ProdShortName}} permite adicionar, atualizar ou remover metadados de forma eficaz em formatos de arquivo suportados."
+    },
+    "code_1": {
+      "title": "Leia metadados de e-books em {{ProgLang}}",
+      "content": "Este exemplo de código demonstra como acessar propriedades de metadados específicas para e-books EPUB",
+      "comment_1": "Carregue o arquivo EPUB no objeto {{TextMetadata}}",
+      "comment_2": "Recuperar todos os metadados integrados",
+      "comment_3": "Use os dados recuperados para as necessidades do seu aplicativo"
+    }
+  }
+}

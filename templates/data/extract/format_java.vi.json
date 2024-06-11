@@ -1,0 +1,60 @@
+{
+  "head": {
+    "title": "Đọc và trích xuất siêu dữ liệu của tệp {{FileFormatUp}} trong ứng dụng {{EnvName}}",
+    "description": "API quản lý siêu dữ liệu {{EnvName}} đa nền tảng để đọc và trích xuất thông tin siêu dữ liệu của tệp {{FileFormatUp}}. Làm việc với các tiêu chuẩn siêu dữ liệu XMP, EXIF, IPTC, ID3, v.v."
+  },
+  "header": {
+    "title": "Trích xuất siêu dữ liệu từ tệp {{FileFormatUp}} trong {{EnvName}}",
+    "description": "Đọc và trích xuất thông tin siêu dữ liệu từ nhiều định dạng tài liệu, hình ảnh, âm thanh và video bằng cách sử dụng {{ProdFullName}}",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải về dùng thử miễn phí"
+  },
+  "about": {
+    "title": "Giới thiệu về API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) cung cấp một bộ tính năng xử lý và quản lý siêu dữ liệu nâng cao, cho phép nhà phát triển dễ dàng đọc, chỉnh sửa, xóa, tìm kiếm, so sánh, thay thế và xuất thông tin siêu dữ liệu từ các định dạng hình ảnh và tài liệu mà không cần sử dụng bất kỳ phần mềm bên ngoài. Trích xuất chi tiết siêu dữ liệu từ các định dạng tệp PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive và Đa phương tiện, đồng thời thực hiện các thao tác siêu dữ liệu được hỗ trợ với tính linh hoạt thực sự."
+  },
+  "formats": {
+    "title": "Đọc và trích xuất các định dạng tệp khác",
+    "description": "API trích xuất siêu dữ liệu hình ảnh và tài liệu đa định dạng cho {{EnvName}}. Truy xuất siêu dữ liệu của một số định dạng tệp phổ biến như được nêu bên dưới."
+  },
+  "examples": {
+    "comment_1": "Tìm kiếm siêu dữ liệu hình ảnh trong tài liệu {{FileFormatUp}}",
+    "comment_2": "Soạn {{TextMetadata}} chuyển {{FileFormatUp}} tới hàm tạo",
+    "comment_3": "Tìm nạp tất cả thuộc tính siêu dữ liệu thuộc một danh mục cụ thể",
+    "comment_4": "Xử lý các mục siêu dữ liệu được tìm thấy"
+  },
+  "steps": {
+    "title": "Các bước để trích xuất siêu dữ liệu {{FileFormatUp}} trong {{EnvName}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) giúp nhà phát triển {{EnvName}} dễ dàng trích xuất để đọc và trích xuất thông tin siêu dữ liệu từ các tệp {{FileFormatUp}} từ bên trong ứng dụng của họ bằng cách thực hiện một vài bước đơn giản.",
+      "step_1": "Tải {{FileFormatUp}} với một phiên bản của lớp {{EnvName}}.",
+      "step_2": "Tạo một vị từ để kiểm tra tất cả các thuộc tính siêu dữ liệu.",
+      "step_3": "Chuyển vị từ cho phương thức {{TextFindProperties}}.",
+      "step_4": "Lặp lại thông qua các thuộc tính được tìm thấy."
+    }
+  },
+  "more_features": {
+    "title": "Tìm kiếm siêu dữ liệu trong tệp doanh nghiệp với {{ProdShortName}}",
+    "description": "Kiểm soát dữ liệu ẩn trong các tệp và tài liệu nhạy cảm bằng ứng dụng {{EnvName}} được hỗ trợ bởi thư viện {{ProdShortName}}.",
+    "image_description": "Tìm kiếm siêu dữ liệu {{EnvName}}",
+    "feature_1": {
+      "title": "Công cụ {{EnvName}} để tìm kiếm siêu dữ liệu chi tiết",
+      "content": "Nâng cao khả năng xử lý tài liệu của bạn trong {{EnvName}} với {{ProdShortName}}. Phần mềm của chúng tôi cung cấp các công cụ hiệu quả để tìm kiếm và xử lý siêu dữ liệu ẩn."
+    },
+    "feature_2": {
+      "title": "Tùy chỉnh truy xuất siêu dữ liệu",
+      "content": "Nhắm mục tiêu siêu dữ liệu cụ thể một cách chính xác. Định cấu hình tìm kiếm của bạn để lọc theo nhiều tham số như văn bản, ngày tháng, biểu thức chính quy, v.v., đảm bảo bạn nhận được chính xác những gì mình cần."
+    },
+    "feature_3": {
+      "title": "Xử lý siêu dữ liệu hiệu quả",
+      "content": "Tận dụng {{EnvName}} để xử lý giá trị của các mục siêu dữ liệu được tìm thấy. Sử dụng {{ProdShortName}} để thao tác siêu dữ liệu một cách hiệu quả. Bạn có thể tự do thêm, cập nhật hoặc xóa bất kỳ siêu dữ liệu nào ở các định dạng được hỗ trợ."
+    },
+    "code_1": {
+      "title": "{{EnvName}} Ví dụ: Siêu dữ liệu sách điện tử",
+      "content": "Mẫu mã này cho biết cách đọc các thuộc tính siêu dữ liệu dành riêng cho định dạng EPUB",
+      "comment_1": "Truyền sách điện tử EPUB tới đối tượng {{TextMetadata}}",
+      "comment_2": "Nhận tất cả siêu dữ liệu tích hợp",
+      "comment_3": "Xử lý dữ liệu được truy xuất"
+    }
+  }
+}

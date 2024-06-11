@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "{{ProgLang}} 애플리케이션의 {{FileFormatUp}} 파일에 메타데이터 추가",
+    "description": "{{ProgLang}} 메타데이터 처리 API를 사용하여 {{FileFormatUp}} 파일에 메타데이터 정보를 추가합니다. 메타데이터 표준 XMP, EXIF, IPTC, ID3 등으로 작업합니다."
+  },
+  "header": {
+    "title": "{{ProgLang}}의 {{FileFormatUp}}에 메타데이터 추가",
+    "description": "{{ProdFullName}}을(를) 사용하여 다양한 비즈니스 문서, 이미지, 오디오 및 비디오 파일 형식에 사용자 정의 메타데이터 속성을 추가합니다.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "무료 평가판 다운로드"
+  },
+  "about": {
+    "title": "{{ProdFullName}} API 정보",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})는 외부 소프트웨어를 사용하지 않고도 이미지 및 문서 형식의 메타데이터 정보를 쉽게 확인, 업데이트, 제거, 찾기, 비교, 교환 및 내보낼 수 있는 고급 메타데이터 필드 관리 및 조작 솔루션입니다. . 기타 다양한 메타데이터 처리 기능에 대한 지원과 함께 Word 문서, Excel 스프레드시트, PowerPoint 프레젠테이션, Outlook 이메일, OneNote, Visio, Project, PDF, AutoCAD, ZIp, 오디오 및 비디오 파일 형식에 메타데이터 세부 정보를 추가합니다."
+  },
+  "formats": {
+    "title": "다른 파일 형식에 메타데이터 속성 추가",
+    "description": "{{EnvName}}용 다중 형식 문서 및 이미지 메타데이터 추가 API입니다. 아래에 설명된 대로 일부 널리 사용되는 파일 형식의 메타데이터를 검색합니다."
+  },
+  "examples": {
+    "comment_1": "{{TextMetadata}} 클래스의 인스턴스에 파일을 로드합니다.",
+    "comment_2": "콘텐츠 작성자를 포함하는 속성을 추가하세요.",
+    "comment_3": "프로세스 작업 결과",
+    "comment_4": "업데이트된 메타데이터로 파일을 저장합니다."
+  },
+  "steps": {
+    "title": "{{ProgLang}}의 {{FileFormatUp}}에 메타데이터를 추가하는 단계",
+    "content": {
+      "title": "[{{ProdFullName}}]({{PlatformLink}})를 사용하면 {{EnvName}} 개발자가 몇 가지 간단한 단계를 구현하여 애플리케이션 내에서 {{FileFormatUp}} 파일에 메타데이터 세부정보를 쉽게 추가할 수 있습니다.",
+      "step_1": "{{TextMetadata}} 클래스의 인스턴스로 {{FileFormatUp}}을 로드합니다.",
+      "step_2": "속성을 추가하려면 {{TextMetadataAddProperties}} 메서드를 사용하세요.",
+      "step_3": "조건자를 사용하여 원하는 메타데이터 속성을 찾습니다.",
+      "step_4": "변경 사항을 {{FileFormatUp}} 형식으로 다시 저장합니다."
+    }
+  },
+  "more_features": {
+    "title": "문서 메타데이터 관리",
+    "description": "우리의 포괄적인 API는 문서 메타데이터 관리를 간소화합니다. 향상된 구성 및 검색 가능성을 위해 다양한 문서 속성에 액세스하고, 편집하고, 조작합니다.",
+    "image_description": "메타데이터 기능",
+    "feature_1": {
+      "title": "메타데이터 액세스",
+      "content": "문서의 메타데이터를 손쉽게 검색하고 처리합니다. 작성자, 생성 날짜 등과 같은 속성에 대한 통찰력을 얻으세요."
+    },
+    "feature_2": {
+      "title": "메타데이터 편집",
+      "content": "문서 메타데이터를 직접 수정합니다. 더 나은 구성, 검색 가능성 및 정보 정확성을 위해 속성을 업데이트하세요."
+    },
+    "feature_3": {
+      "title": "고급 메타데이터 관리",
+      "content": "문서 메타데이터에 대해 복잡한 작업을 수행합니다. 사용자 정의 속성 추가, 관련 없는 데이터 삭제, 데이터 일관성 보장 등의 작업을 효율적으로 처리합니다."
+    },
+    "code_1": {
+      "title": "바람직하지 않은 메타데이터에서 이미지를 삭제하는 방법",
+      "content": "이 코드 샘플은 파일에서 EXIF ​​메타데이터를 제거하는 방법을 보여줍니다.",
+      "comment_1": "이미지를 {{TextMetadata}} 클래스 생성자에 전달합니다.",
+      "comment_2": "EXIF 루트 패키지에 액세스",
+      "comment_3": "메타데이터 제거",
+      "comment_4": "지워진 파일 저장"
+    }
+  }
+}

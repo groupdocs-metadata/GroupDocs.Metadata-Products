@@ -1,119 +1,302 @@
+
+
+
 ---
 ############################# Static ############################
-layout: "auto-gen-metadata"
-date: 2024-03-10T13:38:28
+layout: "format"
+date:  2024-06-11T10:55:26
 draft: false
-otherformats: zip xltx xltm xlt xlsx xlsm xlsb xls wmf webp wav vsx vss vsdx vsd vdx vcr vcf ttf ttc torrent tiff tif psd pptx pptm ppt ppsx ppsm pps potx potm pot png pdf otf otc odt ods msg mpt mpp mp3 mov jpg jpf jpeg jp2 heif heic gif flv epub eml emf dwg dotx dotm dot docx docm doc djvu dicom dcm bmp avi asf mkv one otc djvu
+lang: id
+format: Dxf
+product: "Metadata"
+product_tag: "metadata"
+platform: "Java"
+platform_tag: "java"
 
 ############################# Head ############################
-head_title: "Tambahkan Metadata ke DXF File di Java Aplikasi"
+head_title: "Tambahkan Metadata ke File DXF di Aplikasi Java"
 head_description: "Java API pemrosesan metadata untuk menambahkan informasi metadata ke file DXF. Bekerja dengan standar metadata XMP, EXIF, IPTC, ID3 dll."
 
 ############################# Header ############################
-title: "Menambahkan Metadata Ke DXF Di Java"
-description: "Tambahkan properti metadata kustom ke berbagai dokumen bisnis, gambar, format file audio & video menggunakan GroupDocs.Metadata for Java."
-bg_image: "https://cms.admin.containerize.com/templates/aspose/App_Themes/V3/images/bg/header1.png"
-bg_overlay: false
-button:
-    enable: true
-    icon: "fas fa-arrow-down"
-    label: "Unduh Uji Coba Gratis"
-    link: "https://downloads.groupdocs.com/metadata/java"
+title: "Menambahkan Metadata Ke DXF Di Java" 
+description: "Tambahkan properti metadata khusus ke berbagai format file dokumen, gambar, audio & video bisnis menggunakan GroupDocs.Metadata for Java."
+subtitle: "GroupDocs.Metadata for Java" 
 
-############################# SubMenu ############################
-submenu:
-    enable: true
-
-    left:
-        img_alt: "GroupDocs.Metadata for Java"
-        image: "https://cms.admin.containerize.com/templates/groupdocs/images/product-logos/90x90-noborder/groupdocs-metadata-java.png"
-        product: "GroupDocs.Metadata"
-        platform: "Java"
-
-    middle:
-        button:
-
-            # button loop
-            - link: "https://apireference.groupdocs.com/metadata/java"
-              text: "{submenu.content_middle.button_text_1}"
-
-            # button loop
-            - link: "https://github.com/groupdocs-metadata"
-              text: "{submenu.content_middle.button_text_2}"
-
-            # button loop
-            - link: "https://products.groupdocs.app/metadata/family"
-              text: "{submenu.content_middle.button_text_3}"
-
-            # button loop
-            - link: "https://purchase.groupdocs.com/pricing/metadata/java"
-              text: "{submenu.content_middle.button_text_4}"
-
-    right:
-        link_download: "https://downloads.groupdocs.com/metadata"
-        link_learn: "https://docs.groupdocs.com/metadata/java"
-        link_buy: "https://purchase.groupdocs.com"
-
+header_actions:
+  enable: true
+  items:
+    #  loop
+    - title: "Unduh Uji Coba Gratis"
+      link: "https://releases.groupdocs.com/metadata/java/"
+      
 ############################# About ############################
 about:
     enable: true
-    title: "Tentang GroupDocs.Metadata for Java API"
+    title: "Tentang API GroupDocs.Metadata for Java"
+    link: "/metadata/java/"
+    link_title: "Belajarlah lagi"
+    picture: "about_metadata.svg" # 480 X 400
     content: |
-        [GroupDocs.Metadata for Java](/id/metadata/java/) adalah solusi manajemen dan manipulasi bidang metadata lanjutan untuk dengan mudah melihat, memperbarui, menghapus, menemukan, membandingkan, menukar, dan mengekspor informasi metadata dari gambar dan format dokumen tanpa menggunakan perangkat lunak eksternal apa pun. Tambahkan detail metadata ke Word dokumen, Excel spreadsheet, PowerPoint presentasi, Outlook email, OneNote, Visio, Project, PDF, AutoCAD, ZIP, Audio dan Video serta dukungan untuk bekerja dengan banyak fitur pemrosesan metadata lainnya.
+       [GroupDocs.Metadata for Java](/metadata/java/) adalah solusi pengelolaan dan manipulasi bidang metadata tingkat lanjut untuk melihat, memperbarui, menghapus, menemukan, membandingkan, menukar, dan mengekspor informasi metadata dari gambar dan format dokumen dengan mudah tanpa menggunakan perangkat lunak eksternal apa pun . Tambahkan detail metadata ke dokumen Word, spreadsheet Excel, presentasi PowerPoint, email Outlook, OneNote, Visio, Project, PDF, AutoCAD, ZIp, format file Audio dan Video serta dukungan untuk bekerja dengan banyak fitur pemrosesan metadata lainnya.
 
 ############################# Steps ############################
 steps:
     enable: true
-    title_left: "Langkah-langkah untuk menambahkan Metadata ke DXF di Java"
-    content_left: |
-        [GroupDocs.Metadata for Java](/id/metadata/java/) memudahkan pengembang Java untuk menambahkan detail metadata ke file DXF dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
-        
-        * Muat DXF dengan instance kelas Metadata.
-        * Gunakan metode Metadata.addProperties untuk menambahkan properti.
-        * Gunakan predikat untuk menemukan properti metadata yang diinginkan.
-        * Simpan perubahan kembali dalam format DXF.
+    title: "Langkah-langkah untuk menambahkan Metadata ke DXF di Java"
+    content: |
+      [GroupDocs.Metadata for Java](/metadata/java/) memudahkan pengembang Java untuk menambahkan detail metadata ke file DXF dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
+      
+      1. Muat DXF dengan instance kelas Metadata.
+      2. Gunakan metode Metadata.AddProperties untuk menambahkan properti.
+      3. Gunakan predikat untuk menemukan properti metadata yang diinginkan.
+      4. Simpan kembali perubahan dalam format DXF.
+   
+    code:
+      platform: "net"
+      copy_title: "Menyalin"
+      install:
+        command: |
+          <dependencies>
+            <dependency>
+              <groupId>com.groupdocs</groupId>
+              <artifactId>groupdocs-metadata</artifactId>
+              <version>{0}</version>
+            </dependency>
+          </dependencies>
 
-    title_right: "Persyaratan Sistem"
-    content_right: |
-        GroupDocs.Metadata for Java API didukung pada semua platform utama dan sistem operasi. Sebelum mengeksekusi kode di bawah ini, pastikan bahwa Anda memiliki prasyarat berikut diinstal pada sistem Anda.
-
-        * Sistem Operasi: Microsoft Windows, Linux, Mac OS
-        * Lingkungan Pengembangan: NetBeans, IntelliJ IDEA, Eclipse
-        * Java Lingkungan Runtime: J2SE 6.0 and above
-        * Dapatkan versi terbaru GroupDocs.Metadata for Java dari [Maven](https://repository.groupdocs.com/webapp/#/artifacts/browse/tree/General/repo/com/groupdocs/groupdocs-metadata)
-         
-    code: |
-        ```java    
-        // {steps.code.load_comment}
+          <repositories>
+            <repository>
+              <id>repository.groupdocs.com</id>
+              <name>GroupDocs Repository</name>
+              <url>https://repository.groupdocs.com/repo/</url>
+            </repository>
+          </repositories>
+        copy_tip: "klik untuk menyalin"
+        copy_done: "disalin"
+      links:
+        #  loop
+        - title: "Lebih banyak contoh"
+          link: "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Java/"
+        #  loop
+        - title: "Dokumentasi"
+          link: "https://docs.groupdocs.com/metadata/java/"
+          
+      content: |
+        ```java {style=abap}
+        // memuat file dalam instance kelas Metadata
         try (Metadata metadata = new Metadata("input.dxf"))
         {
-            // menambahkan properti yang berisi penulis konten
-            int affected = metadata.addProperties(new ContainsTagSpecification(Tags.getTime().getPrinted()), new PropertyValue(new Date()));
+            // tambahkan properti yang berisi penulis konten
+            int affected = metadata.addProperties(new ContainsTagSpecification(Tags.getTime().getPrinted()), 
+                new PropertyValue(new Date()));
+
+            // hasil operasi proses
             System.out.println(String.format("Affected properties: %s", affected));
+
+            // simpan file dengan metadata yang diperbarui
             metadata.save("output.dxf");
         }
-        ```
-
-############################# Demos ############################
-demos:
-    enable: true
-    title: "Demo Langsung untuk Menambahkan Metadata"
-    content: |
-       Tambahkan informasi metadata ke file DXF sekarang juga dengan mengunjungi situs web [GroupDocs.Metadata Demo Langsung](https://products.groupdocs.app/metadata/family).
-       Demo langsung memiliki manfaat sebagai berikut.
         
-############################# About Formats ############################
-about_formats:
-    enable: true
+        ```            
 
-############################# More Formats ############################
+############################# More features ############################
+more_features:
+  enable: true
+  title: "Manajemen Metadata Dokumen"
+  description: "API komprehensif kami menyederhanakan pengelolaan metadata dokumen. Akses, edit, dan manipulasi berbagai properti dokumen untuk meningkatkan pengorganisasian dan kemampuan pencarian."
+  image: "/img/metadata/features_add.webp" # 500x500 px
+  image_description: "Fungsi Metadata"
+  features:
+    # feature loop
+    - title: "Akses Metadata"
+      content: "Mengambil dan memproses metadata dokumen dengan mudah. Dapatkan wawasan tentang properti seperti penulis, tanggal pembuatan, dan banyak lainnya."
+
+    # feature loop
+    - title: "Pengeditan Metadata"
+      content: "Ubah metadata dokumen secara langsung. Perbarui properti untuk pengorganisasian, kemudahan penelusuran, dan keakuratan informasi yang lebih baik."
+
+    # feature loop
+    - title: "Manajemen Metadata Tingkat Lanjut"
+      content: "Lakukan operasi kompleks pada metadata dokumen. Tangani tugas-tugas seperti menambahkan properti khusus, menghapus data yang tidak relevan, dan memastikan konsistensi data secara efisien."
+      
+  code_samples:
+    # code sample loop
+    - title: "Bagaimana cara menambahkan metadata khusus ke gambar TIFF"
+      content: |
+        Contoh kode ini menunjukkan cara menambahkan tag khusus ke paket EXIF
+        {{< landing/code title="Java">}}
+        ```java {style=abap}
+        
+        try (Metadata metadata = new Metadata("input.tiff")) {
+            IExif root = (IExif) metadata.getRootPackage();
+
+            //  Atur paket EXIF ​​jika tidak ada
+            if (root.getExifPackage() == null) {
+                root.setExifPackage(new ExifPackage());
+            }
+
+            //  Tambahkan properti yang diketahui
+            root.getExifPackage().set(new TiffAsciiTag(TiffTagID.Artist, "Artist's name"));
+
+            //  Tambahkan properti khusus sepenuhnya (yang tidak dijelaskan dalam spesifikasi EXIF)
+            //  Harap dicatat bahwa ID yang dipilih mungkin bersinggungan dengan ID yang digunakan oleh beberapa alat pihak ketiga
+            root.getExifPackage().set(new TiffAsciiTag(TiffTagID.getByRawValue(65523), "Hidden data"));
+
+            metadata.save("output.tiff");
+        }
+        ```
+        {{< /landing/code >}}
+
+
+############################# Actions ############################
+
+actions:
+  enable: true
+  title: "Siap untuk memulai?"
+  description: "Coba fitur GroupDocs.Metadata secara gratis atau minta lisensi"
+  items:
+    #  loop
+    - title: "Maven unduh"
+      link: "https://releases.groupdocs.com/metadata/java/"
+      color: "red"
+        #  loop
+    - title: "Perizinan"
+      link: "https://purchase.groupdocs.com/pricing/metadata/java/"
+      color: "light"
+
+
+############################# More Formats #####################
 more_formats:
     enable: true
-    title: "Menambahkan Properti Metadata Ke Format File Lainnya"
-    content: |
-        Multi format dokumen dan gambar penambahan metadata API untuk Java. Ambil metadata dari beberapa format file populer seperti yang dinyatakan di bawah ini.
+    title: "Menambahkan Properti Metadata Ke Format File Lain"
+    exclude: "DXF"
+    description: "API penambahan metadata dokumen multi format dan gambar untuk Java. Ambil metadata dari beberapa format file populer seperti yang dinyatakan di bawah ini."
+    items: 
+        # format loop 1
+        - name: "Tambahkan Metadata ke AVI"
+          format: "AVI"
+          link: "/metadata/java/add/avi/"
+          description: "(File Interleave Audio Video)"
+          
+        # format loop 2
+        - name: "Tambahkan Metadata ke DJVU"
+          format: "DJVU"
+          link: "/metadata/java/add/djvu/"
+          description: "(Format File Grafik)"
+          
+        # format loop 3
+        - name: "Tambahkan Metadata ke DOCX"
+          format: "DOCX"
+          link: "/metadata/java/add/docx/"
+          description: "(Dokumen Office 2007+ Word)"
+          
+        # format loop 4
+        - name: "Tambahkan Metadata ke EPUB"
+          format: "EPUB"
+          link: "/metadata/java/add/epub/"
+          description: "(Buka File eBuku)"
+          
+        # format loop 5
+        - name: "Tambahkan Metadata ke HEIC"
+          format: "HEIC"
+          link: "/metadata/java/add/heic/"
+          description: "(Format Gambar Efisiensi Tinggi)"
+          
+        # format loop 6
+        - name: "Tambahkan Metadata ke JPEG"
+          format: "JPEG"
+          link: "/metadata/java/add/jpeg/"
+          description: "(Gambar Kelompok Pakar Fotografi Bersama)"
+          
+        # format loop 7
+        - name: "Tambahkan Metadata ke MOV"
+          format: "MOV"
+          link: "/metadata/java/add/mov/"
+          description: "(Film Apple QuickTime)"
+          
+        # format loop 8
+        - name: "Tambahkan Metadata ke MP3"
+          format: "MP3"
+          link: "/metadata/java/add/mp3/"
+          description: "(Berkas Audio MP3)"
+          
+        # format loop 9
+        - name: "Tambahkan Metadata ke MSG"
+          format: "MSG"
+          link: "/metadata/java/add/msg/"
+          description: "(File Item Pesan Outlook)"
+          
+        # format loop 10
+        - name: "Tambahkan Metadata ke ODS"
+          format: "ODS"
+          link: "/metadata/java/add/ods/"
+          description: "(Lembar Bentang Dokumen Terbuka)"
+          
+        # format loop 11
+        - name: "Tambahkan Metadata ke ODT"
+          format: "ODT"
+          link: "/metadata/java/add/odt/"
+          description: "(Format File Teks OpenDocument)"
+          
+        # format loop 12
+        - name: "Tambahkan Metadata ke PDF"
+          format: "PDF"
+          link: "/metadata/java/add/pdf/"
+          description: "(Format Dokumen Portabel)"
+          
+        # format loop 13
+        - name: "Tambahkan Metadata ke PNG"
+          format: "PNG"
+          link: "/metadata/java/add/png/"
+          description: "(Grafik Jaringan Portabel)"
+          
+        # format loop 14
+        - name: "Tambahkan Metadata ke PPTX"
+          format: "PPTX"
+          link: "/metadata/java/add/pptx/"
+          description: "(Buka Format presentasi XML)"
+          
+        # format loop 15
+        - name: "Tambahkan Metadata ke TIFF"
+          format: "TIFF"
+          link: "/metadata/java/add/tiff/"
+          description: "(Format File Gambar yang Ditandai)"
+          
+        # format loop 16
+        - name: "Tambahkan Metadata ke TORRENT"
+          format: "TORRENT"
+          link: "/metadata/java/add/torrent/"
+          description: "(Tautan torrent)"
+          
+        # format loop 17
+        - name: "Tambahkan Metadata ke VSDX"
+          format: "VSDX"
+          link: "/metadata/java/add/vsdx/"
+          description: "(Gambar Visio)"
+          
+        # format loop 18
+        - name: "Tambahkan Metadata ke WAV"
+          format: "WAV"
+          link: "/metadata/java/add/wav/"
+          description: "(File Audio GELOMBANG)"
+          
+        # format loop 19
+        - name: "Tambahkan Metadata ke WEBP"
+          format: "WEBP"
+          link: "/metadata/java/add/webp/"
+          description: "(Format Gambar Web Raster)"
+          
+        # format loop 20
+        - name: "Tambahkan Metadata ke XLSX"
+          format: "XLSX"
+          link: "/metadata/java/add/xlsx/"
+          description: "(Buka Buku Kerja XML)"
+          
+        # format loop 21
+        - name: "Tambahkan Metadata ke ZIP"
+          format: "ZIP"
+          link: "/metadata/java/add/zip/"
+          description: "(File Zip)"
+          
 
-############################# Back to top ###############################
-back_to_top:
-    enable: true
 ---

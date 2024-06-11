@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-07T21:09:31
+date:  2024-06-11T10:56:26
 draft: false
 lang: en
 format: Jp2

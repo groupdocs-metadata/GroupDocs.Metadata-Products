@@ -1,0 +1,64 @@
+{
+  "head": {
+    "title": "在 {{ProgLang}} 应用程序中读取并提取 {{FileFormatUp}} 文件的元数据",
+    "description": "跨平台{{ProgLang}}元数据管理API，用于读取和提取{{FileFormatUp}}文件的元数据信息。使用元数据标准 XMP、EXIF、IPTC、ID3 等。"
+  },
+  "header": {
+    "title": "从 {{ProgLang}} 中的 {{FileFormatUp}} 文件提取元数据",
+    "description": "使用 {{EnvName}} 的 GroupDocs.Metadata 从各种文档、图像、音频和视频格式中读取和提取元数据信息",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "下载免费试用版"
+  },
+  "about": {
+    "title": "关于{{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 提供了一组先进的元数据管理和操作功能，使开发人员能够轻松读取、编辑、删除、搜索、比较、替换和导出图像和文档格式的元数据信息，而无需使用任何外部软件。从 PDF、Word、Excel、PowerPoint、Outlook、OneNote、Visio、Project、AutoCAD、Archive 和多媒体文件格式中提取元数据详细信息，并以真正的灵活性执行支持的元数据操作。"
+  },
+  "formats": {
+    "title": "从其他文件格式更新元数据属性",
+    "description": "适用于 {{EnvName}} 的多格式文档和图像元数据编辑 API。检索一些流行文件格式的元数据，如下所述。"
+  },
+  "examples": {
+    "comment_1": "按各种标准提取 {{FileFormatUp}} 元数据属性",
+    "comment_2": "构造 {{TextMetadata}} 传递 {{FileFormatUp}} 路径",
+    "comment_3": "提取属于特定类别的所有元数据属性",
+    "comment_4": "迭代所有属性并显示",
+    "comment_5": "提取具有特定类型和值的所有属性",
+    "comment_6": "显示年份值等于当前年份的所有日期时间属性",
+    "comment_7": "提取名称与指定正则表达式匹配的所有属性",
+    "comment_8": "显示名称与以下模式匹配的属性"
+  },
+  "steps": {
+    "title": "在 {{EnvName}} 中提取 {{FileFormatUp}} 元数据的步骤",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) 使 {{EnvName}} 开发人员可以通过实施几个简单的步骤，轻松地从应用程序内的 {{FileFormatUp}} 文件中读取和提取元数据信息。",
+      "step_1": "使用 {{EnvName}} 类的实例加载 {{FileFormatUp}}。",
+      "step_2": "组成一个谓词来检查所有元数据属性。",
+      "step_3": "将谓词传递给 {{TextFindProperties}} 方法。",
+      "step_4": "迭代找到的属性。"
+    }
+  },
+  "more_features": {
+    "title": "使用 {{ProdShortName}} 搜索文件元数据",
+    "description": "使用由 {{ProdShortName}} 库提供支持的 {{EnvName}} 应用程序安全地管理敏感文档中的隐藏元数据。",
+    "image_description": "在 {{EnvName}} 文件中搜索元数据",
+    "feature_1": {
+      "title": "用于全面元数据搜索的 {{EnvName}} 工具",
+      "content": "使用 {{ProdShortName}} 简化 {{EnvName}} 中的文档处理。我们的软件提供了强大的工具来有效地搜索和管理隐藏的元数据。"
+    },
+    "feature_2": {
+      "title": "精确的元数据定位",
+      "content": "精确定位特定元数据。使用文本、日期或正则表达式等各种过滤器配置您的搜索，以准确找到您需要的元数据。"
+    },
+    "feature_3": {
+      "title": "轻松的元数据管理",
+      "content": "利用 {{EnvName}} 处理发现的元数据条目的值。 {{ProdShortName}} 使您能够在支持的文件格式中有效地添加、更新或删除元数据。"
+    },
+    "code_1": {
+      "title": "阅读 {{ProgLang}} 中的电子书元数据",
+      "content": "此代码示例演示如何访问特定于 EPUB 电子书的元数据属性",
+      "comment_1": "将 EPUB 文件加载到 {{TextMetadata}} 对象中",
+      "comment_2": "检索所有内置元数据",
+      "comment_3": "使用检索到的数据来满足您的应用程序的需求"
+    }
+  }
+}

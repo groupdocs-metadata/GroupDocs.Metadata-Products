@@ -1,0 +1,64 @@
+{
+  "head": {
+    "title": "Đọc và trích xuất siêu dữ liệu của tệp {{FileFormatUp}} trong ứng dụng {{ProgLang}}",
+    "description": "API quản lý siêu dữ liệu {{ProgLang}} đa nền tảng để đọc và trích xuất thông tin siêu dữ liệu của tệp {{FileFormatUp}}. Làm việc với các tiêu chuẩn siêu dữ liệu XMP, EXIF, IPTC, ID3, v.v."
+  },
+  "header": {
+    "title": "Trích xuất siêu dữ liệu từ tệp {{FileFormatUp}} trong {{ProgLang}}",
+    "description": "Đọc và trích xuất thông tin siêu dữ liệu từ nhiều định dạng tài liệu, hình ảnh, âm thanh và video bằng GroupDocs.Metadata cho {{EnvName}}",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải về dùng thử miễn phí"
+  },
+  "about": {
+    "title": "Giới thiệu về API{{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) cung cấp một bộ tính năng xử lý và quản lý siêu dữ liệu nâng cao, cho phép nhà phát triển dễ dàng đọc, chỉnh sửa, xóa, tìm kiếm, so sánh, thay thế và xuất thông tin siêu dữ liệu từ các định dạng hình ảnh và tài liệu mà không cần sử dụng bất kỳ phần mềm bên ngoài. Trích xuất chi tiết siêu dữ liệu từ các định dạng tệp PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive và Đa phương tiện, đồng thời thực hiện các thao tác siêu dữ liệu được hỗ trợ với tính linh hoạt thực sự."
+  },
+  "formats": {
+    "title": "Cập nhật thuộc tính siêu dữ liệu từ các định dạng tệp khác",
+    "description": "API chỉnh sửa siêu dữ liệu hình ảnh và tài liệu đa định dạng cho {{EnvName}}. Truy xuất siêu dữ liệu của một số định dạng tệp phổ biến như được nêu bên dưới."
+  },
+  "examples": {
+    "comment_1": "Trích xuất thuộc tính siêu dữ liệu {{FileFormatUp}} theo nhiều tiêu chí khác nhau",
+    "comment_2": "Xây dựng đường dẫn {{TextMetadata}} đi qua {{FileFormatUp}}",
+    "comment_3": "trích xuất tất cả các thuộc tính siêu dữ liệu thuộc một danh mục cụ thể",
+    "comment_4": "lặp qua tất cả các thuộc tính và hiển thị",
+    "comment_5": "trích xuất tất cả các thuộc tính có loại và giá trị cụ thể",
+    "comment_6": "hiển thị tất cả các thuộc tính ngày giờ có giá trị năm bằng năm hiện tại",
+    "comment_7": "trích xuất tất cả các thuộc tính có tên khớp với biểu thức chính quy đã chỉ định",
+    "comment_8": "hiển thị các thuộc tính có tên khớp với mẫu sau"
+  },
+  "steps": {
+    "title": "Các bước để trích xuất siêu dữ liệu {{FileFormatUp}} trong {{EnvName}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) giúp nhà phát triển {{EnvName}} dễ dàng trích xuất để đọc và trích xuất thông tin siêu dữ liệu từ các tệp {{FileFormatUp}} từ bên trong ứng dụng của họ bằng cách thực hiện một vài bước đơn giản.",
+      "step_1": "Tải {{FileFormatUp}} với một phiên bản của lớp {{EnvName}}.",
+      "step_2": "Tạo một vị từ để kiểm tra tất cả các thuộc tính siêu dữ liệu.",
+      "step_3": "Chuyển vị từ cho phương thức {{TextFindProperties}}.",
+      "step_4": "Lặp lại thông qua các thuộc tính được tìm thấy."
+    }
+  },
+  "more_features": {
+    "title": "Tìm kiếm siêu dữ liệu tệp bằng {{ProdShortName}}",
+    "description": "Quản lý an toàn siêu dữ liệu ẩn trong các tài liệu nhạy cảm bằng ứng dụng {{EnvName}} được hỗ trợ bởi thư viện {{ProdShortName}}.",
+    "image_description": "Tìm kiếm siêu dữ liệu trong tệp {{EnvName}}",
+    "feature_1": {
+      "title": "Công cụ {{EnvName}} để tìm kiếm siêu dữ liệu toàn diện",
+      "content": "Hợp lý hóa quá trình xử lý tài liệu của bạn trong {{EnvName}} với {{ProdShortName}}. Phần mềm của chúng tôi cung cấp các công cụ mạnh mẽ để tìm kiếm và quản lý siêu dữ liệu ẩn một cách hiệu quả."
+    },
+    "feature_2": {
+      "title": "Nhắm mục tiêu siêu dữ liệu chính xác",
+      "content": "Nhắm mục tiêu siêu dữ liệu cụ thể với độ chính xác cao. Định cấu hình tìm kiếm của bạn bằng nhiều bộ lọc khác nhau như văn bản, ngày tháng hoặc cụm từ thông dụng để tìm chính xác siêu dữ liệu bạn cần."
+    },
+    "feature_3": {
+      "title": "Quản lý siêu dữ liệu dễ dàng",
+      "content": "Tận dụng {{EnvName}} để xử lý giá trị của các mục siêu dữ liệu được phát hiện. {{ProdShortName}} cho phép bạn thêm, cập nhật hoặc xóa siêu dữ liệu một cách hiệu quả trong các định dạng tệp được hỗ trợ."
+    },
+    "code_1": {
+      "title": "Đọc siêu dữ liệu sách điện tử trong {{ProgLang}}",
+      "content": "Ví dụ về mã này trình bày cách truy cập các thuộc tính siêu dữ liệu dành riêng cho sách điện tử EPUB",
+      "comment_1": "Tải tệp EPUB vào đối tượng {{TextMetadata}}",
+      "comment_2": "Truy xuất tất cả siêu dữ liệu tích hợp",
+      "comment_3": "Sử dụng dữ liệu được truy xuất cho nhu cầu của ứng dụng của bạn"
+    }
+  }
+}

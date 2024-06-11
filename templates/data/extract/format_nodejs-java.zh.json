@@ -1,0 +1,60 @@
+{
+  "head": {
+    "title": "从 {{EnvNameShort}} 应用中的 {{FileFormatUp}} 文件读取元数据",
+    "description": "跨 {{EnvNameShort}} 轻松访问和提取 {{FileFormatUp}} 文件中的元数据。适用于 XMP、EXIF、IPTC、ID3 等常见格式。"
+  },
+  "header": {
+    "title": "从 {{FileFormatUp}} 文件中提取元数据",
+    "description": "使用 {{ProdFullName}} 从各种文档、图像、音频和视频格式中提取元数据。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "下载免费试用版"
+  },
+  "about": {
+    "title": "什么是 {{ProdFullName}} API？",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 可让您轻松查看、编辑、添加、删除、查找和管理图像和文档中的元数据。无需外部软件！从 PDF、Word 文档、Excel 工作表等各种格式中提取详细信息。此外，它还提供了处理元数据的高级功能。"
+  },
+  "formats": {
+    "title": "从其他文件类型读取详细信息",
+    "description": "从 {{EnvName}} 中的各种文档和图像中提取元数据。该 API 支持流行的格式，例如..."
+  },
+  "examples": {
+    "comment_1": "从 {{FileFormatUp}} 文件中提取所有详细信息",
+    "comment_2": "编写 {{TextMetadata}} 将 {{FileFormatUp}} 传递给构造函数",
+    "comment_3": "从文件中提取所有详细信息",
+    "comment_4": "将提取的元数据用于您的应用程序"
+  },
+  "steps": {
+    "title": "如何使用 {{ProdShortName}} 从 {{EnvNameShort}} 中的 {{FileFormatUp}} 文件提取元数据",
+    "content": {
+      "title": "使用 [{{ProdShortName}}]({{ProductUrl}}) 轻松从 {{EnvName}} 应用程序中的 {{FileFormatUp}} 文件中提取元数据。就是这样：",
+      "step_1": "加载您要从中提取元数据的 {{FileFormatUp}} 文件。",
+      "step_2": "使用过滤器指定要提取的详细信息。",
+      "step_3": "使用 {{TextFindProperties}} 开始提取过程。",
+      "step_4": "访问提取的详细信息以满足您的应用程序的需求。"
+    }
+  },
+  "more_features": {
+    "title": "使用 {{ProdShortName}} 查找业务文件中的隐藏元数据",
+    "description": "使用 {{ProdShortName}} 库，通过 {{EnvName}} 应用程序轻松搜索和管理敏感文档中的隐藏详细信息（元数据）。",
+    "image_description": "搜索 {{EnvNameShort}} 文件中的元数据",
+    "feature_1": {
+      "title": "针对 {{EnvNameShort}} 的强大元数据搜索",
+      "content": "使用 {{ProdShortName}} 增强 {{EnvName}} 中的文档处理能力。使用我们的搜索工具快速轻松地找到隐藏的详细信息。"
+    },
+    "feature_2": {
+      "title": "精确的元数据过滤",
+      "content": "针对您需要的特定数据。按文本、日期或使用特殊模式搜索来准确找到您要查找的内容。"
+    },
+    "feature_3": {
+      "title": "高效的元数据管理",
+      "content": "使用 {{ProdShortName}} 管理您在 {{EnvName}} 文件中找到的详细信息（元数据）。根据需要添加、更新或删除详细信息，所有这些都在支持的文件格式内。"
+    },
+    "code_1": {
+      "title": "阅读电子书详细信息（{{EnvName}} 示例）",
+      "content": "此代码示例演示如何访问特定于 EPUB 电子书的详细信息。",
+      "comment_1": "将 EPUB 文件加载到 {{TextMetadata}} 对象中。",
+      "comment_2": "从 EPUB 文件中检索所有内置详细信息。",
+      "comment_3": "使用检索到的数据来满足您的应用程序的需求。"
+    }
+  }
+}

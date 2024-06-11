@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "Eliminar propiedades de metadatos de archivos {{FileFormatUp}} en {{EnvName}}",
+    "description": "API de metadatos {{EnvName}} multiplataforma para ocultar y eliminar campos de metadatos de archivos {{FileFormatUp}}. Trabaje con estándares de metadatos XMP, EXIF, IPTC, ID3, etc."
+  },
+  "header": {
+    "title": "Eliminar metadatos de {{FileFormatUp}} en {{EnvName}}",
+    "description": "Elimine las propiedades de metadatos de {{FileFormatUp}} y muchos otros documentos, imágenes y formatos de archivos multimedia populares utilizando la API {{ProdFullName}}",
+    "subtitle": "API {{ProdFullName}}",
+    "action_title": "Descargue prueba gratis"
+  },
+  "about": {
+    "title": "Acerca de la API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) es una solución avanzada de manipulación de campos de metadatos para leer, agregar, actualizar, eliminar, buscar, comparar, intercambiar y exportar fácilmente información de metadatos de imágenes y formatos de documentos sin utilizar ningún software externo. . Elimine los detalles de metadatos de documentos de Word, hojas de cálculo de Excel, presentaciones de PowerPoint, correos electrónicos de Outlook, OneNote, Visio, Project, PDF, AutoCAD, ZIP, formatos de archivos de audio y video junto con la compatibilidad para trabajar con muchas otras funciones de procesamiento de metadatos."
+  },
+  "formats": {
+    "title": "Eliminar metadatos de otros formatos de archivo",
+    "description": "API de eliminación de metadatos de imágenes y documentos multiformato para {{EnvName}}. Recupere metadatos de algunos de los formatos de archivo populares como se indica a continuación."
+  },
+  "examples": {
+    "comment_1": "Borrar metadatos del documento {{FileFormatUp}}",
+    "comment_2": "Eliminar todas las menciones de cualquier persona que haya contribuido a la creación del archivo.",
+    "comment_3": "Eliminar una propiedad personalizada con el nombre especificado",
+    "comment_4": "Guarde el archivo borrado"
+  },
+  "steps": {
+    "title": "Pasos para eliminar metadatos de {{FileFormatUp}} en {{EnvName}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) facilita a los desarrolladores de {{EnvName}} eliminar información de metadatos de archivos {{FileFormatUp}} desde sus aplicaciones mediante la implementación de unos sencillos pasos.",
+      "step_1": "Cargue el archivo {{FileFormatUp}} para actualizarlo.",
+      "step_2": "Pase un predicado de búsqueda al método {{TextRemoveProperties}}.",
+      "step_3": "Verifique la cantidad de propiedades que realmente se eliminaron.",
+      "step_4": "Guarde los cambios."
+    }
+  },
+  "more_features": {
+    "title": "Administre metadatos de documentos con facilidad",
+    "description": "Nuestra solución simplifica la gestión de los metadatos de sus documentos. Acceda, edite y actualice fácilmente varias propiedades de documentos para mantener sus archivos organizados y con capacidad de búsqueda.",
+    "image_description": "Proteger los metadatos de los documentos",
+    "feature_1": {
+      "title": "Control de metadatos sin esfuerzo",
+      "content": "Obtenga y procese rápidamente los metadatos de un documento. Obtenga información valiosa como autor, fecha de creación y más."
+    },
+    "feature_2": {
+      "title": "Actualización sencilla de metadatos",
+      "content": "Edite directamente los metadatos del documento. Actualice las propiedades para una mejor organización, capacidad de búsqueda e información precisa."
+    },
+    "feature_3": {
+      "title": "Potente gestión de metadatos",
+      "content": "Realizar operaciones avanzadas sobre metadatos de documentos. Maneje fácilmente tareas como agregar propiedades personalizadas, eliminar datos innecesarios y garantizar la coherencia de los datos."
+    },
+    "code_1": {
+      "title": "Borrar metadatos del archivo ZIP",
+      "content": "El siguiente fragmento de código muestra cómo eliminar el comentario del usuario de un archivo ZIP.",
+      "comment_1": "Cargar el archivo para su posterior procesamiento",
+      "comment_2": "Obtener el paquete de metadatos principal",
+      "comment_3": "Eliminar comentarios de archivo",
+      "comment_4": "Guardar archivo limpio"
+    }
+  }
+}

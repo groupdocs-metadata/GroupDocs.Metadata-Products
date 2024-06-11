@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "使用 {{EnvNameShort}} 应用程序编辑 {{FileFormatUp}} 文件中的元数据",
+    "description": "使用 {{EnvNameShort}} 元数据 API 编辑 {{FileFormatUp}} 文件中的元数据。支持 XMP、EXIF、IPTC、ID3 等。"
+  },
+  "header": {
+    "title": "使用 {{ProgLang}} 更新 {{FileformatCap}} 文件中的元数据",
+    "description": "{{ProgLang}} 的元数据编辑器 – 使用我们的 API 编辑文档、图像和多媒体文件中的元数据字段。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "下载免费试用版"
+  },
+  "about": {
+    "title": "关于 {{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 是一种高级解决方案，用于从图像和文档中读取、添加、修改、删除、搜索、比较、替换和导出元数据。在 Word、Excel、PowerPoint、Outlook、OneNote、Visio、Project、PDF、AutoCAD、ZIP、音频和视频文件以及许多其他功能中编辑元数据。"
+  },
+  "formats": {
+    "title": "编辑各种文件格式的元数据",
+    "description": "适用于 {{EnvNameShort}} 的多格式文档和图像元数据编辑 API。检索和编辑流行文件格式的元数据"
+  },
+  "examples": {
+    "comment_1": "打印后更新文件的上次打印日期/时间元数据",
+    "comment_2": "将文件加载到 {{TextMetadata}} 类构造函数中",
+    "comment_3": "仅现有元数据包受到影响。没有添加新的包。",
+    "comment_4": "处理结果",
+    "comment_5": "保存更新的文件"
+  },
+  "steps": {
+    "title": "使用 {{EnvNameShort}} 更新 {{FileformatCap}} 中的元数据的步骤",
+    "content": {
+      "title": "[{{ProdFullName}}]({{ProductUrl}}) 允许通过几个简单的步骤编辑 {{FileformatCap}} 文件中的元数据。",
+      "step_1": "加载要更新的 {{FileformatCap}} 文件。",
+      "step_2": "指定谓词来过滤所需的元数据属性。",
+      "step_3": "将谓词和新值传递给 {{TextUpdateProperties}} 方法。",
+      "step_4": "保存更改。"
+    }
+  },
+  "more_features": {
+    "title": "编辑 {{EnvNameShort}} 应用的 {{FileFormatUp}} 元数据",
+    "description": "{{ProdShortName}} API 允许开发者在 {{EnvName}} 应用程序中更新各种文档格式的隐藏元数据。以编程方式应用、编辑、搜索和删除元数据。",
+    "image_description": "元数据配置",
+    "feature_1": {
+      "title": "轻松的元数据集成",
+      "content": "{{ProdShortName}} 简化了在 {{EnvName}} 应用内的文档和文件中添加和编辑元数据的过程。开发人员可以轻松应用、更新或删除元数据。"
+    },
+    "feature_2": {
+      "title": "全面的元数据控制",
+      "content": "API 提供了用于自定义元数据的广泛选项。使用专门的查询轻松查找、删除或更新文件中的元数据。"
+    },
+    "feature_3": {
+      "title": "使用本机 {{FileFormatUp}} 功能",
+      "content": "利用图像 EXIF 等内置元数据功能，其中可以包括相机型号、分辨率、创建日期等。"
+    },
+    "code_1": {
+      "title": "更新 MP3 文件中的歌词标签（示例）",
+      "content": "此示例演示如何更新 MP3 文件中的隐藏元数据。",
+      "comment_1": "将文件加载到 {{TextMetadata}} 类构造函数中",
+      "comment_2": "更新歌词数据",
+      "comment_3": "向标签添加自定义字段",
+      "comment_4": "保存结果"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "common-content": {
+    "format-formats": {
+      "avi": {
+        "name": "เพิ่มข้อมูลเมตาลงใน AVI",
+        "description": "(ไฟล์เสียงแทรกวิดีโอ)"
+      },
+      "djvu": {
+        "name": "เพิ่มข้อมูลเมตาให้กับ DJVU",
+        "description": "(รูปแบบไฟล์กราฟิก)"
+      },
+      "docx": {
+        "name": "เพิ่มข้อมูลเมตาลงใน DOCX",
+        "description": "(เอกสาร Word Office 2007+)"
+      },
+      "epub": {
+        "name": "เพิ่มข้อมูลเมตาลงใน EPUB",
+        "description": "(เปิดไฟล์อีบุ๊ค)"
+      },
+      "heic": {
+        "name": "เพิ่มข้อมูลเมตาลงใน HEIC",
+        "description": "(รูปแบบภาพที่มีประสิทธิภาพสูง)"
+      },
+      "jpeg": {
+        "name": "เพิ่มข้อมูลเมตาลงใน JPEG",
+        "description": "(ภาพกลุ่มผู้เชี่ยวชาญด้านการถ่ายภาพร่วม)"
+      },
+      "mov": {
+        "name": "เพิ่มข้อมูลเมตาลงใน MOV",
+        "description": "(ภาพยนตร์ Apple QuickTime)"
+      },
+      "mp3": {
+        "name": "เพิ่มข้อมูลเมตาลงใน MP3",
+        "description": "(ไฟล์เสียง MP3)"
+      },
+      "msg": {
+        "name": "เพิ่มข้อมูลเมตาลงในผงชูรส",
+        "description": "(ไฟล์รายการข้อความ Outlook)"
+      },
+      "ods": {
+        "name": "เพิ่มข้อมูลเมตาลงใน ODS",
+        "description": "(สเปรดชีต OpenDocument)"
+      },
+      "odt": {
+        "name": "เพิ่มข้อมูลเมตาให้กับ ODT",
+        "description": "(รูปแบบไฟล์ข้อความ OpenDocument)"
+      },
+      "pdf": {
+        "name": "เพิ่มข้อมูลเมตาลงใน PDF",
+        "description": "(รูปแบบเอกสารพกพา)"
+      },
+      "png": {
+        "name": "เพิ่มข้อมูลเมตาลงใน PNG",
+        "description": "(กราฟิกเครือข่ายพกพา)"
+      },
+      "pptx": {
+        "name": "เพิ่มข้อมูลเมตาลงใน PPTX",
+        "description": "(รูปแบบการนำเสนอ Open XML)"
+      },
+      "tiff": {
+        "name": "เพิ่มข้อมูลเมตาลงใน TIFF",
+        "description": "(รูปแบบไฟล์ภาพที่แท็ก)"
+      },
+      "torrent": {
+        "name": "เพิ่มข้อมูลเมตาลงใน TORRENT",
+        "description": "(ลิงก์ฝนตกหนัก)"
+      },
+      "vsdx": {
+        "name": "เพิ่มข้อมูลเมตาลงใน VSDX",
+        "description": "(การวาดภาพ Visio)"
+      },
+      "wav": {
+        "name": "เพิ่มข้อมูลเมตาลงใน WAV",
+        "description": "(ไฟล์เสียง WAVE)"
+      },
+      "webp": {
+        "name": "เพิ่มข้อมูลเมตาลงใน WEBP",
+        "description": "(รูปแบบภาพเว็บแรสเตอร์)"
+      },
+      "xlsx": {
+        "name": "เพิ่มข้อมูลเมตาลงใน XLSX",
+        "description": "(สมุดงาน Open XML)"
+      },
+      "zip": {
+        "name": "เพิ่มข้อมูลเมตาลงใน ZIP",
+        "description": "(ไฟล์ซิป)"
+      }
+    },
+    "format-code": {
+      "copy_title": "สำเนา",
+      "copy_tip": "คลิกเพื่อคัดลอก",
+      "copy_done": "คัดลอก",
+      "links": {
+        "title_1": "ตัวอย่างเพิ่มเติม",
+        "title_2": "เอกสารประกอบ"
+      }
+    },
+    "format-actions": {
+      "title": "พร้อมที่จะเริ่มต้นหรือยัง?",
+      "description": "ลองใช้ฟีเจอร์ {{ProdShortName}} ฟรีหรือขอใบอนุญาต",
+      "comment_1": "ดาวน์โหลด {{PackageStoreName}}",
+      "comment_2": "การออกใบอนุญาต"
+    },
+    "texts": {
+      "learn_more": "เรียนรู้เพิ่มเติม"
+    }
+  }
+}
