@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:55:26
+date:  2024-06-11T15:16:30
 draft: false
 lang: fa
 format: Wmf
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "مراحل افزودن متادیتا به WMF در Java"
     content: |
-      [GroupDocs.Metadata for Java](/metadata/java/) توسعه دهندگان Java را آسان می‌کند تا با اجرای چند مرحله آسان، جزئیات فراداده را از داخل برنامه‌های خود به فایل‌های WMF اضافه کنند.
+      [GroupDocs.Metadata](/metadata/java/) توسعه دهندگان Java را آسان می‌کند تا با اجرای چند مرحله آسان، جزئیات فراداده را از داخل برنامه‌های خود به فایل‌های WMF اضافه کنند.
       
       1. WMF را با یک نمونه از کلاس Metadata بارگیری کنید.
       2. از روش Metadata.AddProperties برای افزودن ویژگی ها استفاده کنید.

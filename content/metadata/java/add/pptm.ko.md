@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:55:28
+date:  2024-06-11T15:16:32
 draft: false
 lang: ko
 format: Pptm
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Java의 PPTM에 메타데이터를 추가하는 단계"
     content: |
-      [GroupDocs.Metadata for Java](/metadata/java/)를 사용하면 Java 개발자가 몇 가지 간단한 단계를 구현하여 애플리케이션 내에서 PPTM 파일에 메타데이터 세부정보를 쉽게 추가할 수 있습니다.
+      [GroupDocs.Metadata](/metadata/java/)를 사용하면 Java 개발자가 몇 가지 간단한 단계를 구현하여 애플리케이션 내에서 PPTM 파일에 메타데이터 세부정보를 쉽게 추가할 수 있습니다.
       
       1. Metadata 클래스의 인스턴스로 PPTM을 로드합니다.
       2. 속성을 추가하려면 Metadata.AddProperties 메서드를 사용하세요.

@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:55:29
+date:  2024-06-11T15:16:34
 draft: false
 lang: th
 format: Torrent
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "ขั้นตอนในการเพิ่มข้อมูลเมตาลงใน TORRENT ใน Java"
     content: |
-      [GroupDocs.Metadata for Java](/metadata/java/) ทำให้นักพัฒนา Java เพิ่มรายละเอียดข้อมูลเมตาลงในไฟล์ TORRENT จากภายในแอปพลิเคชันได้อย่างง่ายดายโดยทำตามขั้นตอนง่ายๆ เพียงไม่กี่ขั้นตอน
+      [GroupDocs.Metadata](/metadata/java/) ทำให้นักพัฒนา Java เพิ่มรายละเอียดข้อมูลเมตาลงในไฟล์ TORRENT จากภายในแอปพลิเคชันได้อย่างง่ายดายโดยทำตามขั้นตอนง่ายๆ เพียงไม่กี่ขั้นตอน
       
       1. โหลด TORRENT ด้วยอินสแตนซ์ของคลาส Metadata
       2. ใช้วิธี Metadata.AddProperties เพื่อเพิ่มคุณสมบัติ

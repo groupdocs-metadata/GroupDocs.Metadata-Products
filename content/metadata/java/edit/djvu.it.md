@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:55:34
+date:  2024-06-11T15:16:38
 draft: false
 lang: it
 format: Djvu

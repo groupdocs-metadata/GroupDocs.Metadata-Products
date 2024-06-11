@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:56:19
+date:  2024-06-11T15:17:26
 draft: false
 lang: en
 format: Odt
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Steps for adding Metadata to ODT in JavaScript"
     content: |
-      [GroupDocs.Metadata for Node.js via Java](/metadata/nodejs-java/) makes it easy for Node.js via Java developers to add metadata details to ODT files from within their applications by implementing a few easy steps.
+      [GroupDocs.Metadata](/metadata/nodejs-java/) makes it easy for Node.js via Java developers to add metadata details to ODT files from within their applications by implementing a few easy steps.
       
       1. Load ODT with an instance of Metadata class.
       2. Use Metadata.AddProperties method to add the properties.

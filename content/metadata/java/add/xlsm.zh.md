@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:55:30
+date:  2024-06-11T15:16:35
 draft: false
 lang: zh
 format: Xlsm
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "将元数据添加到 Java 中的 XLSM 的步骤"
     content: |
-      [GroupDocs.Metadata for Java](/metadata/java/) 使 Java 开发人员可以通过执行几个简单的步骤，轻松地从其应用程序内向 XLSM 文件添加元数据详细信息。
+      [GroupDocs.Metadata](/metadata/java/) 使 Java 开发人员可以通过执行几个简单的步骤，轻松地从其应用程序内向 XLSM 文件添加元数据详细信息。
       
       1. 使用 Metadata 类的实例加载 XLSM。
       2. 使用 Metadata.AddProperties 方法添加属性。

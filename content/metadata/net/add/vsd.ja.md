@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:55:55
+date:  2024-06-11T15:17:00
 draft: false
 lang: ja
 format: Vsd
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "C# の Vsd にメタデータを追加する手順"
     content: |
-      [GroupDocs.Metadata for .NET](/metadata/net/) を使用すると、.NET の開発者は、いくつかの簡単な手順を実装することで、アプリケーション内から VSD ファイルにメタデータの詳細を簡単に追加できます。
+      [GroupDocs.Metadata](/metadata/net/) を使用すると、.NET の開発者は、いくつかの簡単な手順を実装することで、アプリケーション内から VSD ファイルにメタデータの詳細を簡単に追加できます。
       
       1. 更新する VSD ファイルをロードします。
       2. メタデータ プロパティを追加するために使用される述語を指定します。

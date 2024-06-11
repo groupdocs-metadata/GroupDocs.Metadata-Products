@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:56:19
+date:  2024-06-11T15:17:26
 draft: false
 lang: de
 format: Bmp
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Schritte zum Hinzufügen von Metadaten zu BMP in JavaScript"
     content: |
-      [GroupDocs.Metadata for Node.js via Java](/metadata/nodejs-java/) erleichtert Node.js via Java-Entwicklern das Hinzufügen von Metadatendetails zu BMP-Dateien aus ihren Anwendungen heraus, indem sie ein paar einfache Schritte implementieren.
+      [GroupDocs.Metadata](/metadata/nodejs-java/) erleichtert Node.js via Java-Entwicklern das Hinzufügen von Metadatendetails zu BMP-Dateien aus ihren Anwendungen heraus, indem sie ein paar einfache Schritte implementieren.
       
       1. Laden Sie BMP mit einer Instanz der Klasse Metadata.
       2. Verwenden Sie die Methode Metadata.AddProperties, um die Eigenschaften hinzuzufügen.

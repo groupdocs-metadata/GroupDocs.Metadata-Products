@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:56:22
+date:  2024-06-11T15:17:27
 draft: false
 lang: id
 format: Dot
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Langkah-langkah untuk menambahkan Metadata ke DOT di JavaScript"
     content: |
-      [GroupDocs.Metadata for Node.js via Java](/metadata/nodejs-java/) memudahkan pengembang Node.js via Java untuk menambahkan detail metadata ke file DOT dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
+      [GroupDocs.Metadata](/metadata/nodejs-java/) memudahkan pengembang Node.js via Java untuk menambahkan detail metadata ke file DOT dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
       
       1. Muat DOT dengan instance kelas Metadata.
       2. Gunakan metode Metadata.AddProperties untuk menambahkan properti.

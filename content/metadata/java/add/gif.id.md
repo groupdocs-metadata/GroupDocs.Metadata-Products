@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:55:26
+date:  2024-06-11T15:16:31
 draft: false
 lang: id
 format: Gif
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Langkah-langkah untuk menambahkan Metadata ke GIF di Java"
     content: |
-      [GroupDocs.Metadata for Java](/metadata/java/) memudahkan pengembang Java untuk menambahkan detail metadata ke file GIF dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
+      [GroupDocs.Metadata](/metadata/java/) memudahkan pengembang Java untuk menambahkan detail metadata ke file GIF dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
       
       1. Muat GIF dengan instance kelas Metadata.
       2. Gunakan metode Metadata.AddProperties untuk menambahkan properti.

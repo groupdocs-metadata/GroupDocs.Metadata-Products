@@ -26,7 +26,7 @@
   "steps": {
     "title": "Langkah-langkah untuk menambahkan Metadata ke {{FileformatCap}} di {{ProgLang}}",
     "content": {
-      "title": "[{{ProdFullName}}]({{PlatformLink}}) memudahkan pengembang {{EnvName}} untuk menambahkan detail metadata ke file {{FileFormatUp}} dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.",
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) memudahkan pengembang {{EnvName}} untuk menambahkan detail metadata ke file {{FileFormatUp}} dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.",
       "step_1": "Muat file {{FileFormatUp}} yang akan diperbarui.",
       "step_2": "Tentukan predikat yang akan digunakan untuk menambahkan properti metadata.",
       "step_3": "Teruskan predikat ke metode {{TextMetadataAddProperties}}.",

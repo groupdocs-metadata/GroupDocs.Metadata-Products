@@ -26,7 +26,7 @@
   "steps": {
     "title": "Pasos para agregar metadatos a {{FileformatCap}} en {{ProgLang}}",
     "content": {
-      "title": "[{{ProdFullName}}]({{PlatformLink}}) facilita a los desarrolladores de {{EnvName}} agregar detalles de metadatos a archivos {{FileFormatUp}} desde sus aplicaciones mediante la implementación de unos sencillos pasos.",
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) facilita a los desarrolladores de {{EnvName}} agregar detalles de metadatos a archivos {{FileFormatUp}} desde sus aplicaciones mediante la implementación de unos sencillos pasos.",
       "step_1": "Cargue el archivo {{FileFormatUp}} para actualizarlo.",
       "step_2": "Especifique un predicado que se utilizará para agregar propiedades de metadatos.",
       "step_3": "Pase el predicado al método {{TextMetadataAddProperties}}.",

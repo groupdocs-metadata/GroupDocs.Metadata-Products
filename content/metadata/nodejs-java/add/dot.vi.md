@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:56:25
+date:  2024-06-11T15:17:31
 draft: false
 lang: vi
 format: Dot
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Các bước để thêm Siêu dữ liệu vào DOT trong JavaScript"
     content: |
-      [GroupDocs.Metadata for Node.js via Java](/metadata/nodejs-java/) giúp nhà phát triển Node.js via Java dễ dàng thêm chi tiết siêu dữ liệu vào tệp DOT từ bên trong ứng dụng của họ bằng cách triển khai một vài bước đơn giản.
+      [GroupDocs.Metadata](/metadata/nodejs-java/) giúp nhà phát triển Node.js via Java dễ dàng thêm chi tiết siêu dữ liệu vào tệp DOT từ bên trong ứng dụng của họ bằng cách triển khai một vài bước đơn giản.
       
       1. Tải DOT bằng một phiên bản của lớp Metadata.
       2. Sử dụng phương thức Metadata.AddProperties để thêm thuộc tính.

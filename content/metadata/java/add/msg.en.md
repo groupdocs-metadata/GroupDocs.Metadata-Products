@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:55:25
+date:  2024-06-11T15:16:29
 draft: false
 lang: en
 format: Msg
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Steps for adding Metadata to MSG in Java"
     content: |
-      [GroupDocs.Metadata for Java](/metadata/java/) makes it easy for Java developers to add metadata details to MSG files from within their applications by implementing a few easy steps.
+      [GroupDocs.Metadata](/metadata/java/) makes it easy for Java developers to add metadata details to MSG files from within their applications by implementing a few easy steps.
       
       1. Load MSG with an instance of Metadata class.
       2. Use Metadata.AddProperties method to add the properties.

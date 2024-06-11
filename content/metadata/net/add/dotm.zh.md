@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:55:57
+date:  2024-06-11T15:17:04
 draft: false
 lang: zh
 format: Dotm
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "将元数据添加到 C# 中的 Dotm 的步骤"
     content: |
-      [GroupDocs.Metadata for .NET](/metadata/net/) 使 .NET 开发人员可以通过执行几个简单的步骤，轻松地从其应用程序内向 DOTM 文件添加元数据详细信息。
+      [GroupDocs.Metadata](/metadata/net/) 使 .NET 开发人员可以通过执行几个简单的步骤，轻松地从其应用程序内向 DOTM 文件添加元数据详细信息。
       
       1. 加载要更新的 DOTM 文件。
       2. 指定将用于添加元数据属性的谓词。

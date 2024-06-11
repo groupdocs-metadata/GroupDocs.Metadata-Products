@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:56:32
+date:  2024-06-11T15:17:38
 draft: false
 lang: uk
 format: Pot

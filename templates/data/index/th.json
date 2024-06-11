@@ -283,7 +283,7 @@
       }
     },
     "platforms_description": "{{ProdFullName}} รองรับระบบปฏิบัติการ กรอบงาน และผู้จัดการแพ็คเกจต่อไปนี้:",
-    "formats_description": "{{ProdFullName}} รองรับ [รูปแบบไฟล์เอกสาร]({{SupportedFormatsUrl}} ต่อไปนี้)",
+    "formats_description": "{{ProdFullName}} รองรับ [รูปแบบไฟล์เอกสาร]({{SupportedFormatsUrl}}) ต่อไปนี้",
     "code_samples_description": "กรณีการใช้งานบางส่วนของการดำเนินการ {{ProdFullName}} ทั่วไป",
     "code_title_sample_1": "ค้นหาข้อมูลเมตาที่ซ่อนอยู่",
     "code_samples_sample_1_content": "หากต้องการควบคุมเนื้อหาเอกสารภายใน คุณอาจค้นหาและประมวลผล [ข้อมูลเมตาของเอกสาร]({{Sample1Url}}):",

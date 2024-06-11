@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:56:22
+date:  2024-06-11T15:17:27
 draft: false
 lang: fr
 format: Xlsx
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Étapes pour ajouter des métadonnées à XLSX dans JavaScript"
     content: |
-      [GroupDocs.Metadata for Node.js via Java](/metadata/nodejs-java/) permet aux développeurs Node.js via Java d'ajouter facilement des détails de métadonnées aux fichiers XLSX à partir de leurs applications en mettant en œuvre quelques étapes simples.
+      [GroupDocs.Metadata](/metadata/nodejs-java/) permet aux développeurs Node.js via Java d'ajouter facilement des détails de métadonnées aux fichiers XLSX à partir de leurs applications en mettant en œuvre quelques étapes simples.
       
       1. Chargez XLSX avec une instance de la classe Metadata.
       2. Utilisez la méthode Metadata.AddProperties pour ajouter les propriétés.

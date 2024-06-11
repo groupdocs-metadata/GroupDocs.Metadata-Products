@@ -26,7 +26,7 @@
   "steps": {
     "title": "Các bước để thêm Siêu dữ liệu vào {{FileFormatUp}} trong {{ProgLang}}",
     "content": {
-      "title": "[{{ProdFullName}}]({{PlatformLink}}) giúp nhà phát triển {{EnvName}} dễ dàng thêm chi tiết siêu dữ liệu vào tệp {{FileFormatUp}} từ bên trong ứng dụng của họ bằng cách triển khai một vài bước đơn giản.",
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) giúp nhà phát triển {{EnvName}} dễ dàng thêm chi tiết siêu dữ liệu vào tệp {{FileFormatUp}} từ bên trong ứng dụng của họ bằng cách triển khai một vài bước đơn giản.",
       "step_1": "Tải {{FileFormatUp}} bằng một phiên bản của lớp {{TextMetadata}}.",
       "step_2": "Sử dụng phương thức {{TextMetadataAddProperties}} để thêm thuộc tính.",
       "step_3": "Sử dụng một vị từ để tìm các thuộc tính siêu dữ liệu mong muốn.",

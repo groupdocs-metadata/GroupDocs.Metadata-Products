@@ -283,7 +283,7 @@
       }
     },
     "platforms_description": "{{ProdFullName}} hỗ trợ các Hệ điều hành, Khung & Trình quản lý gói sau:",
-    "formats_description": "{{ProdFullName}} hỗ trợ các [định dạng tệp tài liệu]({{SupportedFormatsUrl}} sau.",
+    "formats_description": "{{ProdFullName}} hỗ trợ các [định dạng tệp tài liệu]({{SupportedFormatsUrl}}) sau.",
     "code_samples_description": "Một số trường hợp sử dụng các thao tác {{ProdFullName}} điển hình",
     "code_title_sample_1": "Tìm siêu dữ liệu ẩn",
     "code_samples_sample_1_content": "Để kiểm soát nội dung tài liệu bên trong, bạn có thể tìm và xử lý [siêu dữ liệu tài liệu]({{Sample1Url}}):",

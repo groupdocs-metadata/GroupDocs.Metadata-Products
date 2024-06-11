@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:55:56
+date:  2024-06-11T15:17:02
 draft: false
 lang: pt
 format: Xltm
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Etapas para adicionar metadados a Xltm em C#"
     content: |
-      [GroupDocs.Metadata for .NET](/metadata/net/) torna mais fácil para os desenvolvedores de .NET adicionar detalhes de metadados a arquivos XLTM de dentro de seus aplicativos, implementando algumas etapas fáceis.
+      [GroupDocs.Metadata](/metadata/net/) torna mais fácil para os desenvolvedores de .NET adicionar detalhes de metadados a arquivos XLTM de dentro de seus aplicativos, implementando algumas etapas fáceis.
       
       1. Carregue o arquivo XLTM a ser atualizado.
       2. Especifique um predicado que será usado para adicionar propriedades de metadados.

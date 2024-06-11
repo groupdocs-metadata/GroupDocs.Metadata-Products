@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:56:24
+date:  2024-06-11T15:17:30
 draft: false
 lang: ru
 format: Jp2
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Шаги по добавлению метаданных в JP2 в JavaScript"
     content: |
-      [GroupDocs.Metadata for Node.js via Java](/metadata/nodejs-java/) позволяет разработчикам Node.js via Java легко добавлять детали метаданных в файлы JP2 из своих приложений, выполнив несколько простых шагов.
+      [GroupDocs.Metadata](/metadata/nodejs-java/) позволяет разработчикам Node.js via Java легко добавлять детали метаданных в файлы JP2 из своих приложений, выполнив несколько простых шагов.
       
       1. Загрузите JP2 с экземпляром класса Metadata.
       2. Используйте метод Metadata.AddProperties для добавления свойств.

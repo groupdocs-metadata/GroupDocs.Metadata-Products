@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:55:44
+date:  2024-06-11T15:16:48
 draft: false
 lang: uk
 format: Eml

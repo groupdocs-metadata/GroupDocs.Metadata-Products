@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:55:52
+date:  2024-06-11T15:16:57
 draft: false
 lang: en
 format: Msg
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Steps for adding Metadata to Msg in C#"
     content: |
-      [GroupDocs.Metadata for .NET](/metadata/net/) makes it easy for .NET developers to add metadata details to MSG files from within their applications by implementing a few easy steps.
+      [GroupDocs.Metadata](/metadata/net/) makes it easy for .NET developers to add metadata details to MSG files from within their applications by implementing a few easy steps.
       
       1. Load the MSG file to be updated.
       2. Specify a predicate that will be used to add metadata properties.

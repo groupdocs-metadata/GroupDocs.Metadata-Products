@@ -26,7 +26,7 @@
   "steps": {
     "title": "将元数据添加到 {{ProgLang}} 中的 {{FileformatCap}} 的步骤",
     "content": {
-      "title": "[{{ProdFullName}}]({{PlatformLink}}) 使 {{EnvName}} 开发人员可以通过执行几个简单的步骤，轻松地从其应用程序内向 {{FileFormatUp}} 文件添加元数据详细信息。",
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) 使 {{EnvName}} 开发人员可以通过执行几个简单的步骤，轻松地从其应用程序内向 {{FileFormatUp}} 文件添加元数据详细信息。",
       "step_1": "加载要更新的 {{FileFormatUp}} 文件。",
       "step_2": "指定将用于添加元数据属性的谓词。",
       "step_3": "将谓词传递给 {{TextMetadataAddProperties}} 方法。",

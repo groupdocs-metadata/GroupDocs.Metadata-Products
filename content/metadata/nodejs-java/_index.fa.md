@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-06-11T10:56:47
+date: 2024-06-11T15:17:54
 draft: false
 
 lang: fa
@@ -319,7 +319,7 @@ code_samples:
     # code sample loop
     - title: "از محتوای درونی اسناد مطلع شوید"
       content: |
-        برای دریافت اطلاعات در مورد [فراداده سند] داخلی (https://docs.groupdocs.com/metadata/nodejs-java/find-metadata-properties/) از API GroupDocs.Metadata for Node.js via Java استفاده کنید:
+        برای دریافت اطلاعات در مورد داخلی [فراداده سند](https://docs.groupdocs.com/metadata/nodejs-java/find-metadata-properties/) از API GroupDocs.Metadata for Node.js via Java استفاده کنید:
         {{< landing/code title="نحوه دریافت متادیتای سند خاص">}}
         ```javascript {style=abap}
         // سند منبع را در سازنده Metadata بارگیری کنید

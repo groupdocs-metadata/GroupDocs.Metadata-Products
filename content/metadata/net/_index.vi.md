@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-06-11T10:56:47
+date: 2024-06-11T15:17:53
 draft: false
 
 lang: vi
@@ -119,7 +119,7 @@ formats:
   enable: true
   title: "Các định dạng tập tin được hỗ trợ"
   description: |
-    GroupDocs.Metadata for .NET hỗ trợ các [định dạng tệp tài liệu](https://docs.groupdocs.com/metadata/net/supported-document-formats/ sau.
+    GroupDocs.Metadata for .NET hỗ trợ các [định dạng tệp tài liệu](https://docs.groupdocs.com/metadata/net/supported-document-formats/) sau.
   groups:
     # group loop
     - color: "green"

@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:55:35
+date:  2024-06-11T15:16:40
 draft: false
 lang: ru
 format: Dwg

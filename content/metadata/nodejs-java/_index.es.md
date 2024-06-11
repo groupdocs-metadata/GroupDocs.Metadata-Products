@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-06-11T10:56:47
+date: 2024-06-11T15:17:54
 draft: false
 
 lang: es
@@ -319,7 +319,7 @@ code_samples:
     # code sample loop
     - title: "Estar informado sobre el contenido interno de los documentos."
       content: |
-        Para obtener información sobre los [metadatos del documento] internos (https://docs.groupdocs.com/metadata/nodejs-java/find-metadata-properties/) utilice la API GroupDocs.Metadata for Node.js via Java:
+        Para obtener información sobre los [metadatos del documento](https://docs.groupdocs.com/metadata/nodejs-java/find-metadata-properties/) internos utilice la API GroupDocs.Metadata for Node.js via Java:
         {{< landing/code title="Cómo obtener metadatos de documentos específicos">}}
         ```javascript {style=abap}
         // Cargar documento fuente en el constructor de metadatos

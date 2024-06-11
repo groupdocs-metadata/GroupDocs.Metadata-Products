@@ -283,7 +283,7 @@
       }
     },
     "platforms_description": "{{ProdFullName}} mendukung Sistem Operasi, Kerangka Kerja & Manajer Paket berikut:",
-    "formats_description": "{{ProdFullName}} mendukung [format file dokumen] berikut ini({{SupportedFormatsUrl}}).",
+    "formats_description": "{{ProdFullName}} mendukung berikut ini [format file dokumen]({{SupportedFormatsUrl}}).",
     "code_samples_description": "Beberapa kasus penggunaan operasi {{ProdFullName}} yang umum",
     "code_title_sample_1": "Temukan metadata tersembunyi",
     "code_samples_sample_1_content": "Untuk mengontrol konten dalam dokumen, Anda dapat menemukan dan memproses [metadata dokumen]({{Sample1Url}}):",

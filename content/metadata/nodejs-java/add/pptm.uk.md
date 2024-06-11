@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:56:25
+date:  2024-06-11T15:17:31
 draft: false
 lang: uk
 format: Pptm
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Кроки для додавання метаданих до PPTM у JavaScript"
     content: |
-      [GroupDocs.Metadata for Node.js via Java](/metadata/nodejs-java/) дозволяє розробникам Node.js via Java легко додавати деталі метаданих до файлів PPTM зі своїх програм, виконавши кілька простих кроків.
+      [GroupDocs.Metadata](/metadata/nodejs-java/) дозволяє розробникам Node.js via Java легко додавати деталі метаданих до файлів PPTM зі своїх програм, виконавши кілька простих кроків.
       
       1. Завантажте PPTM з екземпляром класу Metadata.
       2. Використовуйте метод Metadata.AddProperties, щоб додати властивості.

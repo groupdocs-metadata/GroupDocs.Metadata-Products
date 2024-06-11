@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:55:52
+date:  2024-06-11T15:16:58
 draft: false
 lang: es
 format: Eml
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Pasos para agregar metadatos a Eml en C#"
     content: |
-      [GroupDocs.Metadata for .NET](/metadata/net/) facilita a los desarrolladores de .NET agregar detalles de metadatos a archivos EML desde sus aplicaciones mediante la implementación de unos sencillos pasos.
+      [GroupDocs.Metadata](/metadata/net/) facilita a los desarrolladores de .NET agregar detalles de metadatos a archivos EML desde sus aplicaciones mediante la implementación de unos sencillos pasos.
       
       1. Cargue el archivo EML para actualizarlo.
       2. Especifique un predicado que se utilizará para agregar propiedades de metadatos.

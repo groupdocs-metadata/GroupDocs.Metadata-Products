@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:56:31
+date:  2024-06-11T15:17:37
 draft: false
 lang: ru
 format: Pot

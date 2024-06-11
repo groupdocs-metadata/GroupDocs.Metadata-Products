@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:55:53
+date:  2024-06-11T15:16:58
 draft: false
 lang: es
 format: Vsdx
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Pasos para agregar metadatos a Vsdx en C#"
     content: |
-      [GroupDocs.Metadata for .NET](/metadata/net/) facilita a los desarrolladores de .NET agregar detalles de metadatos a archivos VSDX desde sus aplicaciones mediante la implementación de unos sencillos pasos.
+      [GroupDocs.Metadata](/metadata/net/) facilita a los desarrolladores de .NET agregar detalles de metadatos a archivos VSDX desde sus aplicaciones mediante la implementación de unos sencillos pasos.
       
       1. Cargue el archivo VSDX para actualizarlo.
       2. Especifique un predicado que se utilizará para agregar propiedades de metadatos.

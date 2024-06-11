@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:55:27
+date:  2024-06-11T15:16:32
 draft: false
 lang: ja
 format: Tif
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Java の TIF にメタデータを追加する手順"
     content: |
-      [GroupDocs.Metadata for Java](/metadata/java/) を使用すると、Java の開発者は、いくつかの簡単な手順を実装することで、アプリケーション内から TIF ファイルにメタデータの詳細を簡単に追加できます。
+      [GroupDocs.Metadata](/metadata/java/) を使用すると、Java の開発者は、いくつかの簡単な手順を実装することで、アプリケーション内から TIF ファイルにメタデータの詳細を簡単に追加できます。
       
       1. Metadata クラスのインスタンスを使用して TIF を読み込みます。
       2. Metadata.AddProperties メソッドを使用してプロパティを追加します。

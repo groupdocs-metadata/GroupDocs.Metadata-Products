@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:55:54
+date:  2024-06-11T15:17:00
 draft: false
 lang: it
 format: Pptm
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Passaggi per aggiungere metadati a Pptm in C#"
     content: |
-      [GroupDocs.Metadata for .NET](/metadata/net/) consente agli sviluppatori di .NET di aggiungere facilmente i dettagli dei metadati ai file PPTM dall'interno delle loro applicazioni implementando alcuni semplici passaggi.
+      [GroupDocs.Metadata](/metadata/net/) consente agli sviluppatori di .NET di aggiungere facilmente i dettagli dei metadati ai file PPTM dall'interno delle loro applicazioni implementando alcuni semplici passaggi.
       
       1. Carica il file PPTM da aggiornare.
       2. Specificare un predicato che verrà utilizzato per aggiungere proprietà di metadati.

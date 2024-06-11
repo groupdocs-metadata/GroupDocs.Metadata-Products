@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:55:27
+date:  2024-06-11T15:16:32
 draft: false
 lang: it
 format: Webp
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Passaggi per aggiungere metadati a WEBP in Java"
     content: |
-      [GroupDocs.Metadata for Java](/metadata/java/) consente agli sviluppatori di Java di aggiungere facilmente i dettagli dei metadati ai file WEBP dall'interno delle loro applicazioni implementando alcuni semplici passaggi.
+      [GroupDocs.Metadata](/metadata/java/) consente agli sviluppatori di Java di aggiungere facilmente i dettagli dei metadati ai file WEBP dall'interno delle loro applicazioni implementando alcuni semplici passaggi.
       
       1. Carica WEBP con un'istanza della classe Metadata.
       2. Utilizza il metodo Metadata.AddProperties per aggiungere le proprietà.

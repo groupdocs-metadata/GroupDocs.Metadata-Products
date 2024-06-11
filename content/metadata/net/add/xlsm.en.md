@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:55:52
+date:  2024-06-11T15:16:57
 draft: false
 lang: en
 format: Xlsm
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Steps for adding Metadata to Xlsm in C#"
     content: |
-      [GroupDocs.Metadata for .NET](/metadata/net/) makes it easy for .NET developers to add metadata details to XLSM files from within their applications by implementing a few easy steps.
+      [GroupDocs.Metadata](/metadata/net/) makes it easy for .NET developers to add metadata details to XLSM files from within their applications by implementing a few easy steps.
       
       1. Load the XLSM file to be updated.
       2. Specify a predicate that will be used to add metadata properties.

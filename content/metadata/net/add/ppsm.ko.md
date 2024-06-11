@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:55:55
+date:  2024-06-11T15:17:01
 draft: false
 lang: ko
 format: Ppsm
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "C#의 Ppsm에 메타데이터를 추가하는 단계"
     content: |
-      [GroupDocs.Metadata for .NET](/metadata/net/)를 사용하면 .NET 개발자가 몇 가지 간단한 단계를 구현하여 애플리케이션 내에서 PPSM 파일에 메타데이터 세부정보를 쉽게 추가할 수 있습니다.
+      [GroupDocs.Metadata](/metadata/net/)를 사용하면 .NET 개발자가 몇 가지 간단한 단계를 구현하여 애플리케이션 내에서 PPSM 파일에 메타데이터 세부정보를 쉽게 추가할 수 있습니다.
       
       1. 업데이트할 PPSM 파일을 로드합니다.
       2. 메타데이터 속성을 추가하는 데 사용할 조건자를 지정합니다.

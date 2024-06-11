@@ -26,7 +26,7 @@
   "steps": {
     "title": "{{ProgLang}} の {{FileformatCap}} にメタデータを追加する手順",
     "content": {
-      "title": "[{{ProdFullName}}]({{PlatformLink}}) を使用すると、{{EnvName}} の開発者は、いくつかの簡単な手順を実装することで、アプリケーション内から {{FileFormatUp}} ファイルにメタデータの詳細を簡単に追加できます。",
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) を使用すると、{{EnvName}} の開発者は、いくつかの簡単な手順を実装することで、アプリケーション内から {{FileFormatUp}} ファイルにメタデータの詳細を簡単に追加できます。",
       "step_1": "更新する {{FileFormatUp}} ファイルをロードします。",
       "step_2": "メタデータ プロパティを追加するために使用される述語を指定します。",
       "step_3": "述語を {{TextMetadataAddProperties}} メソッドに渡します。",

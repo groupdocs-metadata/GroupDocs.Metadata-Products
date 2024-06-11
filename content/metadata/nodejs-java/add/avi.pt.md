@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:56:23
+date:  2024-06-11T15:17:29
 draft: false
 lang: pt
 format: Avi
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Etapas para adicionar metadados a AVI em JavaScript"
     content: |
-      [GroupDocs.Metadata for Node.js via Java](/metadata/nodejs-java/) torna mais fácil para os desenvolvedores de Node.js via Java adicionar detalhes de metadados a arquivos AVI de dentro de seus aplicativos, implementando algumas etapas fáceis.
+      [GroupDocs.Metadata](/metadata/nodejs-java/) torna mais fácil para os desenvolvedores de Node.js via Java adicionar detalhes de metadados a arquivos AVI de dentro de seus aplicativos, implementando algumas etapas fáceis.
       
       1. Carregue AVI com uma instância da classe Metadata.
       2. Use o método Metadata.AddProperties para adicionar as propriedades.

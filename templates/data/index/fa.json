@@ -571,7 +571,7 @@
     "formats_description": "{{ProdFullName}} به شما این امکان را می‌دهد که طیف متنوعی از فرمت‌های فایل را پردازش کنید. [لیست کامل را کاوش کنید]({{SupportedFormatsUrl}}).",
     "code_samples_description": "در نمونه کدهایی که عملکردهای رایج {{ProdFullName}} را به نمایش می گذارند، غوطه ور شوید",
     "code_title_sample_1": "از محتوای درونی اسناد مطلع شوید",
-    "code_samples_sample_1_content": "برای دریافت اطلاعات در مورد [فراداده سند] داخلی ({{Sample1Url}}) از API {{ProdFullName}} استفاده کنید:",
+    "code_samples_sample_1_content": "برای دریافت اطلاعات در مورد داخلی [فراداده سند]({{Sample1Url}}) از API {{ProdFullName}} استفاده کنید:",
     "code_title_sample_2": "پنهان کردن اطلاعات کسب و کار در اسناد",
     "code_samples_sample_2_content": "اسناد خود را با [افزودن فراداده]({{Sample2Url}}) با استفاده از راه حل ما اصلاح کنید:"
   }

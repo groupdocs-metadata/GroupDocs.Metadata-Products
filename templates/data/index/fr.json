@@ -571,7 +571,7 @@
     "formats_description": "{{ProdFullName}} vous permet de traiter une large gamme de formats de fichiers. [Explorez la liste complète]({{SupportedFormatsUrl}}).",
     "code_samples_description": "Découvrez des exemples de code présentant les fonctionnalités courantes de {{ProdFullName}}",
     "code_title_sample_1": "Être informé du contenu interne des documents",
-    "code_samples_sample_1_content": "Pour obtenir des informations sur les [métadonnées du document] internes ({{Sample1Url}}), utilisez l'API {{ProdFullName}} :",
+    "code_samples_sample_1_content": "Pour obtenir des informations sur les [métadonnées du document]({{Sample1Url}}) internes , utilisez l'API {{ProdFullName}} :",
     "code_title_sample_2": "Masquer les informations commerciales dans les documents",
     "code_samples_sample_2_content": "Modifiez vos documents en [ajoutant des métadonnées]({{Sample2Url}}) à l'aide de notre solution :"
   }

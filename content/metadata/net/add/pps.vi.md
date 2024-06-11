@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:55:57
+date:  2024-06-11T15:17:03
 draft: false
 lang: vi
 format: Pps
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Các bước để thêm Siêu dữ liệu vào Pps trong C#"
     content: |
-      [GroupDocs.Metadata for .NET](/metadata/net/) giúp nhà phát triển .NET dễ dàng thêm chi tiết siêu dữ liệu vào tệp PPS từ bên trong ứng dụng của họ bằng cách triển khai một vài bước đơn giản.
+      [GroupDocs.Metadata](/metadata/net/) giúp nhà phát triển .NET dễ dàng thêm chi tiết siêu dữ liệu vào tệp PPS từ bên trong ứng dụng của họ bằng cách triển khai một vài bước đơn giản.
       
       1. Tải tệp PPS cần cập nhật.
       2. Chỉ định một vị từ sẽ được sử dụng để thêm thuộc tính siêu dữ liệu.

@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:56:01
+date:  2024-06-11T15:17:06
 draft: false
 lang: id
 format: Ppsx

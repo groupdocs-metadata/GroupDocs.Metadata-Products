@@ -26,7 +26,7 @@
   "steps": {
     "title": "Étapes pour ajouter des métadonnées à {{FileFormatUp}} dans {{ProgLang}}",
     "content": {
-      "title": "[{{ProdFullName}}]({{PlatformLink}}) permet aux développeurs {{EnvName}} d'ajouter facilement des détails de métadonnées aux fichiers {{FileFormatUp}} à partir de leurs applications en mettant en œuvre quelques étapes simples.",
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) permet aux développeurs {{EnvName}} d'ajouter facilement des détails de métadonnées aux fichiers {{FileFormatUp}} à partir de leurs applications en mettant en œuvre quelques étapes simples.",
       "step_1": "Chargez {{FileFormatUp}} avec une instance de la classe {{TextMetadata}}.",
       "step_2": "Utilisez la méthode {{TextMetadataAddProperties}} pour ajouter les propriétés.",
       "step_3": "Utilisez un prédicat pour rechercher les propriétés de métadonnées souhaitées.",

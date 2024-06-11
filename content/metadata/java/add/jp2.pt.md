@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:55:28
+date:  2024-06-11T15:16:32
 draft: false
 lang: pt
 format: Jp2
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Etapas para adicionar metadados a JP2 em Java"
     content: |
-      [GroupDocs.Metadata for Java](/metadata/java/) torna mais fácil para os desenvolvedores de Java adicionar detalhes de metadados a arquivos JP2 de dentro de seus aplicativos, implementando algumas etapas fáceis.
+      [GroupDocs.Metadata](/metadata/java/) torna mais fácil para os desenvolvedores de Java adicionar detalhes de metadados a arquivos JP2 de dentro de seus aplicativos, implementando algumas etapas fáceis.
       
       1. Carregue JP2 com uma instância da classe Metadata.
       2. Use o método Metadata.AddProperties para adicionar as propriedades.

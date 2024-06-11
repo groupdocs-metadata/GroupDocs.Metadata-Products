@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:55:28
+date:  2024-06-11T15:16:33
 draft: false
 lang: ru
 format: Dotm
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Шаги по добавлению метаданных в DOTM в Java"
     content: |
-      [GroupDocs.Metadata for Java](/metadata/java/) позволяет разработчикам Java легко добавлять детали метаданных в файлы DOTM из своих приложений, выполнив несколько простых шагов.
+      [GroupDocs.Metadata](/metadata/java/) позволяет разработчикам Java легко добавлять детали метаданных в файлы DOTM из своих приложений, выполнив несколько простых шагов.
       
       1. Загрузите DOTM с экземпляром класса Metadata.
       2. Используйте метод Metadata.AddProperties для добавления свойств.

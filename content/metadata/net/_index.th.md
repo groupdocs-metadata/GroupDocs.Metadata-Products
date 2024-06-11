@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-06-11T10:56:47
+date: 2024-06-11T15:17:53
 draft: false
 
 lang: th
@@ -119,7 +119,7 @@ formats:
   enable: true
   title: "รูปแบบไฟล์ที่รองรับ"
   description: |
-    GroupDocs.Metadata for .NET รองรับ [รูปแบบไฟล์เอกสาร](https://docs.groupdocs.com/metadata/net/supported-document-formats/ ต่อไปนี้)
+    GroupDocs.Metadata for .NET รองรับ [รูปแบบไฟล์เอกสาร](https://docs.groupdocs.com/metadata/net/supported-document-formats/) ต่อไปนี้
   groups:
     # group loop
     - color: "green"

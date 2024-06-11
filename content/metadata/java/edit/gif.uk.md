@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:55:37
+date:  2024-06-11T15:16:41
 draft: false
 lang: uk
 format: Gif

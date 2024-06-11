@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:55:55
+date:  2024-06-11T15:17:01
 draft: false
 lang: pt
 format: Ods
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Etapas para adicionar metadados a Ods em C#"
     content: |
-      [GroupDocs.Metadata for .NET](/metadata/net/) torna mais fácil para os desenvolvedores de .NET adicionar detalhes de metadados a arquivos ODS de dentro de seus aplicativos, implementando algumas etapas fáceis.
+      [GroupDocs.Metadata](/metadata/net/) torna mais fácil para os desenvolvedores de .NET adicionar detalhes de metadados a arquivos ODS de dentro de seus aplicativos, implementando algumas etapas fáceis.
       
       1. Carregue o arquivo ODS a ser atualizado.
       2. Especifique um predicado que será usado para adicionar propriedades de metadados.

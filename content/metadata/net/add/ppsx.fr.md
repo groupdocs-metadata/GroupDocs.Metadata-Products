@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:55:54
+date:  2024-06-11T15:16:59
 draft: false
 lang: fr
 format: Ppsx
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Étapes pour ajouter des métadonnées à Ppsx dans C#"
     content: |
-      [GroupDocs.Metadata for .NET](/metadata/net/) permet aux développeurs .NET d'ajouter facilement des détails de métadonnées aux fichiers PPSX à partir de leurs applications en mettant en œuvre quelques étapes simples.
+      [GroupDocs.Metadata](/metadata/net/) permet aux développeurs .NET d'ajouter facilement des détails de métadonnées aux fichiers PPSX à partir de leurs applications en mettant en œuvre quelques étapes simples.
       
       1. Chargez le fichier PPSX à mettre à jour.
       2. Spécifiez un prédicat qui sera utilisé pour ajouter des propriétés de métadonnées.

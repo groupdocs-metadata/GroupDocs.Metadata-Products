@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:56:26
+date:  2024-06-11T15:17:32
 draft: false
 lang: zh
 format: Wmf
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "将元数据添加到 JavaScript 中的 WMF 的步骤"
     content: |
-      [GroupDocs.Metadata for Node.js via Java](/metadata/nodejs-java/) 使 Node.js via Java 开发人员可以通过执行几个简单的步骤，轻松地从其应用程序内向 WMF 文件添加元数据详细信息。
+      [GroupDocs.Metadata](/metadata/nodejs-java/) 使 Node.js via Java 开发人员可以通过执行几个简单的步骤，轻松地从其应用程序内向 WMF 文件添加元数据详细信息。
       
       1. 使用 Metadata 类的实例加载 WMF。
       2. 使用 Metadata.AddProperties 方法添加属性。

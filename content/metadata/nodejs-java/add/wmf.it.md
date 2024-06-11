@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:56:22
+date:  2024-06-11T15:17:28
 draft: false
 lang: it
 format: Wmf
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Passaggi per aggiungere metadati a WMF in JavaScript"
     content: |
-      [GroupDocs.Metadata for Node.js via Java](/metadata/nodejs-java/) consente agli sviluppatori di Node.js via Java di aggiungere facilmente i dettagli dei metadati ai file WMF dall'interno delle loro applicazioni implementando alcuni semplici passaggi.
+      [GroupDocs.Metadata](/metadata/nodejs-java/) consente agli sviluppatori di Node.js via Java di aggiungere facilmente i dettagli dei metadati ai file WMF dall'interno delle loro applicazioni implementando alcuni semplici passaggi.
       
       1. Carica WMF con un'istanza della classe Metadata.
       2. Utilizza il metodo Metadata.AddProperties per aggiungere le proprietà.

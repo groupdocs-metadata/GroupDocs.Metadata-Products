@@ -26,7 +26,7 @@
   "steps": {
     "title": "Schritte zum Hinzufügen von Metadaten zu {{FileformatCap}} in {{ProgLang}}",
     "content": {
-      "title": "[{{ProdFullName}}]({{PlatformLink}}) erleichtert {{EnvName}}-Entwicklern das Hinzufügen von Metadatendetails zu {{FileFormatUp}}-Dateien aus ihren Anwendungen heraus, indem sie ein paar einfache Schritte implementieren.",
+      "title": "[{{ProdShortName}}]({{PlatformLink}}) erleichtert {{EnvName}}-Entwicklern das Hinzufügen von Metadatendetails zu {{FileFormatUp}}-Dateien aus ihren Anwendungen heraus, indem sie ein paar einfache Schritte implementieren.",
       "step_1": "Laden Sie die zu aktualisierende Datei {{FileFormatUp}}.",
       "step_2": "Geben Sie ein Prädikat an, das zum Hinzufügen von Metadateneigenschaften verwendet wird.",
       "step_3": "Übergeben Sie das Prädikat an die Methode {{TextMetadataAddProperties}}.",

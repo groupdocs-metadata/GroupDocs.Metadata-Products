@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:56:45
+date:  2024-06-11T15:17:51
 draft: false
 lang: pt
 format: Vcr

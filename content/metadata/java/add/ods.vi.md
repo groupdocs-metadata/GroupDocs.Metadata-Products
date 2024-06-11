@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:55:30
+date:  2024-06-11T15:16:35
 draft: false
 lang: vi
 format: Ods
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Các bước để thêm Siêu dữ liệu vào ODS trong Java"
     content: |
-      [GroupDocs.Metadata for Java](/metadata/java/) giúp nhà phát triển Java dễ dàng thêm chi tiết siêu dữ liệu vào tệp ODS từ bên trong ứng dụng của họ bằng cách triển khai một vài bước đơn giản.
+      [GroupDocs.Metadata](/metadata/java/) giúp nhà phát triển Java dễ dàng thêm chi tiết siêu dữ liệu vào tệp ODS từ bên trong ứng dụng của họ bằng cách triển khai một vài bước đơn giản.
       
       1. Tải ODS bằng một phiên bản của lớp Metadata.
       2. Sử dụng phương thức Metadata.AddProperties để thêm thuộc tính.

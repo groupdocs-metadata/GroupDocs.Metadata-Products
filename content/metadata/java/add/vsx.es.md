@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:55:26
+date:  2024-06-11T15:16:30
 draft: false
 lang: es
 format: Vsx
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Pasos para agregar metadatos a VSX en Java"
     content: |
-      [GroupDocs.Metadata for Java](/metadata/java/) facilita a los desarrolladores de Java agregar detalles de metadatos a archivos VSX desde sus aplicaciones mediante la implementación de unos sencillos pasos.
+      [GroupDocs.Metadata](/metadata/java/) facilita a los desarrolladores de Java agregar detalles de metadatos a archivos VSX desde sus aplicaciones mediante la implementación de unos sencillos pasos.
       
       1. Cargue VSX con una instancia de la clase Metadata.
       2. Utilice el método Metadata.AddProperties para agregar las propiedades.

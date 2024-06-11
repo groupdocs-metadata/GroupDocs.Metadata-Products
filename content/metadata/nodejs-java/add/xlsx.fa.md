@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:56:21
+date:  2024-06-11T15:17:27
 draft: false
 lang: fa
 format: Xlsx
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "مراحل افزودن متادیتا به XLSX در JavaScript"
     content: |
-      [GroupDocs.Metadata for Node.js via Java](/metadata/nodejs-java/) توسعه دهندگان Node.js via Java را آسان می‌کند تا با اجرای چند مرحله آسان، جزئیات فراداده را از داخل برنامه‌های خود به فایل‌های XLSX اضافه کنند.
+      [GroupDocs.Metadata](/metadata/nodejs-java/) توسعه دهندگان Node.js via Java را آسان می‌کند تا با اجرای چند مرحله آسان، جزئیات فراداده را از داخل برنامه‌های خود به فایل‌های XLSX اضافه کنند.
       
       1. XLSX را با یک نمونه از کلاس Metadata بارگیری کنید.
       2. از روش Metadata.AddProperties برای افزودن ویژگی ها استفاده کنید.

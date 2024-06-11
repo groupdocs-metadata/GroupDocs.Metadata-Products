@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:55:26
+date:  2024-06-11T15:16:31
 draft: false
 lang: fr
 format: Docx
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Étapes pour ajouter des métadonnées à DOCX dans Java"
     content: |
-      [GroupDocs.Metadata for Java](/metadata/java/) permet aux développeurs Java d'ajouter facilement des détails de métadonnées aux fichiers DOCX à partir de leurs applications en mettant en œuvre quelques étapes simples.
+      [GroupDocs.Metadata](/metadata/java/) permet aux développeurs Java d'ajouter facilement des détails de métadonnées aux fichiers DOCX à partir de leurs applications en mettant en œuvre quelques étapes simples.
       
       1. Chargez DOCX avec une instance de la classe Metadata.
       2. Utilisez la méthode Metadata.AddProperties pour ajouter les propriétés.

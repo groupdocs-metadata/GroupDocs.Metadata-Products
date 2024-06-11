@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:55:25
+date:  2024-06-11T15:16:30
 draft: false
 lang: de
 format: Vcr
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Schritte zum Hinzufügen von Metadaten zu VCR in Java"
     content: |
-      [GroupDocs.Metadata for Java](/metadata/java/) erleichtert Java-Entwicklern das Hinzufügen von Metadatendetails zu VCR-Dateien aus ihren Anwendungen heraus, indem sie ein paar einfache Schritte implementieren.
+      [GroupDocs.Metadata](/metadata/java/) erleichtert Java-Entwicklern das Hinzufügen von Metadatendetails zu VCR-Dateien aus ihren Anwendungen heraus, indem sie ein paar einfache Schritte implementieren.
       
       1. Laden Sie VCR mit einer Instanz der Klasse Metadata.
       2. Verwenden Sie die Methode Metadata.AddProperties, um die Eigenschaften hinzuzufügen.

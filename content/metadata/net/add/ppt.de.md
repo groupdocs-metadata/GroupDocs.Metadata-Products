@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:55:52
+date:  2024-06-11T15:16:58
 draft: false
 lang: de
 format: Ppt
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Schritte zum Hinzufügen von Metadaten zu Ppt in C#"
     content: |
-      [GroupDocs.Metadata for .NET](/metadata/net/) erleichtert .NET-Entwicklern das Hinzufügen von Metadatendetails zu PPT-Dateien aus ihren Anwendungen heraus, indem sie ein paar einfache Schritte implementieren.
+      [GroupDocs.Metadata](/metadata/net/) erleichtert .NET-Entwicklern das Hinzufügen von Metadatendetails zu PPT-Dateien aus ihren Anwendungen heraus, indem sie ein paar einfache Schritte implementieren.
       
       1. Laden Sie die zu aktualisierende Datei PPT.
       2. Geben Sie ein Prädikat an, das zum Hinzufügen von Metadateneigenschaften verwendet wird.

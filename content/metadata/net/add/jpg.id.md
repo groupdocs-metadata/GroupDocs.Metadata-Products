@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:55:54
+date:  2024-06-11T15:16:59
 draft: false
 lang: id
 format: Jpg
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Langkah-langkah untuk menambahkan Metadata ke Jpg di C#"
     content: |
-      [GroupDocs.Metadata for .NET](/metadata/net/) memudahkan pengembang .NET untuk menambahkan detail metadata ke file JPG dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
+      [GroupDocs.Metadata](/metadata/net/) memudahkan pengembang .NET untuk menambahkan detail metadata ke file JPG dari dalam aplikasi mereka dengan menerapkan beberapa langkah mudah.
       
       1. Muat file JPG yang akan diperbarui.
       2. Tentukan predikat yang akan digunakan untuk menambahkan properti metadata.

@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:56:24
+date:  2024-06-11T15:17:30
 draft: false
 lang: pt
 format: Vss
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "Etapas para adicionar metadados a VSS em JavaScript"
     content: |
-      [GroupDocs.Metadata for Node.js via Java](/metadata/nodejs-java/) torna mais fácil para os desenvolvedores de Node.js via Java adicionar detalhes de metadados a arquivos VSS de dentro de seus aplicativos, implementando algumas etapas fáceis.
+      [GroupDocs.Metadata](/metadata/nodejs-java/) torna mais fácil para os desenvolvedores de Node.js via Java adicionar detalhes de metadados a arquivos VSS de dentro de seus aplicativos, implementando algumas etapas fáceis.
       
       1. Carregue VSS com uma instância da classe Metadata.
       2. Use o método Metadata.AddProperties para adicionar as propriedades.

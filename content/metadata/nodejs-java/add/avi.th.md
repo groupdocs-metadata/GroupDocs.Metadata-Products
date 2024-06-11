@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:56:24
+date:  2024-06-11T15:17:30
 draft: false
 lang: th
 format: Avi
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "ขั้นตอนในการเพิ่มข้อมูลเมตาลงใน AVI ใน JavaScript"
     content: |
-      [GroupDocs.Metadata for Node.js via Java](/metadata/nodejs-java/) ทำให้นักพัฒนา Node.js via Java เพิ่มรายละเอียดข้อมูลเมตาลงในไฟล์ AVI จากภายในแอปพลิเคชันได้อย่างง่ายดายโดยทำตามขั้นตอนง่ายๆ เพียงไม่กี่ขั้นตอน
+      [GroupDocs.Metadata](/metadata/nodejs-java/) ทำให้นักพัฒนา Node.js via Java เพิ่มรายละเอียดข้อมูลเมตาลงในไฟล์ AVI จากภายในแอปพลิเคชันได้อย่างง่ายดายโดยทำตามขั้นตอนง่ายๆ เพียงไม่กี่ขั้นตอน
       
       1. โหลด AVI ด้วยอินสแตนซ์ของคลาส Metadata
       2. ใช้วิธี Metadata.AddProperties เพื่อเพิ่มคุณสมบัติ

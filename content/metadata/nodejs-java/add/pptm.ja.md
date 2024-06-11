@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T10:56:23
+date:  2024-06-11T15:17:28
 draft: false
 lang: ja
 format: Pptm
@@ -44,7 +44,7 @@ steps:
     enable: true
     title: "JavaScript の PPTM にメタデータを追加する手順"
     content: |
-      [GroupDocs.Metadata for Node.js via Java](/metadata/nodejs-java/) を使用すると、Node.js via Java の開発者は、いくつかの簡単な手順を実装することで、アプリケーション内から PPTM ファイルにメタデータの詳細を簡単に追加できます。
+      [GroupDocs.Metadata](/metadata/nodejs-java/) を使用すると、Node.js via Java の開発者は、いくつかの簡単な手順を実装することで、アプリケーション内から PPTM ファイルにメタデータの詳細を簡単に追加できます。
       
       1. Metadata クラスのインスタンスを使用して PPTM を読み込みます。
       2. Metadata.AddProperties メソッドを使用してプロパティを追加します。
