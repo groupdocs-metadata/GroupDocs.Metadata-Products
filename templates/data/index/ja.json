@@ -1,6 +1,6 @@
 {
   "index-content": {
-    "head_title": "{{NameCompany}} による .NET、Java、Node.js API およびオンライン メタデータ操作アプリ",
+    "head_title": ".NET、Java、Node.js、Python API、および {{NameCompany}} によるオンライン メタデータ操作アプリ",
     "head_description": "C# .NET および Java にネイティブなドキュメント メタデータ API。すべての一般的な形式のメタ情報の読み取り、書き込み、編集、比較を行います。メタデータを分析してエクスポートします。",
     "title": "ドキュメントメタデータ管理ソリューション",
     "description_0": "一般的なプラットフォームでドキュメント、画像、その他のファイル形式のメタデータを読み取り、編集、置換、削除するための API とアプリ。",
@@ -574,5 +574,148 @@
     "code_samples_sample_1_content": "内部 [ドキュメント メタデータ]({{Sample1Url}}) に関する情報を取得するには、{{ProdFullName}} API を使用します。",
     "code_title_sample_2": "書類内のビジネス情報を隠す",
     "code_samples_sample_2_content": "私たちのソリューションを使用して[メタデータを追加]({{Sample2Url}})してドキュメントを変更します。"
+  },
+  "index-content-python-net": {
+    "head_title": "ドキュメントのメタデータを制御するための {{EnvNameShort}} ライブラリ",
+    "head_description": "PDF、Word、Excel、画像などの一般的なファイル形式のメタデータを作成、編集、削除、エクスポートすることで、{{EnvNameShort}} アプリを強化します。",
+    "title": "{{EnvNameShort}} でのドキュメント メタデータ管理",
+    "description": "{{EnvNameShort}} を使用して、一般的なドキュメントおよび画像形式のメタデータを管理します。",
+    "actions_main": "PyPiの無料ダウンロード",
+    "code_title": "{{EnvNameShort}} での効率的なメタデータ操作",
+    "code_comment_1": "メタデータへのスプレッドシートのパスを提供します",
+    "code_comment_2": "ファイル形式を確認する",
+    "code_comment_3": "ドキュメントのメタデータを処理する",
+    "overview_description": "メタデータを制御するための {{EnvNameShort}} ライブラリ",
+    "overview_feature_1": {
+      "title": "主な特徴",
+      "description": "{{ProdFullName}} は、さまざまなファイル形式のメタデータを管理するための強力なライブラリです。 {{EnvNameShort}} アプリでメタデータの表示、編集、削除、検索、比較、置換、エクスポートを統合します。 PDF、Microsoft Office (Word、Excel、PowerPoint)、Outlook 電子メール、Project、Visio 図、OneNote、画像 (PSD、CAD)、オーディオ、ビデオ、OpenType フォント、メタファイルなどの一般的な形式をサポートします。"
+    },
+    "overview_feature_2": {
+      "title": "メタデータの簡単な操作",
+      "description": "私たちのライブラリは、メタデータの検索、置換、プロパティの比較、抽出などの機能を提供します。メタデータを Excel、CSV、または DataSet 形式にエクスポートします。組み込み、XMP、EXIF、カスタム プロパティなどのメタデータ標準をサポートします。"
+    },
+    "overview_feature_3": {
+      "title": "一般的なプラットフォームのサポート",
+      "description": "{{ProdFullName}} は、一般的な {{EnvNameShort}} バージョンと互換性があり、Windows、Linux、macOS 上で実行できます。"
+    },
+    "features": {
+      "title": "{{ProdFullName}} の機能",
+      "description": "メタデータ処理によりドキュメントのセキュリティを強化します。",
+      "feature_1": {
+        "title": "ビジネスファイルを保護する",
+        "content": "ビジネスレポートやドキュメントからメタデータとコメントを削除する"
+      },
+      "feature_2": {
+        "title": "写真の場所",
+        "content": "写真の位置情報を含む画像メタデータを管理する"
+      },
+      "feature_3": {
+        "title": "オフィス文書の管理",
+        "content": "PDF、Word、Excel、PowerPoint、その他の形式のメタデータを操作する"
+      },
+      "feature_4": {
+        "title": "メタデータの変更を分析する",
+        "content": "サポートされているファイル形式でのメタデータの変更を比較および分析する"
+      },
+      "feature_5": {
+        "title": "組み込みのメタデータのサポート",
+        "content": "組み込みおよびカスタムのメタデータ プロパティを操作する"
+      },
+      "feature_6": {
+        "title": "画像メタデータの制御",
+        "content": "EXIF や XMP などの画像ファイルのメタデータを収集する"
+      },
+      "feature_7": {
+        "title": "電子メールのメタデータのサポート",
+        "content": "電子メール メッセージのメタデータと添付ファイルを管理する"
+      },
+      "feature_8": {
+        "title": "EXIF画像メタデータ",
+        "content": "WEBP、PNG、または PSD ファイルの EXIF メタデータを編集する"
+      },
+      "feature_9": {
+        "title": "ファイルコンテンツの最適化",
+        "content": "PDF、Excel、画像ファイルのメモリ使用量を削減"
+      },
+      "feature_10": {
+        "title": "Matroska マルチメディアのサポート",
+        "content": "Matroska の字幕とオーディオ ファイルとビデオ ファイルのメタデータを取得する"
+      },
+      "feature_11": {
+        "title": "画像プレビューの生成",
+        "content": "MSG、CAD、EML、または EPUB 画像形式のプレビューを作成する"
+      },
+      "feature_12": {
+        "title": "マルチメディアのサポート",
+        "content": "MOV、MP3、WEBP ファイルから XMP メタデータを取得する"
+      },
+      "feature_13": {
+        "title": "デジタル署名の制御",
+        "content": "PDF および Office ドキュメント内のデジタル署名を特定して削除する"
+      },
+      "feature_14": {
+        "title": "メタデータのエクスポート",
+        "content": "メタデータを Excel、CSV、または DataSet 形式にエクスポートする"
+      },
+      "feature_15": {
+        "title": "組み込みのメタデータ コントロール",
+        "content": "定義されたキーを使用して特定のメタデータ プロパティを分析する"
+      },
+      "feature_16": {
+        "title": "パスワード保護",
+        "content": "PDF および MS Word、Excel、PowerPoint ドキュメントのパスワード保護を検出します"
+      },
+      "feature_17": {
+        "title": "メタデータコンテンツを置換する",
+        "content": "Word、Excel、PowerPoint、PDF ファイルのメタデータ プロパティを置換する"
+      },
+      "feature_18": {
+        "title": "PNG メタデータのエクスポート",
+        "content": "{{EnvNameShort}} を使用して PNG 画像からテキスト メタデータを抽出する"
+      },
+      "feature_19": {
+        "title": "画像メタデータの更新",
+        "content": "Search API を使用して XMP および EXIF メタデータを追加または更新する"
+      },
+      "feature_20": {
+        "title": "Office ファイルの制御",
+        "content": "PDF、MS Word、Excel、PowerPoint ファイル内の非表示データにアクセスして削除する"
+      },
+      "feature_21": {
+        "title": "ファイルタイプの検出",
+        "content": "{{EnvNameShort}} を使用して実行時にファイルの種類を検出する"
+      },
+      "feature_22": {
+        "title": "Matroska マルチメディア プレビュー",
+        "content": "Matroska サポートを使用してファイルのサムネイルと画像プレビューを取得する"
+      },
+      "feature_23": {
+        "title": "TIFFサポート",
+        "content": "TIFF 画像内の IPTC メタデータを操作する"
+      },
+      "feature_24": {
+        "title": "HEICメディアサポート",
+        "content": "HEIC/HEIF 画像の EXIF タグと XMP メタデータを管理する"
+      },
+      "feature_25": {
+        "title": "フォントメタデータのサポート",
+        "content": "OpenType フォント ファイルのメタデータを制御する"
+      },
+      "feature_26": {
+        "title": "Microsoft プロジェクトのサポート",
+        "content": "暗号化された Microsoft Project ファイルからメタデータを取得する"
+      },
+      "feature_27": {
+        "title": "JPEGメタデータのサポート",
+        "content": "JPEG2000 画像の EXIF データを追加、更新、または削除する"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} は、さまざまなオペレーティング システムやパッケージ マネージャーと統合する準備ができています。",
+    "formats_description": "{{ProdFullName}} は、幅広いファイル形式を処理します。 [完全なリストを確認]({{SupportedFormatsUrl}})。",
+    "code_samples_description": "一般的な {{ProdFullName}} 機能を示すコード例を調べる",
+    "code_title_sample_1": "ドキュメントのメタデータについての洞察を得る",
+    "code_samples_sample_1_content": "{{ProdFullName}} API を使用して内部 [ドキュメント メタデータ]({{Sample1Url}}) を取得します。",
+    "code_title_sample_2": "文書内のビジネス情報を非表示にする",
+    "code_samples_sample_2_content": "私たちのソリューションを使用して、ドキュメントに[メタデータを追加]({{Sample2Url}})します。"
   }
 }

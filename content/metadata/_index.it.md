@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-06-11T15:17:53
+date:  2024-06-18T21:19:09
 draft: false
 
 product: "Metadata"
@@ -10,7 +10,7 @@ product_tag: "metadata"
 lang: it
 
 ############################# Head ############################
-head_title: "API .NET, Java, Node.js e app di manipolazione dei metadati online di GroupDocs"
+head_title: "API .NET, Java, Node.js, Python e app di manipolazione dei metadati online di GroupDocs"
 head_description: "API dei metadati dei documenti native di C# .NET e Java. Leggi, scrivi, modifica e confronta metainformazioni di tutti i formati più diffusi. Analizza ed esporta metadati."
 
 ############################# Header ############################
@@ -96,7 +96,7 @@ supported_platforms:
       color: "green"
       tag: "nodejs-java"
       link: "/metadata/nodejs-java/"
-      features_link: "https://docs.groupdocs.com/metadata/"
+      features_link: "https://docs.groupdocs.com/metadata/nodejs-java/system-requirements/"
       features:
           # features loop
           - rows: "4"
@@ -112,6 +112,34 @@ supported_platforms:
           - rows: "3"
             content: |
                     Atom <br> Visual Studio Code <br> Qualsiasi altro editor di testo
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    70+ file formats
+
+    # items loop
+    - title: "Python"
+      description: GroupDocs.Metadata Python
+      color: "yellow"
+      tag: "python-net"
+      link: "/metadata/python-net/"
+      features_link: "https://docs.groupdocs.com/metadata/python-net/system-requirements/"
+      features:
+          # features loop
+          - rows: "4"
+            content: |
+                    Python 3.9+ and .Net 6+
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    Windows <br> Linux <br> Mac OS
+      
+          # features loop
+          - rows: "3"
+            content: |
+                    IDLE <br> PyCharm <br> Visual Studio Code
       
           # features loop
           - rows: "1"
@@ -224,6 +252,33 @@ code_samples:
 
                     </code>
 
+          # samples loop
+          - language: "Python"
+            color: "yellow"
+            content: |
+                    <code class="python-net" data-lang="python">
+                        import groupdocs.metadata as gm
+                        
+                        def run():
+
+                            # Passa il percorso di un documento al costruttore Metadata
+                            with gm.Metadata("input.docx) as metadata:
+
+                                # Rimuovi le proprietà del documento collegate al creatore e all'editor
+                                specification = gm.search.ContainsTagSpecification(gm.tagging.Tags.person.creator).
+                                    either(gm.search.ContainsTagSpecification(gm.tagging.Tags.person.editor)).
+                                    either(gm.search.OfTypeSpecification(gm.common.MetadataPropertyType.STRING).
+                                    both(gm.search.WithValueSpecification("John")))
+                                affected = metadata.remove_properties(specification)
+
+                                # Risultato del processo di rimozione dei metadati
+                                print(f"Properties removed: {affected}")
+
+                                # Salva il documento pulito
+                                metadata.save("output.docx")
+
+                    </code>
+
 ############################# Supported Formats ###############################
 formats:
   enable: true
@@ -326,7 +381,12 @@ actions:
     # items loop
     - title: "Node.js"
       color: "green"
-      link: "/metadata/nodejs-java/"      
+      link: "/metadata/nodejs-java/"   
+
+    # items loop
+    - title: "Python"
+      color: "yellow"
+      link: "/metadata/python-net/"      
 
 ############################# FAQ ###############################
 faq:

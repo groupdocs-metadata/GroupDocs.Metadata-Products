@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-06-18T13:26:18
+date: 2024-06-18T21:19:09
 draft: false
 
 lang: en
@@ -27,12 +27,12 @@ supported_platforms:
       tag: "python-net"
 
 ############################# Head ############################
-head_title: "Python Library to Manipulate File Metadata"
-head_description: "Enhance Python applications by analyzing, comparing, editing, removing, and exporting metadata of popular file formats, like PDF, Word, Excel etc."
+head_title: "Python Library to Control Document Metadata"
+head_description: "Enhance Python apps by creating, editing, removing, and exporting metadata for popular file formats like PDF, Word, Excel and images."
 
 ############################# Header ############################
-title: "Documents Metadata Management Python"
-description: "Manage metadata in popular document and image formats using Python."
+title: "Documents Metadata Management in Python"
+description: "Manage popular document and image formats metadata with Python."
 words:
   for: "for"
 
@@ -60,10 +60,10 @@ code:
 
     import groupdocs.metadata as gm
                         
-    # Pass Spreadsheet to Metadata
+    # Provide Spreadsheet path to Metadata
     with groupdocs.metadata.Metadata("input.xlsx") as metadata:
 
-        # Analyze inner document metadata
+        # Process metadata from the document 
         info = metadata.get_document_info()
         print(f"File format: {info.file_type.file_format}")
         print(f"File extension: {info.file_type.extension}")
@@ -78,25 +78,25 @@ code:
 overview:
   enable: true
   title: "GroupDocs.Metadata at a glance"
-  description: "Node.js TypeScript library for to control metadata"
+  description: "Python library to control metadata"
   features:
     # feature loop
     - title: "Main features"
-      content: "GroupDocs.Metadata for Python via .NET is an advanced library that empowers you to manage metadata within various file formats. Integrate metadata viewing, editing, deletion, searching, comparison, replacement, and export functionalities into your Python applications. Supported formats include popular business documents like PDF, Microsoft Office (Word, Excel, PowerPoint), Outlook emails, Project, Visio diagrams, OneNote, images (including PSD, CAD), audio, video, OpenType fonts, and metafiles."
+      content: "GroupDocs.Metadata for Python via .NET is a powerful library for managing metadata in various file formats. Integrate viewing, editing, deleting, searching, comparing, replacing, and exporting metadata in your Python apps. Supports popular formats like PDF, Microsoft Office (Word, Excel, PowerPoint), Outlook emails, Project, Visio diagrams, OneNote, images (PSD, CAD), audio, video, OpenType fonts, and metafiles."
 
     # feature loop
-    - title: "Manipulate metadata easily"
-      content: "This library offers comprehensive features like metadata search, replacement, property comparison, and information extraction. You can export retrieved metadata to Excel, CSV, or DataSet formats. It supports commonly used metadata standards like built-in, XMP, EXIF, and custom properties within supported document formats."
+    - title: "Easy Metadata Manipulation"
+      content: "Our library offers features like metadata search, replacement, property comparison, and extraction. Export metadata to Excel, CSV, or DataSet formats. Supports metadata standards like built-in, XMP, EXIF, and custom properties."
 
     # feature loop
     - title: "Popular Platform Support"
-      content: "GroupDocs.Metadata for Python via .NET is compatible with all Python versions and runs seamlessly on popular operating systems (Windows, Linux, macOS) that support Python runtime."
+      content: "GroupDocs.Metadata for Python via .NET is compatible with popular Python versions and runs on Windows, Linux, and macOS."
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "Platform Independence"
-  description: "GroupDocs.Metadata for Python via .NET readily integrates with various operating systems and package managers."
+  description: "GroupDocs.Metadata for Python via .NET is ready for integration with various operating systems and package managers."
   items:
     # platform loop
     - title: "Amazon"
@@ -128,7 +128,7 @@ formats:
   enable: true
   title: "Supported file formats"
   description: |
-    GroupDocs.Metadata for Python via .NET empowers you to process a diverse range of file formats. [Explore the full list](https://docs.groupdocs.com/metadata/python-net/supported-document-formats/).
+    GroupDocs.Metadata for Python via .NET processes a wide range of file formats. [Explore the full list](https://docs.groupdocs.com/metadata/python-net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -167,18 +167,18 @@ formats:
 features:
   enable: true
   title: "GroupDocs.Metadata for Python via .NET Features"
-  description: "Empower robust document security through metadata processing."
+  description: "Enhance document security with metadata processing."
 
   items:
     # feature loop
     - icon: "hidden_print"
-      title: "Clear Business Files"
-      content: "Clear business reports and documents of any metadata and comments"
+      title: "Protect Business Files"
+      content: "Remove metadata and comments from business reports and documents"
 
     # feature loop
     - icon: "collect"
       title: "Photo Location"
-      content: "Control metadata in images, including photo location information"
+      content: "Manage image metadata, including photo location information"
 
     # feature loop
     - icon: "compare"
@@ -187,134 +187,134 @@ features:
 
     # feature loop
     - icon: "doc_background"
-      title: "Analyze Metadata Distinctions"
-      content: "Compare and analyze alterations in metadata in supported file formats"
+      title: "Analyze Metadata Changes"
+      content: "Compare and analyze metadata changes in supported file formats"
 
     # feature loop
     - icon: "metadata_style"
       title: "Built-In Metadata Support"
-      content: "Leverage extensive capabilities to manipulate built-in and custom metadata"
+      content: "Work with built-in and custom metadata properties"
 
     # feature loop
     - icon: "image_frame"
       title: "Control Image Metadata"
-      content: "Collect document metadata properties like EXIF or XMP"
+      content: "Collect image files metadata like EXIF or XMP"
 
     # feature loop
     - icon: "email"
       title: "Email Metadata Support"
-      content: "Manipulate metadata and attachments in email messages"
+      content: "Manage metadata and attachments in email messages"
 
     # feature loop
     - icon: "image_only"
       title: "EXIF Image Metadata"
-      content: "Correct EXIF metadata content in WEBP, PNG, or PSD files"
+      content: "Edit EXIF metadata in WEBP, PNG, or PSD files"
 
     # feature loop
     - icon: "pdf_objects"
-      title: "File Content Optimization"
-      content: "Reduce memory consumption of PDF, Excel, and image formats"
+      title: "Optimize File Content"
+      content: "Reduce memory usage in PDF, Excel, and image files"
 
     # feature loop
     - icon: "subtitle"
       title: "Matroska Multimedia Support"
-      content: "Access Matroska subtitles and metadata in audio and video files"
+      content: "Get Matroska subtitles and metadata in audio and video files"
 
     # feature loop
     - icon: "preview"
-      title: "Image Previews"
-      content: "Generate image previews for MSG, CAD, EML, or EPUB files"
+      title: "Generate Image Previews"
+      content: "Create previews for MSG, CAD, EML, or EPUB image formats"
 
     # feature loop
     - icon: "get"
       title: "Multimedia Support"
-      content: "Get XMP metadata nodes from MOV, MP3, and WEBP files"
+      content: "Retrieve XMP metadata from MOV, MP3, and WEBP files"
 
     # feature loop
     - icon: "remove"
-      title: "Detect/Remove Digital Signatures"
+      title: "Control Digital Signatures"
       content: "Identify and remove digital signatures in PDFs and Office documents"
 
     # feature loop
     - icon: "export"
       title: "Metadata Export"
-      content: "Save metadata from supported files to Excel, CSV, or DataSet output"
+      content: "Export metadata to Excel, CSV, or DataSet formats"
 
     # feature loop
     - icon: "metadata_style"
       title: "Built-In Metadata Control"
-      content: "Analyze specific metadata properties using defined keys for any supported format"
+      content: "Analyze specific metadata properties using defined keys"
 
     # feature loop
     - icon: "unreadable_characters"
       title: "Password Protection"
-      content: "Detect password protection applied to PDF and MS Word, Excel, and PowerPoint documents"
+      content: "Detect password protection in PDFs and MS Word, Excel, and PowerPoint documents"
 
     # feature loop
     - icon: "manipulate"
       title: "Replace Metadata Content"
-      content: "Replace metadata properties of Word, Excel, PowerPoint, and PDF files"
+      content: "Replace metadata properties in Word, Excel, PowerPoint, and PDF files"
 
     # feature loop
     - icon: "export"
       title: "PNG Metadata Export"
-      content: "Extract text metadata directly from PNG image files using Node.js"
+      content: "Extract text metadata from PNG images using Python"
 
     # feature loop
     - icon: "metadata_add"
       title: "Update Image Metadata"
-      content: "Use the Search API to add or update XMP and EXIF metadata properties"
+      content: "Add or update XMP and EXIF metadata using the Search API"
 
     # feature loop
     - icon: "doc_background"
       title: "Control Office Files"
-      content: "Gain access to and delete hidden data embedded in PDF, MS Word, Excel, and PowerPoint files"
+      content: "Access and delete hidden data in PDF, MS Word, Excel, and PowerPoint files"
 
     # feature loop
     - icon: "detect"
       title: "File Type Detection"
-      content: "Dynamically detect the file type at runtime using Node.js"
+      content: "Detect file type at runtime using Python"
 
     # feature loop
     - icon: "preview"
       title: "Matroska Multimedia Preview"
-      content: "Retrieve thumbnails and image previews for supported file formats with Matroska multimedia container support"
+      content: "Retrieve thumbnails and image previews for files with Matroska support"
 
     # feature loop
     - icon: "get"
       title: "TIFF Support"
-      content: "Manipulate IPTC metadata packages in TIFF images"
+      content: "Manipulate IPTC metadata in TIFF images"
 
     # feature loop
     - icon: "image_only"
       title: "HEIC Media Support"
-      content: "Control EXIF tags and XMP metadata for HEIC/HEIF images"
+      content: "Manage EXIF tags and XMP metadata in HEIC/HEIF images"
 
     # feature loop
     - icon: "metadata_style"
       title: "Font Metadata Support"
-      content: "Enumerate any metadata type and control metadata of OpenType font files"
+      content: "Control metadata in OpenType font files"
 
     # feature loop
     - icon: "unreadable_characters"
       title: "Microsoft Project Support"
-      content: "Get all metadata hidden in encrypted Microsoft Project files"
+      content: "Retrieve metadata from encrypted Microsoft Project files"
 
     # feature loop
     - icon: "get"
-      title: "JPEG Support"
-      content: "Add, update, or remove EXIF data in JPEG2000 images"
+      title: "JPEG metadata Support"
+      content: "Add, update, or remove EXIF data for JPEG2000 images"
 
 ############################# Code samples ############################
 code_samples:
   enable: true
   title: "Code samples"
-  description: "Dive into code examples showcasing common GroupDocs.Metadata for Python via .NET functionalities"
+  description: "Explore code examples demonstrating common GroupDocs.Metadata for Python via .NET functionalities"
   items:
     # code sample loop
-    - title: "Be informed about documents inner content"
+    - title: "Get Insights into Document Metadata"
       content: |
-        To get information about inner [document metadata](https://docs.groupdocs.com/metadata/python-net/find-metadata-properties/) use GroupDocs.Metadata for Python via .NET API:
+        Use GroupDocs.Metadata for Python via .NET API to retrieve inner [document metadata](https://docs.groupdocs.com/metadata/python-net/find-metadata-properties/):
         {{< landing/code title="How to get specific document metadata">}}
         ```python {style=abap}
 
@@ -339,9 +339,9 @@ code_samples:
         {{< /landing/code >}}
 
     # code sample loop
-    - title: "Hide business info in documents"
+    - title: "Hide Business Info in Documents"
       content: |
-        Modify your documents by [adding metadata](https://docs.groupdocs.com/metadata/python-net/adding-metadata/) using our Solution:
+        Use our solution to [add metadata](https://docs.groupdocs.com/metadata/python-net/adding-metadata/) to your documents:
         {{< landing/code title="How to add some missing metadata properties to a file regardless of its format.">}}
         ```python {style=abap}
 

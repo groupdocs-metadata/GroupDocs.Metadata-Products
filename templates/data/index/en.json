@@ -576,146 +576,146 @@
     "code_samples_sample_2_content": "Modify your documents by [adding metadata]({{Sample2Url}}) using our Solution:"
   },
   "index-content-python-net": {
-    "head_title": "{{EnvNameShort}} Library to Manipulate File Metadata",
-    "head_description": "Enhance {{EnvNameShort}} applications by analyzing, comparing, editing, removing, and exporting metadata of popular file formats, like PDF, Word, Excel etc.",
-    "title": "Documents Metadata Management {{EnvNameShort}}",
-    "description": "Manage metadata in popular document and image formats using {{EnvNameShort}}.",
+    "head_title": "{{EnvNameShort}} Library to Control Document Metadata",
+    "head_description": "Enhance {{EnvNameShort}} apps by creating, editing, removing, and exporting metadata for popular file formats like PDF, Word, Excel and images.",
+    "title": "Documents Metadata Management in {{EnvNameShort}}",
+    "description": "Manage popular document and image formats metadata with {{EnvNameShort}}.",
     "actions_main": "PyPi free download",
     "code_title": "Efficient Metadata Manipulation in {{EnvNameShort}}",
-    "code_comment_1": "Pass Spreadsheet to Metadata",
+    "code_comment_1": "Provide Spreadsheet path to Metadata",
     "code_comment_2": "Check file format",
-    "code_comment_3": "Analyze inner document metadata",
-    "overview_description": "Node.js TypeScript library for to control metadata",
+    "code_comment_3": "Process metadata from the document ",
+    "overview_description": "{{EnvNameShort}} library to control metadata",
     "overview_feature_1": {
       "title": "Main features",
-      "description": "{{ProdFullName}} is an advanced library that empowers you to manage metadata within various file formats. Integrate metadata viewing, editing, deletion, searching, comparison, replacement, and export functionalities into your {{EnvNameShort}} applications. Supported formats include popular business documents like PDF, Microsoft Office (Word, Excel, PowerPoint), Outlook emails, Project, Visio diagrams, OneNote, images (including PSD, CAD), audio, video, OpenType fonts, and metafiles."
+      "description": "{{ProdFullName}} is a powerful library for managing metadata in various file formats. Integrate viewing, editing, deleting, searching, comparing, replacing, and exporting metadata in your {{EnvNameShort}} apps. Supports popular formats like PDF, Microsoft Office (Word, Excel, PowerPoint), Outlook emails, Project, Visio diagrams, OneNote, images (PSD, CAD), audio, video, OpenType fonts, and metafiles."
     },
     "overview_feature_2": {
-      "title": "Manipulate metadata easily",
-      "description": "This library offers comprehensive features like metadata search, replacement, property comparison, and information extraction. You can export retrieved metadata to Excel, CSV, or DataSet formats. It supports commonly used metadata standards like built-in, XMP, EXIF, and custom properties within supported document formats."
+      "title": "Easy Metadata Manipulation",
+      "description": "Our library offers features like metadata search, replacement, property comparison, and extraction. Export metadata to Excel, CSV, or DataSet formats. Supports metadata standards like built-in, XMP, EXIF, and custom properties."
     },
     "overview_feature_3": {
       "title": "Popular Platform Support",
-      "description": "{{ProdFullName}} is compatible with all {{EnvNameShort}} versions and runs seamlessly on popular operating systems (Windows, Linux, macOS) that support {{EnvNameShort}} runtime."
+      "description": "{{ProdFullName}} is compatible with popular {{EnvNameShort}} versions and runs on Windows, Linux, and macOS."
     },
     "features": {
       "title": "{{ProdFullName}} Features",
-      "description": "Empower robust document security through metadata processing.",
+      "description": "Enhance document security with metadata processing.",
       "feature_1": {
-        "title": "Clear Business Files",
-        "content": "Clear business reports and documents of any metadata and comments"
+        "title": "Protect Business Files",
+        "content": "Remove metadata and comments from business reports and documents"
       },
       "feature_2": {
         "title": "Photo Location",
-        "content": "Control metadata in images, including photo location information"
+        "content": "Manage image metadata, including photo location information"
       },
       "feature_3": {
         "title": "Control Office Documents",
         "content": "Manipulate metadata in PDF, Word, Excel, PowerPoint, and other formats"
       },
       "feature_4": {
-        "title": "Analyze Metadata Distinctions",
-        "content": "Compare and analyze alterations in metadata in supported file formats"
+        "title": "Analyze Metadata Changes",
+        "content": "Compare and analyze metadata changes in supported file formats"
       },
       "feature_5": {
         "title": "Built-In Metadata Support",
-        "content": "Leverage extensive capabilities to manipulate built-in and custom metadata"
+        "content": "Work with built-in and custom metadata properties"
       },
       "feature_6": {
         "title": "Control Image Metadata",
-        "content": "Collect document metadata properties like EXIF or XMP"
+        "content": "Collect image files metadata like EXIF or XMP"
       },
       "feature_7": {
         "title": "Email Metadata Support",
-        "content": "Manipulate metadata and attachments in email messages"
+        "content": "Manage metadata and attachments in email messages"
       },
       "feature_8": {
         "title": "EXIF Image Metadata",
-        "content": "Correct EXIF metadata content in WEBP, PNG, or PSD files"
+        "content": "Edit EXIF metadata in WEBP, PNG, or PSD files"
       },
       "feature_9": {
-        "title": "File Content Optimization",
-        "content": "Reduce memory consumption of PDF, Excel, and image formats"
+        "title": "Optimize File Content",
+        "content": "Reduce memory usage in PDF, Excel, and image files"
       },
       "feature_10": {
         "title": "Matroska Multimedia Support",
-        "content": "Access Matroska subtitles and metadata in audio and video files"
+        "content": "Get Matroska subtitles and metadata in audio and video files"
       },
       "feature_11": {
-        "title": "Image Previews",
-        "content": "Generate image previews for MSG, CAD, EML, or EPUB files"
+        "title": "Generate Image Previews",
+        "content": "Create previews for MSG, CAD, EML, or EPUB image formats"
       },
       "feature_12": {
         "title": "Multimedia Support",
-        "content": "Get XMP metadata nodes from MOV, MP3, and WEBP files"
+        "content": "Retrieve XMP metadata from MOV, MP3, and WEBP files"
       },
       "feature_13": {
-        "title": "Detect/Remove Digital Signatures",
+        "title": "Control Digital Signatures",
         "content": "Identify and remove digital signatures in PDFs and Office documents"
       },
       "feature_14": {
         "title": "Metadata Export",
-        "content": "Save metadata from supported files to Excel, CSV, or DataSet output"
+        "content": "Export metadata to Excel, CSV, or DataSet formats"
       },
       "feature_15": {
         "title": "Built-In Metadata Control",
-        "content": "Analyze specific metadata properties using defined keys for any supported format"
+        "content": "Analyze specific metadata properties using defined keys"
       },
       "feature_16": {
         "title": "Password Protection",
-        "content": "Detect password protection applied to PDF and MS Word, Excel, and PowerPoint documents"
+        "content": "Detect password protection in PDFs and MS Word, Excel, and PowerPoint documents"
       },
       "feature_17": {
         "title": "Replace Metadata Content",
-        "content": "Replace metadata properties of Word, Excel, PowerPoint, and PDF files"
+        "content": "Replace metadata properties in Word, Excel, PowerPoint, and PDF files"
       },
       "feature_18": {
         "title": "PNG Metadata Export",
-        "content": "Extract text metadata directly from PNG image files using Node.js"
+        "content": "Extract text metadata from PNG images using {{EnvNameShort}}"
       },
       "feature_19": {
         "title": "Update Image Metadata",
-        "content": "Use the Search API to add or update XMP and EXIF metadata properties"
+        "content": "Add or update XMP and EXIF metadata using the Search API"
       },
       "feature_20": {
         "title": "Control Office Files",
-        "content": "Gain access to and delete hidden data embedded in PDF, MS Word, Excel, and PowerPoint files"
+        "content": "Access and delete hidden data in PDF, MS Word, Excel, and PowerPoint files"
       },
       "feature_21": {
         "title": "File Type Detection",
-        "content": "Dynamically detect the file type at runtime using Node.js"
+        "content": "Detect file type at runtime using {{EnvNameShort}}"
       },
       "feature_22": {
         "title": "Matroska Multimedia Preview",
-        "content": "Retrieve thumbnails and image previews for supported file formats with Matroska multimedia container support"
+        "content": "Retrieve thumbnails and image previews for files with Matroska support"
       },
       "feature_23": {
         "title": "TIFF Support",
-        "content": "Manipulate IPTC metadata packages in TIFF images"
+        "content": "Manipulate IPTC metadata in TIFF images"
       },
       "feature_24": {
         "title": "HEIC Media Support",
-        "content": "Control EXIF tags and XMP metadata for HEIC/HEIF images"
+        "content": "Manage EXIF tags and XMP metadata in HEIC/HEIF images"
       },
       "feature_25": {
         "title": "Font Metadata Support",
-        "content": "Enumerate any metadata type and control metadata of OpenType font files"
+        "content": "Control metadata in OpenType font files"
       },
       "feature_26": {
         "title": "Microsoft Project Support",
-        "content": "Get all metadata hidden in encrypted Microsoft Project files"
+        "content": "Retrieve metadata from encrypted Microsoft Project files"
       },
       "feature_27": {
-        "title": "JPEG Support",
-        "content": "Add, update, or remove EXIF data in JPEG2000 images"
+        "title": "JPEG metadata Support",
+        "content": "Add, update, or remove EXIF data for JPEG2000 images"
       }
     },
-    "platforms_description": "{{ProdFullName}} readily integrates with various operating systems and package managers.",
-    "formats_description": "{{ProdFullName}} empowers you to process a diverse range of file formats. [Explore the full list]({{SupportedFormatsUrl}}).",
-    "code_samples_description": "Dive into code examples showcasing common {{ProdFullName}} functionalities",
-    "code_title_sample_1": "Be informed about documents inner content",
-    "code_samples_sample_1_content": "To get information about inner [document metadata]({{Sample1Url}}) use {{ProdFullName}} API:",
-    "code_title_sample_2": "Hide business info in documents",
-    "code_samples_sample_2_content": "Modify your documents by [adding metadata]({{Sample2Url}}) using our Solution:"
+    "platforms_description": "{{ProdFullName}} is ready for integration with various operating systems and package managers.",
+    "formats_description": "{{ProdFullName}} processes a wide range of file formats. [Explore the full list]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Explore code examples demonstrating common {{ProdFullName}} functionalities",
+    "code_title_sample_1": "Get Insights into Document Metadata",
+    "code_samples_sample_1_content": "Use {{ProdFullName}} API to retrieve inner [document metadata]({{Sample1Url}}):",
+    "code_title_sample_2": "Hide Business Info in Documents",
+    "code_samples_sample_2_content": "Use our solution to [add metadata]({{Sample2Url}}) to your documents:"
   }
 }
