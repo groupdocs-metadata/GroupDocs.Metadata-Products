@@ -1,14 +1,14 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-06-17T14:24:54
+date: 2024-06-18T13:26:18
 draft: false
 
 lang: en
 product: "Metadata"
 product_tag: "metadata"
-platform: "Node.js via Java"
-platform_tag: "nodejs-java"
+platform: "Python via .NET"
+platform_tag: "python-net"
 
 ############################# Drop-down ############################
 supported_platforms:
@@ -27,20 +27,20 @@ supported_platforms:
       tag: "python-net"
 
 ############################# Head ############################
-head_title: "Node.js Library to Manipulate File Metadata"
-head_description: "Enhance Node.js applications by analyzing, comparing, editing, removing, and exporting metadata of popular file formats, like PDF, Word, Excel etc."
+head_title: "Python Library to Manipulate File Metadata"
+head_description: "Enhance Python applications by analyzing, comparing, editing, removing, and exporting metadata of popular file formats, like PDF, Word, Excel etc."
 
 ############################# Header ############################
-title: "Documents Metadata Management Node.js"
-description: "Manage metadata in popular document and image formats using Node.js."
+title: "Documents Metadata Management Python"
+description: "Manage metadata in popular document and image formats using Python."
 words:
   for: "for"
 
 actions:
-  main: "Use NPM to download for free"
-  main_link: "https://www.npmjs.com/package/@groupdocs/groupdocs.metadata"
+  main: "PyPi free download"
+  main_link: "https://pypi.org/project/groupdocs-metadata-net/"
   alt: "Licensing"
-  alt_link: "https://purchase.groupdocs.com/pricing/metadata/nodejs-java/"
+  alt_link: "https://purchase.groupdocs.com/pricing/metadata/python-net/"
   title: "Ready to start?"
   description: "Try GroupDocs.Metadata features for free or request a license"
 
@@ -48,29 +48,30 @@ release:
   title: "Version {0} released"
   notes: "See what’s new"
   downloads: "Downloads"
-  link: "https://releases.groupdocs.com/metadata/nodejs-java/"
+  link: "https://releases.groupdocs.com/metadata/python-net/"
 
 code:
-  title: "Efficient Metadata Manipulation in Node.js"
+  title: "Efficient Metadata Manipulation in Python"
   more: "More examples"
-  more_link: "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Node.js-via-Java/"
-  install: "npm i @groupdocs/groupdocs.metadata"
+  more_link: "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Python-via-.NET/"
+  install: "pip install groupdocs-metadata-net"
   content: |
-    ```javascript {style=abap}
+    ```python {style=abap}
 
-    const gMeta = require('@groupdocs/groupdocs.metadata')
-    // Pass Spreadsheet to Metadata
-    const metadata = new gMeta.Metadata("input.xlsx");
+    import groupdocs.metadata as gm
+                        
+    # Pass Spreadsheet to Metadata
+    with groupdocs.metadata.Metadata("input.xlsx") as metadata:
 
-    // Check file format
-    if (metadata.getFileFormat() != gMeta.FileFormat.Unknown) {
-        // Analyze inner document metadata
-        var info = metadata.getDocumentInfo();
-        console.log('File format: 
-            ${info.getFileType().getFileFormat()}');
-        console.log('MIME Type: 
-            ${info.getFileType().getMimeType()}');
-    }
+        # Analyze inner document metadata
+        info = metadata.get_document_info()
+        print(f"File format: {info.file_type.file_format}")
+        print(f"File extension: {info.file_type.extension}")
+        print(f"MIME Type: {info.file_type.mime_type}")
+        print(f"Number of pages: {info.page_count}")
+        print(f"Document size: {info.size} bytes")
+        print(f"Is document encrypted: {info.is_encrypted}")
+
     ```
 
 ############################# Overview ############################
@@ -81,7 +82,7 @@ overview:
   features:
     # feature loop
     - title: "Main features"
-      content: "GroupDocs.Metadata for Node.js via Java is an advanced library that empowers you to manage metadata within various file formats. Integrate metadata viewing, editing, deletion, searching, comparison, replacement, and export functionalities into your Node.js applications. Supported formats include popular business documents like PDF, Microsoft Office (Word, Excel, PowerPoint), Outlook emails, Project, Visio diagrams, OneNote, images (including PSD, CAD), audio, video, OpenType fonts, and metafiles."
+      content: "GroupDocs.Metadata for Python via .NET is an advanced library that empowers you to manage metadata within various file formats. Integrate metadata viewing, editing, deletion, searching, comparison, replacement, and export functionalities into your Python applications. Supported formats include popular business documents like PDF, Microsoft Office (Word, Excel, PowerPoint), Outlook emails, Project, Visio diagrams, OneNote, images (including PSD, CAD), audio, video, OpenType fonts, and metafiles."
 
     # feature loop
     - title: "Manipulate metadata easily"
@@ -89,29 +90,14 @@ overview:
 
     # feature loop
     - title: "Popular Platform Support"
-      content: "GroupDocs.Metadata for Node.js via Java is compatible with all Node.js versions and runs seamlessly on popular operating systems (Windows, Linux, macOS) that support Node.js runtime."
+      content: "GroupDocs.Metadata for Python via .NET is compatible with all Python versions and runs seamlessly on popular operating systems (Windows, Linux, macOS) that support Python runtime."
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "Platform Independence"
-  description: "GroupDocs.Metadata for Node.js via Java readily integrates with various operating systems and package managers."
+  description: "GroupDocs.Metadata for Python via .NET readily integrates with various operating systems and package managers."
   items:
-    # platform loop
-    - title: "Windows"
-      image: "windows"
-    # platform loop
-    - title: "macOS"
-      image: "finder"      
-    # platform loop
-    - title: "Linux"
-      image: "linux"
-    # platform loop
-    - title: "NPM"
-      image: "npm"  
-    # platform loop
-    - title: "NuGet"
-      image: "nuget"      
     # platform loop
     - title: "Amazon"
       image: "amazon"
@@ -122,21 +108,27 @@ platforms:
     - title: "Azure"
       image: "azure"
     # platform loop
-    - title: "VS Code"
-      image: "vs_code"
-    # platform loop
     - title: "Eclipse"
       image: "eclipse"
     # platform loop
     - title: "IntelliJ"
       image: "intellij"
+    # platform loop
+    - title: "Windows"
+      image: "windows"
+    # platform loop
+    - title: "Linux"
+      image: "linux"
+    # platform loop
+    - title: "PyPI"
+      image: "pypi"
 
 ############################# File formats ############################
 formats:
   enable: true
   title: "Supported file formats"
   description: |
-    GroupDocs.Metadata for Node.js via Java empowers you to process a diverse range of file formats. [Explore the full list](https://docs.groupdocs.com/metadata/java/supported-document-formats/).
+    GroupDocs.Metadata for Python via .NET empowers you to process a diverse range of file formats. [Explore the full list](https://docs.groupdocs.com/metadata/python-net/supported-document-formats/).
   groups:
     # group loop
     - color: "green"
@@ -174,7 +166,7 @@ formats:
 ############################# Features ############################
 features:
   enable: true
-  title: "GroupDocs.Metadata for Node.js via Java Features"
+  title: "GroupDocs.Metadata for Python via .NET Features"
   description: "Empower robust document security through metadata processing."
 
   items:
@@ -317,56 +309,58 @@ features:
 code_samples:
   enable: true
   title: "Code samples"
-  description: "Dive into code examples showcasing common GroupDocs.Metadata for Node.js via Java functionalities"
+  description: "Dive into code examples showcasing common GroupDocs.Metadata for Python via .NET functionalities"
   items:
     # code sample loop
     - title: "Be informed about documents inner content"
       content: |
-        To get information about inner [document metadata](https://docs.groupdocs.com/metadata/nodejs-java/find-metadata-properties/) use GroupDocs.Metadata for Node.js via Java API:
+        To get information about inner [document metadata](https://docs.groupdocs.com/metadata/python-net/find-metadata-properties/) use GroupDocs.Metadata for Python via .NET API:
         {{< landing/code title="How to get specific document metadata">}}
-        ```javascript {style=abap}
-        // Load source document to Metadata constructor
-        var metadata = new groupdocs.metadata.Metadata("source.pdf");
+        ```python {style=abap}
 
-        // Get all the properties that contains the name of the last document editor
-        // or the date/time the document was last modified
-        var searchSpecification = new groupdocs.metadata.ContainsTagSpecification
-            (groupdocs.metadata.Tags.getPerson().getEditor()).
-            or(new groupdocs.metadata.ContainsTagSpecification
-            (groupdocs.metadata.Tags.getTime().getModified()));
-        var metadataProperties = metadata.findProperties(searchSpecification);
+        import groupdocs.metadata as gm
+                        
+        # Load source document to Metadata constructor
+        with gm.Metadata("input.pptx") as metadata:
 
-        // Process retrieved metadata entries
-        for (var i =0; i< metadataProperties.getCount(); i++) {
-            console.log(`Property name: ${metadataProperties.get_Item(i).getName()}, 
-            Property value: ${metadataProperties.get_Item(i).getValue()}`);
-        }
+            # Get all the properties that contains the name of the last document editor
+            # or the date/time the document was last modified
+            specification = gm.search.ContainsTagSpecification(gm.tagging.Tags.person.editor)
+                .either(gm.search.ContainsTagSpecification(gm.tagging.Tags.time.modified))
+                
+            properties = metadata.find_properties(specification)
+
+            # Process retrieved metadata entries
+            for property in properties:
+                print(f"Property name: {property.name}, Property value: {property.value}")
+
 
         ```
         {{< /landing/code >}}
+
     # code sample loop
     - title: "Hide business info in documents"
       content: |
-        Modify your documents by [adding metadata](https://docs.groupdocs.com/metadata/nodejs-java/adding-metadata/) using our Solution:
+        Modify your documents by [adding metadata](https://docs.groupdocs.com/metadata/python-net/adding-metadata/) using our Solution:
         {{< landing/code title="How to add some missing metadata properties to a file regardless of its format.">}}
-        ```javascript {style=abap}   
-        // Load source document
-        var metadata = new groupdocs.metadata.Metadata("input.pdf");
-        if (metadata.getFileFormat() != groupdocs.metadata.FileFormat.Unknown 
-            && !metadata.getDocumentInfo().isEncrypted()) {
+        ```python {style=abap}
 
-            // Add a property containing the file last printing date if it's missing
-            // Property will be added if the document supports such type of metadata
-            var affected = metadata.addProperties(
-            new groupdocs.metadata.ContainsTagSpecification(
-            groupdocs.metadata.Tags.getTime().getPrinted()), 
-            new groupdocs.metadata.PropertyValue(new Date()));
+        import groupdocs.metadata as gm
 
-            // Save modified document to a specified path
-            console.log("Affected properties: ${affected}");
+        # Load source document
+        with gm.Metadata("input.pdf") as metadata:
+            if metadata.file_format != gm.common.FileFormat.UNKNOWN and metadata.get_document_info().is_encrypted != True:
 
-            metadata.save("output.pdf");
-        }
+                # Add a property containing the file last printing date if it's missing
+                # Property will be added if the document supports such type of metadata
+                specification = gm.search.ContainsTagSpecification(gm.tagging.Tags.time.printed)
+                now = datetime.now()
+                property_value = gm.common.PropertyValue(now)
+                affected = metadata.add_properties(specification, property_value)
+
+                # Save modified document to a specified path
+                print(f"Affected properties: {affected}");
+                metadata.save("output.pdf")
 
         ```
         {{< /landing/code >}}

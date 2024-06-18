@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-06-11T15:17:53
+date: 2024-06-17T14:24:54
 draft: false
 
 lang: en
@@ -22,6 +22,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Node.js"
       tag: "nodejs-java"
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net"
 
 ############################# Head ############################
 head_title: ".NET Metadata Reader, Viewer, Extractor, Remover & Exporter API"
