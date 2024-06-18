@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-06-11T15:17:54
+date: 2024-06-18T21:19:09
 draft: false
 
 lang: ru
@@ -22,6 +22,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Node.js"
       tag: "nodejs-java"
+    # supported_platforms loop
+    - title: "Python"
+      tag: "python-net"
 
 ############################# Head ############################
 head_title: "Библиотека Node.js для управления метаданными файлов"

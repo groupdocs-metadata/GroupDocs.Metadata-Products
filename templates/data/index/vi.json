@@ -1,6 +1,6 @@
 {
   "index-content": {
-    "head_title": "API .NET, Java, Node.js và ứng dụng thao tác siêu dữ liệu trực tuyến của {{NameCompany}}",
+    "head_title": ".NET, Java, Node.js, API Python và ứng dụng thao tác siêu dữ liệu trực tuyến của {{NameCompany}}",
     "head_description": "API siêu dữ liệu tài liệu có nguồn gốc từ C# .NET & Java. Đọc, viết, chỉnh sửa và so sánh thông tin meta của tất cả các định dạng phổ biến. Phân tích và xuất siêu dữ liệu.",
     "title": "Giải pháp quản lý siêu dữ liệu tài liệu",
     "description_0": "API và ứng dụng để đọc, chỉnh sửa, thay thế và xóa siêu dữ liệu của tài liệu, hình ảnh và các định dạng tệp khác trên các nền tảng phổ biến.",
@@ -574,5 +574,148 @@
     "code_samples_sample_1_content": "Để nhận thông tin về [siêu dữ liệu tài liệu]({{Sample1Url}}) bên trong, hãy sử dụng API {{ProdFullName}}:",
     "code_title_sample_2": "Ẩn thông tin doanh nghiệp trong tài liệu",
     "code_samples_sample_2_content": "Sửa đổi tài liệu của bạn bằng cách [thêm siêu dữ liệu]({{Sample2Url}}) bằng Giải pháp của chúng tôi:"
+  },
+  "index-content-python-net": {
+    "head_title": "Thư viện {{EnvNameShort}} để kiểm soát siêu dữ liệu tài liệu",
+    "head_description": "Nâng cao ứng dụng {{EnvNameShort}} bằng cách tạo, chỉnh sửa, xóa và xuất siêu dữ liệu cho các định dạng tệp phổ biến như PDF, Word, Excel và hình ảnh.",
+    "title": "Quản lý siêu dữ liệu tài liệu trong {{EnvNameShort}}",
+    "description": "Quản lý siêu dữ liệu định dạng hình ảnh và tài liệu phổ biến bằng {{EnvNameShort}}.",
+    "actions_main": "Tải xuống miễn phí PyPi",
+    "code_title": "Thao tác siêu dữ liệu hiệu quả trong {{EnvNameShort}}",
+    "code_comment_1": "Cung cấp đường dẫn bảng tính tới siêu dữ liệu",
+    "code_comment_2": "Kiểm tra định dạng tập tin",
+    "code_comment_3": "Xử lý siêu dữ liệu từ tài liệu",
+    "overview_description": "Thư viện {{EnvNameShort}} để kiểm soát siêu dữ liệu",
+    "overview_feature_1": {
+      "title": "Những đặc điểm chính",
+      "description": "{{ProdFullName}} là thư viện mạnh mẽ để quản lý siêu dữ liệu ở nhiều định dạng tệp khác nhau. Tích hợp xem, chỉnh sửa, xóa, tìm kiếm, so sánh, thay thế và xuất siêu dữ liệu trong ứng dụng {{EnvNameShort}} của bạn. Hỗ trợ các định dạng phổ biến như PDF, Microsoft Office (Word, Excel, PowerPoint), email Outlook, Project, sơ đồ Visio, OneNote, hình ảnh (PSD, CAD), âm thanh, video, phông chữ OpenType và siêu tệp."
+    },
+    "overview_feature_2": {
+      "title": "Thao tác siêu dữ liệu dễ dàng",
+      "description": "Thư viện của chúng tôi cung cấp các tính năng như tìm kiếm siêu dữ liệu, thay thế, so sánh thuộc tính và trích xuất. Xuất siêu dữ liệu sang định dạng Excel, CSV hoặc DataSet. Hỗ trợ các tiêu chuẩn siêu dữ liệu như tích hợp sẵn, XMP, EXIF ​​​​và các thuộc tính tùy chỉnh."
+    },
+    "overview_feature_3": {
+      "title": "Hỗ trợ nền tảng phổ biến",
+      "description": "{{ProdFullName}} tương thích với các phiên bản {{EnvNameShort}} phổ biến và chạy trên Windows, Linux và macOS."
+    },
+    "features": {
+      "title": "Tính năng của {{ProdFullName}}",
+      "description": "Tăng cường bảo mật tài liệu bằng cách xử lý siêu dữ liệu.",
+      "feature_1": {
+        "title": "Bảo vệ tập tin doanh nghiệp",
+        "content": "Xóa siêu dữ liệu và nhận xét khỏi báo cáo và tài liệu kinh doanh"
+      },
+      "feature_2": {
+        "title": "Vị trí ảnh",
+        "content": "Quản lý siêu dữ liệu hình ảnh, bao gồm thông tin vị trí ảnh"
+      },
+      "feature_3": {
+        "title": "Kiểm soát tài liệu văn phòng",
+        "content": "Thao tác siêu dữ liệu ở dạng PDF, Word, Excel, PowerPoint và các định dạng khác"
+      },
+      "feature_4": {
+        "title": "Phân tích các thay đổi siêu dữ liệu",
+        "content": "So sánh và phân tích các thay đổi siêu dữ liệu ở các định dạng tệp được hỗ trợ"
+      },
+      "feature_5": {
+        "title": "Hỗ trợ siêu dữ liệu tích hợp",
+        "content": "Làm việc với các thuộc tính siêu dữ liệu tùy chỉnh và tích hợp sẵn"
+      },
+      "feature_6": {
+        "title": "Kiểm soát siêu dữ liệu hình ảnh",
+        "content": "Thu thập siêu dữ liệu tệp hình ảnh như EXIF ​​​​hoặc XMP"
+      },
+      "feature_7": {
+        "title": "Hỗ trợ siêu dữ liệu email",
+        "content": "Quản lý siêu dữ liệu và tệp đính kèm trong email"
+      },
+      "feature_8": {
+        "title": "Siêu dữ liệu hình ảnh EXIF",
+        "content": "Chỉnh sửa siêu dữ liệu EXIF ​​​​trong các tệp WEBP, PNG hoặc PSD"
+      },
+      "feature_9": {
+        "title": "Tối ưu hóa nội dung tệp",
+        "content": "Giảm mức sử dụng bộ nhớ trong các tệp PDF, Excel và hình ảnh"
+      },
+      "feature_10": {
+        "title": "Hỗ trợ đa phương tiện Matroska",
+        "content": "Nhận phụ đề và siêu dữ liệu Matroska trong tệp âm thanh và video"
+      },
+      "feature_11": {
+        "title": "Tạo bản xem trước hình ảnh",
+        "content": "Tạo bản xem trước cho các định dạng hình ảnh MSG, CAD, EML hoặc EPUB"
+      },
+      "feature_12": {
+        "title": "Hỗ trợ đa phương tiện",
+        "content": "Truy xuất siêu dữ liệu XMP từ các tệp MOV, MP3 và WEBP"
+      },
+      "feature_13": {
+        "title": "Kiểm soát chữ ký số",
+        "content": "Xác định và xóa chữ ký số trong tài liệu PDF và Office"
+      },
+      "feature_14": {
+        "title": "Xuất siêu dữ liệu",
+        "content": "Xuất siêu dữ liệu sang định dạng Excel, CSV hoặc DataSet"
+      },
+      "feature_15": {
+        "title": "Kiểm soát siêu dữ liệu tích hợp",
+        "content": "Phân tích các thuộc tính siêu dữ liệu cụ thể bằng các khóa được xác định"
+      },
+      "feature_16": {
+        "title": "Mật khẩu bảo vệ",
+        "content": "Phát hiện bảo vệ bằng mật khẩu trong các tài liệu PDF và MS Word, Excel và PowerPoint"
+      },
+      "feature_17": {
+        "title": "Thay thế nội dung siêu dữ liệu",
+        "content": "Thay thế thuộc tính siêu dữ liệu trong tệp Word, Excel, PowerPoint và PDF"
+      },
+      "feature_18": {
+        "title": "Xuất siêu dữ liệu PNG",
+        "content": "Trích xuất siêu dữ liệu văn bản từ hình ảnh PNG bằng cách sử dụng {{EnvNameShort}}"
+      },
+      "feature_19": {
+        "title": "Cập nhật siêu dữ liệu hình ảnh",
+        "content": "Thêm hoặc cập nhật siêu dữ liệu XMP và EXIF ​​​​bằng API tìm kiếm"
+      },
+      "feature_20": {
+        "title": "Kiểm soát tập tin văn phòng",
+        "content": "Truy cập và xóa dữ liệu ẩn trong các tệp PDF, MS Word, Excel và PowerPoint"
+      },
+      "feature_21": {
+        "title": "Phát hiện loại tệp",
+        "content": "Phát hiện loại tệp trong thời gian chạy bằng cách sử dụng {{EnvNameShort}}"
+      },
+      "feature_22": {
+        "title": "Xem trước đa phương tiện Matroska",
+        "content": "Truy xuất hình thu nhỏ và xem trước hình ảnh cho các tệp có hỗ trợ Matroska"
+      },
+      "feature_23": {
+        "title": "Hỗ trợ TIFF",
+        "content": "Thao tác siêu dữ liệu IPTC trong hình ảnh TIFF"
+      },
+      "feature_24": {
+        "title": "Hỗ trợ truyền thông HEIC",
+        "content": "Quản lý thẻ EXIF ​​​​và siêu dữ liệu XMP trong hình ảnh HEIC/HEIF"
+      },
+      "feature_25": {
+        "title": "Hỗ trợ siêu dữ liệu phông chữ",
+        "content": "Kiểm soát siêu dữ liệu trong tệp phông chữ OpenType"
+      },
+      "feature_26": {
+        "title": "Hỗ trợ dự án Microsoft",
+        "content": "Truy xuất siêu dữ liệu từ các tệp Microsoft Project được mã hóa"
+      },
+      "feature_27": {
+        "title": "Hỗ trợ siêu dữ liệu JPEG",
+        "content": "Thêm, cập nhật hoặc xóa dữ liệu EXIF ​​​​cho hình ảnh JPEG2000"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} đã sẵn sàng để tích hợp với nhiều hệ điều hành và trình quản lý gói khác nhau.",
+    "formats_description": "{{ProdFullName}} xử lý nhiều định dạng tệp. [Khám phá danh sách đầy đủ]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Khám phá các ví dụ về mã thể hiện các chức năng phổ biến của {{ProdFullName}}",
+    "code_title_sample_1": "Nhận thông tin chi tiết về siêu dữ liệu tài liệu",
+    "code_samples_sample_1_content": "Sử dụng API {{ProdFullName}} để truy xuất [siêu dữ liệu tài liệu bên trong]({{Sample1Url}}):",
+    "code_title_sample_2": "Ẩn thông tin doanh nghiệp trong tài liệu",
+    "code_samples_sample_2_content": "Hãy sử dụng giải pháp của chúng tôi để [thêm siêu dữ liệu]({{Sample2Url}}) vào tài liệu của bạn:"
   }
 }

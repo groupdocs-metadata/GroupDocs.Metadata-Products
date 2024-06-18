@@ -24,7 +24,6 @@
       "programmingLanguage": "C#",
       "srcFileExt": ".cs",
       "syntax": "csharp",
-      "developmentEnvironment": "Microsoft Visual Studio, Xamarin, MonoDevelop",
       "runtime": "Frameworks: .NET Framework, .NET Standard, .NET Core, Mono",
 
       "productUrl": "https://products.groupdocs.com/metadata/net/",
@@ -49,7 +48,6 @@
       "programmingLanguage": "Java",
       "srcFileExt": ".java",
       "syntax": "java",
-      "developmentEnvironment": "NetBeans, Intellij IDEA, Eclipse, etc.",
       "runtime": "Java runtime: J2SE 6.0 and above",
 
       "productUrl": "https://products.groupdocs.com/metadata/java/",
@@ -75,7 +73,6 @@
       "programmingLanguage": "JavaScript",
       "srcFileExt": ".js",
       "syntax": "javascript",
-      "developmentEnvironment": "Intellij IDEA, Eclipse Che, Visual Studio Code, WebStorm, etc.",
       "runtime": "Node.js",
 
       "productUrl": "https://products.groupdocs.com/metadata/nodejs-java/",
@@ -89,7 +86,30 @@
 
       "more_link": "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Node.js-via-Java/",
       "release_downloads": "https://releases.groupdocs.com/metadata/nodejs-java/"
+    },
+    "python-net": {
+      "environmentName": "Python via .NET",
+      "environmentNameShort": "Python",
+      "productCode": "python-net",
+      "productPlatformLink": "/metadata/python-net/",
+      "productFullName": "GroupDocs.Metadata for Python via .NET",
 
+      "programmingLanguage": "Python",
+      "srcFileExt": ".py",
+      "syntax": "python",
+      "runtime": "Python",
+
+      "productUrl": "https://products.groupdocs.com/metadata/python-net/",
+      "packageStoreName": "PyPi",
+      "packageUrl": "https://pypi.org/project/groupdocs-metadata-net/",
+      "pricesUrl": "https://purchase.groupdocs.com/pricing/metadata/python-net/",
+      "docsUrl": "https://docs.groupdocs.com/metadata/python-net/",
+      "supportedFormatsUrl": "https://docs.groupdocs.com/metadata/python-net/supported-document-formats/",
+      "sample1Url": "https://docs.groupdocs.com/metadata/python-net/find-metadata-properties/",
+      "sample2Url": "https://docs.groupdocs.com/metadata/python-net/adding-metadata/",
+
+      "more_link": "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Python-via-.NET/",
+      "release_downloads": "https://releases.groupdocs.com/metadata/python-net/"
     }
   }
 }

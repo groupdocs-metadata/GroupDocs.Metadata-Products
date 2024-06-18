@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-06-11T15:17:53
+date:  2024-06-18T21:19:09
 draft: false
 
 product: "Metadata"
@@ -10,7 +10,7 @@ product_tag: "metadata"
 lang: vi
 
 ############################# Head ############################
-head_title: "API .NET, Java, Node.js và ứng dụng thao tác siêu dữ liệu trực tuyến của GroupDocs"
+head_title: ".NET, Java, Node.js, API Python và ứng dụng thao tác siêu dữ liệu trực tuyến của GroupDocs"
 head_description: "API siêu dữ liệu tài liệu có nguồn gốc từ C# .NET & Java. Đọc, viết, chỉnh sửa và so sánh thông tin meta của tất cả các định dạng phổ biến. Phân tích và xuất siêu dữ liệu."
 
 ############################# Header ############################
@@ -96,7 +96,7 @@ supported_platforms:
       color: "green"
       tag: "nodejs-java"
       link: "/metadata/nodejs-java/"
-      features_link: "https://docs.groupdocs.com/metadata/"
+      features_link: "https://docs.groupdocs.com/metadata/nodejs-java/system-requirements/"
       features:
           # features loop
           - rows: "4"
@@ -112,6 +112,34 @@ supported_platforms:
           - rows: "3"
             content: |
                     Atom <br> Visual Studio Code <br> Bất kỳ trình soạn thảo văn bản nào khác
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    70+ file formats
+
+    # items loop
+    - title: "Python"
+      description: GroupDocs.Metadata Python
+      color: "yellow"
+      tag: "python-net"
+      link: "/metadata/python-net/"
+      features_link: "https://docs.groupdocs.com/metadata/python-net/system-requirements/"
+      features:
+          # features loop
+          - rows: "4"
+            content: |
+                    Python 3.9+ and .Net 6+
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    Windows <br> Linux <br> Mac OS
+      
+          # features loop
+          - rows: "3"
+            content: |
+                    IDLE <br> PyCharm <br> Visual Studio Code
       
           # features loop
           - rows: "1"
@@ -224,6 +252,33 @@ code_samples:
 
                     </code>
 
+          # samples loop
+          - language: "Python"
+            color: "yellow"
+            content: |
+                    <code class="python-net" data-lang="python">
+                        import groupdocs.metadata as gm
+                        
+                        def run():
+
+                            # Truyền đường dẫn tới tài liệu tới hàm tạo Metadata
+                            with gm.Metadata("input.docx) as metadata:
+
+                                # Xóa các thuộc tính tài liệu được kết nối với người tạo và người chỉnh sửa
+                                specification = gm.search.ContainsTagSpecification(gm.tagging.Tags.person.creator).
+                                    either(gm.search.ContainsTagSpecification(gm.tagging.Tags.person.editor)).
+                                    either(gm.search.OfTypeSpecification(gm.common.MetadataPropertyType.STRING).
+                                    both(gm.search.WithValueSpecification("John")))
+                                affected = metadata.remove_properties(specification)
+
+                                # Kết quả quá trình loại bỏ siêu dữ liệu
+                                print(f"Properties removed: {affected}")
+
+                                # Lưu tài liệu đã được làm sạch
+                                metadata.save("output.docx")
+
+                    </code>
+
 ############################# Supported Formats ###############################
 formats:
   enable: true
@@ -326,7 +381,12 @@ actions:
     # items loop
     - title: "Node.js"
       color: "green"
-      link: "/metadata/nodejs-java/"      
+      link: "/metadata/nodejs-java/"   
+
+    # items loop
+    - title: "Python"
+      color: "yellow"
+      link: "/metadata/python-net/"      
 
 ############################# FAQ ###############################
 faq:
