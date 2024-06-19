@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-06-18T21:19:09
+date:  2024-06-19T10:16:47
 draft: false
 
 product: "Metadata"
@@ -42,7 +42,7 @@ supported_platforms:
       features_link: "https://docs.groupdocs.com/metadata/net/system-requirements/"
       features:
           # features loop
-          - rows: "4"
+          - rows: "3"
             content: |
                     .NET Core 3.0 or higher <br> .NET 5.0 or higher <br> .NET Standard 2.1
       
@@ -52,7 +52,7 @@ supported_platforms:
                     Windows <br> Linux <br> Mac OS
       
           # features loop
-          - rows: "3"
+          - rows: "4"
             content: |
                     Microsoft Visual Studio <br> JetBrains Rider <br> Microsoft Visual Code
       
@@ -71,7 +71,7 @@ supported_platforms:
       features_link: "https://docs.groupdocs.com/metadata/java/system-requirements/"
       features:
           # features loop
-          - rows: "4"
+          - rows: "3"
             content: |
                     J2SE 7.0 or higher <br> Kotlin
       
@@ -81,7 +81,7 @@ supported_platforms:
                     Windows <br> Linux <br> Mac OS
       
           # features loop
-          - rows: "3"
+          - rows: "4"
             content: |
                     IntelliJ IDEA <br> Eclipse <br> NetBeans
       
@@ -99,7 +99,7 @@ supported_platforms:
       features_link: "https://docs.groupdocs.com/metadata/nodejs-java/system-requirements/"
       features:
           # features loop
-          - rows: "4"
+          - rows: "3"
             content: |
                     Node.js 16+ and J2SE 8.0 (1.8)+
       
@@ -109,7 +109,7 @@ supported_platforms:
                     Windows <br> Linux <br> Mac OS
       
           # features loop
-          - rows: "3"
+          - rows: "4"
             content: |
                     Atom <br> Visual Studio Code <br> Qualsiasi altro editor di testo
       
@@ -127,7 +127,7 @@ supported_platforms:
       features_link: "https://docs.groupdocs.com/metadata/python-net/system-requirements/"
       features:
           # features loop
-          - rows: "4"
+          - rows: "3"
             content: |
                     Python 3.9+ and .Net 6+
       
@@ -137,7 +137,7 @@ supported_platforms:
                     Windows <br> Linux <br> Mac OS
       
           # features loop
-          - rows: "3"
+          - rows: "4"
             content: |
                     IDLE <br> PyCharm <br> Visual Studio Code
       
