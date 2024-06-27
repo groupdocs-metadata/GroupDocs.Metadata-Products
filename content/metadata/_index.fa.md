@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-06-19T10:16:47
+date:  2024-06-27T08:59:14
 draft: false
 
 product: "Metadata"
@@ -196,7 +196,7 @@ code_samples:
                             // ویژگی های سند متصل به سازنده و ویرایشگر را حذف کنید
                             var affected = metadata.RemoveProperties(
                                 p => p.Tags.Contains(Tags.Person.Creator) ||
-                                    p.Tags.Contains(Tags.Person.Editor);
+                                    p.Tags.Contains(Tags.Person.Editor));
 
                             // نتیجه فرآیند حذف ابرداده
                             Console.WriteLine("Properties removed: {0}", affected);
@@ -213,7 +213,7 @@ code_samples:
                     <code class="language-java" data-lang="java">
                         // مسیر یک سند را به سازنده Metadata منتقل کنید
 
-                        try (Metadata metadata = new Metadata("source.docx");{
+                        try (Metadata metadata = new Metadata("source.docx"){
 
                             // ویژگی های سند متصل به سازنده و ویرایشگر را حذف کنید
                             int affected = metadata.removeProperties(
@@ -262,7 +262,7 @@ code_samples:
                         def run():
 
                             # مسیر یک سند را به سازنده Metadata منتقل کنید
-                            with gm.Metadata("input.docx) as metadata:
+                            with gm.Metadata("input.docx") as metadata:
 
                                 # ویژگی های سند متصل به سازنده و ویرایشگر را حذف کنید
                                 specification = gm.search.ContainsTagSpecification(gm.tagging.Tags.person.creator).

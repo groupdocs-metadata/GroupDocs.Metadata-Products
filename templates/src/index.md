@@ -198,7 +198,7 @@ code_samples:
                             // <% "{index-content.code_samples.sample_index.comment_2}" %>
                             var affected = metadata.RemoveProperties(
                                 p => p.Tags.Contains(Tags.Person.Creator) ||
-                                    p.Tags.Contains(Tags.Person.Editor);
+                                    p.Tags.Contains(Tags.Person.Editor));
 
                             // <% "{index-content.code_samples.sample_index.comment_3}" %>
                             Console.WriteLine("Properties removed: {0}", affected);
@@ -215,7 +215,7 @@ code_samples:
                     <code class="language-java" data-lang="java">
                         // <% "{index-content.code_samples.sample_index.comment_1}" %>
 
-                        try (Metadata metadata = new Metadata("source.docx");{
+                        try (Metadata metadata = new Metadata("source.docx"){
 
                             // <% "{index-content.code_samples.sample_index.comment_2}" %>
                             int affected = metadata.removeProperties(
@@ -264,7 +264,7 @@ code_samples:
                         def run():
 
                             # <% "{index-content.code_samples.sample_index.comment_1}" %>
-                            with gm.Metadata("input.docx) as metadata:
+                            with gm.Metadata("input.docx") as metadata:
 
                                 # <% "{index-content.code_samples.sample_index.comment_2}" %>
                                 specification = gm.search.ContainsTagSpecification(gm.tagging.Tags.person.creator).
