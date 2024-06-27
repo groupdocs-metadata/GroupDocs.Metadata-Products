@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-06-19T10:16:47
+date:  2024-06-27T08:59:14
 draft: false
 
 product: "Metadata"
@@ -196,7 +196,7 @@ code_samples:
                             // 作成者と編集者に接続されているドキュメントのプロパティを削除する
                             var affected = metadata.RemoveProperties(
                                 p => p.Tags.Contains(Tags.Person.Creator) ||
-                                    p.Tags.Contains(Tags.Person.Editor);
+                                    p.Tags.Contains(Tags.Person.Editor));
 
                             // メタデータ削除の処理結果
                             Console.WriteLine("Properties removed: {0}", affected);
@@ -213,7 +213,7 @@ code_samples:
                     <code class="language-java" data-lang="java">
                         // ドキュメントへのパスを Metadata コンストラクターに渡します
 
-                        try (Metadata metadata = new Metadata("source.docx");{
+                        try (Metadata metadata = new Metadata("source.docx"){
 
                             // 作成者と編集者に接続されているドキュメントのプロパティを削除する
                             int affected = metadata.removeProperties(
@@ -262,7 +262,7 @@ code_samples:
                         def run():
 
                             # ドキュメントへのパスを Metadata コンストラクターに渡します
-                            with gm.Metadata("input.docx) as metadata:
+                            with gm.Metadata("input.docx") as metadata:
 
                                 # 作成者と編集者に接続されているドキュメントのプロパティを削除する
                                 specification = gm.search.ContainsTagSpecification(gm.tagging.Tags.person.creator).

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-06-19T10:16:47
+date:  2024-06-27T08:59:14
 draft: false
 
 product: "Metadata"
@@ -196,7 +196,7 @@ code_samples:
                             // Hapus properti dokumen yang terhubung ke pembuat dan editor
                             var affected = metadata.RemoveProperties(
                                 p => p.Tags.Contains(Tags.Person.Creator) ||
-                                    p.Tags.Contains(Tags.Person.Editor);
+                                    p.Tags.Contains(Tags.Person.Editor));
 
                             // Hasil proses penghapusan metadata
                             Console.WriteLine("Properties removed: {0}", affected);
@@ -213,7 +213,7 @@ code_samples:
                     <code class="language-java" data-lang="java">
                         // Berikan jalur ke dokumen ke konstruktor Metadata
 
-                        try (Metadata metadata = new Metadata("source.docx");{
+                        try (Metadata metadata = new Metadata("source.docx"){
 
                             // Hapus properti dokumen yang terhubung ke pembuat dan editor
                             int affected = metadata.removeProperties(
@@ -262,7 +262,7 @@ code_samples:
                         def run():
 
                             # Berikan jalur ke dokumen ke konstruktor Metadata
-                            with gm.Metadata("input.docx) as metadata:
+                            with gm.Metadata("input.docx") as metadata:
 
                                 # Hapus properti dokumen yang terhubung ke pembuat dan editor
                                 specification = gm.search.ContainsTagSpecification(gm.tagging.Tags.person.creator).

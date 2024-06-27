@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-06-19T10:16:47
+date:  2024-06-27T08:59:14
 draft: false
 
 product: "Metadata"
@@ -196,7 +196,7 @@ code_samples:
                             // Xóa các thuộc tính tài liệu được kết nối với người tạo và người chỉnh sửa
                             var affected = metadata.RemoveProperties(
                                 p => p.Tags.Contains(Tags.Person.Creator) ||
-                                    p.Tags.Contains(Tags.Person.Editor);
+                                    p.Tags.Contains(Tags.Person.Editor));
 
                             // Kết quả quá trình loại bỏ siêu dữ liệu
                             Console.WriteLine("Properties removed: {0}", affected);
@@ -213,7 +213,7 @@ code_samples:
                     <code class="language-java" data-lang="java">
                         // Truyền đường dẫn tới tài liệu tới hàm tạo Metadata
 
-                        try (Metadata metadata = new Metadata("source.docx");{
+                        try (Metadata metadata = new Metadata("source.docx"){
 
                             // Xóa các thuộc tính tài liệu được kết nối với người tạo và người chỉnh sửa
                             int affected = metadata.removeProperties(
@@ -262,7 +262,7 @@ code_samples:
                         def run():
 
                             # Truyền đường dẫn tới tài liệu tới hàm tạo Metadata
-                            with gm.Metadata("input.docx) as metadata:
+                            with gm.Metadata("input.docx") as metadata:
 
                                 # Xóa các thuộc tính tài liệu được kết nối với người tạo và người chỉnh sửa
                                 specification = gm.search.ContainsTagSpecification(gm.tagging.Tags.person.creator).

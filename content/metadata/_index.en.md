@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-06-19T10:16:47
+date:  2024-06-27T08:59:14
 draft: false
 
 product: "Metadata"
@@ -196,7 +196,7 @@ code_samples:
                             // Remove document properties connected to creator and editor
                             var affected = metadata.RemoveProperties(
                                 p => p.Tags.Contains(Tags.Person.Creator) ||
-                                    p.Tags.Contains(Tags.Person.Editor);
+                                    p.Tags.Contains(Tags.Person.Editor));
 
                             // Process result of metadata removing
                             Console.WriteLine("Properties removed: {0}", affected);
@@ -213,7 +213,7 @@ code_samples:
                     <code class="language-java" data-lang="java">
                         // Pass path to a document to Metadata constructor
 
-                        try (Metadata metadata = new Metadata("source.docx");{
+                        try (Metadata metadata = new Metadata("source.docx"){
 
                             // Remove document properties connected to creator and editor
                             int affected = metadata.removeProperties(
@@ -262,7 +262,7 @@ code_samples:
                         def run():
 
                             # Pass path to a document to Metadata constructor
-                            with gm.Metadata("input.docx) as metadata:
+                            with gm.Metadata("input.docx") as metadata:
 
                                 # Remove document properties connected to creator and editor
                                 specification = gm.search.ContainsTagSpecification(gm.tagging.Tags.person.creator).

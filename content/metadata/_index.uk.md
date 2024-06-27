@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-06-19T10:16:47
+date:  2024-06-27T08:59:14
 draft: false
 
 product: "Metadata"
@@ -196,7 +196,7 @@ code_samples:
                             // Видалити властивості документа, пов’язані з автором і редактором
                             var affected = metadata.RemoveProperties(
                                 p => p.Tags.Contains(Tags.Person.Creator) ||
-                                    p.Tags.Contains(Tags.Person.Editor);
+                                    p.Tags.Contains(Tags.Person.Editor));
 
                             // Результат обробки видалення метаданих
                             Console.WriteLine("Properties removed: {0}", affected);
@@ -213,7 +213,7 @@ code_samples:
                     <code class="language-java" data-lang="java">
                         // Передайте шлях до документа конструктору Metadata
 
-                        try (Metadata metadata = new Metadata("source.docx");{
+                        try (Metadata metadata = new Metadata("source.docx"){
 
                             // Видалити властивості документа, пов’язані з автором і редактором
                             int affected = metadata.removeProperties(
@@ -262,7 +262,7 @@ code_samples:
                         def run():
 
                             # Передайте шлях до документа конструктору Metadata
-                            with gm.Metadata("input.docx) as metadata:
+                            with gm.Metadata("input.docx") as metadata:
 
                                 # Видалити властивості документа, пов’язані з автором і редактором
                                 specification = gm.search.ContainsTagSpecification(gm.tagging.Tags.person.creator).
