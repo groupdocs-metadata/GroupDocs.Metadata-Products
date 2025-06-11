@@ -1,0 +1,60 @@
+{
+  "head": {
+    "title": "Read & Extract Metadata of {{FileFormatUp}} Files in {{ProgLang}} Applications",
+    "description": "Cross platform {{ProgLang}} metadata management API to read and extract metadata information of {{FileFormatUp}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+  },
+  "header": {
+    "title": "Extract Metadata From {{FileFormatUp}} File In {{ProgLang}}",
+    "description": "Read & Extract metadata information from a wide range of documents, images, audio & video formats using GroupDocs.Metadata for {{EnvName}}",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download Free Trial"
+  },
+  "about": {
+    "title": "About{{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offers an advanced set of metadata management and manipulation features, allowing developers to easily read, edit, remove, search, compare, replace and export metadata information from images and document formats without using any external software. Extract metadata details from PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats, and perform supported metadata operations with true flexibility."
+  },
+  "formats": {
+    "title": "Updating Metadata Properties From Other File Formats",
+    "description": "Multi format documents and images metadata editing API for {{EnvName}}. Retrieve metadata of some of the popular file formats as stated below."
+  },
+  "examples": {
+    "comment_1": "Extract {{FileFormatUp}} metadata properties",
+    "comment_2": "Specify which type of metadata is desired",
+    "comment_3": "Extract all metadata properties that fall into a desired category",
+    "comment_4": "Iterate over all properties and display"
+  },
+  "steps": {
+    "title": "Steps for {{FileFormatUp}} Metadata Extraction in {{EnvName}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) makes it easy for {{EnvName}} developers to extract to read and extract metadata information from {{FileFormatUp}} files from within their applications by implementing a few easy steps.",
+      "step_1": "Load the {{FileFormatUp}} with an instance of {{EnvName}} class.",
+      "step_2": "Specify criteria to examine all metadata properties.",
+      "step_3": "Find all suitable metadata.",
+      "step_4": "Iterate through the found properties."
+    }
+  },
+  "more_features": {
+    "title": "Search Files Metadata with {{ProdShortName}}",
+    "description": "Securely manage hidden metadata within sensitive documents using {{EnvName}} applications powered by the {{ProdShortName}} library.",
+    "image_description": "Search for Metadata in {{EnvName}} Files",
+    "feature_1": {
+      "title": "{{EnvName}} Tools for Comprehensive Metadata Search",
+      "content": "Streamline your document processing in {{EnvName}} with {{ProdShortName}}. Our software offers powerful tools to search for and manage hidden metadata efficiently."
+    },
+    "feature_2": {
+      "title": "Precise Metadata Targeting",
+      "content": "Target specific metadata with pinpoint accuracy. Configure your search with various filters like text, date, or regular expressions to find exactly the metadata you need."
+    },
+    "feature_3": {
+      "title": "Effortless Metadata Management",
+      "content": "Leverage {{EnvName}} to process the values of discovered metadata entries. {{ProdShortName}} empowers you to add, update, or remove metadata effectively within supported file formats."
+    },
+    "code_1": {
+      "title": "Read Vector Graphics Metadata in {{ProgLang}}",
+      "content": "This code example demonstrates how to access metadata properties specific to 3DS files",
+      "comment_1": "Load the 3DS file into the {{TextMetadata}} object",
+      "comment_2": "Retrieve all the built-in metadata",
+      "comment_3": "Use the retrieved data for your application's needs"
+    }
+  }
+}

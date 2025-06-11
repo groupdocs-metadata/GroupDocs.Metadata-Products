@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Edit Metadata to {{FileformatCap}} Files in {{ProgLang}} Applications",
+    "description": "{{ProgLang}} metadata processing API to edit metadata information to {{FileformatCap}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+  },
+  "header": {
+    "title": "Update Metadata Of {{FileformatCap}} File In {{ProgLang}}",
+    "description": "Update metadata information from all popular documents, images and multimedia file formats with the support of performing all most-needed metadata processing operations.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download Free Trial"
+  },
+  "about": {
+    "title": "About {{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offers an advanced set of metadata management features, allowing developers to easily read, doc, delete, find, compare, replace and export metadata information from images and document formats without using any external software. Use metadata manipulation API to edit metadata details from PDF, Microsoft Office Word, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats along with the support for working with many other metadata processing features."
+  },
+  "formats": {
+    "title": "Updating Metadata Properties From Other File Formats",
+    "description": "Multi format documents and images metadata editing API for {{EnvName}}. Retrieve metadata of some of the popular file formats as stated below"
+  },
+  "examples": {
+    "comment_1": "Edit {{FileFormatUp}} creation date",
+    "comment_2": "Set the criteria of metadata properties to be updated",
+    "comment_3": "Provide new property value",
+    "comment_4": "Update the file creation date/time",
+    "comment_5": "Save result {{FileFormatUp}}"
+  },
+  "steps": {
+    "title": "Steps for Updating Metadata to {{FileFormatUp}} in {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdFullName}}]({{ProductUrl}}) makes it easy for {{EnvName}} developers to edit metadata information to {{FileFormatUp}} files from within their applications by implementing a few easy steps.",
+      "step_1": "Load {{FileFormatUp}} file via an instance of {{TextMetadata}} class.",
+      "step_2": "Specify a criteria that will be used to filter desired metadata properties.",
+      "step_3": "Pass the criteria and the new value.",
+      "step_4": "Save the changes to disc in {{FileFormatUp}} format."
+    }
+  },
+  "more_features": {
+    "title": "Manage {{FileFormatUp}} Inner Metadata Properties for {{EnvName}} Apps",
+    "description": "The {{ProdShortName}} API lets developers easily edit document details (metadata) in various formats using their {{EnvName}} applications. Programmatically add, update, search for, and remove document properties.",
+    "image_description": "Document Metadata Property Management",
+    "feature_1": {
+      "title": "Effective Metadata Integration",
+      "content": "{{ProdShortName}} simplifies adding different properties to documents and files within your {{EnvName}} apps. Developers can easily apply, update, or remove document properties programmatically."
+    },
+    "feature_2": {
+      "title": "Precise Metadata Control",
+      "content": "The API offers extensive options for managing document properties. Developers can efficiently find and process any hidden data placed in business files."
+    },
+    "feature_3": {
+      "title": "Leveraging Built-in {{FileFormatUp}} Properties",
+      "content": "Depending on the document format, developers can utilize existing properties like EXIF data for images. This might include information like camera details, resolution, creation date, and more."
+    },
+    "code_1": {
+      "title": "Update Lyrics Metadata in an MP3 File (Example)",
+      "content": "This example demonstrates updating hidden information (metadata) in MP3 audio files.",
+      "comment_1": "Load file using the {{TextMetadata}} class",
+      "comment_2": "Update lyrics data",
+      "comment_3": "You can add custom fields to the metadata",
+      "comment_4": "Save updated file"
+    }
+  }
+}
