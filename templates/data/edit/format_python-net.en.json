@@ -1,62 +1,62 @@
 {
   "head": {
-    "title": "Edit Metadata to {{FileformatCap}} Files in {{ProgLang}} Applications",
-    "description": "{{ProgLang}} metadata processing API to edit metadata information to {{FileformatCap}} files. Work with metadata standards XMP, EXIF, IPTC, ID3 etc."
+    "title": "Edit Metadata in {{FileformatCap}} Files Using {{ProgLang}}",
+    "description": "Use the {{ProgLang}} API to modify metadata in {{FileformatCap}} files. Supports XMP, EXIF, IPTC, ID3, and other metadata formats."
   },
   "header": {
-    "title": "Update Metadata Of {{FileformatCap}} File In {{ProgLang}}",
-    "description": "Update metadata information from all popular documents, images and multimedia file formats with the support of performing all most-needed metadata processing operations.",
+    "title": "Modify Metadata in {{FileformatCap}} Files with {{ProgLang}}",
+    "description": "Edit metadata across common document, image, and multimedia formats. Perform key operations like reading, updating, and removing metadata with ease.",
     "subtitle": "{{ProdFullName}}",
     "action_title": "Download Free Trial"
   },
   "about": {
-    "title": "About {{ProdFullName}} API",
-    "content": "[{{ProdFullName}}]({{PlatformLink}}) offers an advanced set of metadata management features, allowing developers to easily read, doc, delete, find, compare, replace and export metadata information from images and document formats without using any external software. Use metadata manipulation API to edit metadata details from PDF, Microsoft Office Word, Excel spreadsheets, PowerPoint presentations, Outlook emails, OneNote, Visio, Project, AutoCAD, Archive and Multimedia file formats along with the support for working with many other metadata processing features."
+    "title": "About the {{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) provides powerful tools for managing metadata in {{ProgLang}}. It lets you read, update, delete, search, compare, and export metadata from files without needing extra software. Use the API to work with metadata in PDFs, Microsoft Office documents, Outlook emails, Visio diagrams, AutoCAD drawings, archives, and media files. Easily integrate flexible metadata features into any {{ProdShortName}} application."
   },
   "formats": {
-    "title": "Updating Metadata Properties From Other File Formats",
-    "description": "Multi format documents and images metadata editing API for {{EnvName}}. Retrieve metadata of some of the popular file formats as stated below"
+    "title": "Edit Metadata in Other File Types",
+    "description": "A cross-format metadata editing API for {{ProgLang}}. Supports metadata handling for many popular document and image types as shown below."
   },
   "examples": {
-    "comment_1": "Edit {{FileFormatUp}} creation date",
-    "comment_2": "Set the criteria of metadata properties to be updated",
-    "comment_3": "Provide new property value",
-    "comment_4": "Update the file creation date/time",
-    "comment_5": "Save result {{FileFormatUp}}"
+    "comment_1": "Change the creation date of a {{FileFormatUp}} file",
+    "comment_2": "Set the rules to find which metadata to update",
+    "comment_3": "Assign a new value to the selected property",
+    "comment_4": "Update the file's creation timestamp",
+    "comment_5": "Save the updated {{FileFormatUp}} file"
   },
   "steps": {
-    "title": "Steps for Updating Metadata to {{FileFormatUp}} in {{ProgLang}}",
+    "title": "How to Edit Metadata in {{FileFormatUp}} Files Using {{ProgLang}}",
     "content": {
-      "title": "[{{ProdFullName}}]({{ProductUrl}}) makes it easy for {{EnvName}} developers to edit metadata information to {{FileFormatUp}} files from within their applications by implementing a few easy steps.",
-      "step_1": "Load {{FileFormatUp}} file via an instance of {{TextMetadata}} class.",
-      "step_2": "Specify a criteria that will be used to filter desired metadata properties.",
-      "step_3": "Pass the criteria and the new value.",
-      "step_4": "Save the changes to disc in {{FileFormatUp}} format."
+      "title": "With [{{ProdFullName}}]({{ProductUrl}}), {{ProgLang}} developers can update metadata in {{FileFormatUp}} files by following these simple steps:",
+      "step_1": "Load the {{FileFormatUp}} file using the {{TextMetadata}} class.",
+      "step_2": "Define a condition to filter the metadata you want to change.",
+      "step_3": "Apply the filter and set the new value.",
+      "step_4": "Save the updated {{FileFormatUp}} file to disk."
     }
   },
   "more_features": {
-    "title": "Manage {{FileFormatUp}} Inner Metadata Properties for {{EnvName}} Apps",
-    "description": "The {{ProdShortName}} API lets developers easily edit document details (metadata) in various formats using their {{EnvName}} applications. Programmatically add, update, search for, and remove document properties.",
-    "image_description": "Document Metadata Property Management",
+    "title": "Edit Metadata in {{FileFormatUp}} Files with {{ProgLang}}",
+    "description": "With {{ProdShortName}}, you can easily manage document metadata in your {{ProgLang}} apps. Add, change, search, or remove metadata programmatically.",
+    "image_description": "Tools for Metadata Editing",
     "feature_1": {
-      "title": "Effective Metadata Integration",
-      "content": "{{ProdShortName}} simplifies adding different properties to documents and files within your {{EnvName}} apps. Developers can easily apply, update, or remove document properties programmatically."
+      "title": "Simple Metadata Handling",
+      "content": "{{ProdShortName}} lets you easily add, edit, or delete metadata fields in your {{ProgLang}} applications."
     },
     "feature_2": {
-      "title": "Precise Metadata Control",
-      "content": "The API offers extensive options for managing document properties. Developers can efficiently find and process any hidden data placed in business files."
+      "title": "Full Control Over Metadata",
+      "content": "Use the API to find, view, and modify hidden data stored in various business file formats."
     },
     "feature_3": {
-      "title": "Leveraging Built-in {{FileFormatUp}} Properties",
-      "content": "Depending on the document format, developers can utilize existing properties like EXIF data for images. This might include information like camera details, resolution, creation date, and more."
+      "title": "Use Built-in {{FileFormatUp}} Tags",
+      "content": "Access and work with existing metadata like EXIF tags in images, including info such as camera type, dimensions, or date taken."
     },
     "code_1": {
-      "title": "Update Lyrics Metadata in an MP3 File (Example)",
-      "content": "This example demonstrates updating hidden information (metadata) in MP3 audio files.",
-      "comment_1": "Load file using the {{TextMetadata}} class",
-      "comment_2": "Update lyrics data",
-      "comment_3": "You can add custom fields to the metadata",
-      "comment_4": "Save updated file"
+      "title": "Edit MP3 Metadata: Update Lyrics",
+      "content": "This sample shows how to change metadata in an MP3 file, including lyrics and custom fields.",
+      "comment_1": "Open the file using {{TextMetadata}}",
+      "comment_2": "Modify the lyrics tag",
+      "comment_3": "Add any custom metadata fields as needed",
+      "comment_4": "Save the changes to the file"
     }
   }
 }

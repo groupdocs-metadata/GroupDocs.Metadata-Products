@@ -132,13 +132,13 @@ more_features:
                 if root.lyrics_3v2 is None:
                     root.lyrics_3v2 = gmfa.LyricsTag()
 
-                #  <% "{more_features.code_1.comment_2}" %>
+                # <% "{more_features.code_1.comment_2}" %>
                 root.lyrics_3v2.lyrics = "[00:01]Test lyrics"
                 root.lyrics_3v2.artist = "test artist"
                 root.lyrics_3v2.album = "test album"
                 root.lyrics_3v2.track = "test track"
 
-                #  <% "{more_features.code_1.comment_3}" %>
+                # <% "{more_features.code_1.comment_3}" %>
                 root.lyrics_3v2.set(gmfa.LyricsField("ABC", "custom value"))
 
                 # <% "{more_features.code_1.comment_4}" %>

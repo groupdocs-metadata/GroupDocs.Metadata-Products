@@ -117,13 +117,13 @@ more_features:
 
         def run():
 
-            #  <% "{more_features.code_1.comment_1}" %>
+            # <% "{more_features.code_1.comment_1}" %>
             with gm.Metadata("input.docx") as metadata:
 
-                #  <% "{more_features.code_1.comment_2}" %>
+                # <% "{more_features.code_1.comment_2}" %>
                 specification = gm.search.FallsIntoCategorySpecification(gm.tagging.Tags.person)
 
-                #  <% "{more_features.code_1.comment_3}" %>
+                # <% "{more_features.code_1.comment_3}" %>
                 affected = metadata.remove_properties(specification)
 
                 # <% "{more_features.code_1.comment_4}" %>

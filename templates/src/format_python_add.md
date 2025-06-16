@@ -80,9 +80,8 @@ steps:
                 specification = gm.search.ContainsTagSpecification(gm.tagging.Tags.person.creator)
                 property_value = gm.common.PropertyValue("test content author")
 
-                affected = metadata.add_properties(specification, property_value)
-
                 # <% "{examples.comment_3}" %>
+                affected = metadata.add_properties(specification, property_value)
                 print(f"Affected properties: {affected}")
             
                 # <% "{examples.comment_4}" %>
@@ -132,10 +131,10 @@ more_features:
                     if root.exif_package is None:
                         root.exif_package = gmse.ExifPackage()
 
-                    #  <% "{more_features.code_1.comment_2}" %>
+                    # <% "{more_features.code_1.comment_2}" %>
                     data = gmfi.TiffAsciiTag(gmfi.TiffTagID.ARTIST, "Awesome artist")
 
-                    #  <% "{more_features.code_1.comment_3}" %>
+                    # <% "{more_features.code_1.comment_3}" %>
                     root.exif_package.set(data)
 
                     # <% "{more_features.code_1.comment_4}" %>

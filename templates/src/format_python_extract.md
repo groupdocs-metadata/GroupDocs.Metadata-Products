@@ -118,18 +118,18 @@ more_features:
 
         def run():
 
-            #  <% "{more_features.code_1.comment_1}" %>
+            # <% "{more_features.code_1.comment_1}" %>
             with gm.Metadata("input.3ds") as metadata:
 
-            #  <% "{more_features.code_1.comment_2}" %>
-            root = cast(gmftt.ThreeDSRootPackage, metadata.get_root_package())
+                # <% "{more_features.code_1.comment_2}" %>
+                root = cast(gmftt.ThreeDSRootPackage, metadata.get_root_package())
 
-            #  <% "{more_features.code_1.comment_3}" %>
-            for material in root.three_ds_package.materials:
-                 print(f"Material name: {material.name}")
+                # <% "{more_features.code_1.comment_3}" %>
+                for material in root.three_ds_package.materials:
+                     print(f"Material name: {material.name}")
 
-            for node in root.three_ds_package.nodes:
-                 print(f"Node name: {node.name}")
+                for node in root.three_ds_package.nodes:
+                     print(f"Node name: {node.name}")
         ```
         {{< /landing/code >}}
 
