@@ -1,0 +1,60 @@
+{
+  "head": {
+    "title": "{{ProgLang}} で {{FileFormatUp}} ファイルからメタデータにアクセスして抽出する",
+    "description": "プラットフォームに依存しない {{ProgLang}} API を使用して、{{FileFormatUp}} ファイルからメタデータを読み取り、抽出します。XMP、EXIF、IPTC、ID3 などと互換性があります。"
+  },
+  "header": {
+    "title": "{{ProgLang}} を使用して {{FileFormatUp}} からメタデータを読み取る",
+    "description": "{{ProdFullName}} を使用して、ドキュメント、画像、音声、動画ファイルからメタデータを抽出します。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "無料トライアルをダウンロード"
+  },
+  "about": {
+    "title": "{{ProdFullName}} API について",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) は、{{ProgLang}} でメタデータを操作するための強力なツールを提供します。追加のソフトウェアなしで、ドキュメントや画像からメタデータを読み取り、更新、削除、検索、比較、エクスポートできます。PDF、Word、Excel、PowerPoint、Outlook、OneNote、Visio、AutoCAD、アーカイブ、およびメディア形式などのファイルからメタデータを抽出し、必要に応じて操作してください。"
+  },
+  "formats": {
+    "title": "他のファイル形式からメタデータを抽出",
+    "description": "{{ProgLang}} 用の柔軟なメタデータ読み取り API。多くの人気ファイルタイプと連携します。対応しているファイル形式の一部を以下に示します。"
+  },
+  "examples": {
+    "comment_1": "{{FileFormatUp}} ファイルからメタデータを取得",
+    "comment_2": "抽出したいメタデータの種類を設定",
+    "comment_3": "選択したグループからメタデータをフィルターして読み取る",
+    "comment_4": "メタデータエントリをループし、出力する"
+  },
+  "steps": {
+    "title": "{{ProgLang}} を使用して {{FileFormatUp}} からメタデータを抽出する方法",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) は、{{ProgLang}} 開発者がわずか数ステップで {{FileFormatUp}} ファイルからメタデータを抽出するのを支援します。",
+      "step_1": "{{ProgLang}} クラスインスタンスを使って {{FileFormatUp}} ファイルを開く。",
+      "step_2": "どの種類のメタデータを探すかを定義する。",
+      "step_3": "一致するメタデータエントリを検索する。",
+      "step_4": "見つかったメタデータをループ処理し、処理する。"
+    }
+  },
+  "more_features": {
+    "title": "{{ProdShortName}} でファイルメタデータを検索",
+    "description": "{{ProgLang}} アプリケーションのための {{ProdShortName}} ツールキットを活用して、機密ファイル内の隠れたメタデータを見つけて処理します。",
+    "image_description": "{{ProgLang}} ツールでメタデータを探る",
+    "feature_1": {
+      "title": "{{ProgLang}} での高度なメタデータ検索",
+      "content": "{{ProdShortName}} を使用して、{{ProgLang}} プロジェクト内のメタデータを迅速に検索および整理します。埋め込まれたデータや隠れたデータの処理に最適です。"
+    },
+    "feature_2": {
+      "title": "フィルターでメタデータをターゲット",
+      "content": "キーワード、日付、パターンなどのフィルターを使用して検索を絞り込む。追加の作業なしで必要なメタデータを正確に見つけます。"
+    },
+    "feature_3": {
+      "title": "抽出されたメタデータを簡単に管理",
+      "content": "見つかった後、{{ProgLang}} を使ってメタデータを更新または削除します。{{ProdShortName}} は、対応するファイルタイプ全体にわたって完全なコントロールを提供します。"
+    },
+    "code_1": {
+      "title": "{{ProgLang}} で 3DS ファイルからメタデータを抽出",
+      "content": "このサンプルでは、3DS ファイルからベクターグラフィックメタデータを読み取る方法を示します。",
+      "comment_1": "{{TextMetadata}} を使用して 3DS ファイルを開く。",
+      "comment_2": "利用可能なすべての組み込みメタデータを取得する。",
+      "comment_3": "アプリケーションロジックでメタデータを使用する。"
+    }
+  }
+}

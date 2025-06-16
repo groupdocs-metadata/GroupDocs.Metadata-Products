@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "Adicionar Metadados a Arquivos {{FileFormatUp}} usando {{ProgLang}}",
+    "description": "Utilize a API {{ProgLang}} para inserir metadados em arquivos {{FileFormatUp}}. Trabalhe com padrões como XMP, EXIF, IPTC, ID3 e muito mais."
+  },
+  "header": {
+    "title": "Adicionar Metadados a Arquivos {{FileFormatUp}} em {{ProgLang}}",
+    "description": "Utilize a API {{ProdFullName}} para inserir metadados personalizados em diversos tipos de documentos, imagens, áudios e formatos de vídeo.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixar Avaliação Gratuita"
+  },
+  "about": {
+    "title": "Sobre a API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) oferece um conjunto poderoso de ferramentas para trabalhar com metadados. Os desenvolvedores podem visualizar, editar, excluir, pesquisar, comparar e exportar metadados de uma ampla gama de documentos e formatos de mídia—sem necessidade de ferramentas de terceiros. Adicione metadados a PDFs, arquivos do Microsoft Office, Outlook, Visio, AutoCAD, arquivos compactados e multimídia. Construa recursos flexíveis de metadados em qualquer aplicativo {{ProdShortName}}."
+  },
+  "formats": {
+    "title": "Formatos Suportados para Adição de Metadados",
+    "description": "Adicione metadados a documentos e imagens em vários formatos usando {{ProdShortName}}. Abaixo estão alguns tipos de arquivos comumente suportados."
+  },
+  "examples": {
+    "comment_1": "Carregue o arquivo usando a classe {{TextMetadata}}",
+    "comment_2": "Adicione uma propriedade de metadados com o nome do autor",
+    "comment_3": "Execute a atualização de metadados",
+    "comment_4": "Salve o arquivo com os novos metadados"
+  },
+  "steps": {
+    "title": "Como Adicionar Metadados a {{FileformatCap}} em {{ProgLang}}",
+    "content": {
+      "title": "Com [{{ProdShortName}}]({{PlatformLink}}), adicionar metadados a arquivos {{FileFormatUp}} em aplicativos {{ProgLang}} é direto. Basta seguir estes passos.",
+      "step_1": "Abra o arquivo {{FileFormatUp}} que deseja atualizar.",
+      "step_2": "Defina a chave e o valor dos metadados a serem adicionados.",
+      "step_3": "Aplique as alterações.",
+      "step_4": "Salve o arquivo atualizado."
+    }
+  },
+  "more_features": {
+    "title": "Gerencie Metadados de Documentos com Eficiência",
+    "description": "Nossa API simplifica o manuseio de metadados. Visualize, altere e organize propriedades de documentos para melhorar a gestão e a busca de arquivos.",
+    "image_description": "Recursos para Edição de Metadados",
+    "feature_1": {
+      "title": "Acessar Metadados",
+      "content": "Leia e analise metadados de qualquer arquivo rapidamente. Obtenha informações como nome do autor, data de criação e mais."
+    },
+    "feature_2": {
+      "title": "Editar Metadados",
+      "content": "Altere os metadados diretamente—atualize etiquetas para manter os arquivos bem organizados e pesquisáveis."
+    },
+    "feature_3": {
+      "title": "Recursos Avançados de Metadados",
+      "content": "Faça mais com metadados—adicione campos personalizados, remova informações não utilizadas e mantenha tudo consistente."
+    },
+    "code_1": {
+      "title": "Adicionar Metadados Personalizados a um Arquivo TIFF",
+      "content": "Este exemplo de código mostra como inserir uma tag de metadados personalizados em uma imagem TIFF.",
+      "comment_1": "Abra a imagem TIFF",
+      "comment_2": "Defina a chave e o valor dos metadados",
+      "comment_3": "Adicione os metadados",
+      "comment_4": "Salve a imagem atualizada"
+    }
+  }
+}

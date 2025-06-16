@@ -1,0 +1,60 @@
+{
+  "head": {
+    "title": "Accédez et extrayez les métadonnées des fichiers {{FileFormatUp}} en {{ProgLang}}",
+    "description": "API {{ProgLang}} indépendante de la plateforme pour lire et extraire les métadonnées des fichiers {{FileFormatUp}}. Compatible avec XMP, EXIF, IPTC, ID3, et plus."
+  },
+  "header": {
+    "title": "Lire les métadonnées des {{FileFormatUp}} avec {{ProgLang}}",
+    "description": "Utilisez {{ProdFullName}} pour extraire les métadonnées des documents, images, fichiers audio et vidéo.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger l'Essai Gratuit"
+  },
+  "about": {
+    "title": "À Propos de l'API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) vous offre des outils puissants pour travailler avec les métadonnées en {{ProgLang}}. Vous pouvez lire, mettre à jour, supprimer, rechercher, comparer et exporter des métadonnées à partir de documents et d'images, sans avoir besoin de logiciels supplémentaires. Extrayez des métadonnées de fichiers tels que PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, AutoCAD, archives, et formats multimédias, et manipulez-les selon vos besoins."
+  },
+  "formats": {
+    "title": "Extraction des Métadonnées d'Autres Formats de Fichiers",
+    "description": "Une API flexible de lecture des métadonnées pour {{ProgLang}}. Fonctionne avec de nombreux types de fichiers populaires. Découvrez quelques formats pris en charge ci-dessous."
+  },
+  "examples": {
+    "comment_1": "Obtenez les métadonnées d'un fichier {{FileFormatUp}}",
+    "comment_2": "Définissez quel type de métadonnées vous souhaitez extraire",
+    "comment_3": "Filtrez et lisez les métadonnées d'un groupe choisi",
+    "comment_4": "Parcourez les entrées de métadonnées et affichez-les"
+  },
+  "steps": {
+    "title": "Comment Extraire des Métadonnées d'un {{FileFormatUp}} avec {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) aide les développeurs {{ProgLang}} à extraire les métadonnées des fichiers {{FileFormatUp}} en quelques étapes :",
+      "step_1": "Ouvrez le fichier {{FileFormatUp}} en utilisant une instance de classe {{ProgLang}}.",
+      "step_2": "Définissez quel type de métadonnées rechercher.",
+      "step_3": "Recherchez les entrées de métadonnées correspondantes.",
+      "step_4": "Parcourez et traitez les métadonnées trouvées."
+    }
+  },
+  "more_features": {
+    "title": "Recherchez les Métadonnées de Fichier avec {{ProdShortName}}",
+    "description": "Trouvez et gérez les métadonnées cachées dans des fichiers sensibles à l'aide d'applications {{ProgLang}} alimentées par le kit d'outils {{ProdShortName}}.",
+    "image_description": "Explorez les Métadonnées avec les Outils {{ProgLang}}",
+    "feature_1": {
+      "title": "Recherche Avancée de Métadonnées en {{ProgLang}}",
+      "content": "Utilisez {{ProdShortName}} pour rechercher et organiser rapidement les métadonnées dans vos projets {{ProgLang}}. Idéal pour gérer les données intégrées et cachées."
+    },
+    "feature_2": {
+      "title": "Ciblez les Métadonnées avec des Filtres",
+      "content": "Affinez votre recherche à l'aide de filtres tels que mots-clés, dates ou modèles. Trouvez les métadonnées exactes dont vous avez besoin sans effort supplémentaire."
+    },
+    "feature_3": {
+      "title": "Gérez les Métadonnées Extraites avec Facilité",
+      "content": "Utilisez {{ProgLang}} pour mettre à jour ou supprimer des métadonnées une fois trouvées. {{ProdShortName}} vous offre un contrôle total sur les types de fichiers pris en charge."
+    },
+    "code_1": {
+      "title": "Extraire les Métadonnées de Fichiers 3DS en {{ProgLang}}",
+      "content": "Cet exemple montre comment lire les métadonnées graphiques vectorielles à partir d'un fichier 3DS.",
+      "comment_1": "Ouvrez le fichier 3DS en utilisant {{TextMetadata}}",
+      "comment_2": "Obtenez toutes les métadonnées intégrées disponibles",
+      "comment_3": "Utilisez les métadonnées dans votre logique d'application"
+    }
+  }
+}

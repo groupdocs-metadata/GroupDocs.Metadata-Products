@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "Clean Metadata from {{FileFormatUp}} Files in {{ProgLang}} Apps",
+    "description": "Use the {{ProgLang}} API to strip metadata from {{FileFormatUp}} files. Supports formats like XMP, EXIF, IPTC, ID3, and others."
+  },
+  "header": {
+    "title": "Delete Metadata in {{FileFormatUp}} Using {{ProgLang}}",
+    "description": "Easily remove metadata from documents, images, audio, and video files with the {{ProdFullName}} API.",
+    "subtitle": "{{ProdFullName}} API",
+    "action_title": "Download Free Trial"
+  },
+  "about": {
+    "title": "What Is {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) gives developers a powerful way to work with metadata—without the need for third-party software. You can read, update, remove, search, compare, replace, and export metadata from documents and media files. Clean metadata from PDFs, Word docs, Excel sheets, PowerPoint slides, Outlook messages, OneNote, Visio, Project, AutoCAD drawings, archives, and multimedia formats."
+  },
+  "formats": {
+    "title": "Removing Metadata from Other File Types",
+    "description": "A flexible metadata removal API for {{ProgLang}} that supports many common file formats. See some of the supported types listed below."
+  },
+  "examples": {
+    "comment_1": "Erase metadata from a {{FileFormatUp}} file",
+    "comment_2": "Wipe all metadata entries",
+    "comment_3": "Show the count of removed items",
+    "comment_4": "Save the clean version"
+  },
+  "steps": {
+    "title": "How to Remove Metadata from {{FileFormatUp}} in {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) makes it simple for developers to clean metadata from {{FileFormatUp}} files by following a few steps.",
+      "step_1": "Open the {{FileFormatUp}} file using the {{TextMetadata}} class.",
+      "step_2": "Remove all metadata in the loaded file.",
+      "step_3": "Handle the result of the cleanup process.",
+      "step_4": "Save the updated file in {{FileFormatUp}} format."
+    }
+  },
+  "more_features": {
+    "title": "Smart Metadata Cleanup Tools",
+    "description": "Use our API to tidy up file metadata, making your documents easier to manage, search, and secure.",
+    "image_description": "Easy Document Metadata Cleanup",
+    "feature_1": {
+      "title": "Quick Metadata Preview",
+      "content": "Instantly see key metadata details like the author, creation time, and other properties."
+    },
+    "feature_2": {
+      "title": "Simple Metadata Editing",
+      "content": "Edit metadata directly to keep your documents well-organized and searchable."
+    },
+    "feature_3": {
+      "title": "Full Metadata Control",
+      "content": "Easily add custom fields, remove sensitive data, and ensure metadata is clean and consistent."
+    },
+    "code_1": {
+      "title": "Remove Personal Info from a DOCX File",
+      "content": "This example shows how to clean personal metadata from a Word document.",
+      "comment_1": "Load the document you want to edit",
+      "comment_2": "Choose the type of metadata to remove",
+      "comment_3": "Clear the selected metadata",
+      "comment_4": "Save the document after cleanup"
+    }
+  }
+}

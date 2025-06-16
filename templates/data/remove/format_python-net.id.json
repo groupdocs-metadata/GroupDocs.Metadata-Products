@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "Bersihkan Metadata dari Berkas {{FileFormatUp}} di Aplikasi {{ProgLang}}",
+    "description": "Gunakan API {{ProgLang}} untuk menghapus metadata dari berkas {{FileFormatUp}}. Mendukung format seperti XMP, EXIF, IPTC, ID3, dan lainnya."
+  },
+  "header": {
+    "title": "Hapus Metadata di {{FileFormatUp}} Menggunakan {{ProgLang}}",
+    "description": "Hapus metadata dari dokumen, gambar, file audio, dan video dengan API {{ProdFullName}}.",
+    "subtitle": "API {{ProdFullName}}",
+    "action_title": "Unduh Uji Coba Gratis"
+  },
+  "about": {
+    "title": "Apa Itu {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) memberikan para pengembang cara yang kuat untuk mengelola metadata—tanpa memerlukan perangkat lunak pihak ketiga. Anda dapat membaca, memperbarui, menghapus, mencari, membandingkan, mengganti, dan mengekspor metadata dari dokumen dan file media. Bersihkan metadata dari PDF, dokumen Word, lembar Excel, slide PowerPoint, pesan Outlook, OneNote, Visio, Project, gambar AutoCAD, arsip, dan format multimedia."
+  },
+  "formats": {
+    "title": "Menghapus Metadata dari Tipe Berkas Lain",
+    "description": "API penghapusan metadata yang fleksibel untuk {{ProgLang}} yang mendukung banyak format berkas umum. Lihat beberapa tipe yang didukung di bawah ini."
+  },
+  "examples": {
+    "comment_1": "Hapus metadata dari berkas {{FileFormatUp}}",
+    "comment_2": "Bersihkan semua entri metadata",
+    "comment_3": "Tampilkan jumlah item yang dihapus",
+    "comment_4": "Simpan versi yang bersih"
+  },
+  "steps": {
+    "title": "Cara Menghapus Metadata dari {{FileFormatUp}} di {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) memudahkan para pengembang untuk membersihkan metadata dari berkas {{FileFormatUp}} dengan mengikuti beberapa langkah.",
+      "step_1": "Buka berkas {{FileFormatUp}} menggunakan kelas {{TextMetadata}}.",
+      "step_2": "Hapus semua metadata di berkas yang dimuat.",
+      "step_3": "Tangani hasil proses pembersihan.",
+      "step_4": "Simpan berkas yang diperbarui dalam format {{FileFormatUp}}."
+    }
+  },
+  "more_features": {
+    "title": "Alat Pembersihan Metadata Cerdas",
+    "description": "Gunakan API kami untuk merapikan metadata berkas, menjadikan dokumen Anda lebih mudah dikelola, dicari, dan diamankan.",
+    "image_description": "Pembersihan Metadata Dokumen yang Mudah",
+    "feature_1": {
+      "title": "Prabaca Metadata Cepat",
+      "content": "Lihat detail metadata utama seperti penulis, waktu pembuatan, dan properti lainnya secara instan."
+    },
+    "feature_2": {
+      "title": "Pengeditan Metadata Sederhana",
+      "content": "Edit metadata secara langsung untuk menjaga dokumen Anda agar teratur dan dapat dicari."
+    },
+    "feature_3": {
+      "title": "Kontrol Metadata Penuh",
+      "content": "Tambahkan bidang kustom, hapus data sensitif, dan pastikan metadata bersih dan konsisten."
+    },
+    "code_1": {
+      "title": "Hapus Informasi Pribadi dari Berkas DOCX",
+      "content": "Contoh ini menunjukkan cara membersihkan metadata pribadi dari dokumen Word.",
+      "comment_1": "Muat dokumen yang ingin Anda edit",
+      "comment_2": "Pilih jenis metadata yang ingin dihapus",
+      "comment_3": "Hapus metadata yang dipilih",
+      "comment_4": "Simpan dokumen setelah pembersihan"
+    }
+  }
+}

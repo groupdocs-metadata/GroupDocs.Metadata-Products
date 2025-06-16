@@ -1,0 +1,60 @@
+{
+  "head": {
+    "title": "Truy cập và Trích xuất Siêu dữ liệu từ Tệp {{FileFormatUp}} trong {{ProgLang}}",
+    "description": "API {{ProgLang}} độc lập với nền tảng để đọc và trích xuất siêu dữ liệu từ các tệp {{FileFormatUp}}. Tương thích với XMP, EXIF, IPTC, ID3 và nhiều hơn nữa."
+  },
+  "header": {
+    "title": "Đọc Siêu dữ liệu từ {{FileFormatUp}} Sử dụng {{ProgLang}}",
+    "description": "Sử dụng {{ProdFullName}} để trích xuất siêu dữ liệu từ tài liệu, hình ảnh, âm thanh và video.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải xuống Bản dùng thử miễn phí"
+  },
+  "about": {
+    "title": "Giới thiệu về API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) cung cấp cho bạn các công cụ mạnh mẽ để làm việc với siêu dữ liệu trong {{ProgLang}}. Bạn có thể đọc, cập nhật, xóa, tìm kiếm, so sánh và xuất siêu dữ liệu từ tài liệu và hình ảnh mà không cần phần mềm bổ sung. Trích xuất siêu dữ liệu từ các tệp như PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, AutoCAD, lưu trữ và các định dạng phương tiện, và làm việc với nó theo nhu cầu."
+  },
+  "formats": {
+    "title": "Trích xuất Siêu dữ liệu từ Các Định dạng Tệp Khác",
+    "description": "Một API đọc siêu dữ liệu linh hoạt cho {{ProgLang}}. Hoạt động với nhiều loại tệp phổ biến. Xem một số định dạng hỗ trợ bên dưới."
+  },
+  "examples": {
+    "comment_1": "Lấy siêu dữ liệu từ tệp {{FileFormatUp}}",
+    "comment_2": "Đặt loại siêu dữ liệu bạn muốn trích xuất",
+    "comment_3": "Lọc và đọc siêu dữ liệu từ một nhóm đã chọn",
+    "comment_4": "Duyệt qua các mục siêu dữ liệu và xuất chúng"
+  },
+  "steps": {
+    "title": "Cách Trích xuất Siêu dữ liệu từ {{FileFormatUp}} Sử dụng {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) giúp các nhà phát triển {{ProgLang}} trích xuất siêu dữ liệu từ các tệp {{FileFormatUp}} chỉ với một vài bước:",
+      "step_1": "Mở tệp {{FileFormatUp}} bằng một thể hiện lớp {{ProgLang}}.",
+      "step_2": "Xác định loại siêu dữ liệu cần tìm.",
+      "step_3": "Tìm kiếm các mục siêu dữ liệu khớp.",
+      "step_4": "Duyệt qua và xử lý các siêu dữ liệu đã tìm thấy."
+    }
+  },
+  "more_features": {
+    "title": "Tìm kiếm Siêu dữ liệu Tệp với {{ProdShortName}}",
+    "description": "Tìm và xử lý siêu dữ liệu ẩn trong các tệp nhạy cảm sử dụng các ứng dụng {{ProgLang}} được hỗ trợ bởi bộ công cụ {{ProdShortName}}.",
+    "image_description": "Khám Phá Siêu dữ liệu với Các Công Cụ {{ProgLang}}",
+    "feature_1": {
+      "title": "Tìm kiếm Siêu dữ liệu Nâng cao trong {{ProgLang}}",
+      "content": "Sử dụng {{ProdShortName}} để nhanh chóng tìm kiếm và tổ chức siêu dữ liệu trong các dự án {{ProgLang}} của bạn. Lý tưởng cho việc xử lý dữ liệu nhúng và ẩn."
+    },
+    "feature_2": {
+      "title": "Chọn Siêu dữ liệu với Bộ Lọc",
+      "content": "Thu hẹp tìm kiếm của bạn bằng cách sử dụng các bộ lọc như từ khóa, ngày tháng, hoặc mẫu. Tìm siêu dữ liệu chính xác bạn cần mà không tốn công sức."
+    },
+    "feature_3": {
+      "title": "Quản lý Siêu dữ liệu Đã Trích xuất Dễ dàng",
+      "content": "Sử dụng {{ProgLang}} để cập nhật hoặc xóa siêu dữ liệu khi đã tìm thấy. {{ProdShortName}} mang đến cho bạn quyền kiểm soát hoàn toàn trên các định dạng tệp được hỗ trợ."
+    },
+    "code_1": {
+      "title": "Trích xuất Siêu dữ liệu từ Tệp 3DS trong {{ProgLang}}",
+      "content": "Mẫu này cho thấy cách đọc siêu dữ liệu đồ họa vector từ một tệp 3DS.",
+      "comment_1": "Mở tệp 3DS bằng {{TextMetadata}}",
+      "comment_2": "Lấy tất cả siêu dữ liệu có sẵn được tích hợp sẵn",
+      "comment_3": "Sử dụng siêu dữ liệu trong logic ứng dụng của bạn"
+    }
+  }
+}

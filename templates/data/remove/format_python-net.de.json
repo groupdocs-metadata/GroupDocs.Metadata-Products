@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "Metadaten aus {{FileFormatUp}}-Dateien in {{ProgLang}}-Apps bereinigen",
+    "description": "Verwenden Sie die {{ProgLang}} API, um Metadaten aus {{FileFormatUp}}-Dateien zu entfernen. Unterstützt Formate wie XMP, EXIF, IPTC, ID3 und andere."
+  },
+  "header": {
+    "title": "Metadaten in {{FileFormatUp}} mit {{ProgLang}} löschen",
+    "description": "Entfernen Sie Metadaten aus Dokumenten, Bildern, Audio- und Video-Dateien mit der {{ProdFullName}} API.",
+    "subtitle": "{{ProdFullName}} API",
+    "action_title": "Kostenlose Testversion herunterladen"
+  },
+  "about": {
+    "title": "Was ist {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) bietet Entwicklern eine leistungsstarke Möglichkeit, mit Metadaten zu arbeiten – ohne die Notwendigkeit von Drittanbieter-Software. Sie können Metadaten aus Dokumenten und Mediendateien lesen, aktualisieren, entfernen, durchsuchen, vergleichen, ersetzen und exportieren. Bereinigen Sie Metadaten aus PDFs, Word-Dokumenten, Excel-Tabellen, PowerPoint-Folien, Outlook-Nachrichten, OneNote, Visio, Project, AutoCAD-Zeichnungen, Archiven und Multimedia-Formaten."
+  },
+  "formats": {
+    "title": "Entfernen von Metadaten aus anderen Dateitypen",
+    "description": "Eine flexible API zur Entfernung von Metadaten für {{ProgLang}}, die viele gängige Dateiformate unterstützt. Siehe einige der unterstützten Typen, die unten aufgeführt sind."
+  },
+  "examples": {
+    "comment_1": "Metadaten aus einer {{FileFormatUp}}-Datei löschen",
+    "comment_2": "Alle Metadaten-Einträge löschen",
+    "comment_3": "Anzahl der entfernten Elemente anzeigen",
+    "comment_4": "Die bereinigte Version speichern"
+  },
+  "steps": {
+    "title": "So entfernen Sie Metadaten aus {{FileFormatUp}} in {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) ermöglicht es Entwicklern, Metadaten aus {{FileFormatUp}}-Dateien durch die Befolgung einiger Schritte zu bereinigen.",
+      "step_1": "Öffnen Sie die {{FileFormatUp}}-Datei mit der {{TextMetadata}}-Klasse.",
+      "step_2": "Entfernen Sie alle Metadaten in der geladenen Datei.",
+      "step_3": "Verarbeiten Sie das Ergebnis des Bereinigungsprozesses.",
+      "step_4": "Speichern Sie die aktualisierte Datei im {{FileFormatUp}}-Format."
+    }
+  },
+  "more_features": {
+    "title": "Intelligente Werkzeuge zur Bereinigung von Metadaten",
+    "description": "Verwenden Sie unsere API, um die Datei-Metadaten zu bereinigen und Ihre Dokumente leichter verwaltbar, durchsuchbar und sicher zu machen.",
+    "image_description": "Einfache Bereinigung von Dokumentmetadaten",
+    "feature_1": {
+      "title": "Schnelle Metadatenvorschau",
+      "content": "Sehen Sie sofort wichtige Metadaten-Details wie den Autor, die Erstellungszeit und andere Eigenschaften."
+    },
+    "feature_2": {
+      "title": "Einfache Metadatenbearbeitung",
+      "content": "Bearbeiten Sie Metadaten direkt, um Ihre Dokumente gut organisiert und durchsuchbar zu halten."
+    },
+    "feature_3": {
+      "title": "Vollständige Kontrolle über Metadaten",
+      "content": "Fügen Sie einfach benutzerdefinierte Felder hinzu, entfernen Sie sensible Daten und stellen Sie sicher, dass die Metadaten sauber und konsistent sind."
+    },
+    "code_1": {
+      "title": "Persönliche Informationen aus einer DOCX-Datei entfernen",
+      "content": "Dieses Beispiel zeigt, wie persönliche Metadaten aus einem Word-Dokument bereinigt werden.",
+      "comment_1": "Laden Sie das Dokument, das Sie bearbeiten möchten",
+      "comment_2": "Wählen Sie die Art der zu entfernenden Metadaten aus",
+      "comment_3": "Löschen Sie die ausgewählten Metadaten",
+      "comment_4": "Speichern Sie das Dokument nach der Bereinigung"
+    }
+  }
+}

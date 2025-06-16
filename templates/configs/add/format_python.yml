@@ -1,0 +1,19 @@
+inherits: ..\\languages-formats.yml
+
+dimensions:
+- alias: product
+  values: [python-net]
+- alias:  operation
+  values: [add]
+- alias:  url
+  values: [add]
+- alias:  fileformat
+  values: [asf, avi, bmp, dcm, dicom, djvu, doc, docm, docx, dot, dotm, dotx, dwg, dxf, emf, eml, epub, flv, gif, heic, heif, jp2, jpeg, jpf, jpg, mov, mp3, mpp, mpt, msg, ods, odt, otf, pdf, png, pot, potm, potx, pps, ppsm, ppsx, ppt, pptm, pptx, psd, tif, tiff, torrent, vcf, vcr, vdx, vsd, vsdx, vss, vsx, wav, webp, wmf, xls, xlsb, xlsm, xlsx, xlt, xltm, xltx, zip, otc, ttc, ttf]
+
+generationRules:
+  include:
+  - fileformat[asf, avi, bmp, dcm, dicom, djvu, doc, docm, docx, dot, dotm, dotx, dwg, dxf, emf, eml, epub, flv, gif, heic, heif, jp2, jpeg, jpf, jpg, mov, mp3, mpp, mpt, msg, ods, odt, otf, pdf, png, pot, potm, potx, pps, ppsm, ppsx, ppt, pptm, pptx, psd, tif, tiff, torrent, vcf, vcr, vdx, vsd, vsdx, vss, vsx, wav, webp, wmf, xls, xlsb, xlsm, xlsx, xlt, xltm, xltx, zip, otc, ttc, ttf]
+  
+outputPath: "metadata\\{product}\\{url}\\{fileformat}.{lang}.md"
+
+dictionaries: [ ..\\..\\data\\products.json ]

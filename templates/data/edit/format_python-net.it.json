@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Modifica i Metadata nei File {{FileformatCap}} Utilizzando {{ProgLang}}",
+    "description": "Utilizza l'API {{ProgLang}} per modificare i metadata nei file {{FileformatCap}}. Supporta i formati di metadata XMP, EXIF, IPTC, ID3 e altri."
+  },
+  "header": {
+    "title": "Modifica i Metadata nei File {{FileformatCap}} con {{ProgLang}}",
+    "description": "Modifica i metadata in formati comuni di documenti, immagini e multimedia. Esegui operazioni chiave come leggere, aggiornare e rimuovere i metadata.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Scarica la Versione di Prova Gratuita"
+  },
+  "about": {
+    "title": "Informazioni sull'API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offre strumenti potenti per gestire i metadata in {{ProgLang}}. Ti consente di leggere, aggiornare, eliminare, cercare, confrontare ed esportare i metadata dai file senza bisogno di software aggiuntivo. Utilizza l'API per lavorare con i metadata in PDF, documenti Microsoft Office, email di Outlook, diagrammi di Visio, disegni AutoCAD, archivi e file multimediali. Integra facilmente funzionalità flessibili di metadata in qualsiasi applicazione {{ProdShortName}}."
+  },
+  "formats": {
+    "title": "Modifica i Metadata in Altri Tipi di File",
+    "description": "Un'API per l'editing di metadata multi-formato per {{ProgLang}}. Supporta la gestione dei metadata per molti tipi di documenti e immagini popolari come mostrato di seguito."
+  },
+  "examples": {
+    "comment_1": "Cambia la data di creazione di un file {{FileFormatUp}}",
+    "comment_2": "Definisci le regole per trovare quali metadata aggiornare",
+    "comment_3": "Assegna un nuovo valore alla proprietà selezionata",
+    "comment_4": "Aggiorna il timestamp di creazione del file",
+    "comment_5": "Salva il file {{FileFormatUp}} aggiornato"
+  },
+  "steps": {
+    "title": "Come Modificare i Metadata nei File {{FileFormatUp}} Utilizzando {{ProgLang}}",
+    "content": {
+      "title": "Con [{{ProdFullName}}]({{ProductUrl}}), gli sviluppatori {{ProgLang}} possono aggiornare i metadata nei file {{FileFormatUp}} seguendo questi passaggi:",
+      "step_1": "Carica il file {{FileFormatUp}} utilizzando la classe {{TextMetadata}}.",
+      "step_2": "Definisci una condizione per filtrare i metadata che desideri modificare.",
+      "step_3": "Applica il filtro e imposta il nuovo valore.",
+      "step_4": "Salva il file {{FileFormatUp}} aggiornato su disco."
+    }
+  },
+  "more_features": {
+    "title": "Modifica i Metadata nei File {{FileFormatUp}} con {{ProgLang}}",
+    "description": "Con {{ProdShortName}} puoi gestire i metadata dei documenti nelle tue applicazioni {{ProgLang}}. Aggiungi, modifica, cerca o rimuovi i metadata in modo programmato.",
+    "image_description": "Strumenti per la Modifica dei Metadata",
+    "feature_1": {
+      "title": "Gestione Semplice dei Metadata",
+      "content": "{{ProdShortName}} ti consente di aggiungere, modificare o eliminare i campi metadata nelle tue applicazioni {{ProgLang}}."
+    },
+    "feature_2": {
+      "title": "Controllo Completo sui Metadata",
+      "content": "Utilizza l'API per trovare, visualizzare e modificare i dati nascosti memorizzati in vari formati di file aziendali."
+    },
+    "feature_3": {
+      "title": "Utilizza i Tag {{FileFormatUp}} Integrati",
+      "content": "Accedi e lavora con i metadata esistenti come i tag EXIF nelle immagini, inclusi informazioni come tipo di fotocamera, dimensioni o data di scatto."
+    },
+    "code_1": {
+      "title": "Modifica i Metadata MP3: Aggiorna il Testo delle Canzoni",
+      "content": "Questo esempio mostra come modificare i metadata in un file MP3, inclusi i testi e i campi personalizzati.",
+      "comment_1": "Apri il file utilizzando {{TextMetadata}}",
+      "comment_2": "Modifica il tag del testo",
+      "comment_3": "Aggiungi eventuali campi metadata personalizzati necessari",
+      "comment_4": "Salva le modifiche al file"
+    }
+  }
+}

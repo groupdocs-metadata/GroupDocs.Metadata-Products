@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "{{ProgLang}} 앱에서 {{FileFormatUp}} 파일의 메타데이터 정리하기",
+    "description": "{{ProgLang}} API를 사용하여 {{FileFormatUp}} 파일의 메타데이터를 제거합니다. XMP, EXIF, IPTC, ID3 등과 같은 형식을 지원합니다."
+  },
+  "header": {
+    "title": "{{ProgLang}}를 사용하여 {{FileFormatUp}}의 메타데이터 삭제",
+    "description": "{{ProdFullName}} API를 통해 문서, 이미지, 오디오 및 비디오 파일에서 메타데이터를 제거할 수 있습니다.",
+    "subtitle": "{{ProdFullName}} API",
+    "action_title": "무료 체험 다운로드"
+  },
+  "about": {
+    "title": "{{ProdFullName}}란?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})는 개발자가 제3자 소프트웨어 없이 메타데이터를 처리할 수 있도록 강력한 기능을 제공합니다. 문서 및 미디어 파일에서 메타데이터를 읽고, 업데이트하고, 제거하고, 검색하고, 비교하고, 교체하고, 내보낼 수 있습니다. PDF, Word 문서, Excel 시트, PowerPoint 프레젠테이션, Outlook 메시지, OneNote, Visio, Project, AutoCAD 도면, 아카이브 및 멀티미디어 형식의 메타데이터를 정리하세요."
+  },
+  "formats": {
+    "title": "다른 파일 형식에서 메타데이터 제거",
+    "description": "{{ProgLang}}를 위한 유연한 메타데이터 제거 API로, 많은 일반 파일 형식을 지원합니다. 아래에 나열된 지원 형식을 확인하세요."
+  },
+  "examples": {
+    "comment_1": "{{FileFormatUp}} 파일에서 메타데이터 지우기",
+    "comment_2": "모든 메타데이터 항목 제거",
+    "comment_3": "제거된 항목 수 표시",
+    "comment_4": "정리된 버전 저장"
+  },
+  "steps": {
+    "title": "{{ProgLang}}에서 {{FileFormatUp}}의 메타데이터 제거 방법",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}})를 사용하면 개발자가 몇 가지 단계를 따라 {{FileFormatUp}} 파일에서 메타데이터를 간단히 정리할 수 있습니다.",
+      "step_1": "{{TextMetadata}} 클래스를 사용하여 {{FileFormatUp}} 파일을 엽니다.",
+      "step_2": "로드된 파일에서 모든 메타데이터를 제거합니다.",
+      "step_3": "정리 프로세스의 결과를 처리합니다.",
+      "step_4": "{{FileFormatUp}} 형식으로 업데이트된 파일을 저장합니다."
+    }
+  },
+  "more_features": {
+    "title": "스마트 메타데이터 정리 도구",
+    "description": "우리 API를 사용하여 파일 메타데이터를 정리하여 문서 관리를 용이하게 하고 검색 및 보안을 강화하세요.",
+    "image_description": "간편한 문서 메타데이터 정리",
+    "feature_1": {
+      "title": "빠른 메타데이터 미리보기",
+      "content": "저자, 생성 시간 및 기타 속성과 같은 주요 메타데이터 세부정보를 즉시 확인합니다."
+    },
+    "feature_2": {
+      "title": "간단한 메타데이터 편집",
+      "content": "문서를 잘 정리하고 검색 가능하도록 메타데이터를 직접 편집합니다."
+    },
+    "feature_3": {
+      "title": "완전한 메타데이터 제어",
+      "content": "사용자 정의 필드를 추가하고, 민감한 데이터를 제거하며, 메타데이터가 깨끗하고 일관되도록 쉽게 유지할 수 있습니다."
+    },
+    "code_1": {
+      "title": "DOCX 파일에서 개인 정보 제거",
+      "content": "이 예제는 Word 문서에서 개인 메타데이터를 정리하는 방법을 보여줍니다.",
+      "comment_1": "편집할 문서를 로드합니다.",
+      "comment_2": "제거할 메타데이터 유형을 선택합니다.",
+      "comment_3": "선택한 메타데이터를 지웁니다.",
+      "comment_4": "정리 후 문서를 저장합니다."
+    }
+  }
+}

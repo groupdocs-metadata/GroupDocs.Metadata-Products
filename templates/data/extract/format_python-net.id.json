@@ -1,0 +1,60 @@
+{
+  "head": {
+    "title": "Akses dan Ekstrak Metadata dari Berkas {{FileFormatUp}} dalam {{ProgLang}}",
+    "description": "API {{ProgLang}} yang independen dari platform untuk membaca dan menarik metadata dari berkas {{FileFormatUp}}. Kompatibel dengan XMP, EXIF, IPTC, ID3, dan lainnya."
+  },
+  "header": {
+    "title": "Baca Metadata dari {{FileFormatUp}} Menggunakan {{ProgLang}}",
+    "description": "Gunakan {{ProdFullName}} untuk mengekstrak metadata dari dokumen, gambar, audio, dan berkas video.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh Versi Percobaan Gratis"
+  },
+  "about": {
+    "title": "Tentang API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) memberi Anda alat yang kuat untuk bekerja dengan metadata dalam {{ProgLang}}. Anda dapat membaca, memperbarui, menghapus, mencari, membandingkan, dan mengekspor metadata dari dokumen dan gambar—semua tanpa memerlukan perangkat lunak tambahan. Ambil metadata dari berkas seperti PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, AutoCAD, arsip, dan format media, serta kelola sesuai kebutuhan."
+  },
+  "formats": {
+    "title": "Ekstraksi Metadata dari Format Berkas Lain",
+    "description": "API pembacaan metadata yang fleksibel untuk {{ProgLang}}. Bekerja dengan banyak tipe berkas populer. Lihat beberapa format yang didukung di bawah ini."
+  },
+  "examples": {
+    "comment_1": "Ambil metadata dari berkas {{FileFormatUp}}",
+    "comment_2": "Tentukan jenis metadata yang ingin Anda ekstrak",
+    "comment_3": "Filter dan baca metadata dari grup yang dipilih",
+    "comment_4": "Lakukan iterasi melalui entri metadata dan keluarkan hasilnya"
+  },
+  "steps": {
+    "title": "Cara Mengekstrak Metadata dari {{FileFormatUp}} Menggunakan {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) membantu pengembang {{ProgLang}} mengekstrak metadata dari berkas {{FileFormatUp}} hanya dengan beberapa langkah:",
+      "step_1": "Buka berkas {{FileFormatUp}} menggunakan instance kelas {{ProgLang}}.",
+      "step_2": "Tentukan jenis metadata yang ingin dicari.",
+      "step_3": "Cari entri metadata yang cocok.",
+      "step_4": "Lakukan iterasi dan tangani metadata yang ditemukan."
+    }
+  },
+  "more_features": {
+    "title": "Cari Metadata Berkas dengan {{ProdShortName}}",
+    "description": "Temukan dan kelola metadata tersembunyi dalam berkas sensitif menggunakan aplikasi {{ProgLang}} yang didukung oleh toolkit {{ProdShortName}}.",
+    "image_description": "Jelajahi Metadata dengan Alat {{ProgLang}}",
+    "feature_1": {
+      "title": "Pencarian Metadata Lanjutan dalam {{ProgLang}}",
+      "content": "Gunakan {{ProdShortName}} untuk dengan cepat mencari dan mengatur metadata dalam proyek {{ProgLang}} Anda. Ideal untuk menangani data yang disematkan dan tersembunyi."
+    },
+    "feature_2": {
+      "title": "Targetkan Metadata dengan Filter",
+      "content": "Persempit pencarian Anda menggunakan filter seperti kata kunci, tanggal, atau pola. Temukan metadata yang tepat tanpa tambahan kerja."
+    },
+    "feature_3": {
+      "title": "Kelola Metadata yang Diekstrak dengan Mudah",
+      "content": "Gunakan {{ProgLang}} untuk memperbarui atau menghapus metadata setelah ditemukan. {{ProdShortName}} memberi Anda kontrol penuh pada tipe berkas yang didukung."
+    },
+    "code_1": {
+      "title": "Ekstrak Metadata dari Berkas 3DS dalam {{ProgLang}}",
+      "content": "Contoh ini menunjukkan cara membaca metadata grafik vektor dari berkas 3DS.",
+      "comment_1": "Buka berkas 3DS menggunakan {{TextMetadata}}",
+      "comment_2": "Ambil semua metadata bawaan yang tersedia",
+      "comment_3": "Gunakan metadata tersebut dalam logika aplikasi Anda"
+    }
+  }
+}

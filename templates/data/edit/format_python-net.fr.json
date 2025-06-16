@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Modifier les métadonnées dans les fichiers {{FileformatCap}} avec {{ProgLang}}",
+    "description": "Utilisez l'API {{ProgLang}} pour modifier les métadonnées dans les fichiers {{FileformatCap}}. Prend en charge les formats de métadonnées XMP, EXIF, IPTC, ID3 et d'autres."
+  },
+  "header": {
+    "title": "Modifiez les métadonnées dans les fichiers {{FileformatCap}} avec {{ProgLang}}",
+    "description": "Éditez les métadonnées dans des formats de documents, d'images et multimédias courants. Effectuez des opérations clés telles que la lecture, la mise à jour et la suppression des métadonnées.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Télécharger l'essai gratuit"
+  },
+  "about": {
+    "title": "À propos de l'API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) fournit des outils puissants pour gérer les métadonnées dans {{ProgLang}}. Il vous permet de lire, mettre à jour, supprimer, rechercher, comparer et exporter des métadonnées à partir de fichiers sans avoir besoin de logiciels supplémentaires. Utilisez l'API pour travailler avec des métadonnées dans des fichiers PDF, des documents Microsoft Office, des e-mails Outlook, des diagrammes Visio, des dessins AutoCAD, des archives et des fichiers multimédias. Intégrez facilement des fonctionnalités de métadonnées flexibles dans n'importe quelle application {{ProdShortName}}."
+  },
+  "formats": {
+    "title": "Modifier les métadonnées dans d'autres types de fichiers",
+    "description": "Une API d'édition de métadonnées multi-format pour {{ProgLang}}. Prend en charge la gestion des métadonnées pour de nombreux types de documents et d'images populaires comme indiqué ci-dessous."
+  },
+  "examples": {
+    "comment_1": "Changer la date de création d'un fichier {{FileFormatUp}}",
+    "comment_2": "Définir les règles pour trouver quelles métadonnées mettre à jour",
+    "comment_3": "Attribuer une nouvelle valeur à la propriété sélectionnée",
+    "comment_4": "Mettre à jour l'horodatage de création du fichier",
+    "comment_5": "Enregistrer le fichier {{FileFormatUp}} mis à jour"
+  },
+  "steps": {
+    "title": "Comment modifier les métadonnées dans des fichiers {{FileFormatUp}} en utilisant {{ProgLang}}",
+    "content": {
+      "title": "Avec [{{ProdFullName}}]({{ProductUrl}}), les développeurs {{ProgLang}} peuvent mettre à jour les métadonnées dans des fichiers {{FileFormatUp}} en suivant ces étapes simples:",
+      "step_1": "Chargez le fichier {{FileFormatUp}} en utilisant la classe {{TextMetadata}}.",
+      "step_2": "Définissez une condition pour filtrer les métadonnées que vous souhaitez changer.",
+      "step_3": "Appliquez le filtre et définissez la nouvelle valeur.",
+      "step_4": "Enregistrez le fichier {{FileFormatUp}} mis à jour sur disque."
+    }
+  },
+  "more_features": {
+    "title": "Modifier les métadonnées dans des fichiers {{FileFormatUp}} avec {{ProgLang}}",
+    "description": "Avec {{ProdShortName}}, vous pouvez gérer les métadonnées des documents dans vos applications {{ProgLang}}. Ajoutez, modifiez, recherchez ou supprimez des métadonnées par programmation.",
+    "image_description": "Outils pour l'édition de métadonnées",
+    "feature_1": {
+      "title": "Gestion simple des métadonnées",
+      "content": "{{ProdShortName}} vous permet d'ajouter, de modifier ou de supprimer facilement des champs de métadonnées dans vos applications {{ProgLang}}."
+    },
+    "feature_2": {
+      "title": "Contrôle total sur les métadonnées",
+      "content": "Utilisez l'API pour trouver, afficher et modifier des données cachées stockées dans divers formats de fichiers professionnels."
+    },
+    "feature_3": {
+      "title": "Utilisez les balises {{FileFormatUp}} intégrées",
+      "content": "Accédez et travaillez avec les métadonnées existantes comme les balises EXIF dans les images, y compris des informations telles que le type d'appareil photo, les dimensions ou la date de prise."
+    },
+    "code_1": {
+      "title": "Modifier les métadonnées MP3 : Mettre à jour les paroles",
+      "content": "Cet exemple montre comment changer les métadonnées dans un fichier MP3, y compris les paroles et les champs personnalisés.",
+      "comment_1": "Ouvrir le fichier en utilisant {{TextMetadata}}",
+      "comment_2": "Modifier la balise des paroles",
+      "comment_3": "Ajouter des champs de métadonnées personnalisés si nécessaire",
+      "comment_4": "Enregistrer les modifications dans le fichier"
+    }
+  }
+}

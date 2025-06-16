@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "Add Metadata to {{FileFormatUp}} Files using {{ProgLang}}",
+    "description": "Use the {{ProgLang}} API to insert metadata into {{FileFormatUp}} files. Work with standards like XMP, EXIF, IPTC, ID3, and more."
+  },
+  "header": {
+    "title": "Add Metadata to {{FileFormatUp}} Files in {{ProgLang}}",
+    "description": "Use the {{ProdFullName}} API to insert custom metadata into many types of documents, images, audio, and video formats.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download Free Trial"
+  },
+  "about": {
+    "title": "About the {{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) provides a powerful set of tools for working with metadata. Developers can view, edit, delete, search, compare, and export metadata from a wide range of documents and media formats—without needing third-party tools. Add metadata to PDFs, Microsoft Office files, Outlook, Visio, AutoCAD, archives, and multimedia files. Build flexible metadata features into any {{ProdShortName}} application."
+  },
+  "formats": {
+    "title": "Supported Formats for Adding Metadata",
+    "description": "Add metadata to documents and images in multiple formats using {{ProdShortName}}. Below are some commonly supported file types."
+  },
+  "examples": {
+    "comment_1": "Load the file using the {{TextMetadata}} class",
+    "comment_2": "Add a metadata property with the author's name",
+    "comment_3": "Run the metadata update",
+    "comment_4": "Save the file with the new metadata"
+  },
+  "steps": {
+    "title": "How to Add Metadata to {{FileformatCap}} in {{ProgLang}}",
+    "content": {
+      "title": "With [{{ProdShortName}}]({{PlatformLink}}), adding metadata to {{FileFormatUp}} files in {{ProgLang}} apps is straightforward. Just follow these steps.",
+      "step_1": "Open the {{FileFormatUp}} file you want to update.",
+      "step_2": "Define the metadata key and value to add.",
+      "step_3": "Apply the changes.",
+      "step_4": "Save the updated file."
+    }
+  },
+  "more_features": {
+    "title": "Manage Document Metadata Easily",
+    "description": "Our API simplifies handling metadata. View, change, and organize document properties to improve file management and search.",
+    "image_description": "Features for Editing Metadata",
+    "feature_1": {
+      "title": "Access Metadata",
+      "content": "Quickly read and analyze metadata from any file. Get info like author name, creation time, and more."
+    },
+    "feature_2": {
+      "title": "Edit Metadata",
+      "content": "Change metadata directly—update tags to keep files well-organized and searchable."
+    },
+    "feature_3": {
+      "title": "Advanced Metadata Features",
+      "content": "Do more with metadata—add custom fields, remove unused info, and keep everything consistent."
+    },
+    "code_1": {
+      "title": "Add Custom Metadata to a TIFF File",
+      "content": "This code sample shows how to insert a custom metadata tag into a TIFF image.",
+      "comment_1": "Open the TIFF image",
+      "comment_2": "Define the metadata key and value",
+      "comment_3": "Add the metadata",
+      "comment_4": "Save the updated image"
+    }
+  }
+}

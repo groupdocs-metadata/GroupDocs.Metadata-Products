@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Edit Metadata in {{FileformatCap}} Files Using {{ProgLang}}",
+    "description": "Use the {{ProgLang}} API to modify metadata in {{FileformatCap}} files. Supports XMP, EXIF, IPTC, ID3, and other metadata formats."
+  },
+  "header": {
+    "title": "Modify Metadata in {{FileformatCap}} Files with {{ProgLang}}",
+    "description": "Edit metadata across common document, image, and multimedia formats. Perform key operations like reading, updating, and removing metadata with ease.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Download Free Trial"
+  },
+  "about": {
+    "title": "About the {{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) provides powerful tools for managing metadata in {{ProgLang}}. It lets you read, update, delete, search, compare, and export metadata from files without needing extra software. Use the API to work with metadata in PDFs, Microsoft Office documents, Outlook emails, Visio diagrams, AutoCAD drawings, archives, and media files. Easily integrate flexible metadata features into any {{ProdShortName}} application."
+  },
+  "formats": {
+    "title": "Edit Metadata in Other File Types",
+    "description": "A cross-format metadata editing API for {{ProgLang}}. Supports metadata handling for many popular document and image types as shown below."
+  },
+  "examples": {
+    "comment_1": "Change the creation date of a {{FileFormatUp}} file",
+    "comment_2": "Set the rules to find which metadata to update",
+    "comment_3": "Assign a new value to the selected property",
+    "comment_4": "Update the file's creation timestamp",
+    "comment_5": "Save the updated {{FileFormatUp}} file"
+  },
+  "steps": {
+    "title": "How to Edit Metadata in {{FileFormatUp}} Files Using {{ProgLang}}",
+    "content": {
+      "title": "With [{{ProdFullName}}]({{ProductUrl}}), {{ProgLang}} developers can update metadata in {{FileFormatUp}} files by following these simple steps:",
+      "step_1": "Load the {{FileFormatUp}} file using the {{TextMetadata}} class.",
+      "step_2": "Define a condition to filter the metadata you want to change.",
+      "step_3": "Apply the filter and set the new value.",
+      "step_4": "Save the updated {{FileFormatUp}} file to disk."
+    }
+  },
+  "more_features": {
+    "title": "Edit Metadata in {{FileFormatUp}} Files with {{ProgLang}}",
+    "description": "With {{ProdShortName}}, you can easily manage document metadata in your {{ProgLang}} apps. Add, change, search, or remove metadata programmatically.",
+    "image_description": "Tools for Metadata Editing",
+    "feature_1": {
+      "title": "Simple Metadata Handling",
+      "content": "{{ProdShortName}} lets you easily add, edit, or delete metadata fields in your {{ProgLang}} applications."
+    },
+    "feature_2": {
+      "title": "Full Control Over Metadata",
+      "content": "Use the API to find, view, and modify hidden data stored in various business file formats."
+    },
+    "feature_3": {
+      "title": "Use Built-in {{FileFormatUp}} Tags",
+      "content": "Access and work with existing metadata like EXIF tags in images, including info such as camera type, dimensions, or date taken."
+    },
+    "code_1": {
+      "title": "Edit MP3 Metadata: Update Lyrics",
+      "content": "This sample shows how to change metadata in an MP3 file, including lyrics and custom fields.",
+      "comment_1": "Open the file using {{TextMetadata}}",
+      "comment_2": "Modify the lyrics tag",
+      "comment_3": "Add any custom metadata fields as needed",
+      "comment_4": "Save the changes to the file"
+    }
+  }
+}
