@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-06-16T20:17:16
+date:  2025-06-16T20:57:37
 draft: false
 lang: ko
 format: Pptm
@@ -91,7 +91,7 @@ steps:
 more_features:
   enable: true
   title: "GroupDocs.Metadata로 파일 메타데이터 검색하기"
-  description: "{{ProdLang}} 애플리케이션을 사용하여 GroupDocs.Metadata 도구 키트를 기반으로 민감한 파일에서 숨겨진 메타데이터를 찾아 처리하십시오."
+  description: "Python 애플리케이션을 사용하여 GroupDocs.Metadata 도구 키트를 기반으로 민감한 파일에서 숨겨진 메타데이터를 찾아 처리하십시오."
   image: "/img/metadata/features_search.webp" # 500x500 px
   image_description: "Python 도구로 메타데이터 탐색하기"
   features:

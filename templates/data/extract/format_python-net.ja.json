@@ -35,7 +35,7 @@
   },
   "more_features": {
     "title": "{{ProdShortName}} でファイルメタデータを検索",
-    "description": "{{ProdLang}} アプリケーションのための {{ProdShortName}} ツールキットを活用して、機密ファイル内の隠れたメタデータを見つけて処理します。",
+    "description": "{{ProgLang}} アプリケーションのための {{ProdShortName}} ツールキットを活用して、機密ファイル内の隠れたメタデータを見つけて処理します。",
     "image_description": "{{ProgLang}} ツールでメタデータを探る",
     "feature_1": {
       "title": "{{ProgLang}} での高度なメタデータ検索",

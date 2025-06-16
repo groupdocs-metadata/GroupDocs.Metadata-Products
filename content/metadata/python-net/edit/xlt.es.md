@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-06-16T20:17:05
+date:  2025-06-16T20:57:26
 draft: false
 lang: es
 format: Xlt

@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-06-16T20:17:23
+date:  2025-06-16T20:57:44
 draft: false
 lang: it
 format: Pps

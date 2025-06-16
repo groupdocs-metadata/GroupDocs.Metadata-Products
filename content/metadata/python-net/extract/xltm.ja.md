@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-06-16T20:17:16
+date:  2025-06-16T20:57:36
 draft: false
 lang: ja
 format: Xltm
@@ -91,7 +91,7 @@ steps:
 more_features:
   enable: true
   title: "GroupDocs.Metadata でファイルメタデータを検索"
-  description: "{{ProdLang}} アプリケーションのための GroupDocs.Metadata ツールキットを活用して、機密ファイル内の隠れたメタデータを見つけて処理します。"
+  description: "Python アプリケーションのための GroupDocs.Metadata ツールキットを活用して、機密ファイル内の隠れたメタデータを見つけて処理します。"
   image: "/img/metadata/features_search.webp" # 500x500 px
   image_description: "Python ツールでメタデータを探る"
   features:

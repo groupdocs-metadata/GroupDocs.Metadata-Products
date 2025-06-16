@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-06-16T20:17:18
+date:  2025-06-16T20:57:39
 draft: false
 lang: uk
 format: Msg

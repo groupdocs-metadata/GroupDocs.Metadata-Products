@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-06-16T20:17:25
+date:  2025-06-16T20:57:46
 draft: false
 lang: ru
 format: Ods

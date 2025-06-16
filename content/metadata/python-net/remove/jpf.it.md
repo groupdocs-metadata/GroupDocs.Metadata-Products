@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-06-16T20:17:23
+date:  2025-06-16T20:57:43
 draft: false
 lang: it
 format: Jpf

@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-06-16T20:17:14
+date:  2025-06-16T20:57:35
 draft: false
 lang: fr
 format: Dotx

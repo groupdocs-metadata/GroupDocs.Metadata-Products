@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-06-16T20:17:01
+date:  2025-06-16T20:57:22
 draft: false
 lang: ru
 format: Psd

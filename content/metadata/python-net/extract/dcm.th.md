@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-06-16T20:17:17
+date:  2025-06-16T20:57:38
 draft: false
 lang: th
 format: Dcm

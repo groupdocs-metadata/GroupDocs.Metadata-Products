@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-06-16T20:17:15
+date:  2025-06-16T20:57:36
 draft: false
 lang: it
 format: Pptm

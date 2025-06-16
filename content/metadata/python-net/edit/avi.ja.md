@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-06-16T20:17:07
+date:  2025-06-16T20:57:28
 draft: false
 lang: ja
 format: Avi

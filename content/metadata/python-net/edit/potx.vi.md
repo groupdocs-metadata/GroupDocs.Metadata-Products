@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-06-16T20:17:11
+date:  2025-06-16T20:57:31
 draft: false
 lang: vi
 format: Potx

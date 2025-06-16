@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-06-16T20:17:22
+date:  2025-06-16T20:57:43
 draft: false
 lang: id
 format: Potx

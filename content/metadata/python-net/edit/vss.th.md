@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-06-16T20:17:10
+date:  2025-06-16T20:57:30
 draft: false
 lang: th
 format: Vss

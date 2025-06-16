@@ -35,7 +35,7 @@
   },
   "more_features": {
     "title": "{{ProdShortName}}로 파일 메타데이터 검색하기",
-    "description": "{{ProdLang}} 애플리케이션을 사용하여 {{ProdShortName}} 도구 키트를 기반으로 민감한 파일에서 숨겨진 메타데이터를 찾아 처리하십시오.",
+    "description": "{{ProgLang}} 애플리케이션을 사용하여 {{ProdShortName}} 도구 키트를 기반으로 민감한 파일에서 숨겨진 메타데이터를 찾아 처리하십시오.",
     "image_description": "{{ProgLang}} 도구로 메타데이터 탐색하기",
     "feature_1": {
       "title": "{{ProgLang}}에서 고급 메타데이터 검색",

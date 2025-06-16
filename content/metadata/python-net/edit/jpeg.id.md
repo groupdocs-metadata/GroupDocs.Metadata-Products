@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2025-06-16T20:17:06
+date:  2025-06-16T20:57:27
 draft: false
 lang: id
 format: Jpeg
