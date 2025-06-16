@@ -4,7 +4,7 @@
 ---
 ############################# Static ############################
 layout: "format"
-date:  2024-06-11T15:17:43
+date:  2025-06-16T21:19:47
 draft: false
 lang: ja
 format: Ttf
@@ -140,7 +140,7 @@ actions:
   description: "GroupDocs.Metadata の機能を無料で試すか、ライセンスをリクエストしてください"
   items:
     #  loop
-    - title: "{{パッケージストア名}}のダウンロード"
+    - title: "NPMのダウンロード"
       link: "https://releases.groupdocs.com/metadata/nodejs-java/"
       color: "red"
         #  loop
