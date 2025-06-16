@@ -1,0 +1,60 @@
+{
+  "head": {
+    "title": "Acceder y Extraer Metadatos de Archivos {{FileFormatUp}} en {{ProgLang}}",
+    "description": "API {{ProgLang}} independiente de la plataforma para leer y extraer metadatos de archivos {{FileFormatUp}}. Compatible con XMP, EXIF, IPTC, ID3 y más."
+  },
+  "header": {
+    "title": "Leer Metadatos de {{FileFormatUp}} Usando {{ProgLang}}",
+    "description": "Utiliza {{ProdFullName}} para extraer metadatos de documentos, imágenes, archivos de audio y video.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descargar Prueba Gratuita"
+  },
+  "about": {
+    "title": "Acerca de la API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) te aporta herramientas poderosas para trabajar con metadatos en {{ProgLang}}. Puedes leer, actualizar, eliminar, buscar, comparar y exportar metadatos de documentos y imágenes, todo sin necesidad de software adicional. Extrae metadatos de archivos como PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, AutoCAD, archivos comprimidos y formatos de medios, y trabaja con ellos según sea necesario."
+  },
+  "formats": {
+    "title": "Extracción de Metadatos de Otros Formatos de Archivo",
+    "description": "Una API flexible para la lectura de metadatos en {{ProgLang}}. Funciona con muchos tipos de archivos populares. Consulta algunos formatos compatibles a continuación."
+  },
+  "examples": {
+    "comment_1": "Obtener metadatos de un archivo {{FileFormatUp}}",
+    "comment_2": "Establecer qué tipo de metadatos deseas extraer",
+    "comment_3": "Filtrar y leer metadatos de un grupo seleccionado",
+    "comment_4": "Recorrer las entradas de metadatos y mostrarlas"
+  },
+  "steps": {
+    "title": "Cómo Extraer Metadatos de {{FileFormatUp}} Usando {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) ayuda a los desarrolladores de {{ProgLang}} a extraer metadatos de archivos {{FileFormatUp}} en solo unos pocos pasos:",
+      "step_1": "Abre el archivo {{FileFormatUp}} utilizando una instancia de la clase {{ProgLang}}.",
+      "step_2": "Define qué tipo de metadatos buscar.",
+      "step_3": "Busca entradas de metadatos coincidentes.",
+      "step_4": "Recorre y maneja los metadatos encontrados."
+    }
+  },
+  "more_features": {
+    "title": "Buscar Metadatos de Archivos con {{ProdShortName}}",
+    "description": "Encuentra y maneja metadatos ocultos en archivos sensibles utilizando aplicaciones {{ProgLang}} potenciadas por el conjunto de herramientas {{ProdShortName}}.",
+    "image_description": "Explorar Metadatos con Herramientas {{ProgLang}}",
+    "feature_1": {
+      "title": "Búsqueda Avanzada de Metadatos en {{ProgLang}}",
+      "content": "Utiliza {{ProdShortName}} para buscar y organizar rápidamente metadatos en tus proyectos de {{ProgLang}}. Ideal para manejar datos incrustados y ocultos."
+    },
+    "feature_2": {
+      "title": "Dirigir Metadatos con Filtros",
+      "content": "Reduce tu búsqueda utilizando filtros como palabras clave, fechas o patrones. Encuentra los metadatos exactos que necesitas sin trabajo adicional."
+    },
+    "feature_3": {
+      "title": "Gestionar Metadatos Extraídos con Facilidad",
+      "content": "Utiliza {{ProgLang}} para actualizar o eliminar metadatos una vez encontrados. {{ProdShortName}} te da control total entre los tipos de archivo compatibles."
+    },
+    "code_1": {
+      "title": "Extraer Metadatos de Archivos 3DS en {{ProgLang}}",
+      "content": "Este ejemplo muestra cómo leer metadatos de gráficos vectoriales de un archivo 3DS.",
+      "comment_1": "Abre el archivo 3DS usando {{TextMetadata}}",
+      "comment_2": "Obtén todos los metadatos incorporados disponibles",
+      "comment_3": "Utiliza los metadatos en la lógica de tu aplicación"
+    }
+  }
+}

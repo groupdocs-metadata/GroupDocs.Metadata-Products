@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "Xóa Metadata khỏi Tệp {{FileFormatUp}} trong Ứng dụng {{ProgLang}}",
+    "description": "Sử dụng API {{ProgLang}} để loại bỏ metadata khỏi tệp {{FileFormatUp}}. Hỗ trợ các định dạng như XMP, EXIF, IPTC, ID3 và nhiều hơn nữa."
+  },
+  "header": {
+    "title": "Xóa Metadata trong {{FileFormatUp}} Sử dụng {{ProgLang}}",
+    "description": "Loại bỏ metadata khỏi tài liệu, hình ảnh, tệp âm thanh và video với API {{ProdFullName}}.",
+    "subtitle": "API {{ProdFullName}}",
+    "action_title": "Tải Xuống Phiên Bản Dùng Thử Miễn Phí"
+  },
+  "about": {
+    "title": "{{ProdFullName}} Là Gì?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) cung cấp cho các nhà phát triển một cách mạnh mẽ để làm việc với metadata—không cần phần mềm của bên thứ ba. Bạn có thể đọc, cập nhật, xóa, tìm kiếm, so sánh, thay thế và xuất metadata từ tài liệu và tệp đa phương tiện. Làm sạch metadata khỏi PDF, tài liệu Word, bảng Excel, slide PowerPoint, tin nhắn Outlook, OneNote, Visio, Project, bản vẽ AutoCAD, lưu trữ và các định dạng đa phương tiện."
+  },
+  "formats": {
+    "title": "Xóa Metadata khỏi Các Loại Tệp Khác",
+    "description": "Một API xóa metadata linh hoạt cho {{ProgLang}} hỗ trợ nhiều định dạng tệp phổ biến. Xem một số loại được hỗ trợ dưới đây."
+  },
+  "examples": {
+    "comment_1": "Xóa metadata khỏi tệp {{FileFormatUp}}",
+    "comment_2": "Xóa tất cả các mục metadata",
+    "comment_3": "Hiển thị số lượng mục đã xóa",
+    "comment_4": "Lưu phiên bản đã làm sạch"
+  },
+  "steps": {
+    "title": "Cách Xóa Metadata khỏi {{FileFormatUp}} trong {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) giúp các nhà phát triển dễ dàng làm sạch metadata khỏi tệp {{FileFormatUp}} bằng cách thực hiện vài bước đơn giản.",
+      "step_1": "Mở tệp {{FileFormatUp}} bằng lớp {{TextMetadata}}.",
+      "step_2": "Xóa tất cả metadata trong tệp đã tải.",
+      "step_3": "Xử lý kết quả của quá trình làm sạch.",
+      "step_4": "Lưu tệp đã cập nhật dưới định dạng {{FileFormatUp}}."
+    }
+  },
+  "more_features": {
+    "title": "Công Cụ Làm Sạch Metadata Thông Minh",
+    "description": "Sử dụng API của chúng tôi để làm gọn metadata tệp, giúp tài liệu của bạn dễ quản lý, tìm kiếm và bảo mật hơn.",
+    "image_description": "Làm Sạch Metadata Tài Liệu Dễ Dàng",
+    "feature_1": {
+      "title": "Xem Trước Metadata Nhanh",
+      "content": "Xem ngay các chi tiết metadata quan trọng như tác giả, thời gian tạo và các thuộc tính khác."
+    },
+    "feature_2": {
+      "title": "Chỉnh Sửa Metadata Đơn Giản",
+      "content": "Chỉnh sửa metadata trực tiếp để giữ tài liệu của bạn được tổ chức tốt và dễ tìm kiếm."
+    },
+    "feature_3": {
+      "title": "Kiểm Soát Metadata Hoàn Toàn",
+      "content": "Thêm trường tùy chỉnh, xóa dữ liệu nhạy cảm và đảm bảo metadata được sạch sẽ và nhất quán."
+    },
+    "code_1": {
+      "title": "Xóa Thông Tin Cá Nhân khỏi Tệp DOCX",
+      "content": "Ví dụ này cho thấy cách làm sạch metadata cá nhân khỏi một tài liệu Word.",
+      "comment_1": "Tải tài liệu bạn muốn chỉnh sửa",
+      "comment_2": "Chọn loại metadata để xóa",
+      "comment_3": "Xóa metadata đã chọn",
+      "comment_4": "Lưu tài liệu sau khi làm sạch"
+    }
+  }
+}

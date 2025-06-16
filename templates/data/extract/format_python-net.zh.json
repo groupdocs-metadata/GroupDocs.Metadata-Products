@@ -1,0 +1,60 @@
+{
+  "head": {
+    "title": "在{{ProgLang}}中访问和提取{{FileFormatUp}}文件的元数据",
+    "description": "跨平台的{{ProgLang}} API，用于读取和提取{{FileFormatUp}}文件中的元数据。兼容XMP、EXIF、IPTC、ID3等多种格式。"
+  },
+  "header": {
+    "title": "使用{{ProgLang}}读取{{FileFormatUp}}的元数据",
+    "description": "使用{{ProdFullName}}从文档、图像、音频和视频文件中提取元数据。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "下载免费试用版"
+  },
+  "about": {
+    "title": "关于{{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})为{{ProgLang}}提供强大的元数据处理工具。您可以读取、更新、删除、搜索、比较和导出文档和图像的元数据，而无需额外的软件。提取来自PDF、Word、Excel、PowerPoint、Outlook、OneNote、Visio、AutoCAD、存档和媒体格式的文件元数据，并根据需要进行处理。"
+  },
+  "formats": {
+    "title": "从其他文件格式提取元数据",
+    "description": "灵活的{{ProgLang}}元数据读取API，支持多种流行文件类型。查看下面的一些支持格式。"
+  },
+  "examples": {
+    "comment_1": "从{{FileFormatUp}}文件中获取元数据",
+    "comment_2": "确定要提取哪种类型的元数据",
+    "comment_3": "过滤并读取所选组中的元数据",
+    "comment_4": "遍历元数据条目并输出它们"
+  },
+  "steps": {
+    "title": "如何使用{{ProgLang}}从{{FileFormatUp}}提取元数据",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}})帮助{{ProgLang}}开发人员通过几个简单步骤提取{{FileFormatUp}}文件中的元数据：",
+      "step_1": "使用{{ProgLang}}类实例打开{{FileFormatUp}}文件。",
+      "step_2": "定义要查找的元数据类型。",
+      "step_3": "搜索匹配的元数据条目。",
+      "step_4": "遍历并处理找到的元数据。"
+    }
+  },
+  "more_features": {
+    "title": "使用{{ProdShortName}}搜索文件元数据",
+    "description": "通过基于{{ProdShortName}}工具包的{{ProgLang}}应用程序查找和处理敏感文件中的隐藏元数据。",
+    "image_description": "使用{{ProgLang}}工具探索元数据",
+    "feature_1": {
+      "title": "在{{ProgLang}}中进行高级元数据搜索",
+      "content": "使用{{ProdShortName}}快速搜索和组织您{{ProgLang}}项目中的元数据。非常适合处理嵌入式和隐藏数据。"
+    },
+    "feature_2": {
+      "title": "使用过滤器定位元数据",
+      "content": "使用关键字、日期或模式等过滤器缩小搜索范围。找到所需的精确元数据，无需额外工作。"
+    },
+    "feature_3": {
+      "title": "轻松管理提取的元数据",
+      "content": "一旦找到元数据，使用{{ProgLang}}更新或删除它。{{ProdShortName}}在支持的文件类型上为您提供全面控制。"
+    },
+    "code_1": {
+      "title": "在{{ProgLang}}中从3DS文件提取元数据",
+      "content": "本示例展示了如何从3DS文件中读取矢量图形元数据。",
+      "comment_1": "使用{{TextMetadata}}打开3DS文件",
+      "comment_2": "获取所有可用的内置元数据",
+      "comment_3": "在您的应用程序逻辑中使用元数据"
+    }
+  }
+}

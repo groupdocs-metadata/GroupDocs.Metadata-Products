@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Editar metadatos en archivos {{FileformatCap}} usando {{ProgLang}}",
+    "description": "Utiliza la API de {{ProgLang}} para modificar metadatos en archivos {{FileformatCap}}. Soporta formatos de metadatos como XMP, EXIF, IPTC, ID3 y otros."
+  },
+  "header": {
+    "title": "Modificar metadatos en archivos {{FileformatCap}} con {{ProgLang}}",
+    "description": "Edita metadatos a través de formatos comunes de documentos, imágenes y multimedia. Realiza operaciones clave como leer, actualizar y eliminar metadatos.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Descargar versión de prueba gratuita"
+  },
+  "about": {
+    "title": "Acerca de la API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) proporciona herramientas poderosas para gestionar metadatos en {{ProgLang}}. Te permite leer, actualizar, eliminar, buscar, comparar y exportar metadatos de archivos sin necesidad de software adicional. Utiliza la API para trabajar con metadatos en archivos PDF, documentos de Microsoft Office, correos de Outlook, diagramas de Visio, dibujos de AutoCAD, archivos comprimidos y archivos multimedia. Integra fácilmente características flexibles de metadatos en cualquier aplicación {{ProdShortName}}."
+  },
+  "formats": {
+    "title": "Editar metadatos en otros tipos de archivos",
+    "description": "Una API de edición de metadatos multipropósito para {{ProgLang}}. Soporta el manejo de metadatos para muchos tipos populares de documentos e imágenes, como se muestra a continuación."
+  },
+  "examples": {
+    "comment_1": "Cambiar la fecha de creación de un archivo {{FileFormatUp}}",
+    "comment_2": "Establecer las reglas para encontrar qué metadatos actualizar",
+    "comment_3": "Asigna un nuevo valor a la propiedad seleccionada",
+    "comment_4": "Actualizar la marca de tiempo de creación del archivo",
+    "comment_5": "Guardar el archivo {{FileFormatUp}} actualizado"
+  },
+  "steps": {
+    "title": "Cómo editar metadatos en archivos {{FileFormatUp}} usando {{ProgLang}}",
+    "content": {
+      "title": "Con [{{ProdFullName}}]({{ProductUrl}}), los desarrolladores de {{ProgLang}} pueden actualizar metadatos en archivos {{FileFormatUp}} siguiendo estos pasos:",
+      "step_1": "Carga el archivo {{FileFormatUp}} usando la clase {{TextMetadata}}.",
+      "step_2": "Define una condición para filtrar los metadatos que deseas cambiar.",
+      "step_3": "Aplica el filtro y establece el nuevo valor.",
+      "step_4": "Guarda el archivo {{FileFormatUp}} actualizado en el disco."
+    }
+  },
+  "more_features": {
+    "title": "Editar metadatos en archivos {{FileFormatUp}} con {{ProgLang}}",
+    "description": "Con {{ProdShortName}}, puedes gestionar metadatos de documentos en tus aplicaciones {{ProgLang}}. Agregar, cambiar, buscar o eliminar metadatos de forma programática.",
+    "image_description": "Herramientas para la edición de metadatos",
+    "feature_1": {
+      "title": "Manejo sencillo de metadatos",
+      "content": "{{ProdShortName}} te permite agregar, editar o eliminar campos de metadatos en tus aplicaciones {{ProgLang}}."
+    },
+    "feature_2": {
+      "title": "Control total sobre los metadatos",
+      "content": "Utiliza la API para encontrar, ver y modificar datos ocultos almacenados en varios formatos de archivos empresariales."
+    },
+    "feature_3": {
+      "title": "Usa etiquetas {{FileFormatUp}} integradas",
+      "content": "Accede y trabaja con metadatos existentes como etiquetas EXIF en imágenes, incluyendo información como tipo de cámara, dimensiones o fecha de captura."
+    },
+    "code_1": {
+      "title": "Editar metadatos MP3: Actualizar letras",
+      "content": "Este ejemplo muestra cómo cambiar metadatos en un archivo MP3, incluyendo letras y campos personalizados.",
+      "comment_1": "Abre el archivo usando {{TextMetadata}}",
+      "comment_2": "Modifica la etiqueta de letras",
+      "comment_3": "Añade cualquier campo de metadatos personalizado según sea necesario",
+      "comment_4": "Guarda los cambios en el archivo"
+    }
+  }
+}

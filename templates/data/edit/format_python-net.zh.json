@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "使用 {{ProgLang}} 编辑 {{FileformatCap}} 文件中的元数据",
+    "description": "使用 {{ProgLang}} API 修改 {{FileformatCap}} 文件中的元数据。支持 XMP、EXIF、IPTC、ID3 和其他元数据格式。"
+  },
+  "header": {
+    "title": "使用 {{ProgLang}} 修改 {{FileformatCap}} 文件中的元数据",
+    "description": "在常见的文档、图像和多媒体格式中编辑元数据。执行读取、更新和删除元数据等关键操作。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "下载免费试用版"
+  },
+  "about": {
+    "title": "{{ProdFullName}} API 介绍",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 提供强大的工具，用于在 {{ProgLang}} 中管理元数据。它允许您读取、更新、删除、搜索、比较和导出文件中的元数据，无需额外的软件。使用该 API 处理 PDF、Microsoft Office 文档、Outlook 邮件、Visio 图表、AutoCAD 图纸、归档文件和媒体文件中的元数据。轻松将灵活的元数据功能集成到任何 {{ProdShortName}} 应用程序中。"
+  },
+  "formats": {
+    "title": "编辑其他文件类型中的元数据",
+    "description": "适用于 {{ProgLang}} 的跨格式元数据编辑 API。支持处理许多流行的文档和图像类型，具体如下。"
+  },
+  "examples": {
+    "comment_1": "更改 {{FileFormatUp}} 文件的创建日期",
+    "comment_2": "设定查找哪些元数据需要更新的规则",
+    "comment_3": "为选定属性分配新值",
+    "comment_4": "更新文件的创建时间戳",
+    "comment_5": "保存更新后的 {{FileFormatUp}} 文件"
+  },
+  "steps": {
+    "title": "如何使用 {{ProgLang}} 编辑 {{FileFormatUp}} 文件中的元数据",
+    "content": {
+      "title": "使用 [{{ProdFullName}}]({{ProductUrl}})，{{ProgLang}} 开发人员可以通过以下简单步骤更新 {{FileFormatUp}} 文件中的元数据：",
+      "step_1": "使用 {{TextMetadata}} 类加载 {{FileFormatUp}} 文件。",
+      "step_2": "定义条件以过滤您想要更改的元数据。",
+      "step_3": "应用筛选器并设置新值。",
+      "step_4": "将更新后的 {{FileFormatUp}} 文件保存到磁盘。"
+    }
+  },
+  "more_features": {
+    "title": "使用 {{ProgLang}} 编辑 {{FileFormatUp}} 文件中的元数据",
+    "description": "使用 {{ProdShortName}}，您可以在 {{ProgLang}} 应用中轻松管理文档元数据。以编程方式添加、修改、搜索或移除元数据。",
+    "image_description": "元数据编辑工具",
+    "feature_1": {
+      "title": "简单的元数据处理",
+      "content": "{{ProdShortName}} 让您在 {{ProgLang}} 应用程序中轻松添加、编辑或删除元数据字段。"
+    },
+    "feature_2": {
+      "title": "对元数据的完全控制",
+      "content": "使用 API 查找、查看和修改存储在各种业务文件格式中的隐含数据。"
+    },
+    "feature_3": {
+      "title": "使用内置的 {{FileFormatUp}} 标签",
+      "content": "访问并处理现有元数据，如图像中的 EXIF 标签，包括相机型号、尺寸或拍摄日期等信息。"
+    },
+    "code_1": {
+      "title": "编辑 MP3 元数据：更新歌词",
+      "content": "此示例展示了如何更改 MP3 文件中的元数据，包括歌词和自定义字段。",
+      "comment_1": "使用 {{TextMetadata}} 打开文件",
+      "comment_2": "修改歌词标签",
+      "comment_3": "根据需要添加任何自定义元数据字段",
+      "comment_4": "保存对文件所做的更改"
+    }
+  }
+}

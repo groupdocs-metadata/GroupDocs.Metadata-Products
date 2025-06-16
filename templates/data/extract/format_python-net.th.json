@@ -1,0 +1,60 @@
+{
+  "head": {
+    "title": "เข้าถึงและดึงข้อมูล Metadata จากไฟล์ {{FileFormatUp}} ใน {{ProgLang}}",
+    "description": "API ที่ไม่ขึ้นกับแพลตฟอร์มสำหรับ {{ProgLang}} เพื่ออ่านและดึงข้อมูล metadata จากไฟล์ {{FileFormatUp}} รองรับ XMP, EXIF, IPTC, ID3 และอื่น ๆ."
+  },
+  "header": {
+    "title": "อ่าน Metadata จาก {{FileFormatUp}} โดยใช้ {{ProgLang}}",
+    "description": "ใช้ {{ProdFullName}} ดึงข้อมูล metadata จากเอกสาร, รูปภาพ, เสียง และไฟล์วิดีโอ.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "ดาวน์โหลดทดลองใช้ฟรี"
+  },
+  "about": {
+    "title": "เกี่ยวกับ API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) มอบเครื่องมือที่ทรงพลังในการทำงานกับ metadata ใน {{ProgLang}} คุณสามารถอ่าน, อัปเดต, ลบ, ค้นหา, เปรียบเทียบ, และส่งออก metadata จากเอกสารและรูปภาพ - ทั้งหมดนี้ไม่ต้องการซอฟต์แวร์เพิ่มเติม ดึงข้อมูล metadata จากไฟล์เช่น PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, AutoCAD, ไฟล์เก็บถาวร และรูปแบบสื่อ และทำงานกับข้อมูลตามที่คุณต้องการ."
+  },
+  "formats": {
+    "title": "การดึงข้อมูล Metadata จากไฟล์รูปแบบอื่น ๆ",
+    "description": "API การอ่าน metadata ที่ยืดหยุ่นสำหรับ {{ProgLang}} ทำงานกับหลายประเภทไฟล์ยอดนิยม ดูไฟล์ที่รองรับบางส่วนด้านล่าง."
+  },
+  "examples": {
+    "comment_1": "ดึงข้อมูล metadata จากไฟล์ {{FileFormatUp}}",
+    "comment_2": "กำหนดประเภท metadata ที่คุณต้องการดึง",
+    "comment_3": "กรองและอ่าน metadata จากกลุ่มที่เลือก",
+    "comment_4": "วนลูปผ่านรายการ metadata และแสดงผล"
+  },
+  "steps": {
+    "title": "วิธีการดึงข้อมูล Metadata จาก {{FileFormatUp}} โดยใช้ {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) ช่วยนักพัฒนา {{ProgLang}} ดึงข้อมูล metadata จากไฟล์ {{FileFormatUp}} ด้วยขั้นตอนง่าย ๆ เพียงไม่กี่ขั้นตอน:",
+      "step_1": "เปิดไฟล์ {{FileFormatUp}} โดยใช้อินสแตนซ์คลาส {{ProgLang}}.",
+      "step_2": "กำหนดประเภท metadata ที่ต้องการค้นหา.",
+      "step_3": "ค้นหาข้อมูล metadata ที่ตรงกัน.",
+      "step_4": "วนลูปและจัดการกับ metadata ที่พบ."
+    }
+  },
+  "more_features": {
+    "title": "ค้นหา Metadata ไฟล์ด้วย {{ProdShortName}}",
+    "description": "ค้นหาและจัดการ metadata ที่ซ่อนอยู่ในไฟล์ที่ละเอียดอ่อนโดยใช้แอพ {{ProgLang}} ที่ขับเคลื่อนด้วยเครื่องมือ {{ProdShortName}}.",
+    "image_description": "สำรวจ Metadata ด้วยเครื่องมือ {{ProgLang}}",
+    "feature_1": {
+      "title": "การค้นหาข้อมูล Metadata ขั้นสูงใน {{ProgLang}}",
+      "content": "ใช้ {{ProdShortName}} เพื่อค้นหาและจัดระเบียบ metadata ในโปรเจกต์ {{ProgLang}} ของคุณได้อย่างรวดเร็ว เหมาะสำหรับการจัดการข้อมูลที่ฝังอยู่และข้อมูลที่ซ่อนอยู่."
+    },
+    "feature_2": {
+      "title": "กำหนด Metadata ด้วยฟิลเตอร์",
+      "content": "จำกัดการค้นหาของคุณโดยใช้ฟิลเตอร์ เช่น คำสำคัญ, วันที่, หรือรูปแบบ ค้นหาข้อมูล metadata ที่คุณต้องการได้โดยไม่ต้องทำงานซ้ำซ้อน."
+    },
+    "feature_3": {
+      "title": "จัดการ Metadata ที่ดึงออกมาได้ง่าย",
+      "content": "ใช้ {{ProgLang}} ในการอัปเดตหรือลบ metadata เมื่อตรวจพบ {{ProdShortName}} มอบความควบคุมเต็มรูปแบบในประเภทไฟล์ที่รองรับ."
+    },
+    "code_1": {
+      "title": "ดึงข้อมูล Metadata จากไฟล์ 3DS ใน {{ProgLang}}",
+      "content": "ตัวอย่างนี้แสดงวิธีการอ่าน metadata กราฟิกเวกเตอร์จากไฟล์ 3DS.",
+      "comment_1": "เปิดไฟล์ 3DS โดยใช้ {{TextMetadata}}",
+      "comment_2": "รับข้อมูล metadata ที่มีอยู่",
+      "comment_3": "ใช้ข้อมูล metadata ในตรรกะของแอพพลิเคชันของคุณ"
+    }
+  }
+}

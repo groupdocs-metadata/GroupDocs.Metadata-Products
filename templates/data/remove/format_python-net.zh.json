@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "从 {{FileFormatUp}} 文件中清除元数据，适用于 {{ProgLang}} 应用",
+    "description": "使用 {{ProgLang}} API 从 {{FileFormatUp}} 文件中删除元数据。支持 XMP、EXIF、IPTC、ID3 等多种格式。"
+  },
+  "header": {
+    "title": "使用 {{ProgLang}} 删除 {{FileFormatUp}} 中的元数据",
+    "description": "通过 {{ProdFullName}} API 从文档、图像、音频和视频文件中删除元数据。",
+    "subtitle": "{{ProdFullName}} API",
+    "action_title": "免费下载试用版"
+  },
+  "about": {
+    "title": "{{ProdFullName}} 是什么？",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 为开发人员提供了一种强大的方式来处理元数据——无需第三方软件。您可以读取、更新、删除、搜索、比较、替换并导出文档和媒体文件中的元数据。清除 PDF、Word 文档、Excel 表格、PowerPoint 幻灯片、Outlook 消息、OneNote、Visio、Project、AutoCAD 图纸、档案及多媒体格式中的元数据。"
+  },
+  "formats": {
+    "title": "从其他文件类型中删除元数据",
+    "description": "为 {{ProgLang}} 提供灵活的元数据删除 API，支持许多常见文件格式。以下是一些支持的类型。"
+  },
+  "examples": {
+    "comment_1": "从 {{FileFormatUp}} 文件中擦除元数据",
+    "comment_2": "清除所有元数据条目",
+    "comment_3": "显示已删除条目的数量",
+    "comment_4": "保存干净的版本"
+  },
+  "steps": {
+    "title": "如何在 {{ProgLang}} 中从 {{FileFormatUp}} 删除元数据",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) 使开发人员通过遵循几个步骤轻松清理 {{FileFormatUp}} 文件中的元数据。",
+      "step_1": "使用 {{TextMetadata}} 类打开 {{FileFormatUp}} 文件。",
+      "step_2": "删除加载文件中的所有元数据。",
+      "step_3": "处理清理过程的结果。",
+      "step_4": "以 {{FileFormatUp}} 格式保存更新后的文件。"
+    }
+  },
+  "more_features": {
+    "title": "智能元数据清理工具",
+    "description": "使用我们的 API 整理文件元数据，使您的文档更易于管理、搜索和保护。",
+    "image_description": "轻松文档元数据清理",
+    "feature_1": {
+      "title": "快速元数据预览",
+      "content": "即时查看关键元数据细节，如作者、创建时间和其他属性。"
+    },
+    "feature_2": {
+      "title": "简单元数据编辑",
+      "content": "直接编辑元数据，以保持文档整齐且易于搜索。"
+    },
+    "feature_3": {
+      "title": "全面的元数据控制",
+      "content": "轻松添加自定义字段，删除敏感数据，确保元数据干净且一致。"
+    },
+    "code_1": {
+      "title": "从 DOCX 文件中移除个人信息",
+      "content": "此示例演示如何从 Word 文档中清除个人元数据。",
+      "comment_1": "加载您想要编辑的文档",
+      "comment_2": "选择要删除的元数据类型",
+      "comment_3": "清除选定的元数据",
+      "comment_4": "清理后保存文档"
+    }
+  }
+}

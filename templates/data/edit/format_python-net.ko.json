@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "{{ProgLang}}를 사용하여 {{FileformatCap}} 파일의 메타데이터 수정",
+    "description": "{{ProgLang}} API를 사용하여 {{FileformatCap}} 파일의 메타데이터를 수정하세요. XMP, EXIF, IPTC, ID3 및 기타 메타데이터 형식을 지원합니다."
+  },
+  "header": {
+    "title": "{{ProgLang}}로 {{FileformatCap}} 파일의 메타데이터 수정",
+    "description": "일반적인 문서, 이미지 및 멀티미디어 형식에서 메타데이터를 편집합니다. 메타데이터 읽기, 업데이트 및 삭제와 같은 주요 작업을 수행하세요.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "무료 체험 다운로드"
+  },
+  "about": {
+    "title": "{{ProdFullName}} API에 대하여",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})는 {{ProgLang}}에서 메타데이터를 관리하기 위한 강력한 도구를 제공합니다. 추가 소프트웨어 없이 파일에서 메타데이터를 읽고, 업데이트하고, 삭제하고, 검색하고, 비교하고, 내보낼 수 있습니다. API를 사용하여 PDF, Microsoft Office 문서, Outlook 이메일, Visio 다이어그램, AutoCAD 도면, 아카이브 및 미디어 파일의 메타데이터를 작업하세요. 유연한 메타데이터 기능을 모든 {{ProdShortName}} 애플리케이션에 통합할 수 있습니다."
+  },
+  "formats": {
+    "title": "다른 파일 형식에서 메타데이터 수정",
+    "description": "{{ProgLang}}를 위한 크로스 포맷 메타데이터 편집 API. 아래에 표시된 여러 인기 문서 및 이미지 유형의 메타데이터 처리를 지원합니다."
+  },
+  "examples": {
+    "comment_1": "{{FileFormatUp}} 파일의 생성 날짜 변경",
+    "comment_2": "어떤 메타데이터를 업데이트할지 찾기 위한 규칙 설정",
+    "comment_3": "선택한 속성에 새 값을 할당",
+    "comment_4": "파일의 생성 타임스탬프 업데이트",
+    "comment_5": "업데이트된 {{FileFormatUp}} 파일 저장"
+  },
+  "steps": {
+    "title": "{{ProgLang}}를 사용하여 {{FileFormatUp}} 파일의 메타데이터 수정 방법",
+    "content": {
+      "title": "[{{ProdFullName}}]({{ProductUrl}})를 사용하여 {{ProgLang}} 개발자는 다음 간단한 단계에 따라 {{FileFormatUp}} 파일의 메타데이터를 업데이트할 수 있습니다:",
+      "step_1": "{{TextMetadata}} 클래스를 사용하여 {{FileFormatUp}} 파일을 로드합니다.",
+      "step_2": "변경할 메타데이터를 필터링할 조건을 정의합니다.",
+      "step_3": "필터를 적용하고 새 값을 설정합니다.",
+      "step_4": "업데이트된 {{FileFormatUp}} 파일을 디스크에 저장합니다."
+    }
+  },
+  "more_features": {
+    "title": "{{ProgLang}}로 {{FileFormatUp}} 파일의 메타데이터 수정",
+    "description": "{{ProdShortName}}를 사용하면 {{ProgLang}} 앱에서 문서 메타데이터를 관리할 수 있습니다. 프로그래밍적으로 메타데이터를 추가, 변경, 검색 또는 삭제하세요.",
+    "image_description": "메타데이터 편집 도구",
+    "feature_1": {
+      "title": "간편한 메타데이터 처리",
+      "content": "{{ProdShortName}}를 통해 {{ProgLang}} 애플리케이션에서 메타데이터 필드를 추가, 편집 또는 삭제할 수 있습니다."
+    },
+    "feature_2": {
+      "title": "메타데이터에 대한 완전한 제어",
+      "content": "API를 사용하여 다양한 비즈니스 파일 형식에 저장된 숨겨진 데이터를 찾고, 보고, 수정하세요."
+    },
+    "feature_3": {
+      "title": "내장된 {{FileFormatUp}} 태그 사용",
+      "content": "카메라 종류, 크기, 촬영 날짜와 같은 정보를 포함하여 이미지의 EXIF 태그와 같은 기존 메타데이터에 접근하고 작업하세요."
+    },
+    "code_1": {
+      "title": "MP3 메타데이터 편집: 가사 업데이트",
+      "content": "이 샘플은 MP3 파일의 메타데이터, including 가사 및 사용자 정의 필드를 수정하는 방법을 보여줍니다.",
+      "comment_1": "{{TextMetadata}}를 사용하여 파일 열기",
+      "comment_2": "가사 태그 수정",
+      "comment_3": "필요한 경우 사용자 정의 메타데이터 필드 추가",
+      "comment_4": "파일에 변경 사항 저장"
+    }
+  }
+}

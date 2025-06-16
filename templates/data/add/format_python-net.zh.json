@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "使用{{ProgLang}}为{{FileFormatUp}}文件添加元数据",
+    "description": "利用{{ProgLang}} API将元数据插入到{{FileFormatUp}}文件中。处理XMP、EXIF、IPTC、ID3等标准。"
+  },
+  "header": {
+    "title": "在{{ProgLang}}中为{{FileFormatUp}}文件添加元数据",
+    "description": "使用{{ProdFullName}} API将自定义元数据插入多种文档、图像、音频和视频格式中。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "下载免费试用"
+  },
+  "about": {
+    "title": "{{ProdFullName}} API简介",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) 提供了一套强大的工具，用于处理元数据。开发人员可以查看、编辑、删除、搜索、比较和导出各种文档和媒体格式的元数据，无需使用第三方工具。可为PDF、Microsoft Office文件、Outlook、Visio、AutoCAD、归档文件和多媒体文件添加元数据。将灵活的元数据功能集成到任何{{ProdShortName}}应用程序中。"
+  },
+  "formats": {
+    "title": "支持添加元数据的格式",
+    "description": "使用{{ProdShortName}}为多种格式的文档和图像添加元数据。以下是一些常见的支持文件类型。"
+  },
+  "examples": {
+    "comment_1": "使用{{TextMetadata}}类加载文件",
+    "comment_2": "添加包含作者姓名的元数据属性",
+    "comment_3": "运行元数据更新",
+    "comment_4": "保存带有新元数据的文件"
+  },
+  "steps": {
+    "title": "如何在{{ProgLang}}中为{{FileformatCap}}添加元数据",
+    "content": {
+      "title": "使用[{{ProdShortName}}]({{PlatformLink}})，在{{ProgLang}}应用程序中向{{FileFormatUp}}文件添加元数据非常简单。只需按照以下步骤进行。",
+      "step_1": "打开要更新的{{FileFormatUp}}文件。",
+      "step_2": "定义要添加的元数据键和值。",
+      "step_3": "应用更改。",
+      "step_4": "保存更新后的文件。"
+    }
+  },
+  "more_features": {
+    "title": "轻松管理文档元数据",
+    "description": "我们的API简化了元数据的处理。查看、修改和组织文档属性，以改善文件管理和搜索。",
+    "image_description": "编辑元数据的功能",
+    "feature_1": {
+      "title": "访问元数据",
+      "content": "快速读取和分析任何文件的元数据。获取作者姓名、创建时间等信息。"
+    },
+    "feature_2": {
+      "title": "编辑元数据",
+      "content": "直接更改元数据——更新标签，以保持文件良好的组织和可搜索性。"
+    },
+    "feature_3": {
+      "title": "高级元数据功能",
+      "content": "进一步处理元数据——添加自定义字段、删除未使用的信息，保持一致性。"
+    },
+    "code_1": {
+      "title": "向TIFF文件添加自定义元数据",
+      "content": "此代码示例展示了如何在TIFF图像中插入自定义元数据标签。",
+      "comment_1": "打开TIFF图像",
+      "comment_2": "定义元数据键和值",
+      "comment_3": "添加元数据",
+      "comment_4": "保存更新后的图像"
+    }
+  }
+}

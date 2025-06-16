@@ -98,7 +98,7 @@
     "format-actions": {
       "title": "始める準備はできていますか?",
       "description": "{{ProdShortName}} の機能を無料で試すか、ライセンスをリクエストしてください",
-      "comment_1": "{{パッケージストア名}}のダウンロード",
+      "comment_1": "{{PackageStoreName}}のダウンロード",
       "comment_2": "ライセンス"
     },
     "texts": {

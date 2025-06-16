@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Metadaten in {{FileformatCap}}-Dateien mit {{ProgLang}} bearbeiten",
+    "description": "Verwenden Sie die {{ProgLang}}-API, um Metadaten in {{FileformatCap}}-Dateien zu ändern. Unterstützt XMP, EXIF, IPTC, ID3 und andere Metadatenformate."
+  },
+  "header": {
+    "title": "Metadaten in {{FileformatCap}}-Dateien mit {{ProgLang}} ändern",
+    "description": "Bearbeiten Sie Metadaten in gängigen Dokumenten-, Bild- und Multimediaformaten. Führen Sie wichtige Operationen wie Lesen, Aktualisieren und Entfernen von Metadaten durch.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlose Testversion herunterladen"
+  },
+  "about": {
+    "title": "Über die {{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) bietet leistungsstarke Werkzeuge zur Verwaltung von Metadaten in {{ProgLang}}. Es ermöglicht Ihnen, Metadaten aus Dateien zu lesen, zu aktualisieren, zu löschen, zu suchen, zu vergleichen und zu exportieren, ohne zusätzliche Software zu benötigen. Verwenden Sie die API, um mit Metadaten in PDFs, Microsoft Office-Dokumenten, Outlook-E-Mails, Visio-Diagrammen, AutoCAD-Zeichnungen, Archiven und Mediendateien zu arbeiten. Integrieren Sie flexible Metadatenfunktionen in jede {{ProdShortName}}-Anwendung."
+  },
+  "formats": {
+    "title": "Metadaten in anderen Dateitypen bearbeiten",
+    "description": "Eine plattformübergreifende API zur Bearbeitung von Metadaten für {{ProgLang}}. Unterstützt die Verwaltung von Metadaten für viele gängige Dokumenten- und Bildtypen, wie unten gezeigt."
+  },
+  "examples": {
+    "comment_1": "Ändern Sie das Erstellungsdatum einer {{FileFormatUp}}-Datei",
+    "comment_2": "Legen Sie die Regeln fest, um herauszufinden, welche Metadaten aktualisiert werden sollen",
+    "comment_3": "Weisen Sie der ausgewählten Eigenschaft einen neuen Wert zu",
+    "comment_4": "Aktualisieren Sie den Zeitstempel der Datei",
+    "comment_5": "Speichern Sie die aktualisierte {{FileFormatUp}}-Datei"
+  },
+  "steps": {
+    "title": "Wie man Metadaten in {{FileFormatUp}}-Dateien mit {{ProgLang}} bearbeitet",
+    "content": {
+      "title": "Mit [{{ProdFullName}}]({{ProductUrl}}) können {{ProgLang}}-Entwickler Metadaten in {{FileFormatUp}}-Dateien durch Befolgung dieser einfachen Schritte aktualisieren:",
+      "step_1": "Laden Sie die {{FileFormatUp}}-Datei mit der {{TextMetadata}}-Klasse.",
+      "step_2": "Definieren Sie eine Bedingung, um die Metadaten zu filtern, die Sie ändern möchten.",
+      "step_3": "Wenden Sie den Filter an und setzen Sie den neuen Wert.",
+      "step_4": "Speichern Sie die aktualisierte {{FileFormatUp}}-Datei auf der Festplatte."
+    }
+  },
+  "more_features": {
+    "title": "Metadaten in {{FileFormatUp}}-Dateien mit {{ProgLang}} bearbeiten",
+    "description": "Mit {{ProdShortName}} können Sie Metadaten von Dokumenten in Ihren {{ProgLang}}-Apps verwalten. Fügen Sie programmgesteuert Metadaten hinzu, ändern Sie sie, suchen Sie danach oder entfernen Sie sie.",
+    "image_description": "Werkzeuge zur Metadatenbearbeitung",
+    "feature_1": {
+      "title": "Einfache Handhabung von Metadaten",
+      "content": "{{ProdShortName}} ermöglicht es Ihnen, Metadatenfelder in Ihren {{ProgLang}}-Anwendungen hinzuzufügen, zu bearbeiten oder zu löschen."
+    },
+    "feature_2": {
+      "title": "Vollständige Kontrolle über Metadaten",
+      "content": "Verwenden Sie die API, um versteckte Daten in verschiedenen geschäftlichen Dateiformaten zu finden, anzuzeigen und zu ändern."
+    },
+    "feature_3": {
+      "title": "Verwendung von integrierten {{FileFormatUp}}-Tags",
+      "content": "Greifen Sie auf vorhandene Metadaten wie EXIF-Tags in Bildern zu und arbeiten Sie mit Informationen wie Kameratyp, Abmessungen oder Aufnahmedatum."
+    },
+    "code_1": {
+      "title": "MP3-Metadaten bearbeiten: Texte aktualisieren",
+      "content": "Dieses Beispiel zeigt, wie Metadaten in einer MP3-Datei geändert werden, einschließlich Texte und benutzerdefinierte Felder.",
+      "comment_1": "Öffnen Sie die Datei mit {{TextMetadata}}",
+      "comment_2": "Ändern Sie das Textfeld",
+      "comment_3": "Fügen Sie bei Bedarf benutzerdefinierte Metadatenfelder hinzu",
+      "comment_4": "Speichern Sie die Änderungen in der Datei"
+    }
+  }
+}

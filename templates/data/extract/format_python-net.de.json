@@ -1,0 +1,60 @@
+{
+  "head": {
+    "title": "Zugriff auf und Extraktion von Metadaten aus {{FileFormatUp}}-Dateien in {{ProgLang}}",
+    "description": "Plattformunabhängige {{ProgLang}}-API zum Lesen und Abrufen von Metadaten aus {{FileFormatUp}}-Dateien. Kompatibel mit XMP, EXIF, IPTC, ID3 und mehr."
+  },
+  "header": {
+    "title": "Metadaten aus {{FileFormatUp}} mit {{ProgLang}} lesen",
+    "description": "Nutzen Sie {{ProdFullName}}, um Metadaten aus Dokumenten, Bildern, Audio- und Video-Dateien zu extrahieren.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenlose Testversion herunterladen"
+  },
+  "about": {
+    "title": "Über die {{ProdFullName}} API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) bietet leistungsstarke Werkzeuge zur Arbeit mit Metadaten in {{ProgLang}}. Sie können Metadaten aus Dokumenten und Bildern lesen, aktualisieren, löschen, suchen, vergleichen und exportieren, ohne zusätzliche Software zu benötigen. Ziehen Sie Metadaten aus Dateien wie PDF, Word, Excel, PowerPoint, Outlook, OneNote, Visio, AutoCAD, Archiven und Medienformaten und arbeiten Sie damit, wie es erforderlich ist."
+  },
+  "formats": {
+    "title": "Metadaten aus anderen Dateiformaten extrahieren",
+    "description": "Eine flexible API zum Lesen von Metadaten für {{ProgLang}}. Funktioniert mit vielen beliebten Dateitypen. Siehe unten einige unterstützte Formate."
+  },
+  "examples": {
+    "comment_1": "Metadaten aus einer {{FileFormatUp}}-Datei abrufen",
+    "comment_2": "Festlegen, welche Art von Metadaten Sie extrahieren möchten",
+    "comment_3": "Metadaten aus einer gewählten Gruppe filtern und lesen",
+    "comment_4": "Durchlaufen der Metadaten-Einträge und Ausgabe"
+  },
+  "steps": {
+    "title": "Wie man Metadaten aus {{FileFormatUp}} mit {{ProgLang}} extrahiert",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) hilft {{ProgLang}}-Entwicklern, Metadaten aus {{FileFormatUp}}-Dateien mit nur wenigen Schritten zu extrahieren:",
+      "step_1": "{{ProgLang}}-Instanz verwenden, um die {{FileFormatUp}}-Datei zu öffnen.",
+      "step_2": "Definieren, welche Art von Metadaten gesucht werden soll.",
+      "step_3": "Nach passenden Metadaten-Einträgen suchen.",
+      "step_4": "Durchlaufen und Verarbeiten der gefundenen Metadaten."
+    }
+  },
+  "more_features": {
+    "title": "Datei-Metadaten mit {{ProdShortName}} durchsuchen",
+    "description": "Finden und Verarbeiten verborgener Metadaten in sensiblen Dateien mit {{ProgLang}}-Apps, die vom {{ProdShortName}}-Toolkit unterstützt werden.",
+    "image_description": "Metadaten mit {{ProgLang}}-Tools erkunden",
+    "feature_1": {
+      "title": "Erweiterte Metadatensuche in {{ProgLang}}",
+      "content": "Nutzen Sie {{ProdShortName}}, um Metadaten in Ihren {{ProgLang}}-Projekten schnell zu suchen und zu organisieren. Ideal, um eingebettete und verborgene Daten zu behandeln."
+    },
+    "feature_2": {
+      "title": "Metadaten mit Filtern gezielt ansprechen",
+      "content": "Schränken Sie Ihre Suche mit Filtern wie Schlüsselwörtern, Daten oder Mustern ein. Finden Sie die genauen Metadaten, die Sie benötigen, ohne zusätzlichen Aufwand."
+    },
+    "feature_3": {
+      "title": "Extrahierte Metadaten einfach verwalten",
+      "content": "Verwenden Sie {{ProgLang}}, um Metadaten zu aktualisieren oder zu entfernen, sobald sie gefunden wurden. {{ProdShortName}} gibt Ihnen die vollständige Kontrolle über die unterstützten Dateiformate."
+    },
+    "code_1": {
+      "title": "Metadaten aus 3DS-Dateien in {{ProgLang}} extrahieren",
+      "content": "Dieses Beispiel zeigt, wie man Metadaten von Vektorgrafiken aus einer 3DS-Datei liest.",
+      "comment_1": "Öffnen Sie die 3DS-Datei mit {{TextMetadata}}",
+      "comment_2": "Alle verfügbaren eingebauten Metadaten abrufen",
+      "comment_3": "Verwenden Sie die Metadaten in Ihrer Anwendungslogik"
+    }
+  }
+}

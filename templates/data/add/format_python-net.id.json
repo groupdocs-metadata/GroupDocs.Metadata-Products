@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "Tambahkan Metadata ke Berkas {{FileFormatUp}} Menggunakan {{ProgLang}}",
+    "description": "Gunakan API {{ProgLang}} untuk menyisipkan metadata ke dalam berkas {{FileFormatUp}}. Bekerja dengan standar seperti XMP, EXIF, IPTC, ID3, dan banyak lagi."
+  },
+  "header": {
+    "title": "Tambahkan Metadata ke Berkas {{FileFormatUp}} dalam {{ProgLang}}",
+    "description": "Gunakan API {{ProdFullName}} untuk menyisipkan metadata khusus ke dalam berbagai jenis dokumen, gambar, audio, dan format video.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh Uji Coba Gratis"
+  },
+  "about": {
+    "title": "Tentang API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) menyediakan seperangkat alat yang kuat untuk bekerja dengan metadata. Pengembang dapat melihat, mengedit, menghapus, mencari, membandingkan, dan mengekspor metadata dari berbagai dokumen dan format media—tanpa memerlukan alat pihak ketiga. Tambahkan metadata ke PDF, berkas Microsoft Office, Outlook, Visio, AutoCAD, arsip, dan berkas multimedia. Bangun fitur metadata yang fleksibel ke dalam aplikasi {{ProdShortName}} mana pun."
+  },
+  "formats": {
+    "title": "Format yang Didukung untuk Menambahkan Metadata",
+    "description": "Tambahkan metadata ke dokumen dan gambar dalam berbagai format menggunakan {{ProdShortName}}. Berikut adalah beberapa jenis berkas yang umum didukung."
+  },
+  "examples": {
+    "comment_1": "Muat berkas menggunakan kelas {{TextMetadata}}",
+    "comment_2": "Tambahkan properti metadata dengan nama penulis",
+    "comment_3": "Jalankan pembaruan metadata",
+    "comment_4": "Simpan berkas dengan metadata baru"
+  },
+  "steps": {
+    "title": "Cara Menambahkan Metadata ke {{FileformatCap}} dalam {{ProgLang}}",
+    "content": {
+      "title": "Dengan [{{ProdShortName}}]({{PlatformLink}}), menambahkan metadata ke berkas {{FileFormatUp}} dalam aplikasi {{ProgLang}} sangatlah jelas. Cukup ikuti langkah-langkah ini.",
+      "step_1": "Buka berkas {{FileFormatUp}} yang ingin Anda perbarui.",
+      "step_2": "Tentukan kunci dan nilai metadata yang ingin ditambahkan.",
+      "step_3": "Terapkan perubahan.",
+      "step_4": "Simpan berkas yang telah diperbarui."
+    }
+  },
+  "more_features": {
+    "title": "Kelola Metadata Dokumen dengan Mudah",
+    "description": "API kami menyederhanakan pengelolaan metadata. Lihat, ubah, dan atur properti dokumen untuk meningkatkan manajemen berkas dan pencarian.",
+    "image_description": "Fitur untuk Mengedit Metadata",
+    "feature_1": {
+      "title": "Akses Metadata",
+      "content": "Dengan cepat baca dan analisis metadata dari berkas apa pun. Dapatkan informasi seperti nama penulis, waktu pembuatan, dan lainnya."
+    },
+    "feature_2": {
+      "title": "Edit Metadata",
+      "content": "Ubah metadata secara langsung—perbarui tag untuk menjaga berkas tetap terorganisir dan mudah dicari."
+    },
+    "feature_3": {
+      "title": "Fitur Metadata Lanjutan",
+      "content": "Lakukan lebih banyak dengan metadata—tambahkan bidang khusus, hapus informasi yang tidak terpakai, dan jaga semuanya konsisten."
+    },
+    "code_1": {
+      "title": "Tambahkan Metadata Khusus ke Berkas TIFF",
+      "content": "Contoh kode ini menunjukkan cara menyisipkan tag metadata khusus ke dalam gambar TIFF.",
+      "comment_1": "Buka gambar TIFF",
+      "comment_2": "Tentukan kunci dan nilai metadata",
+      "comment_3": "Tambahkan metadata",
+      "comment_4": "Simpan gambar yang telah diperbarui"
+    }
+  }
+}

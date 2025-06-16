@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "{{ProgLang}} アプリで {{FileFormatUp}} ファイルのクリーンなメタデータを削除",
+    "description": "{{ProgLang}} API を使用して {{FileFormatUp}} ファイルからメタデータを削除します。XMP、EXIF、IPTC、ID3 などの形式をサポートしています。"
+  },
+  "header": {
+    "title": "{{ProgLang}} を使用して {{FileFormatUp}} のメタデータを削除",
+    "description": "{{ProdFullName}} API を使用して文書、画像、音声、動画ファイルからメタデータを削除します。",
+    "subtitle": "{{ProdFullName}} API",
+    "action_title": "無料トライアルをダウンロード"
+  },
+  "about": {
+    "title": "{{ProdFullName}} とは？",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) は、開発者がサードパーティのソフトウェアなくメタデータを操作するための強力な手段を提供します。文書やメディアファイルからメタデータを読み込み、更新し、削除し、検索、比較、置き換え、エクスポートできます。PDF、Word 文書、Excel シート、PowerPoint スライド、Outlook メッセージ、OneNote、Visio、プロジェクト、AutoCAD 図面、アーカイブ、マルチメディア形式からメタデータをクリーンアップします。"
+  },
+  "formats": {
+    "title": "他のファイルタイプからのメタデータ削除",
+    "description": "{{ProgLang}} 向けの柔軟なメタデータ削除 API が多くの一般的なファイル形式をサポートします。以下にサポートされているタイプのいくつかを示します。"
+  },
+  "examples": {
+    "comment_1": "{{FileFormatUp}} ファイルからメタデータを消去する",
+    "comment_2": "すべてのメタデータエントリを削除する",
+    "comment_3": "削除された項目の数を表示する",
+    "comment_4": "クリーンバージョンを保存する"
+  },
+  "steps": {
+    "title": "{{ProgLang}} で {{FileFormatUp}} からメタデータを削除する方法",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) は、開発者が数ステップで {{FileFormatUp}} ファイルのメタデータをクリーンアップするのを簡素化します。",
+      "step_1": "{{TextMetadata}} クラスを使用して {{FileFormatUp}} ファイルを開きます。",
+      "step_2": "読み込んだファイル内のすべてのメタデータを削除します。",
+      "step_3": "クリーンアッププロセスの結果を処理します。",
+      "step_4": "{{FileFormatUp}} 形式で更新されたファイルを保存します。"
+    }
+  },
+  "more_features": {
+    "title": "スマートなメタデータクリーンアップツール",
+    "description": "私たちの API を使用してファイルメタデータを整理し、文書を管理、検索、保護しやすくします。",
+    "image_description": "簡単なドキュメントメタデータクリーンアップ",
+    "feature_1": {
+      "title": "高速メタデータプレビュー",
+      "content": "著者、作成日時、その他のプロパティなどの主要なメタデータの詳細を即座に確認できます。"
+    },
+    "feature_2": {
+      "title": "シンプルなメタデータ編集",
+      "content": "文書を整理しやすく、検索しやすいようにメタデータを直接編集します。"
+    },
+    "feature_3": {
+      "title": "完全なメタデータ制御",
+      "content": "カスタムフィールドを追加、機密データを削除し、メタデータがクリーンで一貫性があることを保証します。"
+    },
+    "code_1": {
+      "title": "DOCXファイルから個人情報を削除する",
+      "content": "この例は、Word 文書から個人メタデータをクリーンアップする方法を示しています。",
+      "comment_1": "編集したい文書を読み込む",
+      "comment_2": "削除するメタデータの種類を選択",
+      "comment_3": "選択したメタデータをクリア",
+      "comment_4": "クリーンアップ後に文書を保存"
+    }
+  }
+}

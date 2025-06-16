@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "Limpiar Metadatos de Archivos {{FileFormatUp}} en Aplicaciones {{ProgLang}}",
+    "description": "Utiliza la API de {{ProgLang}} para eliminar metadatos de archivos {{FileFormatUp}}. Soporta formatos como XMP, EXIF, IPTC, ID3, y otros."
+  },
+  "header": {
+    "title": "Eliminar Metadatos en {{FileFormatUp}} Usando {{ProgLang}}",
+    "description": "Remueve metadatos de documentos, imágenes, archivos de audio y video con la API de {{ProdFullName}}.",
+    "subtitle": "API de {{ProdFullName}}",
+    "action_title": "Descargar Prueba Gratuita"
+  },
+  "about": {
+    "title": "¿Qué es {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) ofrece a los desarrolladores una manera poderosa de trabajar con metadatos—sin necesidad de software de terceros. Puedes leer, actualizar, eliminar, buscar, comparar, reemplazar y exportar metadatos de documentos y archivos multimedia. Limpia metadatos de PDFs, documentos de Word, hojas de Excel, diapositivas de PowerPoint, mensajes de Outlook, OneNote, Visio, Project, dibujos de AutoCAD, archivos comprimidos y formatos multimedia."
+  },
+  "formats": {
+    "title": "Eliminación de Metadatos de Otros Tipos de Archivos",
+    "description": "Una API flexible para la eliminación de metadatos en {{ProgLang}} que soporta muchos formatos de archivo comunes. A continuación se muestran algunos de los tipos soportados."
+  },
+  "examples": {
+    "comment_1": "Borrar metadatos de un archivo {{FileFormatUp}}",
+    "comment_2": "Eliminar todas las entradas de metadatos",
+    "comment_3": "Mostrar el conteo de elementos eliminados",
+    "comment_4": "Guardar la versión limpia"
+  },
+  "steps": {
+    "title": "Cómo Eliminar Metadatos de {{FileFormatUp}} en {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) facilita a los desarrolladores limpiar metadatos de archivos {{FileFormatUp}} siguiendo unos pocos pasos.",
+      "step_1": "Abre el archivo {{FileFormatUp}} usando la clase {{TextMetadata}}.",
+      "step_2": "Elimina todos los metadatos en el archivo cargado.",
+      "step_3": "Maneja el resultado del proceso de limpieza.",
+      "step_4": "Guarda el archivo actualizado en formato {{FileFormatUp}}."
+    }
+  },
+  "more_features": {
+    "title": "Herramientas Inteligentes para la Limpieza de Metadatos",
+    "description": "Utiliza nuestra API para ordenar los metadatos de los archivos, facilitando la gestión, búsqueda y seguridad de tus documentos.",
+    "image_description": "Limpieza de Metadatos de Documentos",
+    "feature_1": {
+      "title": "Vista Previa Rápida de Metadatos",
+      "content": "Visualiza instantáneamente detalles clave de los metadatos como el autor, la fecha de creación y otras propiedades."
+    },
+    "feature_2": {
+      "title": "Edición Sencilla de Metadatos",
+      "content": "Edita metadatos directamente para mantener tus documentos bien organizados y buscables."
+    },
+    "feature_3": {
+      "title": "Control Total de Metadatos",
+      "content": "Agrega fácilmente campos personalizados, elimina datos sensibles y asegura que los metadatos estén limpios y consistentes."
+    },
+    "code_1": {
+      "title": "Eliminar Información Personal de un Archivo DOCX",
+      "content": "Este ejemplo muestra cómo limpiar metadatos personales de un documento de Word.",
+      "comment_1": "Cargar el documento que deseas editar",
+      "comment_2": "Elegir el tipo de metadatos a eliminar",
+      "comment_3": "Limpiar los metadatos seleccionados",
+      "comment_4": "Guardar el documento después de la limpieza"
+    }
+  }
+}

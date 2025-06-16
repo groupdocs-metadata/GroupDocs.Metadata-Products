@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Edit Metadata dalam Berkas {{FileformatCap}} Menggunakan {{ProgLang}}",
+    "description": "Gunakan API {{ProgLang}} untuk mengubah metadata dalam berkas {{FileformatCap}}. Mendukung format metadata XMP, EXIF, IPTC, ID3, dan lainnya."
+  },
+  "header": {
+    "title": "Modifikasi Metadata dalam Berkas {{FileformatCap}} dengan {{ProgLang}}",
+    "description": "Ubah metadata pada format dokumen, gambar, dan multimedia yang umum. Lakukan operasi penting seperti membaca, memperbarui, dan menghapus metadata.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Unduh Versi Percobaan Gratis"
+  },
+  "about": {
+    "title": "Tentang API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) menyediakan alat yang kuat untuk mengelola metadata dalam {{ProgLang}}. API ini memungkinkan Anda membaca, memperbarui, menghapus, mencari, membandingkan, dan mengekspor metadata dari berkas tanpa memerlukan perangkat lunak tambahan. Gunakan API ini untuk bekerja dengan metadata dalam file PDF, dokumen Microsoft Office, email Outlook, diagram Visio, gambar AutoCAD, arsip, dan berkas media. Integrasikan fitur metadata yang fleksibel ke dalam aplikasi {{ProdShortName}} kapan saja."
+  },
+  "formats": {
+    "title": "Edit Metadata dalam Jenis Berkas Lain",
+    "description": "API pengeditan metadata lintas format untuk {{ProgLang}}. Mendukung penanganan metadata untuk banyak jenis dokumen dan gambar populer seperti yang ditunjukkan di bawah ini."
+  },
+  "examples": {
+    "comment_1": "Ubah tanggal pembuatan berkas {{FileFormatUp}}",
+    "comment_2": "Tetapkan aturan untuk menemukan metadata mana yang akan diperbarui",
+    "comment_3": "Tetapkan nilai baru untuk properti yang dipilih",
+    "comment_4": "Perbarui stempel waktu pembuatan berkas",
+    "comment_5": "Simpan berkas {{FileFormatUp}} yang telah diperbarui"
+  },
+  "steps": {
+    "title": "Cara Mengedit Metadata dalam Berkas {{FileFormatUp}} Menggunakan {{ProgLang}}",
+    "content": {
+      "title": "Dengan [{{ProdFullName}}]({{ProductUrl}}), pengembang {{ProgLang}} dapat memperbarui metadata dalam berkas {{FileFormatUp}} dengan mengikuti langkah-langkah sederhana berikut:",
+      "step_1": "Muat berkas {{FileFormatUp}} menggunakan kelas {{TextMetadata}}.",
+      "step_2": "Tentukan kondisi untuk memfilter metadata yang ingin diubah.",
+      "step_3": "Terapkan filter dan tetapkan nilai baru.",
+      "step_4": "Simpan berkas {{FileFormatUp}} yang telah diperbarui ke disk."
+    }
+  },
+  "more_features": {
+    "title": "Edit Metadata dalam Berkas {{FileFormatUp}} dengan {{ProgLang}}",
+    "description": "Dengan {{ProdShortName}}, Anda dapat mengelola metadata dokumen dalam aplikasi {{ProgLang}} Anda. Tambah, ubah, cari, atau hapus metadata secara programatis.",
+    "image_description": "Alat untuk Pengeditan Metadata",
+    "feature_1": {
+      "title": "Penanganan Metadata Sederhana",
+      "content": "{{ProdShortName}} memungkinkan Anda menambah, mengedit, atau menghapus bidang metadata dalam aplikasi {{ProgLang}} Anda."
+    },
+    "feature_2": {
+      "title": "Kontrol Penuh Atas Metadata",
+      "content": "Gunakan API untuk menemukan, melihat, dan memodifikasi data tersembunyi yang disimpan dalam berbagai format berkas bisnis."
+    },
+    "feature_3": {
+      "title": "Gunakan Tag {{FileFormatUp}} Bawaan",
+      "content": "Akses dan bekerja dengan metadata yang ada seperti tag EXIF dalam gambar, termasuk informasi seperti tipe kamera, dimensi, atau tanggal pengambilan."
+    },
+    "code_1": {
+      "title": "Edit Metadata MP3: Perbarui Lirik",
+      "content": "Contoh ini menunjukkan cara mengganti metadata dalam berkas MP3, termasuk lirik dan bidang khusus.",
+      "comment_1": "Buka berkas menggunakan {{TextMetadata}}",
+      "comment_2": "Modifikasi tag lirik",
+      "comment_3": "Tambahkan bidang metadata khusus sesuai kebutuhan",
+      "comment_4": "Simpan perubahan ke dalam berkas"
+    }
+  }
+}

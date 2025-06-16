@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "{{ProgLang}}を使用して{{FileFormatUp}}ファイルにメタデータを追加",
+    "description": "{{ProgLang}} APIを使用して{{FileFormatUp}}ファイルにメタデータを挿入します。XMP、EXIF、IPTC、ID3などの標準と連携します。"
+  },
+  "header": {
+    "title": "{{ProgLang}}で{{FileFormatUp}}ファイルにメタデータを追加",
+    "description": "{{ProdFullName}} APIを使用して多様なドキュメント、画像、音声、ビデオ形式にカスタムメタデータを挿入します。",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "無料トライアルをダウンロード"
+  },
+  "about": {
+    "title": "{{ProdFullName}} APIについて",
+    "content": "[{{ProdFullName}}]({{PlatformLink}})は、メタデータを操作するための強力なツールセットを提供します。開発者は、幅広いドキュメントやメディア形式からメタデータを表示、編集、削除、検索、比較、エクスポートできます—サードパーティのツールを必要とせずに。PDF、Microsoft Officeファイル、Outlook、Visio、AutoCAD、アーカイブ、マルチメディアファイルなどにメタデータを追加します。あらゆる{{ProdShortName}}アプリケーションに柔軟なメタデータ機能を構築できます。"
+  },
+  "formats": {
+    "title": "メタデータ追加に対応するフォーマット",
+    "description": "{{ProdShortName}}を使用して、複数のフォーマットのドキュメントや画像にメタデータを追加します。以下は、一般的にサポートされているファイルタイプの一覧です。"
+  },
+  "examples": {
+    "comment_1": "{{TextMetadata}}クラスを使用してファイルを読み込む",
+    "comment_2": "著者名を含むメタデータプロパティを追加",
+    "comment_3": "メタデータの更新を実行",
+    "comment_4": "新しいメタデータでファイルを保存"
+  },
+  "steps": {
+    "title": "{{ProgLang}}で{{FileformatCap}}にメタデータを追加する方法",
+    "content": {
+      "title": "[{{ProdShortName}}]({{PlatformLink}})を使用すると、{{ProgLang}}アプリで{{FileFormatUp}}ファイルにメタデータを追加するのは簡単です。以下のステップに従ってください。",
+      "step_1": "更新したい{{FileFormatUp}}ファイルを開きます。",
+      "step_2": "追加するメタデータのキーと値を定義します。",
+      "step_3": "変更を適用します。",
+      "step_4": "更新されたファイルを保存します。"
+    }
+  },
+  "more_features": {
+    "title": "ドキュメントメタデータを簡単に管理",
+    "description": "当社のAPIはメタデータの処理を簡素化します。ファイル管理と検索を改善するために、ドキュメントプロパティを表示、変更、整理できます。",
+    "image_description": "メタデータ編集の機能",
+    "feature_1": {
+      "title": "メタデータにアクセス",
+      "content": "任意のファイルからメタデータを迅速に読み取り、分析します。著者名、作成時間などの情報を取得します。"
+    },
+    "feature_2": {
+      "title": "メタデータを編集",
+      "content": "メタデータを直接変更します—ファイルの整理や検索性を向上させるためにタグを更新します。"
+    },
+    "feature_3": {
+      "title": "高度なメタデータ機能",
+      "content": "メタデータをより活用—カスタムフィールドを追加し、未使用の情報を削除して、一貫性を保ちます。"
+    },
+    "code_1": {
+      "title": "TIFFファイルにカスタムメタデータを追加",
+      "content": "このコードサンプルは、TIFF画像にカスタムメタデータタグを挿入する方法を示しています。",
+      "comment_1": "TIFF画像を開く",
+      "comment_2": "メタデータのキーと値を定義",
+      "comment_3": "メタデータを追加",
+      "comment_4": "更新された画像を保存"
+    }
+  }
+}

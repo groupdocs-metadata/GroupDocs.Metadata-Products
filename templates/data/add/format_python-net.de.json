@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "Metadaten zu {{FileFormatUp}}-Dateien mit {{ProgLang}} hinzufügen",
+    "description": "Verwenden Sie die {{ProgLang}}-API, um Metadaten in {{FileFormatUp}}-Dateien einzufügen. Arbeiten Sie mit Standards wie XMP, EXIF, IPTC, ID3 und mehr."
+  },
+  "header": {
+    "title": "Metadaten zu {{FileFormatUp}}-Dateien in {{ProgLang}} hinzufügen",
+    "description": "Nutzen Sie die API von {{ProdFullName}}, um benutzerdefinierte Metadaten in verschiedene Dokumente, Bilder, Audio- und Videoformate einzufügen.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Kostenloses Testangebot herunterladen"
+  },
+  "about": {
+    "title": "Über die {{ProdFullName}}-API",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) bietet eine leistungsstarke Sammlung von Werkzeugen zur Arbeit mit Metadaten. Entwickler können Metadaten aus einer Vielzahl von Dokumenten und Medienformaten anzeigen, bearbeiten, löschen, durchsuchen, vergleichen und exportieren – ganz ohne Drittanbieter-Tools. Fügen Sie Metadaten zu PDFs, Microsoft Office-Dateien, Outlook, Visio, AutoCAD, Archiven und Multimedia-Dateien hinzu. Integrieren Sie flexible Metadatenfunktionen in jede {{ProdShortName}}-Anwendung."
+  },
+  "formats": {
+    "title": "Unterstützte Formate zum Hinzufügen von Metadaten",
+    "description": "Fügen Sie mit {{ProdShortName}} Metadaten zu Dokumenten und Bildern in mehreren Formaten hinzu. Im Folgenden sind einige häufig unterstützte Dateitypen aufgeführt."
+  },
+  "examples": {
+    "comment_1": "Laden Sie die Datei mit der {{TextMetadata}}-Klasse",
+    "comment_2": "Fügen Sie eine Metadateneigenschaft mit dem Namen des Autors hinzu",
+    "comment_3": "Führen Sie das Update der Metadaten aus",
+    "comment_4": "Speichern Sie die Datei mit den neuen Metadaten"
+  },
+  "steps": {
+    "title": "So fügen Sie Metadaten zu {{FileformatCap}} in {{ProgLang}} hinzu",
+    "content": {
+      "title": "Mit [{{ProdShortName}}]({{PlatformLink}}) ist das Hinzufügen von Metadaten zu {{FileFormatUp}}-Dateien in {{ProgLang}}-Apps unkompliziert. Befolgen Sie einfach diese Schritte.",
+      "step_1": "Öffnen Sie die {{FileFormatUp}}-Datei, die Sie aktualisieren möchten.",
+      "step_2": "Definieren Sie den Schlüssel und den Wert für die Metadaten, die Sie hinzufügen möchten.",
+      "step_3": "Wenden Sie die Änderungen an.",
+      "step_4": "Speichern Sie die aktualisierte Datei."
+    }
+  },
+  "more_features": {
+    "title": "Metadaten von Dokumenten verwalten",
+    "description": "Unsere API vereinfacht die Handhabung von Metadaten. Anzeigen, Ändern und Organisieren von Dokumenteneigenschaften zur Verbesserung des Dateimanagements und der Suche.",
+    "image_description": "Funktionen zum Bearbeiten von Metadaten",
+    "feature_1": {
+      "title": "Zugriff auf Metadaten",
+      "content": "Lesen und analysieren Sie Metadaten aus jeder Datei. Erhalten Sie Informationen wie den Namen des Autors, Erstellungszeit und mehr."
+    },
+    "feature_2": {
+      "title": "Metadaten bearbeiten",
+      "content": "Ändern Sie Metadaten direkt – aktualisieren Sie Tags, um die Dateien gut organisiert und durchsuchbar zu halten."
+    },
+    "feature_3": {
+      "title": "Erweiterte Metadatenfunktionen",
+      "content": "Nutzen Sie mehr mit Metadaten – fügen Sie benutzerdefinierte Felder hinzu, entfernen Sie ungenutzte Informationen und halten Sie alles konsistent."
+    },
+    "code_1": {
+      "title": "Benutzerdefinierte Metadaten zu einer TIFF-Datei hinzufügen",
+      "content": "Dieses Codebeispiel zeigt, wie Sie einen benutzerdefinierten Metadateneintrag in ein TIFF-Bild einfügen.",
+      "comment_1": "Öffnen Sie das TIFF-Bild",
+      "comment_2": "Definieren Sie den Schlüssel und den Wert für die Metadaten",
+      "comment_3": "Fügen Sie die Metadaten hinzu",
+      "comment_4": "Speichern Sie das aktualisierte Bild"
+    }
+  }
+}

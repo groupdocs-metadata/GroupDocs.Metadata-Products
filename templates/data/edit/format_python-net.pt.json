@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Editar Metadados em Arquivos {{FileformatCap}} Usando {{ProgLang}}",
+    "description": "Use a API {{ProgLang}} para modificar metadados em arquivos {{FileformatCap}}. Suporta formatos de metadados como XMP, EXIF, IPTC, ID3 e outros."
+  },
+  "header": {
+    "title": "Modificar Metadados em Arquivos {{FileformatCap}} com {{ProgLang}}",
+    "description": "Edite metadados em formatos comuns de documentos, imagens e multimídia. Realize operações essenciais como leitura, atualização e remoção de metadados.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Baixar Versão de teste Gratuita"
+  },
+  "about": {
+    "title": "Sobre a API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) fornece ferramentas poderosas para gerenciar metadados em {{ProgLang}}. Permite ler, atualizar, deletar, pesquisar, comparar e exportar metadados de arquivos sem precisar de software adicional. Utilize a API para trabalhar com metadados em PDFs, documentos do Microsoft Office, e-mails do Outlook, diagramas do Visio, desenhos do AutoCAD, arquivos compactados, e arquivos de mídia. Integre facilmente recursos flexíveis de metadados em qualquer aplicativo {{ProdShortName}}."
+  },
+  "formats": {
+    "title": "Editar Metadados em Outros Tipos de Arquivos",
+    "description": "Uma API de edição de metadados entre formatos para {{ProgLang}}. Suporta o gerenciamento de metadados para muitos tipos populares de documentos e imagens, conforme mostrado abaixo."
+  },
+  "examples": {
+    "comment_1": "Mudar a data de criação de um arquivo {{FileFormatUp}}",
+    "comment_2": "Definir as regras para encontrar quais metadados atualizar",
+    "comment_3": "Atribuir um novo valor à propriedade selecionada",
+    "comment_4": "Atualizar o timestamp de criação do arquivo",
+    "comment_5": "Salvar o arquivo {{FileFormatUp}} atualizado"
+  },
+  "steps": {
+    "title": "Como Editar Metadados em Arquivos {{FileFormatUp}} Usando {{ProgLang}}",
+    "content": {
+      "title": "Com [{{ProdFullName}}]({{ProductUrl}}), desenvolvedores {{ProgLang}} podem atualizar metadados em arquivos {{FileFormatUp}} seguindo estes passos simples:",
+      "step_1": "Carregar o arquivo {{FileFormatUp}} usando a classe {{TextMetadata}}.",
+      "step_2": "Definir uma condição para filtrar os metadados que você deseja alterar.",
+      "step_3": "Aplicar o filtro e definir o novo valor.",
+      "step_4": "Salvar o arquivo {{FileFormatUp}} atualizado no disco."
+    }
+  },
+  "more_features": {
+    "title": "Editar Metadados em Arquivos {{FileFormatUp}} com {{ProgLang}}",
+    "description": "Com {{ProdShortName}}, você pode gerenciar metadados de documentos em seus aplicativos {{ProgLang}}. Adicione, altere, pesquise ou remova metadados programaticamente.",
+    "image_description": "Ferramentas para Edição de Metadados",
+    "feature_1": {
+      "title": "Manipulação Simples de Metadados",
+      "content": "{{ProdShortName}} permite adicionar, editar ou deletar campos de metadados em suas aplicações {{ProgLang}}."
+    },
+    "feature_2": {
+      "title": "Controle Completo sobre os Metadados",
+      "content": "Use a API para encontrar, visualizar e modificar dados ocultos armazenados em vários formatos de arquivos corporativos."
+    },
+    "feature_3": {
+      "title": "Usar Tags {{FileFormatUp}} Integradas",
+      "content": "Acesse e trabalhe com metadados existentes, como tags EXIF em imagens, incluindo informações como tipo de câmera, dimensões ou data de captura."
+    },
+    "code_1": {
+      "title": "Editar Metadados de MP3: Atualizar Letra",
+      "content": "Este exemplo mostra como alterar metadados em um arquivo MP3, incluindo letras e campos personalizados.",
+      "comment_1": "Abra o arquivo usando {{TextMetadata}}",
+      "comment_2": "Modifique a tag de letra",
+      "comment_3": "Adicione quaisquer campos de metadados personalizados conforme necessário",
+      "comment_4": "Salve as alterações no arquivo"
+    }
+  }
+}

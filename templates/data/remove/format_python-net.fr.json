@@ -1,0 +1,61 @@
+{
+  "head": {
+    "title": "Supprimer les métadonnées des fichiers {{FileFormatUp}} dans les applications {{ProgLang}}",
+    "description": "Utilisez l'API {{ProgLang}} pour supprimer les métadonnées des fichiers {{FileFormatUp}}. Prend en charge des formats comme XMP, EXIF, IPTC, ID3, et d'autres."
+  },
+  "header": {
+    "title": "Supprimez les métadonnées dans {{FileFormatUp}} en utilisant {{ProgLang}}",
+    "description": "Retirez les métadonnées des documents, images, fichiers audio et vidéo avec l'API {{ProdFullName}}.",
+    "subtitle": "API {{ProdFullName}}",
+    "action_title": "Téléchargez l'essai gratuit"
+  },
+  "about": {
+    "title": "Qu'est-ce que {{ProdFullName}}?",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) offre aux développeurs un moyen puissant de travailler avec les métadonnées, sans avoir besoin de logiciels tiers. Vous pouvez lire, mettre à jour, supprimer, rechercher, comparer, remplacer et exporter des métadonnées à partir de documents et de fichiers multimédias. Nettoyez les métadonnées des PDF, documents Word, feuilles Excel, diapositives PowerPoint, messages Outlook, OneNote, Visio, Project, dessins AutoCAD, archives et formats multimédias."
+  },
+  "formats": {
+    "title": "Suppression des métadonnées d'autres types de fichiers",
+    "description": "Une API flexible de suppression des métadonnées pour {{ProgLang}} qui prend en charge de nombreux formats de fichiers courants. Découvrez certains des types pris en charge ci-dessous."
+  },
+  "examples": {
+    "comment_1": "Effacez les métadonnées d'un fichier {{FileFormatUp}}",
+    "comment_2": "Supprimez toutes les entrées de métadonnées",
+    "comment_3": "Affichez le nombre d'éléments supprimés",
+    "comment_4": "Enregistrez la version propre"
+  },
+  "steps": {
+    "title": "Comment supprimer les métadonnées d'un {{FileFormatUp}} dans {{ProgLang}}",
+    "content": {
+      "title": "[{{ProdShortName}}]({{ProductUrl}}) permet aux développeurs de nettoyer facilement les métadonnées des fichiers {{FileFormatUp}} en suivant quelques étapes.",
+      "step_1": "Ouvrez le fichier {{FileFormatUp}} en utilisant la classe {{TextMetadata}}.",
+      "step_2": "Supprimez toutes les métadonnées du fichier chargé.",
+      "step_3": "Gérez le résultat du processus de nettoyage.",
+      "step_4": "Enregistrez le fichier mis à jour au format {{FileFormatUp}}."
+    }
+  },
+  "more_features": {
+    "title": "Outils intelligents de nettoyage des métadonnées",
+    "description": "Utilisez notre API pour nettoyer les métadonnées de fichier, rendant vos documents plus faciles à gérer, rechercher, et sécuriser.",
+    "image_description": "Nettoyage facile des métadonnées des documents",
+    "feature_1": {
+      "title": "Aperçu rapide des métadonnées",
+      "content": "Voyez instantanément les détails clés des métadonnées comme l'auteur, la date de création, et d'autres propriétés."
+    },
+    "feature_2": {
+      "title": "Édition simple des métadonnées",
+      "content": "Éditez les métadonnées directement pour garder vos documents bien organisés et faciles à chercher."
+    },
+    "feature_3": {
+      "title": "Contrôle total des métadonnées",
+      "content": "Ajoutez facilement des champs personnalisés, supprimez les données sensibles, et assurez-vous que les métadonnées sont propres et cohérentes."
+    },
+    "code_1": {
+      "title": "Supprimer des informations personnelles d'un fichier DOCX",
+      "content": "Cet exemple montre comment nettoyer les métadonnées personnelles d'un document Word.",
+      "comment_1": "Chargez le document que vous souhaitez modifier",
+      "comment_2": "Choisissez le type de métadonnées à supprimer",
+      "comment_3": "Effacez les métadonnées sélectionnées",
+      "comment_4": "Enregistrez le document après nettoyage"
+    }
+  }
+}

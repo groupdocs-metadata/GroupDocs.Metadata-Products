@@ -1,0 +1,62 @@
+{
+  "head": {
+    "title": "Chỉnh sửa siêu dữ liệu trong các tệp {{FileformatCap}} bằng {{ProgLang}}",
+    "description": "Sử dụng API {{ProgLang}} để chỉnh sửa siêu dữ liệu trong các tệp {{FileformatCap}}. Hỗ trợ các định dạng siêu dữ liệu như XMP, EXIF, IPTC, ID3 và các định dạng khác."
+  },
+  "header": {
+    "title": "Chỉnh sửa siêu dữ liệu trong các tệp {{FileformatCap}} bằng {{ProgLang}}",
+    "description": "Chỉnh sửa siêu dữ liệu trên các định dạng tài liệu, hình ảnh và đa phương tiện phổ biến. Thực hiện các thao tác chính như đọc, cập nhật và xóa siêu dữ liệu.",
+    "subtitle": "{{ProdFullName}}",
+    "action_title": "Tải xuống phiên bản dùng thử miễn phí"
+  },
+  "about": {
+    "title": "Giới thiệu về API {{ProdFullName}}",
+    "content": "[{{ProdFullName}}]({{PlatformLink}}) cung cấp các công cụ mạnh mẽ để quản lý siêu dữ liệu trong {{ProgLang}}. Nó cho phép bạn đọc, cập nhật, xóa, tìm kiếm, so sánh và xuất siêu dữ liệu từ các tệp mà không cần phần mềm bổ sung. Sử dụng API để làm việc với siêu dữ liệu trong các tệp PDF, tài liệu Microsoft Office, email Outlook, sơ đồ Visio, bản vẽ AutoCAD, lưu trữ và tệp phương tiện. Tích hợp các tính năng siêu dữ liệu linh hoạt vào bất kỳ ứng dụng {{ProdShortName}} nào."
+  },
+  "formats": {
+    "title": "Chỉnh sửa siêu dữ liệu trong các loại tệp khác",
+    "description": "API chỉnh sửa siêu dữ liệu đa định dạng cho {{ProgLang}}. Hỗ trợ xử lý siêu dữ liệu cho nhiều loại tài liệu và hình ảnh phổ biến như dưới đây."
+  },
+  "examples": {
+    "comment_1": "Thay đổi ngày tạo của tệp {{FileFormatUp}}",
+    "comment_2": "Thiết lập các quy tắc để tìm siêu dữ liệu nào cần cập nhật",
+    "comment_3": "Gán một giá trị mới cho thuộc tính đã chọn",
+    "comment_4": "Cập nhật dấu thời gian tạo của tệp",
+    "comment_5": "Lưu tệp {{FileFormatUp}} đã được cập nhật"
+  },
+  "steps": {
+    "title": "Cách chỉnh sửa siêu dữ liệu trong các tệp {{FileFormatUp}} bằng {{ProgLang}}",
+    "content": {
+      "title": "Với [{{ProdFullName}}]({{ProductUrl}}), các nhà phát triển {{ProgLang}} có thể cập nhật siêu dữ liệu trong các tệp {{FileFormatUp}} bằng cách làm theo các bước đơn giản sau:",
+      "step_1": "Tải tệp {{FileFormatUp}} bằng cách sử dụng lớp {{TextMetadata}}.",
+      "step_2": "Định nghĩa một điều kiện để lọc siêu dữ liệu mà bạn muốn thay đổi.",
+      "step_3": "Áp dụng bộ lọc và đặt giá trị mới.",
+      "step_4": "Lưu tệp {{FileFormatUp}} đã được cập nhật vào đĩa."
+    }
+  },
+  "more_features": {
+    "title": "Chỉnh sửa siêu dữ liệu trong các tệp {{FileFormatUp}} bằng {{ProgLang}}",
+    "description": "Với {{ProdShortName}}, bạn có thể quản lý siêu dữ liệu tài liệu trong các ứng dụng {{ProgLang}} của mình. Thêm, thay đổi, tìm kiếm hoặc xóa siêu dữ liệu một cách lập trình.",
+    "image_description": "Công cụ chỉnh sửa siêu dữ liệu",
+    "feature_1": {
+      "title": "Quản lý siêu dữ liệu đơn giản",
+      "content": "{{ProdShortName}} cho phép bạn thêm, chỉnh sửa hoặc xóa các trường siêu dữ liệu trong các ứng dụng {{ProgLang}} của bạn."
+    },
+    "feature_2": {
+      "title": "Kiểm soát toàn diện đối với siêu dữ liệu",
+      "content": "Sử dụng API để tìm, xem và chỉnh sửa dữ liệu ẩn lưu trữ trong nhiều định dạng tệp doanh nghiệp khác nhau."
+    },
+    "feature_3": {
+      "title": "Sử dụng các thẻ {{FileFormatUp}} tích hợp sẵn",
+      "content": "Truy cập và làm việc với siêu dữ liệu hiện có như thẻ EXIF trong hình ảnh, bao gồm thông tin như loại camera, kích thước hoặc ngày chụp."
+    },
+    "code_1": {
+      "title": "Chỉnh sửa siêu dữ liệu MP3: Cập nhật lời bài hát",
+      "content": "Mẫu này cho thấy cách thay đổi siêu dữ liệu trong một tệp MP3, bao gồm lời bài hát và các trường tùy chỉnh.",
+      "comment_1": "Mở tệp bằng {{TextMetadata}}",
+      "comment_2": "Chỉnh sửa thẻ lời bài hát",
+      "comment_3": "Thêm bất kỳ trường siêu dữ liệu tùy chỉnh nào nếu cần",
+      "comment_4": "Lưu các thay đổi vào tệp"
+    }
+  }
+}
