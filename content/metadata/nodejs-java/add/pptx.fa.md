@@ -53,7 +53,7 @@ steps:
    
     code:
       platform: "net"
-      copy_title: "کپی 🀄"
+      copy_title: "کپی"
       install:
         command: "npm i @groupdocs/groupdocs.metadata"
         copy_tip: "برای کپی کلیک کنید"
