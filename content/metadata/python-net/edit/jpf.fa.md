@@ -53,7 +53,7 @@ steps:
    
     code:
       platform: "net"
-      copy_title: "کپی 🀄"
+      copy_title: "کپی"
       install:
         command: |
         command: "pip install groupdocs-metadata-net"
