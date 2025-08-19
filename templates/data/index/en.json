@@ -59,18 +59,12 @@
         "comment_4": "Save cleaned document"
       },
       "sample_1": {
-        "code_title": "How to get specific document metadata",
-        "comment_1": "Load source document to Metadata constructor",
-        "comment_2": "Get all the properties that contains the name of the last document editor",
-        "comment_3": "or the date/time the document was last modified",
-        "comment_4": "Process retrieved metadata entries"
+        "code_title": "How to get specific DOCX metadata using Bash",
+        "comment_1": "Get value of DOCX property \"Author\""
       },
       "sample_2": {
-        "code_title": "How to add some missing metadata properties to a file regardless of its format.",
-        "comment_1": "Load source document",
-        "comment_2": "Add a property containing the file last printing date if it's missing",
-        "comment_3": "Property will be added if the document supports such type of metadata",
-        "comment_4": "Save modified document to a specified path"
+        "code_title": "How to clear particular image property with Windows Command Prompt.",
+        "comment_1": "Remove JPEG property 'CameraOwnerName'"
       }
     },
     "metrics": {
@@ -717,5 +711,144 @@
     "code_samples_sample_1_content": "Use {{ProdFullName}} API to retrieve inner [document metadata]({{Sample1Url}}):",
     "code_title_sample_2": "Hide Business Info in Documents",
     "code_samples_sample_2_content": "Use our solution to [add metadata]({{Sample2Url}}) to your documents:"
+  },
+  "index-content-cli": {
+    "head_title": "{{ProdCli}} to read, view, extract, remove and export metadata",
+    "head_description": "{{EnvNameShort}} metadata {{ProdCli}} to read, write, edit, analyze, search, extract, remove, compare & export metadata of PDF Word Excel PPTX Outlook Audio Video & Images.",
+    "title": "{{EnvNameShort}} {{ProdCli}} to Manage & Manipulate Metadata",
+    "description": "Build {{EnvNameShort}} Applications to Read, Edit, Remove, Retrieve, Search, Compare, Replace and Export Metadata Information of all Popular Documents & Image File Formats.",
+    "sample_top": {
+      "title": "Export PDF metadata to JSON",
+      "comment_1": "PowerShell script example:"
+    },
+    "overview_description": "Following is an overview of {{ProdFullName}}",
+    "overview_feature_1": {
+      "title": "{{ProgLang}} applications integration",
+      "description": "{{ProdFullName}} API is easy to integrate with {{ProgLang}}, {{AspNet}} and other {{EnvNameShort}} based applications to help your end-users manipulate metadata from a range of images, documents and other media file formats without installing any external software. The {{EnvNameShort}} metadata library supports building tools to quickly add metadata viewer, editor, remover, extractor, comparison and exporter functionalities within a number of industry standard document formats such as PDF, Microsoft Office Word, Excel spreadsheets, PowerPoint presentations, Outlook emails, Project, Visio diagrams, OneNote, images, AutoCAD, Photoshop, audio, video and metafiles."
+    },
+    "overview_feature_2": {
+      "title": "Various metadata types",
+      "description": "The Metadata API is very flexible and easy to operate with. It gets the document file as input, analyses the metadata information, allows to perform supported meta data operations and save the modified file to access quickly in future use. It works with most notable metadata standards such as built-in, XMP, EXIF, IPTC, Image Resource Blocks, ID3 and custom metadata properties. Through {{ProdFullName}} API, you can also compare two documents to identify differences and similarities present in their metadata properties. You can also export metadata of required documents to Excel, CSV or DataSet."
+    },
+    "overview_feature_3": {
+      "title": "All popular environments are supported",
+      "description": "{{ProdFullName}} can be used to develop applications in any development environment that targets {{EnvNameShort}} platform. It is compatible with all {{EnvNameShort}} based languages and supports popular operating systems (Windows, Linux, MacOS) where {{Mono}} or {{EnvNameShort}} frameworks (including {{CoreNet}}) can be installed."
+    },
+    "features": {
+      "title": "{{ProdFullName}} features",
+      "description": "Use Metadata to Protect PDF, Office, Images and other formats",
+      "feature_1": {
+        "title": "Identify Built-in & Custom Metadata",
+        "content": "Many file formats have mandatory metadata. Manipulate them as well as custom metadata for your own aims"
+      },
+      "feature_2": {
+        "title": "Find Photos Made on Specific Camera",
+        "content": "Get info about photos stored in metadata, including camera manufacturer, model, resolution, etc"
+      },
+      "feature_3": {
+        "title": "Ability to Detect/Remove Digital Signatures",
+        "content": "Find all digital metadata in your business files and remove what you need"
+      },
+      "feature_4": {
+        "title": "Photo Location",
+        "content": "Import image metadata properties and remove location info from photos"
+      },
+      "feature_5": {
+        "title": "Metadata Search",
+        "content": "Search metadata properties of files and enumerate any type of metadata"
+      },
+      "feature_6": {
+        "title": "Clean Business Data",
+        "content": "Remove metadata and comments from reports and documents"
+      },
+      "feature_7": {
+        "title": "Document Previews",
+        "content": "Generate image previews for EPUB, CAD, EML, and MSG files"
+      },
+      "feature_8": {
+        "title": "Matroska Multimedia Support",
+        "content": "Read Matroska subtitles and retrieve metadata of audio and video files"
+      },
+      "feature_9": {
+        "title": "Get Metadata of Archive Formats & Torrents",
+        "content": "Manipulate metadata of archive files like .ZIP and files with torrent data"
+      },
+      "feature_10": {
+        "title": "Run-time Recognition of Document File Type",
+        "content": "Our solution provides the ability to detect file or stream type before metadata processing"
+      },
+      "feature_11": {
+        "title": "Analyze Metadata Distinctions",
+        "content": "Compare metadata properties of supported formats and identify differences or similarities"
+      },
+      "feature_12": {
+        "title": "Reducing Memory Consumption of Documents & Images",
+        "content": "Clean documents and images from extra hidden data"
+      },
+      "feature_13": {
+        "title": "Control Office Documents",
+        "content": "Retrieve and remove hidden data in Microsoft Word, Excel, PowerPoint, and PDF files"
+      },
+      "feature_14": {
+        "title": "Replace Metadata Properties of Supported File Formats",
+        "content": "It is completely possible to get a list of suitable document metadata and replace the content of each entry"
+      },
+      "feature_15": {
+        "title": "TIFF Image Support",
+        "content": "Add, update, and delete IPTC metadata packages in TIFF images"
+      },
+      "feature_16": {
+        "title": "Microsoft Excel Support",
+        "content": "Extract metadata from Microsoft Excel files starting from Excel 95"
+      },
+      "feature_17": {
+        "title": "PNG Image Support",
+        "content": "Extract text metadata from PNG image files"
+      },
+      "feature_18": {
+        "title": "MIME Type Detection",
+        "content": "Detect the MIME type of a specific file or file stream"
+      },
+      "feature_19": {
+        "title": "Image Previews",
+        "content": "Retrieve thumbnails and render image previews for supported formats"
+      },
+      "feature_20": {
+        "title": "Matroska Multimedia Security",
+        "content": "Identify password protection and support for the Matroska multimedia container"
+      },
+      "feature_21": {
+        "title": "Built-In Metadata Support",
+        "content": "Use a defined key to read metadata properties of supported formats"
+      },
+      "feature_22": {
+        "title": "EXIF Image Metadata",
+        "content": "Update EXIF metadata properties in WEBP, PNG, and PSD files"
+      },
+      "feature_23": {
+        "title": "Emails & Fonts Support",
+        "content": "Read metadata of email messages and parse OpenType font files"
+      },
+      "feature_24": {
+        "title": "Multimedia Files Processing",
+        "content": "Extract XMP metadata properties in MOV, MP3, and WEBP files"
+      }
+    },
+    "platforms_description": "{{ProdFullName}} supports following Operating Systems, Frameworks & Package Managers:",
+    "formats_description": "{{ProdFullName}} supports following [document file formats]({{SupportedFormatsUrl}}).",
+    "code_samples_description": "Some use cases of typical {{ProdFullName}} operations",
+    "sample_bottom_1": {
+      "title": "Find hidden metadata",
+      "content": "To control inner document content you may find and process document metadata:",
+      "code_title": "How to get specific DOCX metadata using Bash",
+      "comment_1": "Get value of DOCX property \"Author\""
+    },
+    "sample_bottom_2": {
+      "title": "Secure documents content",
+      "content": "Remove hidden metadata from your business files in order to protect its content:",
+      "code_title": "How to clear particular image property with Windows Command Prompt.",
+      "comment_1": "Remove JPEG property 'CameraOwnerName'"
+    }
   }
+
 }
