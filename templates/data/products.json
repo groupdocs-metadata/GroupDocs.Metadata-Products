@@ -111,20 +111,21 @@
       "more_link": "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-Python-via-.NET/",
       "release_downloads": "https://releases.groupdocs.com/metadata/python-net/"
     },
-    "cli": {
+    "cli-net": {
       "environmentName": ".NET",
       "environmentNameShort": ".NET",
-      "productCli": "CLI",
+      "productCliFull": "GroupDocs.Metadata .NET CLI",
+      "productCliShort": ".NET CLI",
       "productCode": "cli",
       "productPlatformLink": "/metadata/cli/",
-      "productFullName": "GroupDocs.Metadata CLI",
+      "productFullName": "GroupDocs.Metadata for .NET",
 
       "programmingLanguage": "C#",
       "srcFileExt": ".cs",
       "syntax": "csharp",
       "runtime": "Frameworks: .NET Framework, .NET Standard, .NET Core, Mono",
 
-      "productUrl": "https://products.groupdocs.com/metadata/cli/",
+      "productUrl": "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-.NET-CLI/",
       "packageStoreName": "Nuget",
       "packageUrl": "https://www.nuget.org/packages/GroupDocs.Metadata",
       "pricesUrl": "https://purchase.groupdocs.com/pricing/metadata/net/",
@@ -133,7 +134,7 @@
       "sample1Url": "https://docs.groupdocs.com/metadata/net/find-metadata-properties/",
       "sample2Url": "https://docs.groupdocs.com/metadata/net/adding-metadata/",
 
-      "more_link": "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-.NET/",
+      "more_link": "https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-.NET-CLI/tree/master/src/GroupDocs.Metadata.Cli.Tests/",
       "release_downloads": "https://releases.groupdocs.com/metadata/net/"
     }
   }

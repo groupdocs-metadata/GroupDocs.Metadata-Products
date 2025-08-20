@@ -5,7 +5,7 @@ dimensions:
   values: [index] 
 
 - alias: product
-  values: [cli]
+  values: [cli-net]
 
 dictionaries: [ ..\\..\\data\\products.json ]
 

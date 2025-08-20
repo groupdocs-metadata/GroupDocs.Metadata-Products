@@ -4,8 +4,9 @@
 <% set "PackageUrl" (dict "products.{product}.packageUrl") %>
 <% set "PricesUrl" (dict "products.{product}.pricesUrl") %>
 <% set "ProdShortName" (dict "products.productShortName") %>
-<% set "ProdCli" (dict "products.{product}.productCli") %>
 <% set "ProdFullName" (dict "products.{product}.productFullName") %>
+<% set "ProdCliShort" (dict "products.{product}.productCliShort") %>
+<% set "ProdCliFull" (dict "products.{product}.productCliFull") %>
 <% set "EnvNameShort" (dict "products.{product}.environmentNameShort") %>
 <% set "ProgLang" (dict "products.{product}.programmingLanguage") %>
 <% set "AspNet" (dict "products.aspNet") %>

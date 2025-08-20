@@ -712,31 +712,32 @@
     "code_title_sample_2": "Hide Business Info in Documents",
     "code_samples_sample_2_content": "Use our solution to [add metadata]({{Sample2Url}}) to your documents:"
   },
-  "index-content-cli": {
-    "head_title": "{{ProdCli}} to read, view, extract, remove and export metadata",
-    "head_description": "{{EnvNameShort}} metadata {{ProdCli}} to read, write, edit, analyze, search, extract, remove, compare & export metadata of PDF Word Excel PPTX Outlook Audio Video & Images.",
-    "title": "{{EnvNameShort}} {{ProdCli}} to Manage & Manipulate Metadata",
-    "description": "Build {{EnvNameShort}} Applications to Read, Edit, Remove, Retrieve, Search, Compare, Replace and Export Metadata Information of all Popular Documents & Image File Formats.",
+  "index-content-cli-net": {
+    "head_title": "{{ProdCliShort}} to export, find, copy and remove metadata",
+    "head_description": "{{ProdCliFull}} is able export, find, copy and remove metadata across many famous file formats like PDF Word Excel Presentations Outlook Audio Video & Images etc.",
+    "title": "Manage & Manipulate Metadata with {{ProdCliFull}}",
+    "description": "Use {{ProdCliShort}} along with {{ProdShortName}} in order to Read, Export, Copy, Remove, etc Metadata of all Popular Documents & Image File Formats.",
     "sample_top": {
       "title": "Export PDF metadata to JSON",
       "comment_1": "PowerShell script example:"
     },
-    "overview_description": "Following is an overview of {{ProdFullName}}",
+    "overview_title": "{{ProdCliFull}} at a glance",
+    "overview_description": "Following is an overview of {{ProdCliFull}}",
     "overview_feature_1": {
-      "title": "{{ProgLang}} applications integration",
-      "description": "{{ProdFullName}} API is easy to integrate with {{ProgLang}}, {{AspNet}} and other {{EnvNameShort}} based applications to help your end-users manipulate metadata from a range of images, documents and other media file formats without installing any external software. The {{EnvNameShort}} metadata library supports building tools to quickly add metadata viewer, editor, remover, extractor, comparison and exporter functionalities within a number of industry standard document formats such as PDF, Microsoft Office Word, Excel spreadsheets, PowerPoint presentations, Outlook emails, Project, Visio diagrams, OneNote, images, AutoCAD, Photoshop, audio, video and metafiles."
+      "title": "Cross-platform integration with different apps",
+      "description": "{{ProdCliShort}} calls {{ProdFullName}} API and may be used in many types of applications written on many languages through command line interface. It provides powerful tools to manage metadata in documents, images, and media files without extra software. With {{ProdCliFull}} you can build tools to view, edit, clean, extract, compare, and export metadata from popular file types such as PDF, Microsoft Word, Excel, PowerPoint, Outlook emails, Project, Visio, OneNote, images, AutoCAD, Photoshop, audio, video, and metafiles."
     },
     "overview_feature_2": {
-      "title": "Various metadata types",
-      "description": "The Metadata API is very flexible and easy to operate with. It gets the document file as input, analyses the metadata information, allows to perform supported meta data operations and save the modified file to access quickly in future use. It works with most notable metadata standards such as built-in, XMP, EXIF, IPTC, Image Resource Blocks, ID3 and custom metadata properties. Through {{ProdFullName}} API, you can also compare two documents to identify differences and similarities present in their metadata properties. You can also export metadata of required documents to Excel, CSV or DataSet."
+      "title": "Process all major metadata types",
+      "description": "The {{ProdCliFull}} lets you read a file, inspect its metadata, apply changes, and save it for later use. It supports leading metadata standards including built-in, XMP, EXIF, IPTC, Image Resource Blocks, ID3, and custom properties. With {{ProdFullName}}, you can also compare metadata from two documents to spot differences or export metadata to Excel, CSV, or a DataSet for reporting."
     },
     "overview_feature_3": {
-      "title": "All popular environments are supported",
-      "description": "{{ProdFullName}} can be used to develop applications in any development environment that targets {{EnvNameShort}} platform. It is compatible with all {{EnvNameShort}} based languages and supports popular operating systems (Windows, Linux, MacOS) where {{Mono}} or {{EnvNameShort}} frameworks (including {{CoreNet}}) can be installed."
+      "title": "Support across environments",
+      "description": "{{ProdCliFull}} works in any development environment built for the {{EnvNameShort}} platform. Calling {{ProdCliFull}} is compatible with any languages and runs on Windows, Linux, and macOS where {{Mono}} or {{EnvNameShort}} frameworks (including {{CoreNet}}) are available."
     },
     "features": {
       "title": "{{ProdFullName}} features",
-      "description": "Use Metadata to Protect PDF, Office, Images and other formats",
+      "description": "Control Metadata in PDF, Office, Images and other formats",
       "feature_1": {
         "title": "Identify Built-in & Custom Metadata",
         "content": "Many file formats have mandatory metadata. Manipulate them as well as custom metadata for your own aims"
@@ -836,7 +837,8 @@
     },
     "platforms_description": "{{ProdFullName}} supports following Operating Systems, Frameworks & Package Managers:",
     "formats_description": "{{ProdFullName}} supports following [document file formats]({{SupportedFormatsUrl}}).",
-    "code_samples_description": "Some use cases of typical {{ProdFullName}} operations",
+    "code_samples_title": "{{ProdCliShort}} use cases",
+    "code_samples_description": "Some use cases of typical {{ProdCliFull}} operations",
     "sample_bottom_1": {
       "title": "Find hidden metadata",
       "content": "To control inner document content you may find and process document metadata:",
@@ -850,5 +852,4 @@
       "comment_1": "Remove JPEG property 'CameraOwnerName'"
     }
   }
-
 }
