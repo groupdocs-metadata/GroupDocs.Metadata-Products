@@ -59,12 +59,18 @@
         "comment_4": "Save cleaned document"
       },
       "sample_1": {
-        "code_title": "How to get specific DOCX metadata using Bash",
-        "comment_1": "Get value of DOCX property \"Author\""
+        "code_title": "How to get specific document metadata",
+        "comment_1": "Load source document to Metadata constructor",
+        "comment_2": "Get all the properties that contains the name of the last document editor",
+        "comment_3": "or the date/time the document was last modified",
+        "comment_4": "Process retrieved metadata entries"
       },
       "sample_2": {
-        "code_title": "How to clear particular image property with Windows Command Prompt.",
-        "comment_1": "Remove JPEG property 'CameraOwnerName'"
+        "code_title": "How to add some missing metadata properties to a file regardless of its format.",
+        "comment_1": "Load source document",
+        "comment_2": "Add a property containing the file last printing date if it's missing",
+        "comment_3": "Property will be added if the document supports such type of metadata",
+        "comment_4": "Save modified document to a specified path"
       }
     },
     "metrics": {
