@@ -27,6 +27,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Python"
       tag: "python-net"
+    # supported_platforms loop
+    - title: "CLI"
+      tag: "cli-net"
 
 ############################# Head ############################
 head_title: "<% "{index-content-python-net.head_title}" %>"
