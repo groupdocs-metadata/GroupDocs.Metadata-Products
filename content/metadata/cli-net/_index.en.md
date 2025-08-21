@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-08-21T12:39:53
+date: 2025-08-21T20:45:36
 draft: false
 
 lang: en
@@ -31,11 +31,11 @@ supported_platforms:
 
 ############################# Head ############################
 head_title: ".NET CLI to export, find, copy and remove metadata"
-head_description: "GroupDocs.Metadata .NET CLI lets you export, search, copy, and remove metadata across popular formats including documents, images, audio, and video files."
+head_description: "GroupDocs.Metadata .NET CLI helps you export, search, copy, and remove metadata from documents, images, audio, and video files. Control metadata easily using command prompt, PowerShell, Bash, and other tools."
 
 ############################# Header ############################
 title: "Handle Metadata Easily with GroupDocs.Metadata .NET CLI"
-description: "With .NET CLI powered by GroupDocs.Metadata, you can read, export, copy, and remove metadata from a wide range of document and image formats."
+description: "With .NET CLI powered by GroupDocs.Metadata, you can quickly read, export, copy, and remove metadata from popular document, image, and media formats."
 words:
   for: "for"
 
@@ -74,25 +74,25 @@ code:
 overview:
   enable: true
   title: "GroupDocs.Metadata .NET CLI overview"
-  description: "Here’s a quick look at GroupDocs.Metadata .NET CLI"
+  description: "A quick look at what GroupDocs.Metadata .NET CLI can do"
   features:
     # feature loop
     - title: "Cross-platform CLI integration"
-      content: ".NET CLI works with the GroupDocs.Metadata for .NET API and can be used from the command line in different apps and languages. It provides practical tools to view, edit, clean, extract, compare, and export metadata in documents, images, and media files without installing extra software."
+      content: ".NET CLI works with the GroupDocs.Metadata for .NET API and runs from the command line in PowerShell, Bash, Command Prompt, and other tools. It lets you view, edit, clean, extract, compare, and export metadata in documents, images, and media files without extra software."
 
     # feature loop
     - title: "Support for key metadata types"
-      content: "With GroupDocs.Metadata .NET CLI, you can open a file, review its metadata, apply changes, and save it again. It supports major standards like built-in, XMP, EXIF, IPTC, Image Resource Blocks, ID3, and custom tags. You can also compare metadata between two files or export it to Excel, CSV, or DataSet for reporting."
+      content: "With GroupDocs.Metadata .NET CLI, you can open a file, review its metadata, make changes, and save it again. It supports major standards including built-in, XMP, EXIF, IPTC, Image Resource Blocks, ID3, and custom tags. You can also compare metadata between two files or export it to Excel, CSV, or DataSet for reporting."
 
     # feature loop
-    - title: "Runs in all environments"
-      content: "GroupDocs.Metadata .NET CLI can be used in any environment that supports .NET. It works with different languages and is available on Windows, Linux, and macOS where Mono or .NET frameworks (including .NET Core) are installed."
+    - title: "Runs in any environment"
+      content: "GroupDocs.Metadata .NET CLI works anywhere .NET is supported. It runs with different languages and is available on Windows, Linux, and macOS where Mono or .NET frameworks (including .NET Core) are installed."
 
 ############################# Platforms ############################
 platforms:
   enable: true
   title: "Platform Independence"
-  description: "GroupDocs.Metadata for .NET works on multiple operating systems, frameworks, and package managers:"
+  description: "GroupDocs.Metadata .NET CLI works across multiple operating systems, frameworks, and command line tools:"
   items:
     # platform loop
     - title: "Amazon"
@@ -171,32 +171,32 @@ features:
     # feature loop
     - icon: "metadata_style"
       title: "Access built-in & custom metadata"
-      content: "Work with both standard metadata and your own custom properties in supported files."
+      content: "Work with standard metadata and custom properties across supported files."
 
     # feature loop
     - icon: "image_frame"
-      title: "Camera data in photos"
-      content: "View photo details stored in metadata, such as camera brand, model, and resolution."
+      title: "Camera details in photos"
+      content: "View photo details stored in metadata such as camera brand, model, and resolution."
 
     # feature loop
     - icon: "hidden_print"
       title: "Detect or remove digital signatures"
-      content: "Find embedded signatures in files and remove them if needed."
+      content: "Find digital signatures inside files and remove them if required."
 
     # feature loop
     - icon: "image_frame"
       title: "Photo geolocation"
-      content: "Check or remove GPS location data stored in image metadata."
+      content: "Check or remove GPS location data embedded in image metadata."
 
     # feature loop
     - icon: "detect"
       title: "Metadata search"
-      content: "Look through file properties and list any type of metadata."
+      content: "Search through file properties and list any type of metadata."
 
     # feature loop
     - icon: "remove"
       title: "Protect business documents"
-      content: "Clean reports and documents by removing hidden metadata and comments."
+      content: "Clean hidden metadata and comments from business files and reports."
 
     # feature loop
     - icon: "preview"
@@ -211,32 +211,32 @@ features:
     # feature loop
     - icon: "get"
       title: "Archive & torrent metadata"
-      content: "Access metadata in archive files like ZIP and torrent files."
+      content: "Read and manage metadata in archive files like ZIP and torrent files."
 
     # feature loop
     - icon: "compare"
       title: "File type recognition"
-      content: "Detect a file or stream type before starting metadata processing."
+      content: "Detect file or stream type before processing metadata."
 
     # feature loop
     - icon: "compare"
       title: "Compare metadata"
-      content: "Check metadata across files to find differences and similarities."
+      content: "Compare metadata from different files to find differences and similarities."
 
     # feature loop
     - icon: "reduce"
       title: "Reduce hidden data"
-      content: "Remove unnecessary metadata from documents and images."
+      content: "Remove unnecessary hidden data from documents and images."
 
     # feature loop
     - icon: "remove"
       title: "Control Office files"
-      content: "Find and remove hidden data in Word, Excel, PowerPoint, and PDF files."
+      content: "Find and remove hidden metadata in Word, Excel, PowerPoint, and PDF files."
 
     # feature loop
     - icon: "doc_background"
       title: "Replace metadata"
-      content: "Get a list of metadata entries and replace their values when required."
+      content: "Get a list of metadata entries and replace their values when needed."
 
     # feature loop
     - icon: "image_frame"
@@ -246,7 +246,7 @@ features:
     # feature loop
     - icon: "export"
       title: "Excel metadata"
-      content: "Extract metadata from Excel workbooks starting from Excel 95."
+      content: "Extract metadata from Excel files starting from Excel 95."
 
     # feature loop
     - icon: "image_frame"
@@ -261,17 +261,17 @@ features:
     # feature loop
     - icon: "preview"
       title: "Image thumbnails"
-      content: "Get thumbnails and image previews for supported file formats."
+      content: "Retrieve thumbnails and previews for supported file formats."
 
     # feature loop
     - icon: "unreadable_characters"
       title: "Matroska container security"
-      content: "Detect password protection and check metadata in Matroska multimedia files."
+      content: "Check password protection and metadata in Matroska files."
 
     # feature loop
     - icon: "get"
       title: "Built-in metadata keys"
-      content: "Use defined keys to read metadata properties in supported formats."
+      content: "Use defined keys to read metadata from supported formats."
 
     # feature loop
     - icon: "image_only"
@@ -281,7 +281,7 @@ features:
     # feature loop
     - icon: "email"
       title: "Email & fonts metadata"
-      content: "Read metadata from emails and parse OpenType font files."
+      content: "Read metadata from emails and OpenType font files."
 
     # feature loop
     - icon: "export"
@@ -292,15 +292,15 @@ features:
 code_samples:
   enable: true
   title: ".NET CLI use cases"
-  description: "Examples of common GroupDocs.Metadata .NET CLI operations"
+  description: "Examples of common GroupDocs.Metadata .NET CLI tasks"
   items:
     # code sample loop
     - title: "Find hidden metadata"
       content: |
-        Check and process document metadata to better control file content:
+        Check and process metadata to better control document content:
         {{< landing/code title="Get specific DOCX metadata using Bash">}}
         ```bash {style=tango}
-        # Retrieve the 'Author' property of a DOCX file
+        # Retrieve the 'Author' property from a DOCX file
 
         filePath="Resources/sample.docx"
 
