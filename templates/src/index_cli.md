@@ -50,6 +50,7 @@ actions:
   description: "<% "{index-content.actions.description}" %>"
 
 release:
+  enable: false
   title: "<% "{index-content.release_title}" %>"
   notes: "<% "{index-content.release_notes}" %>"
   downloads: "<% "{index-content.release_downloads}" %>"

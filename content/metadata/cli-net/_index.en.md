@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-08-21T20:45:36
+date: 2025-08-25T20:52:46
 draft: false
 
 lang: en
@@ -48,6 +48,7 @@ actions:
   description: "Try GroupDocs.Metadata features for free or request a license"
 
 release:
+  enable: false
   title: "Version {0} released"
   notes: "See what’s new"
   downloads: "Downloads"
