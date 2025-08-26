@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2024-06-18T21:19:09
+date: 2025-08-26T22:44:31
 draft: false
 
 lang: zh
@@ -25,6 +25,9 @@ supported_platforms:
     # supported_platforms loop
     - title: "Python"
       tag: "python-net"
+    # supported_platforms loop
+    - title: "CLI"
+      tag: "cli-net"
 
 ############################# Head ############################
 head_title: ".NET 元数据读取器、查看器、提取器、删除器和导出器 API"

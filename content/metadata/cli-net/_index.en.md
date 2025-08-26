@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-08-25T20:52:46
+date: 2025-08-26T22:44:30
 draft: false
 
 lang: en
@@ -40,7 +40,6 @@ words:
   for: "for"
 
 actions:
-  main: "{index-content-cli-net.actions_main}"
   main_link: "https://www.nuget.org/packages/GroupDocs.Metadata"
   alt: "Licensing"
   alt_link: "https://purchase.groupdocs.com/pricing/metadata/net/"

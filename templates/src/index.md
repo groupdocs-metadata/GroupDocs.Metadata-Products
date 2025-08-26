@@ -149,7 +149,7 @@ supported_platforms:
                     70+ file formats
 
     # items loop
-    - title: "CLI for .NET"
+    - title: "CLI .NET"
       description: GroupDocs.Metadata CLI for .NET
       color: "gray"
       tag: "cli-net"
@@ -389,6 +389,39 @@ customers:
     # items loop
     - title: "Wipro"
       logo: "wipro"
+
+
+############################# Actions ###############################
+actions:
+  enable: true
+  title: "<% "{index-content.actions.title}" %>"
+  description: "<% "{index-content.actions.description_index}" %>"
+
+  items:
+    # items loop
+    - title: ".NET"
+      color: "blue"
+      link: "/metadata/net/"
+
+    # items loop
+    - title: "Java"
+      color: "red"
+      link: "/metadata/java/"
+
+    # items loop
+    - title: "Node.js"
+      color: "green"
+      link: "/metadata/nodejs-java/"   
+
+    # items loop
+    - title: "Python"
+      color: "yellow"
+      link: "/metadata/python-net/"    
+
+    # items loop
+    - title: "CLI"
+      color: "gray" 
+      link: "/metadata/cli-net/"
 
 
 ############################# FAQ ###############################

@@ -42,7 +42,6 @@ words:
   for: "<% "{index-content.words_for}" %>"
 
 actions:
-  main: "<% "{index-content-cli-net.actions_main}" %>"
   main_link: "<% get "PackageUrl" %>"
   alt: "<% "{index-content.actions.alt}" %>"
   alt_link: "<% get "PricesUrl" %>"

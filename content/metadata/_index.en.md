@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-08-25T20:52:46
+date:  2025-08-26T22:44:30
 draft: false
 
 product: "Metadata"
@@ -147,7 +147,7 @@ supported_platforms:
                     70+ file formats
 
     # items loop
-    - title: "CLI for .NET"
+    - title: "CLI .NET"
       description: GroupDocs.Metadata CLI for .NET
       color: "gray"
       tag: "cli-net"
@@ -387,6 +387,39 @@ customers:
     # items loop
     - title: "Wipro"
       logo: "wipro"
+
+
+############################# Actions ###############################
+actions:
+  enable: true
+  title: "Ready to start?"
+  description: "Try GroupDocs.Metadata features for free in your applications"
+
+  items:
+    # items loop
+    - title: ".NET"
+      color: "blue"
+      link: "/metadata/net/"
+
+    # items loop
+    - title: "Java"
+      color: "red"
+      link: "/metadata/java/"
+
+    # items loop
+    - title: "Node.js"
+      color: "green"
+      link: "/metadata/nodejs-java/"   
+
+    # items loop
+    - title: "Python"
+      color: "yellow"
+      link: "/metadata/python-net/"    
+
+    # items loop
+    - title: "CLI"
+      color: "gray" 
+      link: "/metadata/cli-net/"
 
 
 ############################# FAQ ###############################

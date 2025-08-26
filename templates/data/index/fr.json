@@ -717,5 +717,145 @@
     "code_samples_sample_1_content": "Utilisez l'API {{ProdFullName}} pour récupérer les [métadonnées du document]({{Sample1Url}}) :",
     "code_title_sample_2": "Masquer les informations commerciales dans les documents",
     "code_samples_sample_2_content": "Utilisez notre solution pour [ajouter des métadonnées]({{Sample2Url}}) à vos documents :"
+  },
+  "index-content-cli-net": {
+    "head_title": "{{ProdCliShort}} pour exporter, rechercher, copier et supprimer les métadonnées",
+    "head_description": "{{ProdCliFull}} vous aide à exporter, rechercher, copier et supprimer les métadonnées des documents, images, fichiers audio et vidéo. Contrôlez les métadonnées en utilisant l'invite de commandes, PowerShell, Bash et d'autres outils.",
+    "title": "Gérez les métadonnées avec {{ProdCliFull}}",
+    "description": "Avec {{ProdCliShort}}, propulsé par {{ProdShortName}}, vous pouvez rapidement lire, exporter, copier et supprimer les métadonnées des formats de documents, d'images et de médias les plus populaires.",
+    "sample_top": {
+      "title": "Exporter les métadonnées PDF vers JSON",
+      "comment_1": "Exemple PowerShell :"
+    },
+    "overview_title": "Aperçu de {{ProdCliFull}}",
+    "overview_description": "Un aperçu rapide de ce que {{ProdCliFull}} peut faire",
+    "overview_feature_1": {
+      "title": "Intégration CLI multiplateforme",
+      "description": "{{ProdCliShort}} fonctionne avec l'API {{ProdFullName}} et s'exécute depuis la ligne de commande dans PowerShell, Bash, l'invite de commandes et d'autres outils. Il vous permet de visualiser, modifier, nettoyer, extraire, comparer et exporter des métadonnées dans des documents, images et fichiers médias sans logiciel supplémentaire."
+    },
+    "overview_feature_2": {
+      "title": "Prise en charge des types de métadonnées clés",
+      "description": "Avec {{ProdCliFull}}, vous pouvez ouvrir un fichier, examiner ses métadonnées, apporter des modifications et le sauvegarder. Il prend en charge les normes majeures, y compris les métadonnées intégrées, XMP, EXIF, IPTC, blocs de ressources d'image, ID3 et étiquettes personnalisées. Vous pouvez également comparer les métadonnées de deux fichiers ou les exporter vers Excel, CSV ou DataSet pour reporting."
+    },
+    "overview_feature_3": {
+      "title": "Fonctionne dans n'importe quel environnement",
+      "description": "{{ProdCliFull}} fonctionne partout où {{EnvNameShort}} est pris en charge. Il s'exécute avec différents langages et est disponible sur Windows, Linux et macOS où les frameworks {{Mono}} ou {{EnvNameShort}} (y compris {{CoreNet}}) sont installés."
+    },
+    "features": {
+      "title": "Points forts de {{ProdFullName}}",
+      "description": "Gérez les métadonnées dans Office, PDF, images, multimédia, et plus encore",
+      "feature_1": {
+        "title": "Accès aux métadonnées intégrées et personnalisées",
+        "content": "Travaillez avec des métadonnées standard et des propriétés personnalisées sur les fichiers pris en charge."
+      },
+      "feature_2": {
+        "title": "Détails de la caméra dans les photos",
+        "content": "Visualisez les détails de la photo stockés dans les métadonnées, tels que la marque de l'appareil photo, le modèle et la résolution."
+      },
+      "feature_3": {
+        "title": "Détecter ou supprimer les signatures numériques",
+        "content": "Trouvez des signatures numériques dans les fichiers et supprimez-les si nécessaire."
+      },
+      "feature_4": {
+        "title": "Géolocalisation des photos",
+        "content": "Vérifiez ou supprimez les données de localisation GPS intégrées dans les métadonnées de l'image."
+      },
+      "feature_5": {
+        "title": "Recherche de métadonnées",
+        "content": "Recherchez dans les propriétés de fichier et listez tout type de métadonnées."
+      },
+      "feature_6": {
+        "title": "Protéger les documents d'entreprise",
+        "content": "Nettoyez les métadonnées cachées et les commentaires des fichiers d'entreprise et des rapports."
+      },
+      "feature_7": {
+        "title": "Aperçus de documents",
+        "content": "Générez des aperçus d'images pour des formats tels qu'EPUB, CAD, EML et MSG."
+      },
+      "feature_8": {
+        "title": "Support des multimédias Matroska",
+        "content": "Lisez les sous-titres Matroska et extrayez les métadonnées audio ou vidéo."
+      },
+      "feature_9": {
+        "title": "Métadonnées d'archive et de torrent",
+        "content": "Lisez et gérez les métadonnées dans les fichiers d'archive comme ZIP et les fichiers torrent."
+      },
+      "feature_10": {
+        "title": "Reconnaissance du type de fichier",
+        "content": "Détectez le type de fichier ou de flux avant de traiter les métadonnées."
+      },
+      "feature_11": {
+        "title": "Comparer les métadonnées",
+        "content": "Comparez les métadonnées de différents fichiers pour trouver les différences et les similitudes."
+      },
+      "feature_12": {
+        "title": "Réduire les données cachées",
+        "content": "Supprimez les données cachées inutiles des documents et des images."
+      },
+      "feature_13": {
+        "title": "Contrôle des fichiers Office",
+        "content": "Trouvez et supprimez les métadonnées cachées dans les fichiers Word, Excel, PowerPoint et PDF."
+      },
+      "feature_14": {
+        "title": "Remplacer les métadonnées",
+        "content": "Obtenez une liste des entrées de métadonnées et remplacez leurs valeurs si nécessaire."
+      },
+      "feature_15": {
+        "title": "Support des images TIFF",
+        "content": "Ajoutez, mettez à jour ou supprimez les métadonnées IPTC dans les fichiers TIFF."
+      },
+      "feature_16": {
+        "title": "Métadonnées Excel",
+        "content": "Extrayez des métadonnées des fichiers Excel à partir d'Excel 95."
+      },
+      "feature_17": {
+        "title": "Métadonnées PNG",
+        "content": "Lisez les métadonnées textuelles stockées dans les images PNG."
+      },
+      "feature_18": {
+        "title": "Détection de type MIME",
+        "content": "Identifiez instantanément le type MIME d'un fichier ou d'un flux."
+      },
+      "feature_19": {
+        "title": "Miniatures d'images",
+        "content": "Récupérez des miniatures et des aperçus pour les formats de fichiers pris en charge."
+      },
+      "feature_20": {
+        "title": "Sécurité des fichiers conteneurs Matroska",
+        "content": "Vérifiez la protection par mot de passe et les métadonnées dans les fichiers Matroska."
+      },
+      "feature_21": {
+        "title": "Clés de métadonnées intégrées",
+        "content": "Utilisez des clés définies pour lire les métadonnées des formats pris en charge."
+      },
+      "feature_22": {
+        "title": "Métadonnées d'image EXIF",
+        "content": "Modifiez les balises EXIF dans des formats tels que WEBP, PNG et PSD."
+      },
+      "feature_23": {
+        "title": "Métadonnées d'e-mails et de polices",
+        "content": "Lisez les métadonnées des e-mails et des fichiers de police OpenType."
+      },
+      "feature_24": {
+        "title": "Métadonnées multimédia",
+        "content": "Extrayez les métadonnées XMP des fichiers MOV, MP3 et WEBP."
+      }
+    },
+    "platforms_description": "{{ProdCliFull}} fonctionne sur plusieurs systèmes d'exploitation, frameworks et outils de ligne de commande :",
+    "formats_description": "{{ProdFullName}} prend en charge ces [formats de fichiers]({{SupportedFormatsUrl}}).",
+    "code_samples_title": "Cas d'utilisation de {{ProdCliShort}}",
+    "code_samples_description": "Exemples des tâches courantes de {{ProdCliFull}}",
+    "sample_bottom_1": {
+      "title": "Trouver des métadonnées cachées",
+      "content": "Vérifiez et traitez les métadonnées pour mieux contrôler le contenu des documents :",
+      "code_title": "Obtenir des métadonnées spécifiques de DOCX à l'aide de Bash",
+      "comment_1": "Récupérer la propriété 'Auteur' d'un fichier DOCX"
+    },
+    "sample_bottom_2": {
+      "title": "Protéger le contenu des documents",
+      "content": "Supprimez les métadonnées cachées des fichiers pour protéger des informations sensibles :",
+      "code_title": "Effacer une propriété d'image spécifique avec l'invite de commandes Windows",
+      "comment_1": "Supprimer la propriété JPEG 'CameraOwnerName'"
+    }
   }
 }

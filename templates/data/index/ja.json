@@ -717,5 +717,145 @@
     "code_samples_sample_1_content": "{{ProdFullName}} API を使用して内部 [ドキュメント メタデータ]({{Sample1Url}}) を取得します。",
     "code_title_sample_2": "文書内のビジネス情報を非表示にする",
     "code_samples_sample_2_content": "私たちのソリューションを使用して、ドキュメントに[メタデータを追加]({{Sample2Url}})します。"
+  },
+  "index-content-cli-net": {
+    "head_title": "{{ProdCliShort}} でメタデータをエクスポート、検索、コピー、および削除",
+    "head_description": "{{ProdCliFull}} は、ドキュメント、画像、音声、およびビデオファイルからメタデータをエクスポート、検索、コピー、削除するのに役立ちます。コマンドプロンプト、PowerShell、Bash、その他のツールを使用してメタデータを制御します。",
+    "title": "{{ProdCliFull}} でメタデータを管理",
+    "description": "{{ProdCliShort}} は {{ProdShortName}} に基づいており、一般的なドキュメント、画像、およびメディア形式からメタデータを迅速に読み取り、エクスポート、コピー、削除できます。",
+    "sample_top": {
+      "title": "PDF メタデータを JSON にエクスポート",
+      "comment_1": "PowerShell の例："
+    },
+    "overview_title": "{{ProdCliFull}} 概要",
+    "overview_description": "{{ProdCliFull}} の機能を簡単に紹介",
+    "overview_feature_1": {
+      "title": "クロスプラットフォーム CLI 統合",
+      "description": "{{ProdCliShort}} は {{ProdFullName}} API と連携し、PowerShell、Bash、コマンドプロンプトなどのコマンドラインから実行されます。追加のソフトウェアなしで、ドキュメント、画像、およびメディアファイルのメタデータを表示、編集、クリーニング、抽出、比較、エクスポートできます。"
+    },
+    "overview_feature_2": {
+      "title": "主要なメタデータタイプのサポート",
+      "description": "{{ProdCliFull}} を使用すると、ファイルを開いてメタデータを確認し、変更を加えて再保存できます。組み込み、XMP、EXIF、IPTC、画像リソースブロック、ID3、カスタムタグなど、主要な標準をサポートしています。また、2つのファイル間のメタデータを比較したり、Excel、CSV、またはデータセットにエクスポートしてレポートできます。"
+    },
+    "overview_feature_3": {
+      "title": "任意の環境で動作",
+      "description": "{{ProdCliFull}} は {{EnvNameShort}} がサポートされている任意の環境で動作します。さまざまな言語で実行可能で、{{Mono}} または {{EnvNameShort}} フレームワーク（{{CoreNet}} を含む）がインストールされている Windows、Linux、macOS で利用可能です。"
+    },
+    "features": {
+      "title": "{{ProdFullName}} の特徴",
+      "description": "Office、PDF、画像、マルチメディアなどのメタデータを管理",
+      "feature_1": {
+        "title": "組み込みおよびカスタムメタデータへのアクセス",
+        "content": "サポートされているファイル全体で標準メタデータとカスタムプロパティを扱います。"
+      },
+      "feature_2": {
+        "title": "写真のカメラ詳細",
+        "content": "メタデータに保存されたカメラブランド、モデル、解像度などの写真の詳細を表示します。"
+      },
+      "feature_3": {
+        "title": "デジタル署名の検出または削除",
+        "content": "ファイル内のデジタル署名を見つけ、必要に応じて削除します。"
+      },
+      "feature_4": {
+        "title": "写真のジオロケーション",
+        "content": "画像メタデータに埋め込まれたGPS位置データを確認または削除します。"
+      },
+      "feature_5": {
+        "title": "メタデータ検索",
+        "content": "ファイルプロパティを検索し、あらゆる種類のメタデータをリストします。"
+      },
+      "feature_6": {
+        "title": "ビジネス文書の保護",
+        "content": "ビジネスファイルやレポートから隠れたメタデータやコメントをクリーニングします。"
+      },
+      "feature_7": {
+        "title": "ドキュメントのプレビュー",
+        "content": "EPUB、CAD、EML、MSG などの形式の画像プレビューを生成します。"
+      },
+      "feature_8": {
+        "title": "Matroska マルチメディアのサポート",
+        "content": "Matroska の字幕を読み取り、音声またはビデオメタデータを抽出します。"
+      },
+      "feature_9": {
+        "title": "アーカイブおよびトレントメタデータ",
+        "content": "ZIPやトレントファイルなどのアーカイブファイルのメタデータを読み取り、管理します。"
+      },
+      "feature_10": {
+        "title": "ファイルタイプ認識",
+        "content": "メタデータを処理する前にファイルまたはストリームのタイプを検出します。"
+      },
+      "feature_11": {
+        "title": "メタデータの比較",
+        "content": "異なるファイルのメタデータを比較し、違いと類似点を見つけます。"
+      },
+      "feature_12": {
+        "title": "隠れたデータの削減",
+        "content": "ドキュメントや画像から不要な隠れたデータを削除します。"
+      },
+      "feature_13": {
+        "title": "Officeファイルの制御",
+        "content": "Word、Excel、PowerPoint、PDFファイルの隠れたメタデータを見つけて削除します。"
+      },
+      "feature_14": {
+        "title": "メタデータの置換",
+        "content": "メタデータエントリのリストを取得し、必要に応じてその値を置き換えます。"
+      },
+      "feature_15": {
+        "title": "TIFF画像のサポート",
+        "content": "TIFFファイルのIPTCメタデータを追加、更新、または削除します。"
+      },
+      "feature_16": {
+        "title": "Excelメタデータ",
+        "content": "Excel 95 以降の Excel ファイルからメタデータを抽出します。"
+      },
+      "feature_17": {
+        "title": "PNGメタデータ",
+        "content": "PNG画像内に保存されたテキストメタデータを読み込みます。"
+      },
+      "feature_18": {
+        "title": "MIMEタイプの検出",
+        "content": "ファイルまたはストリームのMIMEタイプを瞬時に識別します。"
+      },
+      "feature_19": {
+        "title": "画像サムネイル",
+        "content": "サポートされているファイル形式のサムネイルとプレビューを取得します。"
+      },
+      "feature_20": {
+        "title": "Matroskaコンテナのセキュリティ",
+        "content": "Matroskaファイルのパスワード保護とメタデータを確認します。"
+      },
+      "feature_21": {
+        "title": "組み込みメタデータキー",
+        "content": "定義されたキーを使用してサポートされた形式からメタデータを読み取ります。"
+      },
+      "feature_22": {
+        "title": "EXIF画像メタデータ",
+        "content": "WEBP、PNG、PSDなどの形式でEXIFタグを編集します。"
+      },
+      "feature_23": {
+        "title": "メールとフォントメタデータ",
+        "content": "メールやOpenTypeフォントファイルからメタデータを読み取ります。"
+      },
+      "feature_24": {
+        "title": "マルチメディアメタデータ",
+        "content": "MOV、MP3、WEBPファイルからXMPメタデータを抽出します。"
+      }
+    },
+    "platforms_description": "{{ProdCliFull}} は、複数のオペレーティングシステム、フレームワーク、およびコマンドラインツールで動作します：",
+    "formats_description": "{{ProdFullName}} はこれらの [ファイル形式]({{SupportedFormatsUrl}}) をサポートしています。",
+    "code_samples_title": "{{ProdCliShort}} 使用例",
+    "code_samples_description": "一般的な {{ProdCliFull}} タスクの例",
+    "sample_bottom_1": {
+      "title": "隠れたメタデータを探す",
+      "content": "ドキュメントの内容をより良く制御するために、メタデータを確認して処理します：",
+      "code_title": "Bash を使用して特定の DOCX メタデータを取得",
+      "comment_1": "DOCXファイルから'Author'プロパティを取得"
+    },
+    "sample_bottom_2": {
+      "title": "文書内容を保護",
+      "content": "ファイルから隠れたメタデータを削除して、センシティブな情報を安全に保ちます：",
+      "code_title": "Windows コマンド プロンプトで特定の画像プロパティをクリア",
+      "comment_1": "JPEGプロパティ'CameraOwnerName'を削除"
+    }
   }
 }

@@ -717,5 +717,145 @@
     "code_samples_sample_1_content": "Gunakan API {{ProdFullName}} untuk mengambil [metadata dokumen]({{Sample1Url}}):",
     "code_title_sample_2": "Sembunyikan Info Bisnis di Dokumen",
     "code_samples_sample_2_content": "Gunakan solusi kami untuk [menambahkan metadata]({{Sample2Url}}) ke dokumen Anda:"
+  },
+  "index-content-cli-net": {
+    "head_title": "{{ProdCliShort}} untuk mengekspor, mencari, menyalin, dan menghapus metadata",
+    "head_description": "{{ProdCliFull}} membantu Anda mengekspor, mencari, menyalin, dan menghapus metadata dari dokumen, gambar, file audio, dan video. Kendalikan metadata menggunakan command prompt, PowerShell, Bash, dan alat lainnya.",
+    "title": "Kelola Metadata dengan {{ProdCliFull}}",
+    "description": "Dengan {{ProdCliShort}} yang didukung oleh {{ProdShortName}}, Anda dapat membaca, mengekspor, menyalin, dan menghapus metadata dari format dokumen, gambar, dan media yang populer dengan cepat.",
+    "sample_top": {
+      "title": "Ekspor metadata PDF ke JSON",
+      "comment_1": "Contoh PowerShell:"
+    },
+    "overview_title": "Gambaran {{ProdCliFull}}",
+    "overview_description": "Gambaran singkat tentang apa yang dapat dilakukan {{ProdCliFull}}",
+    "overview_feature_1": {
+      "title": "Integrasi CLI lintas platform",
+      "description": "{{ProdCliShort}} bekerja dengan API {{ProdFullName}} dan dijalankan dari command line di PowerShell, Bash, Command Prompt, dan alat lainnya. Ini memungkinkan Anda untuk melihat, mengedit, membersihkan, mengekstrak, membandingkan, dan mengekspor metadata dalam dokumen, gambar, dan file media tanpa perangkat lunak tambahan."
+    },
+    "overview_feature_2": {
+      "title": "Dukungan untuk jenis metadata utama",
+      "description": "Dengan {{ProdCliFull}}, Anda dapat membuka file, meninjau metadatanya, melakukan perubahan, dan menyimpannya lagi. Ini mendukung standar utama termasuk built-in, XMP, EXIF, IPTC, Image Resource Blocks, ID3, dan tag kustom. Anda juga bisa membandingkan metadata antara dua file atau mengekspornya ke Excel, CSV, atau DataSet untuk laporan."
+    },
+    "overview_feature_3": {
+      "title": "Berjalan di lingkungan apa pun",
+      "description": "{{ProdCliFull}} berfungsi di mana saja {{EnvNameShort}} didukung. Ini berjalan dengan berbagai bahasa dan tersedia di Windows, Linux, dan macOS di mana framework {{Mono}} atau {{EnvNameShort}} (termasuk {{CoreNet}}) terinstal."
+    },
+    "features": {
+      "title": "{{ProdFullName}} sorotan",
+      "description": "Kelola metadata di Office, PDF, gambar, multimedia, dan lainnya",
+      "feature_1": {
+        "title": "Akses metadata built-in & kustom",
+        "content": "Bekerja dengan metadata standar dan properti kustom di seluruh file yang didukung."
+      },
+      "feature_2": {
+        "title": "Detail kamera dalam foto",
+        "content": "Lihat detail foto yang disimpan dalam metadata seperti merek kamera, model, dan resolusi."
+      },
+      "feature_3": {
+        "title": "Deteksi atau hapus tanda tangan digital",
+        "content": "Temukan tanda tangan digital dalam file dan hapus jika diperlukan."
+      },
+      "feature_4": {
+        "title": "Geolokasi foto",
+        "content": "Periksa atau hapus data lokasi GPS yang disematkan dalam metadata gambar."
+      },
+      "feature_5": {
+        "title": "Pencarian metadata",
+        "content": "Telusuri properti file dan daftar semua jenis metadata."
+      },
+      "feature_6": {
+        "title": "Lindungi dokumen bisnis",
+        "content": "Bersihkan metadata tersembunyi dan komentar dari file dan laporan bisnis."
+      },
+      "feature_7": {
+        "title": "Pranala dokumen",
+        "content": "Hasilkan pratinjau gambar untuk format seperti EPUB, CAD, EML, dan MSG."
+      },
+      "feature_8": {
+        "title": "Dukungan multimedia Matroska",
+        "content": "Baca subtitle Matroska dan ekstrak metadata audio atau video."
+      },
+      "feature_9": {
+        "title": "Metadata arsip & torrent",
+        "content": "Baca dan kelola metadata dalam file arsip seperti file ZIP dan torrent."
+      },
+      "feature_10": {
+        "title": "Deteksi jenis file",
+        "content": "Deteksi jenis file atau stream sebelum memproses metadata."
+      },
+      "feature_11": {
+        "title": "Bandingkan metadata",
+        "content": "Bandingkan metadata dari file yang berbeda untuk menemukan perbedaan dan kesamaan."
+      },
+      "feature_12": {
+        "title": "Kurangi data tersembunyi",
+        "content": "Hapus data tersembunyi yang tidak perlu dari dokumen dan gambar."
+      },
+      "feature_13": {
+        "title": "Kendalikan file Office",
+        "content": "Temukan dan hapus metadata tersembunyi di file Word, Excel, PowerPoint, dan PDF."
+      },
+      "feature_14": {
+        "title": "Ganti metadata",
+        "content": "Dapatkan daftar entri metadata dan ganti nilai mereka jika diperlukan."
+      },
+      "feature_15": {
+        "title": "Dukungan gambar TIFF",
+        "content": "Tambahkan, perbarui, atau hapus metadata IPTC dalam file TIFF."
+      },
+      "feature_16": {
+        "title": "Metadata Excel",
+        "content": "Ekstrak metadata dari file Excel mulai dari Excel 95."
+      },
+      "feature_17": {
+        "title": "Metadata PNG",
+        "content": "Baca metadata teks yang disimpan di dalam gambar PNG."
+      },
+      "feature_18": {
+        "title": "Deteksi tipe MIME",
+        "content": "Identifikasi tipe MIME dari file atau stream dengan cepat."
+      },
+      "feature_19": {
+        "title": "Gambar thumbnail",
+        "content": "Ambil thumbnail dan pratinjau untuk format file yang didukung."
+      },
+      "feature_20": {
+        "title": "Keamanan kontainer Matroska",
+        "content": "Periksa perlindungan kata sandi dan metadata dalam file Matroska."
+      },
+      "feature_21": {
+        "title": "Kunci metadata built-in",
+        "content": "Gunakan kunci yang ditentukan untuk membaca metadata dari format yang didukung."
+      },
+      "feature_22": {
+        "title": "Metadata gambar EXIF",
+        "content": "Edit tag EXIF dalam format seperti WEBP, PNG, dan PSD."
+      },
+      "feature_23": {
+        "title": "Metadata email & font",
+        "content": "Baca metadata dari email dan file font OpenType."
+      },
+      "feature_24": {
+        "title": "Metadata multimedia",
+        "content": "Ekstrak metadata XMP dari file MOV, MP3, dan WEBP."
+      }
+    },
+    "platforms_description": "{{ProdCliFull}} bekerja di berbagai sistem operasi, framework, dan alat command line:",
+    "formats_description": "{{ProdFullName}} mendukung [format file]({{SupportedFormatsUrl}}) ini.",
+    "code_samples_title": "Kasus penggunaan {{ProdCliShort}}",
+    "code_samples_description": "Contoh tugas umum {{ProdCliFull}}",
+    "sample_bottom_1": {
+      "title": "Temukan metadata tersembunyi",
+      "content": "Periksa dan proses metadata untuk mengontrol konten dokumen dengan lebih baik:",
+      "code_title": "Dapatkan metadata DOCX spesifik menggunakan Bash",
+      "comment_1": "Ambil properti 'Pengarang' dari file DOCX"
+    },
+    "sample_bottom_2": {
+      "title": "Lindungi konten dokumen",
+      "content": "Hapus metadata tersembunyi dari file untuk menjaga informasi sensitif tetap aman:",
+      "code_title": "Bersihkan properti gambar tertentu dengan Windows Command Prompt",
+      "comment_1": "Hapus properti JPEG 'CameraOwnerName'"
+    }
   }
 }

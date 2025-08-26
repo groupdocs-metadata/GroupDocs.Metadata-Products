@@ -717,5 +717,145 @@
     "code_samples_sample_1_content": "Verwenden Sie die API {{ProdFullName}}, um innere [Dokumentmetadaten]({{Sample1Url}}) abzurufen:",
     "code_title_sample_2": "Geschäftsinformationen in Dokumenten ausblenden",
     "code_samples_sample_2_content": "Verwenden Sie unsere Lösung, um Ihren Dokumenten [Metadaten hinzuzufügen]({{Sample2Url}}) hinzuzufügen:"
+  },
+  "index-content-cli-net": {
+    "head_title": "{{ProdCliShort}} zum Exportieren, Suchen, Kopieren und Entfernen von Metadaten",
+    "head_description": "{{ProdCliFull}} ermöglicht es Ihnen, Metadaten aus Dokumenten, Bildern, Audio- und Video-Dateien zu exportieren, zu suchen, zu kopieren und zu entfernen. Steuern Sie Metadaten über die Eingabeaufforderung, PowerShell, Bash und andere Werkzeuge.",
+    "title": "Metadaten mit {{ProdCliFull}} verwalten",
+    "description": "Mit {{ProdCliShort}}, unterstützt von {{ProdShortName}}, können Sie schnell Metadaten aus gängigen Dokumenten-, Bild- und Mediendateiformaten lesen, exportieren, kopieren und entfernen.",
+    "sample_top": {
+      "title": "PDF-Metadaten nach JSON exportieren",
+      "comment_1": "Beispiel in PowerShell:"
+    },
+    "overview_title": "Übersicht über {{ProdCliFull}}",
+    "overview_description": "Ein kurzer Blick darauf, was {{ProdCliFull}} leisten kann",
+    "overview_feature_1": {
+      "title": "Plattformübergreifende CLI-Integration",
+      "description": "{{ProdCliShort}} funktioniert mit der {{ProdFullName}} API und wird über die Befehlszeile in PowerShell, Bash, Eingabeaufforderung und anderen Werkzeugen ausgeführt. Es ermöglicht Ihnen, Metadaten in Dokumenten, Bildern und Mediendateien anzuzeigen, zu bearbeiten, zu bereinigen, zu extrahieren, zu vergleichen und zu exportieren, ohne dass zusätzliche Software erforderlich ist."
+    },
+    "overview_feature_2": {
+      "title": "Unterstützung für wichtige Metadatentypen",
+      "description": "Mit {{ProdCliFull}} können Sie eine Datei öffnen, deren Metadaten überprüfen, Änderungen vornehmen und sie erneut speichern. Es unterstützt wichtige Standards, einschließlich integrierter, XMP, EXIF, IPTC, Bildressourcengruppen, ID3 und benutzerdefinierte Tags. Sie können auch Metadaten zwischen zwei Dateien vergleichen oder sie zur Berichterstellung in Excel, CSV oder DataSet exportieren."
+    },
+    "overview_feature_3": {
+      "title": "In jeder Umgebung lauffähig",
+      "description": "{{ProdCliFull}} funktioniert überall dort, wo {{EnvNameShort}} unterstützt wird. Es läuft mit verschiedenen Sprachen und ist auf Windows, Linux und macOS verfügbar, wo {{Mono}} oder {{EnvNameShort}}-Frameworks (einschließlich {{CoreNet}}) installiert sind."
+    },
+    "features": {
+      "title": "{{ProdFullName}} Highlights",
+      "description": "Verwalten Sie Metadaten in Office, PDF, Bildern, Multimedia und mehr",
+      "feature_1": {
+        "title": "Zugriff auf integrierte & benutzerdefinierte Metadaten",
+        "content": "Arbeiten Sie mit standardmäßigen Metadaten und benutzerdefinierten Eigenschaften aus unterstützten Dateien."
+      },
+      "feature_2": {
+        "title": "Kameradetails in Fotos",
+        "content": "Zeigen Sie Fotodetails an, die in Metadaten wie Kamera Marke, Modell und Auflösung gespeichert sind."
+      },
+      "feature_3": {
+        "title": "Digitale Signaturen erkennen oder entfernen",
+        "content": "Suchen Sie nach digitalen Signaturen in Dateien und entfernen Sie diese bei Bedarf."
+      },
+      "feature_4": {
+        "title": "Foto-Geolocation",
+        "content": "Überprüfen oder entfernen Sie GPS-Standortdaten, die in Bildmetadaten eingebettet sind."
+      },
+      "feature_5": {
+        "title": "Metadaten-Suche",
+        "content": "Durchsuchen Sie Datei-Eigenschaften und listen Sie alle Arten von Metadaten auf."
+      },
+      "feature_6": {
+        "title": "Schutz von Unternehmensdokumenten",
+        "content": "Beseitigen Sie versteckte Metadaten und Kommentare aus Geschäftsdokumenten und Berichten."
+      },
+      "feature_7": {
+        "title": "Dokumentenvorschauen",
+        "content": "Generieren Sie Bildvorschauen für Formate wie EPUB, CAD, EML und MSG."
+      },
+      "feature_8": {
+        "title": "Matroska-Multimedia Support",
+        "content": "Lesen Sie Matroska-Untertitel und extrahieren Sie Audio- oder Video-Metadaten."
+      },
+      "feature_9": {
+        "title": "Archiv- & Torrent-Metadaten",
+        "content": "Lesen und verwalten Sie Metadaten in Archivdateien wie ZIP und Torrents."
+      },
+      "feature_10": {
+        "title": "Erkennung von Dateitypen",
+        "content": "Erkennen Sie Datei- oder Stream-Typen, bevor Sie die Metadaten verarbeiten."
+      },
+      "feature_11": {
+        "title": "Metadaten vergleichen",
+        "content": "Vergleichen Sie Metadaten aus verschiedenen Dateien, um Unterschiede und Ähnlichkeiten zu finden."
+      },
+      "feature_12": {
+        "title": "Reduzierung versteckter Daten",
+        "content": "Entfernen Sie unnötige versteckte Daten aus Dokumenten und Bildern."
+      },
+      "feature_13": {
+        "title": "Steuerung von Office-Dateien",
+        "content": "Finden und entfernen Sie versteckte Metadaten in Word-, Excel-, PowerPoint- und PDF-Dateien."
+      },
+      "feature_14": {
+        "title": "Metadaten ersetzen",
+        "content": "Holen Sie sich eine Liste von Metadateneinträgen und ersetzen Sie deren Werte nach Bedarf."
+      },
+      "feature_15": {
+        "title": "TIFF-Bildunterstützung",
+        "content": "Fügen Sie IPTC-Metadaten in TIFF-Dateien hinzu, aktualisieren oder löschen Sie diese."
+      },
+      "feature_16": {
+        "title": "Excel-Metadaten",
+        "content": "Extrahieren Sie Metadaten aus Excel-Dateien, beginnend mit Excel 95."
+      },
+      "feature_17": {
+        "title": "PNG-Metadaten",
+        "content": "Lesen Sie Textmetadaten, die in PNG-Bildern gespeichert sind."
+      },
+      "feature_18": {
+        "title": "MIME-Typ-Erkennung",
+        "content": "Identifizieren Sie den MIME-Typ einer Datei oder eines Streams sofort."
+      },
+      "feature_19": {
+        "title": "Bild-Thumbnails",
+        "content": "Rufen Sie Thumbnails und Vorschauen für unterstützte Dateiformate ab."
+      },
+      "feature_20": {
+        "title": "Matroska-Container-Sicherheit",
+        "content": "Überprüfen Sie den Passwortschutz und die Metadaten in Matroska-Dateien."
+      },
+      "feature_21": {
+        "title": "Integrierte Metadaten-Schlüssel",
+        "content": "Verwenden Sie definierte Schlüssel, um Metadaten aus unterstützten Formaten zu lesen."
+      },
+      "feature_22": {
+        "title": "EXIF-Bildmetadaten",
+        "content": "Bearbeiten Sie EXIF-Tags in Formaten wie WEBP, PNG und PSD."
+      },
+      "feature_23": {
+        "title": "E-Mail- & Schriftartenmetadaten",
+        "content": "Lesen Sie Metadaten aus E-Mails und OpenType-Schriftdateien."
+      },
+      "feature_24": {
+        "title": "Multimedia-Metadaten",
+        "content": "Extrahieren Sie XMP-Metadaten aus MOV-, MP3- und WEBP-Dateien."
+      }
+    },
+    "platforms_description": "{{ProdCliFull}} funktioniert auf mehreren Betriebssystemen, Frameworks und Befehlszeilenwerkzeugen:",
+    "formats_description": "{{ProdFullName}} unterstützt diese [Dateiformate]({{SupportedFormatsUrl}}).",
+    "code_samples_title": "{{ProdCliShort}} Anwendungsfälle",
+    "code_samples_description": "Beispiele für häufige {{ProdCliFull}}-Aufgaben",
+    "sample_bottom_1": {
+      "title": "Versteckte Metadaten finden",
+      "content": "Überprüfen und verarbeiten Sie Metadaten, um den Inhalt des Dokuments besser zu steuern:",
+      "code_title": "Erhalten Sie bestimmte DOCX-Metadaten mit Bash",
+      "comment_1": "Holen Sie sich die Eigenschaft 'Author' aus einer DOCX-Datei"
+    },
+    "sample_bottom_2": {
+      "title": "Dokumenteninhalt schützen",
+      "content": "Entfernen Sie versteckte Metadaten aus Dateien, um sensible Informationen zu schützen:",
+      "code_title": "Eine bestimmte Bild-Eigenschaft mit der Windows-Eingabeaufforderung bereinigen",
+      "comment_1": "Entfernen Sie die JPEG-Eigenschaft 'CameraOwnerName'"
+    }
   }
 }

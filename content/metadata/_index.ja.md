@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-06-27T08:59:14
+date:  2025-08-26T22:44:30
 draft: false
 
 product: "Metadata"
@@ -140,6 +140,34 @@ supported_platforms:
           - rows: "4"
             content: |
                     IDLE <br> PyCharm <br> Visual Studio Code
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    70+ file formats
+
+    # items loop
+    - title: "CLI .NET"
+      description: GroupDocs.Metadata CLI for .NET
+      color: "gray"
+      tag: "cli-net"
+      link: "/metadata/cli-net/"
+      features_link: "https://docs.groupdocs.com/metadata/net/system-requirements/"
+      features:
+          # features loop
+          - rows: "3"
+            content: |
+                    .NET Core 3.0 or higher <br> .NET 5.0 or higher <br> .NET Standard 2.1
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    Windows <br> Linux <br> Mac OS
+      
+          # features loop
+          - rows: "4"
+            content: |
+                    Command Prompt, Bash, PowerShell, etc.
       
           # features loop
           - rows: "1"
@@ -386,7 +414,13 @@ actions:
     # items loop
     - title: "Python"
       color: "yellow"
-      link: "/metadata/python-net/"      
+      link: "/metadata/python-net/"    
+
+    # items loop
+    - title: "CLI"
+      color: "gray" 
+      link: "/metadata/cli-net/"
+
 
 ############################# FAQ ###############################
 faq:

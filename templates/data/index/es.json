@@ -717,5 +717,145 @@
     "code_samples_sample_1_content": "Utilice la API {{ProdFullName}} para recuperar los [metadatos del documento internos]({{Sample1Url}}):",
     "code_title_sample_2": "Ocultar información comercial en documentos",
     "code_samples_sample_2_content": "Utilice nuestra solución para [agregar metadatos]({{Sample2Url}}) a sus documentos:"
+  },
+  "index-content-cli-net": {
+    "head_title": "{{ProdCliShort}} para exportar, encontrar, copiar y eliminar metadatos",
+    "head_description": "{{ProdCliFull}} te permite exportar, buscar, copiar y eliminar metadatos de documentos, imágenes, audio y archivos de video. Controla los metadatos a través de la línea de comandos, PowerShell, Bash y otras herramientas.",
+    "title": "Gestiona Metadatos con {{ProdCliFull}}",
+    "description": "Con {{ProdCliShort}} impulsado por {{ProdShortName}}, puedes leer, exportar, copiar y eliminar rápidamente metadatos de formatos de documentos, imágenes y medios populares.",
+    "sample_top": {
+      "title": "Exportar metadatos PDF a JSON",
+      "comment_1": "Ejemplo de PowerShell:"
+    },
+    "overview_title": "Vista general de {{ProdCliFull}}",
+    "overview_description": "Una rápida mirada a lo que {{ProdCliFull}} puede hacer",
+    "overview_feature_1": {
+      "title": "Integración de CLI multiplataforma",
+      "description": "{{ProdCliShort}} funciona con la API de {{ProdFullName}} y se ejecuta desde la línea de comandos en PowerShell, Bash, Command Prompt y otras herramientas. Te permite ver, editar, limpiar, extraer, comparar y exportar metadatos en documentos, imágenes y archivos multimedia sin software adicional."
+    },
+    "overview_feature_2": {
+      "title": "Soporte para tipos de metadatos clave",
+      "description": "Con {{ProdCliFull}}, puedes abrir un archivo, revisar sus metadatos, realizar cambios y guardarlo nuevamente. Soporta estándares importantes, incluidos metadatos incorporados, XMP, EXIF, IPTC, Image Resource Blocks, ID3 y etiquetas personalizadas. También puedes comparar metadatos entre dos archivos o exportarlos a Excel, CSV o DataSet para informes."
+    },
+    "overview_feature_3": {
+      "title": "Funciona en cualquier entorno",
+      "description": "{{ProdCliFull}} funciona donde se soporte {{EnvNameShort}}. Se ejecuta con diferentes lenguajes y está disponible en Windows, Linux y macOS donde estén instalados los frameworks {{Mono}} o {{EnvNameShort}} (incluido {{CoreNet}})."
+    },
+    "features": {
+      "title": "Aspectos destacados de {{ProdFullName}}",
+      "description": "Gestiona metadatos en Office, PDF, imágenes, multimedia y más",
+      "feature_1": {
+        "title": "Acceso a metadatos incorporados y personalizados",
+        "content": "Trabaja con metadatos estándar y propiedades personalizadas en archivos compatibles."
+      },
+      "feature_2": {
+        "title": "Detalles de cámara en fotos",
+        "content": "Visualiza los detalles de las fotos almacenados en metadatos, como marca de la cámara, modelo y resolución."
+      },
+      "feature_3": {
+        "title": "Detectar o eliminar firmas digitales",
+        "content": "Encuentra firmas digitales dentro de archivos y elimínalas si es necesario."
+      },
+      "feature_4": {
+        "title": "Geolocalización de fotos",
+        "content": "Verifica o elimina datos de ubicación GPS incrustados en los metadatos de la imagen."
+      },
+      "feature_5": {
+        "title": "Búsqueda de metadatos",
+        "content": "Busca a través de las propiedades del archivo y lista cualquier tipo de metadato."
+      },
+      "feature_6": {
+        "title": "Proteger documentos comerciales",
+        "content": "Limpia metadatos ocultos y comentarios de archivos comerciales e informes."
+      },
+      "feature_7": {
+        "title": "Previsualizaciones de documentos",
+        "content": "Genera previsualizaciones de imágenes para formatos como EPUB, CAD, EML y MSG."
+      },
+      "feature_8": {
+        "title": "Soporte multimedia Matroska",
+        "content": "Lee subtítulos Matroska y extrae metadatos de audio o video."
+      },
+      "feature_9": {
+        "title": "Metadatos de archivos comprimidos y torrents",
+        "content": "Lee y gestiona metadatos en archivos comprimidos como ZIP y archivos torrent."
+      },
+      "feature_10": {
+        "title": "Reconocimiento del tipo de archivo",
+        "content": "Detecta el tipo de archivo o transmisión antes de procesar metadatos."
+      },
+      "feature_11": {
+        "title": "Comparar metadatos",
+        "content": "Compara metadatos de diferentes archivos para encontrar diferencias y similitudes."
+      },
+      "feature_12": {
+        "title": "Reducir datos ocultos",
+        "content": "Elimina datos ocultos innecesarios de documentos e imágenes."
+      },
+      "feature_13": {
+        "title": "Controlar archivos de Office",
+        "content": "Encuentra y elimina metadatos ocultos en archivos de Word, Excel, PowerPoint y PDF."
+      },
+      "feature_14": {
+        "title": "Reemplazar metadatos",
+        "content": "Obtén una lista de entradas de metadatos y reemplaza sus valores cuando sea necesario."
+      },
+      "feature_15": {
+        "title": "Soporte para imágenes TIFF",
+        "content": "Agrega, actualiza o elimina metadatos IPTC en archivos TIFF."
+      },
+      "feature_16": {
+        "title": "Metadatos de Excel",
+        "content": "Extrae metadatos de archivos de Excel comenzando desde Excel 95."
+      },
+      "feature_17": {
+        "title": "Metadatos de PNG",
+        "content": "Lee metadatos de texto almacenados dentro de imágenes PNG."
+      },
+      "feature_18": {
+        "title": "Detección de tipo MIME",
+        "content": "Identifica el tipo MIME de un archivo o flujo instantáneamente."
+      },
+      "feature_19": {
+        "title": "Miniaturas de imágenes",
+        "content": "Recupera miniaturas y previsualizaciones para formatos de archivos compatibles."
+      },
+      "feature_20": {
+        "title": "Seguridad del contenedor Matroska",
+        "content": "Verifica la protección con contraseña y los metadatos en archivos Matroska."
+      },
+      "feature_21": {
+        "title": "Claves de metadatos incorporados",
+        "content": "Utiliza claves definidas para leer metadatos de formatos compatibles."
+      },
+      "feature_22": {
+        "title": "Metadatos de imagen EXIF",
+        "content": "Edita etiquetas EXIF en formatos como WEBP, PNG y PSD."
+      },
+      "feature_23": {
+        "title": "Metadatos de correos electrónicos y fuentes",
+        "content": "Lee metadatos de correos electrónicos y archivos de fuentes OpenType."
+      },
+      "feature_24": {
+        "title": "Metadatos multimedia",
+        "content": "Extrae metadatos XMP de archivos MOV, MP3 y WEBP."
+      }
+    },
+    "platforms_description": "{{ProdCliFull}} funciona en múltiples sistemas operativos, frameworks y herramientas de línea de comandos:",
+    "formats_description": "{{ProdFullName}} soporta estos [formatos de archivo]({{SupportedFormatsUrl}}).",
+    "code_samples_title": "Casos de uso de {{ProdCliShort}}",
+    "code_samples_description": "Ejemplos de tareas comunes de {{ProdCliFull}}",
+    "sample_bottom_1": {
+      "title": "Encontrar metadatos ocultos",
+      "content": "Revisa y procesa los metadatos para tener un mejor control del contenido del documento:",
+      "code_title": "Obtener metadatos específicos de DOCX usando Bash",
+      "comment_1": "Recupera la propiedad 'Author' de un archivo DOCX"
+    },
+    "sample_bottom_2": {
+      "title": "Proteger el contenido del documento",
+      "content": "Elimina metadatos ocultos de los archivos para mantener la información sensible segura:",
+      "code_title": "Limpiar una propiedad específica de imagen con el símbolo del sistema de Windows",
+      "comment_1": "Eliminar la propiedad JPEG 'CameraOwnerName'"
+    }
   }
 }
