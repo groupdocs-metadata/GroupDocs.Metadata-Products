@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-08-26T22:44:30
+date: 2025-08-27T11:24:41
 draft: false
 
 lang: fa
@@ -40,6 +40,7 @@ words:
   for: "برای"
 
 actions:
+  main: "دانلود رایگان NuGet"
   main_link: "https://www.nuget.org/packages/GroupDocs.Metadata"
   alt: "صدور مجوز"
   alt_link: "https://purchase.groupdocs.com/pricing/metadata/net/"

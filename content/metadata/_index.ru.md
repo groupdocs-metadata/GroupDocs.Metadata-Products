@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-08-26T22:44:30
+date:  2025-08-27T11:24:41
 draft: false
 
 product: "Metadata"
@@ -206,106 +206,97 @@ code_samples:
   enable: true
   title: "Защитите документы с помощью метаданных"
   description: "GroupDocs.Metadata примеры кода типичных операций."
-
   items:
-    # items loop
+    # code sample loop
     - title: "Удалите ненужные метаданные из изображений и документов."
-      content: "GroupDocs.Metadata поможет вам легко удалить скрытую информацию из ваших файлов и документов. Вы можете быстро удалить такие сведения, как время и место съемки изображения, или удалить информацию об авторе и редакторе из документов Office."
+      content: |
+       GroupDocs.Metadata поможет вам легко удалить скрытую информацию из ваших файлов и документов. Вы можете быстро удалить такие сведения, как время и место съемки изображения, или удалить информацию об авторе и редакторе из документов Office.
       samples:
-          # samples loop
-          - language: "C#"
-            color: "blue"
-            content: |
-                    <code class="language-csharp" data-lang="csharp">
-                        // Передать путь к документу конструктору Metadata
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}  
+            // Передать путь к документу конструктору Metadata
 
-                        using (Metadata metadata = new Metadata("source.docx"))
-                        {
-                            // Удалить свойства документа, связанные с создателем и редактором
-                            var affected = metadata.RemoveProperties(
-                                p => p.Tags.Contains(Tags.Person.Creator) ||
-                                    p.Tags.Contains(Tags.Person.Editor));
+            using (Metadata metadata = new Metadata("source.docx"))
+            {
+                // Удалить свойства документа, связанные с создателем и редактором
+                var affected = metadata.RemoveProperties(
+                    p => p.Tags.Contains(Tags.Person.Creator) ||
+                        p.Tags.Contains(Tags.Person.Editor));
 
-                            // Результат процесса удаления метаданных
-                            Console.WriteLine("Properties removed: {0}", affected);
+                // Результат процесса удаления метаданных
+                Console.WriteLine("Properties removed: {0}", affected);
 
-                            // Сохранить очищенный документ
-                            metadata.Save("result.docx");
-                        }                    
-                    </code>
+                // Сохранить очищенный документ
+                metadata.Save("result.docx");
+            }                    
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            // Передать путь к документу конструктору Metadata
 
-          # samples loop
-          - language: "Java"
-            color: "red"
-            content: |
-                    <code class="language-java" data-lang="java">
-                        // Передать путь к документу конструктору Metadata
+            try (Metadata metadata = new Metadata("source.docx"){
 
-                        try (Metadata metadata = new Metadata("source.docx"){
+                // Удалить свойства документа, связанные с создателем и редактором
+                int affected = metadata.removeProperties(
+                    new ContainsTagSpecification(Tags.getPerson().getCreator()).or(
+                    new ContainsTagSpecification(Tags.getPerson().getEditor())));
 
-                            // Удалить свойства документа, связанные с создателем и редактором
-                            int affected = metadata.removeProperties(
-                                new ContainsTagSpecification(Tags.getPerson().getCreator()).or(
-                                new ContainsTagSpecification(Tags.getPerson().getEditor())));
+                // Результат процесса удаления метаданных
+                System.out.println(String.format("Properties removed: %s", affected));
 
-                            // Результат процесса удаления метаданных
-                            System.out.println(String.format("Properties removed: %s", affected));
+                // Сохранить очищенный документ
+                metadata.save("result.docx");
+            }
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}
+            // Передать путь к документу конструктору Metadata
 
-                            // Сохранить очищенный документ
-                            metadata.save("result.docx");
-                        }
-
-                    </code>
-
-          # samples loop
-          - language: "TypeScript"
-            color: "green"
-            content: |
-                    <code class="language-java" data-lang="javascript">
-                        // Передать путь к документу конструктору Metadata
-
-                        const metadata = new groupdocs.metadata.Metadata("source.docx");
+            const metadata = new groupdocs.metadata.Metadata("source.docx");
     
-                        // Удалить свойства документа, связанные с создателем и редактором
-                        var affected = metadata.removeProperties(
-                            new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getCreator()).or(
-                            new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getEditor()))
-                            );
+            // Удалить свойства документа, связанные с создателем и редактором
+            var affected = metadata.removeProperties(
+                new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getCreator()).or(
+                new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getEditor()))
+                );
 
-                        // Результат процесса удаления метаданных
-                        console.log('Properties removed: ${affected}');
+            // Результат процесса удаления метаданных
+            console.log('Properties removed: ${affected}');
 
-                        // Сохранить очищенный документ
-                        metadata.save("result.docx");                        
-
-                    </code>
-
-          # samples loop
-          - language: "Python"
-            color: "yellow"
-            content: |
-                    <code class="python-net" data-lang="python">
-                        import groupdocs.metadata as gm
+            // Сохранить очищенный документ
+            metadata.save("result.docx");                        
+            ```
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap}
+            import groupdocs.metadata as gm
                         
-                        def run():
+            def run():
 
-                            # Передать путь к документу конструктору Metadata
-                            with gm.Metadata("input.docx") as metadata:
+                # Передать путь к документу конструктору Metadata
+                with gm.Metadata("input.docx") as metadata:
 
-                                # Удалить свойства документа, связанные с создателем и редактором
-                                specification = gm.search.ContainsTagSpecification(gm.tagging.Tags.person.creator).
-                                    either(gm.search.ContainsTagSpecification(gm.tagging.Tags.person.editor)).
-                                    either(gm.search.OfTypeSpecification(gm.common.MetadataPropertyType.STRING).
-                                    both(gm.search.WithValueSpecification("John")))
-                                affected = metadata.remove_properties(specification)
+                # Удалить свойства документа, связанные с создателем и редактором
+                specification = gm.search.ContainsTagSpecification(gm.tagging.Tags.person.creator).
+                    either(gm.search.ContainsTagSpecification(gm.tagging.Tags.person.editor)).
+                    either(gm.search.OfTypeSpecification(gm.common.MetadataPropertyType.STRING).
+                    both(gm.search.WithValueSpecification("John")))
 
-                                # Результат процесса удаления метаданных
-                                print(f"Properties removed: {affected}")
+                affected = metadata.remove_properties(specification)
 
-                                # Сохранить очищенный документ
-                                metadata.save("output.docx")
+                # Результат процесса удаления метаданных
+                print(f"Properties removed: {affected}")
 
-                    </code>
+                # Сохранить очищенный документ
+                metadata.save("output.docx")
+            ```
 
 ############################# Supported Formats ###############################
 formats:

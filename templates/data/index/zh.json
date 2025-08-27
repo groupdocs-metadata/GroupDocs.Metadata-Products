@@ -723,6 +723,7 @@
     "head_description": "{{ProdCliFull}} 帮助您从文档、图像、音频和视频文件中导出、搜索、复制和删除元数据。通过命令提示符、PowerShell、Bash和其他工具方便地控制元数据。",
     "title": "使用 {{ProdCliFull}} 轻松处理元数据",
     "description": "通过 {{ProdCliShort}} 以及 {{ProdShortName}}，您可以快速阅读、导出、复制和删除流行文档、图像及媒体格式中的元数据。",
+    "actions_main": "免费 NuGet 下载",
     "sample_top": {
       "title": "导出 PDF 元数据到 JSON",
       "comment_1": "PowerShell 示例："

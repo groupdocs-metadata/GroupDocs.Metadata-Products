@@ -723,6 +723,7 @@
     "head_description": "{{ProdCliFull}} vous aide à exporter, rechercher, copier et supprimer les métadonnées des documents, images, fichiers audio et vidéo. Contrôlez les métadonnées en utilisant l'invite de commandes, PowerShell, Bash et d'autres outils.",
     "title": "Gérez les métadonnées avec {{ProdCliFull}}",
     "description": "Avec {{ProdCliShort}}, propulsé par {{ProdShortName}}, vous pouvez rapidement lire, exporter, copier et supprimer les métadonnées des formats de documents, d'images et de médias les plus populaires.",
+    "actions_main": "Téléchargement gratuit de NuGet",
     "sample_top": {
       "title": "Exporter les métadonnées PDF vers JSON",
       "comment_1": "Exemple PowerShell :"

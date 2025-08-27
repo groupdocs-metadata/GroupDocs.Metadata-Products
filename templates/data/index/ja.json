@@ -723,6 +723,7 @@
     "head_description": "{{ProdCliFull}} は、ドキュメント、画像、音声、およびビデオファイルからメタデータをエクスポート、検索、コピー、削除するのに役立ちます。コマンドプロンプト、PowerShell、Bash、その他のツールを使用してメタデータを制御します。",
     "title": "{{ProdCliFull}} でメタデータを管理",
     "description": "{{ProdCliShort}} は {{ProdShortName}} に基づいており、一般的なドキュメント、画像、およびメディア形式からメタデータを迅速に読み取り、エクスポート、コピー、削除できます。",
+    "actions_main": "無料の NuGet ダウンロード",
     "sample_top": {
       "title": "PDF メタデータを JSON にエクスポート",
       "comment_1": "PowerShell の例："

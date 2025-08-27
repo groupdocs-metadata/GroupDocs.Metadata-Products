@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-08-26T22:44:30
+date: 2025-08-27T11:24:41
 draft: false
 
 lang: zh
@@ -40,6 +40,7 @@ words:
   for: "为了"
 
 actions:
+  main: "免费 NuGet 下载"
   main_link: "https://www.nuget.org/packages/GroupDocs.Metadata"
   alt: "许可"
   alt_link: "https://purchase.groupdocs.com/pricing/metadata/net/"

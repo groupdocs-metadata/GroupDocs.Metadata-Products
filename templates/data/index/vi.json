@@ -723,6 +723,7 @@
     "head_description": "{{ProdCliFull}} giúp bạn xuất, tìm kiếm, sao chép và xóa siêu dữ liệu từ tài liệu, hình ảnh, âm thanh và video. Quản lý siêu dữ liệu bằng các lệnh trong Command Prompt, PowerShell, Bash và các công cụ khác.",
     "title": "Quản lý siêu dữ liệu với {{ProdCliFull}}",
     "description": "Với {{ProdCliShort}} được cung cấp bởi {{ProdShortName}}, bạn có thể nhanh chóng đọc, xuất, sao chép và xóa siêu dữ liệu từ các định dạng tài liệu, hình ảnh và phương tiện phổ biến.",
+    "actions_main": "Tải xuống NuGet miễn phí",
     "sample_top": {
       "title": "Xuất siêu dữ liệu PDF sang JSON",
       "comment_1": "Ví dụ về PowerShell:"

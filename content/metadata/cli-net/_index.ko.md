@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "landing"
-date: 2025-08-26T22:44:30
+date: 2025-08-27T11:24:41
 draft: false
 
 lang: ko
@@ -40,6 +40,7 @@ words:
   for: "~을 위한"
 
 actions:
+  main: "무료 NuGet 다운로드"
   main_link: "https://www.nuget.org/packages/GroupDocs.Metadata"
   alt: "라이선스"
   alt_link: "https://purchase.groupdocs.com/pricing/metadata/net/"

@@ -723,6 +723,7 @@
     "head_description": "{{ProdCliFull}} membantu Anda mengekspor, mencari, menyalin, dan menghapus metadata dari dokumen, gambar, file audio, dan video. Kendalikan metadata menggunakan command prompt, PowerShell, Bash, dan alat lainnya.",
     "title": "Kelola Metadata dengan {{ProdCliFull}}",
     "description": "Dengan {{ProdCliShort}} yang didukung oleh {{ProdShortName}}, Anda dapat membaca, mengekspor, menyalin, dan menghapus metadata dari format dokumen, gambar, dan media yang populer dengan cepat.",
+    "actions_main": "Unduh NuGet Gratis",
     "sample_top": {
       "title": "Ekspor metadata PDF ke JSON",
       "comment_1": "Contoh PowerShell:"

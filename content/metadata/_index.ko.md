@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-08-26T22:44:30
+date:  2025-08-27T11:24:41
 draft: false
 
 product: "Metadata"
@@ -206,106 +206,97 @@ code_samples:
   enable: true
   title: "메타데이터를 사용하여 문서 보호"
   description: "GroupDocs.Metadata 일반적인 작업 코드 예시입니다."
-
   items:
-    # items loop
+    # code sample loop
     - title: "이미지 및 문서에서 불필요한 메타데이터 제거"
-      content: "GroupDocs.Metadata을 사용하면 파일과 문서에서 숨겨진 정보를 쉽게 제거할 수 있습니다. 이미지를 촬영한 시기와 장소 등의 세부 정보를 빠르게 삭제하거나 Office 문서에서 작성자 및 편집자 정보를 제거할 수 있습니다."
+      content: |
+       GroupDocs.Metadata을 사용하면 파일과 문서에서 숨겨진 정보를 쉽게 제거할 수 있습니다. 이미지를 촬영한 시기와 장소 등의 세부 정보를 빠르게 삭제하거나 Office 문서에서 작성자 및 편집자 정보를 제거할 수 있습니다.
       samples:
-          # samples loop
-          - language: "C#"
-            color: "blue"
-            content: |
-                    <code class="language-csharp" data-lang="csharp">
-                        // 문서 경로를 Metadata 생성자에 전달합니다.
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}  
+            // 문서 경로를 Metadata 생성자에 전달합니다.
 
-                        using (Metadata metadata = new Metadata("source.docx"))
-                        {
-                            // 작성자 및 편집자에 연결된 문서 속성 제거
-                            var affected = metadata.RemoveProperties(
-                                p => p.Tags.Contains(Tags.Person.Creator) ||
-                                    p.Tags.Contains(Tags.Person.Editor));
+            using (Metadata metadata = new Metadata("source.docx"))
+            {
+                // 작성자 및 편집자에 연결된 문서 속성 제거
+                var affected = metadata.RemoveProperties(
+                    p => p.Tags.Contains(Tags.Person.Creator) ||
+                        p.Tags.Contains(Tags.Person.Editor));
 
-                            // 메타데이터 제거 처리 결과
-                            Console.WriteLine("Properties removed: {0}", affected);
+                // 메타데이터 제거 처리 결과
+                Console.WriteLine("Properties removed: {0}", affected);
 
-                            // 정리된 문서 저장
-                            metadata.Save("result.docx");
-                        }                    
-                    </code>
+                // 정리된 문서 저장
+                metadata.Save("result.docx");
+            }                    
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            // 문서 경로를 Metadata 생성자에 전달합니다.
 
-          # samples loop
-          - language: "Java"
-            color: "red"
-            content: |
-                    <code class="language-java" data-lang="java">
-                        // 문서 경로를 Metadata 생성자에 전달합니다.
+            try (Metadata metadata = new Metadata("source.docx"){
 
-                        try (Metadata metadata = new Metadata("source.docx"){
+                // 작성자 및 편집자에 연결된 문서 속성 제거
+                int affected = metadata.removeProperties(
+                    new ContainsTagSpecification(Tags.getPerson().getCreator()).or(
+                    new ContainsTagSpecification(Tags.getPerson().getEditor())));
 
-                            // 작성자 및 편집자에 연결된 문서 속성 제거
-                            int affected = metadata.removeProperties(
-                                new ContainsTagSpecification(Tags.getPerson().getCreator()).or(
-                                new ContainsTagSpecification(Tags.getPerson().getEditor())));
+                // 메타데이터 제거 처리 결과
+                System.out.println(String.format("Properties removed: %s", affected));
 
-                            // 메타데이터 제거 처리 결과
-                            System.out.println(String.format("Properties removed: %s", affected));
+                // 정리된 문서 저장
+                metadata.save("result.docx");
+            }
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}
+            // 문서 경로를 Metadata 생성자에 전달합니다.
 
-                            // 정리된 문서 저장
-                            metadata.save("result.docx");
-                        }
-
-                    </code>
-
-          # samples loop
-          - language: "TypeScript"
-            color: "green"
-            content: |
-                    <code class="language-java" data-lang="javascript">
-                        // 문서 경로를 Metadata 생성자에 전달합니다.
-
-                        const metadata = new groupdocs.metadata.Metadata("source.docx");
+            const metadata = new groupdocs.metadata.Metadata("source.docx");
     
-                        // 작성자 및 편집자에 연결된 문서 속성 제거
-                        var affected = metadata.removeProperties(
-                            new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getCreator()).or(
-                            new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getEditor()))
-                            );
+            // 작성자 및 편집자에 연결된 문서 속성 제거
+            var affected = metadata.removeProperties(
+                new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getCreator()).or(
+                new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getEditor()))
+                );
 
-                        // 메타데이터 제거 처리 결과
-                        console.log('Properties removed: ${affected}');
+            // 메타데이터 제거 처리 결과
+            console.log('Properties removed: ${affected}');
 
-                        // 정리된 문서 저장
-                        metadata.save("result.docx");                        
-
-                    </code>
-
-          # samples loop
-          - language: "Python"
-            color: "yellow"
-            content: |
-                    <code class="python-net" data-lang="python">
-                        import groupdocs.metadata as gm
+            // 정리된 문서 저장
+            metadata.save("result.docx");                        
+            ```
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap}
+            import groupdocs.metadata as gm
                         
-                        def run():
+            def run():
 
-                            # 문서 경로를 Metadata 생성자에 전달합니다.
-                            with gm.Metadata("input.docx") as metadata:
+                # 문서 경로를 Metadata 생성자에 전달합니다.
+                with gm.Metadata("input.docx") as metadata:
 
-                                # 작성자 및 편집자에 연결된 문서 속성 제거
-                                specification = gm.search.ContainsTagSpecification(gm.tagging.Tags.person.creator).
-                                    either(gm.search.ContainsTagSpecification(gm.tagging.Tags.person.editor)).
-                                    either(gm.search.OfTypeSpecification(gm.common.MetadataPropertyType.STRING).
-                                    both(gm.search.WithValueSpecification("John")))
-                                affected = metadata.remove_properties(specification)
+                # 작성자 및 편집자에 연결된 문서 속성 제거
+                specification = gm.search.ContainsTagSpecification(gm.tagging.Tags.person.creator).
+                    either(gm.search.ContainsTagSpecification(gm.tagging.Tags.person.editor)).
+                    either(gm.search.OfTypeSpecification(gm.common.MetadataPropertyType.STRING).
+                    both(gm.search.WithValueSpecification("John")))
 
-                                # 메타데이터 제거 처리 결과
-                                print(f"Properties removed: {affected}")
+                affected = metadata.remove_properties(specification)
 
-                                # 정리된 문서 저장
-                                metadata.save("output.docx")
+                # 메타데이터 제거 처리 결과
+                print(f"Properties removed: {affected}")
 
-                    </code>
+                # 정리된 문서 저장
+                metadata.save("output.docx")
+            ```
 
 ############################# Supported Formats ###############################
 formats:

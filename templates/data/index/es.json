@@ -723,6 +723,7 @@
     "head_description": "{{ProdCliFull}} te permite exportar, buscar, copiar y eliminar metadatos de documentos, imágenes, audio y archivos de video. Controla los metadatos a través de la línea de comandos, PowerShell, Bash y otras herramientas.",
     "title": "Gestiona Metadatos con {{ProdCliFull}}",
     "description": "Con {{ProdCliShort}} impulsado por {{ProdShortName}}, puedes leer, exportar, copiar y eliminar rápidamente metadatos de formatos de documentos, imágenes y medios populares.",
+    "actions_main": "Descarga gratuita de NuGet",
     "sample_top": {
       "title": "Exportar metadatos PDF a JSON",
       "comment_1": "Ejemplo de PowerShell:"

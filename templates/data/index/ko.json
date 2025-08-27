@@ -723,6 +723,7 @@
     "head_description": "{{ProdCliFull}}는 문서, 이미지, 오디오 및 비디오 파일에서 메타데이터를 내보내고, 검색하고, 복사하고, 제거하는 데 도움을 줍니다. 명령 프롬프트, PowerShell, Bash 및 기타 도구를 사용하여 메타데이터를 관리하세요.",
     "title": "{{ProdCliFull}}로 메타데이터 관리하기",
     "description": "{{ProdCliShort}}는 {{ProdShortName}}의 지원을 받아 인기 있는 문서, 이미지 및 미디어 형식에서 메타데이터를 빠르게 읽고, 내보내고, 복사하고, 제거할 수 있습니다.",
+    "actions_main": "무료 NuGet 다운로드",
     "sample_top": {
       "title": "PDF 메타데이터를 JSON으로 내보내기",
       "comment_1": "PowerShell 예시:"

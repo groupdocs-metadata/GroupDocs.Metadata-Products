@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-08-26T22:44:30
+date:  2025-08-27T11:24:41
 draft: false
 
 product: "Metadata"
@@ -206,106 +206,97 @@ code_samples:
   enable: true
   title: "ปกป้องเอกสารโดยใช้ข้อมูลเมตา"
   description: "GroupDocs.Metadata ตัวอย่างโค้ดการดำเนินการทั่วไป"
-
   items:
-    # items loop
+    # code sample loop
     - title: "ลบข้อมูลเมตาที่ไม่จำเป็นออกจากรูปภาพและเอกสาร"
-      content: "GroupDocs.Metadata ช่วยให้คุณลบข้อมูลที่ซ่อนอยู่ออกจากไฟล์และเอกสารของคุณได้อย่างง่ายดาย คุณสามารถลบรายละเอียด เช่น เวลาและสถานที่ที่ถ่ายภาพ หรือลบข้อมูลผู้แต่งและบรรณาธิการออกจากเอกสาร Office ได้อย่างรวดเร็ว"
+      content: |
+       GroupDocs.Metadata ช่วยให้คุณลบข้อมูลที่ซ่อนอยู่ออกจากไฟล์และเอกสารของคุณได้อย่างง่ายดาย คุณสามารถลบรายละเอียด เช่น เวลาและสถานที่ที่ถ่ายภาพ หรือลบข้อมูลผู้แต่งและบรรณาธิการออกจากเอกสาร Office ได้อย่างรวดเร็ว
       samples:
-          # samples loop
-          - language: "C#"
-            color: "blue"
-            content: |
-                    <code class="language-csharp" data-lang="csharp">
-                        // ส่งผ่านเส้นทางไปยังเอกสารไปยังตัวสร้าง Metadata
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}  
+            // ส่งผ่านเส้นทางไปยังเอกสารไปยังตัวสร้าง Metadata
 
-                        using (Metadata metadata = new Metadata("source.docx"))
-                        {
-                            // ลบคุณสมบัติของเอกสารที่เชื่อมต่อกับผู้สร้างและบรรณาธิการ
-                            var affected = metadata.RemoveProperties(
-                                p => p.Tags.Contains(Tags.Person.Creator) ||
-                                    p.Tags.Contains(Tags.Person.Editor));
+            using (Metadata metadata = new Metadata("source.docx"))
+            {
+                // ลบคุณสมบัติของเอกสารที่เชื่อมต่อกับผู้สร้างและบรรณาธิการ
+                var affected = metadata.RemoveProperties(
+                    p => p.Tags.Contains(Tags.Person.Creator) ||
+                        p.Tags.Contains(Tags.Person.Editor));
 
-                            // ผลลัพธ์กระบวนการลบข้อมูลเมตา
-                            Console.WriteLine("Properties removed: {0}", affected);
+                // ผลลัพธ์กระบวนการลบข้อมูลเมตา
+                Console.WriteLine("Properties removed: {0}", affected);
 
-                            // บันทึกเอกสารที่ทำความสะอาด
-                            metadata.Save("result.docx");
-                        }                    
-                    </code>
+                // บันทึกเอกสารที่ทำความสะอาด
+                metadata.Save("result.docx");
+            }                    
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            // ส่งผ่านเส้นทางไปยังเอกสารไปยังตัวสร้าง Metadata
 
-          # samples loop
-          - language: "Java"
-            color: "red"
-            content: |
-                    <code class="language-java" data-lang="java">
-                        // ส่งผ่านเส้นทางไปยังเอกสารไปยังตัวสร้าง Metadata
+            try (Metadata metadata = new Metadata("source.docx"){
 
-                        try (Metadata metadata = new Metadata("source.docx"){
+                // ลบคุณสมบัติของเอกสารที่เชื่อมต่อกับผู้สร้างและบรรณาธิการ
+                int affected = metadata.removeProperties(
+                    new ContainsTagSpecification(Tags.getPerson().getCreator()).or(
+                    new ContainsTagSpecification(Tags.getPerson().getEditor())));
 
-                            // ลบคุณสมบัติของเอกสารที่เชื่อมต่อกับผู้สร้างและบรรณาธิการ
-                            int affected = metadata.removeProperties(
-                                new ContainsTagSpecification(Tags.getPerson().getCreator()).or(
-                                new ContainsTagSpecification(Tags.getPerson().getEditor())));
+                // ผลลัพธ์กระบวนการลบข้อมูลเมตา
+                System.out.println(String.format("Properties removed: %s", affected));
 
-                            // ผลลัพธ์กระบวนการลบข้อมูลเมตา
-                            System.out.println(String.format("Properties removed: %s", affected));
+                // บันทึกเอกสารที่ทำความสะอาด
+                metadata.save("result.docx");
+            }
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}
+            // ส่งผ่านเส้นทางไปยังเอกสารไปยังตัวสร้าง Metadata
 
-                            // บันทึกเอกสารที่ทำความสะอาด
-                            metadata.save("result.docx");
-                        }
-
-                    </code>
-
-          # samples loop
-          - language: "TypeScript"
-            color: "green"
-            content: |
-                    <code class="language-java" data-lang="javascript">
-                        // ส่งผ่านเส้นทางไปยังเอกสารไปยังตัวสร้าง Metadata
-
-                        const metadata = new groupdocs.metadata.Metadata("source.docx");
+            const metadata = new groupdocs.metadata.Metadata("source.docx");
     
-                        // ลบคุณสมบัติของเอกสารที่เชื่อมต่อกับผู้สร้างและบรรณาธิการ
-                        var affected = metadata.removeProperties(
-                            new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getCreator()).or(
-                            new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getEditor()))
-                            );
+            // ลบคุณสมบัติของเอกสารที่เชื่อมต่อกับผู้สร้างและบรรณาธิการ
+            var affected = metadata.removeProperties(
+                new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getCreator()).or(
+                new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getEditor()))
+                );
 
-                        // ผลลัพธ์กระบวนการลบข้อมูลเมตา
-                        console.log('Properties removed: ${affected}');
+            // ผลลัพธ์กระบวนการลบข้อมูลเมตา
+            console.log('Properties removed: ${affected}');
 
-                        // บันทึกเอกสารที่ทำความสะอาด
-                        metadata.save("result.docx");                        
-
-                    </code>
-
-          # samples loop
-          - language: "Python"
-            color: "yellow"
-            content: |
-                    <code class="python-net" data-lang="python">
-                        import groupdocs.metadata as gm
+            // บันทึกเอกสารที่ทำความสะอาด
+            metadata.save("result.docx");                        
+            ```
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap}
+            import groupdocs.metadata as gm
                         
-                        def run():
+            def run():
 
-                            # ส่งผ่านเส้นทางไปยังเอกสารไปยังตัวสร้าง Metadata
-                            with gm.Metadata("input.docx") as metadata:
+                # ส่งผ่านเส้นทางไปยังเอกสารไปยังตัวสร้าง Metadata
+                with gm.Metadata("input.docx") as metadata:
 
-                                # ลบคุณสมบัติของเอกสารที่เชื่อมต่อกับผู้สร้างและบรรณาธิการ
-                                specification = gm.search.ContainsTagSpecification(gm.tagging.Tags.person.creator).
-                                    either(gm.search.ContainsTagSpecification(gm.tagging.Tags.person.editor)).
-                                    either(gm.search.OfTypeSpecification(gm.common.MetadataPropertyType.STRING).
-                                    both(gm.search.WithValueSpecification("John")))
-                                affected = metadata.remove_properties(specification)
+                # ลบคุณสมบัติของเอกสารที่เชื่อมต่อกับผู้สร้างและบรรณาธิการ
+                specification = gm.search.ContainsTagSpecification(gm.tagging.Tags.person.creator).
+                    either(gm.search.ContainsTagSpecification(gm.tagging.Tags.person.editor)).
+                    either(gm.search.OfTypeSpecification(gm.common.MetadataPropertyType.STRING).
+                    both(gm.search.WithValueSpecification("John")))
 
-                                # ผลลัพธ์กระบวนการลบข้อมูลเมตา
-                                print(f"Properties removed: {affected}")
+                affected = metadata.remove_properties(specification)
 
-                                # บันทึกเอกสารที่ทำความสะอาด
-                                metadata.save("output.docx")
+                # ผลลัพธ์กระบวนการลบข้อมูลเมตา
+                print(f"Properties removed: {affected}")
 
-                    </code>
+                # บันทึกเอกสารที่ทำความสะอาด
+                metadata.save("output.docx")
+            ```
 
 ############################# Supported Formats ###############################
 formats:
