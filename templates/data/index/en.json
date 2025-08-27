@@ -723,6 +723,7 @@
     "head_description": "{{ProdCliFull}} helps you export, search, copy, and remove metadata from documents, images, audio, and video files. Control metadata easily using command prompt, PowerShell, Bash, and other tools.",
     "title": "Handle Metadata Easily with {{ProdCliFull}}",
     "description": "With {{ProdCliShort}} powered by {{ProdShortName}}, you can quickly read, export, copy, and remove metadata from popular document, image, and media formats.",
+    "actions_main": "Free NuGet Download",
     "sample_top": {
       "title": "Export PDF metadata to JSON",
       "comment_1": "PowerShell example:"

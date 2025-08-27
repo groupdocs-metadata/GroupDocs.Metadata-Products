@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-06-27T08:59:14
+date:  2025-08-27T11:24:41
 draft: false
 
 product: "Metadata"
@@ -146,6 +146,34 @@ supported_platforms:
             content: |
                     70+ file formats
 
+    # items loop
+    - title: "CLI .NET"
+      description: GroupDocs.Metadata CLI for .NET
+      color: "gray"
+      tag: "cli-net"
+      link: "/metadata/cli-net/"
+      features_link: "https://docs.groupdocs.com/metadata/net/system-requirements/"
+      features:
+          # features loop
+          - rows: "3"
+            content: |
+                    .NET Core 3.0 or higher <br> .NET 5.0 or higher <br> .NET Standard 2.1
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    Windows <br> Linux <br> Mac OS
+      
+          # features loop
+          - rows: "4"
+            content: |
+                    Command Prompt, Bash, PowerShell, etc.
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    70+ file formats
+
 ############################# Features ###############################
 features:
   enable: true
@@ -178,106 +206,97 @@ code_samples:
   enable: true
   title: "使用元数据保护文档"
   description: "GroupDocs.Metadata典型操作代码示例。"
-
   items:
-    # items loop
+    # code sample loop
     - title: "从图像和文档中删除不必要的元数据"
-      content: "GroupDocs.Metadata 可帮助您轻松删除文件和文档中的隐藏信息。您可以快速删除拍摄图像的时间和地点等详细信息，或从 Office 文档中删除作者和编辑者信息。"
+      content: |
+       GroupDocs.Metadata 可帮助您轻松删除文件和文档中的隐藏信息。您可以快速删除拍摄图像的时间和地点等详细信息，或从 Office 文档中删除作者和编辑者信息。
       samples:
-          # samples loop
-          - language: "C#"
-            color: "blue"
-            content: |
-                    <code class="language-csharp" data-lang="csharp">
-                        // 将文档路径传递给 Metadata 构造函数
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}  
+            // 将文档路径传递给 Metadata 构造函数
 
-                        using (Metadata metadata = new Metadata("source.docx"))
-                        {
-                            // 删除连接到创建者和编辑者的文档属性
-                            var affected = metadata.RemoveProperties(
-                                p => p.Tags.Contains(Tags.Person.Creator) ||
-                                    p.Tags.Contains(Tags.Person.Editor));
+            using (Metadata metadata = new Metadata("source.docx"))
+            {
+                // 删除连接到创建者和编辑者的文档属性
+                var affected = metadata.RemoveProperties(
+                    p => p.Tags.Contains(Tags.Person.Creator) ||
+                        p.Tags.Contains(Tags.Person.Editor));
 
-                            // 元数据删除处理结果
-                            Console.WriteLine("Properties removed: {0}", affected);
+                // 元数据删除处理结果
+                Console.WriteLine("Properties removed: {0}", affected);
 
-                            // 保存清理后的文档
-                            metadata.Save("result.docx");
-                        }                    
-                    </code>
+                // 保存清理后的文档
+                metadata.Save("result.docx");
+            }                    
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            // 将文档路径传递给 Metadata 构造函数
 
-          # samples loop
-          - language: "Java"
-            color: "red"
-            content: |
-                    <code class="language-java" data-lang="java">
-                        // 将文档路径传递给 Metadata 构造函数
+            try (Metadata metadata = new Metadata("source.docx"){
 
-                        try (Metadata metadata = new Metadata("source.docx"){
+                // 删除连接到创建者和编辑者的文档属性
+                int affected = metadata.removeProperties(
+                    new ContainsTagSpecification(Tags.getPerson().getCreator()).or(
+                    new ContainsTagSpecification(Tags.getPerson().getEditor())));
 
-                            // 删除连接到创建者和编辑者的文档属性
-                            int affected = metadata.removeProperties(
-                                new ContainsTagSpecification(Tags.getPerson().getCreator()).or(
-                                new ContainsTagSpecification(Tags.getPerson().getEditor())));
+                // 元数据删除处理结果
+                System.out.println(String.format("Properties removed: %s", affected));
 
-                            // 元数据删除处理结果
-                            System.out.println(String.format("Properties removed: %s", affected));
+                // 保存清理后的文档
+                metadata.save("result.docx");
+            }
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}
+            // 将文档路径传递给 Metadata 构造函数
 
-                            // 保存清理后的文档
-                            metadata.save("result.docx");
-                        }
-
-                    </code>
-
-          # samples loop
-          - language: "TypeScript"
-            color: "green"
-            content: |
-                    <code class="language-java" data-lang="javascript">
-                        // 将文档路径传递给 Metadata 构造函数
-
-                        const metadata = new groupdocs.metadata.Metadata("source.docx");
+            const metadata = new groupdocs.metadata.Metadata("source.docx");
     
-                        // 删除连接到创建者和编辑者的文档属性
-                        var affected = metadata.removeProperties(
-                            new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getCreator()).or(
-                            new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getEditor()))
-                            );
+            // 删除连接到创建者和编辑者的文档属性
+            var affected = metadata.removeProperties(
+                new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getCreator()).or(
+                new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getEditor()))
+                );
 
-                        // 元数据删除处理结果
-                        console.log('Properties removed: ${affected}');
+            // 元数据删除处理结果
+            console.log('Properties removed: ${affected}');
 
-                        // 保存清理后的文档
-                        metadata.save("result.docx");                        
-
-                    </code>
-
-          # samples loop
-          - language: "Python"
-            color: "yellow"
-            content: |
-                    <code class="python-net" data-lang="python">
-                        import groupdocs.metadata as gm
+            // 保存清理后的文档
+            metadata.save("result.docx");                        
+            ```
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap}
+            import groupdocs.metadata as gm
                         
-                        def run():
+            def run():
 
-                            # 将文档路径传递给 Metadata 构造函数
-                            with gm.Metadata("input.docx") as metadata:
+                # 将文档路径传递给 Metadata 构造函数
+                with gm.Metadata("input.docx") as metadata:
 
-                                # 删除连接到创建者和编辑者的文档属性
-                                specification = gm.search.ContainsTagSpecification(gm.tagging.Tags.person.creator).
-                                    either(gm.search.ContainsTagSpecification(gm.tagging.Tags.person.editor)).
-                                    either(gm.search.OfTypeSpecification(gm.common.MetadataPropertyType.STRING).
-                                    both(gm.search.WithValueSpecification("John")))
-                                affected = metadata.remove_properties(specification)
+                # 删除连接到创建者和编辑者的文档属性
+                specification = gm.search.ContainsTagSpecification(gm.tagging.Tags.person.creator).
+                    either(gm.search.ContainsTagSpecification(gm.tagging.Tags.person.editor)).
+                    either(gm.search.OfTypeSpecification(gm.common.MetadataPropertyType.STRING).
+                    both(gm.search.WithValueSpecification("John")))
 
-                                # 元数据删除处理结果
-                                print(f"Properties removed: {affected}")
+                affected = metadata.remove_properties(specification)
 
-                                # 保存清理后的文档
-                                metadata.save("output.docx")
+                # 元数据删除处理结果
+                print(f"Properties removed: {affected}")
 
-                    </code>
+                # 保存清理后的文档
+                metadata.save("output.docx")
+            ```
 
 ############################# Supported Formats ###############################
 formats:
@@ -386,7 +405,13 @@ actions:
     # items loop
     - title: "Python"
       color: "yellow"
-      link: "/metadata/python-net/"      
+      link: "/metadata/python-net/"    
+
+    # items loop
+    - title: "CLI"
+      color: "gray" 
+      link: "/metadata/cli-net/"
+
 
 ############################# FAQ ###############################
 faq:

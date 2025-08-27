@@ -717,5 +717,146 @@
     "code_samples_sample_1_content": "{{ProdFullName}} API를 사용하여 내부 [문서 메타데이터]({{Sample1Url}})를 검색합니다.",
     "code_title_sample_2": "문서에서 비즈니스 정보 숨기기",
     "code_samples_sample_2_content": "당사 솔루션을 사용하여 문서에 [메타데이터를 추가]({{Sample2Url}})하세요."
+  },
+  "index-content-cli-net": {
+    "head_title": "{{ProdCliShort}}로 메타데이터 내보내기, 찾기, 복사 및 제거하기",
+    "head_description": "{{ProdCliFull}}는 문서, 이미지, 오디오 및 비디오 파일에서 메타데이터를 내보내고, 검색하고, 복사하고, 제거하는 데 도움을 줍니다. 명령 프롬프트, PowerShell, Bash 및 기타 도구를 사용하여 메타데이터를 관리하세요.",
+    "title": "{{ProdCliFull}}로 메타데이터 관리하기",
+    "description": "{{ProdCliShort}}는 {{ProdShortName}}의 지원을 받아 인기 있는 문서, 이미지 및 미디어 형식에서 메타데이터를 빠르게 읽고, 내보내고, 복사하고, 제거할 수 있습니다.",
+    "actions_main": "무료 NuGet 다운로드",
+    "sample_top": {
+      "title": "PDF 메타데이터를 JSON으로 내보내기",
+      "comment_1": "PowerShell 예시:"
+    },
+    "overview_title": "{{ProdCliFull}} 개요",
+    "overview_description": "{{ProdCliFull}}의 기능을 한눈에 살펴보세요.",
+    "overview_feature_1": {
+      "title": "크로스 플랫폼 CLI 통합",
+      "description": "{{ProdCliShort}}는 {{ProdFullName}} API와 함께 작동하며 PowerShell, Bash, 명령 프롬프트 및 기타 도구에서 실행됩니다. 추가 소프트웨어 없이 문서, 이미지 및 미디어 파일의 메타데이터를 보고, 편집하고, 정리하고, 추출하고, 비교 및 내보낼 수 있습니다."
+    },
+    "overview_feature_2": {
+      "title": "주요 메타데이터 유형 지원",
+      "description": "{{ProdCliFull}}을 사용하면 파일을 열고 메타데이터를 검토하고, 변경하고, 다시 저장할 수 있습니다. 내장 표준, XMP, EXIF, IPTC, 이미지 리소스 블록, ID3 및 사용자 지정 태그를 포함한 주요 표준을 지원합니다. 두 파일 간의 메타데이터를 비교하거나 Excel, CSV, 또는 데이터 세트로 내보내어 보고할 수 있습니다."
+    },
+    "overview_feature_3": {
+      "title": "모든 환경에서 실행",
+      "description": "{{ProdCliFull}}은 {{EnvNameShort}}가 지원되는 어디에서나 작동합니다. 다양한 언어로 실행 가능하며, {{Mono}} 또는 {{EnvNameShort}} 프레임워크(영문 {{CoreNet}} 포함)가 설치된 Windows, Linux 및 macOS에서 사용할 수 있습니다."
+    },
+    "features": {
+      "title": "{{ProdFullName}} 주요 기능",
+      "description": "Office, PDF, 이미지, 멀티미디어 및 더 많은 메타데이터 관리",
+      "feature_1": {
+        "title": "내장 및 사용자 지정 메타데이터 접근",
+        "content": "지원되는 파일에서 표준 메타데이터 및 사용자 지정 속성과 작업합니다."
+      },
+      "feature_2": {
+        "title": "사진의 카메라 세부정보",
+        "content": "메타데이터에 저장된 카메라 브랜드, 모델 및 해상도와 같은 사진 세부정보를 확인합니다."
+      },
+      "feature_3": {
+        "title": "디지털 서명 감지 및 제거",
+        "content": "파일 내에서 디지털 서명을 찾고 필요할 경우 제거합니다."
+      },
+      "feature_4": {
+        "title": "사진의 지리적 위치",
+        "content": "이미지 메타데이터에 포함된 GPS 위치 데이터를 확인하거나 제거합니다."
+      },
+      "feature_5": {
+        "title": "메타데이터 검색",
+        "content": "파일 속성에서 메타데이터의 모든 유형을 검색하고 나열합니다."
+      },
+      "feature_6": {
+        "title": "비즈니스 문서 보호",
+        "content": "비즈니스 파일 및 보고서에서 숨겨진 메타데이터와 주석을 정리합니다."
+      },
+      "feature_7": {
+        "title": "문서 미리보기",
+        "content": "EPUB, CAD, EML, MSG와 같은 형식의 이미지 미리보기를 생성합니다."
+      },
+      "feature_8": {
+        "title": "Matroska 멀티미디어 지원",
+        "content": "Matroska 자막을 읽고 오디오 또는 비디오 메타데이터를 추출합니다."
+      },
+      "feature_9": {
+        "title": "아카이브 및 토렌트 메타데이터",
+        "content": "ZIP 및 토렌트 파일과 같은 아카이브 파일의 메타데이터를 읽고 관리합니다."
+      },
+      "feature_10": {
+        "title": "파일 형식 인식",
+        "content": "메타데이터를 처리하기 전에 파일이나 스트림 유형을 감지합니다."
+      },
+      "feature_11": {
+        "title": "메타데이터 비교",
+        "content": "다른 파일의 메타데이터를 비교하여 차이점과 유사점을 찾습니다."
+      },
+      "feature_12": {
+        "title": "숨겨진 데이터 감소",
+        "content": "문서 및 이미지에서 불필요한 숨겨진 데이터를 제거합니다."
+      },
+      "feature_13": {
+        "title": "Office 파일 제어",
+        "content": "Word, Excel, PowerPoint 및 PDF 파일의 숨겨진 메타데이터를 찾아 제거합니다."
+      },
+      "feature_14": {
+        "title": "메타데이터 교체",
+        "content": "메타데이터 항목 목록을 가져와 필요할 때 그 값을 교체합니다."
+      },
+      "feature_15": {
+        "title": "TIFF 이미지 지원",
+        "content": "TIFF 파일에서 IPTC 메타데이터를 추가, 업데이트 또는 삭제합니다."
+      },
+      "feature_16": {
+        "title": "Excel 메타데이터",
+        "content": "Excel 95 이후의 Excel 파일에서 메타데이터를 추출합니다."
+      },
+      "feature_17": {
+        "title": "PNG 메타데이터",
+        "content": "PNG 이미지 내에 저장된 텍스트 메타데이터를 읽습니다."
+      },
+      "feature_18": {
+        "title": "MIME 타입 감지",
+        "content": "파일이나 스트림의 MIME 타입을 즉시 식별합니다."
+      },
+      "feature_19": {
+        "title": "이미지 썸네일",
+        "content": "지원되는 파일 형식에 대한 썸네일 및 미리보기를 가져옵니다."
+      },
+      "feature_20": {
+        "title": "Matroska 컨테이너 보안",
+        "content": "Matroska 파일 내의 비밀번호 보호 및 메타데이터를 확인합니다."
+      },
+      "feature_21": {
+        "title": "내장 메타데이터 키",
+        "content": "지원되는 형식에서 메타데이터를 읽기 위해 정의된 키를 사용합니다."
+      },
+      "feature_22": {
+        "title": "EXIF 이미지 메타데이터",
+        "content": "WEBP, PNG 및 PSD와 같은 형식에서 EXIF 태그를 편집합니다."
+      },
+      "feature_23": {
+        "title": "이메일 및 폰트 메타데이터",
+        "content": "이메일 및 OpenType 글꼴 파일의 메타데이터를 읽습니다."
+      },
+      "feature_24": {
+        "title": "멀티미디어 메타데이터",
+        "content": "MOV, MP3 및 WEBP 파일에서 XMP 메타데이터를 추출합니다."
+      }
+    },
+    "platforms_description": "{{ProdCliFull}}은 여러 운영 체제, 프레임워크 및 명령줄 도구에서 사용할 수 있습니다:",
+    "formats_description": "{{ProdFullName}}은 이러한 [파일 형식]({{SupportedFormatsUrl}})을 지원합니다.",
+    "code_samples_title": "{{ProdCliShort}} 사용 사례",
+    "code_samples_description": "일반적인 {{ProdCliFull}} 작업 예시",
+    "sample_bottom_1": {
+      "title": "숨겨진 메타데이터 찾기",
+      "content": "문서 내용을 더 잘 제어하기 위해 메타데이터를 검사하고 처리합니다:",
+      "code_title": "Bash를 사용하여 특정 DOCX 메타데이터 가져오기",
+      "comment_1": "DOCX 파일에서 'Author' 속성을 가져옵니다."
+    },
+    "sample_bottom_2": {
+      "title": "문서 내용 보호",
+      "content": "민감한 정보를 안전하게 유지하기 위해 파일에서 숨겨진 메타데이터를 제거합니다:",
+      "code_title": "Windows 명령 프롬프트로 특정 이미지 속성 지우기",
+      "comment_1": "JPEG 속성 'CameraOwnerName' 제거하기"
+    }
   }
 }

@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2025-08-25T20:52:46
+date:  2025-08-27T11:24:41
 draft: false
 
 product: "Metadata"
@@ -147,7 +147,7 @@ supported_platforms:
                     70+ file formats
 
     # items loop
-    - title: "CLI for .NET"
+    - title: "CLI .NET"
       description: GroupDocs.Metadata CLI for .NET
       color: "gray"
       tag: "cli-net"
@@ -206,106 +206,97 @@ code_samples:
   enable: true
   title: "Protect documents using metadata"
   description: "GroupDocs.Metadata typical operations code examples."
-
   items:
-    # items loop
+    # code sample loop
     - title: "Remove unnecessary metadata from images and documents"
-      content: "GroupDocs.Metadata helps you easily remove hidden information from your files and documents. You can quickly delete details like when and where an image was taken, or remove author and editor info from Office documents."
+      content: |
+       GroupDocs.Metadata helps you easily remove hidden information from your files and documents. You can quickly delete details like when and where an image was taken, or remove author and editor info from Office documents.
       samples:
-          # samples loop
-          - language: "C#"
-            color: "blue"
-            content: |
-                    <code class="language-csharp" data-lang="csharp">
-                        // Pass path to a document to Metadata constructor
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}  
+            // Pass path to a document to Metadata constructor
 
-                        using (Metadata metadata = new Metadata("source.docx"))
-                        {
-                            // Remove document properties connected to creator and editor
-                            var affected = metadata.RemoveProperties(
-                                p => p.Tags.Contains(Tags.Person.Creator) ||
-                                    p.Tags.Contains(Tags.Person.Editor));
+            using (Metadata metadata = new Metadata("source.docx"))
+            {
+                // Remove document properties connected to creator and editor
+                var affected = metadata.RemoveProperties(
+                    p => p.Tags.Contains(Tags.Person.Creator) ||
+                        p.Tags.Contains(Tags.Person.Editor));
 
-                            // Process result of metadata removing
-                            Console.WriteLine("Properties removed: {0}", affected);
+                // Process result of metadata removing
+                Console.WriteLine("Properties removed: {0}", affected);
 
-                            // Save cleaned document
-                            metadata.Save("result.docx");
-                        }                    
-                    </code>
+                // Save cleaned document
+                metadata.Save("result.docx");
+            }                    
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            // Pass path to a document to Metadata constructor
 
-          # samples loop
-          - language: "Java"
-            color: "red"
-            content: |
-                    <code class="language-java" data-lang="java">
-                        // Pass path to a document to Metadata constructor
+            try (Metadata metadata = new Metadata("source.docx"){
 
-                        try (Metadata metadata = new Metadata("source.docx"){
+                // Remove document properties connected to creator and editor
+                int affected = metadata.removeProperties(
+                    new ContainsTagSpecification(Tags.getPerson().getCreator()).or(
+                    new ContainsTagSpecification(Tags.getPerson().getEditor())));
 
-                            // Remove document properties connected to creator and editor
-                            int affected = metadata.removeProperties(
-                                new ContainsTagSpecification(Tags.getPerson().getCreator()).or(
-                                new ContainsTagSpecification(Tags.getPerson().getEditor())));
+                // Process result of metadata removing
+                System.out.println(String.format("Properties removed: %s", affected));
 
-                            // Process result of metadata removing
-                            System.out.println(String.format("Properties removed: %s", affected));
+                // Save cleaned document
+                metadata.save("result.docx");
+            }
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}
+            // Pass path to a document to Metadata constructor
 
-                            // Save cleaned document
-                            metadata.save("result.docx");
-                        }
-
-                    </code>
-
-          # samples loop
-          - language: "TypeScript"
-            color: "green"
-            content: |
-                    <code class="language-java" data-lang="javascript">
-                        // Pass path to a document to Metadata constructor
-
-                        const metadata = new groupdocs.metadata.Metadata("source.docx");
+            const metadata = new groupdocs.metadata.Metadata("source.docx");
     
-                        // Remove document properties connected to creator and editor
-                        var affected = metadata.removeProperties(
-                            new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getCreator()).or(
-                            new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getEditor()))
-                            );
+            // Remove document properties connected to creator and editor
+            var affected = metadata.removeProperties(
+                new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getCreator()).or(
+                new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getEditor()))
+                );
 
-                        // Process result of metadata removing
-                        console.log('Properties removed: ${affected}');
+            // Process result of metadata removing
+            console.log('Properties removed: ${affected}');
 
-                        // Save cleaned document
-                        metadata.save("result.docx");                        
-
-                    </code>
-
-          # samples loop
-          - language: "Python"
-            color: "yellow"
-            content: |
-                    <code class="python-net" data-lang="python">
-                        import groupdocs.metadata as gm
+            // Save cleaned document
+            metadata.save("result.docx");                        
+            ```
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap}
+            import groupdocs.metadata as gm
                         
-                        def run():
+            def run():
 
-                            # Pass path to a document to Metadata constructor
-                            with gm.Metadata("input.docx") as metadata:
+                # Pass path to a document to Metadata constructor
+                with gm.Metadata("input.docx") as metadata:
 
-                                # Remove document properties connected to creator and editor
-                                specification = gm.search.ContainsTagSpecification(gm.tagging.Tags.person.creator).
-                                    either(gm.search.ContainsTagSpecification(gm.tagging.Tags.person.editor)).
-                                    either(gm.search.OfTypeSpecification(gm.common.MetadataPropertyType.STRING).
-                                    both(gm.search.WithValueSpecification("John")))
-                                affected = metadata.remove_properties(specification)
+                # Remove document properties connected to creator and editor
+                specification = gm.search.ContainsTagSpecification(gm.tagging.Tags.person.creator).
+                    either(gm.search.ContainsTagSpecification(gm.tagging.Tags.person.editor)).
+                    either(gm.search.OfTypeSpecification(gm.common.MetadataPropertyType.STRING).
+                    both(gm.search.WithValueSpecification("John")))
 
-                                # Process result of metadata removing
-                                print(f"Properties removed: {affected}")
+                affected = metadata.remove_properties(specification)
 
-                                # Save cleaned document
-                                metadata.save("output.docx")
+                # Process result of metadata removing
+                print(f"Properties removed: {affected}")
 
-                    </code>
+                # Save cleaned document
+                metadata.save("output.docx")
+            ```
 
 ############################# Supported Formats ###############################
 formats:
@@ -387,6 +378,39 @@ customers:
     # items loop
     - title: "Wipro"
       logo: "wipro"
+
+
+############################# Actions ###############################
+actions:
+  enable: true
+  title: "Ready to start?"
+  description: "Try GroupDocs.Metadata features for free in your applications"
+
+  items:
+    # items loop
+    - title: ".NET"
+      color: "blue"
+      link: "/metadata/net/"
+
+    # items loop
+    - title: "Java"
+      color: "red"
+      link: "/metadata/java/"
+
+    # items loop
+    - title: "Node.js"
+      color: "green"
+      link: "/metadata/nodejs-java/"   
+
+    # items loop
+    - title: "Python"
+      color: "yellow"
+      link: "/metadata/python-net/"    
+
+    # items loop
+    - title: "CLI"
+      color: "gray" 
+      link: "/metadata/cli-net/"
 
 
 ############################# FAQ ###############################

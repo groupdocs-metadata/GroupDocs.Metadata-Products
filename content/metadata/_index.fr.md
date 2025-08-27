@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-06-27T08:59:14
+date:  2025-08-27T11:24:41
 draft: false
 
 product: "Metadata"
@@ -146,6 +146,34 @@ supported_platforms:
             content: |
                     70+ file formats
 
+    # items loop
+    - title: "CLI .NET"
+      description: GroupDocs.Metadata CLI for .NET
+      color: "gray"
+      tag: "cli-net"
+      link: "/metadata/cli-net/"
+      features_link: "https://docs.groupdocs.com/metadata/net/system-requirements/"
+      features:
+          # features loop
+          - rows: "3"
+            content: |
+                    .NET Core 3.0 or higher <br> .NET 5.0 or higher <br> .NET Standard 2.1
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    Windows <br> Linux <br> Mac OS
+      
+          # features loop
+          - rows: "4"
+            content: |
+                    Command Prompt, Bash, PowerShell, etc.
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    70+ file formats
+
 ############################# Features ###############################
 features:
   enable: true
@@ -178,106 +206,97 @@ code_samples:
   enable: true
   title: "Protéger les documents à l'aide de métadonnées"
   description: "GroupDocs.Metadata exemples de code d'opérations typiques."
-
   items:
-    # items loop
+    # code sample loop
     - title: "Supprimez les métadonnées inutiles des images et des documents"
-      content: "GroupDocs.Metadata vous aide à supprimer facilement les informations masquées de vos fichiers et documents. Vous pouvez rapidement supprimer des détails tels que le moment et l'endroit où une image a été prise, ou supprimer les informations sur l'auteur et l'éditeur des documents Office."
+      content: |
+       GroupDocs.Metadata vous aide à supprimer facilement les informations masquées de vos fichiers et documents. Vous pouvez rapidement supprimer des détails tels que le moment et l'endroit où une image a été prise, ou supprimer les informations sur l'auteur et l'éditeur des documents Office.
       samples:
-          # samples loop
-          - language: "C#"
-            color: "blue"
-            content: |
-                    <code class="language-csharp" data-lang="csharp">
-                        // Transmettre le chemin d'accès à un document au constructeur Metadata
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}  
+            // Transmettre le chemin d'accès à un document au constructeur Metadata
 
-                        using (Metadata metadata = new Metadata("source.docx"))
-                        {
-                            // Supprimer les propriétés du document connectées au créateur et à l'éditeur
-                            var affected = metadata.RemoveProperties(
-                                p => p.Tags.Contains(Tags.Person.Creator) ||
-                                    p.Tags.Contains(Tags.Person.Editor));
+            using (Metadata metadata = new Metadata("source.docx"))
+            {
+                // Supprimer les propriétés du document connectées au créateur et à l'éditeur
+                var affected = metadata.RemoveProperties(
+                    p => p.Tags.Contains(Tags.Person.Creator) ||
+                        p.Tags.Contains(Tags.Person.Editor));
 
-                            // Résultat du processus de suppression des métadonnées
-                            Console.WriteLine("Properties removed: {0}", affected);
+                // Résultat du processus de suppression des métadonnées
+                Console.WriteLine("Properties removed: {0}", affected);
 
-                            // Enregistrer le document nettoyé
-                            metadata.Save("result.docx");
-                        }                    
-                    </code>
+                // Enregistrer le document nettoyé
+                metadata.Save("result.docx");
+            }                    
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            // Transmettre le chemin d'accès à un document au constructeur Metadata
 
-          # samples loop
-          - language: "Java"
-            color: "red"
-            content: |
-                    <code class="language-java" data-lang="java">
-                        // Transmettre le chemin d'accès à un document au constructeur Metadata
+            try (Metadata metadata = new Metadata("source.docx"){
 
-                        try (Metadata metadata = new Metadata("source.docx"){
+                // Supprimer les propriétés du document connectées au créateur et à l'éditeur
+                int affected = metadata.removeProperties(
+                    new ContainsTagSpecification(Tags.getPerson().getCreator()).or(
+                    new ContainsTagSpecification(Tags.getPerson().getEditor())));
 
-                            // Supprimer les propriétés du document connectées au créateur et à l'éditeur
-                            int affected = metadata.removeProperties(
-                                new ContainsTagSpecification(Tags.getPerson().getCreator()).or(
-                                new ContainsTagSpecification(Tags.getPerson().getEditor())));
+                // Résultat du processus de suppression des métadonnées
+                System.out.println(String.format("Properties removed: %s", affected));
 
-                            // Résultat du processus de suppression des métadonnées
-                            System.out.println(String.format("Properties removed: %s", affected));
+                // Enregistrer le document nettoyé
+                metadata.save("result.docx");
+            }
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}
+            // Transmettre le chemin d'accès à un document au constructeur Metadata
 
-                            // Enregistrer le document nettoyé
-                            metadata.save("result.docx");
-                        }
-
-                    </code>
-
-          # samples loop
-          - language: "TypeScript"
-            color: "green"
-            content: |
-                    <code class="language-java" data-lang="javascript">
-                        // Transmettre le chemin d'accès à un document au constructeur Metadata
-
-                        const metadata = new groupdocs.metadata.Metadata("source.docx");
+            const metadata = new groupdocs.metadata.Metadata("source.docx");
     
-                        // Supprimer les propriétés du document connectées au créateur et à l'éditeur
-                        var affected = metadata.removeProperties(
-                            new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getCreator()).or(
-                            new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getEditor()))
-                            );
+            // Supprimer les propriétés du document connectées au créateur et à l'éditeur
+            var affected = metadata.removeProperties(
+                new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getCreator()).or(
+                new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getEditor()))
+                );
 
-                        // Résultat du processus de suppression des métadonnées
-                        console.log('Properties removed: ${affected}');
+            // Résultat du processus de suppression des métadonnées
+            console.log('Properties removed: ${affected}');
 
-                        // Enregistrer le document nettoyé
-                        metadata.save("result.docx");                        
-
-                    </code>
-
-          # samples loop
-          - language: "Python"
-            color: "yellow"
-            content: |
-                    <code class="python-net" data-lang="python">
-                        import groupdocs.metadata as gm
+            // Enregistrer le document nettoyé
+            metadata.save("result.docx");                        
+            ```
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap}
+            import groupdocs.metadata as gm
                         
-                        def run():
+            def run():
 
-                            # Transmettre le chemin d'accès à un document au constructeur Metadata
-                            with gm.Metadata("input.docx") as metadata:
+                # Transmettre le chemin d'accès à un document au constructeur Metadata
+                with gm.Metadata("input.docx") as metadata:
 
-                                # Supprimer les propriétés du document connectées au créateur et à l'éditeur
-                                specification = gm.search.ContainsTagSpecification(gm.tagging.Tags.person.creator).
-                                    either(gm.search.ContainsTagSpecification(gm.tagging.Tags.person.editor)).
-                                    either(gm.search.OfTypeSpecification(gm.common.MetadataPropertyType.STRING).
-                                    both(gm.search.WithValueSpecification("John")))
-                                affected = metadata.remove_properties(specification)
+                # Supprimer les propriétés du document connectées au créateur et à l'éditeur
+                specification = gm.search.ContainsTagSpecification(gm.tagging.Tags.person.creator).
+                    either(gm.search.ContainsTagSpecification(gm.tagging.Tags.person.editor)).
+                    either(gm.search.OfTypeSpecification(gm.common.MetadataPropertyType.STRING).
+                    both(gm.search.WithValueSpecification("John")))
 
-                                # Résultat du processus de suppression des métadonnées
-                                print(f"Properties removed: {affected}")
+                affected = metadata.remove_properties(specification)
 
-                                # Enregistrer le document nettoyé
-                                metadata.save("output.docx")
+                # Résultat du processus de suppression des métadonnées
+                print(f"Properties removed: {affected}")
 
-                    </code>
+                # Enregistrer le document nettoyé
+                metadata.save("output.docx")
+            ```
 
 ############################# Supported Formats ###############################
 formats:
@@ -386,7 +405,13 @@ actions:
     # items loop
     - title: "Python"
       color: "yellow"
-      link: "/metadata/python-net/"      
+      link: "/metadata/python-net/"    
+
+    # items loop
+    - title: "CLI"
+      color: "gray" 
+      link: "/metadata/cli-net/"
+
 
 ############################# FAQ ###############################
 faq:

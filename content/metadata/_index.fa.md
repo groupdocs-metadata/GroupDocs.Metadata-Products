@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-06-27T08:59:14
+date:  2025-08-27T11:24:41
 draft: false
 
 product: "Metadata"
@@ -146,6 +146,34 @@ supported_platforms:
             content: |
                     70+ file formats
 
+    # items loop
+    - title: "CLI .NET"
+      description: GroupDocs.Metadata CLI for .NET
+      color: "gray"
+      tag: "cli-net"
+      link: "/metadata/cli-net/"
+      features_link: "https://docs.groupdocs.com/metadata/net/system-requirements/"
+      features:
+          # features loop
+          - rows: "3"
+            content: |
+                    .NET Core 3.0 or higher <br> .NET 5.0 or higher <br> .NET Standard 2.1
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    Windows <br> Linux <br> Mac OS
+      
+          # features loop
+          - rows: "4"
+            content: |
+                    Command Prompt, Bash, PowerShell, etc.
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    70+ file formats
+
 ############################# Features ###############################
 features:
   enable: true
@@ -178,106 +206,97 @@ code_samples:
   enable: true
   title: "از اسناد با استفاده از ابرداده محافظت کنید"
   description: "نمونه‌های کد عملیات معمولی GroupDocs.Metadata."
-
   items:
-    # items loop
+    # code sample loop
     - title: "ابرداده های غیر ضروری را از تصاویر و اسناد حذف کنید"
-      content: "GroupDocs.Metadata به شما کمک می کند تا به راحتی اطلاعات پنهان را از فایل ها و اسناد خود حذف کنید. می توانید به سرعت جزئیاتی مانند زمان و مکان گرفتن یک تصویر را حذف کنید یا اطلاعات نویسنده و ویرایشگر را از اسناد Office حذف کنید."
+      content: |
+       GroupDocs.Metadata به شما کمک می کند تا به راحتی اطلاعات پنهان را از فایل ها و اسناد خود حذف کنید. می توانید به سرعت جزئیاتی مانند زمان و مکان گرفتن یک تصویر را حذف کنید یا اطلاعات نویسنده و ویرایشگر را از اسناد Office حذف کنید.
       samples:
-          # samples loop
-          - language: "C#"
-            color: "blue"
-            content: |
-                    <code class="language-csharp" data-lang="csharp">
-                        // مسیر یک سند را به سازنده Metadata منتقل کنید
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}  
+            // مسیر یک سند را به سازنده Metadata منتقل کنید
 
-                        using (Metadata metadata = new Metadata("source.docx"))
-                        {
-                            // ویژگی های سند متصل به سازنده و ویرایشگر را حذف کنید
-                            var affected = metadata.RemoveProperties(
-                                p => p.Tags.Contains(Tags.Person.Creator) ||
-                                    p.Tags.Contains(Tags.Person.Editor));
+            using (Metadata metadata = new Metadata("source.docx"))
+            {
+                // ویژگی های سند متصل به سازنده و ویرایشگر را حذف کنید
+                var affected = metadata.RemoveProperties(
+                    p => p.Tags.Contains(Tags.Person.Creator) ||
+                        p.Tags.Contains(Tags.Person.Editor));
 
-                            // نتیجه فرآیند حذف ابرداده
-                            Console.WriteLine("Properties removed: {0}", affected);
+                // نتیجه فرآیند حذف ابرداده
+                Console.WriteLine("Properties removed: {0}", affected);
 
-                            // سند پاک شده را ذخیره کنید
-                            metadata.Save("result.docx");
-                        }                    
-                    </code>
+                // سند پاک شده را ذخیره کنید
+                metadata.Save("result.docx");
+            }                    
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            // مسیر یک سند را به سازنده Metadata منتقل کنید
 
-          # samples loop
-          - language: "Java"
-            color: "red"
-            content: |
-                    <code class="language-java" data-lang="java">
-                        // مسیر یک سند را به سازنده Metadata منتقل کنید
+            try (Metadata metadata = new Metadata("source.docx"){
 
-                        try (Metadata metadata = new Metadata("source.docx"){
+                // ویژگی های سند متصل به سازنده و ویرایشگر را حذف کنید
+                int affected = metadata.removeProperties(
+                    new ContainsTagSpecification(Tags.getPerson().getCreator()).or(
+                    new ContainsTagSpecification(Tags.getPerson().getEditor())));
 
-                            // ویژگی های سند متصل به سازنده و ویرایشگر را حذف کنید
-                            int affected = metadata.removeProperties(
-                                new ContainsTagSpecification(Tags.getPerson().getCreator()).or(
-                                new ContainsTagSpecification(Tags.getPerson().getEditor())));
+                // نتیجه فرآیند حذف ابرداده
+                System.out.println(String.format("Properties removed: %s", affected));
 
-                            // نتیجه فرآیند حذف ابرداده
-                            System.out.println(String.format("Properties removed: %s", affected));
+                // سند پاک شده را ذخیره کنید
+                metadata.save("result.docx");
+            }
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}
+            // مسیر یک سند را به سازنده Metadata منتقل کنید
 
-                            // سند پاک شده را ذخیره کنید
-                            metadata.save("result.docx");
-                        }
-
-                    </code>
-
-          # samples loop
-          - language: "TypeScript"
-            color: "green"
-            content: |
-                    <code class="language-java" data-lang="javascript">
-                        // مسیر یک سند را به سازنده Metadata منتقل کنید
-
-                        const metadata = new groupdocs.metadata.Metadata("source.docx");
+            const metadata = new groupdocs.metadata.Metadata("source.docx");
     
-                        // ویژگی های سند متصل به سازنده و ویرایشگر را حذف کنید
-                        var affected = metadata.removeProperties(
-                            new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getCreator()).or(
-                            new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getEditor()))
-                            );
+            // ویژگی های سند متصل به سازنده و ویرایشگر را حذف کنید
+            var affected = metadata.removeProperties(
+                new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getCreator()).or(
+                new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getEditor()))
+                );
 
-                        // نتیجه فرآیند حذف ابرداده
-                        console.log('Properties removed: ${affected}');
+            // نتیجه فرآیند حذف ابرداده
+            console.log('Properties removed: ${affected}');
 
-                        // سند پاک شده را ذخیره کنید
-                        metadata.save("result.docx");                        
-
-                    </code>
-
-          # samples loop
-          - language: "Python"
-            color: "yellow"
-            content: |
-                    <code class="python-net" data-lang="python">
-                        import groupdocs.metadata as gm
+            // سند پاک شده را ذخیره کنید
+            metadata.save("result.docx");                        
+            ```
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap}
+            import groupdocs.metadata as gm
                         
-                        def run():
+            def run():
 
-                            # مسیر یک سند را به سازنده Metadata منتقل کنید
-                            with gm.Metadata("input.docx") as metadata:
+                # مسیر یک سند را به سازنده Metadata منتقل کنید
+                with gm.Metadata("input.docx") as metadata:
 
-                                # ویژگی های سند متصل به سازنده و ویرایشگر را حذف کنید
-                                specification = gm.search.ContainsTagSpecification(gm.tagging.Tags.person.creator).
-                                    either(gm.search.ContainsTagSpecification(gm.tagging.Tags.person.editor)).
-                                    either(gm.search.OfTypeSpecification(gm.common.MetadataPropertyType.STRING).
-                                    both(gm.search.WithValueSpecification("John")))
-                                affected = metadata.remove_properties(specification)
+                # ویژگی های سند متصل به سازنده و ویرایشگر را حذف کنید
+                specification = gm.search.ContainsTagSpecification(gm.tagging.Tags.person.creator).
+                    either(gm.search.ContainsTagSpecification(gm.tagging.Tags.person.editor)).
+                    either(gm.search.OfTypeSpecification(gm.common.MetadataPropertyType.STRING).
+                    both(gm.search.WithValueSpecification("John")))
 
-                                # نتیجه فرآیند حذف ابرداده
-                                print(f"Properties removed: {affected}")
+                affected = metadata.remove_properties(specification)
 
-                                # سند پاک شده را ذخیره کنید
-                                metadata.save("output.docx")
+                # نتیجه فرآیند حذف ابرداده
+                print(f"Properties removed: {affected}")
 
-                    </code>
+                # سند پاک شده را ذخیره کنید
+                metadata.save("output.docx")
+            ```
 
 ############################# Supported Formats ###############################
 formats:
@@ -386,7 +405,13 @@ actions:
     # items loop
     - title: "Python"
       color: "yellow"
-      link: "/metadata/python-net/"      
+      link: "/metadata/python-net/"    
+
+    # items loop
+    - title: "CLI"
+      color: "gray" 
+      link: "/metadata/cli-net/"
+
 
 ############################# FAQ ###############################
 faq:

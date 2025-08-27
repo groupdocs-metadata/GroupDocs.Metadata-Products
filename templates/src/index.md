@@ -149,7 +149,7 @@ supported_platforms:
                     70+ file formats
 
     # items loop
-    - title: "CLI for .NET"
+    - title: "CLI .NET"
       description: GroupDocs.Metadata CLI for .NET
       color: "gray"
       tag: "cli-net"
@@ -208,106 +208,97 @@ code_samples:
   enable: true
   title: "<% "{index-content.code_samples.index_title}" %>"
   description: "<% "{index-content.code_samples.index_description}" %>"
-
   items:
-    # items loop
+    # code sample loop
     - title: "<% "{index-content.code_samples.sample_index.title}" %>"
-      content: "<% "{index-content.code_samples.sample_index.content}" %>"
+      content: |
+       <% "{index-content.code_samples.sample_index.content}" %>
       samples:
-          # samples loop
-          - language: "C#"
-            color: "blue"
-            content: |
-                    <code class="language-csharp" data-lang="csharp">
-                        // <% "{index-content.code_samples.sample_index.comment_1}" %>
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}  
+            // <% "{index-content.code_samples.sample_index.comment_1}" %>
 
-                        using (Metadata metadata = new Metadata("source.docx"))
-                        {
-                            // <% "{index-content.code_samples.sample_index.comment_2}" %>
-                            var affected = metadata.RemoveProperties(
-                                p => p.Tags.Contains(Tags.Person.Creator) ||
-                                    p.Tags.Contains(Tags.Person.Editor));
+            using (Metadata metadata = new Metadata("source.docx"))
+            {
+                // <% "{index-content.code_samples.sample_index.comment_2}" %>
+                var affected = metadata.RemoveProperties(
+                    p => p.Tags.Contains(Tags.Person.Creator) ||
+                        p.Tags.Contains(Tags.Person.Editor));
 
-                            // <% "{index-content.code_samples.sample_index.comment_3}" %>
-                            Console.WriteLine("Properties removed: {0}", affected);
+                // <% "{index-content.code_samples.sample_index.comment_3}" %>
+                Console.WriteLine("Properties removed: {0}", affected);
 
-                            // <% "{index-content.code_samples.sample_index.comment_4}" %>
-                            metadata.Save("result.docx");
-                        }                    
-                    </code>
+                // <% "{index-content.code_samples.sample_index.comment_4}" %>
+                metadata.Save("result.docx");
+            }                    
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            // <% "{index-content.code_samples.sample_index.comment_1}" %>
 
-          # samples loop
-          - language: "Java"
-            color: "red"
-            content: |
-                    <code class="language-java" data-lang="java">
-                        // <% "{index-content.code_samples.sample_index.comment_1}" %>
+            try (Metadata metadata = new Metadata("source.docx"){
 
-                        try (Metadata metadata = new Metadata("source.docx"){
+                // <% "{index-content.code_samples.sample_index.comment_2}" %>
+                int affected = metadata.removeProperties(
+                    new ContainsTagSpecification(Tags.getPerson().getCreator()).or(
+                    new ContainsTagSpecification(Tags.getPerson().getEditor())));
 
-                            // <% "{index-content.code_samples.sample_index.comment_2}" %>
-                            int affected = metadata.removeProperties(
-                                new ContainsTagSpecification(Tags.getPerson().getCreator()).or(
-                                new ContainsTagSpecification(Tags.getPerson().getEditor())));
+                // <% "{index-content.code_samples.sample_index.comment_3}" %>
+                System.out.println(String.format("Properties removed: %s", affected));
 
-                            // <% "{index-content.code_samples.sample_index.comment_3}" %>
-                            System.out.println(String.format("Properties removed: %s", affected));
+                // <% "{index-content.code_samples.sample_index.comment_4}" %>
+                metadata.save("result.docx");
+            }
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}
+            // <% "{index-content.code_samples.sample_index.comment_1}" %>
 
-                            // <% "{index-content.code_samples.sample_index.comment_4}" %>
-                            metadata.save("result.docx");
-                        }
-
-                    </code>
-
-          # samples loop
-          - language: "TypeScript"
-            color: "green"
-            content: |
-                    <code class="language-java" data-lang="javascript">
-                        // <% "{index-content.code_samples.sample_index.comment_1}" %>
-
-                        const metadata = new groupdocs.metadata.Metadata("source.docx");
+            const metadata = new groupdocs.metadata.Metadata("source.docx");
     
-                        // <% "{index-content.code_samples.sample_index.comment_2}" %>
-                        var affected = metadata.removeProperties(
-                            new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getCreator()).or(
-                            new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getEditor()))
-                            );
+            // <% "{index-content.code_samples.sample_index.comment_2}" %>
+            var affected = metadata.removeProperties(
+                new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getCreator()).or(
+                new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getEditor()))
+                );
 
-                        // <% "{index-content.code_samples.sample_index.comment_3}" %>
-                        console.log('Properties removed: ${affected}');
+            // <% "{index-content.code_samples.sample_index.comment_3}" %>
+            console.log('Properties removed: ${affected}');
 
-                        // <% "{index-content.code_samples.sample_index.comment_4}" %>
-                        metadata.save("result.docx");                        
-
-                    </code>
-
-          # samples loop
-          - language: "Python"
-            color: "yellow"
-            content: |
-                    <code class="python-net" data-lang="python">
-                        import groupdocs.metadata as gm
+            // <% "{index-content.code_samples.sample_index.comment_4}" %>
+            metadata.save("result.docx");                        
+            ```
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap}
+            import groupdocs.metadata as gm
                         
-                        def run():
+            def run():
 
-                            # <% "{index-content.code_samples.sample_index.comment_1}" %>
-                            with gm.Metadata("input.docx") as metadata:
+                # <% "{index-content.code_samples.sample_index.comment_1}" %>
+                with gm.Metadata("input.docx") as metadata:
 
-                                # <% "{index-content.code_samples.sample_index.comment_2}" %>
-                                specification = gm.search.ContainsTagSpecification(gm.tagging.Tags.person.creator).
-                                    either(gm.search.ContainsTagSpecification(gm.tagging.Tags.person.editor)).
-                                    either(gm.search.OfTypeSpecification(gm.common.MetadataPropertyType.STRING).
-                                    both(gm.search.WithValueSpecification("John")))
-                                affected = metadata.remove_properties(specification)
+                # <% "{index-content.code_samples.sample_index.comment_2}" %>
+                specification = gm.search.ContainsTagSpecification(gm.tagging.Tags.person.creator).
+                    either(gm.search.ContainsTagSpecification(gm.tagging.Tags.person.editor)).
+                    either(gm.search.OfTypeSpecification(gm.common.MetadataPropertyType.STRING).
+                    both(gm.search.WithValueSpecification("John")))
 
-                                # <% "{index-content.code_samples.sample_index.comment_3}" %>
-                                print(f"Properties removed: {affected}")
+                affected = metadata.remove_properties(specification)
 
-                                # <% "{index-content.code_samples.sample_index.comment_4}" %>
-                                metadata.save("output.docx")
+                # <% "{index-content.code_samples.sample_index.comment_3}" %>
+                print(f"Properties removed: {affected}")
 
-                    </code>
+                # <% "{index-content.code_samples.sample_index.comment_4}" %>
+                metadata.save("output.docx")
+            ```
 
 ############################# Supported Formats ###############################
 formats:
@@ -389,6 +380,39 @@ customers:
     # items loop
     - title: "Wipro"
       logo: "wipro"
+
+
+############################# Actions ###############################
+actions:
+  enable: true
+  title: "<% "{index-content.actions.title}" %>"
+  description: "<% "{index-content.actions.description_index}" %>"
+
+  items:
+    # items loop
+    - title: ".NET"
+      color: "blue"
+      link: "/metadata/net/"
+
+    # items loop
+    - title: "Java"
+      color: "red"
+      link: "/metadata/java/"
+
+    # items loop
+    - title: "Node.js"
+      color: "green"
+      link: "/metadata/nodejs-java/"   
+
+    # items loop
+    - title: "Python"
+      color: "yellow"
+      link: "/metadata/python-net/"    
+
+    # items loop
+    - title: "CLI"
+      color: "gray" 
+      link: "/metadata/cli-net/"
 
 
 ############################# FAQ ###############################

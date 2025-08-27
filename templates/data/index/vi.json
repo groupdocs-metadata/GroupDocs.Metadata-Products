@@ -717,5 +717,146 @@
     "code_samples_sample_1_content": "Sử dụng API {{ProdFullName}} để truy xuất [siêu dữ liệu tài liệu bên trong]({{Sample1Url}}):",
     "code_title_sample_2": "Ẩn thông tin doanh nghiệp trong tài liệu",
     "code_samples_sample_2_content": "Hãy sử dụng giải pháp của chúng tôi để [thêm siêu dữ liệu]({{Sample2Url}}) vào tài liệu của bạn:"
+  },
+  "index-content-cli-net": {
+    "head_title": "{{ProdCliShort}} để xuất, tìm, sao chép và xóa siêu dữ liệu",
+    "head_description": "{{ProdCliFull}} giúp bạn xuất, tìm kiếm, sao chép và xóa siêu dữ liệu từ tài liệu, hình ảnh, âm thanh và video. Quản lý siêu dữ liệu bằng các lệnh trong Command Prompt, PowerShell, Bash và các công cụ khác.",
+    "title": "Quản lý siêu dữ liệu với {{ProdCliFull}}",
+    "description": "Với {{ProdCliShort}} được cung cấp bởi {{ProdShortName}}, bạn có thể nhanh chóng đọc, xuất, sao chép và xóa siêu dữ liệu từ các định dạng tài liệu, hình ảnh và phương tiện phổ biến.",
+    "actions_main": "Tải xuống NuGet miễn phí",
+    "sample_top": {
+      "title": "Xuất siêu dữ liệu PDF sang JSON",
+      "comment_1": "Ví dụ về PowerShell:"
+    },
+    "overview_title": "Tổng quan về {{ProdCliFull}}",
+    "overview_description": "Một cái nhìn nhanh về những gì {{ProdCliFull}} có thể làm",
+    "overview_feature_1": {
+      "title": "Tích hợp CLI đa nền tảng",
+      "description": "{{ProdCliShort}} làm việc với API {{ProdFullName}} và chạy từ dòng lệnh trong PowerShell, Bash, Command Prompt và các công cụ khác. Nó cho phép bạn xem, chỉnh sửa, làm sạch, trích xuất, so sánh và xuất siêu dữ liệu trong tài liệu, hình ảnh và tệp phương tiện mà không cần phần mềm bổ sung."
+    },
+    "overview_feature_2": {
+      "title": "Hỗ trợ các loại siêu dữ liệu chính",
+      "description": "Với {{ProdCliFull}}, bạn có thể mở tệp, xem xét siêu dữ liệu của nó, thực hiện thay đổi và lưu lại. Nó hỗ trợ các tiêu chuẩn chính bao gồm siêu dữ liệu nội bộ, XMP, EXIF, IPTC, Khối tài nguyên hình ảnh, ID3 và các thẻ tùy chỉnh. Bạn cũng có thể so sánh siêu dữ liệu giữa hai tệp hoặc xuất nó sang Excel, CSV hoặc DataSet để báo cáo."
+    },
+    "overview_feature_3": {
+      "title": "Chạy trong bất kỳ môi trường nào",
+      "description": "{{ProdCliFull}} hoạt động ở bất kỳ đâu hỗ trợ {{EnvNameShort}}. Nó chạy với các ngôn ngữ khác nhau và có sẵn trên Windows, Linux và macOS nơi đã cài đặt các khung {{Mono}} hoặc {{EnvNameShort}} (bao gồm {{CoreNet}})."
+    },
+    "features": {
+      "title": "Điểm nổi bật của {{ProdFullName}}",
+      "description": "Quản lý siêu dữ liệu trong Office, PDF, hình ảnh, phương tiện và nhiều hơn nữa",
+      "feature_1": {
+        "title": "Truy cập siêu dữ liệu nội bộ & tùy chỉnh",
+        "content": "Làm việc với siêu dữ liệu tiêu chuẩn và thuộc tính tùy chỉnh giữa các tệp được hỗ trợ."
+      },
+      "feature_2": {
+        "title": "Chi tiết máy ảnh trong ảnh",
+        "content": "Xem chi tiết ảnh được lưu trữ trong siêu dữ liệu như thương hiệu máy ảnh, mẫu và độ phân giải."
+      },
+      "feature_3": {
+        "title": "Phát hiện hoặc xóa chữ ký số",
+        "content": "Tìm chữ ký số bên trong các tệp và xóa chúng nếu cần thiết."
+      },
+      "feature_4": {
+        "title": "Địa điểm ảnh",
+        "content": "Kiểm tra hoặc xóa dữ liệu vị trí GPS được nhúng trong siêu dữ liệu hình ảnh."
+      },
+      "feature_5": {
+        "title": "Tìm kiếm siêu dữ liệu",
+        "content": "Tìm kiếm qua các thuộc tính tệp và liệt kê bất kỳ loại siêu dữ liệu nào."
+      },
+      "feature_6": {
+        "title": "Bảo vệ tài liệu doanh nghiệp",
+        "content": "Làm sạch siêu dữ liệu và nhận xét ẩn khỏi các tệp và báo cáo doanh nghiệp."
+      },
+      "feature_7": {
+        "title": "Xem trước tài liệu",
+        "content": "Tạo xem trước hình ảnh cho các định dạng như EPUB, CAD, EML và MSG."
+      },
+      "feature_8": {
+        "title": "Hỗ trợ đa phương tiện Matroska",
+        "content": "Đọc phụ đề Matroska và trích xuất siêu dữ liệu âm thanh hoặc video."
+      },
+      "feature_9": {
+        "title": "Siêu dữ liệu lưu trữ & torrent",
+        "content": "Đọc và quản lý siêu dữ liệu trong các tệp lưu trữ như ZIP và tệp torrent."
+      },
+      "feature_10": {
+        "title": "Nhận diện loại tệp",
+        "content": "Phát hiện loại tệp hoặc luồng trước khi xử lý siêu dữ liệu."
+      },
+      "feature_11": {
+        "title": "So sánh siêu dữ liệu",
+        "content": "So sánh siêu dữ liệu từ các tệp khác nhau để tìm sự khác biệt và điểm tương đồng."
+      },
+      "feature_12": {
+        "title": "Giảm dữ liệu ẩn",
+        "content": "Xóa các dữ liệu ẩn không cần thiết khỏi tài liệu và hình ảnh."
+      },
+      "feature_13": {
+        "title": "Kiểm soát tệp Office",
+        "content": "Tìm và xóa siêu dữ liệu ẩn trong các tệp Word, Excel, PowerPoint và PDF."
+      },
+      "feature_14": {
+        "title": "Thay thế siêu dữ liệu",
+        "content": "Nhận danh sách các mục siêu dữ liệu và thay thế giá trị của chúng khi cần thiết."
+      },
+      "feature_15": {
+        "title": "Hỗ trợ hình ảnh TIFF",
+        "content": "Thêm, cập nhật hoặc xóa siêu dữ liệu IPTC trong các tệp TIFF."
+      },
+      "feature_16": {
+        "title": "Siêu dữ liệu Excel",
+        "content": "Trích xuất siêu dữ liệu từ các tệp Excel bắt đầu từ Excel 95."
+      },
+      "feature_17": {
+        "title": "Siêu dữ liệu PNG",
+        "content": "Đọc siêu dữ liệu văn bản được lưu trữ bên trong hình ảnh PNG."
+      },
+      "feature_18": {
+        "title": "Phát hiện loại MIME",
+        "content": "Xác định loại MIME của một tệp hoặc luồng ngay lập tức."
+      },
+      "feature_19": {
+        "title": "Hình thu nhỏ ảnh",
+        "content": "Lấy hình thu nhỏ và xem trước cho các định dạng tệp được hỗ trợ."
+      },
+      "feature_20": {
+        "title": "Bảo mật container Matroska",
+        "content": "Kiểm tra bảo vệ mật khẩu và siêu dữ liệu trong các tệp Matroska."
+      },
+      "feature_21": {
+        "title": "Khóa siêu dữ liệu nội bộ",
+        "content": "Sử dụng các khóa đã xác định để đọc siêu dữ liệu từ các định dạng được hỗ trợ."
+      },
+      "feature_22": {
+        "title": "Siêu dữ liệu hình ảnh EXIF",
+        "content": "Chỉnh sửa các thẻ EXIF trong các định dạng như WEBP, PNG và PSD."
+      },
+      "feature_23": {
+        "title": "Siêu dữ liệu email & phông chữ",
+        "content": "Đọc siêu dữ liệu từ email và tệp phông chữ OpenType."
+      },
+      "feature_24": {
+        "title": "Siêu dữ liệu đa phương tiện",
+        "content": "Trích xuất siêu dữ liệu XMP từ các tệp MOV, MP3 và WEBP."
+      }
+    },
+    "platforms_description": "{{ProdCliFull}} hoạt động trên nhiều hệ điều hành, khung và công cụ dòng lệnh:",
+    "formats_description": "{{ProdFullName}} hỗ trợ các [định dạng tệp]({{SupportedFormatsUrl}}).",
+    "code_samples_title": "Trường hợp sử dụng {{ProdCliShort}}",
+    "code_samples_description": "Ví dụ về các tác vụ phổ biến của {{ProdCliFull}}",
+    "sample_bottom_1": {
+      "title": "Tìm siêu dữ liệu ẩn",
+      "content": "Kiểm tra và xử lý siêu dữ liệu để kiểm soát nội dung tài liệu tốt hơn:",
+      "code_title": "Lấy siêu dữ liệu DOCX cụ thể bằng Bash",
+      "comment_1": "Lấy thuộc tính 'Author' từ một tệp DOCX"
+    },
+    "sample_bottom_2": {
+      "title": "Bảo vệ nội dung tài liệu",
+      "content": "Xóa siêu dữ liệu ẩn khỏi các tệp để giữ thông tin nhạy cảm an toàn:",
+      "code_title": "Xóa một thuộc tính hình ảnh cụ thể bằng Command Prompt Windows",
+      "comment_1": "Xóa thuộc tính JPEG 'CameraOwnerName'"
+    }
   }
 }

@@ -717,5 +717,146 @@
     "code_samples_sample_1_content": "使用 {{ProdFullName}} API 检索内部[文档元数据]({{Sample1Url}})：",
     "code_title_sample_2": "隐藏文档中的业务信息",
     "code_samples_sample_2_content": "使用我们的解决方案将元数据[添加元数据]({{Sample2Url}}) 到您的文档中："
+  },
+  "index-content-cli-net": {
+    "head_title": "{{ProdCliShort}} 用于导出、查找、复制和删除元数据",
+    "head_description": "{{ProdCliFull}} 帮助您从文档、图像、音频和视频文件中导出、搜索、复制和删除元数据。通过命令提示符、PowerShell、Bash和其他工具方便地控制元数据。",
+    "title": "使用 {{ProdCliFull}} 轻松处理元数据",
+    "description": "通过 {{ProdCliShort}} 以及 {{ProdShortName}}，您可以快速阅读、导出、复制和删除流行文档、图像及媒体格式中的元数据。",
+    "actions_main": "免费 NuGet 下载",
+    "sample_top": {
+      "title": "导出 PDF 元数据到 JSON",
+      "comment_1": "PowerShell 示例："
+    },
+    "overview_title": "{{ProdCliFull}} 概述",
+    "overview_description": "快速了解 {{ProdCliFull}} 的功能",
+    "overview_feature_1": {
+      "title": "跨平台 CLI 集成",
+      "description": "{{ProdCliShort}} 与 {{ProdFullName}} API 一起工作，并能够在 PowerShell、Bash、命令提示符等工具的命令行中运行。您可以查看、编辑、清理、提取、比较和导出文档、图像及媒体文件中的元数据，无需额外软件。"
+    },
+    "overview_feature_2": {
+      "title": "支持主要元数据类型",
+      "description": "使用 {{ProdCliFull}}，您可以打开文件，查看其元数据，进行更改并再次保存。它支持主要的标准，包括内置、XMP、EXIF、IPTC、图像资源块、ID3 和自定义标签。您还可以比较两个文件之间的元数据或将其导出到 Excel、CSV 或数据集以进行报告。"
+    },
+    "overview_feature_3": {
+      "title": "在任何环境中运行",
+      "description": "{{ProdCliFull}} 可在支持 {{EnvNameShort}} 的任何地方运行。它支持多种语言，并可在安装了 {{Mono}} 或 {{EnvNameShort}} 框架（包括 {{CoreNet}}）的 Windows、Linux 和 macOS 上使用。"
+    },
+    "features": {
+      "title": "{{ProdFullName}} 闪光点",
+      "description": "管理 Office、PDF、图像、多媒体等文件中的元数据",
+      "feature_1": {
+        "title": "访问内置和自定义元数据",
+        "content": "与支持文件中的标准元数据和自定义属性进行处理。"
+      },
+      "feature_2": {
+        "title": "照片中的相机详细信息",
+        "content": "查看存储在元数据中的照片细节，例如相机品牌、型号和分辨率。"
+      },
+      "feature_3": {
+        "title": "检测或移除数字签名",
+        "content": "查找文件内的数字签名，并在需要时将其移除。"
+      },
+      "feature_4": {
+        "title": "照片地理位置",
+        "content": "检查或移除嵌入图像元数据中的 GPS 位置信息。"
+      },
+      "feature_5": {
+        "title": "元数据搜索",
+        "content": "搜索文件属性并列出任何类型的元数据。"
+      },
+      "feature_6": {
+        "title": "保护商业文档",
+        "content": "从商业文件和报告中清理隐藏的元数据和评论。"
+      },
+      "feature_7": {
+        "title": "文档预览",
+        "content": "为 EPUB、CAD、EML 和 MSG 等格式生成图像预览。"
+      },
+      "feature_8": {
+        "title": "支持 Matroska 多媒体",
+        "content": "读取 Matroska 字幕并提取音频或视频元数据。"
+      },
+      "feature_9": {
+        "title": "归档与种子元数据",
+        "content": "读取和管理 ZIP 及种子文件等归档文件中的元数据。"
+      },
+      "feature_10": {
+        "title": "文件类型识别",
+        "content": "在处理元数据之前检测文件或流的类型。"
+      },
+      "feature_11": {
+        "title": "比较元数据",
+        "content": "比较不同文件的元数据以找出差异和相似性。"
+      },
+      "feature_12": {
+        "title": "减少隐藏数据",
+        "content": "从文档和图像中移除不必要的隐藏数据。"
+      },
+      "feature_13": {
+        "title": "控制 Office 文件",
+        "content": "查找并移除 Word、Excel、PowerPoint 和 PDF 文件中的隐藏元数据。"
+      },
+      "feature_14": {
+        "title": "替换元数据",
+        "content": "获取元数据条目列表，并在需要时替换其值。"
+      },
+      "feature_15": {
+        "title": "TIFF 图像支持",
+        "content": "在 TIFF 文件中添加、更新或删除 IPTC 元数据。"
+      },
+      "feature_16": {
+        "title": "Excel 元数据",
+        "content": "从 Excel 95 开始的 Excel 文件中提取元数据。"
+      },
+      "feature_17": {
+        "title": "PNG 元数据",
+        "content": "读取存储在 PNG 图像中的文本元数据。"
+      },
+      "feature_18": {
+        "title": "MIME 类型检测",
+        "content": "即时识别文件或流的 MIME 类型。"
+      },
+      "feature_19": {
+        "title": "图像缩略图",
+        "content": "检索支持文件格式的缩略图和预览。"
+      },
+      "feature_20": {
+        "title": "Matroska 容器安全性",
+        "content": "检查 Matroska 文件中的密码保护和元数据。"
+      },
+      "feature_21": {
+        "title": "内置元数据键",
+        "content": "使用定义的键从支持格式中读取元数据。"
+      },
+      "feature_22": {
+        "title": "EXIF 图像元数据",
+        "content": "编辑 WEBP、PNG 和 PSD 格式中的 EXIF 标签。"
+      },
+      "feature_23": {
+        "title": "电子邮件和字体元数据",
+        "content": "读取电子邮件和 OpenType 字体文件中的元数据。"
+      },
+      "feature_24": {
+        "title": "多媒体元数据",
+        "content": "从 MOV、MP3 和 WEBP 文件中提取 XMP 元数据。"
+      }
+    },
+    "platforms_description": "{{ProdCliFull}} 跨多种操作系统、框架和命令行工具支持使用：",
+    "formats_description": "{{ProdFullName}} 支持这些 [文件格式]({{SupportedFormatsUrl}})。",
+    "code_samples_title": "{{ProdCliShort}} 使用案例",
+    "code_samples_description": "常见 {{ProdCliFull}} 任务的示例",
+    "sample_bottom_1": {
+      "title": "查找隐藏的元数据",
+      "content": "检查和处理元数据以更好地控制文档内容：",
+      "code_title": "使用 Bash 获取特定 DOCX 元数据",
+      "comment_1": "从 DOCX 文件中检索 'Author' 属性"
+    },
+    "sample_bottom_2": {
+      "title": "保护文档内容",
+      "content": "从文件中移除隐藏的元数据以确保敏感信息的安全：",
+      "code_title": "使用 Windows 命令提示符清除特定图像属性",
+      "comment_1": "移除 JPEG 属性 'CameraOwnerName'"
+    }
   }
 }

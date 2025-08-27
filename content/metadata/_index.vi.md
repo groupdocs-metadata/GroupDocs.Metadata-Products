@@ -1,7 +1,7 @@
 ---
 ############################# Static ############################
 layout: "family"
-date:  2024-06-27T08:59:14
+date:  2025-08-27T11:24:41
 draft: false
 
 product: "Metadata"
@@ -146,6 +146,34 @@ supported_platforms:
             content: |
                     70+ file formats
 
+    # items loop
+    - title: "CLI .NET"
+      description: GroupDocs.Metadata CLI for .NET
+      color: "gray"
+      tag: "cli-net"
+      link: "/metadata/cli-net/"
+      features_link: "https://docs.groupdocs.com/metadata/net/system-requirements/"
+      features:
+          # features loop
+          - rows: "3"
+            content: |
+                    .NET Core 3.0 or higher <br> .NET 5.0 or higher <br> .NET Standard 2.1
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    Windows <br> Linux <br> Mac OS
+      
+          # features loop
+          - rows: "4"
+            content: |
+                    Command Prompt, Bash, PowerShell, etc.
+      
+          # features loop
+          - rows: "1"
+            content: |
+                    70+ file formats
+
 ############################# Features ###############################
 features:
   enable: true
@@ -178,106 +206,97 @@ code_samples:
   enable: true
   title: "Bảo vệ tài liệu bằng siêu dữ liệu"
   description: "GroupDocs.Metadata ví dụ về mã hoạt động điển hình."
-
   items:
-    # items loop
+    # code sample loop
     - title: "Xóa siêu dữ liệu không cần thiết khỏi hình ảnh và tài liệu"
-      content: "GroupDocs.Metadata giúp bạn dễ dàng xóa thông tin ẩn khỏi tệp và tài liệu của mình. Bạn có thể nhanh chóng xóa các chi tiết như thời gian và vị trí chụp ảnh hoặc xóa thông tin tác giả và người chỉnh sửa khỏi tài liệu Office."
+      content: |
+       GroupDocs.Metadata giúp bạn dễ dàng xóa thông tin ẩn khỏi tệp và tài liệu của mình. Bạn có thể nhanh chóng xóa các chi tiết như thời gian và vị trí chụp ảnh hoặc xóa thông tin tác giả và người chỉnh sửa khỏi tài liệu Office.
       samples:
-          # samples loop
-          - language: "C#"
-            color: "blue"
-            content: |
-                    <code class="language-csharp" data-lang="csharp">
-                        // Truyền đường dẫn tới tài liệu tới hàm tạo Metadata
+        - language: "C#"
+          color: "blue"
+          content: |
+            ```csharp {style=abap}  
+            // Truyền đường dẫn tới tài liệu tới hàm tạo Metadata
 
-                        using (Metadata metadata = new Metadata("source.docx"))
-                        {
-                            // Xóa các thuộc tính tài liệu được kết nối với người tạo và người chỉnh sửa
-                            var affected = metadata.RemoveProperties(
-                                p => p.Tags.Contains(Tags.Person.Creator) ||
-                                    p.Tags.Contains(Tags.Person.Editor));
+            using (Metadata metadata = new Metadata("source.docx"))
+            {
+                // Xóa các thuộc tính tài liệu được kết nối với người tạo và người chỉnh sửa
+                var affected = metadata.RemoveProperties(
+                    p => p.Tags.Contains(Tags.Person.Creator) ||
+                        p.Tags.Contains(Tags.Person.Editor));
 
-                            // Kết quả quá trình loại bỏ siêu dữ liệu
-                            Console.WriteLine("Properties removed: {0}", affected);
+                // Kết quả quá trình loại bỏ siêu dữ liệu
+                Console.WriteLine("Properties removed: {0}", affected);
 
-                            // Lưu tài liệu đã được làm sạch
-                            metadata.Save("result.docx");
-                        }                    
-                    </code>
+                // Lưu tài liệu đã được làm sạch
+                metadata.Save("result.docx");
+            }                    
+            ```
+        - language: "Java"
+          color: "red"
+          content: |
+            ```java {style=abap}   
+            // Truyền đường dẫn tới tài liệu tới hàm tạo Metadata
 
-          # samples loop
-          - language: "Java"
-            color: "red"
-            content: |
-                    <code class="language-java" data-lang="java">
-                        // Truyền đường dẫn tới tài liệu tới hàm tạo Metadata
+            try (Metadata metadata = new Metadata("source.docx"){
 
-                        try (Metadata metadata = new Metadata("source.docx"){
+                // Xóa các thuộc tính tài liệu được kết nối với người tạo và người chỉnh sửa
+                int affected = metadata.removeProperties(
+                    new ContainsTagSpecification(Tags.getPerson().getCreator()).or(
+                    new ContainsTagSpecification(Tags.getPerson().getEditor())));
 
-                            // Xóa các thuộc tính tài liệu được kết nối với người tạo và người chỉnh sửa
-                            int affected = metadata.removeProperties(
-                                new ContainsTagSpecification(Tags.getPerson().getCreator()).or(
-                                new ContainsTagSpecification(Tags.getPerson().getEditor())));
+                // Kết quả quá trình loại bỏ siêu dữ liệu
+                System.out.println(String.format("Properties removed: %s", affected));
 
-                            // Kết quả quá trình loại bỏ siêu dữ liệu
-                            System.out.println(String.format("Properties removed: %s", affected));
+                // Lưu tài liệu đã được làm sạch
+                metadata.save("result.docx");
+            }
+            ```
+        - language: "TypeScript"
+          color: "green"
+          content: |
+            ```javascript {style=abap}
+            // Truyền đường dẫn tới tài liệu tới hàm tạo Metadata
 
-                            // Lưu tài liệu đã được làm sạch
-                            metadata.save("result.docx");
-                        }
-
-                    </code>
-
-          # samples loop
-          - language: "TypeScript"
-            color: "green"
-            content: |
-                    <code class="language-java" data-lang="javascript">
-                        // Truyền đường dẫn tới tài liệu tới hàm tạo Metadata
-
-                        const metadata = new groupdocs.metadata.Metadata("source.docx");
+            const metadata = new groupdocs.metadata.Metadata("source.docx");
     
-                        // Xóa các thuộc tính tài liệu được kết nối với người tạo và người chỉnh sửa
-                        var affected = metadata.removeProperties(
-                            new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getCreator()).or(
-                            new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getEditor()))
-                            );
+            // Xóa các thuộc tính tài liệu được kết nối với người tạo và người chỉnh sửa
+            var affected = metadata.removeProperties(
+                new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getCreator()).or(
+                new groupdocs.metadata.ContainsTagSpecification(groupdocs.metadata.Tags.getPerson().getEditor()))
+                );
 
-                        // Kết quả quá trình loại bỏ siêu dữ liệu
-                        console.log('Properties removed: ${affected}');
+            // Kết quả quá trình loại bỏ siêu dữ liệu
+            console.log('Properties removed: ${affected}');
 
-                        // Lưu tài liệu đã được làm sạch
-                        metadata.save("result.docx");                        
-
-                    </code>
-
-          # samples loop
-          - language: "Python"
-            color: "yellow"
-            content: |
-                    <code class="python-net" data-lang="python">
-                        import groupdocs.metadata as gm
+            // Lưu tài liệu đã được làm sạch
+            metadata.save("result.docx");                        
+            ```
+        - language: "Python"
+          color: "yellow"
+          content: |
+            ```python {style=abap}
+            import groupdocs.metadata as gm
                         
-                        def run():
+            def run():
 
-                            # Truyền đường dẫn tới tài liệu tới hàm tạo Metadata
-                            with gm.Metadata("input.docx") as metadata:
+                # Truyền đường dẫn tới tài liệu tới hàm tạo Metadata
+                with gm.Metadata("input.docx") as metadata:
 
-                                # Xóa các thuộc tính tài liệu được kết nối với người tạo và người chỉnh sửa
-                                specification = gm.search.ContainsTagSpecification(gm.tagging.Tags.person.creator).
-                                    either(gm.search.ContainsTagSpecification(gm.tagging.Tags.person.editor)).
-                                    either(gm.search.OfTypeSpecification(gm.common.MetadataPropertyType.STRING).
-                                    both(gm.search.WithValueSpecification("John")))
-                                affected = metadata.remove_properties(specification)
+                # Xóa các thuộc tính tài liệu được kết nối với người tạo và người chỉnh sửa
+                specification = gm.search.ContainsTagSpecification(gm.tagging.Tags.person.creator).
+                    either(gm.search.ContainsTagSpecification(gm.tagging.Tags.person.editor)).
+                    either(gm.search.OfTypeSpecification(gm.common.MetadataPropertyType.STRING).
+                    both(gm.search.WithValueSpecification("John")))
 
-                                # Kết quả quá trình loại bỏ siêu dữ liệu
-                                print(f"Properties removed: {affected}")
+                affected = metadata.remove_properties(specification)
 
-                                # Lưu tài liệu đã được làm sạch
-                                metadata.save("output.docx")
+                # Kết quả quá trình loại bỏ siêu dữ liệu
+                print(f"Properties removed: {affected}")
 
-                    </code>
+                # Lưu tài liệu đã được làm sạch
+                metadata.save("output.docx")
+            ```
 
 ############################# Supported Formats ###############################
 formats:
@@ -386,7 +405,13 @@ actions:
     # items loop
     - title: "Python"
       color: "yellow"
-      link: "/metadata/python-net/"      
+      link: "/metadata/python-net/"    
+
+    # items loop
+    - title: "CLI"
+      color: "gray" 
+      link: "/metadata/cli-net/"
+
 
 ############################# FAQ ###############################
 faq:
